@@ -1,0 +1,655 @@
+From: owner-Games@monosys.com
+Subject: [RPG ARCHIVE] RPGs avaiable via Games-request@monosys.com
+Message-ID: <1996Oct17.222029.6613@monosys.com>
+Followup-To: owner-Games@monosys.com
+Sender: Operator <root@monosys.com>
+X-Maillist: Simple Perl Maillist Server [00.52]
+Organization: Monotype Systems Ltd, Salfords, Surrey, UK
+Date: Thu, 17 Oct 1996 22:20:29 GMT
+Path: news.polymtl.ca!feed.umontreal.ca!newsflash.concordia.ca!sunqbc.risq.net!news.total.net!enews.sgi.com!www.nntp.primenet.com!nntp.primenet.com!feed1.news.erols.com!howland.erols.net!EU.net!usenet2.news.uk.psi.net!uknet!usenet1.news.uk.psi.net!uknet!dispatch.news.demon.net!demon!mail2news.demon.co.uk!monosys.com!root
+Newsgroups: rec.games.frp.misc,rec.games.design,uk.games.misc,uk.games.roleplay
+X-NNTP-Posting-User: news@monosys.com
+X-Mail2News-Path: news.demon.net!relay-4.mail.demon.net!post.demon.co.uk!relay-3.mail.demon.net!msl.demon.co.uk!monosys.com
+Lines: 640
+Xref: news.polymtl.ca rec.games.frp.misc:79830 rec.games.design:11385
+
+Games at games-request@monosys.com
+==================================
+
+Version:         1.17
+Date-Time Stamp: 96/10/15 09:56:15
+
+To get an RPG
+-------------
+
+        send:
+
+        ------8<--------
+        To: Games-request@monosys.com
+        Subject: archive
+
+        READ <archive type> <options ...>
+        <Filename from below>
+        END
+        ------8<--------
+
+        and this will reply with a uuencoded file of the
+        requested <archive type>.
+
+        <archive type>
+        --------------------------------------------------
+        tar.gz                  unix tar then gzip
+        tar.Z                   unix tar then compress
+        tar.z                   unix tar then pack
+        zip                     pc & mac zip
+
+        <options>
+        --------------------------------------------------
+        -dos                    convert text files to PC format
+        -mac                    convent text files to Mac format
+        -split                  send replies split into 70kb messages
+        -mime                   (WARNING DOES NOT WORK YET)
+                                reply with a mime message using
+                                base64 instead of uuencode, warning
+                                this is currently untested.
+
+Currently Avaiable RPGs on 96/10/15
+----------------------------------
+
+        This is a Freeware/Shareware RPG email server.
+
+        * equals new this version
+        $ equal updated this version
+
+        Size kb Filename        What
+        -----------------------------------------------------------------
+
+        23      aa.txt          ANARCHA AUSTRALIS
+
+                                Type: RPG MINI SYSTEM WITH BACKGROUND
+                                Version: ?
+                                by ? (please email me if you know)
+
+        -----------------------------------------------------------------
+
+        45      arm.txt         ADVANCED ROLE-PLAYING MECHANICS
+
+                                Type: RPG SYSTEM
+                                version 1.2
+                                by R. E. Bridson
+
+        -----------------------------------------------------------------
+
+        148     be_01.mcw       Bloody Entrails
+        484     be_01.ps                
+        142     be_01.rtf       
+        156     be_01.pdf       
+
+                                Type: Man to Man Combat Game
+                                Version: 1 (?)
+                                by IGS (John Sasso <sasso@fct.com>
+                                & Martin Melhus <melhus@fdrc.iit.edu>
+ 
+                                I am working on a text version
+                                I hope to have them ready in a fue days
+
+        -----------------------------------------------------------------
+
+        512     castle5.exe     ViSiO floor plans stencil for 25mm figures
+
+                                Type: RPG DESIGN
+                                Version: 1.0
+                                by "John C. Brown" <john@clue.demon.co.uk>
+                                [THIS IS A PC ONLY BINARY]
+ 
+                                This is a self extracting achive which
+                                contains stencils for ViSiO 2.0 on
+                                MS-Windows {can't tell you any more
+                                as I don't have a PC or ViSiO}
+ 
+        1352    castle5.eps     CASTLE EPS
+
+                                The same floor plan tile images as 
+                                above, but this time in Plain
+                                ASCII EPS with no TIFF preview.
+                                You should be able to include
+                                these into nealy all drawing packages.
+ 
+                                If I have time I will add another 
+                                version with tiff previews but note
+                                that not all draw packages can handle
+                                the tiff preview.
+ 
+        -----------------------------------------------------------------
+
+        13      cmonstr.txt     COMBAT MONSTER
+
+                                Type: HACK AND SLAY SYSTEM
+                                Version: ?
+                                by Jeff Wiker
+
+        -----------------------------------------------------------------
+
+        11      core_12.txt     CHARACTER ORIENTED ROLEPLAYING ENGINE
+
+                                Type: RPG MINI SYSTEM
+                                Version: 1.2
+                                by dfn@ccwf.cc.utexas.edu (David F. Nalle)
+
+        -----------------------------------------------------------------
+
+        568     corpsnut.ps     CORPS IN A NUTSHELL
+
+                                Type: RPG SYSTEM
+                                Version: 3:13 PM Monday, November 21, 1994
+                                by BTRC
+                                [CORPS in a Nutshell by BTRC, provides
+                                enough to generate characters and run combats]
+
+        -----------------------------------------------------------------
+
+        249     cosmos12.txt    THE UNIVERSAL ROLE PLAYING SYSTEM
+
+                                Type: RPG SYSTEM
+                                Version: 1.2
+                                by <marsala@ix.netcom.com> or
+                                <morgoth@eris.cs.umb.edu> (SETH SELIGMAN)
+
+        -----------------------------------------------------------------
+
+        13      cran.txt        CRAN FANTASY
+
+                                Type: RPG SYSTEM
+                                27 May 92
+                                by Chris Harwood-Jones
+
+        -----------------------------------------------------------------
+
+        19      edeath04.txt    ELECTRIC DEATH BASIC RULES
+
+                                Type: 3D tactical space war game
+                                Version: 0.4
+                                by Isaac Kuo <isaackuo@ocf.berkeley.edu>
+ 
+        -----------------------------------------------------------------
+
+        784     dr_2.txt        DRAGON-RAID
+
+                                Type: RPG SYSTEM
+                                by Dick Wulf (contact jrblack@usa.net)
+                                Version: 2 May 1995
+                                A Fantasy RPG for Christian's
+                                (so the intro says)
+                                {Copyright with permission for non-
+                                profit making distribution.}
+
+        -----------------------------------------------------------------
+
+        186     dnet_a20.txt    DragonNet
+
+                                Another Net Developed FRPG
+                                Type: RPG SYSTEM
+                                Version: Alpha 2.0
+
+        -----------------------------------------------------------------
+
+        38      dorg_19.txt     DEATH OR GLORY
+
+                                Type: RPG SYSTEM
+                                A fantasy role-playing world rules
+                                Revision 1.9. of September 8, 1993
+                                by Alexander Trofimov
+
+        -----------------------------------------------------------------
+
+        248     esoldier.txt    ETERNAL SOLDIER
+
+                                Type: RPG SYSTEM
+                                Internet Demonstration Edition
+                                by Tai-Gear Simulations
+
+        -----------------------------------------------------------------
+
+        1273    ff_p1.txt       FORGOTTEN FUTURES I
+
+                                The A.B.C. Files
+                                {Kipling's Scientific Romances}
+                                by Marcus L. Rowland
+                                Type: RPG SYSTEM AND BACKGROUND
+                                [text files with gifs]
+                                (SHAREWARE)
+
+        2163    ff_p2.txt       FORGOTTEN FUTURES II
+
+                                The Log Of The Astronef
+                                {Griffith's "Stories Of Other Worlds"}
+                                Type: RPG SYSTEM AND BACKGROUND
+                                by Marcus L. Rowland
+                                [text files with gifs]
+                                (SHAREWARE)
+
+        2729    ff_p3.txt       FORGOTTEN FUTURES III
+
+                                George E. Challenger's Mysterious World
+                                {Sir Arthur Conan Doyle's "Prof Challenger"}
+                                by Marcus L. Rowland
+                                Type: RPG SYSTEM AND BACKGROUND
+                                [text files with gifs]
+                                (SHAREWARE)
+
+        1919    ff_p4.asc        FORGOTTEN FUTURES IV
+        1950    ff_p4.txt        The Carnacki Cylinders
+                                {William Hope Hodgson's Carnacki The
+                                    Ghost Finder}
+                                Type: RPG SYSTEM AND BACKGROUND
+                                by Marcus L. Rowland
+                                [very high quality with gifs]
+                                (SHAREWARE)
+
+        -----------------------------------------------------------------
+
+         480    fgwow.doc       FUDGE - WORLD OF WONDERS
+        1488    fgwow.ps
+         568    fgwow.txt
+         568    fgwow.mcw
+
+                                Version: 1.3 (10th May 1995)
+                                By Joseph Teller <teller@silvercaw.pn.com>
+                                Type: RPG SYSTEM AND BACKGROUND
+
+        -----------------------------------------------------------------
+
+        356     fudge95.txt     FREEFORM UNIVERSAL DO-IT-YOURSELF GAMING ENGINE
+
+                                Version: June, 1995
+                                by Steffan O'Sullivan <sos@io.com>
+                                Type: RPG SYSTEM
+
+        -----------------------------------------------------------------
+
+        7       game.txt        GREATLY ABBREVIATES MECHANICS, ETC.
+
+                                27 Aug 92
+                                Type: RPG SYSTEM
+                                by Eric C. Garrison
+
+        -----------------------------------------------------------------
+
+        13      ginzocs.txt     GINZO COMBAT SYSTEM
+
+                                2nd Dec 1994
+                                by Mark A. Ginzo, Jr.
+
+        -----------------------------------------------------------------
+
+        64      grim.txt        GRIM RULES
+
+                                Type: RPG SYSTEM
+                                Version 3.1
+                                by Samuel Joseph Robb
+
+        -----------------------------------------------------------------
+
+        96      gurpsd12.txt    3d12 GURPS
+
+                                Type: RPG MODIFICATION
+                                Sun, 13 Nov 1994
+                                by Leif Magnar Kj|nn|y
+
+        -----------------------------------------------------------------
+
+        14      gwnn.txt        THE GAME WITH NO NAME
+
+                                Type: RPG SYSTEM
+                                Release: 2
+                                Date: Sun, 02 Apr 1995 07:55:28 GMT
+                                by Justine Rogers <Justine@pepin.demon.co.uk>
+ 
+                                Release 2 add experience rules which
+                                where forgotten in Release 1.
+
+        -----------------------------------------------------------------
+
+        95      invasion.txt    FUDGE INVASION WORLD
+
+                                Type: RPG BACKGROUND
+                                Version: May 1, 1995
+                                by Russ Brown (brownr@mei.com)
+                                Fudge campaign based on ET invasion
+                                of Earth, comes with GM and Player
+                                sorcebooks.
+
+        -----------------------------------------------------------------
+
+        12      lca.txt         LIGHTS, CAMERA, ACTION!
+
+                                Type: RPG SYSTEM
+                                Version 1.0
+                                by Mikko Kauppinen
+
+        -----------------------------------------------------------------
+
+        57      mandm10.txt     MONSTERS & MAZES
+
+                                Type: Labyrinths board game
+                                Version: 1.0
+                                by JOHN GARWOOD <garwood@televar.com>
+                                (Public Domain)
+
+        -----------------------------------------------------------------
+
+        117     m2m_88.txt      MAGE 2 MAGE
+
+                                Type: MAGIC COMBAT SYSTEM
+                                Version 0.88
+                                by Robert M. Reimann
+
+        -----------------------------------------------------------------
+
+        57      msamv_b01.txt   MEAN STREETS AND MEAN VILLAINS
+
+                                Type: rpg rules
+                                Version: beta V0.1
+                                by Mark Baker <msamv@lange.demon.co.uk>
+                                (copyright with net distribute rights)
+                                RPG set in '70 and '80 Police and Detective
+                                series : where reality was forgotten in
+                                favour of fast action and high fashion.
+
+        -----------------------------------------------------------------
+
+        2276    mystic.dir      MYSTIC EARTH RPG
+
+                                Type: RPG SYSTEM
+                                2nd Edition
+                                By Joseph Teller <teller@silvercaw.pn.com>
+
+                                Contains a dos hypertext program called
+                                Dart and the game files are in dart
+                                format.  The game can be read as
+                                straight text with no problems.
+
+        -----------------------------------------------------------------
+
+        445     netplot.txt     NET.PLOTS.BOOK
+
+                                Type: RPG PLOTS
+                                {I,II,&III&IV}
+                                Compiled by Aaron Sher & Phil Scadden
+
+        -----------------------------------------------------------------
+
+        504     notes.txt       Various Notes On Things
+
+                                Type: RPG NOTES
+                                by I. Marc Carlson <IMC@VAX2.UTULSA.EDU>
+
+                        including topics on:
+
+                        16thCenBritSlang 19thCenBritSlang 3G3_READ
+                        CoC_Guns_by_Gaslight Creature_relations
+                        GODS_GrecoRoman Ghost_Types Gods_AncientArabia
+                        Gods_Celtic Gods_Cthulhu Gods_Demonic Gods_Persian
+                        Gods_README Gods_SumeroBabylonian Hero_Guns_by_Gaslight
+                        Historical_coins MagicBooks_1 MagicBooks_2
+                        Magic_Glossary PLOTS SecretSocieties_PossRel_1
+                        Time_Travel
+
+        -----------------------------------------------------------------
+
+        334     nuelow.txt      NUELOW RPG SYSTEM 
+
+                                Type: RPG SYSTEM AND BACKGROUNDS
+                                {rules:fairies,lustdust,duckqueen,horndogs,
+                                hominids,suplements:stomped,warhorse,artifact}
+                                by Steven Miller et al
+
+        -----------------------------------------------------------------
+
+        8       opigs.txt       ONE PAGE GAMING SYSTEM
+
+                                Type: RPG SYSTEM
+                                22 Jul 92
+                                by David Mar
+
+        -----------------------------------------------------------------
+
+        261     plus40.pdf      PLAYERS UTILITY SYSTEM (BASIC RULES)
+        88      plus40.rtf
+        157     plus40.txt
+ 
+                                Version 4.0 1996
+                                by Joseph Steven Coleman <talewind@dnai.com>
+                                Type: RPG SYSTEM
+                                {Copyright with free electronic
+                                distrubution rights}
+ 
+                                Note these are directories not files.
+ 
+                                For the PDF you will nead one of the
+                                free readers for PDF like Acrobat from
+                                Adobe. Acrobat can also format the
+                                PDF to be output to a Postscript printer.
+ 
+        -----------------------------------------------------------------
+$
+$       55      psi.txt         PSI RPG SET IN K.KERR'S DEVERRY SAGA
+$
+$                               Type: RPG SYSTEM
+$                               Version: 2 Oct 96
+$                               by Phil Scadden <MDLCPGS@LHN.DSIR.GOVT.NZ>
+$
+$                               All Deverry material copyright Katharine Kerr,
+$                               used by permission of Katharine Kerr.
+
+        -----------------------------------------------------------------
+
+        39      puppet11.txt    PUPPETLAND STORYTELLING GAME
+
+                                Type: Simple RPG
+                                Version 1.1 (alpha)
+                                by rev@halcyon.com (John Tynes)
+                                (Copyright with but freely distributable)
+
+        -----------------------------------------------------------------
+
+        1543    qrpg_2.html     QUEST RPG
+        7568    qrpg_2.ps
+        3992    qrpg_2.rtf
+        5449    qrpg_2.pdf
+
+                                Type: RPG SYSTEM
+                                Version: 2
+                                by Gene Masters and Todd Richmon
+                                <trichmon@students.wisc.edu>
+                                (SHAREWARE)
+
+        -----------------------------------------------------------------
+
+        160     ringwldr.txt    RINGWIELDER
+
+                                Type: RPG SYSTEM
+                                Version 1.2
+                                by Dennis Drew
+                                (TRY-THEN-BUY-WARE)
+
+        -----------------------------------------------------------------
+
+        204     rofa_18.txt     REALM OF ADVENTURE
+
+                                Type: RPG SYSTEM
+                                Shareware Version 1.8
+                                Copyright 1989 - 1995 Impact Games
+                                (Shareware for no cost?)
+
+        -----------------------------------------------------------------
+
+        18      rolf.txt        THE ROLLPLAYING GAME OF BIG DUMB FIGHTERS
+
+                                Type: MINI RPG SYSTEM
+                                Version: Aug 1995
+                                by golemgirrl@aol.com (L.L. Hundal)
+
+        -----------------------------------------------------------------
+
+        29      skool_rl.doc    THE SKOOL RULES
+        20      skool_rl.txt    
+
+                                Version: 2nd Editon (Jan 1995)
+                                Type: RPG SYSTEM
+                                by Phil Masters <Phil@philm.demon.co.uk>
+
+        -----------------------------------------------------------------
+
+        7       slug.txt        SIMPLE, LAID-BACK UNIVERSAL GAME
+
+                                Type: RPG SYSTEM
+                                by Steffan O'Sullivan <sos@io.com>
+
+        -----------------------------------------------------------------
+
+        1146    sord525.txt     THE SYSTEM Of ROLE DEVELOPMENT
+                                Type: RPG SYSTEM and two backgroungs
+                                5th Edition - Version 5.25
+                                by Scott J. Compton
+                                <galahad@leland.stanford.edu>
+                                (Copyrighted with permision to distrubute
+                                electronical for no profit)
+ 
+                                This version has the new Quasar
+                                SF background
+
+        -----------------------------------------------------------------
+
+        79      soups.txt       SKILL ORIENTED UNIVERSAL PLAYING SYSTEM
+
+                                Type: RPG SYSTEM
+                                Version 1.08
+                                by Mike Epstein
+
+        -----------------------------------------------------------------
+
+        11      struggle.txt    SOVEREIGN STRUGGLE
+
+                                Type: RPG BACKGROUND
+                                A scenario For FUDGE with some
+                                new races and beasts
+                                Version: 1.00 - 22nd Feb 1995
+                                by John S. Muller <john@peri.com>
+                                (Copyrighted with permision to distrubute
+                                for no profit)
+
+        -----------------------------------------------------------------
+
+        200     sysone.txt      SYSTEM ONE
+
+                                Type: RPG SYSTEM
+                                Generic Role Playing System
+                                Version: October 31st, 1992
+                                by Paul Clegg
+                                (SHAREWARE)
+
+        -----------------------------------------------------------------
+         833    timelord.pdf    A Doctor Who role-playing game
+        2187    timelord.ps     
+
+                                Type: RPG SYSTEM AND BACKGROUND
+
+                                This is the out of print Dr Who RPG book
+                                originally published by Virgin Publishing
+                                in 1991 (ISBN 0426 203623),
+                                by Ian Marsh <orun@cygnet.co.uk>
+                                    and Peter Darvill-Evans
+
+                                (Copyrighted with permision to distrubute
+                                electronical for no profit, see read.me)
+                                (Doctor Who is also Copyright 1963, 1996 BBC.)
+
+        -----------------------------------------------------------------
+
+        170     vvr30.txt       VIRTUAL VIRTUAL REALITY ROLE PLAYING GAME
+
+                                Type: RPG for bbs
+                                Version: 3.0
+                                by JOHN GARWOOD <garwood@televar.com>
+                                (permission given for monosys.com to 
+                                distribute via an electronic medium)
+
+        -----------------------------------------------------------------
+
+        73      war.txt         A COMBAT ORIENTED SF RPG
+
+                                Type: RPG SYSTEM
+                                Version 1.3
+                                by Mikko Kauppinen
+
+        -----------------------------------------------------------------
+
+        25      yarps.txt       YET ANOTHER ROLE PLAYING SYSTEM
+
+                                Type: MINI RPG SYSTEM
+                                Version 1.0
+                                by David Allan Finch <sarum@monosys.com>
+
+        -----------------------------------------------------------------
+
+        41      ysgarth.txt     YSGARTH MINIRULES
+
+                                Type: RPG SYSTEM
+                                Version 5.0 - Expanded Version
+                                by David Nalle <dfn@ccwf.cc.utexas.edu>
+
+        -----------------------------------------------------------------
+
+File or Directory Types and Extentions
+--------------------------------------
+
+        *.dir   means that it is a directory contain random
+                file types
+
+        *.txt   is a file or directory with plain text file, with
+                lines no longer that 78 characters.
+ 
+        *.asc   is a wordprocessor like text file
+                ie newlines only at paragraphs
+
+        *.htm   is a World Wide Web page or directory of
+                World Wide Web pages
+
+        *.doc   is a Microsoft Word Document or a directory
+                of Microsoft Word Documents
+
+        *.mcw   is a Microsoft Word for Mac Document or
+                a directory of Microsoft Word for Mac 
+
+        *.ps    is a Postscript File or a directory that contains
+                Postscript Files
+
+        *.pdf   is a file or directory in the new Adobe
+                replacement for Postscript. It is not
+                compatible with Postscript, so you will nead
+                a pdf converter or reader like Acrobat
+
+Important Note
+--------------
+
+        This email server is run by David Allan Finch
+        <sarum@monosys.com> or <sarum@vger.demon.co.uk>
+        for the Internet community using Monotype Systems Ltd
+        Hardware.  Neither Monotype Systems Ltd noor any other of
+        the IPA Group or there officers are responcable
+        for the contents or management of this server.
+        Any problems should be reported directly to
+        David Allan Finch.
+
+        This email server does its best not to distrubute
+        incorrectly marked or copyrighted information or works.
+        All authors are assumed to have gone thought
+        the correct procedures before submitting there works
+        for distrubution on the Internet, unforcantly
+        it is dificult to check on such things. I 
+        would be grateful if you think your rights have
+        been violated that you inform me so I can
+        removed or correct them as approprate.
+        
+        David Allan Finch, England, EU - 7th Oct 1996

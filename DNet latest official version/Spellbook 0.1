@@ -1,0 +1,676 @@
+All spell TDs calculated using version 8.01 of the spell creation tables.
+
+================
+Elemental spells
+================
+
+Spell: Wizards Flight
+Source: Elemental Power of Energy
+Conductor: Air Elemental Focus
+Source TD: 12
+Conductor TD: 5
+Fatigue: 3
+Casting time: 1 round (5 seconds)
+Duration: 15 Minutes
+Range: 40 Meters
+Resisting TD: 0
+
+> I reduced the range of the spell as the rules spell effects no longer
+> fade if target gets out of range.
+
+This spell allows a mage to lift and move as he wishes an object or
+being of up to 90kg during 15 minutes. The mage always controls the
+movement, which is limited to a maximum speed of 6 meters per round (1
+m/s) with a fair maneuverability (90 degrees turn in a round). If the
+caster is also the target of the spell, he controls his own movement.
+
+An initial AGI resistance roll against TD 0 is allowed to negate the
+effects of the spell. This roll is not required in the case of a
+willing or inanimate target.
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (40m)                          +5                   +5
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (movement) +1                   +1
+ System Type (solid body)            +3                   +3
+ System Function (none)               0                    0
+Difficulty of resisting spell                              0
+Direct application of source          +5 (collateral)
+Direct application of conductor              (collateral) +5
+------------------------------------------------------------------
+Infrastructure Cost                  +4                   +4
+------------------------------------------------------------------
+Intensity of the effects              -                    -
+  INJURY Points Healed                -                    -
+  Damage                              -
+  Mass of target(s) (90kg)           +8
+  Speed of induced movement (6m/rnd) +4
+  Maneuverability (90 deg/rnd)                            +2
+------------------------------------------------------------------
+Intensity Costs                     +12                   +2
+------------------------------------------------------------------
+Nb Targets                           x1                   x1
+Area of effect                       x
+Duration                             x2/3                 x2/3
+------------------------------------------------------------------
+Extent Cost                          x2/3                 x2/3
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)         +12                   +5
+------------------------------------------------------------------
+
+Spell: Free Flight
+Source: Elemental Power of Energy
+Conductor: Air Elemental Focus
+Source TD: 14
+Conductor TD: 15
+Fatigue: 3
+Casting time: 3 rounds (15 seconds)
+Duration: 15 Minutes
+Range: 40 Meters
+Resisting TD: 0
+
+> [almost the same as Wizards flight, except that another being can
+>  control the movement]
+
+This spell allows the mage or another intelligent being to lift and
+move an object or being of up to 90kg during 15 minutes. The mage must
+touch the controller of the movement during the casting. If the
+controller of the movement is also the target of the spell, then this
+being can fly with full control over his direction and speed. Of
+course, the mage must tell to the target which mechanism he sets up
+for him to control the spell. This mechanism can involve movement,
+words, simple thoughts, etc.
+
+The movement is limited to a maximum speed of 6 meters per round (1
+m/s) with a fair maneuverability (90 degrees turn in a round). An
+initial AGI resistance roll against TD 0 is allowed to negate the
+effects of the spell. This roll is not required in the case of a
+willing or inanimate target.
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (40m)                          +5                   +5
+Activation                            -                    -
+Control transfer                     +7                  +15
+Control transfer range               -5                   -5
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (movement) +1                   +1
+ System Type (solid body)            +3                   +3
+ System Function (none)               0                    0
+Difficulty of resisting spell                              0
+Direct application of source          +5 (collateral)
+Direct application of conductor              (collateral) +5
+------------------------------------------------------------------
+Infrastructure Cost                  +6                  +14
+------------------------------------------------------------------
+Intensity of the effects              -                    -
+  INJURY Points Healed                -                    -
+  Damage                              -
+  Mass of target(s) (90kg)           +8
+  Speed of induced movement (6m/rnd) +4
+  Maneuverability (90 deg/rnd)                            +2
+------------------------------------------------------------------
+Intensity Costs                     +12                   +2
+------------------------------------------------------------------
+Nb Targets                           x1                   x1
+Area of effect                       x
+Duration                             x2/3                 x2/3
+------------------------------------------------------------------
+Extent Cost                          x2/3                 x2/3
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)         +14                  +15
+------------------------------------------------------------------
+
+
+Spell: Blizzard
+Source: Elemental Power of Energy
+Conductor: Water Elemental Focus
+Source TD: 30
+Conductor TD: 9
+Fatigue: 6
+Casting time: 2 rounds (9 seconds)
+Duration: 1 Minute
+Range: 70 Meters
+Precision of Area: 5 Meters
+Volume of Effect: 45 Meters radius
+Resisting TD: 5 vs AGI
+DAMAGE Dealt: 4 per round
+INJURY Healed: N/A
+
+> I changed the Direct Application of the Conductor from Remote
+> to collateral: snow is frozen water. There is also wind, but
+> the biggest part of the spell is the snow. (this could make
+> a nice multiconductor spell.)
+> I also feel that the source could even be Direct, since the
+> spell is about creation. (Norman, your comments?)
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (70m)                          +7                   +7
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center (5 meters)                       -6
+Complexity of the spell
+ Complexity of the action (creation) +5                   +5
+ System Type (snow = solid)          +3                   +3
+ System Function (inanimate)          0                    0
+Difficulty of resisting spell (TD=5)                      +5
+Direct application of source         +5 (collateral)
+Direct application of conductor              (collateral) +5
+------------------------------------------------------------------
+Infrastructure Cost                 +10                   +9
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity                   -                    -
+  INJURY Healed                       -                    -
+  Damage (avg=4/round)               +2
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                      +2                    0
+------------------------------------------------------------------
+Nb Targets                           x                    x
+Area of effect (45 meters radius)    x4
+Duration (1 min)                     x2.5                 x2.5
+------------------------------------------------------------------
+Extent Cost                          x10                  x2.5
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)         +30                   +9
+------------------------------------------------------------------
+
+Spell: Fireball
+Source: Elemental Power of Energy
+Conductor: Fire Elemental Focus
+Source TD: 13
+Conductor TD: 5
+Fatigue: 3
+Casting time: 1 round (5 seconds)
+Duration: 1 round
+Range: 40 Meters
+Precision of Area: 1 Meter
+Volume of Effect: 10 Meters radius
+Resisting TD: 5 vs AGI
+DAMAGE Dealt: 12 (or 3d6+1)
+
+> Norman, I changed the application of the source from Collateral to
+> direct, since the spell is about creation. Is this OK?
+> I also raised the damage a bit
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (40m)                          +5                   +5
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center (1 meter)                         0
+Complexity of the spell
+ Complexity of the action (creation) +5                   +5
+ System Type (fire)                  +1                   +1
+ System Function (inanimate)          0                    0
+Difficulty of resisting spell (TD=5)                      +5
+Direct application of source         +0 (direct)
+Direct application of conductor                  (direct) +0
+------------------------------------------------------------------
+Infrastructure Cost                  +1                   +6
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity                   -                    -
+  INJURY Healed                       -                    -
+  Damage (avg=12)                    +6
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                      +6                    0
+------------------------------------------------------------------
+Nb Targets                           x                    x
+Area of effect (10 meters radius)    x2
+Duration (1 min)                     x1                   x1
+------------------------------------------------------------------
+Extent Cost                          x2                   x1
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)         +13                   +6
+------------------------------------------------------------------
+
+================
+Celestial spells
+================
+
+Spell: Read Thoughts
+Source: Kundalini
+Conductor: Mind Chackra
+Source TD: 5
+Conductor TD: 5
+Fatigue: 1
+Casting time: 1 rounds (5 seconds)
+Duration: 8 Minutes
+Range: 10 Meters
+Resisting TD: 0 vs WIL
+
+Description:  This spell permits the caster to read the surface
+thoughts of a target.
+
+> I left the Conductor as Collateral since the Mind Chakra description
+> was written with multiconductor rules in mind. We might have to
+> change this however.
+> I also extended the duration a bit, as the cost was the same for
+> 4 mins and 8 mins with the new duration table.
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range  (10 meters)                    0                    0
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (Mild)     +1                   +1
+ System Type (Animal/animated)       +5                   +5
+ System Function  (Mind)             +2                   +2
+Difficulty of resisting spell                              0
+Direct application of source         +5 (Collateral)
+Direct application of conductor              (Collateral) +5
+------------------------------------------------------------------
+Infrastructure Cost                  +3                   +3
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity (Mild)           +2                   +2
+  INJURY Healed                       -                    -
+  Damage                              -
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                      +2                   +2
+------------------------------------------------------------------
+Nb Targets (1)                       x1                   x1
+Area of effect                       x
+Duration (8 mins)                    x1                   x1
+------------------------------------------------------------------
+Extent Cost                          x1                   x1
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)          +5                   +5
+------------------------------------------------------------------
+
+Spell: Mage Bolt
+Source: Celestial Power of Daylight
+Conductor: Light Celestial Focus
+Source TD: 5
+Conductor TD: 1
+Fatigue: 1
+Casting time: 1 round (1 sec)
+Duration: 1 round
+Range: 40 Meters
+Resisting TD: 0 vs AGI
+DAMAGE Dealt: 8 (or 2d6+1)
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range  (40 meters)                   +5                   +5
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (creation) +5                   +5
+ System Type (energy)                +1                   +1
+ System Function                      -                    -
+Difficulty of resisting spell                              0
+Direct application of source         +0 (direct)
+Direct application of conductor                  (direct) +0
+------------------------------------------------------------------
+Infrastructure Cost                  +1                   +1
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity (Mild)            -                    -
+  INJURY Healed                       -                    -
+  Damage (8)                         +4
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                      +5                   +1
+------------------------------------------------------------------
+Nb Targets (1)                       x1                   x1
+Area of effect                       x
+Duration (1 rnd)                     x1                   x1
+------------------------------------------------------------------
+Extent Cost                          x1                   x1
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)          +5                   +1
+------------------------------------------------------------------
+
+Spell: Minor Healing
+Source: Celestial Power of Daylight
+Conductor: Sun Celestial Focus
+Source TD: 4
+Conductor TD: 4
+Fatigue: 1
+Casting time: 1 round (4 seconds)
+Duration: 1 Round
+Range: Touch
+Resisting TD: 0
+INJURY Healed: 10
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (Touch)                        -5                   -5
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (healing)  +3                   +3
+ System Type (animal)                +5                   +5
+ System Function (metabolism)        +1                   +1
+Difficulty of resisting spell                              0
+Direct application of source         +0 (direct)
+Direct application of conductor                  (direct) +0
+------------------------------------------------------------------
+Infrastructure Cost                  -6                   -6
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity                   -                    -
+  INJURY Healed (10)                +10                  +10
+  Damage                              -
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                     +10                  +10
+------------------------------------------------------------------
+Nb Targets (1)                       x1                   x1
+Area of effect                       x
+Duration (1 rnd)                     x1                   x1
+------------------------------------------------------------------
+Extent Cost                          x1                   x1
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)          +4                   +4
+------------------------------------------------------------------
+
+Spell: Resurrection
+Source: Celestial Power of Daylight
+Conductor: Sun Celestial Focus
+Source TD: 43
+Conductor TD: 43
+Fatigue: 9
+Casting time: 7 rounds (43 seconds)
+Duration: 1 Round
+Range: Touch
+Precision of Area: N/A
+Volume of Effect: N/A
+Resisting TD: 0 vs PSY
+DAMAGE Dealt: N/A
+INJURY Healed: N/A
+
++ Brings back the soul into the body and restarts the metabolism and 
++ the mind. The target must still make survival checks to see if he stays
++ alive and conscious.
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (Touch)                        -5                   -5
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (godly)   +25                  +25
+ System Type (animal)                +5                   +5
+ System Function (all)               +8                   +8
+Difficulty of resisting spell                              0
+Direct application of source         +0 (Collateral)
+Direct application of conductor                  (Direct) +0
+------------------------------------------------------------------
+Infrastructure Cost                 +23                  +23
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity (Overwhelming)  +20                  +20
+  INJURY Healed                       -                    -
+  Damage                              -
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                     +20                  +20
+------------------------------------------------------------------
+Nb Targets (1)                       x1                   x1
+Area of effect                       x
+Duration (1 rnd)                     x1                   x1
+------------------------------------------------------------------
+Extent Cost                          x1                   x1
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)         +43                  +43
+------------------------------------------------------------------
+
+Spell: Slow
+Source: Celestial Power of Darkness
+Conductor: Comet Celestial Focus
+Source TD: 8
+Conductor TD: 3
+Fatigue: 2
+Casting time: 1 rounds (3 seconds)
+Duration: 8 Minutes
+Range: 30 Meters
+Resisting TD: 5 vs. Running (or STR)
+
+Description: The Slow spell will slow a target's movement
+by 25m/round unless they make a Running check versus TD=5
+(if they succeed they are only slowed by 12.5 m/round, a
+critical success negates the spell).
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (30 meters)                    +4                   +4
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (mild)     +1                   +1
+ System Type (solid)                 +3                   +3
+ System Function (none)               -                    -
+Difficulty of resisting spell                             +5
+Direct application of source         +0 (Direct)
+Direct application of conductor                  (Direct) +0
+------------------------------------------------------------------
+Infrastructure Cost                  -2                   +3
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity                   -                    -
+  INJURY Healed                       -                    -
+  Damage                              -
+  Mass of target(s) (160kg)         +10
+  Speed of induced movement (25m/rd) +9
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                     +19                   +0
+------------------------------------------------------------------
+Nb Targets (1)                       x1                   x1
+Area of effect                       x
+Duration (8 mins)                    x1/2                 x1/2
+------------------------------------------------------------------
+Extent Cost                          x1/2                 x1/2
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)          +8                   +3
+------------------------------------------------------------------
+
+Spell: Teleport
+Source: Celestial Power of Daylight
+Conductor: Comet Celestial Focus
+Source TD: 22
+Conductor TD: 10
+Fatigue: 5
+Casting time: 2 rounds (10 seconds)
+Duration: 1 Round
+Range: 500 Meters
+Resisting TD: -5 vs ???
+
+> I changed the Resisting TD to -5, since the target should be willing
+> I removed the precision of area center, since it is not an area of
+> effect spell.
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range (500 meters)                  +14                  +14
+Activation                            -                    -
+Control transfer                      -                    -
+Control transfer range                -                    -
+Precision of area center                                   -
+Complexity of the spell
+ Complexity of the action (moderate) +3                   +3
+ System Type (solid)                 +3                   +3
+ System Function (none)               -                    -
+Difficulty of resisting spell                             -5
+Direct application of source         +5 (Collateral)
+Direct application of conductor              (Collateral) +5
+------------------------------------------------------------------
+Infrastructure Cost                 +15                  +10
+------------------------------------------------------------------
+Intensity of the effects
+  General Intensity                   -                    -
+  INJURY Healed                       -                    -
+  Damage                              -
+  Mass of target(s) (160kg)         +10
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
+Intensity Costs                     +10                   +0
+------------------------------------------------------------------
+Nb Targets (4)                       x3                   x3
+Area of effect                       x
+Duration (1 rnd; complexity = 6)     x2/9                 x2/9
+------------------------------------------------------------------
+Extent Cost                          x2/3                 x2/3
+------------------------------------------------------------------
+Total: Infrastructure + 
+       (Intensity x Extent)         +22                   +10
+------------------------------------------------------------------
+
+Spell: Blink
+Source: Celestial Power of Daylight
+Conductor: Comet Celestial Focus
+Source TD: 3
+Conductor TD: 8
+Fatigue: 2
+Casting time: 2 rounds
+Duration: 1 Round
+Range: 20 Meter
+Precision of Area: 10cm
+Resisting TD: 0
+
+Source TD   Conductor TD   Description
+---------   ------------   ----------------------
+-10         -10            Base TD
+ +2          +2            Range = 20 Meters
+N/A          +8            Precision of area center = 10cm
+ +3          +3            Action Complexity = Moderate
+  0           0            System Type = N/A
+  0           0            System Status = N/A
+N/A           0            Resisting TD = 0
+ +5         N/A            Application of Source = Collateral
+N/A          +5            Application of Conductor = Collateral
+---         ---            -------------------------
+  0          +8            (Infrastructure Subtotal)
+
+  0           0            General Intensity = N/A
+  0           0            INJURY Healed = N/A
+  0         N/A            Average DAMAGE = N/A
++12         N/A            Mass per target = 140kg
+  0         N/A            Speed = N/A
+N/A           0            Manueverability = N/A
+---         ---            --------------------
++12           0            (Intensity Subtotal)
+
+  0         N/A            Area of Effect = N/A
+ x1          x1            Number of Targets = 1
+x1/4        x1/4           Duration (Complexity = 3) = 1 Round
+---         ---            -----------------
+x1/4        x1/4           (Extent Subtotal)
+
+===         ===            =================
+ +3          +8            TD (Infrastructure + Intensity * Extent)
+
+
+Spell: Gateway
+Source: Celestial Power of Daylight
+Conductor: Comet Celestial Focus
+Source TD: 15
+Conductor TD: 19
+Fatigue: 4
+Casting time: 4 rounds
+Duration: 5 Rounds
+Range: 500 Meters
+Precision of Area: 25cm
+Volume of Effect: 10x5x5 cube 
+Resisting TD: 0
+
+Source TD   Conductor TD   Description
+---------   ------------   ----------------------
+-10         -10            Base TD
++14         +14            Range = 500 Meters
+N/A          +5            Precision of area center = 25cm
+ +3          +3            Action Complexity = Moderate
+  0           0            System Type = N/A
+  0           0            System Status = N/A
+N/A           0            Resisting TD = 0
+ +5         N/A            Application of Source = Collateral
+N/A          +5            Application of Conductor = Collateral
+---         ---            -------------------------
++12         +17            (Infrastructure Subtotal)
+
+ +8          +8            General Intensity = Moderate/High
+  0           0            INJURY Healed = N/A
+  0         N/A            Average DAMAGE = N/A
+  0         N/A            Mass per target = N/A
+  0         N/A            Speed = N/A
+N/A           0            Manueverability = N/A
+---         ---            --------------------
+ +8          +8            (Intensity Subtotal)
+
+x3/2        N/A            Area of Effect = 10x5x5 meter cube
+ x1          x1            Number of Targets = N/A
+x1/4        x1/4           Duration (Complexity = 3) = 5 rounds
+---         ---            -----------------
+x3/8        x1/4           (Extent Subtotal)
+
+===         ===            =================
++15         +19            TD (Infrastructure + Intensity * Extent)
+

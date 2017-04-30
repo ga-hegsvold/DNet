@@ -1,0 +1,25 @@
+<sect1><title>Composite Task Resolution</title>
+<para>
+There is a TD for the Task as a whole. A roll is made at an effective
+Skill equal to the highest Skill minus one for each additional Skill which
+are involved in the Task against that TD.
+</para>
+
+<para>
+If the roll succeeds, the Task succeeds. If the roll fails, the Task fails.
+</para>
+
+<para>
+Composite Task Resolution Formula:
+</para>
+
+<para>
+<literal>
+d10-d10* + Skill - (N-1) &gt;= TD
+</literal>
+</para>
+
+<para>
+where <literal>N</literal> is the number of Skills involved in the Task.
+</para>
+</sect1>

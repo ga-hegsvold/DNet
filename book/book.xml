@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Creation Guides (Cities/Countries/..., Species, Cultures, Careers?, Herbs, Poisons,...)
+Master Species List
+Master Culture List
+Master Career List
+Master Skill List
+Master Equipment List
+Templates (Cities/Countries/..., Species, Cultures, Careers?, Characters, Herbs, Poisons,...)
+-->
+
+<book
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  version="5.0"
+  xml:base=".">
+
+<!--
+-->
+<xi:include href="bookinfo/bookinfo.xml" />
+<xi:include href="chapter1/introduction.xml" />
+<xi:include href="chapter2/dice.xml" />
+<xi:include href="chapter3/character_creation.xml" />
+<xi:include href="chapter4/tasks.xml" />
+<xi:include href="chapter5/general_rules.xml" />
+<xi:include href="chapter6/combat.xml" />
+<xi:include href="chapter7/magic.xml" />
+<xi:include href="chapter8/miscellany.xml" />
+<xi:include href="chapter9/master_lists.xml" />
+<xi:include href="chapter10/templates.xml" />
+<!--
+-->
+
+</book>

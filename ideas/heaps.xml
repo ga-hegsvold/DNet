@@ -1,0 +1,35 @@
+<sect1>
+<title>New Heaps</title>
+<screen>
+Insanity
+Reputation (could also be a Background)
+Taint
+</screen>
+
+<para>
+Purpose of Reputation:
+- Can work as a plot hook by letting NPCs have knowledge of the character's deeds and seek him out for a job.
+- Characters can be reconized on the streets - for better or for worse. Potential plot hook.
+
+Should reputation be a binary scale? Ex: balancing between Fame and Infamy.
+Or should it simply be a measure of how known the character is - regardless
+of how "positive" or "negative" this would be?
+</para>
+
+<para>
+Purpose of Insanity:
+Some places and situations will seriously affect a character's state of sanity.
+(Ex: The howling winds of Pandemonium). The Insanity heap could be a measure
+of a character's current state of mental health. The more a character is
+exposed to dementing situations the higher the heap will be.
+
+How to decrease the heap? I.e. how to get rid of insanity?
+Checks involving Will Power and maybe Psyche.
+</para>
+
+<para>
+Porpose of Taint:
+</para>
+
+</sect1>
+

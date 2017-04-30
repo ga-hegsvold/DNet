@@ -1,0 +1,73 @@
+*****************************************************************************
+Combat outline rev 2
+--------------------
+
+- Overview
+  - The basic premises
+    - Combat is divided into rounds
+    - Rounds are "atomic" -- all combatants get to attack and defend in a
+      round, who attacks first is unimportant
+    - Each attack/defense confrontation represents an exchange of blows
+
+    - Combat is carried out via Styles instead of individual weapon skills.
+    - Being more skilled helps you to hit and makes you harder to hit
+
+    - Physical attacks cause impact
+    - Armor reduces impact
+    - Impact leads to damage
+    - Damage increases injury
+    - Injury leads to unconsciousness and/or death
+
+  - The sequence of the combat round (in general terms)
+    - Declaration
+    - Targeting
+    - Damage calculation
+    - Survival checks
+
+- Combat skills
+  - Combat Styles
+    LONG RANGE STYLES
+    - Archery
+    - Cross Bows
+    - Thrown Weapons
+    MELEE STYLES
+    - Articulated Weapons
+    - Articulated Weapons & Shield
+    - Bolas/Whips/Ropes/Nets
+    - Close Weapons
+    - Close Weapons & Shield
+    - Dual Weapon
+    - Fencing
+    - One-handed Weapons
+    - One-handed Weapons & Shield
+    - Polearms
+    - Staves
+    - Thrusting Weapons
+    - Thrusting Weapons & Shield
+    - Two-handed Weapons
+
+  - Other Skills
+    - Catch missiles
+    - Disarm
+    - Dodging
+    - Evade Missiles
+    
+- The combat sequence (detailed descriptions, with examples)
+  - Declaration (including initiative)
+
+  - Targeting: 2d10* + SA [+ S mods] >= TD [+ TD mods] [+ SD [+ S mods]]
+    If Targeting is successful, IMPACT is rolled based on weapon type.
+
+  - DAMAGE = IMPACT - RESISTANCE
+    DAMAGE is added to INJURY heap
+
+  - Survival checks
+    Unconsciousness: 2d10* + WIL >= INJURY - BODY
+    Death: 2d10* + FIT >= INJURY - 2*BODY
+
+- Movement and Combat
+  - Movement in melee
+  - Weapon reach (Optional)
+  - The Combat Hex Grid (Optional)
+  
+- Unarmed Combat

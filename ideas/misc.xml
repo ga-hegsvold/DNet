@@ -1,0 +1,59 @@
+<sect1>
+<title>Misc</title>
+<sect2>
+<title>Frenzy (Rage, Adrenaline Rush, Berzerk)</title>
+
+<para>
+A combat oriented mental state often associated with viking berzerkers.
+</para>
+
+<sidebar>
+<title>Adrenaline</title>
+<para>
+A hormone secreted by the adrenal medulla that is released into
+the bloodstream in response to physical or mental stress, as from fear or
+injury. It initiates many bodily responses, including the stimulation of heart
+action and an increase in blood pressure, metabolic rate, and blood glucose
+concentration.
+</para>
+</sidebar>
+
+<para>
+Benefits: +2 STR (adrenaline kick), +2 WIL (more stubborn and hard to controll), +2? BOD (adrenaline kick), oblivious to pain, skip uncouncious check,
+ignore fatigue
+</para>
+
+<para>
+Drawbacks: -2 AUR? (might have intimidating presence), -4 DEX, -4 INT (reduses ability to reason), -2 PER (tunnel sight)
+</para>
+
+<para>
+How to activate?
+</para>
+
+<itemizedlist>
+	<listitem><para>Maybe use one or more "personality traits" from "atrenative to alignment". I.e. must lean towards Agressive, Dynamic, Emotional...</para></listitem>
+	<listitem><para>Make Frenzy a Combat specialty and use standard Task Resolution to activate/de-activate. Frenzy &gt;= TD to activate; Frenzy &lt; TD to de-activate; This would make Frenzy a Conflicted Gauge. Makes sense. If it's easy for a character to enter Frenzy, it's probably hard for the character to leave it again.</para></listitem>
+</itemizedlist>
+
+
+<para>
+How to "de-activate"? 
+</para>
+
+<itemizedlist>
+	<listitem><para>Last a fixed/variable periode of time</para></listitem>
+	<listitem><para>Task Resolution involving WIL - makes sense in that WIL governs self controll; does not make sense in that activating Frenzy actually increses WIL to make you stubborn/hard to control; Does it perhaps make sense to use INT or PER? Need to be aware of your actions and surroundings, and be able to calm yourself. Sounds like PER and WIL should be involved, and INT for reasoning and logical thought; Maybe Frenzy should not increse WIL after all...?</para></listitem>
+	<listitem><para>...</para></listitem>
+</itemizedlist>
+
+</sect2>
+
+<sect2>
+<title>Addiction</title>
+<para>
+Could be a major source of motivation for the addicted character.
+</para>
+</sect2>
+
+</sect1>

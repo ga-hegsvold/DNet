@@ -1,0 +1,92 @@
+<sect1><title>Steps for Completing a Character</title>
+<para>
+Following is a basic outline describing the steps involved in creating a
+character for DNet. Each of these steps will be detailed in the
+following sections.
+</para>
+
+<orderedlist>
+<listitem>
+<para>
+Ask your GM what kind of character he needs in his campaign.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Think of a character concept you want to roleplay that fits in the campaign.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Ask your GM for the Experience Level of his campaign.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Select a Species.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Ask your GM for the genre of the game (Realistic, Heroic or Highly Heroic).
+Use this genre to determine the number of Talent Points (TPs) your character
+will start out with and use them to buy starting Talents.
+</para>
+<para>
+If your GM prefers, you may roll randomly for starting Talents.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Select Gifts and/or Foibles if desired.
+Gifts have a positive EP Cost. Foibles have a negative EP Cost.
+Subtract these costs from your free EP.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Select Culture.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Select Career(s).
+</para>
+</listitem>
+
+<listitem>
+<para>
+Record the Skills and their EP bonus that come with the Career(s).
+</para>
+</listitem>
+
+<!-- two-digit list numbers cause overflow warning:
+"Line 1 of a paragraph overflows the available area by 2500 millipoints."
+-->
+<listitem>
+<para>
+Add non-Career Skills if you want, and advance Skills and/or Talents.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Record unused EP on your character template for later use.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Flesh out the character with general appearance, personality and background.
+</para>
+</listitem>
+
+</orderedlist>
+</sect1>

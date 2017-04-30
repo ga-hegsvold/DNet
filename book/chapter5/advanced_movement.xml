@@ -1,0 +1,363 @@
+<sect1><title><emphasis>Advanced Movement (Optional)</emphasis></title>
+<para>
+<emphasis>
+The movement rules detailed below attempt to cover in a sensible manner most
+game situations where movement plays a critical part. However, they might be
+cumbersome in situations where movement is not critical and the GM is free to
+use them when and as he wishes. It is only suggested that he employs the
+standard movement speeds (Base, Walking, Running, Sprinting and Max).
+</emphasis>
+</para>
+
+<sect2><title><emphasis>Movement Speeds</emphasis></title>
+<para>
+<emphasis>
+Movement speeds are divided in five broad categories: Base, Walking, Running,
+Sprinting and Max.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+The Base movement speed is the reference from which the four others are
+calculated. The speed of a character in a melee combat situation is also equal
+to the Base speed (see Movement and Distances in Combat).
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+The Walking speed is equal to a good but sustainable walking pace, the Running
+speed is a moderate jogging and the Sprinting speed is a hurried run. For
+comparison purposes, olympic marathoneers runners move at a pace between
+Running and Sprinting (~ 19 km/h) and the Max movement speed listed is
+that of the olympic sprinters (100 meters in 10 seconds).
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+In order to simplify the rules, it is considered that all members of a Species
+can sustain the speeds given in the table below, for a short period of time
+(until their first movement check).
+</emphasis>
+</para>
+
+<para>
+<table frame="all"><title><emphasis>Movement Speeds</emphasis></title>
+<tgroup cols="5" align="center" colsep="1" rowsep="1">
+<colspec colname="c1" align="left" colwidth="1*" />
+<colspec colname="c2" colwidth="1*" />
+<colspec colname="c3" colwidth="1*" />
+<colspec colname="c4" align="left" colwidth="1*" />
+<colspec colname="c5" colwidth="1*" />
+<spanspec spanname="aspan" namest="c2" nameend="c3" align="center" />
+<spanspec spanname="bspan" namest="c4" nameend="c5" align="center" />
+<thead>
+<row><entry morerows="1"></entry><entry spanname="aspan"><emphasis>Human</emphasis></entry><entry spanname="bspan"></entry></row>
+<row>                            <entry><emphasis>km/hour</emphasis></entry><entry><emphasis>m/round</emphasis></entry><entry><emphasis>Other Species</emphasis></entry><entry><emphasis>Fatigue Rating</emphasis></entry></row>
+</thead>
+<tbody>
+<row><entry><emphasis>Base</emphasis></entry><entry><emphasis>3</emphasis></entry><entry><emphasis>5</emphasis></entry><entry><emphasis>In Species description</emphasis></entry><entry><emphasis>(1)</emphasis></entry></row>
+<row><entry><emphasis>Walking</emphasis></entry><entry><emphasis>6</emphasis></entry><entry><emphasis>10</emphasis></entry><entry><emphasis>2 * Base</emphasis></entry><entry><emphasis>(1)</emphasis></entry></row>
+<row><entry><emphasis>Running</emphasis></entry><entry><emphasis>12</emphasis></entry><entry><emphasis>20</emphasis></entry><entry><emphasis>4 * Base</emphasis></entry><entry><emphasis>(3)</emphasis></entry></row>
+<row><entry><emphasis>Sprinting*</emphasis></entry><entry><emphasis>24</emphasis></entry><entry><emphasis>40</emphasis></entry><entry><emphasis>8 * Base</emphasis></entry><entry><emphasis>(7)</emphasis></entry></row>
+<row><entry><emphasis>Max**</emphasis></entry><entry><emphasis>36</emphasis></entry><entry><emphasis>60</emphasis></entry><entry><emphasis>12 * Base</emphasis></entry><entry><emphasis>(10)</emphasis></entry></row>
+</tbody>
+</tgroup>
+</table>
+<emphasis>
+*: 100 meters in 15 secs
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+**: 100 meters in 10 secs
+</emphasis>
+</para>
+</sect2>
+
+<sect2><title><emphasis>Movement Checks</emphasis></title>
+<para>
+<emphasis>
+A character must do periodic movement checks to see if he can continue to
+move at a given speed despite the accumulated Fatigue. The checks are
+done using:
+</emphasis>
+</para>
+
+<para>
+<literal>
+d10-d10* + Movement Skill &gt;= Movement TD + Fatigue
+</literal>
+</para>
+
+<para>
+<emphasis>
+At the end of each movement period, the character's Fatigue Heap must be
+increased by one plus his Encumbrance Penalty. The check is made after Fatigue
+has been increased. The Skill that is used in the check depends on the speed
+at which the character goes (see Movement Skills).
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+If the character's roll added to his Movement Skill is greater than his
+accumulated Fatigue plus the Movement TD, then the character can continue
+moving at the same speed. If not, then the character must slow down by his Base
+speed (a human Running at 12 km/h would slow down by 3 km/h and would thus end
+up at 9 km/h). A character can accelerate at any time, as long as he has been
+successful in his last movement check.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Note that Fatigue is necessary for the movement rules, even if it is not used
+in other parts of the rules. Using Fatigue with the movement rules gives
+pretty realistic results.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+While the base TD is -5 up to the Sprinting speed, the frequency of the checks
+changes with the movement rate.
+</emphasis>
+</para>
+
+<example><title><emphasis>Fatigue Frequency Check</emphasis></title>
+<screen>
+<emphasis>
+A character needs to check only once per hour when Walking but
+must make a check every minute when Sprinting.
+</emphasis>
+</screen>
+</example>
+
+<para>
+<emphasis>
+The faster the character goes, the faster he gets Fatigued.
+</emphasis>
+</para>
+
+<para>
+<table frame="all"><title><emphasis>Activity vs Check Frequency</emphasis></title>
+<tgroup cols="4" align="left" colsep="1" rowsep="1">
+<colspec colnum="4" colname="c4" align="center" colwidth="1*" />
+<thead>
+<row><entry><emphasis>Activity Level</emphasis></entry><entry><emphasis>Check Frequency</emphasis></entry><entry><emphasis>Movement Speed</emphasis></entry><entry><emphasis>Fatigue Rating</emphasis></entry></row>
+</thead>
+<tbody>
+<row><entry><emphasis>Light</emphasis></entry><entry><emphasis>1 hour</emphasis></entry><entry><emphasis>Base, Walking</emphasis></entry><entry><emphasis>(1)</emphasis></entry></row>
+<row><entry></entry><entry><emphasis>30 minutes</emphasis></entry><entry><emphasis>3 * base</emphasis></entry><entry><emphasis>(2)</emphasis></entry></row>
+<row><entry><emphasis>Moderate</emphasis></entry><entry><emphasis>15 minutes</emphasis></entry><entry><emphasis>Running</emphasis></entry><entry><emphasis>(3)</emphasis></entry></row>
+<row><entry></entry><entry><emphasis>8 minutes</emphasis></entry><entry><emphasis>5 * Base</emphasis></entry><entry><emphasis>(4)</emphasis></entry></row>
+<row><entry></entry><entry><emphasis>4 minutes</emphasis></entry><entry><emphasis>6 * Base</emphasis></entry><entry><emphasis>(5)</emphasis></entry></row>
+<row><entry></entry><entry><emphasis>2 minutes</emphasis></entry><entry><emphasis>7 * Base</emphasis></entry><entry><emphasis>(6)</emphasis></entry></row>
+<row><entry><emphasis>Heavy</emphasis></entry><entry><emphasis>1 minute (10 rounds)</emphasis></entry><entry><emphasis>Sprinting</emphasis></entry><entry><emphasis>(7)</emphasis></entry></row>
+<row><entry><emphasis>Strenuous</emphasis></entry><entry><emphasis>5 rounds (30 seconds)</emphasis></entry><entry><emphasis>9 * Base</emphasis></entry><entry><emphasis>(8)</emphasis></entry></row>
+<row><entry></entry><entry><emphasis>3 rounds</emphasis></entry><entry><emphasis>10 * Base</emphasis></entry><entry><emphasis>(9)</emphasis></entry></row>
+<row><entry></entry><entry><emphasis>1 round</emphasis></entry><entry><emphasis>11 * Base or more</emphasis></entry><entry><emphasis>(10)</emphasis></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+
+<para>
+<emphasis>
+Basically, the frequency of the checks double each time the movement speed
+increases by the Base speed.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+A character can always start to Walk, Run or Sprint without a check, as long
+as he doesn't try to go over the standard Sprinting speed (see Heavy Sprinting)
+or does not suffer from heavy Fatigue. If the GM judges that a character is too
+tired to move, he can require a movement check before the character starts to
+move (no Fatigue is added to the Fatigue Heap before making this check). If the
+check passes, then the character moves normally. If the check fails, then the
+GM can either impose a maximum speed for the character or require that the
+character rests before starting to move. In the later case, the character can
+attempt to move as soon as his Fatigue Heap has been reduced by one point or
+more.
+</emphasis>
+</para>
+
+<example><title><emphasis>Marathon Runner</emphasis></title>
+<screen>
+<emphasis>
+A human runner wants to finish a marathon in about 2 hour and 10 minutes. To
+cover the 42 km in 130 minutes, he needs to go at about 19 km/h, which is
+approximately equal to 6 times the Base speed of 3 km/h. He will thus have to
+make a movement check every 4 minutes. (Note: running a marathon in 2h10min is
+a world class performance.)
+
+Our marathon runner has an Endurance Skill of 30.
+After 4 minutes of running, his Fatigue Heap is increased by one and he has to
+make a first movement check:
+
+d10-d10* + Endurance &gt;= -5 + Fatigue
+d10-d10* + 30        &gt;= -5 + 1
+
+It is quite obvious that he has virtually no chance of failing this check.
+In fact, he is almost certain of being successful in the first 25 checks
+(unless he rolls a fumble). This well trained runner can thus run at 19 km/h
+for 100 minutes (25 checks * 4 minutes/check) without any major problem.
+It only starts getting difficult for him in the last 30 minutes, when he has to
+give his last energies to maintain the same rhythm.
+</emphasis>
+</screen>
+</example>
+
+<para>
+<emphasis>
+If a similar situation occurs in a game, it is strongly suggested that the
+GM does not require the players to roll for checks that are always successful
+unless the character fumbles. The players should not have to roll as long as
+their Skill is 10 points higher than the TD.
+</emphasis>
+</para>
+
+<informalexample>
+<screen>
+<emphasis>
+For our marathon runner, this means that we need to roll only the last seven
+check.
+
+The first of these check is:
+
+d10-d10* + 30 &gt;= -5 + 26
+
+while the seventh is:
+
+d10-d10* + 30 &gt;= -5 + 32
+
+If he makes these seven movement checks successfully, he will have completed
+the marathon in 2 hours and 10 minutes!
+</emphasis>
+</screen>
+</informalexample>
+</sect2>
+
+<sect2><title><emphasis>Heavy Sprinting</emphasis></title>
+<para>
+<emphasis>
+The Sprinting speed given in the movement Speed table is the speed that all
+members of a Species can sustain for a short period of time (1 minute). If
+a characters wants to go faster than the standard Sprinting speed, he faces
+a greater difficulty than just having to make more frequent checks. For each
+increment of speed equal to the Base speed, 5 is added to the TD.
+</emphasis>
+</para>
+
+<example><title><emphasis>Sprinting</emphasis></title>
+<screen>
+<emphasis>
+Thus, to run 100 meters in 10 seconds, a character would need to go at 
+60 meters/round, which means an increase of 20 of the TD.
+In addition, the character needs to make a movement check every round.
+
+The check that a human needs to make to run 100 meters in 10 seconds is:
+
+d10-d10* + Sprinting &gt;= 15 + Fatigue
+</emphasis>
+</screen>
+</example>
+
+<para>
+<emphasis>
+When a character wants to move at a speed greater than the standard Sprinting
+speed, he also needs to make an initial movement check. No fatigue is added
+to the Fatigue Heap before making this check (Fatigue is always added at the
+end of the movement period).
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+If a character tries to move faster than the Sprinting speed but fails his
+check, the maximum speed that he can reach is obtained by substracting Fatigue
+from his total roll and comparing the result with the movement TD in the table
+below. The maximum speed that he can reach corresponds to the maximum movement
+TD that is smaller than or equal to his adjusted roll.
+</emphasis>
+</para>
+
+<para>
+<informalexample>
+<screen>
+<emphasis>
+If a sprinter rolls a total 6 on his movement check and has a Fatigue of 3,
+then his adjusted roll is 3 and he can reach a maximum speed of 9 times the
+Base speed (45 meters/round for a human).
+</emphasis>
+</screen>
+</informalexample>
+</para>
+
+<para>
+<emphasis>
+The maximum speed that a character can reach is equal to 12 times the Base
+speed. For a human, this speed is equal to 60 meters/round, which is equivalent
+to running 100 meters in 10 seconds, a feat that only olympic athletes can
+achieve. Of course, the GM is free to remove this limitation on maximum speed.
+</emphasis>
+</para>
+
+<para>
+<table frame="all"><title><emphasis>Speed vs Movement TD</emphasis></title>
+<tgroup cols="2" align="left" colsep="1" rowsep="1">
+<colspec colnum="2" colname="c2" align="center" colwidth="1*" />
+<thead>
+<row><entry><emphasis>Speed</emphasis></entry><entry><emphasis>Movement TD</emphasis></entry></row>
+</thead>
+<tbody>
+<row><entry><emphasis>Sprinting or below</emphasis></entry><entry><emphasis>-5</emphasis></entry></row>
+<row><entry><emphasis>9 * Base</emphasis></entry><entry><emphasis>0</emphasis></entry></row>
+<row><entry><emphasis>10 * Base</emphasis></entry><entry><emphasis>5</emphasis></entry></row>
+<row><entry><emphasis>11 * Base</emphasis></entry><entry><emphasis>10</emphasis></entry></row>
+<row><entry><emphasis>Max</emphasis></entry><entry><emphasis>15</emphasis></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+
+<para>
+<example><title><emphasis>Sprinting</emphasis></title>
+<screen>
+<emphasis>
+An olympic athlete with a Sprinting Skill of 25 is on the starting line for the
+100 meters race. As he is fully rested, his Fatigue is initially equal to 0.
+Upon hearing the gun, he jumps from the starting blocks.
+
+An initial movement check is made:
+
+d10-d10* + Sprinting &gt;= Movement TD + Fatigue
+d10-d10* + 25        &gt;= -5 + 20     + 0
+-2       + 25        &gt;= 15
+23                   &gt;= 15          -&gt; success
+
+This initial movement check is successful and the character is thus moving at
+60 meters per round. However, since his speed is equal to 12 times the Base
+speed, he must make a check every round. He will thus have to make another
+check after one round (6 seconds) of running. His Fatigue Heap is increased by
+1 due to the first round of Sprinting and his second movement check is:
+
+d10-d10* + Sprinting &gt;= Movement TD + Fatigue
+d10-d10* + 25        &gt;= -5 + 20     + 1
+3        + 25        &gt;= 16
+28                   &gt;= 16          -&gt; success
+
+This second check is also successful and the sprinter makes it to the finish
+line in 10 seconds!
+</emphasis>
+</screen>
+</example>
+</para>
+</sect2>
+</sect1>

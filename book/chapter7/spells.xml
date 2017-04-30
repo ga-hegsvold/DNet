@@ -1,0 +1,269 @@
+<sect1><title>Magic Spells</title>
+<para>
+The casting of magic spells is the primary task to which source and conductor
+skills are put. The variety in types of spells is as infinite as a player's
+imagination. Spell effects may be small or large, blatant or subtle. Types of
+spells range from powers of the mind to pyrotechnics of the skies. Yet even
+with all of these differences, there are some basic rules and guidelines
+governing the creation and use of spells in the DNet system.
+</para>
+
+<sect2><title>Casting Spells</title>
+<para>
+Casting a spell operates just like any other task in the DNet system with
+two minor exceptions:
+</para>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Successful spellcasting requires two consecutive, successful 
+       task checks: the first to make the energy available to the caster,
+       using source skill(s), and the second to harness that available energy
+       using conductor skill(s). No conductor check is needed if the source
+       check is failed
+</para>
+</listitem>
+
+<listitem>
+<para>
+Secondly, spellcasting is much more tiring work than most activities. 
+       To reflect this, the caster's fatigue heap is incremented by one plus 
+       one fifth of the Source TD the spell the caster attempts to cast. If 
+       the spell fails, the caster only suffers from half the normal Fatigue 
+       increase.
+</para>
+</listitem>
+</orderedlist>
+
+<para>
+Other differences may occur beyond those mentioned above, depending on the
+spellcaster(s), the spell(s), and the skill(s) involved.
+</para>
+
+<informalexample>
+<screen>
+For example, some conductor skills require spells to be researched
+or otherwise learned before they can be used.
+</screen>
+</informalexample>
+
+<para>
+In the standard rules, no spell requires any spell component, obvious
+incantation or specific gesture. It is not meant that such requirement are
+inappropriate, only that their application is left to the game master. Some
+optional rules that integrate those elements may be included with the
+standard rules in the future.
+</para>
+</sect2>
+
+<sect2><title>Spell Attributes</title>
+<para>
+All spells have many of the same basic attributes. These attributes bear no
+relation to a character's attributes, except in that they serve to define the
+basic nature of the spell in the same way that character attributes serve to
+define the basic nature of a character. The basic attributes and their values
+are:
+</para>
+
+<formalpara><title>Source(s)</title>
+<para>
+    Each spell must also define which source(s) of energy are used to draw the
+    power required by the spell.
+</para>
+</formalpara>
+
+<formalpara><title>Source TD</title>
+<para>
+    The total TD associated with gathering the energy from the source(s).
+</para>
+</formalpara>
+
+<formalpara><title>Conductor(s)</title>
+<para>
+    Each spell must also define which conductor(s) must be used to harness the
+    energy once it is gathered from the source(s).
+</para>
+</formalpara>
+
+<formalpara><title>Conductor TD</title>
+<para>
+   The total TD associated with making use of the conductors.
+</para>
+</formalpara>
+
+<formalpara><title>Fatigue</title>
+<para>
+    The Fatigue created by the spell.
+</para>
+</formalpara>
+
+<formalpara><title>Casting Time</title>
+<para>
+    This value represents the amount of time it takes to successfully cast the
+    spell. This value is the Conductor TD of the spell, in seconds.
+</para>
+</formalpara>
+
+<formalpara><title>Duration</title>
+<para>
+    This value represents the length of time the spell lasts once it has been
+    successfully cast.
+</para>
+</formalpara>
+
+<formalpara><title>Range</title>
+<para>
+    This value represents the maximum distance, in meters, from the caster that
+    the spell effect may be centered or initiated.
+</para>
+</formalpara>
+
+<formalpara><title>Volume of Effect</title>
+<para>
+    This value represents the volume of space which is directly affected by the
+    casting of this spell. (Note that secondary effects, like falling rocks,
+    may extend beyond this range.)
+</para>
+</formalpara>
+
+<para>
+Spell descriptions may augment or supersede this list of attributes.
+</para>
+
+<sect3><title>Sample Spell</title>
+<para>
+Fireball
+
+<screen>
+Source: Elemental Power of Energy
+Conductor: Elemental Fire Focus
+Source TD: 13
+Conductor TD: 5
+Fatigue: 4
+Casting time: 2 rounds (10 seconds)
+Duration: 1 round
+Range: 40 meters
+Volume of Effect. A sphere with a radius of 5 meters
+
+Allows the mage to create a ball of fire of 10m radius at up to 40m from the
+caster. Any person within the ball must make an AGI roll against a TD of 5
+to receive only half damage. The fire causes 2d6+1 of damage to anyone who
+misses the resistance roll. The center of the fireball is located at most 1
+meter from the area determined by the mage.
+</screen>
+</para>
+</sect3>
+</sect2>
+
+<sect2><title>Making Spells</title>
+<para>
+The procedure and rules used for making a new spell are entirely dependent
+upon the types of conductor skills to be used by the Spell. Some conductors
+require research and memorization, some require learning, others allow for
+'on-the-fly' creation. Please see the conductor skill lists for specific
+rules.
+</para>
+
+<para>
+Standard spell creation rules have been designed for use with the magic
+rules presented in this chapter. They  mainly consist in a set of standard
+tables designed to calculate the Source and Conductor Task Difficulties. All
+spells provided with the DNET system have been created using those tables
+and all spells submitted will see their Source and Conductor TD evaluated
+using them. You are free to ignore them completely if you find them too
+cumbersome.
+</para>
+</sect2>
+
+<sect2><title><emphasis>Tweaking Spells (VERY OPTIONAL)</emphasis></title>
+<para>
+<emphasis>Note: All the material presented in this section is optional.</emphasis>
+</para>
+
+<para>
+<emphasis>
+The ability to tweak a spell allows a spellcaster to modify one or more of
+the basic attributes of a spell, or (depending on the spell) some of the
+specific effects of the spell.
+</emphasis>
+</para>
+
+<example><title><emphasis>Tweaking Spells</emphasis></title>
+<screen>
+<emphasis>
+Putting more energy into a simple "Fireball" spell can increase
+the damage it does, which is not a basic attribute.
+</emphasis>
+</screen>
+</example>
+
+<para>
+<emphasis>
+For those spellcasters restricted to previously learned or researched spells,
+the ability to tweak those spells they already know is a godsend. However, the
+degree to which spells may be tweaked is limited, as are the ways in which they
+may be tweaked.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+When a caster tweaks a spell, he changes an aspect of the spell result by
+changing either the Source TD, Conductor TD or both. Which aspects of a
+spell may be tweaked, and to what degree at what cost, are generally
+specific to the spell being cast. However, there are two general 'tweaks'
+which should be available to almost all casters and for almost all spells:
+</emphasis>
+</para>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+<emphasis>
+The fatigue caused by a spell may be reduced by using more finesse.
+       For every point by which the Source TD is decreased, the Conductor
+       TD is increased by 2. Fatigue and casting time are adjusted to 
+       reflect the changes.
+</emphasis>
+</para>
+</listitem>
+  
+<listitem>
+<para>
+<emphasis>
+The casting time of a spell may be reduced by using more brute force.
+       For every point by which the Conductor TD is decreased, the Source 
+       TD is increased by 2. Fatigue and casting time are adjusted to 
+       reflect the changes.
+</emphasis>
+</para>
+</listitem>
+</orderedlist>
+
+<para>
+<emphasis>
+Almost all other 'tweaks' change the Source or Conductor TD (and subsequently
+both the casting time and the fatigue incurred) of the spell.
+Examples of aspects of a spell which might be capable of being tweaked in
+this way include:
+</emphasis>
+</para>
+
+<itemizedlist>
+<listitem><para><emphasis>Duration</emphasis></para></listitem>
+<listitem><para><emphasis>Range</emphasis></para></listitem>
+<listitem><para><emphasis>Volume of Effect</emphasis></para></listitem>
+<listitem><para><emphasis>Damage</emphasis></para></listitem>
+</itemizedlist>
+
+<para>
+<emphasis>
+If the game master is very familiar with the magic system, he can guess the
+variations in Source and Conductor TD on the fly when a mage attempts to
+tweak a spell. Otherwise, it is suggested to use the spell creation tables
+from the standard spell creation system.
+</emphasis>
+</para>
+</sect2>
+</sect1>

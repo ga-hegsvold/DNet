@@ -1,0 +1,386 @@
+Changes:
+3.0a2 -> Added sections: 6.2.2 Combat Styles
+                         6.2.3 Impact, Damage and Injury
+                         6.2.4 Combat Round Sequence
+3.0a3 -> Added sections: 6.3   Combat Skills
+                         6.3.1 Combat Styles
+3.0a4 -> Removed "Exotic Weapons" and "Single Weapon" styles
+      -> Updated "6.2.2 Combat Styles" to reflect the changes
+      -> Augmented "6.3.1 Combat Styles"
+
+3.0a5 -> Added mechanics for shield bash, entangle limbs, and entangle
+         feet/trip (please check!)
+      -> Added distances in meters for Close, near, far, etc. ranges (please
+         check these and make sure they are right!)
+      -> Fixed a few minor spelling and wording problems.
+
+3.0a6 -> Added description of the columns in the table in section 6.3.1
+
+*****************************************************************************
+SECTION 6     COMBAT
+
+----------------
+6.1 Introduction
+----------------
+
+"... violence is the last refuge of the incompetent." Isaac Asimov
+
+When other means of achieving objectives have failed, the party of adventuring
+characters may find themselves in an encounter that leads to combat.   Combat
+can take many forms including melee, archery, arcane, etc.  Good combat
+rules should cover all those situations, while being simple enough not to
+prevent the players from having fun.
+
+Like everything else in the DragonNet system, combat rules seek to achieve a
+balance between realism, simplicity and heroism.  In a completely realistic
+system, serious wounds often prove fatal and the game master has to take great
+care not to create a situation where combat is unavoidable.  At the opposite,
+in a heroic system where the characters can endure extreme wounds without
+flinching, combat often becomes the preferred mean to resolve situations of
+conflict.  In our vision, combat should not limit character development by
+ending it whenever it happens, nor should it prevent it by being a universal
+solution to all problems.  Therefore, the DragonNet combat system is deadly
+enough that characters won't always seek combat as the solution to their
+problems, but not so deadly as to make the characters flee each time brute
+force is required.
+
+------------------
+6.2 Basic Premises
+------------------
+
+6.2.1 The Combat Round
+----------------------
+
+As in many RPG system, combat in DNET is resolved by dividing its duration
+into rounds.  During a round, each character can perform one action: attacking
+an opponent, casting a spell, reloading a bow, etc.  Each combat round
+represents six seconds of action, giving ten rounds per minute.
+
+During a combat round, each protagonist will get to accomplish one action,
+without consideration for who acts first or last.  Each attack/defense
+confrontation is in fact an exchange of blows and the damage inflicted by the
+protagonists upon each other is the summation of the effects of each
+individual blow.  It is therefore perfectly possible for two combatants to
+finish off each other in the same round, giving a situation similar to the
+final combat scene in the movie "Excalibur".
+
+6.2.2 Combat Styles
+-------------------
+
+There is more to combat than just swinging a weapon; most of the reflexes that
+make a good fighter have more to do with the way he uses his weapon than with
+the particular weapon used.  The skills your character has to learn to be a
+proficient fighter are thus named combat styles.  The primary style for a
+fighter with military training would probably be "Weapon and Shield".  A
+northern barbarian wielding a claymore would most often use the "Two-handed
+weapon" style.  A magic oriented character would probably opt for a low cost
+style such as "Staves", giving him basic combat abilities while letting him
+focus most of his efforts on magic lore.
+
+As your character gains experience, he can advance in one or more combat
+style.  Since combat styles are used for both attack and defense, improving
+them makes you both harder to hit and better at hitting your opponents.
+
+6.2.3 Impact, Damage and Injury
+-------------------------------
+
+When you hit an opponent with a weapon, you generally intend to cause him some
+physical damage.  The DragonNet system uses a specific procedure with its
+associated terminology to calculate this damage; the basics of the damage
+calculation procedure are exposed here, so that you can better understand
+the
+rest of the system.  The complete procedure will be described in detail
+later in the combat chapter.
+
+Every physical attack is said to cause an IMPACT.  For example, a hit with
+bastard sword made by an average human causes 2d6+4 points of IMPACT.  If the
+target is wearing armor, part of the attack's IMPACT is absorbed by the armor,
+while the remaining part, if any, constitutes the true physical DAMAGE, which
+is added to the target's INJURY heap.  If the target suffers too much
+INJURY, i.e. more than what is BODY allows, he will pass out and eventually
+die.
+
+6.2.4 Combat Round Sequence
+---------------------------
+
+Most gamers hate it when the mechanics of combat system take more time than
+the actions and tactical decisions of the characters.  In other words, the
+mechanics should not slow down the combat flow and bring down the climactic
+tension.  The combat round sequence outlined here and described more fully
+later in the text will generally be most effective one for smooth combat
+resolution.
+
+The combat round begins with the declaration phase, during which each player
+announces the actions of his character(s) and the game master states the
+actions of the non-player characters (NPC).  The order of the declaration can
+be arbitrary or determined by rolling for initiative.  In both cases, it is
+advantageous to declare last, since you can decide the actions of your
+character in regard of what others have announced.
+
+After all actions have been declared, the resolution phase begins.  No
+particular order is required, as all actions are considered to be simultaneous
+and every character is assured that he will have a chance to attempt its
+planned actions.  For attacks, resolution is divided in two steps: the
+attacker
+first attempts to hit the defender in a contest of skills; if he is succesful,
+damage is calculated using the procedure outline above (sec. 6.2.3).
+
+At the end of each combat round, after all actions have been resolved,
+characters that have been wounded during the round must check to see if they
+remain conscious and alive.
+
+-----------------
+6.3 Combat Skills
+-----------------
+
+6.3.1 Combat Styles
+-------------------
+
+One of the fundamental premises behind the DNET combat system is that one's
+fighting style is more important than the actual weapon used.  A fighter used
+to fighting with a broad sword and a shield will find it much easier to fight
+with a bastard sword and a shield than to fight with a broad sword alone.  His
+combat reflexes are tuned to certain strike sequences relying on the shield
+to parry blows.  For him, fighting without the shield means developping new
+strike sequences, something that is not always easy to do in the middle of
+a melee.
+
++--------------------+------+-----+-----+----+----+-------------------------+
+|                    |  EP  | Attribute |    |    |                         |
+| Style Skill Name   | Cost | Tal | Adv | AM | DM | Special Characteristics |
++--------------------+------+-----+-----+----+----+-------------------------+
+| Archery            |  4   | PER | DEX |    |    | extreme, 0 def          |
+| Articulated        |  4   | DEX | AGI | +1 |    | entangle                |
+| Bolas, Whips,      |  3   | PER | AGI |    |    | trip/entangle, 0 def    |
+|   Ropes, Nets      |      |     |     |    |    |                         |
+| Close Weapons      |  2   | DEX | AGI |    |    | close                   |
+| Cross Bows         |  2   | PER | DEX |    |    | extreme, 0 def, slow ROF|
+| Dual Weapon        |  4   | DEX | AGI | +2 | -1 |                         |
+| Fencing            |  5   | DEX | AGI | +2 |    | DEF Fencing/Close only  |
+| One-Handed Weapons |  3   | AGI | AGI |    |    |                         |
+| Polearms           |  4   | AGI | AGI | +1 | -1 | 2nd rank, fend          |
+| Staves             |  2   | AGI | AGI |    |    |                         |
+| Thrown Weapons     |  3   | PER | DEX |    |    | near, no defenses       |
+| Thrusting Weapons  |  3   | PER | AGI |    |    | 2nd rank, fend          |
+| Two-Handed Weapons |  3   | STR | AGI |    | -2 | 2nd rank                |
+| Weapon and Shield  |  3   | AGI | AGI |    |    | shield bonus/bash       |
++--------------------+------+-----+-----+----+----+-------------------------+
+
+Table Description
+-----------------
+EP Cost - This is the training cost associated with the skill
+Attribute Tal - The attribute which forms the basis for using this skill.
+                (i.e. The attribute acts as a modifier for use of the skill
+                                in the targeting equation.)
+Attribute Adv - This attribute is used as a modifier for advancement of
+                the skill.
+AM - Attack modifier
+DM - Defense modifier
+
+Special Characteristics
+-----------------------
+
+Range: Close (0 - 1 m; actually engaged in close combat)
+       Near (1 - 10 m; engaged or able to move to engage this round)
+       Far (11 - 100 m; not in melee range, but probably in missile weapon
+                        range)
+       Extreme (> 100 m; out of all but the longest range missile weapons)
+
+2nd rank: extended weapon reach to attack opponents from a distance, as from
+behind a line of friendly shield bearers.
+
+Fend: Basically Fend keeps opponent with shorter weapon at a distance unable
+  to attack.  Opponent who loses against Fend either can not attack or takes
+  automatic hit at full damage (maximum for thrusting weapon and STR bonus).
+  Optional precision bonus applies to the success of the Fend.
+
+  A Fend can be started if an opponent is outside of Close range at the start
+  of a combat round. Otherwise, a successful Fend means that an opponent who
+  is at Close range is unable to attack in the next round. A
+  successful Fend must occur in each subsequent round to keep the opponent at
+  bay.
+
+Entangle: entangle limbs.  A sucessful attack will entangle the limbs of the
+defender, unless an AGI check *?(can these be done?) is made by the defender.
+
+Trip: entangle legs and trip opponent.  A sucessful attack will entangle the
+legs of the defender, unless an AGI check *?(can these be done?) is made by
+the defender.
+
+Shield bonus: +1 to +5 defense bonus whether actively defending or not
+              *!(exact numbers for various shields)
+
+Shield bash: ability to use shield as a weapon.  Blow causes 1d6 + 1 point per
+size catagory of the attacker, + STR of attacker.  Defender can be knocked off
+his feet unless a sucessful AGI check *?(again, can these be done?) is made.
+
+DEF Fencing/Close only: Defense against Fencing and Close styles only.
+
+Styles Descriptions
+-------------------
+
+Archery
+-------
+EP Cost: 4
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Extreme Range, No Defenses
+Weapons allowed: Any (non-cross) bow
+Description: ROF is generally one arrow per round.
+
+
+Articulated Weapons
+-------------------
+EP Cost: 4
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: Entangle
+Weapons allowed: Any articulated weapon. If the weapon is one handed,
+  a shield can be used.
+Description: Leveraged weapons (like a flail) are harder to use than a more
+  straightforward weapon. This covers all such weapons, one or two handed,
+  with or without shield.
+
+
+Bolas/Whips/Ropes/Nets
+----------------------
+EP Cost: 3
+Talent Attribute: PER
+Advancement Attribute: AGI
+Special: No Defenses
+Weapons allowed: Bolas and whips
+Description:
+
+Close Weapons
+-------------
+EP Cost: 2
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: Close Range
+Weapons allowed: Any weapon with a reach of 0, such as knives, daggers, brass
+knuckles, etc.
+Description: Opponents must be at close range. If not they can FEND.
+
+Cross Bows
+----------
+EP Cost: 2
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Extreme Range, No Defenses, slow Rate of Fire
+Weapons allowed: All crossbows
+Description: ROF will be determined by weapon and STR.  High STR crossbow
+  weapons may only allow occasional fire 1/3 rounds to 1/10 rounds.  If there
+  is a 1/1 rate of fire, damage is minimal e.g. per dagger.
+
+Dual Weapon
+-----------
+EP Cost: 4
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: +2 Attack Skill, -1 Defense Skill
+Weapons allowed: Any 2 non-articulated weapons which can be wielded with
+  one hand with a reach of 1 or less.
+Description:
+Comments: minus on defense, or limit defense as in previous post. (i.e.
+  can not defend against weapons more than one `class' larger than secondary
+  weapon without loosing attack. Limit weapons to those smaller than medium
+  with respect to character size/strength.
+
+Fencing
+-------
+EP Cost: 5
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: +2 Attack Skill, Fencing defense can only occur against Fencing and
+  Close Weapons. Against other Styles, reduce DEF to 1.
+Weapons allowed: Rapier, Sabre, Dagger, Epee, foil
+Description: Parry repost style fighting with light weight weapons -- edge or
+  point attacks. This is not for unbalanced weapons like Axe or Mace.
+
+
+One-handed Weapons
+------------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special:
+Weapons allowed: Any non-articulated weapon which can be wielded with one
+  hand with a reach of 1 or 0.
+Description:
+
+Polearms
+--------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: +1 Attack Skill, -1 Defense Skill, 2nd rank, fend,
+         3rd rank at -3 on Attack Skill (if formation and length avail.)
+Weapons allowed: Halbards, poles with ax, blade, pick, or exotic ends of
+  reach 2 to 2.5.
+Description: Pole arms are commonly swung, having blade or pick. They have a
+  higher moment of inertia than two-handed weapons. They also have some closer
+  grip style that allows some parry action with the either end ala quarter
+  staff. Most wielders of pole arms do not like to use that style, prefering
+  to use weapon from second rank. If the weapon has a spear point, it may also
+  be used in Thrusting Weapons style.
+
+Staves
+------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special:
+Weapons allowed: All staves
+Description:
+
+Thrown Weapons
+--------------
+EP Cost: 3
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Near Range
+Weapons allowed: Any weapon which can be thrown. Effectiveness is greatly
+  limited with weapons that were not designed to be thrown. Weapons designed
+  to be thrown -- axe, knives, boomerang, darts, javelin, discus, etc.
+Description: ROF is 1 per round if the weapon is appropriately carried on the
+  body (at girdle or similar -- not in pack).  When throwing into a melee
+  situation, ROF is reduced to 1/2 rounds or roll randomly for target.
+
+Thrusting Weapons
+-----------------
+EP Cost: 3
+Talent Attribute: PER
+Advancement Attribute: AGI
+Special: 2nd rank, fend
+Weapons allowed: Any spear weapon with a reach of 2 or more. Includes pike
+  which is a reach 3 spear.
+Description: This to cover spears and such. This includes shield use for
+  smaller shields. Thrusting weapon may be one handed with shield. Thrusting
+  style does not use nether end for block, but forward shaft. Thrusting style
+  also includes Fend as an alternative to Attack & Defend.
+
+Two-handed Weapons
+------------------
+EP Cost: 3
+Talent Attribute: PER
+Advancement Attribute: AGI
+Special: 2nd rank, -2 Defense Skill
+Weapons allowed: Any non-articulated weapon which can be wielded with two
+  hands with a reach of 1.5 to 2.
+Description:
+
+Weapon & Shield
+---------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: shield bonus, shield bash
+Weapons allowed: Any non-articulated weapon which can be wielded with one
+  hand with a reach of 0 or 1, and a shield in the other hand.
+Description: Covers basic one-handed smashing (club, mace, axe, pick) and
+  cutting (scimitar), and thrusting weapons (estoc*).  Also covered is one
+  hand use of 'hand and half' weapons and targe/two hand use of these same.
+  Includes * pointy-sword aimed at the joins in armour
+
+6.3.2 Other Combat Skills
+-------------------------

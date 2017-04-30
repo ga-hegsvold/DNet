@@ -1,0 +1,285 @@
+Updated 2001.05.14 by Geir Atle Hegsvold
+Updated 2006.04.26 by Geir Atle Hegsvold
+
+Converted from SGML-Tools to DocBook.
+The new documents will be available later.
+
+INTRODUCTION
+Implement Coversion rules - or not... at least make it a seperate document.
+- the only interesting aspects of this would be how to convert species,
+    attributes, special abilites, etc. from AD&D Planescape to DNet.
+
+CHARACTER CREATION
+Implementer Species & Cultures
+
+Oppdater Career Table
+
+Utdyp gifts/foibles
+
+Gjøre om Tal og Adv til Talents?
+
+Sørg for at alle skills er beskrevet riktig
+
+GENERAL RULES
+Kan bruke Death i stedenfor BOD+25 ved Healing rate/day.
+Dette vil tilsi at et gjennomsnittlig menneske med 40 injury vi være
+frisk i løpet av en uke hvis en healer er tilstedet.
+
+Movement
+Fatigue calculation formula:
+
+  2^mult
+( ------ + [Enc] * [FAT increase/hour] ) * h = FATIGUE (round down)
+     4
+
+When movement time is in minutes:
+
+  2^mult                              [minutes moved]
+( ------ + [Enc] * [FAT increase] ) * --------------- = FATIGUE
+     4                                       60
+
+When movement time is in seconds:
+
+  2^mult                              [seconds moved]
+( ------ + [Enc] * [FAT increase] ) * --------------- = FATIGUE
+     4                                     3600
+
++------------+----+----------------------+-----------+--------------+
+|            |    |         Human        |           |              |
+|            |Mult|  km/hour    m/round  |  Base TD  | FAT increase |
++------------|----+----------------------+-----------+--------------+
+| Base       | x1 |     3           5    |   -5      | 1/2 hours    |
+| Walking    | x2 |     6          10    |   -5      | 1/hour       |
+| Running    | x4 |    12          20    |   -5      | 4/hour       |
+| Sprinting* | x8 |    24          40    |   -5      | 64/hour      |
+| Max**      |x12 |    36          60    |   15      | 1024/hour    |
++------------+----+----------------------+-----------+--------------+
+
+Ex:
+Running for 30 minutes with an Encumbrance penalty of 2
+(when running you have FAT increase 4 times an hour)
+
+     2^4             30 min             1
+=> ( --- + 2 * 4 ) * ------ = (4 + 8) * - = 6 FATIGUE
+      4              60 min             2
+
+Ex:
+Sprinting for 100 seconds with no penalty
+
+     2^8              100 s    6400
+=> ( --- + 0 * 64 ) * ------ = ---- = 1.77...8 = 1 FATIGUE
+      4               60^2 s   3600
+
+This calculation might slow down gameplay considerably, so feel free to
+drop it and just improvise.
+
+COMBAT
+Oppdater med houserules
+
+Unarmed weapon types
+Attack reach (er denne nødvendig?)
+Mass Combat
+Combat Hex Grid
+
+MAGIC
+Oppdater med houserules
+Gjør ferdig 8.7
+
+MISC
+9.3 Oppdater med houserules
+Gjør ferdig poisons/diseases
++ sample piosons/diseases table
+
+APP A TEMPLATES
+Oppdater Templates
+
+Liste over alle:
+- Species
+- Cultures
+- Careers
+  - Language + Read/Write => Languages (ikke nødvendig å dele disse)
+- Skills
+- Gifts/Foibles
+- Equipment (general, armors, shields, weapons,...)
+
+Sjekk for skrivefeil
+
+Oppdater Character Sheets
+
+-------------------------------------------------
+Lag GM-screen:
+- 3.41 Skill Acquisition Formula:
+
+     EP Cost = [Desired Tr] * [Desired Tr + 1] * [Base EP Cost] / 2
+
+- 3.?? Talent Acquisition Formula:
+
+     EP Cost = ([Desired Tal + 10] * [Desired Tal + 11] 
+              - [Current Tal + 10] * [Current Tal + 11]) * 5 / 2
+
+- 4.41 Skill Advancement Formula: EP Cost = [Next Tr] * [Base EP Cost]
+- 4.?? Talent Advancement Formula: EP Cost = [Next Tal + 10] * 5
+
+- 5.2
+     ------------------------------------------------------
+     Description      TD  Odds*  Could also be described as
+     ------------------------------------------------------
+     Easy.............-5  89%    Routine, Simple, Trivial
+     Average...........0  63%    Engaging, Fair, Intermediate
+     Difficult.........5  25%    Difficult, Tough, Tricky
+     Very Difficult...10  6%     Challenging, Demanding, Tasking, Vexing
+     Extremely Diff...15  2.4%   Exacting, Formidable, Punishing
+
+     Limit............20  0.6%   Extreme, Ballistic
+     Crushing.........25         Backbreaking, Monumental
+     Herculean........30         Epic, Staggering, Superhuman
+     Gargantuan.......35         Stupefying
+     Titanic..........40         Awesome
+
+     Unbelievable.....50         Impossible
+     Inconceivable....60         Shattering
+     God-like.........70         Legendary, Mythic
+     Immortal.........80         Celestial, Eternal
+     Cosmic..........100         Transcendental
+
+     *Odds are calculated for a Talent = 0, Training = 1 character.
+
+- 5.6 Combining efforts: d10-d10 + Skill >= TD - (N-1)
+      where N is the number of characters attempting the task. 
+- 6.1 Encumbrance Penalty = (Weight-LOAD) / LOAD STEP (round up)
+- 6.2 Fatigue
+     ----------------------------------------------------------
+     Effort       Recuperation   Frequency       Fatigue Rating
+     ----------------------------------------------------------
+     Light        ...            1 hour                    (1)
+     ...          ...            30 minutes                (2)
+     Moderate     Rest           15 minutes                (3)
+     ...          Sleep          8 minutes                 (4)
+     ...          ...            4 minutes                 (5)
+     ...          ...            2 minutes                 (6)
+     Heavy        ...            1 minute (10 rounds)      (7)
+     Strenuous    ...            5 rounds (30 secs)        (8)
+     ...          ...            3 rounds                  (9)
+     ...          ...            1 round                  (10)
+     ----------------------------------------------------------
+
+-6.3 Movement
+     +-------------+----------------------+-----------+--------------+
+     |             |         Human        |           |              |
+     |             |  km/hour    m/round  |  Base TD  | FAT increase |
+     +-------------+----------------------+-----------+--------------+
+     | Base        |     3           5    |   -5      | 1/2 hours    |
+     | Walking     |     6          10    |   -5      | 1/hour       |
+     | Running     |    12          20    |   -5      | 4/hour       |
+     | Sprinting*  |    24          40    |   -5      | 1/10 rounds  |
+     | Max**       |    36          60    |   15      | 2/round      |
+     +-------------+----------------------+-----------+--------------+
+
+For speeds below the sprinting speed, the check is made using the Endurance skill: 
+
+     d10-d10 + Endurance >= Movement TD
+
+For speed at or over the sprinting speed, the check is made using the Sprinting skill: 
+
+     d10-d10 + Sprinting >= Movement TD
+
+- 6.5 Healing 
+
+     Activity                   - Per day -       Weekly
+     level     Example     w/o Healer  w/healer*   bonus
+     ---------------------------------------------------
+     Low       Bed rest       10%        20%       +2d6
+     Moderate  Travelling      5%        10%       +1d6
+     High      Fighting        0          1          0
+
+     * conditions apply (ref. Medicine skill)
+
+Healing rates per day are based on a percentage of the injured person's BODY Talent increased by 25. 
+
+Weekly bonus: Requires a successful Fitness roll vs Injury:
+
+              d10-d10 + 10 + FIT >= INJURY.
+
+              If successful, INJURY is reduced by the indicated roll.
+
+- 6.7 Lifting Weight
+
+     d10-d10 >= Lift TD [+ Fatigue]
+
+     --------------------------------------------------------
+     Action                         Lift TD    Fatigue Rating
+     --------------------------------------------------------
+     Lift just above ground          -15                  (8)
+     Lift at waist height            -10                  (9)
+     Lift at head height              -7                 (10)
+     Lift overhead                    -5                 (10)
+     --------------------------------------------------------
+
+     For every increase in weight equal to LOAD STEP, increase TD by 1
+     For every decrease in weight equal to LOAD STEP, decrease TD by 1
+
+     Shortcut Formula: 
+
+          TD = Lift TD + ( (Weight-LIFT) / LOAD STEP )
+
+- Task Difficulty Modifiers
+
+     Condition                    Modifier
+     ---------                    --------
+     Target Semi-prone            -1
+     Target Prone                 -2
+     Target Partly Immobile       -4
+     Target Immobile              -8
+     Target Invisible             +3
+     Target out of range          +1 / 10% beyond weapon's range
+     Target Size                  (SR Attacker - SR Target)
+
+- Skill Modifiers
+
+The modifiers below apply to both attack and defense skills, unless noted. Modifiers that apply only to the attack skill are
+identified with "+X Attack", while those applying only to defense are noted with "+X Defense". 
+
+     Condition                    Modifier
+     ---------                    --------
+     Semi-prone                   -1
+     Prone                        -2
+     Partly Immobile              -4
+     Immobile                     -8
+     Poor Footing/Environment     -1 to ... (Left to GM discretion)
+     On higher ground than oppon  +1
+     Charging                     +2 Attack, -2 Defense
+     Set to receive a charge      +2 Defense (assuming Attacker is charging)
+     Hasted                       +2
+     Slowed                       -2
+     Invisible                    +3 Varies
+     Additional Action Attempted  -5 per additional action
+     All-Out Attack               +1 Attack, -2 Defense (stackable)
+     All-Out Defense              +1 Defense, -2 Attack (stackable)
+     Injury                       -1/5 points or 
+                                  -1/((BOD + 10) / 2) (OPTIONAL)
+     Fatigue                      -1/fatigue          (OPTIONAL)
+
+- 9.1 Experience Awards 
+
+Experience Points (EP) are awarded in five categories 
+
+     (a) Adventure/goals fulfilled
+     (b) Bard's tale/heroics
+     (c) Conflict/danger
+     (d) Forethought/ingenuity
+     (e) Growth/interaction
+
+1-6 dice can be awarded in each category depending on the significance of the event or session. 
+
+     Significance  Dice (d6)  Constant
+     ------------  ---------  --------
+     None          0             0
+     Noteworthy    1             4
+     Impressive    2             8
+     Spectacular   4            16
+     Legendary     6            24
+
+- 9.3 Affliction
+
+Afflicted:      d10-d10 + WIL + BODY     >= VIRULENCE
+Resistance:     d10-d10 + FIT + BODY + 5 >= VIRULENCE

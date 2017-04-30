@@ -1,0 +1,50 @@
+<sect1>
+<title>Combat</title>
+<para>
+Key factors that determine the lethality of a weapon: Control, Impact and Range
+</para>
+
+<para>
+Control: How easy the weapon is to use.
+</para>
+
+<para>
+Impact: The degree of damage that can be done with the weapon, depending on
+the weapon's mass and velocity of the part that hits the target.
+Momentum p = mv, where m is the object's constant mass and v the velocity.
+</para>
+
+<sect2>
+<title>Thoughts on combat actions</title>
+<para>
+Every combatant can do 1 offensive action per round unless otherwise specified.
+For each additional offensive action taken during a round, a penalty of 5 is subtracted from ALL actions that round.
+So making an additional attack will reduce both attacks AND all defences by 5 for that round.
+
+[Offensive action penalty = -5 x (# of attacks - 1)
+</para>
+
+<para>
+Every combatant is considered to defend themselves unless otherwise specified and will get to defend against all incoming attacks.
+However, defending against multiple opponents is more difficult than defending against a single opponent.
+For each opponent except the first, all defence checks are done with a -5 penalty.
+So defending against two opponents will reduce both defence checks by 5.
+Defending against three opponents will reduce all three defence checks by 10, and so on.
+
+[Defensive action penalty = -5 x (# of opponents - 1)
+</para>
+
+<para>
+Offensive and defensive action penalties are cumulative.
+</para>
+
+<example>
+Making two attacks against two opponents in addition to defending against both of them will result in a total penalty of -10 on all actions:
+-5 for the additional attack
+-5 for defending against the second opponent
+= -10
+</example>
+</sect2>
+
+</sect1>
+

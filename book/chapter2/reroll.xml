@@ -1,0 +1,64 @@
+<sect1><title>Reroll Method</title>
+<para>
+For Task Resolution, DNet uses two ten sided dice of contrasting colors.
+Each dice can generate a result from 1 to 10: the 0 on the dice is considered
+to be a 10.
+</para>
+
+<para>
+Before rolling, choose which dice will be the positive dice and which will be
+the negative one. In the examples below, the white dice is positive, while
+the black one is negative. You then roll the two dice and substract the
+negative one from the positive one.
+</para>
+
+<para>
+<example><title>d10-d10</title>
+<screen>
+White dice (+): 6
+Black dice (-): 7
+Result:        -1
+</screen>
+</example>
+</para>
+
+<para>
+When you roll a 10 on one (or both) dice, you compute the partial result and
+reroll the 10, adding or substracting the new roll, as appropriate. If you
+also roll a 10 on the reroll, you add it to the partial result and reroll
+again. You reroll as long as you keep rolling 10s... or until the GM asks to
+verify your dice. ;)
+</para>
+
+<para>
+Using this method is denoted as d10-d10* throughout the rules.
+</para>
+
+<para>
+<example><title>d10-d10*</title>
+<screen>
+White dice (+):  10
+Black dice (-):  2
+Partial result:  8
+White dice (+):  3
+Final result:    11
+
+White dice (+):  7
+Black dice (-):  10
+Partial result:  -3
+Black dice (-):  3
+Final result:    -6
+
+White dice (+):  10
+Black dice (-):  10
+Partial result:  0
+White dice (+):  10
+Black dice (-):  3
+Partial result:  7
+White dice (+):  1
+Final result:    8
+</screen>
+</example>
+
+</para>
+</sect1>

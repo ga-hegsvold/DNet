@@ -1,0 +1,110 @@
+<sect1><title>Fatigue</title>
+<sect2><title>Efforts</title>
+<para>
+Each time a character performs an action, he accumulates Fatigue, be it mental
+or physical. This accumulated Fatigue makes it harder for him to perform
+subsequent actions. At some point, he is too Fatigued to do anything correctly
+and has to rest. (For simplicity, both mental and physical fatigue are
+encompassed by the Fatigue Heap).
+</para>
+
+<para>
+Some Skills will tire a character faster than others.
+</para>
+
+<example><title>Efforts</title>
+<screen>
+Reading is less draining that moving 10 kg rocks to build a wall.
+Thus, the person moving rocks will get tired much faster than the person who
+is reading.
+</screen>
+</example>
+
+<para>
+To take this into account, each character has a Fatigue Heap, which is
+initially at 0 when he is fully rested and which increases as the character
+performs various activities. The more exacting these activities are, the
+faster the Fatigue Heap increases.
+</para>
+
+<example><title>Fatigue Rating</title>
+<screen>
+Taking a second look at our above example, we could qualify reading as a light
+Effort, while moving rocks would be a moderate Effort. The character moving
+rocks would thus have to increase is Fatigue every 15 minutes, while the one
+reading would only increase it every hour (see the table below).
+</screen>
+</example>
+
+<para>
+The Fatigue Heap is always increased by 1 plus the Encumbrance Penalty (see
+the Encumbrance rules) each time it is augmented, no matter which
+activity is performed. The frequency at which the Fatigue Heap is increased
+depends on the effort required by the Skill or activity. In the case of
+Skills, one or more Fatigue Ratings will be associated with various uses of
+the Skill, which makes it easy to find the Fatigue increment frequency. For
+movement, this frequency depends on the movement speed (see the movement rules).
+As usual, the GM can always change the frequency at which Fatigue is increased.
+</para>
+
+<para>
+While many Skills will have one or Fatigue Ratings associated with them, the
+GM will often have to determine how wearing a Task is. In that case, we
+recommend that the GM describes the effort required in words and then
+associates this effort with the appropriate frequency for increasing Fatigue.
+</para>
+
+<informalexample>
+<screen>
+For example, a Task that requires a moderate-heavy effort would require to
+increase the Fatigue Heap every 4 minutes.
+</screen>
+</informalexample>
+
+<table frame="all"><title>Fatigue Rating</title>
+<tgroup cols="4" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<thead>
+<row><entry>Effort</entry><entry>Recuperation</entry><entry>Frequency</entry><entry>Fatigue Rating</entry></row>
+</thead>
+<tbody>
+<row><entry>Light</entry><entry>...</entry><entry>1 hour</entry><entry>(1)</entry></row>
+<row><entry>...</entry><entry>...</entry><entry>30 minutes</entry><entry>(2)</entry></row>
+<row><entry>Moderate</entry><entry>Rest</entry><entry>15 minutes</entry><entry>(3)</entry></row>
+<row><entry>...</entry><entry>Sleep</entry><entry>8 minutes</entry><entry>(4)</entry></row>
+<row><entry>...</entry><entry>...</entry><entry>4 minutes</entry><entry>(5)</entry></row>
+<row><entry>...</entry><entry>...</entry><entry>2 minutes</entry><entry>(6)</entry></row>
+<row><entry>Heavy</entry><entry>...</entry><entry>1 minute (10 rounds)</entry><entry>(7)</entry></row>
+<row><entry>Strenuous</entry><entry>...</entry><entry>5 rounds (30 secs)</entry><entry>(8)</entry></row>
+<row><entry>...</entry><entry>...</entry><entry>3 rounds</entry><entry>(9)</entry></row>
+<row><entry>...</entry><entry>...</entry><entry>1 round</entry><entry>(10)</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Note: the Fatigue rules are optional for most Skill checks but is recommended
+for the magic and movement rules. In the magic rules, Fatigue limits the
+number of Spells that can be cast, while in the movement rules it limits the
+distance that can be covered.
+<!--
+If you do not use Fatigue for magic or movement,
+you will end up with an insanely heroic setting (where characters can sprint
+for 100 km or cast 100 spells in a row...).
+-->
+</para>
+</sect2>
+
+<sect2><title>Recuperation</title>
+<para>
+A resting character recovers one Fatigue point every 15 minutes. A sleeping
+character recovers one Fatigue point every 8 minutes (or two every 15
+minutes). Samples activities that can be considered as resting are: talking,
+eating, sitting, meditating, ... Of course, the character must not perform
+another activity at the same time.
+</para>
+</sect2>
+</sect1>

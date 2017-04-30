@@ -1,0 +1,278 @@
+<sect1><title>Master Species List</title>
+<sect2><title>Fantasy species</title>
+<sect3><title>Human</title>
+
+<informaltable frame="none">
+<tgroup cols="3" align="center">
+<colspec colnum="1" colname="c1" align="right" colwidth="1*" />
+<colspec colnum="2" colname="c2" align="left" colwidth="1*" />
+<colspec colnum="3" colname="c3" align="center" colwidth="1*" />
+<tbody>
+<row>
+	<entry>World:</entry>
+	<entry>Planescape</entry>
+	<entry morerows="10">
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="../images/dagger.gif" />
+			</imageobject>
+		</inlinemediaobject>
+	</entry>
+</row>
+<row><entry>Author:</entry><entry>Geir Atle Hegsvold</entry><!--entry></entry--></row>
+<row><entry>Version:</entry><entry>1.0</entry><!--entry></entry--></row>
+<row><entry>Cultures:</entry><entry>Civilized</entry><!--entry></entry--></row>
+<row><entry>Can be a PC?</entry><entry>Yes</entry><!--entry></entry--></row>
+<row><entry>EP cost:</entry><entry>0</entry><!--entry></entry--></row>
+<row><entry>Average Ht:</entry><entry>180 cm</entry><!--entry></entry--></row>
+<row><entry>Average Wt:</entry><entry>80 kg</entry><!--entry></entry--></row>
+<row><entry>Size Rating:</entry><entry>0</entry><!--entry></entry--></row>
+<row><entry>Lifespan:</entry><entry>60 years</entry><!--entry></entry--></row>
+<row><entry>Mental Talents:</entry><entry>All are average</entry><!--entry></entry--></row>
+<row><entry>Physical Talents:</entry><entry>All are average</entry><entry></entry></row>
+<row><entry>Natural Resistance:</entry><entry>0</entry><entry></entry></row>
+<row><entry>Speed:</entry><entry>5 m/rd; 3 km/h</entry><entry></entry></row>
+<row><entry></entry><entry></entry><entry></entry></row>
+<row><entry>Innate Gifts:</entry><entry>None</entry><entry></entry></row>
+<row><entry>Innate Foibles:</entry><entry>None</entry><entry></entry></row>
+<row><entry></entry><entry></entry><entry></entry></row>
+<row><entry>Cultures:</entry><entry></entry><entry></entry></row>
+<row><entry></entry><entry></entry><entry></entry></row>
+<row><entry>Description:</entry><entry></entry><entry></entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+</sect3>
+
+<sect3><title>Imp</title>
+<formalpara><title>World</title>
+<para>
+Planescape
+</para>
+</formalpara>
+
+<formalpara><title>Author</title>
+<para>
+Geir Atle Hegsvold
+</para>
+</formalpara>
+
+<formalpara><title>Version</title>
+<para>
+1.0
+</para>
+</formalpara>
+
+<formalpara><title>Cultures</title>
+<para>
+See description.
+</para>
+</formalpara>
+
+<formalpara><title>Can be a PC?</title>
+<para>
+Yes.
+</para>
+</formalpara>
+
+<formalpara><title>EP cost</title>
+<para>
+345
+</para>
+</formalpara>
+
+<formalpara><title>Average Ht</title>
+<para>
+60 cm.
+</para>
+</formalpara>
+
+<formalpara><title>Average Wt</title>
+<para>
+5 kg.
+</para>
+</formalpara>
+
+<formalpara><title>Size Rating</title>
+<para>
+-4
+</para>
+</formalpara>
+
+<formalpara><title>Lifespan</title>
+<para>
+Immortal (+50)
+</para>
+</formalpara>
+
+<formalpara><title>Mental Talents</title>
+<para>
+AUR +2, INT 0, PER +2, PSY 0, WIL -2 (+40)
+</para>
+</formalpara>
+
+<formalpara><title>Physical Talents</title>
+<para>
+AGI +2, BOD -17, DEX +2, FIT 0, STR -9 (-440)
+</para>
+</formalpara>
+
+<formalpara><title>Natural Resistance</title>
+<para>
+-4 (-80)
+</para>
+</formalpara>
+
+<formalpara><title>Speed</title>
+<para>
+<itemizedlist>
+<listitem><para>Base: 2 m/rd, 1.2 km/h (-15)</para></listitem>
+<listitem><para>Walk: x2</para></listitem>
+<listitem><para>Run: x4</para></listitem>
+<listitem><para>Sprint: x8</para></listitem>
+<listitem><para>Max: x12</para></listitem>
+</itemizedlist>
+</para>
+</formalpara>
+
+<formalpara><title>Innate Gifts</title>
+<para>
+<itemizedlist>
+<listitem><para>Don't need sleep (+30)</para></listitem>
+<listitem><para>Fly 20 m/rd (+60)</para></listitem>
+<listitem><para>Immune to cold (+50)</para></listitem>
+<listitem><para>Immune to electricity (+50)</para></listitem>
+<listitem><para>Immune to fire (+50)</para></listitem>
+<listitem><para>Immune to non-magical weapons (+100)</para></listitem>
+<listitem><para>Invisibility 1/rd (+40)</para></listitem>
+<listitem><para>Magic resistance +5 (+25)</para></listitem>
+<listitem><para>Poison: Imp's Sting (+100)</para></listitem>
+<listitem><para>Sense aura (+45)</para></listitem>
+<listitem><para>Shape change (2 forms) 1/rd (+80)</para></listitem>
+<listitem><para>Regenerate 1 injury/rd (+200)</para></listitem>
+</itemizedlist>
+</para>
+</formalpara>
+
+<formalpara><title>Innate Foibles</title>
+<para>
+<itemizedlist>
+<listitem><para>Ugly -4 (-20)</para></listitem>
+<listitem><para>Hurt by silver (1 injury/rd on contact) (-20)</para></listitem>
+</itemizedlist>
+</para>
+</formalpara>
+
+<formalpara><title>Cultures</title>
+<para>
+These creatures do not really have a society. Imps fit in with whatever plans
+their baatezu masters dream up, and they follow these schemes to the best of
+their abilities. They may be weak and low, but they are smart enough to know
+that they had better do what they are told. That is the only way they can
+advance.
+</para>
+</formalpara>
+
+<para>
+Most importantly, imps realize that they have sidestepped one of the
+most dangerous things about being a larva. By accepting the changes thrust upon
+them, they avoid being turned into lemures, or other fodder for the Blood War.
+</para>
+
+<formalpara><title>Description</title>
+<para>
+The Lower Planes are full of larvae. Some of them are brought to the
+attention of greater fiends and twisted into new and interesting forms.
+When a baatezu twists a larva in just the right way, it becomes an imp.
+</para>
+</formalpara>
+
+<para>
+The poor imps are rigidly regulated and watched over by their baatezu masters.
+When a mortal is judged "worthy," the fiends may make a gift of an imp to that
+poor basher. Oho! It is no good gift! From that point on, the imp starts to
+corrupt the mortal and drag his heart, inch by inch, closer to the grasp of
+the baatezu.
+</para>
+
+<para>
+Chant is imps that do well can be turned into baatezu.
+If one of these little creatures is willing to start small and work up through
+the ranks, it could go far.
+</para>
+
+<para>
+Imps are about 60 cm tall, have wings and can fly. They also have poison in
+their bodies. A lucky imp can even take out a dragon with a well-placed sting.
+An imp can change its shape into any two of these forms: large spider, raven,
+goat, or giant rat.
+</para>
+
+<para>
+Imps muddle through centuries of existence as neuter beings.
+When they have done enough good jobs to please their masters, they are assigned
+a gender according to the traits of their work.
+</para>
+
+<para>
+Imps are usually too busy to sleep. Their fiend masters and their mortal
+masters always send them out to do evil things. Many imps do not care;
+they do not need sleep at all. But sometimes they get tired of running around
+and they hide in one of their animal shapes so they can rest somewhere.
+</para>
+
+<para>
+As far as food goes, imps eat whatever they can get, as long as it is meat.
+The creatures do not care if the meat is alive or dead, or if it has been
+steeped in fear or gehreleth slime. It just has to be meat.
+</para>
+
+<para>
+When the baatezu twist larvae into imps, they wring a few special powers into
+their new servants. All imps have a strange ability to sense if you have
+something bad in mind, and they can turn invisible to hide from anything that
+worries them. They also love fire, cold, and lightning. And Believe it or not,
+these puny creatures are very resistant to magic.
+</para>
+
+<para>
+But like baatezu they keep a good distance when it comes to anything made out
+of silver. Good for them they have such an amazing regeneration rate.
+</para>
+
+<para>
+Also, imps are good at talking other berks into doing things. Their tongues
+are like Elysium honney-cookies, dipped in the poisonous waters of Vudra.
+</para>
+
+<para>
+If slain off their home planes, imps just reform back home after a
+year and a day. But if you kill an imp on Baator, they are blasted into
+eternal oblivion.
+</para>
+
+<para>
+Like most small infernal creatures, imps act weak to tough berks and tough to
+weak ones. To those they serve, they are ingratiating and endlessly helpful.
+But they lord their little might over any sods unfortunate enough to come under
+their power.
+</para>
+
+<para>
+Most of them are also very concerned about their potential advancement.
+If you offer one a hand up on the food chain, you might earn its loyalty,
+at least for a small time. But oho! These alliances don't last long,
+and if you count that they will, you might as well count yourself right into
+the dead-book, because that's exactly where the little horrors would like to
+put you, mortal.
+</para>
+
+</sect3>
+</sect2>
+
+<sect2><title>Sci-fi species</title>
+<para>
+</para>
+</sect2>
+</sect1>

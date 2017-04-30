@@ -1,0 +1,25 @@
+<sect1><title>Introduction</title>
+<para>
+Like every other aspect of DNet, the magic system is essentially made up
+of skills and tasks which use those skills. In the specific case of the magic
+system, the skills are those which give a character the capability to cast a
+magical spell, and the tasks are: first, the use of source skills to access
+the power for the spell, and second, the use of conductor skills to actually
+cast the spell.
+</para>
+
+<example><title>Fireball Spell</title>
+<screen>
+To cast the "Fireball" spell involves two tasks,
+the first of which requires the application of the "Power of Energy" skill and
+the second of which requires the application of the "Fire Focus" skill.
+</screen>
+</example>
+
+<para>
+Magic often varies from gameworld to gameworld, but the mechanics of how magic
+works are still the same. In here we will use examples of how magic works of
+the type of magic found in Corellus. The guidelines presented for created
+types of magic and spells are just that: guidelines.
+</para>
+</sect1>

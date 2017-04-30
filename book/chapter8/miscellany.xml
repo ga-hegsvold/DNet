@@ -1,0 +1,8 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Miscellany</title>
+
+<xi:include href="ep_awards.xml" />
+<xi:include href="affliction.xml" />
+<xi:include href="guide.xml" />
+
+</chapter>

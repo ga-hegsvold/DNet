@@ -1,0 +1,20 @@
+<sect1><title>Spell Template</title>
+<screen>
+Spell Name
+----------
+World:
+Author:
+Version:
+----------
+Source(s)
+Source TD
+Conductor(s)
+Conductor TD
+Power Level
+
+Casting Time
+Duration
+Range
+Volume of Effect
+</screen>
+</sect1>

@@ -1,0 +1,92 @@
+<sect1>
+	<title>Magic</title>
+
+	<para>
+	<quote>To the magician the magical act, that of causing a transformation
+	in a thing or things with or without any physical contact, is accomplished by an
+	imaginative act accompanied by the will that the wanted change will occur.
+	The magical act and imaginative act becomes one and the same.
+	The magician knows with certainty that for the change to occur he must will
+	it to happen and firmly believe it will happen.
+	Here it may be noted that magic and religion are akin:
+	both require belief that a miracle will occur.</quote>
+	</para>
+
+	<para>
+	Willpower should be an integral part of doing magic. Only the really
+	headstrong and will-full should be able to change reality by will alone.
+	</para>
+	
+	<para>
+	When power is drawn from external sources (internal being the mage
+	himself), other attributes than willpower should be considered.
+	More spiritual attributes might be used - as in psyche, or maybe even
+	aura as in gaining the "favour" of an entity able to bestow power on the
+	mage.
+	</para>
+	
+	<para>
+	I'm thinking gathering the necessary energy should be tiring and hence
+	increase fatigue.
+	Controlling or conducting the energy should..
+	Source uses WIL
+	Conductor uses PSY/INT
+	</para>
+
+	<para>
+	How magic works mechanicaly:
+	</para>
+
+	<orderedlist>
+		<listitem><para>
+	When the desired effect, source and conductor is decided, the mage starts
+	to gather the energy (Source check). This should take time proportional
+	to the energy gathered. A mage should have a potential that will limit
+	the amount of energy he is able to gather at any one time. If this potential
+	is exceeded, the mage could (read: should) be in trouble. 
+	The mage is using his own body/soul/whatnot as a temporary storage
+	for the gathered energy. Exceeding the potential may result in overload!
+		</para></listitem>
+		<listitem><para>
+	When the desired amount of energy is gathered, the mage will then channel
+	this energy into the desired effect (Conductor check). If this check fails,
+	magic is astray and weird things might happen.
+	This should take time proportional to the intricacy of the desired effect.
+	The more complex the effect, the more time is required.
+	The process may be speed up at the cost of an increased Conductor TD.
+		</para></listitem>
+	</orderedlist>
+	
+	<para>
+	Gather, contain, conduct. Your typical Fireball<superscript>TM</superscript> spell.
+	</para>
+
+	<para>
+	Gather, conduct while continued gathering (continuous flow of energy).
+	This would be more subtle effects over a prolonged period of time (seconds, minutes, days, even years).
+	</para>
+	
+	<para>
+	Aim conduction, gather and conduct (continuous flow of energy).
+	</para>
+	
+	<para>
+	Magical potential: Could use a mage's Magical Source skill.
+	Gathered energy = Magical Source tr lvl [+ Talent (WIL?)]
+	</para>
+	
+	<sect2>
+		<title>Magic and the Planes</title>
+		<para>How do the Planes affect the various ways of performing Magic?
+		</para>
+		
+		<para>Elemental magic should be enhanced when performed on the Elemental Planes.
+		For instance, Fire magic should be enhanced on the Plane of Fire, Earth magic should be enhanced on the Plane of Earth, etc.
+		</para>
+		
+		<para>Similarilty, specific conductors of elemental magic should be diminished or even cancelled when used on unrelated or opposed Elemental Planes.
+		Fire cancelled on the Plane of Water, Air on the Plane of Earth, etc.
+		</para>
+	</sect2>
+	
+</sect1>

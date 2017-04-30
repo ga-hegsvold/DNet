@@ -1,0 +1,106 @@
+From daemon@cs.nmt.edu Thu Mar  2 22:39:43 1995
+Return-Path: <daemon@cs.nmt.edu>
+Received: from sphinx.cs.nmt.edu by vlsi.polymtl.ca (4.1/SMI-4.1.1)
+	id AA20319; Thu, 2 Mar 95 22:39:33 EST
+Errors-To: dncore-owner@cs.nmt.edu
+Received: (from daemon@localhost) by sphinx.cs.nmt.edu (8.6.8.1/8.6.6) id UAA11997 for dncore-mail; Thu, 2 Mar 1995 20:26:40 -0700
+Received: from GAS.UUG.Arizona.EDU (helium.GAS.UUG.Arizona.EDU [128.196.137.152]) by sphinx.cs.nmt.edu (8.6.8.1/8.6.6) with SMTP id UAA11989; Thu, 2 Mar 1995 20:26:37 -0700
+Received: by helium.4997..9503030328 (5.0/SMI-SVR4)
+	id AA04997; Thu, 2 Mar 1995 20:28:04 -0700
+Date: Thu, 2 Mar 1995 20:28:03 -0700 (MST)
+From: Robert Baker <rbaker@gas.uug.arizona.edu>
+To: DNET CCA mail list <dncca@sphinx.cs.nmt.edu>
+Cc: DNET Core mail list <dncore@sphinx.cs.nmt.edu>
+Subject: Advantages and Disadvantages
+Message-Id: <Pine.SOL.3.91.950302201836.3936A-100000@helium.gas.uug.arizona.edu>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Length: 4329
+Reply-To: dncore@cs.nmt.edu (The dncore mailing list)
+Errors-To: dncore-owner@cs.nmt.edu
+X-Bmw: Black Marble Wombat Version 5.1
+Status: OR
+
+Bob,
+
+You beat me to posting the CCA pre-alpha rules by mere minutes!  Anyway, 
+I like some of the stuff you've got in your version better than mine so 
+I'll let it stand.  Here is what I wrote up to cover advantages and 
+disadvantages for character creation.  I've included some examples and 
+possible costs.  These can be modified is they are too low or high.  
+Also, I'd like to encourage everyone to add to the lists.  BTW, I'm 
+sending this to both CCA and Core lists.
+
+
+------------------------
+Advantages/Disadvantages
+------------------------
+
+In addition to skills, a character may purchase advantages and disadvantages
+with his or her LE.  If a character chooses a disadvantage, he or she
+receives additional LE (as given below) which can be spent freely on
+advantages or other skills as the player chooses.  Some advantage and
+disadvantages are listed below, with their associated costs.  The GM is
+encouraged to add to or subtract advantages from this list that are
+particularly relevant or inappropriate to his campaign.
+
+Advantages
+----------
+Name              Cost     Description
+--------------------------------------
+Ambidexterous       10     Character can use either hand equally well
+Disease immunity     8     Character is immune to a particular disease or
+                            is generally resistant to all disease (but not
+                            necessarily immune)
+Double jointed      10     Character has a greater then normal range of
+                            movement for one or more bodily joints.  The
+                            character is able to escape most bonds and/or
+                            can fit himself into tight spaces
+Photographic memory 15     Character can remember details even if only seen
+                            once.  The character can remember and recite long
+                            lists, recall facts, memorize and remember faces,
+                            names, room details, etc.  Note that this does
+                            not operate automatically, but rather only when
+                            the character makes an effort to remember
+                            something.  (may not be necessary - see skills)
+Toughness           10     Character has greater than normal resistance to
+                            damage.  (all consciousness rolls made at +1,
+                            extra `hit points', or whatever)
+Title               15     Character is the son or daughter of a noble and is
+                            in line for the title.  As such, he or she has
+                            some influence with the town guard, the ruler of
+                            the region, etc. and can get minor favors done
+                            for him or her.  (value may change depending on
+                            power of the noble parent)
+
+Disadvantages
+-------------
+Name              Bonus    Description
+--------------------------------------
+Missing Limb        25     Character is missing an arm or leg.
+Color blindness      8     Character is unable to distinguish certain colors
+                            from one another.
+Alcoholism          10     Self explanatory
+Phobia            5-20     Character has an irrational fear of an object or
+                            situation.  The bonus LE received will depend on
+                            the severity of the phobia.  For example,
+                            claustrophobia would be very bad for an
+                            adventurer and might get 20 pts, while
+                            arachnophobia (fear of spiders) might only get 5.
+                            Triscadecaphobia (fear of the number 13) might
+                            not warrant any.
+Powerful enemy      10     The character or his family has made an enemy in
+                            the past.  The enemy will always be watching for
+                            the character and will take every opportunity to
+                            make his or her life miserable.
+
+Question:  Should we list phobias seperately?  I went round and round on 
+this.  There are so many, but we could list some of the most interesting 
+or relevant ones.  I can't remember the name for the fear of blood 
+(hemaphobia?) but that would be a good one!
+
+Hope this helps.
+
+Robert
+
+

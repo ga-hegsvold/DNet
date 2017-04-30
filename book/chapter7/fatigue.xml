@@ -1,0 +1,62 @@
+<sect1><title>Fatigue and Casting Time</title>
+<para>
+Casting spells is neither instantaneous, nor easy. While some very simple
+spells can be cast in one or two seconds and with little effort, most spells
+take at least a full round to cast and leave the magic user fatigued.
+</para>
+
+<para>
+When casting a spell, the magic user has to channel the magical energy,
+which is a very demanding activity for the magus body. The fatigue created
+by the spell is thus proportional to the amount of energy tapped, i.e. to
+the Source Task Difficulty. The Fatigue heap of the magus is increased by
+one plus one fifth of the Source TD, rounding up, after the spell has been
+completed. If the spell fails, the magus suffers from only half the normal
+Fatigue associated with the spell. This Fatigue affects all subsequent
+actions, including other spells cast by the magus.
+</para>
+
+<para>
+While tapping a Source of magical energy takes time, it is a fast process
+which does not impact much on the casting time of the spell. Harnessing and
+shaping that energy into a useful spells takes more time and the casting
+time of a spell therefore depends on the Conductor TD. The casting time of a
+spell is equal to 5 plus the Conductor TD in seconds. The spell goes off in
+the round during which its casting ends.
+</para>
+
+<example><title>Fatigue And Casting Time For Fireball Spell</title>
+<screen>
+The "Fireball" spell has a Conductor TD of 5 and thus takes 10
+seconds to cast, going off in the round after the casting has begun. A spell
+with a casting time of 18 seconds would go off in the third round of the
+casting.
+</screen>
+</example>
+
+<para>
+In the DNET system, each round lasts 6 seconds, so that there are 10
+rounds per minute.
+</para>
+
+<para>
+<emphasis>
+OPTIONAL:
+If Fatigue is not used with the rest of the rules, the game master may wish to
+simplify its application for the magi. One option is to increment Fatigue
+normally when casting a spell, but not to apply it as a penalty to subsequent
+actions. As a limiting factor to spell casting, the magi are only able to cast
+spells for which their Source skill is greater than their Fatigue heap.
+</emphasis>
+</para>
+
+<example><title><emphasis>Alternate Fatigue</emphasis></title>
+<screen>
+<emphasis>
+If a magician has a skill of 15 in the "Elemental Power of Energy",
+he could only cast the Fireball spell has long as his Fatigue heap
+remains below 15.
+</emphasis>
+</screen>
+</example>
+</sect1>

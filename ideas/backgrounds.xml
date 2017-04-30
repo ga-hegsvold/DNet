@@ -1,0 +1,68 @@
+<sect1>
+<title>Backgrounds</title>
+<para>
+Backgrounds are like Gifts and Flaws only they relate more to a
+character's history rahter than to a character's abilities.
+</para>
+
+<para>
+Freeform text is a fairly good way of describing a characters background.
+Would it be even better to combine it with predetermened backgrounds
+as in the Storyteller system?
+</para>
+
+<para>
+<screen>
+Ex:
+Bloodline (depending on definition, could be a Gift or Flaw or both)
+Bloodline, Planetouched - Someone of your ancestors where not human.
+Resources
+Social Status/Influence
+Allies
+Enemies
+Secret Identity
+Contacts
+Devine Spark - the Spark of the upper planes; potential God? Wherever you thread, light follows. Easily recognized for what you are.
+Infernal Taint - the Taint of Evil runs through your vains. Darkness surrounds you. Intimidating. You spread fear. Easily recognized for what you are.
+</screen>
+</para>
+
+<!--
+<para>
+Not to be confused with Gifts and Flaws! Or could Backgrounds just be
+Gifts or Flaws related to a characters history?
+</para>
+-->
+
+<para>
+Backgrounds should be characteristics relating to characters, to characters
+history, etc.
+Where Gifts and Flaws are [internal] characteristics of a character,
+Backgrounds are [external] characteristics.
+Gifts and Flaws are inate characteristics a character is born with.
+Backgrounds are characteristics that are accumulated over a period of time
+in a character's history.
+Backgrounds tend to be of a more social nature than Gifts and Flaws.
+</para>
+
+<formalpara>
+<title>Purpose of predefined Backgrounds</title>
+<itemizedlist>
+	<listitem><para>To work as hooks and inspiration for describing a character's history.</para></listitem>
+	<listitem><para>To be a guide on what aspects of a character's history to focus on that could be relevant in a game session.</para></listitem>
+	<listitem><para>By assosiating each Background with a value (but not making it a Gauge - that is, not have it increase during play) we will have a way of grading Backgrounds (to indicate its severity/power) and also to compare characters and NPCs with the same or relating Backgrounds.</para></listitem>
+</itemizedlist>
+</formalpara>
+
+<screen>
+Example Background values:
+   | Severity/Power
+---|---------------
+ 1 | Minor
+ 2 | 
+ 3 | Moderate
+ 4 | 
+ 5 | Extreme
+</screen>
+
+</sect1>

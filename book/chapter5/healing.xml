@@ -1,0 +1,81 @@
+<sect1><title>Healing</title>
+<para>
+<table frame="all"><title>Healing Rates</title>
+<tgroup cols="5" align="center" colsep="1" rowsep="1">
+<colspec colname="c1" align="left" colwidth="1*" />
+<colspec colname="c2" align="left" colwidth="1*" />
+<colspec colname="c3" colwidth="1*" />
+<colspec colname="c4" colwidth="1*" />
+<colspec colname="c5" colwidth="1*" />
+<spanspec spanname="headspan" namest="c1" nameend="c2" align="center" />
+<spanspec spanname="hspan" namest="c3" nameend="c4" align="center" />
+<thead>
+<row><entry spanname="headspan"></entry><entry spanname="hspan">Per day</entry><entry></entry></row>
+<row><entry>Activity Level</entry><entry>Example</entry><entry>w/o healer</entry><entry>w/healer*</entry><entry>Weekly Bonus</entry></row>
+</thead>
+<tbody>
+<row><entry>Low</entry><entry>Bed rest</entry><entry>10%</entry><entry>20%</entry><entry>+2d6</entry></row>
+<row><entry>Moderate</entry><entry>Travelling</entry><entry>5%</entry><entry>10%</entry><entry>+1d6</entry></row>
+<row><entry>High</entry><entry>Fighting</entry><entry>0</entry><entry>1</entry><entry>0</entry></row>
+</tbody>
+</tgroup>
+</table>
+* conditions apply (ref. Medicine Skill)
+</para>
+
+<formalpara><title>Per day</title>
+<para>
+Healing Rates per day are based on a percentage of the injured person's Body
+Talent increased by 25.
+</para>
+</formalpara>
+
+<formalpara><title>Activity Level</title>
+<para>
+Means the most demanding level of activity undertaken during any particular day
+or week.
+</para>
+</formalpara>
+
+<formalpara><title>Weekly Bonus</title>
+<para>
+Requires a successful Fitness roll vs Injury:
+</para>
+</formalpara>
+
+<para>
+<literal>d10-d10* + 10 + FIT &gt;= Injury</literal>
+</para>
+
+<para>
+If successful, Injury is reduced by the indicated roll.
+</para>
+
+<example><title>Healing</title>
+<screen>
+A person with a BOD = -3 would heal 2 points of Injury per day
+without healer (10% * (-3+25)) if his Activity Level was low.
+</screen>
+</example>
+
+<para>
+<emphasis>Optional:
+<literal>
+Weekly Bonus = d10-d10* + 10 + FIT - Injury
+</literal>
+</emphasis>
+</para>
+
+<example><title><emphasis>Weekly Healing Bonus</emphasis></title>
+<screen>
+<emphasis>
+If the person form the above example has sustained 10 Injury and he has a
+FIT = 3, his Weekly Bonus would be:
+
+Weekly Bonus = d10-d10* + 10 + FIT - Injury
+             = d10-d10* + 10 + 3   - 10
+             = d10-d10* + 3
+</emphasis>
+</screen>
+</example>
+</sect1>

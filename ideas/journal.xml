@@ -1,0 +1,15 @@
+<sect1>
+<title>Journal</title>
+<para>
+A tool for players to document their character's progress and adventures.
+The journal could be a wrapper for all sheets relevant to a character.
+Ex: Character Tamplate, Gate/Portal Key Register, Aquaintances,
+Places Visited, etc.
+</para>
+
+<screen>
+This is the journal of __________
+</screen>
+
+</sect1>
+

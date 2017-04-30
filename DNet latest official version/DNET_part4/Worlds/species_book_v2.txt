@@ -1,0 +1,615 @@
+DragonNet Volume ??
+
+Species
+&
+Cultures
+
+
+
+
+
+
+The following book is the result of the continuous work of many role-players
+from all over the world. We all came together to create a free role-playing
+game called DragonNet (DNET). Free means: free to obtain and free for
+distribution. It is our intended goal that no one should make more money out
+of a game than it is worth. Many role-players are pupils or students. And this
+is not a group of people with big money to spend for dozens of separate books
+that contain all the rules needed for the game. The basic rules for DNET are
+free to copy for everyone.
+
+And:
+We will surely not disallow designers to make adventures for DNET and sell
+them. We will surely not disallow the use of the name DragonNet in the
+Internet.
+
+But all coordinated efforts need some kind of organization and rules. You will
+find the copyright notice in the main rule book. But be sure that it's an
+acceptable copyright.
+
+I personally want to say that I am happy to be a member of the DragonNet
+Development Team. The discussions in the project groups are very interesting.
+And it is great to see how the Internet can be used for combined efforts of
+people who likely will never personally meet.
+
+
+	J. Lechner
+	Frankfurt/Main, Germany
+	27th September 1996
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Title: Species & Cultures
+
+© 1996 by The DragonNet Development Team
+
+
+
+
+
+
+
+
+
+Table of contents
+
+0 Table of contents	
+0.1 Alphabetical List of all species	
+0.2 Alphabetical List of species for PC	
+1.0 Introduction	
+2.0 Part 1: Species	
+2.1 The species in DragonNet	
+2.2 Species Template	
+2.3 Guide to species creation	
+
+====================================
+0.1 Alphabetical List of all species
+====================================
+C
+Centaur
+
+D
+Dragon
+Dwarf
+
+E
+Elemental
+Elf
+
+G
+Giant
+Goblin
+
+H
+Human
+
+L
+Lizardman
+
+W
+Weejon
+Werewolf
+
+Z
+
+
+Zombie
+
+---------------------------------------
+0.2 Alphabetical List of species for PC
+---------------------------------------
+
+C
+Centaur
+
+D
+D
+warf
+
+E
+Elf
+
+G
+Goblin
+
+H
+Human
+
+L
+Lizardman
+
+W
+Weejon
+Werewolf
+
+
+================
+1.0 Introduction
+================
+
+This book is a collection of species and culture descriptions. It is intended
+to give game masters a variety of species for NPC's and monsters. The first
+part contains the species template and a guide for GM's to create their own
+species. In the second part you will find the culture template and a guide for
+culture creation. The rest of the book contains species and culture
+descriptions already defined by the dnworlds development team. The book is
+easily expandable. You can insert self-defined species. The only thing you
+have to do is to change and reprint the species lists.
+
+Most of the species were created for the sample world Corellus. They are also
+written down in the Corellus World Book. The descriptions in this book are
+different from them. Here you will find generalized descriptions that contain
+the same statistics as in the Corellus World Book but perhaps different (or
+more) culture descriptions. The culture descriptions are the ones common to
+that race. Or at least we thought that they are. ;-) When you compare the
+Species & Cultures and the Corellus World Book then you can see the
+differences. This may be a good guideline, if you like to adapt a race to your
+own world.
+
+The culture descriptions in the second part of the book are also generalized.
+They show you how a specific culture may look like. They need only adaptations
+to some species. For example: A civilized human culture looks different to a
+civilized elven culture.
+
+
+===================
+2.0 Part 1: Species
+===================
+
+----------------------------
+2.1 The species in DragonNet
+----------------------------
+
+This chapter contains: 
+
+Species Template 
+Guidelines for species creation 
+
+Section 4.0 contains all the species contributed by the members of the
+DragonNet Development Team. It is the author's intention to give you a
+resource for PC's and monsters for your own game world. You can use them
+directly out of the book or adapt them to your world.
+
+When you adapt them:
+The statistics of the species should be the same as in Species & Cultures. You
+only have to choose which cultures have been formed by this species in your
+world. The cultures used in the descriptions are the most likely ones that
+will be formed by the species. But this book will only be a toolkit for you to
+create your own species and cultures and bring life in your world.
+
+When you rewrite one:
+If you dislike a specific species description and rewrite it, change the
+entries world and author to make it clear that it is a different description.
+If you change the statistics of the species then choose a new name for it.
+Since there will be (hopefully) several sites with resources for DNET it will
+be confusing to have two or three different descriptions of one species. For
+example: when you rewrite the dwarf using different statistics then you can
+rename it to Big-Nose-Dwarf. ;-)
+
+When you create a new species:
+Look at the Guidelines for species creation. This should help you to make it,
+if you are unexperienced. New species are always welcome in the dnworlds
+development team. You can send your description to the dnworlds mailing list.
+Here we will discuss it, give you feedback and add it to the Species &
+Cultures book.
+
+
+------------------------------
+2.2 DragonNet Species Template
+------------------------------
+
+Version 2.0
+
+Author: Del Hart
+Last revision: Guillaume Fortin
+
+------------
+Species Name
+------------
+Version Number:
+World:
+Author:
+------------
+
+ Cultures:
+ Can be a PC:(Yes/No)
+ EP Cost:    (Use Species EP Cost rules above)
+ Average Ht: (in cm)
+ Average Wt: (in kg)
+ Size Rating:(relative to humans)
+ Lifespan:
+ + Talents:  (List Talent and + value, ex: STR +1)
+ - Talents:  (List Talent and - value, ex: INT -2)
+ BODY:
+ Nat. Res.:
+
+ Base Speed:
+ Walking:
+ Running:
+ Sprinting:
+ Maximum:
+
+Innate Gifts:
+(List Gift and positive EP Cost. For now come up with your own costs. Keep a
+record of these for when we eventually start compiling a Gifts/Foibles
+list.)
+
+Innate Foibles:
+(List Foible and negative EP Cost. For now come up with your own costs. Keep
+a record of these for when we eventually start compiling a Gifts/Foibles
+list.)
+
+Innate Gifts and Foibles are what ALL members of a species are born with.
+Individual members may still have other Gifts/Foibles.
+
+Cultures:
+List of cultures and how the culture of this species is different from the
+default culture description.
+
+Description:
+
+
+-----------------------------
+2.3 Guide to species creation
+-----------------------------
+
+Version 7.0
+Author: Juergen Lechner
+Last revision: Guillaume Fortin
+
+You need to follow these steps to create a species:
+
+  1. Deciding the general idea of the species
+  2. Can a PC be from this species?
+  3. Height, weight and lifespan
+  4. Adjusting attributes / speed
+  5. Body Points
+  6. Natural Resistance
+  7. Innate ISB, Gifts and Foibles
+  8. Calculating EP cost
+  9. Cultures
+  10. IMPACT done by a species weapons
+
+-------------------------------------------
+1. Deciding the general idea of the species
+-------------------------------------------
+
+If you decide to create a new species then you normally have an idea of how
+the species will look like and what are its special characteristics (i.e.
+attributes, abilities, ...). If not, try to visualize a general picture of the
+species and which role it will play in your world.
+
+---------------------------------
+2. Can a PC be from this species?
+---------------------------------
+
+If you want to create a new race for players then you need to calculate the EP
+cost.This is the number of points that must be spent to choose this species as
+a player character's race. Even if you create only a new monster then it will
+be a good way to measure the strength of the species. Everything that gives
+the new species some sort of power will raise the EP cost. And everything
+disadvantageous to it will lower it. Balanced advantages and disadvantages
+will keep the cost near 0.
+
+------------------------------
+3. Height, weight and lifespan
+------------------------------
+
+You then have to define the average
+
+  -> height in m,
+  -> weight in kg and
+  -> lifespan in years. 
+
+According to this you can also see which Size Rating the species has. This is
+an additional value that will be used in combat. Humans have a size rating of
+0.
+
+- - - - - -
+Size Rating
+- - - - - -
+
+You can determine the Size Rating (SR) of your species from the 
+Strength and Size Rating Table given below. Find the average
+height of your species in the Humanoid Height column and note the 
+corresponding SR. Note that this SR is valid if your species has the same 
+proportions as a human, i.e. if it has the same ratio as a human between 
+height and width. If the species is larger for its height than a human, 
+raise its SR value by 1. If it is slimmer, lower its SR by 1.
+
+- - - - - - - - - - - - - - - 
+Strength and Size Rating Table
+- - - - - - - - - - - - - - -
+
+The following table can be used to determine a number of factors relating 
+to a creatures size and strength.
+
+Size     Strength              Humanoid               LOAD   Humanoid
+Factor    Factor    SR    STR   Height  LIFT   LOAD   STEP   species
+----------------------------------------------------------------------
+  0.0623  0.0039   -10    -20    11cm   200g    80g     8g
+  0.0715  0.0051    -9    -19    13cm   255g   100g    10g
+  0.0822  0.0068    -9    -18    15cm   340g   135g    14g
+  0.0944  0.0089    -8    -17    17cm   445g   180g    18g
+  0.108   0.0118    -8    -16    19cm   590g   235g    24g
+  0.125   0.0155    -7    -15    22cm   775g   310g    31g
+  0.143   0.0205    -7    -14    26cm    1.0   410g    41g
+  0.165   0.0271    -6    -13    30cm    1.4   540g    54g
+  0.189   0.0357    -6    -12    34cm    1.8   715g    72g 
+  0.217   0.0472    -5    -11    39cm    2.4   940g    94g
+  0.250   0.0623    -5    -10    45cm    3.1    1.2   120g
+  0.287   0.0822    -4     -9    52cm    4.1    1.6   160g
+  0.329   0.108     -4     -8    59cm    5.4    2.2   220g
+  0.378   0.143     -3     -7    68cm    7.2    2.9   290g
+  0.435   0.189     -3     -6    78cm    9.5    3.8   380g
+  0.500   0.250     -2     -5    90cm     13    5.0    0.5
+  0.574   0.329     -2     -4    1.0m     16    6.5    0.7
+  0.659   0.435     -1     -3    1.2m     22    8.5    0.9
+  0.758   0.574     -1     -2    1.4m     29     11    1.1
+  0.870   0.757      0     -1    1.6m     38     15    1.5   Elf
+  1.0     1.0        0      0    1.8m     50     20    2.0   Human
+  1.15    1.32       0      1    2.1m     65     25    2.5
+  1.32    1.74       1      2    2.4m     85     35    3.5
+  1.52    2.30       1      3    2.7m    115     45    4.5
+  1.74    3.04       2      4    3.1m    150     60    6.0
+  2.00    4.01       2      5    3.6m    200     80    8.0
+  2.30    5.29       3      6    4.1m    265    105     11
+  2.64    6.98       3      7    4.8m    350    140     14
+  3.04    9.22       4      8    5.5m    460    185     19
+  3.49    12.2       4      9    6.3m    610    245     25
+  4.01    16.1       5     10    7.2m    805    320     32
+  4.60    21.2       5     11    8.3m   1060    425     43
+  5.29    28.0       6     12    9.5m   1400    560     56
+  6.08    36.9       6     13     11m   1850    740     74
+  6.98    48.8       7     14     13m   2440    975     98
+  8.02    64.4       7     15     14m   3220   1290    130 
+  9.22    85.0       8     16     17m   4250   1700    170
+  10.6     112       8     17     19m   5610   2240    225
+  12.2     148       9     18     22m   7400   2960    300
+  14.0     195       9     19     25m   9770   3910    390
+  16.1     258      10     20     29m  12900   5160    520
+----------------------------------------------------------------------
+
+-------------------------------
+4. Adjusting attributes / speed
+-------------------------------
+
+The steps above will tell you in which way you may change the Talents of the
+species. The average attributes of a human are all 0 and ranges normally from
+-5 to +5. When you adjust a Talent, you decide how much it will differ from
+the human standard. You do this by adding or subtracting a specific value.
+
+For example:
+The new species is taller and lighter than a human but more flexible
+and agile. This could mean:
+Talents modifiers: AGI +1, FIT -1, STR -1<br>
+
+The resulting EP cost would be -10. This could offset the cost of another
+advantage.
+
+The Talents are:
+-----------------------------------------------------------------------------
+                               Physical
+-----------------------------------------------------------------------------
+  AGI    Agility             Body control; balance; rythm; flexibility
+  BEA    Beauty              How nice you look
+  DEX    Manual Dexterity    Hand-eye coordination; fine motricity of the 
+                             arms and hands; sensivity to touch
+  FIT    Fitness             Bodily health; resistance to hardship, injury 
+                             or disease
+  STR    Strength            Rating of Physical power for short and prolonged 
+                             use
+-----------------------------------------------------------------------------
+                                Mental
+-----------------------------------------------------------------------------
+  AUR    Aura               Non-tangible complement to beauty; charisma
+  INT    Intelligence       Memory; analytical and reasoning ability; 
+                            speed of thought
+  PER    Perception         Includes alertness and observational acuity
+  PSY    Psyche             Creativity, Intuition, affinity to the natural 
+                            and supernatural
+  WIL    Willpower          Self discipline and mental fortitude 
+                            (i.e. mental fitness)
+-----------------------------------------------------------------------------
+
+For a detailed description of the attributes please refer to the character
+creation guide in the rules.
+
+- - - - - -
+Base Speed
+- - - - - -
+
+This is not an attribute but results directly from them. Decide which speed is
+a logical result from its Talents and the species size. The base speed is
+normally given in both meters/round and km/h. To find the speed in km/h,
+multiply the speed in meters/round by 0.6. Inversely, to find the speed in
+meters/round, divide the speed in km/h by 0.6.
+
+Standard speeds:
+
++-------------+----------------------+------------------------+---------+
+|             |         Human        |      Other Species     | Fatigue |
+|             |  km/hour    m/round  |                        | Rating  |
++-------------+----------------------+------------------------+---------+
+| Base        |     3           5    | In species description |   (1)   |
+| Walking     |     6          10    | 2*Base                 |   (1)   |
+| Running     |    12          20    | 4*Base                 |   (3)   |
+| Sprinting*  |    24          40    | 8*Base                 |   (7)   |
+| Max**       |    36          60    | 12*Base                |  (10)   |
++-------------+----------------------+------------------------+---------+
+
+To decide which Base Speed is reasonable look at the speed ratings for humans:
+
+  -> walking speed = Base Speed *2
+  -> running speed = Base Speed * 4
+  -> sprinting speed = Base Speed * 8
+  -> maximum speed = Base Speed * 12
+
+This means that a species with a Base Speed of 6 meters/round walking at a normal 
+pace is as fast as a human who is jogging.
+
+It is suggested that you specify the base, walking, running, sprinting and
+maximum speeds in the species description, to simplify the life of game
+masters and players. In  general, these speeds will be calculated from the
+formulas above. If you want to use different formulas for your species, please
+write them beside the calculated speeds. For example, the quantum leap monster
+could have base speed of 30 meters/round with a walking speed of 90
+meters/round (Base Speed * 3) and a maximum speed of 120 meters/round (Base
+Speed * 4).
+
+--------------
+5. Body Points
+--------------
+
+Each species will be rated with a constant BODY score of X.
+Add (Body Points - Human Body Points)*10 to EP cost.
+
+A good way to estimate the BODY of your new species is to set it in proportion
+with its size relatively to humans. For example, if your species is twice as
+tall as humans, its BODY should be twice as high. The human BODY is equal to
+15 and the average human size is 1.8 meters.
+
+Humanoid species BODY = (Species Height/Human Height) * Human BODY
+
+However, if a species is more bulky than humans for its height, then its BODY
+should be set higher. In the same manner, a very slim species should have a
+lower BODY value than that calculated.
+
+Note: This may be subject to change.
+
+---------------------
+6. Natural Resistance
+---------------------
+
+Natural Resistance (NR) represents the toughness of the species skin, tissues
+and bones and their ability to withstand impact. It is the biological
+equivalent of a suit of armor, which protects the character from cutting,
+tearing and bludgeoning impacts.
+
+A Natural Resistance of 0 corresponds to the resistance of the human skin,
+tissues and bones. Smaller species will probably be more fragile, while bigger
+ones will likely be more resistant. For humanoid species similar in
+proportions to humans, it is recommended to set a Natural Resistance equal to
+their Size Rating (SR) value (which can be found from the height of the species
+in the Strength and Size Rating Table).
+
+Note that Armor Resistance (the resistance of chain mail, ...) is the same
+for every species, but that the resistance value used in combat is the sum
+of the species Natural Resistance and the Armor Resistance.
+
+Natural Resistance = Size Rating      (for humanoid species)
+
+--------------------------------
+7. Innate ISB, Gifts and Foibles
+--------------------------------
+
+IMHO this is one of the main reasons why players want to have characters from
+another race. Each specific species has something that makes it unique:
+Gifts that help them to survive and foibles that are the burdens layed on the
+shoulders of that race. This combination may make it interesting to play a
+member of this species.
+
+- - - - - - - - - - - - -
+ISB (= Innate Skill Bonus)
+- - - - - - - - - - - - -
+
+An innate skill bonus is a bonus to a skill that all members of a species
+possess. This bonus is applied when a character has learned this skill
+and uses it. Generally, Innate Skill Bonuses apply only to physical skills.
+
+The EP cost for ISB is calculated by:
+ISB Cost = ISB * (ISB+1) / 2 * Base EP Cost of Skill.
+
+For example:
+Centaurs have an ISB +3 to running.
+The skill costs 3.
+This means the EP cost is: 3 * 4 / 2 * 3 = 18.
+
+- - -
+Gifts
+- - -
+
+A gift is an advantage that is innate to all members of a species. It is normally
+a physical advantage. The cost of the gifts are logically added to the EP cost.
+
+- - - -
+Foibles
+- - - -
+
+These are physical or even psychological disadvantages that make it more difficult
+to play the character. Their 'cost' will be substracted from the EP cost.
+
+----------------------
+8. Calculating EP cost
+----------------------
+
+Now you have all the informations that you need to calculate the species' EP cost.
+As I mentioned above you will have to pay the EP cost when you create a character
+from a specific race.
+
+The EP cost is calculated by applying the following modifiers:
+
+  1. Sum all Talents modifiers. Add ten times this value to the 
+          Species EP Cost (the result can be negative).
+  2. Add (Body Points - Human Body Points)*10
+  3. Add Natural Resistance * 10
+  4. Add all costs for ISB
+  5. Add all costs for gifts
+  6. Substract all costs for foibles  
+
+-----------
+9. Cultures
+-----------
+
+Now the statistic of the species are finished. These statistics should be the same
+for all worlds in which this species will appear. The only difference between the
+species on several worlds may be the cultures founded by them. Add the cultures
+that will be the most likely formed by members of this species. You find culture
+descriptions at the end of this book. They need only to be adapted to this race.
+All the informations concerning cultures will be given in the next chapter.
+
+------------------------------------
+10. IMPACT done by a species weapons
+------------------------------------
+
+Many humanoid species will use weapons that are scaled versions of human
+weapons. For example, a pixie could wield a needle size sword and a giant
+could use a club the size of a tree.
+
+In order to maintain consistency across species, the IMPACT of such weapons
+should be approximately equal to the sum of the IMPACT of the equivalent human
+weapon and the species average Strength. The idea behind this scaling is that
+a smaller and lighter weapon will do less damage than a larger one of similar
+shape.
+
+Species weapon IMPACT = Human weapon IMPACT + Species average STR
+
+For example, the IMPACT of a pixie bastard sword would be equal to:
+
+Pixie bastard sword IMPACT = Human bastard sword IMPACT + Average Pixie STR
+                           = 2d6 + 4                    - 20
+                           = 2d6 - 16
+
+(For those who find this value ridiculously small, pixies are 10 cm creatures
+and their swords would do no more than a scratch to a human.)
+

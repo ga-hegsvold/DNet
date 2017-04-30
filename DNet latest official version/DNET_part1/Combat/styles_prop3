@@ -1,0 +1,56 @@
++/- Styles System
+-----------------
+
+a) Basic 1 attack and defence per style
+b) Some styles have + or minus to attack or def die roll
+c) Some styles have specials (entangle, 2nd rank, extreme,...)
+
+Advantages come in the form of pluses or special attacks.
+Disadvantages come in the form of minuses or limitations.
+
+(Numbers will probably have to be changed:)
+
++--------------------+-------+-----+-----+------------------+-----------------+
+| Style Skill Name   |S Diff | Ta  | Adv | Advantages       | Disadvantages   |
++--------------------+-------+-----+-----+------------------+-----------------+
+| Archery            |  D/4  | PER | DEX | extreme          | 0 def           |
+| Articulated        |  D/4  | DEX | AGI |+1 SA,IMPACT,entangle |             |
+| Bolas/Whips        |  A/3  | PER | AGI | trip/entangle    |                 |
+| Close Weapons      |  E/2  | DEX | AGI |                  | close           |
+| Cross Bows         |  E/2  | PER | DEX | extreme          | 0 def, slow ROF |
+| Dual Weapon        |  D/4  | DEX | AGI | +2 SA            |                 |
+| Exotic Weapons     |  V/5  | DEX | AGI |                  |                 |
+| Fencing            |  D/4  | DEX | AGI | +2 SA            |DEF Lgt Wpn only |
+| One-Handed Weapons |  A/3  | AGI | AGI |                  |                 |
+| Polearms           |  D/4  | AGI | AGI | +1 SA, 2nd rank  | -1 SD           |
+| Ropes/Nets         |  A/3  | PER | AGI | entangle         | 0 def           |
+| Single Weapon      |  E/2  | AGI | AGI |                  |                 |
+| Staves             |  E/2  | AGI | AGI |                  |                 |
+| Thrown Weapons     |  A/3  | PER | DEX | near             | 0 def           |
+| Thrusting Weapons  |  A/3  | PER | AGI | 2nd rank, fend   |                 |
+| Two-Handed Weapons |  A/3  | STR | AGI | IMPACT, 2nd rank | -2 SD           |
+| Weapon and Shield  |  A/3  | AGI | AGI | shield bonus/bash|                 |
++--------------------+-------+-----+-----+------------------+-----------------+
+
++X SA = add X to SA in Targeting equation
+
+-X SD = subtract X from SD in Targeting equation
+
+extreme, near, far, close = ranges as explained in combat sec 6 alpha 2.1
+
+2nd rank = extended weapon reach to attack opponents from a distance
+
+fend = use longer weapon to keep opponent with smaller weapon at bay
+
+IMPACT = higher damage
+
+entangle = entangle limbs
+
+trip = entangle legs and trip opponent
+
+shield bonus = TD bonus to defense whether actively defending or not
+
+shield bash = ability to use shield as a weapon
+
+DEF Lgt Wpn only = Defense against light weapons only
+

@@ -1,0 +1,141 @@
+Path: news.polymtl.ca!feed.umontreal.ca!newsflash.concordia.ca!news.dal.ca!news.nstn.ca!ott.istar!news.istar.net!news.maxwell.syr.edu!ais.net!uunet!in1.uu.net!155.212.1.8!paperboy.ids.net!usenet
+From: Ian Millington <ian@agon.com>
+Newsgroups: rec.games.design
+Subject: Hex Mapping
+Date: Sat, 19 Apr 1997 14:39:09 -0400
+Organization: Agon Design
+Lines: 127
+Message-ID: <3359114D.467D@agon.com>
+NNTP-Posting-Host: dyn033c.egr-ri.ids.net
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+
+I have a bit of an apology to make:
+The original post on rec. games.design I didn't get to before it
+dissapeared
+do I was relying on Brent's post. When I replyed both times I was
+thinking about 
+what Brent wrote, rather than the original question.
+
+Not a problem, except that my long winded math is unsuitable for just
+doing hex calculations,
+when a very very simple bit of math is and would allow you to keep you
+hex thinking.
+You see both methods I suggested were attempts to make a hex grid sit in
+a rectangular
+system, if you want a hex grid, then use a hex system:
+
+It goes linke this:
+label your grid around a 0,0 point like this;
+
+> SUBSECTOR MAP
+>     p co-ordinate:   -5 -4 -3 -2 -1  0  1  2  3  4  5
+>                                     __ 5
+>                                  __/6 \__ 4
+>                               __/5 \__/13\__ 3
+>                            __/4 \__/12\__/21\__ 2
+>                         __/3 \__/11\__/20\__/30\__ 1
+>                      __/2 \__/10\__/19\__/29\__/40\__ 0      q
+>                     /1 \__/9 \__/18\__/28\__/39\__/51\       
+>                     \__/8 \__/17\__/27\__/38\__/50\__/ -1    c
+>                     /7 \__/16\__/26\__/37\__/49\__/61\       o 
+>                     \__/15\__/25\__/36\__/48\__/60\__/ -2    o
+>                     /14\__/24\__/35\__/47\__/59\__/70\       r
+>                     \__/23\__/34\__/46\__/58\__/69\__/ -3    d
+>                     /22\__/33\__/45\__/57\__/68\__/78\       i
+>                     \__/32\__/44\__/56\__/67\__/77\__/ -4    n
+>                     /31\__/43\__/55\__/66\__/76\__/85\       a
+>                     \__/42\__/54\__/65\__/75\__/84\__/ -5    t
+>                     /41\__/53\__/64\__/74\__/83\__/91\       e
+>                     \__/52\__/63\__/73\__/82\__/90\__/
+>                        \__/62\__/72\__/81\__/89\__/
+>                           \__/71\__/80\__/88\__/
+>                              \__/79\__/87\__/
+>                                 \__/86\__/
+>                                    \__/
+> 
+
+that way the co-ords go on forever, as desired.
+
+Note that the q co-ordinate is not at right angles to p,
+Some examples: 
+hex  ( p, q) 
+46 = ( 0, 0)
+23 = (-4, 2)
+78 = ( 5,-3)
+
+If you work out a value r from these, where r = p + q
+it turns out that r is another co-ordinate on the grid
+which is in the other direction from p and q. i.e.
+diagonally down from left to right. Now if you find the
+difference between each of these three values from the
+start point to the finish point, ie dp = |p2 - p1| etc,
+then it turns out that the distance is simply the
+largest of these three values.
+
+Some examples
+distance between hex 46 and hex 78:
+r for 46 = 0
+r for 78 = 2
+dp = 5
+dq = 3
+dr = 2
+so the distance is max(5, 3, 2) = 5;
+
+distance between hex 23 and hex 78:
+r for 23 = -2
+r for 78 = 2
+dp = 9
+dq = 4
+dr = 4
+so the distance is max(9, 4, 4) = 9;
+
+
+All this in pseudo code:
+
+distance(p1, q1, p2, q2)
+{
+   dp = abs(p2-p1);
+   dq = abs(q2-q1);
+   // r is another co-ordinate at 60 deg to p and q,
+   // it is always given by r = p + q
+   dr = abs(p2 + q2 - p1 + q1);
+   return max(dp, dq, dr);
+}
+
+abs(a)
+{
+   if (a > 0)
+      return a;
+   else 
+      return -a;
+}
+
+max(a,b,c)
+// in most compilers using nested comparisons will make
+// much more efficient code than iterating and storing
+// a maximum so far value.
+{
+   if (a > b)
+   {
+      if (a > c) 
+         return a;
+      else 
+         return c;
+   {
+   if (b > c)
+      return b;
+   else
+      return c;
+}
+
+
+So you see, it is much simpler than all this oddity(a) nonsense.
+Sorry for leading you the run around.
+
+Ian.
+
+-- 
+Agon Design  *  ian@agon.com  *  http://www.agon.com

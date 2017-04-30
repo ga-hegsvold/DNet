@@ -1,0 +1,1074 @@
+<sect1><title>Combat Sequence</title>
+<para>
+This section explains in detail how combat is resolved in the DNet
+system. To this end, a game situation leading to combat is developped as the
+rules are presented.
+</para>
+
+<para>
+Combat is broken down into rounds. Each round is considered to last 6
+seconds. All actions that occur within a round are independent of each other
+and are considered to take place at the same time.  Thus it is always possible
+for two combatants to strike each other down in the same round.
+</para>
+
+<para>
+Within a combat round, attacks and defenses are viewed as a passe d'armes, not
+as individual strokes.
+</para>
+
+<example><title>Combat</title>
+<screen>
+Game situation: Neila and Jalik have been cautiously exploring the ruins
+  of a temple of Hekari, an almost forgotten deity of darkness and disease,
+  in the hope of lifting a curse that as been plaguing a pixie community
+  for centuries. As they are about to despair, their efforts are rewarded
+  by a hollow sound from a flagstone reveals a hidden passage. After
+  doublechecking their torches and pushing the stone safely aside, they
+  engage in the the shadows of a stairway.
+
+The characteristics and appropriate skills and equipment of the two characters
+are given here for reference purposes.
+
+Neila (Bob's character)
+Mental Talents:   AUR: 0; INT: 1; PER: 0;  PSY: 1; WIL: 2
+Physical Talents: AGI: 2; BOD: 2; DEX: -2; FIT: 1; STR: 3
+Combat Styles:
+                          Tals + Tr = Skill
+  One Handed W. &amp; Shield:   0  + 8  = 8      Attack: 8  Defense: 8+2+4 = 14
+  Dodge:                    2  + 7  = 9      Defense: 9+4 = 13
+Equipment:
+  War Hammer (Impact = 2d6+4)
+  Kite (defense bonus = 4)
+  Soft leather bezainted armor (Resistance = 6)
+
+Jalik (Roger's character)
+Mental Talents:   AUR: 1; INT: 1; PER: 2; PSY: 0; WIL: 0
+Physical Talents: AGI: 3; BOD: 1; DEX: 2; FIT: 0; STR: 0
+Combat Styles:
+                Ta + Tr = Skill
+  Dual Weapons: 3  + 6  = 9      Attack: 9+2 = 11  Defense: 9-1 = 8
+  Dodge:        3  + 5  = 8
+Equipment:
+  2 small swords (Impact = 2d6+2)
+  a 2 meters wooden pole
+  Quilt armor (Resistance = 3)
+</screen>
+</example>
+
+<sect2><title>Declaration</title>
+<para>
+At the beginning of every combat round, the GM must ask every player to declare
+the actions of his character for the round. The GM must also state the actions
+of all NPCs and monsters during that phase. Once stated, these actions cannot
+be changed, unless the GM feels that there has been a misunderstanding; in that
+case, every player should be allowed to redeclare the actions of his character.
+</para>
+
+<para>
+The declaration order does not really matter as long as the actions of all
+protagonists are stated. A fixed order, such as going around the table will
+generally speed game play.
+</para>
+
+<para>
+Note that a character can attack multiple targets only if he is in close range
+(0 to 1 meters) of both targets at declaration time.
+</para>
+
+<para>
+<example><title>Declaration</title>
+<screen>
+Game situation: Jalik and Neila reach the bottom of the stairs about 5 meters 
+  below the ground level.
+  GM: In the torchlight, you can see that the floor is littered with
+    bones.
+  Roger: "[Whisper] Cover me." I slowly crouch to inspect the bones.
+  GM: They look like humanoid bones, generally human sized.
+  Roger: I inspect the walls, looking for holes or any trace of a mechanism.
+  GM: You spend 5 minutes doing as careful an inspection you can
+    without stepping on the floor. The walls are plain and smooth. You don't
+    see any obvious crevasse.
+  Roger: I slowly pass the wooden pole along the floor and the walls.
+  GM: (rolling a few dice to make good impression) Nothing happens.
+  Bob: "[Whisper] It looks ok?"
+  Roger: "[Whisper] Yes... I go first, you follow me 4 steps behind."
+    I advance in the passage, tell me when I notice anything different.
+  GM: After 4 meters, the floor is clear of bones. The transition
+    is gradual.
+  Roger: I continue.
+  Bob: I still follow about 2 meters behind.
+  GM: You walk two more steps and hear a concert of clicking sounds
+    as the bone quickly move along the floor to reassemble into three distinct
+    shapes. Two of the shapes are near Neila, while the third is behind 
+    Jalik's back. What do you do?
+  Bob: "[Loud] Watch your back!". Neila attacks the nearest shape and will 
+    dodge the two others if necessary.
+  Roger: Jalik drops his pole and takes out his two swords. He will also
+    attack the nearest shape.
+  GM: Jalik's attack won't happen until next round, but they won't
+    be able to attack this round either. Neila, you realize that you can 
+    bash at the nearest one without worrying about dodging the other.
+</screen>
+</example>
+</para>
+
+<sect3><title><emphasis>Initiative (Optional)</emphasis></title>
+<para>
+<emphasis>
+Some role players find that basing the declaration order on the Talents of
+their characters allow for more strategy during combat. A declaration method
+which allow the characters with the best Perception to react to the actions
+of others is presented here.
+</emphasis>
+</para>
+
+<para>
+<emphasis>Determining initiative:</emphasis>
+</para>
+
+<orderedlist numeration="arabic">
+<listitem><para><emphasis>Roll 1d10</emphasis></para></listitem>
+<listitem><para><emphasis>Add Perception (you may get negative results)</emphasis></para></listitem>
+</orderedlist>
+
+<para>
+<emphasis>
+Actions are then declared starting with the lowest initiative roll to the
+highest. This gives a chance to characters with the highest Perception to
+adjust their actions to those of others.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+All players should roll for initiative and the GM should also roll it for NPCs
+and monsters. In large combats, the GM may wish to roll initiative for groups
+of monsters or even for all monsters at the same time.
+</emphasis>
+</para>
+</sect3>
+
+<sect3><title><emphasis>Alternate Initiative (Optional)</emphasis></title>
+<para>
+<emphasis>
+Another method to determen initiativ is to base the characters reactions on the
+speed of their weapon and their Agility Talent. The more agile characters will
+act faster than those less agile.
+</emphasis>
+</para>
+
+<orderedlist numeration="arabic">
+<listitem><para><emphasis>Roll d3 (d6 if surprised)</emphasis></para></listitem>
+<listitem><para><emphasis>Add Weapon Speed (WS)</emphasis></para></listitem>
+<listitem><para><emphasis>Subtract Agility</emphasis></para></listitem>
+</orderedlist>
+
+<para>
+<emphasis>
+Also with this mechanism actions are resolved starting with the lowest
+initiative roll to the highest.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+The result is the Time Unit (TU) in which you start to act w/o penalties.
+After the initital initiativ roll, simply add your WS each time you want to
+make an attack and sum the numbers.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+One TU is roughly equal to 1 second.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Next TU you can act w/o penalties = Current TU + WS
+</literal>
+</emphasis>
+</para>
+
+<sect4><title><emphasis>Initiativ Modifiers (Optional)</emphasis></title>
+<para>
+<emphasis>
+You can choose to act earlier with a penalty of -5 per TU to early,
+or you can increase your chance of success by delaying up to 5 TUs and
+gain a +2 bonus for each TU.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Max Bonus = +10
+</literal>
+</emphasis>
+</para>
+</sect4>
+</sect3>
+</sect2>
+
+<sect2><title>Action resolution</title>
+<para>
+Once all actions have been declared, they are resolved using standard Skill
+checks. The order of the resolution does not matter (Unless you use the optional
+alternate inititiv mechanism) since all actions within a round are considered
+to be simultaneous. Again, resolving the actions in a fixed order will speed up
+the game and simplify combat.
+</para>
+
+<para>
+While there are no strict limits to the actions that can be attempted during
+combat, we will focus here on the actions that are directly related to the
+resolution of combat.
+</para>
+
+<sect3><title>Targeting</title>
+<para>
+The determination of an attack outcome is achieved using the targeting
+equation:
+</para>
+
+<para>
+<literal>
+d10-d10* + SA [+ Sk mods] &gt;= d10-d10* [+ TD mods] + SD [+ Sk mods]
+</literal>
+</para>
+
+<para>
+If the left hand side is greater than or equal to the right hand side, then 
+the attacker scores a hit and should proceed to determine Damage.
+</para>
+
+<para>
+While this expression may seem complex, it summarizes a very simple process:
+</para>
+
+<para>
+<orderedlist numeration="arabic">
+<listitem><para>Both the attacker and the defender roll d10-d10*, as in a Skill check.</para></listitem>
+<listitem><para>The attacker adds his Attack Skill (SA) to his roll, while the defender adds his Defence Skill (SD) to his roll.</para></listitem>
+<listitem><para>They also add any situation combat modifiers that the GM judge necessary to their respective rolls.</para></listitem>
+<listitem><para>If the attacker's total is greater than or equal to the defender's total, then the attacker is successful in his attack and should now roll for Damage.</para></listitem>
+</orderedlist>
+</para>
+
+<para>
+The targeting roll can be modified by situation combat modifiers. These
+situation combat modifiers are chosen by the GM and are broken into two
+categories:
+</para>
+
+<para>
+<itemizedlist>
+<listitem><para>Task Difficulty Modifiers (TD mods): modifiers that affect the difficulty of the combat Task.</para></listitem>
+<listitem><para>Skill Modifiers (Sk mods): modifiers that affect the Skill of the combatants.</para></listitem>
+</itemizedlist>
+</para>
+
+<table frame="all"><title>Task Difficulty Modifiers</title>
+<tgroup cols="2" align="left" colsep="1" rowsep="1">
+<colspec colname="c1" colwidth="1*" />
+<thead>
+<row><entry>Condition</entry><entry>Modifier</entry></row>
+</thead>
+<tbody>
+<row><entry>Target Semi-prone</entry><entry>-1</entry></row>
+<row><entry>Target Prone</entry><entry>-2</entry></row>
+<row><entry>Target Partly Immobile</entry><entry>-4</entry></row>
+<row><entry>Target Immobile</entry><entry>-8</entry></row>
+<row><entry>Target Invisible</entry><entry>+5 (Varies)</entry></row>
+<row><entry>Target out of range</entry><entry>+1 / 10% beyond weapon's range</entry></row>
+<row><entry>Target Size</entry><entry>(SR Attacker - SR Target)</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+<table frame="all"><title>Skill Modifiers</title>
+<tgroup cols="2" align="left" colsep="1" rowsep="1">
+<colspec colname="c1" colwidth="1*" />
+<thead>
+<row><entry>Condition</entry><entry>Modifier</entry></row>
+</thead>
+<tbody>
+<row><entry>Semi-prone</entry><entry>-1</entry></row>
+<row><entry>Prone</entry><entry>-2</entry></row>
+<row><entry>Partly Immobile</entry><entry>-4</entry></row>
+<row><entry>Immobile</entry><entry>-8</entry></row>
+<row><entry>Poor Footing/Environment</entry><entry>-1 to ... (Left to GM discretion)</entry></row>
+<row><entry>On higher ground than opponent</entry><entry>+1</entry></row>
+<row><entry>Charging</entry><entry>+2 Attack, -2 Defense</entry></row>
+<row><entry>Set to receive a charge</entry><entry>+2 Defense (assuming Attacker is charging)</entry></row>
+<row><entry>Hasted</entry><entry>+2</entry></row>
+<row><entry>Slowed</entry><entry>-2</entry></row>
+<row><entry>Invisible</entry><entry>+5 (Varies)</entry></row>
+<row><entry>Feinting</entry><entry>+5 (Optional)</entry></row>
+<row><entry>Additional Action Attempted</entry><entry>-5 per additional action</entry></row>
+<row><entry>Injury</entry><entry>-1/5 points or </entry></row>
+<row><entry></entry><entry>-1/([BOD + 10] / 2) (Optional but more realistic)</entry></row>
+<row><entry>Fatigue</entry><entry>-1/point (Optional)</entry></row>
+</tbody>
+</tgroup>
+</table>
+The modifiers apply to both attack and defense skills, unless noted.
+Modifiers that apply only to the attack skill are identified with
+"+X Attack", while those applying only to defense are noted with "+X
+Defense".
+</para>
+
+<para>
+<emphasis>
+Optional:
+For NPCs, the GM may replace the defender roll by a constant value of 0 to
+accelerate combat resolution:
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+d10-d10* + SA [+ Sk mods] &gt;= 0 [+ TD mods] + SD [+ Sk mods]
+</literal>
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+This increases the effects of a difference between the Skill levels of the
+attacker and defender, i.e. the opponent with the Skill will win more often
+than when both opponents roll for defense.
+</emphasis>
+</para>
+   
+<para>
+<emphasis>
+Of course, the GM can decide that neither PCs, nor NPCs roll for defense.
+</emphasis>
+</para>
+
+<example><title>Action Resolution</title>
+<screen>
+Game situation:
+  (first round) Neila swings her war hammer at the nearest skeleton.
+  -&gt; Bob rolls 3 and adds Neila's attack skill of 8 for a total of 11.
+  -&gt; The game master rolls -2, adds the skeleton guardian defense skill of
+     8 and a skill modifier of -2 due to the fact that the guardian is still 
+     taking shape, for a total of 4.
+  Neila hits the skeleton and sends crushed bones flying. In the meantime,
+  Jalik wields his two swords.
+
+  (sixth round) Neila is still engaged with two Guardians; she has suffered
+  a few hits but has nearly destroyed the first while dodging the other.
+  Jalik has also hit is Guardian a few times, while taking only two hits.
+  Neila's attack:
+  -&gt; Bob rolls 23 (!), adds Neila's attack skill of 8 and substracts 5
+     because of the multiple actions (attacking and dodging) for a total
+     of 26.
+  -&gt; Game master rolls -7 (!) and adds the skeleton defense skill (8) for
+     a total of 1.
+  ===&gt; Neila scores another precise hit on the first skeleton.
+  1st skeleton's attack:
+  -&gt; Game master's roll: -9 + 8 = -1
+  -&gt; Bob's roll: -2 + 14 - 5 = 7
+  ===&gt; Neila blocks the skeleton attempts.
+  2nd skeleton's attack:
+  -&gt; Game master's roll: 3 + 8 = 11
+  -&gt; Bob's roll: -1 + 13 (dodge skill) - 5 = 8
+  ===&gt; The skeleton hits Neila.
+  Jalik's attack:
+  -&gt; Roger's roll: 6 + 11 = 17
+  -&gt; Game master's roll: -1 + 8 = 7
+  ===&gt; Jalik successfully stabs at the skeleton.
+  3rd skeleton's attack:
+  -&gt; Game master's roll: 7 + 8 = 11
+  -&gt; Roger's roll: 7 + 8  = 11
+  ===&gt; The skeleton hits Jalik.
+
+  Skeleton Guardians
+  Physical Talents: BOD: 0; AGI: 0;  STR: 2
+  Mental Talents:   INT: -8; PER: 0;
+  Combat skills:
+                          Skill
+    Claw attacks:           8      Attack: 8  Defense: 8
+    Dodge:                  5
+  Special:
+    Claw IMPACT: 2d6
+    Natural Resistance: 5
+    -2 to combat skills while taking shape.
+    Fights until destroyed (no Unconsciousness checks)
+</screen>
+</example>
+
+<sect4><title><emphasis>Realistic Combat (Optional)</emphasis></title>
+<para>
+<emphasis>
+You can split up both your attack and defence into smaller portions of your
+total Skill, but you must use at least 1 Skill point to do an action.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Keep in mind that your SA and SD is in fact only one Skill. The numbers may not
+be equal due to Attak- and Defence Modifiers (AM/DM).
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Thus, the amount of Skill you wish to use in an attack, a feint, a defence or
+whatever is subtracted from both SA and SD.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+As long as either your SA or SD is greater than 0 you may continue to do
+actions. If your SA is reduced to 0 you may not attack anymore.
+And if your SD is reduced to 0 you may not defend anymore.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+The only situation where you may continue to defend even if your SD is 0, is
+if your SA is greater than 0. Then you can use your remaining SA as SD.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Note: You can use SA as SD, but not the other way around.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+When both your SA and SD is equal to 0, you must wait in WS TUs before you can
+do actions again. Or, if you are using the Optional Combat Modifiers, act
+later/earlier with coresponding modifiers.
+</emphasis>
+</para>
+
+<example><title><emphasis>Realistic Combat</emphasis></title>
+<screen>
+<emphasis>
+Neila
+Physical Talents: AGI: 2; BOD: 2; DEX: -2; FIT: 1; STR: 3
+Mental Talents:   AUR: 0; INT: 1; PER: 0;  PSY: 1; WIL: 2
+
+Combat Styles              Ta + Tr = SA/SD
+  One Handed W. &amp; Shield   2  + 6  =  8/8
+  Dodge                    2  + 7  =  0/9
+
+Equipment     Type  IMPACT   SPD  DEF
+  War Hammer   B     +5       1
+  Kite Shield        -2           +4
+
+Jalik
+Physical Talents: AGI: 3; BOD: 1; DEX: 2; FIT: 0; STR: 0
+Mental Talents:   AUR: 1; INT: 1; PER: 2; PSY: 0; WIL: 0
+
+Combat Styles   Ta + Tr + AM + DM = SA/SD  SPD
+  Dual Weapons: 3  + 6    +2   -1 = 11/8    1
+  Dodge:        3  + 5     0    0 =  0/8
+
+Equipment        Type  IMPACT   SPD
+  2 Shortswords   S/T   0/0      1
+
+Neila and Jalik decides to do some combat practice.
+They start out beyond each others reach. Both rolling for initiative (d3).
+Neila rolls a 2 + 1 (WS) = 3.
+Jalik rolls a 1 + 1 (WS) = 2. Jalik has initiativ.
+
+(In situations like this, its not nesessary to roll for initiative unless both
+insist on attacking first.)
+
+He decides to wait, focus his attention and observe Neila.
+
+[In game terms: +2 bonus/TU to whatever action he decides later on.]
+
+Now Neila has decided to see if the saying "Attack is the best form of defence"
+holds true. But she knows Jalik is a skilled fighter and will try to feint for
+a opening in his defence.
+
+[In game terms: 2 points of her skill will go into an initial feint, 4 points
+will go into the actual attack. The remaning 2 will be held back in case of a
+counter attack from Jalik.]
+
+She takes a few quick steps forward toward Jaliks right, holding her shield
+between herself and Jalik, seeing Jalik drawing his defence to her feint, she
+takes one long fast step to the right and lashes out at his left flank.
+
+[In game terms:
+Neila feints attack: d10-d10* + 2 + 5 (feint bonus)
+                         -10  + 2 + 5 = -3 (a terrible feint)
+
+Neila attacks: d10-d10* + 4
+                     3  + 4 = 7
+]
+
+Jalik, seeing Nelias obvious feint, decides to play along, feinting a defence
+where Neila expectes him to. Jalik decides for himself that due to Nelias
+terrible feint, she will focus her energy mainly on the following attack.
+With his left hand sword he decides to focus most of his skill to parry her
+attack, and then counter with his right hand sword to lash out at her shield
+flank, aiming for her (hopefully) exposed left leg.
+
+[In game terms: 2 points of his skill will go into playing along with the feint,
+6 points will go to the left hand defence and the remaining 5 points (3 from
+his attack skill + 2 bonus points) will go to his last right hand attack.
+
+Jalik feints defence: d10-d10* + 2 + 5 (feint bonus)
+                            4  + 2 + 5 = 11 (a good feint)
+
+11 &gt; -3 (Neilas feint attack) -&gt; Jaliks feint succeeded.
+
+Jaliks left hand parry: d10-d10* + 6
+                              9  + 6 = 15
+
+15 &gt; 7 (Neilas attack) Jalik successfully parries Neilas attack.]
+
+Neila, realising her failure as Jalik easily parries her attack and counters,
+can do nothing but use her remaining skill to defend herself as best she can.
+
+[In game terms:
+Jaliks right hand attack: d10-d10* + 5
+                                5  + 5 = 10
+
+10 &gt; 6 (Neilas shield bonus + remaining defence).
+
+Jalik hits Neilas left flank. Roll damage.]
+
+Because this is only a practice session, Jalik holds back his attack enough for
+Neila to just get a tiny scratch. She staggers backward to a defencive positon,
+preparing herself for a new clash of arms.
+
+In this situation, I guess we can say that attack was NOT the best defence. :)
+
+This entire combat scene lasted only a few seconds. Both Jalik and Neila must
+now regain consentraton, focus and whatever before they can act without
+penalties. This is determened by their weapons SPD. They must wait in Time Units
+equal to their SPD. This means they must both wait 1 Time Unit. Then they start
+all over again.
+</emphasis>
+</screen>
+</example>
+</sect4>
+
+<sect4><title>Called Shots</title>
+<para>
+Targeting a specific body part is refered to as a Called Shot. While
+targeting vital organs can increase the deadliness of an attack, those vital
+organs are often small and thus more difficult to hit.
+</para>
+
+<para>
+The table below gives Impact modifiers for some human body parts. These
+modifiers are based on the probability of hitting a vital organ in the
+targeted part. The effect of hitting non-vital organs is left to the game
+master.
+</para>
+
+<para>
+<informalexample>
+<screen>
+For example, a serious blow to the hand might cripple its victim in
+addition of doing normal Impact.
+</screen>
+</informalexample>
+</para>
+
+<para>
+Listing all such consequences is beyond the scope of these rules.
+</para>
+
+<table frame="all"><title>Impact Modifiers vs Body Parts</title>
+<tgroup cols="2" align="left" colsep="1" rowsep="1">
+<colspec align="center" colwidth="1*" />
+<thead>
+<row><entry>Impact Modifier</entry><entry>Body Part</entry></row>
+</thead>
+<tbody>
+<row><entry>+10</entry><entry>Head</entry></row>
+<row><entry>+15</entry><entry>Throat</entry></row>
+<row><entry>+20</entry><entry>Eye/Heart</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+When making a Called Shot, the targeting roll of the character is modified
+by the Size Rating (SR) of the body part targeted. This SR can be determined
+from the Size Rating table below. You can either estimate the average dimension
+of the targeted part and look for a matching number in the size column, or just
+scan the examples for a part of similar size.
+</para>
+
+<para>
+Targeting equation for called shots:
+</para>
+
+<para>
+<literal>
+d10-d10* + SA &gt;= TD - SR
+</literal>
+</para>
+
+<para>
+Called Shots are generally applied to missile weapons. In melee combat
+battling an opponent larger than you does not make him much easier to hit
+since he also benefits from an extended reach.
+</para>
+
+<para>
+Most values listed are for human body parts. You can convert to the species
+being targeted very simply, by adding the Size Rating of the Species to the
+Size Rating of the human body part.
+</para>
+
+<para>
+<literal>
+Body Part SR = Human body part SR + Species SR
+</literal>
+</para>
+
+<example><title>Body Part Size Rating</title>
+<screen>
+SR of human arm  = -4
+SR of weejon arm = SR of human arm + SR of Weejon
+                 = -4 + -3
+                 = -7
+</screen>
+</example>
+
+<para>
+What happens if a player targets an opponent's eye or another body part and
+miss by one on his attack roll? Since we don't want to get into overly
+complicated and cumbersome mechanics, we leave this to the interpretation of
+the GM. It could either be treated as a complete miss, a hit to a nearby bone
+that only does normal Impact or a full hit to the head.
+Situational modifiers that may influence this decision include the movement
+speed of the opponent, the fact that he may be wearing a helmet, etc. 
+</para>
+
+<table frame="all"><title>Size</title>
+<tgroup cols="4" align="center" colsep="1" rowsep="1">
+<colspec colnum="4" align="left" colwidth="1*" />
+<thead>
+<row><entry>Size Factor</entry><entry>SR</entry><entry>Size</entry><entry>Creature, body part or object</entry></row>
+</thead>
+<tbody>
+<row><entry>0.0155</entry><entry>-15</entry><entry>3cm</entry><entry>Human eye</entry></row>
+<row><entry>0.0205</entry><entry>-14</entry><entry>4cm</entry><entry></entry></row>
+<row><entry>0.0270</entry><entry>-13</entry><entry>5cm</entry><entry></entry></row>
+<row><entry>0.0357</entry><entry>-12</entry><entry>6cm</entry><entry></entry></row>
+<row><entry>0.0471</entry><entry>-11</entry><entry>8cm</entry><entry></entry></row>
+<row><entry>0.0623</entry><entry>-10</entry><entry>11cm</entry><entry></entry></row>
+<row><entry>0.0822</entry><entry>-9</entry><entry>15cm</entry><entry></entry></row>
+<row><entry>0.108</entry><entry>-8</entry><entry>19cm</entry><entry>Human hand, Human throat</entry></row>
+<row><entry>0.143</entry><entry>-7</entry><entry>26cm</entry><entry>Dagger</entry></row>
+<row><entry>0.189</entry><entry>-6</entry><entry>34cm</entry><entry>Human head</entry></row>
+<row><entry>0.250</entry><entry>-5</entry><entry>45cm</entry><entry></entry></row>
+<row><entry>0.329</entry><entry>-4</entry><entry>59cm</entry><entry>Human arm</entry></row>
+<row><entry>0.435</entry><entry>-3</entry><entry>78cm</entry><entry>Human leg</entry></row>
+<row><entry>0.574</entry><entry>-2</entry><entry>1.0m</entry><entry>Human chest</entry></row>
+<row><entry>0.758</entry><entry>-1</entry><entry>1.4m </entry><entry></entry></row>
+<row><entry>1.0</entry><entry>0</entry><entry>1.8m</entry><entry>Human, Elf</entry></row>
+<row><entry>1.32</entry><entry>1</entry><entry>2.4m </entry><entry></entry></row>
+<row><entry>1.74</entry><entry>2</entry><entry>3.1m </entry><entry></entry></row>
+<row><entry>2.30</entry><entry>3</entry><entry>4.1m </entry><entry></entry></row>
+<row><entry>3.04</entry><entry>4</entry><entry>5.5m </entry><entry></entry></row>
+<row><entry>4.01</entry><entry>5</entry><entry>7.2m </entry><entry></entry></row>
+<row><entry>5.29</entry><entry>6</entry><entry>9.5m </entry><entry></entry></row>
+<row><entry>6.98</entry><entry>7</entry><entry>13m </entry><entry></entry></row>
+<row><entry>9.22</entry><entry>8</entry><entry>17m </entry><entry></entry></row>
+<row><entry>12.2</entry><entry>9</entry><entry>22m </entry><entry></entry></row>
+<row><entry>16.1</entry><entry>10</entry><entry>29m </entry><entry></entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<formalpara><title>Size Factor</title>
+<para>
+A number showing a creature's size relative to humans.
+<literal>
+Size Factor = 1.32^SR
+</literal>
+</para>
+</formalpara>
+             
+<formalpara><title>SR</title>
+<para>
+Size Rating, to be used in called shots.
+<literal>
+SR = log1.32(Size Factor)
+</literal>
+</para>
+</formalpara>
+
+<formalpara><title>Size</title>
+<para>
+The average size of a creature or object with a certain SR. Mainly based on
+height, but also factors is width.
+</para>
+</formalpara>
+                 
+<formalpara><title>Creature, body part or object</title>
+<para>
+An example creature, body part or object of a given size rating.
+</para>
+</formalpara>
+</sect4>
+</sect3>
+
+<sect3><title>Targeting with Missile Weapons</title>
+<para>
+Missile Weapon Styles are handled as standard Skills, with a TD that is
+mainly dependent on the distance between your character and its target. For
+simplicity, the base TD does not depend on the weapon used and is given in the
+following table:
+</para>
+
+<table frame="all"><title>Targeting with Missile Weapons</title>
+<tgroup cols="3" align="left" colsep="1" rowsep="1">
+<colspec colnum="3" align="center" colwidth="1*" />
+<thead>
+<row><entry>Distance</entry><entry>Range</entry><entry>Base TD</entry></row>
+</thead>
+<tbody>
+<row><entry>Near</entry><entry>0 to 10 meters</entry><entry>0</entry></row>
+<row><entry>Moderate</entry><entry>11 to 50 meters</entry><entry>5</entry></row>
+<row><entry>Far</entry><entry>51 to 100 meters</entry><entry>10</entry></row>
+<row><entry>Extreme</entry><entry>&gt; 100 meters</entry><entry>15</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+The targeting equation is:
+</para>
+
+<para>
+<literal>
+d10-d10* + Missile Weapon Skill &gt;= TD
+</literal>
+</para>
+
+<para>
+Since all missile weapons are not equal in effectiveness, an effective range
+is associated with each one. When the target is beyond a weapon's effective
+range, additional penalties are applied to the task difficulty. The TD
+increases by 1 for each 10% over the weapons effective range (round up).
+As usual, the GM can either apply this rule as a strict rule, as a
+simple guideline or even completely dismiss it. Sometimes, it is simpler to
+just consider all situational modifiers and make a quick decision on the TD.
+</para>
+
+<para>
+Missile weapons also have a maximum range beyond which they cannot send a
+missile. This maximum range is normally listed in the weapons description.
+</para>
+
+<para>
+Damage and called shots are handled in the same manner as for melee attacks.
+</para>
+
+<example><title>Targeting</title>
+<screen>
+In the following examples, we use one weapon of each group: a dagger,
+(effect. range: 15m; max. range: 40m), a short bow (effect. range: 90m; max.
+range: 225m) and a heavy arbalest (effect. range: 60m, max range: 330m).
+
+Situation 1: Target is 8 meters away.
+  TD is 0 with all three weapons, since the target is near and within their 
+  effective range.
+
+Situation 2: Target is 20 meters away.
+  TD is 9 with the dagger since the target is in medium range (TD 5) and is
+  5 meters over the dagger's effective range. (20 - 15) / 1.5 ~= 3.3 = 4.
+  TD is 5 with both the short bow and arbalest, since the target is within
+  their effective range.
+
+Situation 3: Target is 100 meters away.
+  Such a dagger throw is "impossible" since the target is beyond the dagger's
+  maximum range.
+  TD is 11 with the short bow since the target is far (TD 10) and is
+  10 meters over the bow's effective range. (100 - 90) / 9 ~= 1.1 = 2.
+  TD is 17 with the heavy arbalest since the target is far (TD 10) and is
+  40 meters over the bow's effective range. (100 - 60) / 6 ~= 6.7 = 7.
+
+Situation 4: Target is 500 meters away.
+  Don't even think about it...
+</screen>
+</example>
+
+<para>
+Targeting TD Formula:
+</para>
+
+<para>
+<literal>
+TD = (Range - Effective Range) / 10% of Effective Range
+</literal>
+</para>
+
+<para>
+<emphasis>
+Optional:
+In some situations, it makes sense to take into account the size of the
+target. In these cases, the TD can be modified by substracting from it the
+SR of the target.
+</emphasis>
+</para>
+
+<example><title><emphasis>Size Rating Adjustments</emphasis></title>
+<screen>
+<emphasis>
+Hitting a giant (SR: 4) standing 20 meters away with with a short bow has a
+TD of 1, while hitting a weejon (SR: -3) at the same distance has a TD of 8.
+</emphasis>
+</screen>
+</example>
+
+<para>
+<emphasis>
+As a reference, humans have a SR = 0. The game master is free to apply this rule
+whenever he wishes.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Size Rating Adjustement: Adjusted TD = Standard TD - SR
+</literal>
+</emphasis>
+</para>
+</sect3>
+
+<sect3><title>Damage and Injury</title>
+<para>
+When a successful hit has been scored, Damage is computed by substracting
+the defender's Resistance from the attacker's Impact.
+</para>
+
+<para>
+<literal>
+Damage = Impact - Resistance
+</literal>
+</para>
+
+<para>
+The attacker's Impact is the sum of his Strength and his weapon's Impact:
+</para>
+
+<para>
+<literal>
+Impact = Weapon Impact + STR
+</literal>
+</para>
+
+<para>
+The Resistance of the defender is the sum of his Natural Resistance and
+his armor's Resistance:
+</para>
+
+<para>
+<literal>
+Resistance = Natural Resistance + Armor Resistance
+</literal>
+</para>
+
+<para>
+Armor Resistance is always a positive value that depends on the type of
+armor being worn. Natural Resistance is a value representing the natural
+body covering of a species (see the species description). Natural Resistance
+can be negative. Because of this, Resistance can be negative as well.
+</para>
+
+<para>
+If Damage is lower than 0, then it is considered to be 0. A Damage of 0 or
+less is considered to be just a scratch. If Damage is greater than 0, then
+it should be added to the Injury heap.
+</para>
+
+<para>
+<literal>
+Injury = Injury + Damage
+</literal>
+</para>
+
+<example><title>Impact and Injury</title>
+<screen>
+Game situation:
+  (first round)
+  To determine the Impact done by Neila's hit on the skeleton, Bob rolls
+  11 on 2d6+4 (the war hammer Impact) and adds Neila's STR for a total of
+  14. The GM substract the Natural Resistance (5) of the Guardian from
+  Neila's Impact and adds 9 to the Guardian's Injury Heap (previously at 0).
+
+  (sixth round) (Note that Damage calculations are normally done just
+  after determining if an attack was successful. All Damage calculations
+  are presented here in the same section for explanation purposes)
+  -&gt; Neila hits the first skeleton for 11+3=14 points of Impact. This
+     increases the skeleton's Injury by 9 to a total of 36.
+  -&gt; The second skeleton hits Neila for 8+2=10 for a Damage of 4 after
+     the attack has passed through the armor (Resistance=6). This
+     brings her Injury heap to 26.
+  -&gt; Jalik hits the third skeleton for 6 points of Impact. Only 1 point
+     passes the skeleton's Natural Resistance, bringing its Injury
+     Heap to 24.
+  -&gt; The third skeleton does 13 points of Impact to Jalik. His armor only
+     absorbs 3 points, adding 10 points of Damage to Injury, for a total
+     of 18.
+</screen>
+</example>
+
+<sect4><title><emphasis>Bonus Impact (Optional)</emphasis></title>
+<para>
+<emphasis>
+<literal>
+Bonus Impact = [SA [+ SA mods] - (TD [+ TD mods] + SD [+ SD mods])] / 2
+             = (Total SA - Total SD) / 2
+</literal>
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+This is the same formula used for standard targeting, only instead of just
+comparing the sides we find how mush greater the left hand side is.
+If the Bonus Impact is less than 0, the attack misses.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Note that for every 2 points of success above the TD, the Bonus Impact is
+increased by 1.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Total Impact = Bonus Impact + Weapon Impact
+</literal>
+</emphasis>
+</para>
+</sect4>
+</sect3>
+
+<sect3><title>Multiple Actions in Combat</title>
+<para>
+The Multiple Actions mechanism is used frequently in combat. When a
+character wants to defend against multiple opponents, he has to buy Multiple
+Actions for a penalty of 5 on all his Skills. Each additional Combat Style
+action gives both one attack and one defense.
+</para>
+
+<example><title>Multiple Actions in Combat</title>
+<screen>
+If a character attacks and defends against two opponents, his two attacks and
+two defenses are done with a -5 penalty. Similarly a character attacking one
+opponent and dodging two others would have a -5 on his rolls in both his Combat
+Style and Dodge Skill.
+</screen>
+</example>
+
+<para>
+Actions that are not related to combat also impose a -5 penalty on all Skill
+checks when they are performed while the character fights. If a character
+wants to catch an object while fighting, he would face a -5 penalty on both
+his catching roll and his attack and defense.
+</para>
+
+<para>
+Note that the defense Skill of the character can never be lowered below 0 by
+any penalty, since a defense of 0 is that of a moving target within range.
+It is considered that your character cannot do worse if he tries to defend
+than if he does not try to.
+</para>
+</sect3>
+</sect2>
+
+<sect2><title>Survival checks</title>
+<para>
+At the end of the combat round, after all actions have been resolved, every 
+combatant that has been injured during the round (i.e. that has seen his 
+Injury Heap increase) must make Unconciousness and Death checks.
+</para>
+
+<para>
+An Unconsciousness check is made by rolling d10-d10* and adding 25 plus the
+character's Willpower and Body. If the total is greater than or equal to
+Injury, then the check is successful and the character stays conscious.
+</para>
+
+<para>
+<literal>
+Unconsciousness: d10-d10* + 25 + BOD + WIL &gt;= Injury
+</literal>
+</para>
+
+<para>
+It is not necessary to make an Unconsciousness check if 25 + Body + Wilpower is
+over Injury by 10 points or more.
+</para>
+
+<para>
+A Death check is similarly made by rolling d10-d10* and adding 40 and the
+character's Body. If the total is greater than or equal to the Injury, then
+the check is successful and the character stays alive.
+</para>
+
+<para>
+<literal>
+Death: d10-d10* + 40 + BOD &gt;= Injury
+</literal>
+</para>
+
+<para>
+It is not necessary to make a Death check if 40 + Bodyis greater than Injury
+by 10 points or more.
+</para>
+
+<para>
+<emphasis>
+Optional:
+If the Graded Outcomes rules are used, a partial outcome indicates that the
+character is not Unconscious but suffers from such pain that he is not able to
+do anything beside moaning and screaming. He remains generally aware of what is
+happening around him.
+</emphasis>
+</para>
+
+<example><title>Survival Checks</title>
+<screen>
+Game situation:
+  (first round) The Injury heap of the first Skeleton Guardian is now equal 
+  to 9. Since this is much lower than 40 plus the Body of the skeleton,
+  there is no need for a Death check (the skeleton does not check for
+  Unconsciousness, see description).
+
+  (sixth round)
+  -&gt; Bob's roll for Neila: -3 + 25 + 2 (WIL) + 2 (BOD) = 26 (Injury)
+     Neila remains conscious enough to continue the fight. 
+  -&gt; Roger's roll for Jalik: -2 + 25 + 0 (WIL) + 1 (BOD) &gt; 18 (Injury)
+     Jalik remains conscious.
+  -&gt; GM's roll for the 1st skeleton:
+     -6 + 40 + 0 (BOD) &lt; 36 (Injury)
+     The skeleton crumbles into a heap of broken bones.
+  -&gt; The Injury of the third skeleton (24) is much lower than his 
+     BOD (0) + 40, so there is no need for a death check.
+</screen>
+</example>
+</sect2>
+</sect1>

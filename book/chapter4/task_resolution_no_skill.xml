@@ -1,0 +1,36 @@
+<sect1><title>Task Resolution when No Skill is Used</title>
+<para>
+If a character attempts a Task for which he does not possess a Skill or to
+which no Skill is related, he uses (Avg(Tals) - UP) in place of Skill.
+</para>
+
+<para>
+The Task Resolution Formula becomes:
+</para>
+
+<para>
+<literal>
+d10-d10* + (Avg(Tals) - UP) &gt;= TD
+</literal>
+</para>
+
+<para>
+where <literal>UP</literal> is the Untrained Penalty.
+</para>
+
+<para>
+Note: Talent checks are conducted using this method, since they do not
+involve a Skill. Because it is sometimes difficult to tell if a Task could
+be done using a Skill or not, it is the responsibility of the GM to set an
+UP of 0 for what he feels to be a true Talent check.
+</para>
+
+<para>
+<example><title>Task Resolution when No Skill is Used</title>
+<screen>
+An example of a true Talent check would be holding one's breath to which a
+character's Fitness would be applied using the formula d10-d10* + FIT &gt;= TD.
+</screen>
+</example>
+</para>
+</sect1>

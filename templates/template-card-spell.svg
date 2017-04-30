@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r"
+   sodipodi:docname="template-card-spell.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="184.13856"
+     inkscape:cy="892.59435"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="false"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="mm"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       dotted="true"
+       units="mm"
+       spacingx="1mm"
+       spacingy="1mm" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2987"
+       empspacing="2"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="mm"
+       spacingx="5mm"
+       spacingy="5mm"
+       dotted="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Geir Atle Hegsvold</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4411"
+       transform="translate(212.59842,-814.96061)">
+      <rect
+         y="852.16534"
+         x="44.29134"
+         height="180.70865"
+         width="290.55118"
+         id="rect4078"
+         style="fill:none;stroke:#000000;stroke-width:3.54330707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         y="840.26373"
+         x="35.933071"
+         height="200.96851"
+         width="307.26773"
+         id="rect2988"
+         style="opacity:0.5;fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3760"
+         y="866.99591"
+         x="52.718941"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="866.99591"
+           x="52.718941"
+           id="tspan3762"
+           sodipodi:role="line">&lt;spell name&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3764"
+         y="848.9679"
+         x="336.27432"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:8px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Calibri;-inkscape-font-specification:Calibri Oblique"
+           y="848.9679"
+           x="336.27432"
+           id="tspan3766"
+           sodipodi:role="line">&lt;system&gt;|&lt;setting&gt;|v&lt;version&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768"
+         y="892.80109"
+         x="52.841988"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="892.80109"
+           x="52.841988"
+           sodipodi:role="line">Sources</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-9"
+         y="928.23413"
+         x="52.763863"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="928.23413"
+           x="52.763863"
+           id="tspan3770-5"
+           sodipodi:role="line">Cunductors</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-3"
+         y="892.82062"
+         x="194.5352"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-9"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="892.82062"
+           x="194.5352"
+           sodipodi:role="line">Source TD</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-9-5"
+         y="928.25366"
+         x="194.40825"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="928.25366"
+           x="194.40825"
+           id="tspan3770-5-8"
+           sodipodi:role="line">Cunductor TD</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4"
+         y="903.4505"
+         x="52.812691"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="903.4505"
+           x="52.812691"
+           sodipodi:role="line">&lt;source1&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1"
+         y="914.08044"
+         x="52.812691"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="914.08044"
+           x="52.812691"
+           sodipodi:role="line">&lt;source2&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7"
+         y="903.4505"
+         x="194.54497"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="903.4505"
+           x="194.54497"
+           sodipodi:role="line">&lt;source1 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1"
+         y="914.08044"
+         x="194.54497"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="914.08044"
+           x="194.54497"
+           sodipodi:role="line">&lt;source2 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-5"
+         y="938.88361"
+         x="52.812691"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-73"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="938.88361"
+           x="52.812691"
+           sodipodi:role="line">&lt;conductor1&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8"
+         y="949.51355"
+         x="52.812691"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="949.51355"
+           x="52.812691"
+           sodipodi:role="line">&lt;conductor2&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-12"
+         y="938.88361"
+         x="194.54495"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-7"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="938.88361"
+           x="194.54495"
+           sodipodi:role="line">&lt;conductor1 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-8"
+         y="949.51355"
+         x="194.54495"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-4"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="949.51355"
+           x="194.54495"
+           sodipodi:role="line">&lt;conductor2 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8-4"
+         y="960.14343"
+         x="52.812691"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6-6"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="960.14343"
+           x="52.812691"
+           sodipodi:role="line">&lt;conductor3&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-8-9"
+         y="960.14343"
+         x="194.54495"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-4-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="960.14343"
+           x="194.54495"
+           sodipodi:role="line">&lt;conductor3 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8-6"
+         y="970.77338"
+         x="52.812691"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="970.77338"
+           x="52.812691"
+           sodipodi:role="line">&lt;conductor4&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-8-1"
+         y="970.56171"
+         x="194.54495"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-4-8"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="970.56171"
+           x="194.54495"
+           sodipodi:role="line">&lt;conductor4 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4014"
+         y="985.03937"
+         x="53.149605"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
+           y="985.03937"
+           x="53.149605"
+           id="tspan4016"
+           sodipodi:role="line">Description</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-1"
+         y="878.74011"
+         x="53.149605"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-8"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="878.74011"
+           x="53.149605"
+           sodipodi:role="line"><tspan
+   id="tspan4070"
+   style="font-weight:bold">CT:</tspan> &lt;casting time&gt; <tspan
+   id="tspan4072"
+   style="font-weight:bold">R:</tspan> &lt;range&gt; <tspan
+   id="tspan4074"
+   style="font-weight:bold">D:</tspan> &lt;duration&gt; <tspan
+   id="tspan4076"
+   style="font-weight:bold">VoE:</tspan> &lt;volume of effect&gt;</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4062"
+         d="m 42.519685,889.37006 7.086614,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4064"
+         d="m 42.519685,924.80313 7.086614,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4098"
+         d="m 46.062992,981.49604 3.543307,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4100"
+         d="m 106.29921,981.49604 226.77166,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4463"
+       transform="translate(-372.04726,-673.22837)">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-591.2323"
+         x="698.53149"
+         height="200.96851"
+         width="307.26773"
+         id="rect2988-0"
+         style="opacity:0.5;fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-582.87402"
+         x="710.43304"
+         height="184.25197"
+         width="287.0079"
+         id="rect4078-1"
+         style="fill:none;stroke:#000000;stroke-width:3.5433073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3764-2"
+         y="707.2356"
+         x="584.80975"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:8px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Calibri;-inkscape-font-specification:Calibri Oblique"
+           y="707.2356"
+           x="584.80975"
+           id="tspan3766-1"
+           sodipodi:role="line">&lt;system&gt;|&lt;setting&gt;|v&lt;version&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3760-7"
+         y="725.26361"
+         x="407.01547"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="725.26361"
+           x="407.01547"
+           id="tspan3762-6"
+           sodipodi:role="line">&lt;spell name&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-1-3"
+         y="739.0661"
+         x="407.39438"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-8-5"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="739.0661"
+           x="407.39438"
+           sodipodi:role="line"><tspan
+   id="tspan4070-6"
+   style="font-weight:bold">CT:</tspan> &lt;casting time&gt; <tspan
+   id="tspan4072-1"
+   style="font-weight:bold">R:</tspan> &lt;range&gt; <tspan
+   id="tspan4074-4"
+   style="font-weight:bold">D:</tspan> &lt;duration&gt;</tspan><tspan
+           id="tspan4369"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="749.0661"
+           x="407.39438"
+           sodipodi:role="line"><tspan
+   id="tspan4371"
+   style="font-weight:bold">VoE:</tspan> &lt;volume of effect&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-0"
+         y="768.78534"
+         x="407.1727"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-0"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="768.78534"
+           x="407.1727"
+           sodipodi:role="line">Sources</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-3-6"
+         y="768.78534"
+         x="513.47192"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-9-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="768.78534"
+           x="513.47192"
+           sodipodi:role="line">Source TD</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-6"
+         y="779.43475"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-2"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="779.43475"
+           x="407.1434"
+           sodipodi:role="line">&lt;source1&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-5"
+         y="790.0647"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="790.0647"
+           x="407.1434"
+           sodipodi:role="line">&lt;source2&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-0"
+         y="779.41522"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-17"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="779.41522"
+           x="513.48169"
+           sodipodi:role="line">&lt;source1 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-1"
+         y="790.04517"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-1"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="790.04517"
+           x="513.48169"
+           sodipodi:role="line">&lt;source2 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-9-1"
+         y="811.30499"
+         x="407.09457"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="811.30499"
+           x="407.09457"
+           id="tspan3770-5-0"
+           sodipodi:role="line">Cunductors</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-9-5-1"
+         y="811.32452"
+         x="513.43286"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="811.32452"
+           x="513.43286"
+           id="tspan3770-5-8-2"
+           sodipodi:role="line">Cunductor TD</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-5-7"
+         y="821.95447"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-73-4"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="821.95447"
+           x="407.1434"
+           sodipodi:role="line">&lt;conductor1&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8-2"
+         y="832.58441"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6-4"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="832.58441"
+           x="407.1434"
+           sodipodi:role="line">&lt;conductor2&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-12-3"
+         y="821.95447"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-7-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="821.95447"
+           x="513.48169"
+           sodipodi:role="line">&lt;cndctr1 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-8-16"
+         y="832.58441"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-4-84"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="832.58441"
+           x="513.48169"
+           sodipodi:role="line">&lt;cndctr2 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8-4-4"
+         y="843.21429"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6-6-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="843.21429"
+           x="407.1434"
+           sodipodi:role="line">&lt;conductor3&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-8-9-4"
+         y="843.21429"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-4-5-3"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="843.21429"
+           x="513.48169"
+           sodipodi:role="line">&lt;cndctr3 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8-6-3"
+         y="853.84424"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6-5-8"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="853.84424"
+           x="407.1434"
+           sodipodi:role="line">&lt;conductor4&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-8-1-0"
+         y="853.63257"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-4-8-9"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="853.63257"
+           x="513.48169"
+           sodipodi:role="line">&lt;cndctr4 TD&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4014-2"
+         y="881.8277"
+         x="406.79184"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
+           y="881.8277"
+           x="406.79184"
+           id="tspan4016-3"
+           sodipodi:role="line">Description</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4383"
+         d="m 400.3937,758.26769 180.70866,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4385"
+         d="m 397.36715,800.28738 186.76178,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4387"
+         d="m 397.36003,871.15352 186.76622,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4383-1"
+         d="m 400.3937,729.92124 180.70866,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4407"
+         y="892.91339"
+         x="407.48032"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="892.91339"
+           x="407.48032"
+           id="tspan4409"
+           sodipodi:role="line">&lt;description&gt;</tspan></text>
+    </g>
+  </g>
+</svg>

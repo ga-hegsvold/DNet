@@ -1,0 +1,536 @@
+<sect1><title>Combat Styles</title>
+<para>
+One of the fundamental premises behind the DNet combat system is that one's
+fighting style is more important than the actual weapon used. A fighter used
+to fighting with a broad sword and a shield will find it much easier to fight
+with a bastard sword and a shield than to fight with a broad sword alone. His
+combat reflexes are tuned to certain strike sequences relying on the shield
+to parry blows. For him, fighting without the shield means developping new
+strike sequences, something that is not always easy to do in the middle of
+a melee.
+</para>
+
+<para>
+<table frame="all"><title>Combat Styles</title>
+<tgroup cols="7" align="center" colsep="1" rowsep="1">
+<colspec colname="c1" align="left" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="7" colname="c7" align="left" colwidth="1*" />
+<spanspec spanname="hspan" namest="c3" nameend="c4" align="center" />
+<spanspec spanname="lspan" namest="c1" nameend="c7" align="left" />
+<thead>
+<row><entry>Style Name</entry><entry>BC</entry><entry spanname="hspan">Talents</entry><entry>AM</entry><entry>DM</entry><entry>Special Characteristics</entry></row>
+</thead>
+<tbody>
+<row><entry spanname="lspan"></entry></row>
+<row><entry spanname="lspan">LONG RANGE STYLES</entry></row>
+<row><entry>Archery</entry><entry>4</entry><entry>DEX</entry><entry>PER</entry><entry></entry><entry></entry><entry>extreme, 0 def</entry></row>
+<row><entry>Cross Bows</entry><entry>2</entry><entry>DEX</entry><entry>PER</entry><entry></entry><entry></entry><entry>extreme, 0 def</entry></row>
+<row><entry>Thrown Weapons</entry><entry>3</entry><entry>DEX</entry><entry>PER</entry><entry></entry><entry></entry><entry>near, no def</entry></row>
+<row><entry spanname="lspan"></entry></row>
+<row><entry spanname="lspan">MELEE STYLES</entry></row>
+<row><entry>Articulated Weapons</entry><entry>4</entry><entry>AGI</entry><entry>DEX</entry><entry>+1</entry><entry></entry><entry>entangle, +2 disarm</entry></row>
+<row><entry>Articulated Weapons &amp; Shield</entry><entry>5</entry><entry>AGI</entry><entry>DEX</entry><entry>+1</entry><entry>*</entry><entry>entangle, +2 disarm</entry></row>
+<row><entry>Bolas, Whips, Ropes, Nets</entry><entry>3</entry><entry>AGI</entry><entry>DEX</entry><entry></entry><entry></entry><entry>trip/entangle, 0 def, +3 disarm</entry></row>
+<row><entry>Close Weapons</entry><entry>2</entry><entry>AGI</entry><entry>DEX</entry><entry></entry><entry></entry><entry></entry></row>
+<row><entry>Close Weapons &amp; Shield</entry><entry>3</entry><entry>AGI</entry><entry>DEX</entry><entry></entry><entry>*</entry><entry></entry></row>
+<row><entry>Dual Weapon</entry><entry>4</entry><entry>AGI</entry><entry>DEX</entry><entry>+2</entry><entry>-1</entry><entry></entry></row>
+<row><entry>Fencing</entry><entry>5</entry><entry>AGI</entry><entry>DEX</entry><entry>+2</entry><entry></entry><entry>def vs Fencing/Close only</entry></row>
+<row><entry>One-Handed Weapons </entry><entry>3</entry><entry>AGI</entry><entry>DEX</entry><entry></entry><entry></entry><entry></entry></row>
+<row><entry>One-Handed Weapons &amp; Shield </entry><entry>4</entry><entry>AGI</entry><entry>DEX</entry><entry></entry><entry>*</entry><entry></entry></row>
+<row><entry>Polearms</entry><entry>4</entry><entry>AGI</entry><entry>DEX</entry><entry>+1</entry><entry>-1</entry><entry>2nd rank, fend</entry></row>
+<row><entry>Staves</entry><entry>2</entry><entry>AGI</entry><entry>DEX</entry><entry></entry><entry></entry><entry></entry></row>
+<row><entry>Thrusting Weapons</entry><entry>3</entry><entry>AGI</entry><entry>PER</entry><entry></entry><entry></entry><entry>2nd rank, fend</entry></row>
+<row><entry>Thrusting Weapons &amp; Shield</entry><entry>4</entry><entry>AGI</entry><entry>PER</entry><entry></entry><entry>*</entry><entry>2nd rank, fend</entry></row>
+<row><entry>Two-Handed Weapons</entry><entry>3</entry><entry>AGI</entry><entry>STR</entry><entry></entry><entry>-2</entry><entry>2nd rank</entry></row>
+<row><entry spanname="lspan"></entry></row>
+<row><entry spanname="lspan">UNARMED STYLES</entry></row>
+<row><entry>Boxing</entry><entry>2</entry><entry>AGI</entry><entry>FIT</entry><entry></entry><entry></entry><entry>hand, no def vs Wpn</entry></row>
+<row><entry>Brawling</entry><entry>3</entry><entry>FIT</entry><entry>STR</entry><entry></entry><entry></entry><entry>hand, bash, -5 def vs Wpn </entry></row>
+<row><entry>Karate</entry><entry>3</entry><entry>FIT</entry><entry>WIL</entry><entry></entry><entry></entry><entry>hand, foot, -3 def vs Wpn </entry></row>
+<row><entry>Judo/Wrestling</entry><entry>3</entry><entry>FIT</entry><entry>WIL</entry><entry></entry><entry></entry><entry>hold, throw, no def vs Wpn</entry></row>
+</tbody>
+</tgroup>
+</table>
+* Shield bonus/bash.
+</para>
+
+<formalpara><title>BC</title>
+<para>
+Base Cost. This is the training cost associated with the skill.
+</para>
+</formalpara>
+
+<formalpara><title>Talents</title>
+<para>
+The Talents which forms the basis for using this Skill. (i.e. The Talents
+acts as a modifier for use of the Skill in the targeting equation.)
+</para>
+</formalpara>
+
+<formalpara><title>AM</title>
+<para>
+Attack modifier.
+</para>
+</formalpara>
+
+<formalpara><title>DM</title>
+<para>
+Defense modifier.
+</para>
+</formalpara>
+
+<formalpara><title>Special Characteristics</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Range</title>
+<para>
+<itemizedlist>
+<listitem><para>Close (0 - 1 m; actually engaged in close combat)</para></listitem>
+<listitem><para>Near (1 - 10 m; engaged or able to move to engage this round)</para></listitem>
+<listitem><para>Moderate (11 - 50 m; not in melee range, but probably in missile weapon range)</para></listitem>
+<listitem><para>Far (51 - 100 m; not in melee range, but probably in missile weapon range)</para></listitem>
+<listitem><para>Extreme (&gt; 100 m; out of all but the longest range missile weapons)</para></listitem>
+</itemizedlist>
+</para>
+</formalpara>
+
+<formalpara><title>2nd rank</title>
+<para>
+Extended weapon reach to attack opponents from a distance, as from behind a
+line of friendly shield bearers.
+</para>
+</formalpara>
+
+<formalpara><title>Fend</title>
+<para>
+Basically Fend keeps opponent with shorter weapon at a distance unable to
+attack. Opponent who loses against Fend either cannot attack or takes automatic
+hit at full Damage (maximum for thrusting weapon and STR bonus).
+</para>
+</formalpara>
+
+<para>
+A Fend can be started if an opponent is outside of Close range at the start of
+a combat round. Otherwise, a successful Fend means that an opponent who is at
+Close range is unable to attack in the next round. A successful Fend must occur
+in each subsequent round to keep the opponent at bay.
+</para>
+
+<formalpara><title>Entangle</title>
+<para>
+Entangle limbs. A successful attack will entangle the limbs of the
+defender, unless an Agility check against a TD equal to the attacker's total
+roll is made by the defender. The attacker must specify that he is trying
+to entangle during the declaration phase.
+</para>
+</formalpara>
+
+<formalpara><title>Trip</title>
+<para>
+Entangle legs and trip opponent. A successful attack will entangle the
+legs of the defender, unless an Agility check against a TD equal to the
+attacker's total roll is made by the defender. The attacker must specify
+that he is trying to trip during the declaration phase.
+</para>
+</formalpara>
+
+<formalpara><title>Shield Bonus</title>
+<para>
+The use of a shield gives a bonus to defense of 2 plus the shield bonus, 
+which depends on the type of shield.
+</para>
+</formalpara>
+
+<para>
+<emphasis>
+Optional: Instead of the fixed +2 defense bonus, the Shield Use skill
+gives a +1 bonus for every 5 levels, i.e. +1 at levels 1 through 5, 
++2 at levels 6 through 10, +3 at levels 11 through 15, ...
+</emphasis>
+</para>
+
+<formalpara><title>Shield Bash</title>
+<para>
+The ability to use shield as a weapon. Blow causes 2d6 + shield Impact +
+1 point per Sise Rating of the attacker + Strength of the attacker.
+Defender is knocked off his feet and goes prone unless a successful Agility
+check against a TD equal to the attacker's total roll is made.
+</para>
+</formalpara>
+
+<formalpara><title>Def Fencing/Close only</title>
+<para>
+Defense against Fencing and Close styles only.
+</para>
+</formalpara>
+
+<formalpara><title>Hand</title>
+<para>
+Attacks with hands or fists do 2d6-8 Impact.
+</para>
+</formalpara>
+
+<formalpara><title>Foot</title>
+<para>
+Kicking attacks to 2d6-6 Impact.
+</para>
+</formalpara>
+
+<formalpara><title>Bash</title>
+<para>
+Bashing attacks include body slams and tackles. Impact is 2d6-4.
+A running start is required to do Damage, so no Impact is done if you are
+already at Close range. (possible to force backwards even if starting at Close
+range)
+</para>
+</formalpara>
+
+<formalpara><title>Throw</title>
+<para>
+Throws include leg sweeps and judo/wrestling throws. IMPACT is 2d6-6 and
+is not modified by STR. Success leaves the defender prone.
+</para>
+</formalpara>
+
+<formalpara><title>Hold</title>
+<para>
+Hold attacks include judo holds and wrestling pins.  
+After a successful attack the defender must make a roll if he wants to
+try to break the hold.  
+</para>
+</formalpara>
+
+<para>
+<literal>
+d10-d10* + STR + skill &gt;= holder's STR + skill
+</literal>
+</para>
+
+<para>
+The "skill" may be from any style which includes "hold" attacks.
+If the hold is successful, the attacker may choose to inflict damage: 
+</para>
+
+<para>
+<literal>
+Impact is 2d6-4 (+STR).
+</literal>
+</para>
+
+<para>
+* Note about HANDS: There are holds and throws which require two hands,
+and some which require no hands. The GM may judge if a maneuver is possible
+or more difficult (skill penalty) in some situations, such as if the player has
+his hands bound.
+</para>
+
+<sect2><title>Long Range Styles</title>
+<formalpara><title>Archery</title>
+<para>
+Any (non-cross) bow. Rate of Fire (ROF) is generally one arrow per round.
+</para>
+</formalpara>
+
+<formalpara><title>Cross Bows</title>
+<para>
+All crossbows. ROF will be determined by weapon and Strength. High Strength
+crossbow weapons may only allow occasional fire 1/3 rounds to 1/10 rounds.
+If there is a 1/1 rate of fire, damage is minimal e.g. per dagger.
+</para>
+</formalpara>
+
+<formalpara><title>Thrown Weapons</title>
+<para>
+Any weapon which can be thrown. Effectiveness is greatly limited with weapons
+that were not designed to be thrown. Weapons designed to be thrown -- axe,
+knives, boomerang, darts, javelin, discus, etc.
+ROF is 1 per round if the weapon is appropriately carried on the body
+(at girdle or similar -- not in pack). When throwing into a melee situation,
+ROF is reduced to 1/2 rounds or roll randomly for target.
+</para>
+</formalpara>
+</sect2>
+
+<sect2><title>Melee Styles</title>
+<formalpara><title>Articulated Weapons</title>
+<para>
+Any articulated weapon. Leveraged weapons (like a flail) are harder to use than
+a more straightforward weapon. This covers all such weapons, one or two handed,
+when used without a shield. If a shield is used, a penalty of -5 is applied
+to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Articulated Weapons &amp; Shield</title>
+<para>
+Any one handed articulated weapon used with a shield.
+Leveraged weapons (like a flail) are harder to use than a more
+straightforward weapon. This covers all such one handed weapons, when used
+with a shield. If no shield is used, a penalty of -5 is applied to the 
+skill.
+</para>
+</formalpara>
+  
+<formalpara><title>Bolas/Whips/Ropes/Nets</title>
+<para>
+Bolas, whips, ropes and nets.
+</para>
+</formalpara>
+
+<formalpara><title>Close Weapons</title>
+<para>
+Weapons such as knives, daggers, brass knuckles, etc.
+Opponents must be at Close range. If not they can Fend. If a shield is used,
+a penalty of -5 is applied to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Close Weapons &amp; Shield</title>
+<para>
+Weapons such as knives, daggers, brass knuckles, etc.
+Opponents must be at Close range. If not they can Fend. If no 
+shield is used, a penalty of -5 is applied to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Dual Weapon</title>
+<para>
+Any 2 weapons which can be wielded with one hand.
+Comments: minus on defense, or limit defense as in previous post. (i.e.
+can not defend against weapons more than one `class' larger than secondary
+weapon without loosing attack. Limit weapons to those smaller than medium
+with respect to character size/strength.
+</para>
+</formalpara>
+
+<formalpara><title>Fencing</title>
+<para>
+Fencing defense can only occur against Fencing and Close Weapons.
+Against other Styles, reduce Def to 1.
+Parry repost style fighting with light weight weapons -- edge or point attacks.
+This is not for unbalanced weapons like axe or mace.
+</para>
+</formalpara>
+
+<formalpara><title>One-handed Weapons</title>
+<para>
+Any non-articulated weapon which can be wielded with one hand.
+If a shield is used, a penalty of -5 is applied to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>One-Handed Weapons &amp; Shield</title>
+<para>
+Any non-articulated weapon which can be wielded with one hand.
+If no shield is used, a penalty of -5 is applied to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Polearms</title>
+<para>
+Halbards, poles with ax, blade, pick, or exotic ends of reach 2 to 2.5.
+Pole arms are commonly swung, having blade or pick. They have a
+higher moment of inertia than Two-Handed Weapons. They also have some closer
+grip style that allows some parry action with the either end ala quarter
+staff. Most wielders of pole arms do not like to use that style, prefering
+to use weapon from 2nd rank. If the weapon has a spear point, it may also
+be used in Thrusting Weapons Style.
+</para>
+</formalpara>
+
+<formalpara><title>Staves</title>
+<para>
+All staves.
+</para>
+</formalpara>
+
+<formalpara><title>Thrusting Weapons</title>
+<para>
+Any spear weapon. Includes pike which is a reach 3 spear.
+This to cover spears and such. Thrusting style does not use nether end for
+block, but forward shaft. Thrusting Style also includes Fend as an alternative
+to attack and defend.
+If a shield is used, a penalty of -5 is applied to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Thrusting Weapons &amp; Shield</title>
+<para>
+Any one-handed spear weapon. Includes pike which is a reach 3 spear.
+(*pike is one-handed?)
+This to cover spears and such. This includes shield use for smaller shields.
+Thrusting weapon may be one handed with shield. Thrusting Style does not use
+nether end for block, but forward shaft. Thrusting Style also includes Fend as
+an alternative to attack and defend.
+If no shield is used, a penalty of -5 is applied to the Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Two-Handed Weapons</title>
+<para>
+Any non-articulated weapon which can be wielded with two hands.
+</para>
+</formalpara>
+</sect2>
+
+<sect2><title>Unarmed Styles</title>
+<para>
+I would like to use a minimal list of unarmed combat styles, since it is
+more in the spirit of the current weapon styles. A well rounded martial
+artist using this list would learn Karate for the hand and foot maneuvers,
+Close Weapons for the usual list of Chinese peasant weapons, Judo for
+the throws, Staff, and One-Handed Weapon skills.
+</para>
+
+<formalpara><title>Boxing</title>
+<para>
+No defence vs weapons. Hand, brass knuckles.
+Boxing-ring, or bare-fist style fighting.
+</para>
+</formalpara>
+
+<formalpara><title>Brawling</title>
+<para>
+-5 defence vs weapons. Hand, bash. Barroom brawl style.
+</para>
+</formalpara>
+
+<formalpara><title>Karate</title>
+<para>
+-3 defence vs weapons. Hand, foot.
+Generic style for basic Eastern martial arts.
+We may want to limit weapon defences for Brawling and Karate for small
+and maybe medium size weapons.
+</para>
+</formalpara>
+
+<formalpara><title>Judo/Wrestling</title>
+<para>
+No defence vs weapons. Hold, throw.
+Generic style for Western-style wrestling and Eastern-style Judo.
+</para>
+</formalpara>
+</sect2>
+
+<sect2><title>Other Combat Skills</title>
+<para>
+<table frame="all"><title>Combat Styles</title>
+<tgroup cols="7" align="center" colsep="1" rowsep="1">
+<colspec colname="c1" align="left" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="7" colname="c7" align="left" colwidth="1*" />
+<spanspec spanname="hspan" namest="c3" nameend="c4" />
+<thead>
+<row><entry>Skill name</entry><entry>BC</entry><entry spanname="hspan">Talents</entry><entry>UP</entry><entry>TD</entry><entry>Description</entry></row>
+</thead>
+<tbody>
+<row><entry>Catch Missiles</entry><entry>4</entry><entry>AGI</entry><entry>PER</entry><entry>10</entry><entry>D/5</entry><entry>Catch an incoming spear</entry></row>
+<row><entry>Disarm</entry><entry>4</entry><entry>DEX</entry><entry>STR</entry><entry>8</entry><entry>D/5</entry><entry>Make opponent drop weapon</entry></row>
+<row><entry>Dodge</entry><entry>3</entry><entry>AGI</entry><entry>PER</entry><entry>6</entry><entry>N/A</entry><entry>Dodge two melee attacks</entry></row>
+<row><entry>Evade Missiles</entry><entry>3</entry><entry>AGI</entry><entry>PER</entry><entry>6</entry><entry>A/0</entry><entry>Dodge an incoming spear</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+
+<formalpara><title>Catch Missiles</title>
+<para>
+Gives the character a chance to catch missiles, but only if the player says he
+will try to do so in the declaration phase. The task difficulties (TD) for the
+various kind of missiles are given below:
+</para>
+</formalpara>
+
+<para>
+<table frame="all"><title>Catch Missiles TD</title>
+<tgroup cols="2" align="center" colsep="1" rowsep="1">
+<colspec colname="c1" align="left" colwidth="1*" />
+<colspec colname="c2" colwidth="1*" />
+<thead>
+<row><entry>Missile</entry><entry>TD</entry></row>
+</thead>
+<tbody>
+<row><entry>Spear</entry><entry>D/5</entry></row>
+<row><entry>Axe, dagger, etc</entry><entry>V/10</entry></row>
+<row><entry>Arrow</entry><entry>ED/15 </entry></row>
+<row><entry>Crossbow bolt</entry><entry>L/20</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+
+<formalpara><title>Disarm</title>
+<para>
+This Skill is used in place of a normal attack to attempt to disarm an
+opponent. The success check is:
+</para>
+</formalpara>
+
+<para>
+<literal>
+d10-d10* + Attakers SA + Attakers STR &gt;= d10-d10* + Defeders SD + Defenders STR
+</literal>
+</para>
+
+<para>
+This Skill can be used by both armed and unarmed combatants. Some Combat
+Styles may have modifiers that are added to your roll when you attempt
+to disarm an opponent.
+</para>
+
+<para>
+<emphasis>
+Optional: Both opponents can add the mass of their weapon (rounded to the
+nearest kilogram) to their roll.
+</emphasis>
+</para>
+
+<formalpara><title>Dodge</title>
+<para>
+The Dodge Skill allows the character to attempt to escape blows
+from two opponents for each Dodge action. It can be used in conjunction with
+the Style attack/defenses using the multiple actions mechanism.
+</para>
+</formalpara>
+
+<para>
+For example,
+if a fighter wants to attack one opponent and Dodge two others, the Style 
+actions (attack and defense) and the Dodge action (evading the blows from the
+two other opponents) will be rolled with a -5 penalty. If the Dodge Skill is
+used in conjunction with a shield, the bearer can add the shield bonus to his
+defense roll.
+</para>
+
+<formalpara><title>Evade Missiles</title>
+<para>
+Allows character to dodge incoming missiles. The player must declare that the
+character will try to do so during the declaration phase. Task difficulties
+are:
+</para>
+</formalpara>
+
+<para>
+<table frame="all"><title>Evade Missiles TD</title>
+<tgroup cols="2" align="center" colsep="1" rowsep="1">
+<colspec colname="c1" align="left" colwidth="1*" />
+<colspec colname="c2" colwidth="1*" />
+<thead>
+<row><entry>Missile</entry><entry>TD</entry></row>
+</thead>
+<tbody>
+<row><entry>Spear</entry><entry>A/0</entry></row>
+<row><entry>Axe, dagger, etc</entry><entry>D/5</entry></row>
+<row><entry>Arrow</entry><entry>V/10 </entry></row>
+<row><entry>Crossbow bolt</entry><entry>ED/15</entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+</sect2>
+</sect1>

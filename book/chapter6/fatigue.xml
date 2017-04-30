@@ -1,0 +1,13 @@
+<sect1><title>Fatigue in Combat</title>
+<para>
+In combat, be it melee or missile combat, the Fatigue heap must be increased
+every 5 rounds (30 seconds), no matter what actions are performed (fighting,
+moving, dodging, tending a wounded comrade, ...). As usual, Fatigue is
+increased by 1 plus the Encumbrance Penalty.
+</para>
+
+<para>
+If a character does not perform any action (he just stands there), then his
+Fatigue does not increase.
+</para>
+</sect1>

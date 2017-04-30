@@ -1,0 +1,42 @@
+<sect1><title>Careers</title>
+<para>
+Choosing a Career does not limit a character to a certain set of Skills
+exclusively, nor prevent a character from gaining Skills outside their Career
+areas. The character will simply have more starting EPs in Skills within their
+Career areas. There is nothing to prevent, for example, a Hunter character
+from learning Skills from the Magic area at some later time, provided he has
+the needed EP.
+</para>
+
+<para>
+The percentile breakdown of the total EP gained in a particular Career is
+listed after each Skill. The character will gain a total of 20 EP each month
+the first five years of the Career. The next five years he gains a total of 10
+EP each month. After these ten years he will gain a total of 5 EP each month.
+</para>
+
+<table frame="all"><title>Career EP</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<thead>
+<row><entry>Years in career</entry><entry>Total EP per month</entry></row>
+</thead>
+<tbody>
+<row><entry>&lt;= 5</entry><entry>20 EP</entry></row>
+<row><entry>6 - 10</entry><entry>10 EP</entry></row>
+<row><entry>&gt; 10</entry><entry>5 EP</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+<screen>
+[EXAMPLE with Ronan]
+</screen>
+</para>
+
+<para>
+See Master Career List for all available Careers.
+</para>
+</sect1>

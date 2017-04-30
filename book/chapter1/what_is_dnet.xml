@@ -1,0 +1,192 @@
+<sect1><title>What is DragonNet?</title>
+<sect2><title>DragonNet RPG</title>
+<para>
+DragonNet (DNet) is a Role Playing Game (RPG) developed by a group of
+volunteers over the Internet. The game is donated to the gaming community as
+described under copyright and license. We hope that you enjoy our game. We
+encourage you to use it; to change parts that don't fit in your game worlds;
+to create new monsters, spells and rules; and to share your creative efforts
+with other gamers.
+</para>
+</sect2>
+
+<sect2><title>Why Another RPG?</title>
+<para>
+There are a lot of RPG systems out there. Almost everybody has their
+favorites. Everybody has played AD&amp;D (tm). There are new games every year.
+Why another one? Well, we weren't happy with the other games we've seen
+for several reasons. We felt that if we could use what we've learned from
+years of gaming experience, we could develop a system that corrected the
+mistakes and imbalances of other games. We hope we've accomplished that. 
+</para>
+</sect2>
+
+<sect2><title><emphasis>"First Kill all the Lawyers" - William Shakespeare
+</emphasis></title>
+<para>
+As many of you know, TSR has recently cracked down on the distribution of
+user created materials for use with their AD&amp;D (tm) game. The letter
+posted to rec.games.frp.dnd written by a TSR lawyer to a sysadmin 
+caused quite a stir. Was there a company that provided a game where 
+users were encouraged to develop material for the game and use it 
+freely? We couldn't find one so we decided to develop our own.
+</para>
+
+<para>
+The intellectual property owned by some game company is not what makes
+role-playing an enjoyable hobby. (We argue it is their intellectual
+property that causes many of the problems!) We decided to develop our own
+fantasy RPG that would meet the needs of the net.community. One that could
+be enjoyed without fear of legal retaliation. 
+</para>
+</sect2>
+
+<sect2><title>Open Systems Development Philosophy</title>
+<para>
+Unix is a popular computer operating system for two primary reasons. One:
+it's free (usually), and Two it uses an open system architecture. Computer
+operating systems and RPG's actually have a lot in common. They are simply
+a set of logical rules combined with a syntax. This combination results in
+a system where user defined modules interact. RPG mechanics are also a set
+of rules and syntax for the purpose of role playing or story-telling. If
+Unix can be successful as a free system with open system architecture,
+DNet should be successful as a free open-system RPG.
+</para>
+
+<para>
+You already know what free means, and it's nice not to have to shell out
+$20.00 for the latest RPG game. Not to mention the continual drain on your
+pocketbook for the latest supplement. So what does open-system
+architecture mean? Well simply it means that you know all the information
+that was used to design the system. You are free to tinker with the insides
+of the system. You can change it. Improve it. Distribute it. Expand it.
+Bend it. Fold it. Mutilate it. Staple and spindle it.
+</para>
+
+<para>
+In fact we knew when we started this project we wouldn't have the time to
+fully develop every aspect of a good RPG. We hope you will take the
+opportunity to carve out a portion of reality. Study it carefully. Ponder
+it as you read through our Designer's Notes. Write up your new material
+and distribute it to the gaming world. That is after all why we started
+DNet. We felt it would serve our own self interest. We want to see what you
+can develop. 
+</para>
+</sect2>
+
+<sect2><title>Design Philosophy</title>
+<para>
+If you want to design materials for use with DNet you have two options.
+You can develop unnofficial material yourself. Or you can join
+the DragonNet Team. Either way, you'll want to understand the design
+philosophy we employed in creating the DNet game. 
+</para>
+</sect2>
+
+<sect2><title>The Quest for Realism</title>
+<para>
+Almost all of us started RPG's with one of the early RPG systems. It was
+fun for a while, but as we progressed they lost some of their charm.
+Perhaps our character had progressed to beyond the 10th level and game
+balance was forever lost. Maybe we no longer felt we had enough options,
+or it seemed stupid that our fighter could dive off a 100 foot cliff into
+solid rock and pick himself off the ground with relatively minor injuries.
+In any event, we decided we could improve the system. We started by
+working within the systems framework. Soon we exhausted all the
+possibilities. Many of the problems were fundamental flaws in the games
+themselves unable to be easily fixed without causing major problems
+somewhere else. Next we moved on to other systems. We tried RuneQuest(tm)
+or RoleMaster(tm). Then we moved on to "third generation" games such as
+Hero (tm) or G.U.R.P.S. (tm). Still we were unsatisfied. We questioned why.
+These games were rich with detail. The realism we craved was there. Why
+did they lack the charm of those first RPG sessions? 
+</para>
+
+<para>
+The reason we believe is that realism is not the grail RPG designers
+should seek. Adding realism for it's own sake takes away the wonder of the
+game. The mechanics begin to bog down the flow of play. We lose the drama
+inherent in the plot. The story becomes dull. The game unplayed. The true
+alignment principle game designers should strive for is elegance. An RPG
+can be realistic to the extent that it uses simple, fast moving mechanics.
+Gritty realism is less important than plausibility. An RPG is much like a
+novel. Many realistic games get bogged down in the mechanics. This is as
+dangerous for a GM as concentrating on technique alone would be for a
+writer. The RPG system is there to enhance the story. The story is not a
+vehicle for the RPG system. 
+</para>
+</sect2>
+
+<sect2><title>Simplicity vs. Complexity</title>
+<para>
+Within the context of an elegant game, simplicity is key. When game
+mechanics are simple and can be handled quickly they contribute to an
+enjoyable role playing session. When they are bulky, get in the way, or
+require frequent die rolls or multiple table lookups we lose the sense of
+action, the drama of the events happening in the game world. Complexity is
+an enemy that must be guarded against. If we fail to be watchful it creeps
+into our systems. It destabilizes game balance and slows the play. The
+rules drive the game. This is not what a RPG should be. 
+</para>
+</sect2>
+
+<sect2><title>Key Development Principles</title>
+<formalpara><title>Simplicity</title>
+<para>
+DNet should be a very simple game to play.
+All the numbers needed for play should be available on the player's character
+sheet. Non-player-character (NPC) stats should easily fit on a A5 card.
+Table lookups should be infrequent or non-existent, particularly during play.
+Only a limited number of dice should be used (d10 and d6). Dice mechanics
+should be similar, and there should be no more than 2 or 3 varieties.
+Skill and Talent checks should occur in basically the same manner.
+Simplicity should not however preclude the richness of systems enjoyed by
+experienced players.
+</para>
+</formalpara>
+
+<formalpara><title>Intuitive</title>
+<para>
+DNet should be intuitive. Jargon and acronymns should be avoided.
+High die rolls should be good, low rolls bad. Game abstractions should make
+sense relative to the real world. This should not be confused with realism.
+DNet is not a detailed, gritty, realistic system. Abstractions have a basis in
+reality. As an example in AD&amp;D (tm), hit points are an abstraction that
+includes luck, skill, endurance and physical health. When you lose hit points
+in AD&amp;D (tm) you are not necessarily taking wounds.
+This kind of abstraction should be avoided.
+</para>
+</formalpara>
+
+<formalpara><title>Flexible</title>
+<para>
+DNet as a licensed game will be available for all Game Masters (GMs) to tinker
+with. This should be encouraged, even built into the system. Each section of
+the game, Character Creation, Combat, Magic, etc. should have a set of basic
+rules that are easy to play, understand and use. Each section should also have
+a set of advanced rules that add flavor to the game. These advanced rules
+should allow characters to move seamlessly between the systems. All advanced
+rules would be strictly optional. GMs could pick and choose among the optional
+rules they will use.
+</para>
+</formalpara>
+
+<formalpara><title>Expandable</title>
+<para>
+DNet is an Open-System design. As such, it should be easily expandable by the
+user. The game design should be such that players and GMs can easily add
+Species, Cultures, Careers, Skills, Spells, etc. without disturbing game
+balance or violating the integrity of the system.
+</para>
+</formalpara>
+
+<formalpara><title>Quality</title>
+<para>
+DNet should be a high quality product. Suitable for publication by any of the
+major game publishing companies. It should include quality color artwork, be
+well written and meticulously edited. It should be made available through
+anonymous ftp as text, postscript, and through www as hypertext formats.
+</para>
+</formalpara>
+</sect2>
+</sect1>

@@ -1,0 +1,10 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Dice</title>
+
+<xi:include href="tasks.xml" />
+<xi:include href="task_resolution.xml" />
+<xi:include href="weapon_impact.xml" />
+<xi:include href="experience.xml" />
+<xi:include href="reroll.xml" />
+
+</chapter>

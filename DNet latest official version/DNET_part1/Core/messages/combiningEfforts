@@ -1,0 +1,83 @@
+From fortin Sun May 14 18:28:36 1995
+Subject: Combining efforts: a simple solution
+To: dncore@cs.nmt.edu (DNET Core Rules)
+Date: Sun, 14 May 95 18:28:36 EDT
+X-Mailer: ELM [version 2.4dev PL52]
+
+Hi,
+
+While washing the dishes (TD = 20, based on Willpower), I considered the issue
+of combining efforts to accomplish a task and I think that I found a simple
+and relatively elegant solution.
+
+If two person with different Talents (Ta1 and Ta2) were to attempt the same 
+task independantly, they would each use the standard task resolution relation:
+
+2d10* + Ta1 >= TD        for person 1
+2d10* + Ta2 >= TD        for person 2
+
+The chance that at least one of them would succeed would be:
+
+P(at least one success) = 1 - P(both fail) 
+                        = 1 - P(person 1 fails) * P(person 2 fails)
+
+This probability is the one that you get when Person A tries to pick a lock,
+then person B tries to open it person A has failed.
+
+Numerical example: if both persons have 30% chances of success, the probability
+                   that at least one of them will succeed is
+
+                   P(at least one success) = 1 - 0.7 * 0.7 = 51%
+
+Common sense tells us that the probablity of success should be higher for tasks
+that are attempted in cooperation (as long as the tasks can be attempted by 
+more than one person at a time). How can we account for this in our rules.
+
+A simple solution is to decrease the task difficulty by a certain amount for
+each person beyond the first. Each person still makes a roll and if one person
+succeeds, the task succeed. In the example above, the task resolution equations
+would become:
+
+2d10* + Ta1 >= TD - X          for person 1
+2d10* + Ta2 >= TD - X          for person 2
+
+This increases the chances of success of each person, in proportion with the
+original chances of success.
+
+The general form of the task resoltuion equation for each person is:
+
+2d10* + Ta >= TD - (N-1)*X
+
+where N is the number of persons attempting the task and X is the a factor
+determining how easier the task is when attempted by many persons. For most
+tasks, X will probably be 1.
+
+Numerical example:
+
+David (with STR -5) and Goliath (with STR +5) attempt to open a stuck door
+(TD = 20). If they attempt individually, their combined chance of success is:
+
+P(at least one success) = 1 - 0.96 * 0.74 = 0.71 = 29%
+
+The task resolution equations are:
+
+2d10* + (-5) >= 20
+2d10* + (+5) >= 20
+
+If they attempt in cooperation, their probability of success is:
+
+P(cooperative success) = 1 - 0.96 * 0.68 = 35%
+
+and the task resolution equations are:
+
+2d10* + (-5) >= 19
+2d10* + (+5) >= 19
+
+(with X = 1)
+
+This method cannot be proved to be accurate, but it is simple and gives (IMO)
+much more sensible results than the methods suggested so far.
+
+Comments? Do we adopt it?
+
+Guillaume

@@ -1,0 +1,273 @@
+<sect1><title>Gifts and Foibles</title>
+<para>
+Gifts and Foibles cover anything not covered by Talents.
+They have EP Costs, and may be bought with EPs when the character is created.
+</para>
+
+<para>
+These are intended to cover special or unusual situations, like
+"fire resistance" or "shape change." If the genre permits, psychological Gifts
+or Foibles may also be permitted, such as "fear of snakes" or "high pain
+threshold". EP Costs are assigned by the GM or genre.
+</para>
+
+<para>
+Gifts and Foibles may be set out by the GM in advance, or made up on
+the spot to allow good character conceptions.
+</para>
+
+<para>
+Gift or Foible EP Costs will depend on how they actually affect
+game play for the character. A guideline for assigning EP Costs is given below.
+</para>
+
+<para>
+Note that this scheme is a guideline only. If the result is unsatisfactory,
+the GM should alter it until it "feels" right. This scheme should just outline
+the general range of EP Cost values.
+</para>
+
+<para>
+The base cost is 5 EP for an Gift, or -5 for a Foible. This value
+is then multiplied by 1 to 4, depending on whether the Gift or Foible
+is slight, moderate, significant or extreme:
+</para>
+
+<screen>
+Gift/Foible is:                  Severity Multiplier
+Normal:                          x 0
+Mild/slight:                     x 1
+Moderate:                        x 2
+Rare/severe/significant:         x 3
+Crippling/exceptional/extreme:   x 4
+</screen>
+
+<para>
+The value is also multiplied by a factor of 1/2 to 3, depending on whether the
+Gift or Foible comes into play rarely, occasionally, often or all the time:
+</para>
+
+<screen>
+Gift/Foible:                    Frequency Multiplier
+Rarely comes into play:         x 1/2
+Occasionally comes into play:   x 1
+Often comes into play:          x 2
+Always comes into play:         x 3
+</screen>
+
+<para>
+Note that a single quality may involve a number of separate Gifts or
+Foibles. Rather than trying to figure out a general sense of how
+giftous the package is as a whole, each major aspect of the quality should
+be defined and assigned EP Costs separately.
+</para>
+
+<informalexample>
+<screen>
+For example, a "vampire" might include:
+
+Dies in contact with direct sunlight (always an extreme foible): -60
+Dependent upon human blood (occasionally a significant foible): -15
+Repelled by crosses and garlic (often a significant foible):  -30
+Can shape-change into a bat (often an extreme gift):  40
+...and so on.
+</screen>
+</informalexample>
+
+<para>
+It might seem obvious, but it is nonetheless important to state that any
+Gift or Foible must be evaluated according to its effect in the
+particular campaign. Having a fear of heights is worth no EP at all if the
+entire campaign is to be conducted underground.
+</para>
+
+<para>
+NOTE: All Gifts and Foibles that cause mental or physical alterations,
+can be activated once per round, gives the character 1 Fatigue when activated,
+and imobilizes the character for one round after the activation is done
+(unless otherwise noted).
+This is due to the extreme mental and physical strain.
+</para>
+
+<sect2><title>Sample Gifts</title>
+<screen>
+Beauty +5 * Severity
+  Beauty simply defines how good a character looks in terms of sheer 
+  physical attractiveness, when regarded by one of his/her own Species. 
+  It can be particularly important when you have no time to argue or 
+  express yourself but must still leave a good impression. Gives a +1 
+  bonus to Seduction and similar Skills per point of Effectiveness.
+
+Ambidexterity +20
+
+?Animal Empathy              +20
+
+Regeneration (even limbs grow back)
+   1 injury/rd   +200
+   1 injury/min  +150
+   1 injury/hour +100
+
+   +100 if the regeneration brings the character back form death.
+
+--- To be removed --------------------------------
+-Healing/Regeneration        Variable
+   Per INJURY point             +5 * Recovery Rate
+      Recovery Rate
+         per 5 hours            x2
+         per hour              x10
+         per minute           x600
+	 per round           x6000
+         per second         x36000
+   Can replace limbs         +1000
+
+(EP Cost = INJURY healed * 5 * Recovery Rate)
+--------------------------------------------------
+
+Nightvision (5 * 3 * 2) +30
+   Unless there is complete darkness, the character can see as
+   if it was midday on a cloudy day, but in shades of gray.
+
+Infravision (5 * 2 * 2) +20
+   Enables the character to "see" the heat emitted form the environment
+   and other creatures.
+
+Shape Change (5 * 4 * 2) +40
+   The character can shift into one other shape.
+   May be picked several times.
+
+Innate Skill Bonus, ISB      ISB * (ISB + 1) * Skill's Base Cost / 2
+   Ex: Climbing, ISB +3 = 3 * 4 * 3 / 2 = +18
+
+Sense Aura (5 * 3 * 3) +45
+   Characters with this gift are able to sense the "nature" of other beings.
+   Upper planars will usually have bright/light auras and lower planars
+   will usually have dark auras. The color and brightness reflects the
+   creature's personality and motivation.
+
+Invisibility (5 * 4 * 2) +40
+   Turns the character and a thin layer of clothing invisible for as long as
+   the character is mentaly aware. If the character falls unconscious or
+   asleep the effect fades.
+
+Immunities
+   elements (fire, cold, electricity, ...) +50 per element
+   non-magical weapons +100
+
+Magic Resistance +5 per +1 to resistance
+   The bonus is added to all resistance rolls vs. magical attacks.
+
+Flying (5 * 3 * 2) +30 (+10 per additional 5 m/rd)
+   Enables the character to fly 5 m/rd. Normal encumbrance penalties apply.
+   Ex: Flying 20 m/rd = +60 (+30 + 10 * 3)
+
+Teleport +50 (+10 per additional 10 meters)
+   A character with this ability can teleport 10 meters in any direction.
+   The target area does not have to be seen, but it would sertenly make it
+   safer. (GM's descretion).
+
+Planeshift +100
+   This can be quite dangerous. Before activating the ability, the character
+   must be familiar with the target location to ensure safety. He must be
+   able to somehow see or focus on the target location.
+
+Telepathy
+   One other person          +50   (+10 ?)
+   All within same species  +500  (+100 ?)
+   All species             +5000 (+1000 ?)
+
+   Must be within line of sight; that is, you must be able to somehow see
+   the person you're trying to communiate with.
+
+Don't need sleep (find a better name) (+5 * 3 * 2) +30
+
+Immortal +50
+   An importal character does not face the problem of dying from old age.
+   He can still be die form injury, though.
+</screen>
+</sect2>
+
+<sect2><title>Sample Foibles</title>
+<screen>
+Ugliness                 -5 * Severity
+   Reverse of Beauty gift. Gives a -1 penalty to Seduction and similar skills 
+   per point of Severity.
+
+Abnormal voice           -5 * Severity
+   Character stutters, squeaks, rumbles, etc. enough that people have a hard
+   time understanding him/her. Skills that require a voice are reduced by
+   -Severity.
+
+Color blindness          -5 * Severity
+   1: Character is green/red color blind and suffers a -1 penalty to any
+      skill check requiring the use of color.
+   2: -2 to any skill check requiring the use of color.
+   3: -3 to any skill check requiring the use of color.
+   4: Character is unable to see much difference in colors at all. People
+      who are able to see through the character's eyes will see that
+      everything is a grainy black-n-white. -4 penalty
+
+Deafness                 -10 * Severity
+   1: Character is deaf in one ear or sometimes unable to hear things being
+      said. GM should require a PER check when the character is in a noisy
+      or audibly distracting situation.
+   2: Character is often unable to hear things. GM should require a PER
+      check whenever the character is being spoken to in a normal voice.
+      Character can hear if being shouted at. Skills requiring hearing are
+      at -2.
+   3: Character must be shouted at in order for him/her to have a chance to
+      hear what is being said. GM should require a PER check (-5 if not
+      being shouted at)  Skills requiring hearing are at -4.
+   4: Character is completely deaf.
+
+Eyesight, poor           -15 * Severity
+   1: Glasses/spectacles needed or PER is decreased by 2.
+   2: Glasses/spectacles needed or PER is decreased by 4.
+   3: Glasses/spectacles needed or PER is decreased by 6.
+   4: Character is blind.
+
+Eyesight, missing eye    -15
+   Character is only able to see through one eye, and thus lacks stereo
+   vision.
+   PER is lowered by -5 for anything occurring on blind side.
+
+Distinguishing mark       -5
+   Character has something distinguishing or odd about his appearance. (an
+   eyeball not in line with the other, an abnormally large nose, a scar, etc.)
+   People will easily remember the character based on the mark. Skills using
+   BEA are decreased by -1.
+
+Mutated skin             -10 * Severity
+   1: Acne, small rashes. BEA skills decreased by -1.
+   2: Albino, skin discolorations. BEA skills decreased by -2.
+   3: Skin blotches, rashes covering most of body. BEA skills decreased by -3.
+   4: Extreme skin blotches. BEA skills at -4. Sunlight causes damage.
+
+Overweight               -20 * Severity
+   1: -1 FIT
+   2: -1 FIT, -1 AGI
+   3: -2 FIT, -1 AGI
+   4: -2 FIT, -2 AGI
+
+Phobias                   -5 * Severity
+   agoraphobia     (crowds, public places, open areas)
+   arachnophobia   (spiders)
+   claustrophobia  (enclosed/narrow places)
+   xenophobia      (foreigners, strangers, strange/foreign things)
+
+Primarily handed          -5 * Severity
+   Character is dependent on one hand more so than normal. Using other hand
+   results in a penalty of -Severity.
+
+Sterile                   -5
+   Character is unable to produce children. Character may suffer social
+   consequences as a result.
+
+Enemy (5 * Severity * Frequency)
+   Severity
+      1: Less powerfull than you
+      2: As powerfull as you
+      3: More powerfull than you
+      4: Way out of your league
+</screen>
+</sect2>
+</sect1>

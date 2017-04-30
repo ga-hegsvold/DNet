@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  version="5.0"
+  xml:base=".">
+
+<xi:include href="articleinfo.xml"/>
+<xi:include href="alternate_alignment.xml"/>
+<xi:include href="backgrounds.xml"/>
+<xi:include href="combat.xml"/>
+<xi:include href="cultures.xml"/>
+<xi:include href="gifts-flaws.xml"/>
+<xi:include href="heaps.xml"/>
+<xi:include href="journal.xml"/>
+<xi:include href="magic.xml"/>
+<xi:include href="soul.xml"/>
+<xi:include href="synergy.xml"/>
+<xi:include href="weapon_classification.xml"/>
+<xi:include href="misc.xml"/>
+</article>

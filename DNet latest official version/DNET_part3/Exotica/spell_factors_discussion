@@ -1,0 +1,143 @@
+Hi,
+
+Here is the summary of the current answers (I will change the summary if
+others send their answers).
+
+What we essentially agree on
+----------------------------
+
+Casting Difficulty Factors                Source TD     Conductor TD
+
+Range                                         Y               Y
+  Mike: Unfortunately, this would depend on the spell, for the Conductor side.
+  It is more difficult to target a magic arrow at a certain foe at 100 yards
+  than it is to effectively drop a TOS fireball or lightningbolt at that
+  distance, just due to area of effect.
+
+Guillaume: You still have to target the center of the area of effect for
+the fireball and this is more difficult to do with a longer range.
+
+Area of effect                                Y               N
+
+Number of targets                             Y               YY
+  Guillaume: More energy required and more control over the direction of the
+  energy (with added complexity because the energy needs to be split)
+
+  Del: I think that the source should be cheaper than how much it
+  would to cost to cast spells at each. The complexity would be
+  greatly increased.
+
+Mass of target(s)                             Y               N
+  Del: falls under damage/potency
+Speed of induced movement                     Y               N
+  Del: falls under damage/potency
+
+Guillaume: these must be factors separate from damage/potency. It should
+be harder to move a 100 kg object at 100 m/s than a 1kg object at 100 m/s;
+therefore, we cannot join them in the same category. (BTW, I agree with
+the Y N for speed of movement)
+
+Control over the movement (maneuverability)   N               Y
+Direct application of the Source(s)**         Y               N
+Direct application of the Conductor(s)**      N               Y
+
+What needs to be discussed
+--------------------------
+
+Casting Difficulty Factors                Source TD     Conductor TD
+
+*****************************************************************************
+Del:
+Duration                                      Y(N)            Y
+I think there are 3 alternatives for duration:
+
+1. Looking at it this way the caster creates a pool of energy that the spell
+draws off of? (Thus requiring the extra energy at the beginning).
+
+2. Another way to work duration is to have the caster pay a cost each unit of
+time that the spell is going.
+
+3. A third alternative is for them to 'set up' mechanisms for the spell to
+maintain itself (requiring a smaller increase in source than the above
+2 alternatives). The mechanism would decay and the spell would terminate
+depending on how well it was set up.
+
+Mike and Guillaume:
+Duration                                      Y               Y
+  A longer duration requires more magical energy (Source TD) and a
+  greater stability (or dynamic equilibrium) of that energy (Conductor TD)
+
+Guillaume's comment: I think that the way to go is a combination of Del's
+mechanisms 1 and 3. Thus my Y Y answer. (2 is too cumbersome during a game)
+*****************************************************************************
+Del:
+Damage done to target(s)                      Y               N
+  Focusing is close to how efficiently the caster is using the
+  energy that he has gathered, if we are going to use it I would
+  rather see it as a separate factor.
+Guillaume:
+Damage done to target(s)                      Y               Y
+  More energy causes more damage, but a more focused use of that
+  energy also does
+Mike:
+Damage done to target(s)                      Y               Y
+
+Guillaume: I can agree with Del's Y N. It essentially means that for a given
+type of spell, you only have to pump more energy to do more damage. For 
+example, a Fireball with a Source TD of 30 would do more damage than a
+Fireball with a Source TD of 20 (the Conductor TD remains the same).
+*****************************************************************************
+Del:
+Difficulty of resisting the spell*            Y               Y
+  For physical spells I think this falls again to Potency. For some
+  of the celestial conductors Potency is perhaps more dependent on the
+  conductor than the source.....
+Mike:
+Difficulty of resisting the spell*            N               Y
+  My initial thought was "N Y", as more source would be better used as
+  a hotter fire, etc., so more damage would be dealt regardless of
+  resistance.  Charm-type effects don't really need brute force, either.
+  Can you think of a spell effect where more power would only affect
+  a creature's resistance, but wouldn't hit any harder if it did not
+  resist?  Death-spell effects, I suppose, but those would be rediculously
+  expensive anyway, if a high-level mage can only be 50% assured of one
+  or two kills with a fireball...
+Guillaume:
+Difficulty of resisting the spell*            Y               Y
+  Both the amount of magical energy and its mode of action should
+  affect the difficulty of resisting a spell (IMO)
+
+Guillaume: (we'd better stop using the term potency, since we don't seem
+to have the same definition for it). I can agree with Mike N Y, but I think
+that we first have to define how each type of spell can be resisted. One
+of the fundamental questions here is to determine if a magical resistant
+creatures could be affected by spells such as a Fireball. 
+You can argue both ways:
+a) the magic creates fire, which in turn burns the creature. The creature
+   is affected indirectly by the Fireball
+b) the fire created is magical, so the creature is not affected by it.
+We have to chose one option before we go forward. Personnally, I prefer a).
+I we choose a), then all spells that damage the target by creating 
+external adverse conditions can't be resisted, and the mage does not
+have any control over the difficulty of resisting the spell. 
+(The adverse conditions might be resisted though)
+
+For spells that directly affect the mind or the body of a being, it is
+quite obvious that they can be resisted. For those, I can agree that
+more finesse is the key to penetrating the target defenses. Hence I would
+go for Mike's N Y.
+
+*****************************************************************************
+Per suggests changing "Damage done to target(s)" by "Effect on target(s)" 
+since some spells don't cause any damage.
+
+Guillaume: I think that each type of effect will have to be treated 
+separately, since you can't quantify a charm in the same manner as damage.
+A stronger charm might require both more energy and more craftmanship.
+(We will soon end up with a lot of tables for creating spells, but I think
+it is the price to pay to avoid having 3rd levels spells like Fireball,
+Slow,... that are more powerful than most 4th level spells...)
+
+Please send your own thoughts to see if we can agree on everything.
+
+Guillaume

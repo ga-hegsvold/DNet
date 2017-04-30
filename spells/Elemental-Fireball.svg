@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="201.96851"
+   height="308.2677"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r"
+   sodipodi:docname="Elemental-Fireball.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="110.62942"
+     inkscape:cy="155.31995"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4463"
+     showgrid="false"
+     borderlayer="false"
+     objecttolerance="10000"
+     guidetolerance="10000"
+     inkscape:window-width="944"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       dotted="true"
+       units="mm"
+       spacingx="1mm"
+       spacingy="1mm" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid2987"
+       empspacing="2"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="mm"
+       spacingx="5mm"
+       spacingy="5mm"
+       dotted="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Geir Atle Hegsvold</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-744.09448)">
+    <g
+       id="g4463"
+       transform="translate(-389.76379,46.062971)">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-591.2323"
+         x="698.53149"
+         height="200.96851"
+         width="307.26773"
+         id="rect2988-0"
+         style="opacity:0.5;fill:none;stroke:#000000;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-582.87402"
+         x="710.43304"
+         height="184.25197"
+         width="287.0079"
+         id="rect4078-1"
+         style="fill:none;stroke:#000000;stroke-width:3.5433073;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3764-2"
+         y="707.2356"
+         x="584.80975"
+         style="font-size:40px;font-style:normal;font-weight:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:8px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Calibri;-inkscape-font-specification:Calibri Oblique"
+           y="707.2356"
+           x="584.80975"
+           id="tspan3766-1"
+           sodipodi:role="line">DNet 3.0b11|Planescape|v1.0</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3760-7"
+         y="725.26361"
+         x="407.01547"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="725.26361"
+           x="407.01547"
+           id="tspan3762-6"
+           sodipodi:role="line">Fireball</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-1-3"
+         y="739.0661"
+         x="407.39438"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-8-5"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="739.0661"
+           x="407.39438"
+           sodipodi:role="line"><tspan
+   id="tspan4070-6"
+   style="font-weight:bold">CT:</tspan> 2rd (10sec) <tspan
+   id="tspan4072-1"
+   style="font-weight:bold">R:</tspan> 40m <tspan
+   id="tspan4074-4"
+   style="font-weight:bold">D:</tspan> 1rd</tspan><tspan
+           id="tspan4369"
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="749.0661"
+           x="407.39438"
+           sodipodi:role="line"><tspan
+             id="tspan4371"
+             style="font-weight:bold">VoE: <tspan
+   style="font-weight:normal"
+   id="tspan3045">5m radius sphere </tspan></tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-0"
+         y="768.78534"
+         x="407.1727"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-0"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="768.78534"
+           x="407.1727"
+           sodipodi:role="line">Sources</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-3-6"
+         y="768.78534"
+         x="513.47192"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-9-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="768.78534"
+           x="513.47192"
+           sodipodi:role="line">Source TD</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-6"
+         y="779.43475"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-2"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="779.43475"
+           x="407.1434"
+           sodipodi:role="line">Elemental Energy</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-5"
+         y="790.0647"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="790.0647"
+           x="407.1434"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-0"
+         y="779.41522"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-17"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="779.41522"
+           x="513.48169"
+           sodipodi:role="line">13</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-1-1"
+         y="790.04517"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-1-1"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="790.04517"
+           x="513.48169"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-9-1"
+         y="811.30499"
+         x="407.09457"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="811.30499"
+           x="407.09457"
+           id="tspan3770-5-0"
+           sodipodi:role="line">Cunductors</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-9-5-1"
+         y="811.32452"
+         x="513.43286"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="811.32452"
+           x="513.43286"
+           id="tspan3770-5-8-2"
+           sodipodi:role="line">Cunductor TD</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-5-7"
+         y="821.95447"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-73-4"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="821.95447"
+           x="407.1434"
+           sodipodi:role="line">Elemental Fire Focus</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-1-8-2"
+         y="832.58441"
+         x="407.1434"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-5-6-4"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="832.58441"
+           x="407.1434"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3768-4-7-12-3"
+         y="821.95447"
+         x="513.48169"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3793-2-7-7-5"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="821.95447"
+           x="513.48169"
+           sodipodi:role="line">5</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4014-2"
+         y="881.8277"
+         x="406.79184"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
+           y="881.8277"
+           x="406.79184"
+           id="tspan4016-3"
+           sodipodi:role="line">Description</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path4383"
+         d="m 400.3937,758.26769 180.70866,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4385"
+         d="m 397.36715,800.28738 186.76178,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4387"
+         d="m 397.36003,871.15352 186.76622,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4383-1"
+         d="m 400.3937,729.92124 180.70866,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4407"
+         y="892.91339"
+         x="407.48032"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="892.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3306">Allows the mage to create a ball of fire of 5m radius</tspan><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="902.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3112">at up to 40m from the caster. Any person within the</tspan><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="912.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3114">ball must make an AGI roll against a TD of 5 to</tspan><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="922.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3116">receive only half damage. The fire causes 2d6+1</tspan><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="932.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3142">damage to anyone who misses the resistance roll.</tspan><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="942.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3134">The center of the fireball is located at most 1</tspan><tspan
+           style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+           y="952.91339"
+           x="407.48032"
+           sodipodi:role="line"
+           id="tspan3118">meter from the area determined by the mage.</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3284"
+         style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+           id="flowRegion3286"><rect
+             id="rect3288"
+             width="215"
+             height="43.214287"
+             x="-5.7142859"
+             y="121.12485" /></flowRegion><flowPara
+           id="flowPara3290" /></flowRoot>      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="223.92857"
+         y="75.410561"
+         id="text3136"
+         sodipodi:linespacing="125%"
+         transform="translate(389.76379,698.03151)"><tspan
+           sodipodi:role="line"
+           id="tspan3138"
+           x="223.92857"
+           y="75.410561" /></text>
+    </g>
+  </g>
+</svg>

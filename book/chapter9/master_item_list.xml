@@ -1,0 +1,282 @@
+<sect1><title>Master Item List</title>
+<sect2><title>Ancient items</title>
+<sect3><title>Backback</title>
+<formalpara><title>World</title>
+<para>
+Planescape
+</para>
+</formalpara>
+
+<formalpara><title>Author</title>
+<para>
+Geir Atle Hegsvold
+</para>
+</formalpara>
+
+<formalpara><title>Version</title>
+<para>
+1.0
+</para>
+</formalpara>
+
+<formalpara><title>Description</title>
+<para>
+You have probably seen one of these. This one is made of leather, has
+a 50 liters capacity and can hold 50 kg.
+</para>
+</formalpara>
+
+<formalpara><title>Weight</title>
+<para>
+1 kg.
+</para>
+</formalpara>
+
+<formalpara><title>Required Skills</title>
+<para>
+Leatherworking.
+</para>
+</formalpara>
+
+<formalpara><title>Raw Materials</title>
+<para>
+100% leather.
+</para>
+</formalpara>
+
+<formalpara><title>Base Quality</title>
+<para>
+1
+</para>
+</formalpara>
+
+<formalpara><title>Base Production Time</title>
+<para>
+2 days.
+</para>
+</formalpara>
+
+<formalpara><title>Base Production TD</title>
+<para>
+Average (TD = 0).
+</para>
+</formalpara>
+
+<formalpara><title>Notes</title>
+<para>
+</para>
+</formalpara>
+
+</sect3>
+
+<sect3><title>Bedroll</title>
+<formalpara><title>World</title>
+<para>
+Planescape
+</para>
+</formalpara>
+
+<formalpara><title>Author</title>
+<para>
+Geir Atle Hegsvold
+</para>
+</formalpara>
+
+<formalpara><title>Version</title>
+<para>
+1.0
+</para>
+</formalpara>
+
+<formalpara><title>Description</title>
+<para>
+The bedroll has an outer leather exterior to keep the moisture out, and
+an inner wool layer for warmth and confortability.
+</para>
+</formalpara>
+
+<formalpara><title>Weight</title>
+<para>
+6 kg.
+</para>
+</formalpara>
+
+<formalpara><title>Required Skills</title>
+<para>
+Leatherworking.
+</para>
+</formalpara>
+
+<formalpara><title>Raw Materials</title>
+<para>
+50% leather, 50% wool.
+</para>
+</formalpara>
+
+<formalpara><title>Base Quality</title>
+<para>
+1
+</para>
+</formalpara>
+
+<formalpara><title>Base Production Time</title>
+<para>
+2 days.
+</para>
+</formalpara>
+
+<formalpara><title>Base Production TD</title>
+<para>
+Average (TD = 0).
+</para>
+</formalpara>
+
+<formalpara><title>Notes</title>
+<para>
+</para>
+</formalpara>
+
+</sect3>
+
+<sect3><title>Rope, hemp</title>
+<formalpara><title>World</title>
+<para>
+Planescape
+</para>
+</formalpara>
+
+<formalpara><title>Author</title>
+<para>
+Geir Atle Hegsvold
+</para>
+</formalpara>
+
+<formalpara><title>Version</title>
+<para>
+1.0
+</para>
+</formalpara>
+
+<formalpara><title>Description</title>
+<para>
+Thick and heavy but very solid. Can hold 500 kg. 15 meters long.
+</para>
+</formalpara>
+
+<formalpara><title>Weight</title>
+<para>
+15 kg.
+</para>
+</formalpara>
+
+<formalpara><title>Required Skills</title>
+<para>
+Ropeuse.
+</para>
+</formalpara>
+
+<formalpara><title>Raw Materials</title>
+<para>
+100% hemp.
+</para>
+</formalpara>
+
+<formalpara><title>Base Quality</title>
+<para>
+1
+</para>
+</formalpara>
+
+<formalpara><title>Base Production Time</title>
+<para>
+1 day.
+</para>
+</formalpara>
+
+<formalpara><title>Base Production TD</title>
+<para>
+Easy (TD = -5).
+</para>
+</formalpara>
+
+<formalpara><title>Notes</title>
+<para>
+</para>
+</formalpara>
+
+</sect3>
+
+<sect3><title>Rope, silk</title>
+<formalpara><title>World</title>
+<para>
+Planescape
+</para>
+</formalpara>
+
+<formalpara><title>Author</title>
+<para>
+Geir Atle Hegsvold
+</para>
+</formalpara>
+
+<formalpara><title>Version</title>
+<para>
+1.0
+</para>
+</formalpara>
+
+<formalpara><title>Description</title>
+<para>
+Thin, light and very solid. Kan hold 500 kg. 15 meters long.
+</para>
+</formalpara>
+
+<formalpara><title>Weight</title>
+<para>
+3 kg.
+</para>
+</formalpara>
+
+<formalpara><title>Required Skills</title>
+<para>
+Ropeuse.
+</para>
+</formalpara>
+
+<formalpara><title>Raw Materials</title>
+<para>
+100% silk.
+</para>
+</formalpara>
+
+<formalpara><title>Base Quality</title>
+<para>
+1
+</para>
+</formalpara>
+
+<formalpara><title>Base Production Time</title>
+<para>
+1 day.
+</para>
+</formalpara>
+
+<formalpara><title>Base Production TD</title>
+<para>
+Difficult (TD = 5).
+</para>
+</formalpara>
+
+<formalpara><title>Notes</title>
+<para>
+</para>
+</formalpara>
+
+</sect3>
+</sect2>
+
+<sect2><title>Modern items</title>
+<para>
+</para>
+</sect2>
+</sect1>

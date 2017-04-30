@@ -1,0 +1,99 @@
+<sect1><title><emphasis>Graded Outcome (Optional)</emphasis></title>
+<para>
+<emphasis>
+For GMs who prefer a slightly less absolute (success or failure) system of
+determining the result of Task Resolution, the following system is provided
+as an option for measuring the degree of success or failure.
+</emphasis>
+</para>
+
+<para>
+<table frame="all"><title><emphasis>Graded Outcome</emphasis></title>
+<tgroup cols="2" align="center">
+<colspec column="1" colname="c1" align="left" colwidth="1*" />
+<colspec column="2" colname="c2" align="left" colwidth="1*" />
+<tbody>
+<row><entry><emphasis>Bonus</emphasis></entry>  <entry><emphasis><literal>roll &gt;= TD + 10</literal></emphasis></entry></row>
+<row><entry><emphasis>Success</emphasis></entry><entry><emphasis><literal>TD &lt;= roll &lt;= TD + 9</literal></emphasis></entry></row>
+<row><entry><emphasis>Partial</emphasis></entry><entry><emphasis><literal>TD - 4 &lt;= roll &lt;= TD - 1</literal></emphasis></entry></row>
+<row><entry><emphasis>Failure</emphasis></entry><entry><emphasis><literal>TD - 9 &lt;= roll &lt;= TD - 5</literal></emphasis></entry></row>
+<row><entry><emphasis>Mishap</emphasis></entry> <entry><emphasis><literal>roll &lt;= TD - 10</literal></emphasis></entry></row>
+</tbody>
+</tgroup>
+</table>
+</para>
+
+<formalpara><title><emphasis>Bonus</emphasis></title>
+<para>
+<emphasis>
+A really good outcome which surpasses normal expectations.
+If the GM cannot think of a reasonable Bonus then the outcome should simply be
+treated as a Success.
+</emphasis>
+</para>
+</formalpara>
+
+<formalpara><title><emphasis>Success</emphasis></title>
+<para>
+<emphasis>
+A successful outcome which achieves the desired result.
+</emphasis>
+</para>
+</formalpara>
+
+<formalpara><title><emphasis>Partial</emphasis></title>
+<para>
+<emphasis>
+An outcome that could be categorized as somewhere between Success and Failure.
+The exact result is left to GM discretion.
+</emphasis>
+</para>
+</formalpara>
+
+<formalpara><title><emphasis>Failure</emphasis></title>
+<para>
+<emphasis>
+An unsuccessful outcome which does not achieve the desired result.
+</emphasis>
+</para>
+</formalpara>
+
+<formalpara><title><emphasis>Mishap</emphasis></title>
+<para>
+<emphasis>
+A particularly bad failure that exposes the character to additional misfortune,
+harm, penalty or confusion. If the GM cannot think of a reasonable Mishap then
+the outcome should simply be treated as a Failure.
+</emphasis>
+</para>
+</formalpara>
+
+<para>
+<example><title><emphasis>Graded Outcome</emphasis></title>
+<screen>
+<emphasis>
+Shardra the Ranger has Tracking 4. She tries picking up the trail of a
+wounded bandit. The GM decides that this will be hard, as it's been raining.
+The Task Resolution formula becomes:
+
+d10-d10* + 4 &gt;= 5
+
+If Shardra's player's total roll is 15 or higher, a Bonus, not only does
+Shardra pick up the trail, she also picks up the overlying trail of a
+pursuing wolverine.
+
+If she rolls 5 to 14, a Success, Shardra picks up the bandit's trail.
+
+If she rolls 1 to 4, a Partial, Shardra only picks up enough of the trail
+to determine the general direction taken by the bandit.
+
+If she rolls -4 to 0, a Failure, Shardra is unable to pick up the trail
+because it has been washed away.
+
+If she rolls a -5 or less, a Mishap, Shardra picks up the wrong trail that
+leads her in a totally different direction.
+</emphasis>
+</screen>
+</example>
+</para>
+</sect1>

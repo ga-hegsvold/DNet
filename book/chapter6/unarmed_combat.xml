@@ -1,0 +1,134 @@
+<sect1><title>Unarmed Combat</title>
+<sect2><title>Unarmed Attacks</title>
+<para>
+There are five types of unarmed attacks. For game mechanics, they are
+handled the same way as weapons are handled in armed combat styles.
+They have an associated damage, reach, etc, just as weapons do.
+An unarmed defender against a weapon gets no defence or a penalty, depending
+on the fighting style being used.
+</para>
+
+<table frame="all"><title>Unarmed Attacks</title>
+<tgroup cols="8" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" align="left" colwidth="1*" />
+<thead>
+<row><entry>NAME</entry><entry>ACTION</entry><entry>IMPACT</entry><entry>REACH</entry><entry>MASS</entry><entry>LENGTH</entry><entry>HANDS</entry><entry>SPEED</entry></row>
+</thead>
+<tbody>
+<row><entry>hand</entry><entry>B</entry><entry>-8</entry><entry>C</entry><entry>0</entry><entry>0</entry><entry>1</entry><entry></entry></row>
+<row><entry>foot</entry><entry>B</entry><entry>-6</entry><entry>C</entry><entry>0</entry><entry>0</entry><entry>0</entry><entry></entry></row>
+<row><entry>bash</entry><entry>B</entry><entry>-4</entry><entry>C</entry><entry>0</entry><entry>0</entry><entry>0</entry><entry></entry></row>
+<row><entry>throw</entry><entry>B</entry><entry>-6</entry><entry>C</entry><entry>0</entry><entry>0</entry><entry>1*</entry><entry></entry></row>
+<row><entry>hold</entry><entry>B?</entry><entry>0</entry><entry>C</entry><entry>0</entry><entry>0</entry><entry>1*</entry><entry></entry></row>
+</tbody>
+</tgroup>
+</table>
+</sect2>
+
+<sect2><title>Unarmed weapon types</title>
+<para>
+Attacks with hands or fists do 2d6-8 IMPACT.
+</para>
+
+<para>
+Kicking attacks to 2d6-6 IMPACT.  
+</para>
+
+<para>
+Bashing attacks include body slams and tackles. IMPACT is 2d6-4.
+A running start is required to do damage, so no IMPACT is done if you are
+already at close range. (possible to force backwards even if starting at close
+range)
+</para>
+
+<para>
+Throws include leg sweeps and judo/wrestling throws. IMPACT is 2d6-6 and
+is not modified by STR. Success leaves the defender prone.
+</para>
+
+<para>
+Hold attacks include judo holds and wrestling pins.  
+After a successful attack the defender must make a roll if he wants to
+try to break the hold.  
+</para>
+
+<para>
+<literal>
+d10-d10* + STR + skill &gt;= holder's STR + skill
+</literal>
+</para>
+
+<para>
+The "skill" may be from any style which includes "hold" attacks.
+If the hold is successful, the attacker may choose to inflict damage: 
+</para>
+
+<para>
+<literal>
+IMPACT is 2d6-4 (+STR).
+</literal>
+</para>
+
+<para>
+* Note about HANDS: There are holds and throws which require two hands,
+and some which require no hands. The GM may judge if a maneuver is possible
+or more difficult (skill penalty) in some situations, such as if the player has
+his hands bound.
+</para>
+</sect2>
+
+<sect2><title>Unarmed Combat Styles</title>
+<para>
+I would like to use a minimal list of unarmed combat styles, since it is
+more in the spirit of the current weapon styles. A well rounded martial
+artist using this list would learn Karate for the hand and foot maneuvers,
+Close Weapons for the usual list of Chinese peasant weapons, Judo for
+the throws, Staff, and One-Handed Weapon skills.
+</para>
+
+<table frame="all"><title>Unarmed Styles</title>
+<tgroup cols="7" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" align="left" colwidth="1*" />
+<colspec colnum="7" align="left" colwidth="1*" />
+<thead>
+<row><entry>Style Skill Name</entry><entry>BC</entry><entry>Tal</entry><entry>Adv</entry><entry>AM</entry><entry>DM</entry><entry>Special Characteristics</entry></row>
+</thead>
+<tbody>
+<row><entry>Boxing</entry><entry>2</entry><entry>AGI</entry><entry>FIT</entry><entry></entry><entry></entry><entry>hand, no def vs Wpn</entry></row>
+<row><entry>Brawling</entry><entry>3</entry><entry>STR</entry><entry>FIT</entry><entry></entry><entry></entry><entry>hand, bash, -5 def vs Wpn </entry></row>
+<row><entry>Karate</entry><entry>3</entry><entry>WIL</entry><entry>FIT</entry><entry></entry><entry></entry><entry>hand, foot, -3 def vs Wpn </entry></row>
+<row><entry>Judo/Wrestling</entry><entry>3</entry><entry>WIL</entry><entry>FIT</entry><entry></entry><entry></entry><entry>hold, throw, no def vs Wpn</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<formalpara><title>Boxing</title>
+<para>
+No defence vs weapons. Hand, brass knuckles.
+Boxing-ring, or bare-fist style fighting.
+</para>
+</formalpara>
+
+<formalpara><title>Brawling</title>
+<para>
+-5 defence vs weapons. Hand, bash. Barroom brawl style.
+</para>
+</formalpara>
+
+<formalpara><title>Karate</title>
+<para>
+-3 defence vs weapons. Hand, foot.
+Generic style for basic Eastern martial arts.
+We may want to limit weapon defences for Brawling and Karate for small
+and maybe medium size weapons.
+</para>
+</formalpara>
+
+<formalpara><title>Judo/Wrestling</title>
+<para>
+No defence vs weapons. Hold, throw.
+Generic style for Western-style wrestling and Eastern-style Judo.
+</para>
+</formalpara>
+</sect2>
+</sect1>

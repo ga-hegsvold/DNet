@@ -1,0 +1,173 @@
+<sect1>
+<title>An alternative to alignment</title>
+<para>
+Need one or more gauges/scales which indicates a characters moral standings.
+The character position on these gauges/scales will influence
+where his soul will go after death.
+Those adhering to a diety will probably go where the diety decides,
+depending on how faithfull they have been. Need a way to measure this.
+Also need a way of measuring moral standings of characters not adhering to a
+diety.
+</para>
+
+<para>
+Proposal #1:
+A set of binary scales where each scale is poled by two opposing concepts.
+</para>
+
+<para>
+During play, characters will slide back and forth on these scales depending
+on their actions and intentions. When they finally die, the position they
+have on the various scales will determen to what Outer Plane their soul will
+go to. Their position on the scales will also influence how well they fit in
+and how confortable they will be when visiting the Outer Planes.
+</para>
+
+<screen>
+Ex: Moral concepts
+Malevolent - Benevolent (allmost Good - Evil; to fuzzy?)
+Static - Dynamic
+Passive - Agressive
+Active - Passive
+Orderly - Chaotic
+Persistent - Caducous
+Constructive - Destructive
+Apathetic - ?
+Empathic/Empathetic - ?
+Oportunistic
+Compassionate - 
+creative - 
+organized
+
+Potential candidates:
+Liberal - Conservative
+sensible - foolhardy/rash/impulsive
+Spontaneous/Impulsive - Controlled/diciplined/restrained
+Calm - Restless
+joyful - gloomy
+immoral/vicious - virtuous/righteous
+brutal - gentle
+playful - serious
+Social - Reserved
+genuine - descreet
+savage - civilized
+diciplined - indulgent
+</screen>
+<!--
+Good candidates:
+Cautious (unadventurous) - Adventurous (rash/reckless)
+Indifferent (apathetic) - Sympathetic (empathic)
+Merciful (forgiving/benevolent/peaceful/harmonious) - Merciless (vengeful/cruel/relentless/malevolent/sadistic)
+Humble - Proud
+Vigilant (suspicious/worldly) - Trusting (naive)
+Independent (confident/individualism/creative?/free-spirited) - Reliant (insecure)
+Deceptive (malevolent/calculating/manipulating/untruthful) - Honorable (fair)
+Competitive - Cooperative (united)
+Selfish (power-hungry/greedy) - Generous (selfless/common good)
+Emotional (passionate/impulsive/spontaneous/boisterous/hearty/fierce) - Composed (intellectual/diciplined/(self-)controlled/emotionless)
+Instinctive (destructive?/wild/savage/uncivilized) - Rational (orderly/organized/civilized/logical)
+Cowardly - Brave
+Dominant (supressive/agressive?/brutal) - Submissive (passive/gentle)
+Pragmatic (flexible/dynamic/opportunistic/creative?) - Idealistic (rigid/lawful/persistent/conservative/static)
+-->
+
+
+<table frame="all">
+<title>Personality Traits</title>
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec align="center" colname="c1" colwidth="1*" />
+<colspec align="center" colname="c2" colwidth="1*" />
+<colspec align="center" colname="c3" colwidth="1*" />
+<colspec align="center" colname="c4" colwidth="1*" />
+<thead>
+<row><entry>Trait</entry><entry>similar traits</entry><entry>Trait</entry><entry>similar traits</entry></row>
+</thead>
+<tbody>
+<row><entry>Cautious</entry><entry><emphasis>unadventurous</emphasis></entry><entry>Reckless</entry><entry><emphasis>rash/adventurous</emphasis></entry></row>
+<row><entry>Indifferent</entry><entry><emphasis>apathetic</emphasis></entry><entry>Sympathetic</entry><entry><emphasis></emphasis>empathic</entry></row>
+<row><entry>Merciful</entry><entry><emphasis>forgiving/benevolent/peaceful/harmonious</emphasis></entry><entry>Merciless</entry><entry><emphasis>vengeful/cruel/relentless/malevolent/sadistic</emphasis></entry></row>
+<row><entry>Humble</entry><entry><emphasis></emphasis></entry><entry>Proud</entry><entry><emphasis></emphasis></entry></row>
+<row><entry>Vigilant</entry><entry><emphasis>suspicious/worldly</emphasis></entry><entry>Trusting</entry><entry><emphasis>naive</emphasis></entry></row>
+<row><entry>Independent</entry><entry><emphasis>confident/individualism/creative?/free-spirited</emphasis></entry><entry>Reliant</entry><entry><emphasis>insecure</emphasis></entry></row>
+<row><entry>Deceptive</entry><entry><emphasis>malevolent/calculating/manipulating/untruthful</emphasis></entry><entry>Honorable</entry><entry><emphasis>fair</emphasis></entry></row>
+<row><entry>Competitive</entry><entry><emphasis></emphasis></entry><entry>Cooperative</entry><entry><emphasis>united</emphasis></entry></row>
+<row><entry>Selfish</entry><entry><emphasis>power-hungry/greedy</emphasis></entry><entry>Generous</entry><entry><emphasis>selfless/common good</emphasis></entry></row>
+<row><entry>Emotional</entry><entry><emphasis>passionate/impulsive/spontaneous/boisterous/hearty/fierce</emphasis></entry><entry>Composed</entry><entry><emphasis>intellectual/diciplined/(self-)controlled/emotionless</emphasis></entry></row>
+<row><entry>Instinctive</entry><entry><emphasis>destructive?/wild/savage/uncivilized</emphasis></entry><entry>Rational</entry><entry><emphasis>orderly/organized/civilized/logical</emphasis></entry></row>
+<row><entry>Cowardly</entry><entry><emphasis></emphasis></entry><entry>Brave</entry><entry><emphasis></emphasis></entry></row>
+<row><entry>Dominant</entry><entry><emphasis>supressive/agressive?/brutal</emphasis></entry><entry>Submissive</entry><entry><emphasis>passive/gentle</emphasis></entry></row>
+<row><entry>Pragmatic</entry><entry><emphasis>flexible/dynamic/opportunistic/creative?</emphasis></entry><entry>Idealistic</entry><entry><emphasis>rigid/lawful/persistent/conservative/static</emphasis></entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+These binary scales will be reflected in the "alignment" of the various Outer Planes.
+</para>
+
+<para>
+Abyss - Chaotic, Malevolent, Selfish, Instinctive, Spontaneous, Agressive, Merciless, Brutal, Cruel, Power-hungry, Dominating, Destructive
+</para>
+<para>
+Acheron - Dominating, Ordely, Disciplined, Supressive, Cruel, Agressive, Cooperative/United, Relentless
+</para>
+<para>
+Arborea - Spontaneous, Impulsive, Emoitonal, Dynamic, Adventurous, Benevolent, Boisterous, Wild, Passionate, Heartly, Fierce, Competitive, Celebrant, Creative
+</para>
+<para>
+Arcadia - Peaceful, Benevolent, Orderly, Organized, Common good, Lawful, Harmoneous
+</para>
+<para>
+Baator - Dominating, Rigid, Malevolent, Oportunistic, Power-hungry, Cruel, Agressive, Selfish, Sadistic, Greedy, Calculating, (Self-)controlled, Manipulating
+</para>
+<para>
+Beastlands, the - Wild, Uncivilized, Instinctive, Savage
+</para>
+<para>
+Bytopia - Individualism, Peaceful, Persistent, Creative, Organized, Industrious, Unadventurous, Fair, Cooperative
+</para>
+<para>
+Carceri - Dominating, (Rigid), Cruel, Cunning, Untruthfull, Malevolent
+</para>
+<para>
+Elysium - Sympathetic, Benevolent, Selfless, Empathic, Passive, Cautious, Merciful, Peaceful, Independent, Emotional
+</para>
+<para>
+Gehenna - Greedy, Selfish
+</para>
+<para>
+Gray Waste, the - Caducous, Indifferent, Malevolent, Selfish, Merciless, Apatethic, Hopeless, Emotionless
+</para>
+<para>
+Limbo - Chaotic, Dynamic, Indifferent
+</para>
+<para>
+Mechanus - Orderly, Rational, Controlled, Conservative, Static, Persistent, Rigid, Organized, Emotionless, Logical
+</para>
+<para>
+Mount Celestia - Peaceful, Organized, Merciful, Benevolent
+</para>
+<para>
+Pandemonium - Lonely, Maddening
+</para>
+<para>
+Ysgard - Agressive, Persistent, Adventurous, Individualistic, Free-spirited, Fierce, Competitive
+</para>
+
+<para>
+A macabre example:
+Consider a Mage skilled in Portal/Travel magic (and maybe som Soul magic).
+One way he might do a Planeshift spell could be to seek out a person
+with matching "moral" as the plane he wish to travel to. Then, through some
+sort of ritual the Mage could release the victims soul from his physical
+body and let it find its way to the Plane it belongs. The Mage would then
+be able to use this "conduit" as an express route and hitch-hike to the
+intended Plane. Nifty! :-)
+</para>
+
+<para>
+A character's position on the various scales will to some degree be reflected
+on the character's Aura.
+</para>
+
+</sect1>

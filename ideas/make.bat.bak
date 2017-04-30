@@ -1,0 +1,4 @@
+SET APP_PATH="d:\google drive\apps"
+
+%APP_PATH%\xsltproc\xsltproc -xinclude -o %1.fo params.xsl %1.xml
+%APP_PATH%\fop\fop -fo %1.fo -pdf %1.pdf

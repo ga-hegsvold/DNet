@@ -1,0 +1,35 @@
+<sect1><title>Combining Efforts</title>
+<para>
+When many characters unite their strength, intelligence, etc. to accomplish
+a Task, they are often more efficient than if they were trying to
+accomplish the Task independently. In such a situation, the success of the
+attempted Task is obtained by having each character roll independently
+against the TD. The TD is lowered by 1 for every character working on the Task
+beyond the first.
+</para>
+
+<para>
+The Task Resolution Formula for each character is therefore:
+</para>
+
+<para>
+<literal>
+d10-d10* + Skill &gt;= TD - (N-1)
+</literal>
+</para>
+
+<para>
+where <literal>N</literal> is the number of characters attempting the Task.
+</para>
+
+<para>
+The Task is successful if at least one of the characters makes his roll.
+</para>
+
+<para>
+The GM must decide, based on the Task, if more than one character can
+attempt the Task. If he decides that more than one character can attempt 
+the Task, he must then decide the maximum number of characters that can 
+take part in attempting the Task.
+</para>
+</sect1>

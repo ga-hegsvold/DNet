@@ -1,0 +1,73 @@
+<sect1><title>Encumbrance</title>
+<para>
+The Load that each character can carry without ill effects varies with his
+Strength and is given in the Strength table. When a character is loaded with
+more weight than his Strength allows, his Fatigue rises faster than if he
+was normally loaded.
+</para>
+
+<para>
+The additional Fatigue that a character suffers when he is heavily loaded is
+equal to the Encumbrance Penalty, which is calculated from the Load and Load
+Step values of the Strength table. When the carried weight is lower than or
+equal to the character's allowed Load, then the Encumbrance Penalty is equal
+to 0. When the weight carried is greater than this Load, the Encumbrance
+Penalty is increased by one for every increment of weight equal to Load Step
+(or fraction of Load Step).
+</para>
+
+<para>
+<literal>
+Encumbrance Penalty = (Weight-Load) / Load Step (round up)
+</literal>
+</para>
+
+<example><title>Encumbrance Penalty</title>
+<screen>
+A character with STR = 2 can normally carry 35 kg and has a Load Step of 3.5 kg.
+If the character chooses to carry 40 kg, i.e. he carries 5 kg more than allowed,
+he faces an Encumbrance Penalty of 2.
+
+Encumbrance Penalty = (40 kg - 35 kg) / 3.5 kg
+                    = 5 kg / 3.5 kg
+                    = 1.43            
+                    = 2 (rounded up)
+
+Each time this character will increase his Fatigue Heap, he will increase it
+by 3 (1 plus the Encumbrance Penalty). See the Fatigue rules for more details.
+</screen>
+</example>
+
+<para>
+The Encumbrance rules only takes into account the mass of items, not their
+bulkiness. As always, a GM may state that the character suffers an additional
+penalty on his Skill checks because he is loaded with large items.
+For example, a GM has the right to impose a penalty of 10 on all Skill checks
+to a character who is carrying a canoe, even if the character has the Strength
+to do it. This is left to each GM, as we feel that such situations are not very
+common and that threating them here would just add unnecessary complexity to
+the rules.
+</para>
+
+<para>
+<emphasis>
+Optional: The GM can decide that the Encumbrance Penalty is also applied on
+some or all Skills checks in addition to contributing to Fatigue;
+he can also decide that Encumbrance only affects Skill checks if the Fatigue
+rules are not used. When the Encumbrance Penalty is applied on a Skill check,
+the TD is increased by the value of the Encumbrance Penalty.
+</emphasis>
+</para>
+
+<example><title>Skill Check With Encumbrance Penalty</title>
+<screen>
+<emphasis>
+If the character from the example above wants to jump over a 1.5 meters fence
+while carrying 40 kg, the GM can decide to apply the Encumbrance Penalty on the
+Skill check:
+
+d10-d10* + Jumping Skill &gt;= TD + Fatigue + Encumbrance Penalty
+</emphasis>
+</screen>
+</example>
+</sect1>

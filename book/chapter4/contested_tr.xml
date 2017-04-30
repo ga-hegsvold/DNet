@@ -1,0 +1,30 @@
+<sect1><title>Contested Task Resolution</title>
+<para>
+Contested Task Resolution Formula:
+</para>
+
+<para>
+<literal>
+d10-d10* + Skill &gt;= TD + Opponent's Skill
+</literal>
+</para>
+
+<para>
+<emphasis>
+Optional:
+If a Contested Task is based on Talent only, i.e. it does not rely on the use
+of a Skill, the GM may wish to double the value of each opponent's Talent,
+to reflect the fact that the Task depends more on their raw capabilities than
+on any form of experience.
+</emphasis>
+</para>
+
+<para>
+<example><title>Contested Task Resolution Based On Talents</title>
+<screen>
+A contest of Strength between Joe Blow and Conan could be resolved using:
+d10-d10* + 2 * Joe Blow's STR &gt;= 2 * Conan's STR
+</screen>
+</example>
+</para>
+</sect1>

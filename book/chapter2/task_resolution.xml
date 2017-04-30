@@ -1,0 +1,20 @@
+<sect1><title>Task Resolution</title>
+<para>
+Tasks are resolved by rolling dice, adding the characters Skill or Talent to
+the die roll, and comparing the result to a TD.
+If the die roll plus the Skill or Talent is greater or equal than the TD,
+the Task succeeds. If it is less, the attempt fails.
+</para>
+
+<para>
+<emphasis>
+Optionally, the GM may use the amount by which the attempt fails or succeeds to
+determine the degree of success or failure.
+</emphasis>
+</para>
+
+<para>
+Two ten sided dice are rolled for Task Resolution.
+DNet uses an open-ended die roll method designated d10-d10* (See Reroll Method).
+</para>
+</sect1>

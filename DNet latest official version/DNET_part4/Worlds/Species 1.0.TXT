@@ -1,0 +1,1726 @@
+Appendix C - Species
+
+Variety's the very spice of life, that gives it all its flavor. 
+ -William Cowper
+
+Contents
+
+
+	Ant - Giant C:3
+	Bat - Normal  C:4
+	Bookworm  C:5
+	Centipede - Giant C:6
+	Coincrit  C:7
+	Dryad C:8
+	Dwarf C:11
+	Elf - Classical C:13
+	Flesh Leech C:14
+	Flesh Maggot  C:15
+	Frog - Giant  C:16
+	Ghoul C:17
+	Goblin  C:18
+	Hausguest C:19
+	Hornet  C:20
+	Human C:21
+	Kobold  C:22
+	Lycanthrope C:23
+	Metal Menace  C:26
+	Orc C:27
+	Rat C:28
+	Siren C:29
+	Skeletal Rotter C:31
+	Skunk C:32
+	Snake - Vampire C:33
+	Spider - Giant  C:34
+	Spider - Snatcher C:35
+	Toad - Giant  C:36
+	Weejon  C:37
+	Wolf  C:39
+	Worb  C:40
+	Wormcorpse  C:41
+	Zombie - Juju (Magical) C:42
+	Zombie - True C:43
+	Zombie - Voodoo C:45
+
+Species Name:  Ant - Giant
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Nest
+Can Be PC:    No
+EP Cost:    -275
+Average Ht:     1 m (Long)
+Average Wt:   20 kg
+Size Rating:    -2
+Lifespan:   2 years
+Physical Talents: AGI +1           BOD -9 DEX 0   FIT 0   STR -2 
+Mental Talents: AUR 0 INT -3  PER 0   PSY 0   WIL +1
+Nat. Res:   5
+Base Speed:     Walk 8 m/rd
+
+Innate Gifts:   Natural Body Armor    (+15)
+			Pinchers      (+10)
+			Warriors have Sting   (+15)
+
+Innate Foibles: Sensitive to Odor   (-5)
+			Confusion without Queen (-10)
+			Short Lifespan    (-10)
+Sub Culture(s): None
+
+
+Description:    
+	Similar to normal ants, Giant Ants live in underground nests and 
+ protect their queen at all times.  They will attack any creature 
+ coming near the nest or may be encountered in small groups 
+ scavenging for food.  Giant Ants have pinchers that can hold and 
+ pinch. (TD: -3 to break hold), (Damage 2d6-4).  Warriors will always 
+ be found near the nest entrance.  Warriors have small stingers in 
+ the tails that may cause paralysis for 1-2 minutes (TD: -2 save 
+ paralysis).
+
+Species Name:  Bat - Normal
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Nest
+Can Be PC:    No
+EP Cost:    -855
+Average Ht:     10 cm (Long)
+Average Wt:   0.25 kg
+Size Rating:    -10
+Lifespan:   7 years
+Physical Talents: AGI +1  BOD -23 DEX 0 FIT 0   STR -20
+Mental Talents: AUR 0 INT 0   PER -1  PSY 0   WIL +1
+Nat. Res:   0
+Base Speed:   Fly 35 m/rd
+
+Innate Gifts:   Flying            (+15)
+			Sonar           (+10)
+			Swarm         (+5)
+
+Innate Foibles: Short Vision          (-15)
+			High Pitch Sound Confuses / Aggravates  (-10)
+			Short Lifespan        (-10)
+
+Sub Culture(s): None
+
+
+Description:    
+	Bats tend to avoid human contact.  If frightened large groups can 
+ confuse and blind a party as they swarm.  Bats are usually 
+ nocturnal, though it is not totally uncommon to see them during 
+ daylight.  They are very maneuverable in flight and can negotiate 
+ 360 degree turns in one and one-half their body length.
+	Large groups of bats will swarm if excited by loud or high-pitched 
+ sound.  If bats should swarm, a save must be made if carrying any 
+ object in hand (TD: -3) for each round of the swarm.
+ If the save fails, the object will be dropped. In addition a save 
+ vs. disorientation must be made as well (TD: 2), if this should 
+ occur movement is impossible in a known direction.
+
+Species Name:  Bookworm
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Small Groups
+Can Be PC:    No
+EP Cost:    -960
+Average Ht:     1 cm (Long)
+Average Wt:   0.025 kg
+Size Rating:    -20
+Lifespan:   100+ years
+Physical Talents: AGI 0   BOD -25 DEX 0 FIT 0   STR -25
+Mental Talents: AUR +3  INT -3  PER +1  PSY 0   WIL 0
+Nat. Res:   0
+Base Speed:         12 cm/rd
+
+Innate Gifts:   Chameleon Camouflage    (+15)
+			Very Hard to Detect by Touch  (+10)
+
+Innate Foibles: Cold causes Hibernation   (-5)
+
+Sub Culture(s): None
+
+
+Description:    
+	 Bookworms are an inchworm like with the ability to change color to 
+ match their surroundings.  They are drawn to parchment and can eat 
+ their own weight in about 5 minutes expelling a fine powder as 
+ waste. A bookworm can crawl on a person without detection and smell 
+ parchment up to 100 m away.  Bookworms tend to live indoors, however 
+ they can sustain them selves outdoors in warm climates if a wood 
+ source is near.
+	Bookworms can destroy an average piece of parchment in about an 
+ hour, for this reason they are hated by spell casters and the legal 
+ profession.  Temperatures near freezing will cause the bookworm to 
+ hibernate, after which they are ravenous and will double their 
+ eating.
+
+Species Name:  Centipede - Giant
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Nest
+Can Be PC:    No
+EP Cost:    -185
+Average Ht:     50 cm (Long)
+Average Wt:   5 kg
+Size Rating:    -4
+Lifespan:   2 years
+Physical Talents: AGI +6  BOD -10 DEX 0 FIT +1  STR -8
+Mental Talents: AUR 0 INT 0   PER 0   PSY 0   WIL +1
+Nat. Res:   0
+Base Speed:   20 m/rd, Max 90 m/rd
+
+Innate Gifts:   Poison Bite   (+25)
+
+Innate Foibles: Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:    
+	Giant Centipedes are gray green to dark gray they are very 
+ aggressive and will attack without provocation.  If a victim is 
+ killed, they will 10% likely lay 10-100 eggs that will hatch in 30 
+ days and use the corpse as a food source.  Their poison will usually 
+ not kill unless multiple bites are taken, however a single bite 
+ causes dizziness and vomiting and may require rest to fully recover. 
+ TD=0 (+2 per bite); Save=Illness, Fail=Illness plus save vs Death.
+
+Species Name:  Coincrit
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Small Groups
+Can Be PC:    No
+EP Cost:    -980
+Average Ht:     3 cm (Dia.)
+Average Wt:   0.2 kg
+Size Rating:    -20
+Lifespan:   2 years
+Physical Talents: AGI 0   BOD -25 DEX 0 FIT 0   STR -25
+Mental Talents: AUR 0 INT 0   PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Base Speed:   Walk 2 m/rd, Jump 120 m/s 
+
+Innate Gifts:   Sleep Poison    (+20)
+			 Jump     (+10)
+			 Blood' Sucking (+5)
+
+Innate Foibles: Extreme Temps Kill  (-5)
+			Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:  
+	Coincrits are large fluid sucking tick like creatures that resemble 
+ gold or copper coins.  These creatures usually dwell in damp wooden 
+ chests and lie with the coins.  They move slowly when walking, 
+ however they can jump about 2m swiftly. This usually occurs when 
+ they smell warm-blooded food.  The Coincrit will then burrow beneath 
+ the victims flesh and ooze a sleep inducing poison.  The victim will 
+ then remain asleep while the Coincrit feeds upon its body fluids.  
+ Coincrits are easily destroyed by extreme heat or cold, however this 
+ will usually harm the victim as well and could cause scaring. Sleep 
+ Poison; TD=6, TD=7 (+1 per hour asleep).  Feeding inflicts 6 injury 
+ points per Coincrit per hour.
+
+
+
+Species Name:   Dryad
+
+Version:    1.0
+World:    Corellus
+Author:     Jeff Hildebrand; Dale Wood
+
+Culture(s):   Solitary
+Can Be PC:    Yes
+EP Cost:    +85
+Average Ht:     135 cm (Tall)
+Average Wt:   40 kg
+Size Rating:    -1
+Lifespan:   250+ Trees' Life years
+Physical Talents: AGI +5  BOD -4  DEX 0   FIT +1  STR -2
+Mental Talents: AUR +2  INT 0     PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Walk 10 m/r; Max 40 m/r
+
+Innate Gifts:   Magic Resistance    (+30)
+			Charm       (+20)
+			Limited Dimension Door  (+20) not for PC's
+			Long Lifespan     (+20)
+			Plant Communication   (+20)
+			Entering Oak Trees    (+20)
+			Long Life Span    (+15) PC's ages 100-250
+
+Innate Foibles: Tied to Tree or Staff   (-20)
+			Iron Harms      (-20)
+			Can't wear Hard Armor (-20)
+			Fear of Indoors and Cities  (-10)
+			Claustrophobic    (-10)
+			
+
+Sub Culture(s): None
+
+
+Description:
+	Dryads are members of the Faerie.  They are extreme beautiful 
+ women.  Due to the special magic of Dryads, any daughters they have 
+ are fully Dryads, and any sons they have are fully the race of the 
+ father.  They tend to be shy and avoid contact with others.  They 
+ are nonviolent and pleasant to be with.  If a person meets a Dryad, 
+ and is kind and amicable to them, they enjoy quiet conversation.  
+ They have an affinity to a specific Oak tree to which they bind 
+ themselves.  They have the ability to Charm Person at will, with a 
+ highly effective spell that has a save at TD:6 on the victims.  They 
+ can enter and leave trees at will.  Dryads have the ability to 
+ Dimension Door to their special Oak tree once they enter any oak 
+ tree.  They have such a strong empathy with plants that they can 
+ actually speak with them with concentration.  They cannot wear armor 
+ due to their nature and will only wear loose clothing if any.  They 
+ speak the languages of Faerie and the local dominant woodland 
+ species.  Since the language of Faerie is based solely on an Oral 
+ Tradition, there is no written form for them to know.
+
+	When they are adults looking for a mate, they find themselves 
+ easily enamored of highly charismatic individuals whom they will try 
+ to charm.  After 2 years, the male will become immune to the spell, 
+ but if he has learned to love her in this time, he will stay of his 
+ own free will.  If not, when he departs, he leaves the Dryad 
+ heartbroken.  She will withdraw from contact with anyone save any 
+ daughter they had.  If they had sons, she will send them with the 
+ father.  If he refuses them, she will raise them until they can be 
+ separated from her and give them to the community of Faerie.  
+ Daughters are held in special regard (and dealt with below as PCS).  
+ If she is alone, she will revert to her normal patterns and again 
+ seek a mate.
+
+	Daughters are held in great love by their Dryad mothers.  These are 
+ the only types of Dryad allowed to be PC's from age 100 till they 
+ find their tree.  They are raised by their mothers until they are 
+ 100 years old and are dependent on them for their link to nature. 
+ Daughters use their mother's Oak tree the same as mothers do.  
+ During this time, their magic resistance grows slowly, 10% every 20 
+ years until they reach their 50% after 100 years.  At 100 years of 
+ age, they are fully developed in the physical sense and old enough 
+ to start the quest for their own Oak, but are about the equivalent 
+ maturity of a 13-15 year old human.  They are not fully matured 
+ until about 150 years of age.  Their charm ability doesn't manifest 
+ itself until they are 100 years old, and then it is not fully 
+ developed until they find their own tree.  They can Charm Person one 
+ time a day, at TD:2 on  the victim.  Until a Dryad has found her 
+ special Oak tree, she cannot Dimension Door, but can still enter and 
+ leave trees.  Her tie to plants is there, but not as developed.  So, 
+ she has plant empathy that she can use at will, but can speak with 
+ plants only once per day and only with at least 10 minutes of 
+ uninterrupted concentration.
+
+	Once her daughter reaches 99 years old, a Dryad's mother will spend 
+ the next year having her tree make a special staff for her daughter. 
+ This staff serves as the surrogate tree for the young Dryad until 
+ she can find her special Oak. She can enter and leave the staff  at 
+ will.  She can sense it if it is within 10 miles of her.  If she is 
+ separated from it, she starts to fade and get sick.  At that point 
+ she starts to lose one Body point per day until she recovers it or 
+ finds an Oak tree will let her enter it.  If this tree is not her 
+ special tree, then she will not be able to recover the lost Body 
+ points until she finds either her staff.  If her staff is recovered 
+ for her, and brought in contact with this tree, she can be released 
+ from the temporary Oak and again take up her quest to find her 
+ special tree.  This staff is magic and has the special strength and 
+ resistance to magic as its owner. Any non-magic damage done to the 
+ staff may be absorbed by the dryad to save her staff as she is so 
+ connected to it.  It should be commented that when the Dryad starts 
+ her quest for her tree, the tree may not exist yet.  But she 
+ wouldn't know, she just needs to search for it.  If she sits in 
+ concentration and meditation (with breaks for sleep and meals only), 
+ she gets a percent chance equal to the number of days spent 
+ concentrating to detect the direction to her special tree, if it 
+ exists.
+
+	Dryads tend to wander around a large area seeking their tree. They 
+ have a TD:10 of finding their special tree per year -1 for every 10 
+ years of searching. This is usually when they are most likely to be 
+ seen by humans and many of the rumors and legends of Dryads come 
+ from these chance encounters.  They sometimes find themselves lost 
+ while searching, and will pretend to be Elvish women if they need to 
+ approach anyone for help.  True Elvish women have a TD:3 plus 
+ intelligence to tell that there is something peculiar about them 
+ though, and have a TD:0 if they actually decide to concentrate on 
+ trying to figure it out.  Until they find their special tree, they 
+ do not suffer the overwhelming attraction to highly charismatic men, 
+ but they still feel strongly when they meet them.  They will not 
+ mate until they have their own tree and have fully developed their 
+ powers.
+
+	Being a member of the Faerie community, Dryads cannot touch 
+ anything that contains iron.  Dryads will use weapons like staff, 
+ flint or obsidian daggers, or special magical weapons that have no 
+ iron or steel (like mithril or special gold or silver alloys).  
+ Also, armor is restricted to being without any iron and loose 
+ fitting. Since they are so attuned to the woods and outdoors, they 
+ are claustrophobic and hate the indoors and city areas.  If a PC 
+ Dryad wants to be able to speak Common, they have to learn it as a 
+ skill.        
+
+	Those Dryads that learn magic will find themselves strong in 
+ abilities that are associated with charming, but will not cast 
+ spells that harm nature. Their plant bound nature is such that they 
+ will not have anything to do with them. That doesn't stop a Dryad 
+ from using illusions though.  Plant associated spells they will find 
+ have -2 added to their TD. Spells associated with metals are more 
+ difficult for Dryads, so they have +2 added to their TD.
+
+Species Name:  Dwarf
+
+Version:    1.0
+World:    General
+Author:     Guillaume
+
+Culture(s):   Clan
+Can Be PC:    Yes
+EP Cost:    +40
+Average Ht:     130 cm (Tall)
+Average Wt:   70 kg
+Size Rating:    -1
+Lifespan:   150 years
+Physical Talents: AGI -1  BOD -3  DEX 0   FIT +1  STR +2
+Mental Talents: AUR 0   INT 0     PER 0   PSY 0   WIL +1
+Nat. Res:   0
+Speed:      Walk 10 m/rd
+
+Innate Gifts:   Infra Vision        (+20)
+			Good Night Vision     (+15)
+			Resistant to Poison     (+15)
+			Sense of Direction Underground  (+10)
+			Long Lifespan       (+5)
+
+Innate Foibles: Poor full Sun Vision      (-5)
+			Ugly to most Humanoids    (-5)
+			Fear non-clerical spells    (-10)
+			Mild Agoraphobia      (-5)
+
+Sub Culture(s): 
+
+
+Description:
+	Dwarves are sturdy humanoid creatures that live in hills or  
+ mountains.  They have tan skin with black hair, ruddy cheeks and  
+ bright eyes.  Dwarves are short, stocky, and have a muscular build, 
+ Occasionally with a pot belly. Almost all Dwarves have beards  
+ including females, the length of a Dwarf's beard is a status symbol. 
+ They love the underground and any thing associated with it.  
+ Dwarves  are excellent miners and are proficient underground 
+ engineers.  Dwarves' have good night vision and their infrared 
+ vision extends to a range of 30 m. A dwarf's hardy nature provides a 
+ +1 bonus to resist the effects of poison.  As elves are keepers of 
+ the forest, dwarves are the keeps of the underworld. 
+
+	Some people say that the dwarfs' temperament is that of a mountain; 
+ proud, hard working, unswerving in their goals and true to their  
+ promises (claimed or unheard), the dwarves often appear to be of the 
+ same essence as the mountains they inhabit.  If they are unswerving 
+ in their beliefs, the dwarves are also reluctant to accept changes; 
+ hence, in many mountainous regions, the proverb "stubborn as a  
+ dwarf" has replaced "stubborn as a mule." In those same regions, one 
+ often says of a noisy person that he or she is "as silent as a  
+ dwarven scout," referring to their natural clumsiness and their 
+ well-known tastes for heavy armors.  Of course, these comparisons, 
+ are  uncontested by the dwarves themselves, who often speak or joke 
+ of it. 
+
+	Contrarily to the popular belief, the dwarves do not shun water and 
+ most of them know the basics of swimming. They do, however, have  
+ little love for  the sea, but this comes more from the unobstructed  
+ view it offers than from a fear of water. This agoraphobia, which is 
+ shared by most dwarves, manifests itself in areas where there is  
+ nothing to block the sight before it reaches the horizon. It is less 
+ pronounced in plains than on the seas, as dwarves tend to be more  
+ secure when they can feel the earth beneath their feet.
+
+	While dwarves do not deliberately seek war, many of them hold the  
+ opinion that a good battle can solve a lot of problems, especially  
+ if Orcs or goblins are involved. In battle, they prefer the axe to 
+ the sword, and the heavier metal armor to the leather ones. Of  the 
+ latter, they often say that you cannot rely on a hide which  did not 
+ protect the animal who wore it first . . . 
+
+	Children are typically born one at a time, and most of the time the 
+ child is a male. Because of their lesser numbers, in most dwarven 
+ cultures women have great influence.
+
+	Dwarves officially reach maturity at the age of 25, but only marry  
+ around the age of 50, if they ever do. A dwarven family is generally 
+ formed of the two parents and four to six children; it is common  
+ for an unmarried uncle to also live with the family.
+
+
+
+Species Name:  Elf - Classical
+
+Version:    1.0
+World:    Corellus
+Author:     dnworlds
+
+Culture(s):   High/Noble, Migratory Clan, Elven Enclave
+Can Be PC:    Yes
+EP Cost:    +39
+Average Ht:     150 cm (Tall)
+Average Wt:   52 kg
+Size Rating:    0
+Lifespan:   300+ years
+Physical Talents: AGI 0   BOD -3  DEX 0   FIT 0     STR -1
+Mental Talents: AUR 0   INT +1  PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Walk 10 m/r
+
+Innate Gifts:   Beauty      (+5)
+			Extremely Long Lifespan (+25)
+			Night Vision      (+5)
+			Archery     Tr 3  (+24)
+			Zoology     Tr 2  (+9)
+			Survival    Tr 2  (+12)
+			Identify Magic  Tr 2  (+15)
+			Ancient History Tr 2  (+9)
+
+Innate Foibles: Claustrophobia    (-5)
+
+Sub Culture(s): See Culture High, Clan, Enclave
+
+
+Description:
+	 Elves have a strange beauty that Humans consider exotic and 
+ appealing. They tend to be of a lighter coloring between the 
+ Nobility and members of Enclave societies, but seem to follow no 
+ rule among the wandering clans whose members have the whole spectrum 
+ of skin, hair, and eye coloring. All Elves have pointed ears, slim 
+ eye borrows, almond shaped eyes, and full lips. Most tend to be 
+ slender of build but about one in 50 may be plump.  Because of the 
+ great age that elves can reach, they tend to have a life view that 
+ takes very long and patient methods into account.  They have a 
+ fascination with magic and all elves know at least a bit about it 
+ due to the fact that it is so widely used in their societies. Even 
+ if they cannot exercise magic most elves have been exposed to it by 
+ an early age.  An elf is generally considered immature before 50 and 
+ mature after 100.  In between it depends on the individual.
+
+
+Species Name:  Flesh Leech
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Small Groups
+Can Be PC:    No
+EP Cost:    -725
+Average Ht:     20 cm (Long)
+Average Wt:   0.5 kg
+Size Rating:    -8
+Lifespan:   1 year
+Physical Talents: AGI 0   BOD -22 DEX 0 FIT 0   STR -15
+Mental Talents: AUR 0 INT 0   PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Base Speed:   Walk 2 m/rd, Glide 15 m/rd
+
+Innate Gifts:   Glide     (+15)
+			Secrete Mild Acid (+10)
+			Numbing Poison  (+10)
+
+Innate Foibles: Hate Salt     (-10)
+			Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:
+	The Flesh Leech looks similar to its cousin a blood leech but 
+ larger.  They inhabit damp dark places and can feed off nearly 
+ anything but prefer living flesh.  The flesh leech usually attacks 
+ by dropping on a victim from a high place. It glides down and then 
+ attaches to the victim.  They will then begin to secrete a mild acid 
+ that does damage. 1 injury point per minute for up to 15 minutes.  
+ They also secrete a numbing poison and may go unnoticed. TD:3 to 
+ notice.  Salt placed on a flesh leech will cause it to detach.
+
+Species Name:  Flesh Maggot
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Culture(s):   Small Groups
+Can Be PC:    No
+EP Cost:    -480
+Average Ht:     1 cm (Dia.) x 50 cm (Long)
+Average Wt:   1 kg
+Size Rating:    -7
+Lifespan:   30 days
+Physical Talents: AGI 0   BOD -15   DEX 0   FIT 0     STR -10
+Mental Talents: AUR 0   INT 0     PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Burrow 1 m/rd
+
+Innate Gifts:   Flesh Burrowing     (+15)
+			Cause Heart Failure     (+20)
+			Infection       (+15)
+
+Innate Foibles: Rose Hip Wine and Dill Weed Kill  (-20)
+			Short Lifespan      (-10)
+
+Sub Culture(s): None
+
+
+Description:
+	Flesh maggots are huge maggots that burrow into flesh.  They can 
+ live in any kind of refuse and after 30 days turn into giant flies.  
+ They will quickly burrow into a victim and head for the heart in 
+ about 60 minutes the victim will die from heart failure. The 
+ burrowing inflicts 1 injury point per minute and the entry point is 
+ likely to become infected TD:-2. A person trained in medicine can 
+ administer rose hip wine and dill weed to kill these maggots however 
+ after administering the cure it will take about 5 minutes to take 
+ effect. The victim must rest until their injury from the maggots is 
+ healed or chance internal bleeding.  
+
+Species Name:  Frog - Giant
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Small Groups
+Can Be PC:    No
+EP Cost:    +70
+Average Ht:     2 m (Long)
+Average Wt:   100 kg
+Size Rating:    0
+Lifespan:   3 years
+Physical Talents: AGI 0   BOD +3  DEX 0 FIT 0   STR 0
+Mental Talents: AUR 0 INT -1  PER 0   PSY 0   WIL +1
+Nat. Res:   0
+Base Speed:   Walk 10 m/rd, Hop 60 m/rd
+
+Innate Gifts:   Strong sticky tongue    (+15)
+			Jump        (+10)
+			Camouflage      (+5)
+
+Innate Foibles: Extra Damage from Heat  (-10)
+			Short Lifespan    (-10)
+
+Sub Culture(s): None
+
+Description:
+	Giant frogs live anywhere their smaller family members do.  They 
+ will use their tongue to hold a victim until they can swallow it 
+ whole at which point damage begins (as suffocation and stomach 
+ acid). The tongue has a STR of +8 to break free from.  They will 
+ attack fiercely if hungry and prefer smaller prey.  Groups have been 
+ known to strangle small horses and then ripe parts off to digest. A 
+ single jump can cover 15 m. Their green camouflage makes them 
+ difficult to notice in large vegetation. (TD=5).  Giant frogs have a 
+ this moist flesh membrane and can only go a week without moistening 
+ their flesh. Heat damage gains a 10% bonus.
+
+
+Species Name:  Ghoul
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary (Rare Pairs)
+Can Be PC:    No
+EP Cost:    as Original Species +25
+Average Ht:     1.8 m as Original Species
+Average Wt:   85 kg as 90% of Original Species
+Size Rating:    0 as Original Species
+Lifespan:   200+ years; Unknown
+
+Note:     Talent Modifiers Only:
+Physical Talents: AGI 0   BOD +2  DEX 0 FIT 0   STR +4
+Mental Talents: AUR 0 INT -3  PER -3  PSY 0   WIL +1
+Nat. Res:   0
+Base Speed:   as Original Species
+
+Innate Gifts:   Feel No Pain      (+15)
+			Long Lifespan     (+15)
+
+Innate Foibles: Cannibalism     (-5)
+			Insane        (-5)
+			Stink       (-5)
+			Fear of Holy Symbols    (-10)
+
+Sub Culture(s): None
+
+Description:
+	Ghouls are creatures that consume the flesh of the dead to sustain 
+ their  undead' lives indefinitely, this however causes an insanity 
+ and deformity.  They slowly start to lose their appearance and turn 
+ into creatures with gray rotting flesh, fangs no body hair and flesh 
+ less limbs. They emit a foul smell that can be noticed from 30 m 
+ away.  They hate all living creatures as their Envy of life turns to 
+ insanity, and will kill on sight any creature. It is believed they 
+ where first formed from a holy man's curse placed on a man who ate 
+ the flesh of his dead family. Any mammal with near human INT that 
+ eats Ghoul flesh will die and become a Ghoul. (If culture believes, 
+ cannabism is wrong.) Humanoids eating ghoul flesh are usually 
+ insane, starving, or forced to do so by curtain cults that use 
+ Ghouls to guard sacred places. This has started the practice of 
+ burning their corpse. Ghouls are very strong about twice their 
+ original strength and feel no pain. They will fight until destroyed 
+ without becoming unconscious.  Ghouls have an intense fear of Holy 
+ objects from deities that represent life. 
+
+Species Name:   Goblin
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Culture(s):   Tribal
+Can Be PC:    Yes
+EP Cost:    -67
+Average Ht:     140 cm (Tall)
+Average Wt:   60 kg
+Size Rating:    -2
+Lifespan:   75 years
+Physical Talents: AGI 0   BOD -4  DEX 0   FIT +1  STR -2
+Mental Talents: AUR 0   INT -2  PER +1  PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Walk 10 m/rd
+
+Innate Gifts:   Infra vision      (+20)
+			Good Night Vision     (+15)
+
+Innate Foibles: Poor Vision in Bright Light (-15)
+			Ugly to most Humanoids  (-5)
+
+Sub Culture(s): For Corellus see Cultures: Refugee, Empire
+
+
+Description:
+	Goblins are slightly smaller, greyish humanoids. Their hair is 
+ generally short and dark.
+ Goblins are believed to be related to Elves and Kobolds, and speak 
+ both languages but have none of their own. Their facial features 
+ tend to be large, while their ears are small. Goblin eyes tend to be 
+ in the red end of the color spectrum, with good night vision and in 
+ darkness can use Infra vision up to 30 m.  Goblins are hardy and 
+ gain -2 on TD for diseases.  Goblins make excellent night hunters.
+
+
+Species Name:  Hausguest
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary
+Can Be PC:    No
+EP Cost:    -530
+Average Ht:     25 cm (Tall)
+Average Wt:   12 kg
+Size Rating:    -7
+Lifespan:   300 years
+Physical Talents: AGI +3  BOD -20 DEX +2  FIT 0   STR -14
+Mental Talents: AUR -1  INT 0   PER -1  PSY 0   WIL +2
+Nat. Res:   0
+Base Speed:   Walk 20 m/rd Max 75 m/rd, Fly 30 m/rd
+
+Innate Gifts:   Invisibility          (+30)
+			Fly           (+15)
+			Extremely Long Lifespan     (+25)
+
+Innate Foibles: Compulsively Neat       (-5)
+			Can't Intentionally cause Physical Harm (-15)
+
+Sub Culture(s): None
+
+Description:
+	Hausguests live solitary lives, however between the ages of 20 and 
+ 50 they will mate once every 5 years.  This usually produces 1 or 2 
+ young which the mother will raise for 3 to 4 years.  The Hausguest 
+ is an indoor cousin of the sprite.  This creature abhors filth and 
+ will be constantly cleaning.  This is always done when others cannot 
+ observe them or their work.  The Cottage Sprite dwells in solitary 
+ places of  man made' construction, preferring more moderate 
+ climates.  They are very fast and can fly.  The Houseguest feels it 
+ is its task in life to keep its home well kept, tidy and clean.  
+ When the Hausguest reaches maturity (50 years) it selects a place as 
+ its home and will spend the rest of its life there or until its home 
+ is destroyed.  Hausguests come in all shades of brown from straw to 
+ near black, it is humanoid in shape except for very long digits, 
+ wings, bumpy skin, and shiny yellow cat like eyes.
+	The Hausguest will never actively harm any living thing, even when 
+ attacked it will turn invisible and fly away.  However, they can 
+ become a pain as they tidy up as they see fit.   Hey, how did my 
+ shield get in the closet?',  Who put my daggers in the cupboard?',  
+ Where did my spell book go?'.
+
+
+Species Name:  Hornet
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Nest
+Can Be PC:    No
+EP Cost:    -945
+Average Ht:     1 cm (Long)
+Average Wt:   5 g
+Size Rating:    -20
+Lifespan:   8 months
+Physical Talents: AGI +2  BOD -25 DEX 0 FIT 0   STR -25
+Mental Talents: AUR 0 INT -2  PER 0   PSY 0   WIL +2
+Nat. Res:   0
+Base Speed:   Walk 10 cm/rd, Fly 30 m/rd
+
+Innate Gifts:   Fly     (+15)
+			Sting     (+15)
+
+Innate Foibles: Fear of Water   (-5)
+			Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:  
+	Hornets will attack any creature coming near the nest.  Their sting 
+ causes great pain and anyone stung may drop what is in hand and flee 
+ in pain TD:4.  Hornets drown easily and will shun water.
+
+
+Species Name:  Human
+
+Version:    1.0
+World:    Corellus
+Author:     dnworlds
+
+Culture(s):   Civilized
+Can Be PC:    Yes
+EP Cost:    0 
+Average Ht:     180 cm (Tall)
+Average Wt:   75 kg
+Size Rating:    0
+Lifespan:   70 years
+Physical Talents: AGI 0   BOD 0   DEX 0   FIT 0     STR 0
+Mental Talents: AUR 0   INT 0     PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Walk 10 m/r
+
+Innate Gifts:   None
+
+Innate Foibles: None
+
+Sub Culture(s): See Cultures: Any
+
+
+Description:
+	Humans are the most adaptive and diverse of the intelligent 
+ species. Humans come in all shapes, sizes and colors. Due to their 
+ adaptive nature, humans have the ability to generalize their skills. 
+ That is they can choose any combination of skills. Their 
+ adaptiveness also leads to many varying cultures.
+
+	The most common human culture is that of the civilized world. When 
+ referring to civilization, and humans in general, it is this culture 
+ that is referred to. The civilized world is wherever humans have 
+ congregated in large numbers to pursue a  modern way of life'. This 
+ includes kingdoms, cities, towns, etc. as well as the areas that lay 
+ on the outskirts of the civilized world commonly known as the 
+ frontier.
+
+
+Species Name:   Lycanthrope
+
+Version:    1.0
+World:    Corellus
+Author:     Del Hart
+
+Culture(s):   Pack, Loner, as per species
+Can Be PC:    Yes
+EP Cost:    (Original Species + Lycanthrope Species) / 2 + (122)
+Average Ht:     per species
+Average Wt:   per species
+Size Rating:    per species
+Lifespan:   Original Species + Any time as Lycanthrope
+
+Note:     Talent Modifiers for half Lycanthrope state Only:
+Physical Talents: AGI +1  BOD 0   DEX -1  FIT +2  STR +1
+Mental Talents: AUR +1  INT -1  PER +2  PSY -1  WIL +1
+Nat. Res:   0
+Speed:      per species
+
+Innate Gifts:   Improved Senses     (+25)
+			Ability to better understand animals,
+			especially Lycanthrope species  (+15)   
+
+Innate Foibles: Involuntary Transformation    (-30)
+
+Sub Culture(s): as per Lycanthrope species
+
+
+Description:
+	Only mammals may be affected by Lycanthropy and the Lycanthrope 
+ species must be a mammal.  This also means a mammal may have 
+ lycanthropy into a more humanoid form.
+
+	Although not strictly a separate species, there is a genetic 
+ susceptibility that makes manifestation of lycanthropy possible. The 
+ above characteristics are not absolute, rather they are 
+ modifications of the being's attributes when afflicted with the 
+ disease. The disease is not an all or nothing deal, a person can be 
+ affected to varying degrees at various times. For simplicity most 
+ GMs will probably only want to consider 3 states. Normal being, 
+ half-Lycanthrope, full-Lycanthrope. A check should be made for the 
+ being 4 times a month; once at each half moon, two days before the 
+ new moon, and two days before the full moon.
+
+	The lycanthropy disease is found at (to be done later). The 
+ following modifiers are applied to the virulence during the check. A 
+ failed check moves the character into a more Lycanthrope state, a 
+ successful check moves the character toward a more normal state.
+ current state lycanthrope     (+1)
+ current state normal        (-1)
+ new moon          (-5)
+ full moon         (+5)
+ immersion in original culture        (-1 to -5)
+ immersion in lycanthrope species-setting
+ or proximity to that species.     (+1 to +5)
+
+Modifiers can be used based on the character's will power and game 
+ optional control skills.
+
+Affects:
+	For the normal being state, the modifiers to the character are 
+ least. About the only difference is an affinity for the lycanthrope 
+ species.
+
+	For the half-lycanthrope state, the attribute modifiers are taken 
+ into account. The character has stronger instincts and urges. These 
+ may not be apparent to the character, but the character will try to 
+ rationalize these urges into their actions. There will also be some 
+ physical manifestations (e.g., increased hair coverage, eye 
+ shape/color, longer nails, modified ears, etc.). The character will 
+ also have instincts for the social nature of the Lycanthrope 
+ species.
+
+	In the full Lycanthrope state, the character actually changes into 
+ that species. The lycanthrope may not remember details of the 
+ character's life, but it will to some degree understand strong 
+ emotions about people, places and things. In other respects they 
+ will be the lycanthrope species.
+
+NPC:
+	Depending on the plans of the GM, a character who becomes infected 
+ with lycanthropy may become an NPC either temporarily or permanently 
+ or not at all. The GM will make this clear when the condition has 
+ been identified.  Some possible times this can occur are when the 
+ character becomes either half or full lycanthrope. If  the 
+ lycanthrope remains a PC the player can make a willpower check. In 
+ the case of strong emotions it will determine if  they can make a 
+ decision that is not consistent with its current state, but is 
+ consistent with its untransformed state.
+
+Transformation:
+	The transformation is because of the magical disease, but the 
+ process is not quick or automatic. Generally transformation from one 
+ state to another takes several days. Going into more 
+ lycanthrope-like states the being will generally change mass and 
+ size. Likewise going into more normal states, the being will need to 
+ change mass. This will cause the character be very hungry during 
+ these period of time. There do exist more magical versions of the 
+ disease which allow the transformation to occur more quickly and 
+ without any sever mass changes.
+
+	If the GM allows some control over the transformation, then if the 
+ check is successful, but would have failed without WIL and skill 
+ modifiers then the being retains their consciousness in the more 
+ animal like forms (no INT -3) and can choose the direction of the 
+ transformation.
+
+Contagiousness:
+	Lycanthropy can be spread by the sharing of bodily fluids. Beings 
+ can be especially susceptible to it giving a +1 to +15 to the 
+ virulence. For details of the disease see the description of 
+ lycanthropy.
+
+Species Name:   Metal Menace
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary
+Can Be PC:    No
+EP Cost:    -180
+Average Ht:     150 cm (Long)
+Average Wt:   20 kg
+Size Rating:    0
+Lifespan:   Indefinite
+Physical Talents: AGI -2  BOD -5  DEX 0 FIT 0   STR +2
+Mental Talents: AUR 0 INT -3  PER -3  PSY 0   WIL 0
+Nat. Res:   8
+Base Speed:   Walk 5 m/rd
+
+Innate Gifts:   Fangs     (+5)
+			Iron Armor    (+20)
+			Hypnosis    (+10)
+			Paralyzing Poison (+10)
+
+Innate Foibles: Rust      (-5)
+
+Sub Culture(s): None
+
+Description:  
+	Metal Manaces are iron creatures created by clerics to protect 
+ their sacred places.  These robots appear as cobra skeletons with 
+ red glowing eyes.  They are programmed to attack all who enter an 
+ area who don't speak the pass word to deactivate them.  Their red 
+ eyes will cause any looking at them to go into a hypnotic trance 
+ until pain is inflicted on them. (TD=8).  They may poison bite up to 
+ 3 times and this causes mild paralyzation (TD=5) and their fangs 
+ cause 1d4+2 of damage.
+
+
+Species Name:  Orc
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Culture(s):   Tribe
+Can Be PC:    Yes
+EP Cost:    +102
+Average Ht:     200 cm (Tall)
+Average Wt:   90 kg
+Size Rating:    1
+Lifespan:   100 years
+Physical Talents: AGI 0   BOD +3  DEX 0   FIT +1  STR +1
+Mental Talents: AUR 0   INT -1  PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Walk 10 m/rd
+
+Innate Gifts:   Infra vision      (+20)
+			Night Vision      (+5)
+
+Innate Foibles: Ugly to most Humanoids  (-5)
+			Blinded in Full Sun Light (-10)
+
+Sub Culture(s): None
+
+
+Description:
+	Orcs are brown with a blue or green tinge, they have pick snouts 
+ and ears, and thick patchy black hair.  Most males have small tusks 
+ and all Orcs are generally dirty, as is anything they own.  Orcs 
+ tend to hate all other forms of life and their tribes tend to be 
+ competitive amongst themselves.  Orcs are bullies and will try to 
+ dominate anything weaker then themselves including other Orcs.  They 
+ usually live underground and are good miners, however they hate 
+ bright light and full sun light will partially blind them.  Living 
+ underground has given Orcs Infra Vision in darkness of up to 45 m.
+
+Species Name:  Rat
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Nest
+Can Be PC:    No
+EP Cost:    -530
+Average Ht:     20 cm (Long) / 50 cm (Long) - Giant
+Average Wt:   1 kg / 2.5 Kg - Giant
+Size Rating:    -7
+Lifespan:   2 years
+Physical Talents: AGI +3  BOD -20 DEX 0 FIT 0   STR -12
+Mental Talents: AUR 0 INT -1  PER 0   PSY 0   WIL -1
+Nat. Res:   0
+Base Speed:   Walk 15 m/rd;
+
+Innate Gifts:   Disease   (+10)
+
+Innate Foibles: Fear of Fire    (-10)
+			Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:
+	Rats are very aggressive and will attack without fear if hungry. 
+ Their bite causes 2 (4 for giant rats) points of damage and may (5% 
+ per bite) cause an infection. There is a 5% chance for every rat 
+ after the first 10 of being of the giant type. Rats are good 
+ swimmers and have been known to swim across rivers to attack.
+
+Species Name:  Siren
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary
+Can Be PC:    No
+EP Cost:    +140
+Average Ht:     180 cm (Tall)
+Average Wt:   50 kg
+Size Rating:    0
+Lifespan:   200+ years
+Physical Talents: AGI 0   BOD -1  DEX 0 FIT 0   STR 0
+Mental Talents: AUR +1  INT +1  PER +1  PSY 0   WIL 0
+Nat. Res:   0
+Speed:      Walk 8 m/s; Swim 15 m/s
+
+Innate Gifts:   Beauty      (+5)
+			Long Lifespan     (+15)
+			Love Touch      (+15)
+			Charm Song      (+15)
+			Water Spells      (+10)
+			Energy Spells     (+10)
+			Invisibility      (+30)
+			Polymorph Self    (+10)
+			Long Lifespan     (+15)
+
+Innate Foibles: Contact with a water source (-20)
+
+Sub Culture(s): None
+
+Description:
+	Sirens appear as very beautiful human women (usually naked), they 
+ have an intense hatred of human kind and its allies, as they believe 
+ they abuse water by over taxing its bounty and polluting it.  Sirens 
+ will sing a song that causes humanoids to be drawn to them 
+ hypnotically, TD:6 on the victim. Then touch any males' them causing 
+ love insanity, TD:4 on the victim, in males of all humanoid races. 
+ Females are immune to the love touch.  This insanity causes the  
+ lover' to protect the siren and believe they are madly in love with 
+ her. The  lover' however will not inflict damage on their self, 
+ others however are open to attack.  Sirens may cast most water 
+ spells with a high level of proficiency add -3 to TD. Along with 
+ Invisibility and Polymorph Self into any water creature once per 
+ day.  Sires like to drown their victims, they will use whatever 
+ means necessary to defend themselves and the water. Sirens draw 
+ their power from a water source and may never leave it.  If they 
+ should leave contact with their water source, they will suffer great 
+ pain and eventually pass out when dry.  If not kept constantly moist 
+ with water from the source, they protect them will suffer 1 point of 
+ injury every 10 minutes until dead.
+
+Species Name:  Skeletal Rotter
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary
+Can Be PC:    No
+EP Cost:    Original Species +35
+Average Ht:     180 cm (Tall) as Original Species
+Average Wt:   60 kg as Original Species
+Size Rating:    0
+Lifespan:   200+ years
+Physical Talents: AGI 0   BOD 0 DEX 0 FIT 0   STR +1
+Mental Talents: AUR 0 INT -2  PER -1  PSY +1  WIL 0
+Nat. Res:   5
+Base Speed:   Walk 10 m/rd
+
+Innate Gifts:   Immune Mind Spells    (+15)
+			Rot Touch     (+20)
+			Fear        (+15)
+			Immune most Weapons (+15)
+			Long Lifespan     (+15)
+
+Innate Foibles: Holy Water      (-15)
+
+Sub Culture(s): None
+
+Description:  
+	Skeletal rotters are undead holy men who protect sacred areas. The 
+ mere sight of a skeletal rotter may cause those of average psyche or 
+ below to flee in panic (TD=7).  The skeletal rotter may only be hit 
+ by silver or magic weapons for damage, and then sharp or pointed 
+ weapons cause half damage. Holy or unholy water (depends on the cult 
+ of the rotter) causes 1-10 points of damage per once to the rotter. 
+ If the skeletal rotter's attack-defense roll is more than 8 it will 
+ cause any organic area struck to begin to rot at a rate of 1 pound 
+ per hour, this may be stopped by a cure or dispel magic. Skeletal 
+ rotters will attack until destroyed at which point they will explode 
+ into dust that causes choking if inhaled (willpower check) that may 
+ cause the victims to pass out for one or two minutes, or till 
+ revived. 
+
+Species Name:  Skunk
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary or Pairs
+Can Be PC:    No
+EP Cost:    -370
+Average Ht:     50 cm (Long)
+Average Wt:   8 kg
+Size Rating:    -4
+Lifespan:   7 years
+Physical Talents: AGI 0   BOD -15 DEX 0 FIT 0   STR -9
+Mental Talents: AUR 0 INT 0   PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Base Speed:   Walk 5 m/rd
+
+Innate Gifts:   Bit     (+5)
+			Stink Gas   (+15)
+
+Innate Foibles: Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:
+	Skunks live in most temperate or warm places and tend to dwell in 
+ uninhabited areas. They may bite but prefer to use their stink gas. 
+ Victims may pass an Agility Check (TD=0) and retreat if they don't 
+ retreat or fail the check they have been sprayed. The spay will 
+ cause uncontrollable actions like vomiting, soiling, crying, 
+ flailing, and screaming. In addition all clothing must be burnt and 
+ flesh, metal etc. must be washed.
+
+Species Name:  Snake - Vampire
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Small Groups
+Can Be PC:    No
+EP Cost:    -470
+Average Ht:     52 cm (Long)
+Average Wt:   10 kg
+Size Rating:    -4
+Lifespan:   7 years
+Physical Talents: AGI +2  BOD -15 DEX 0 FIT 0   STR -9
+Mental Talents: AUR 0 INT -3  PER +1  PSY 0   WIL 0
+Nat. Res:   0
+Base Speed:   Slither 15 m/rd
+
+Innate Gifts:   Hard to Perceive  (+10)
+			Attachment    (+10)
+
+Innate Foibles: Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:
+	Vampire snakes dwell in damp dark places and are colorlessly 
+ transparent. (TD:8 to notice.)  They move very fast and if they 
+ score a hit will attach (TD:6 to remove) and begin to suck blood. As 
+ they fill, the blood can be seen though their transparency filling 
+ their body. They suck till filled (about 1 liter) then detach.
+
+Species Name:  Spider - Giant
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary
+Can Be PC:    No
+EP Cost:    +25
+Average Ht:     150 cm (Long)
+Average Wt:   45 kg
+Size Rating:    -1
+Lifespan:   5 years
+Physical Talents: AGI +2  BOD -1  DEX +1  FIT 0   STR +1
+Mental Talents: AUR 0 INT -1  PER 0   PSY 0   WIL -1
+Nat. Res:   2
+Base Speed:   Walk 8 m/rd, Climb 12 m/rd, Web 15 m/rd
+
+Innate Gifts:   Huge Sticky Web (+15)
+			Paralyzing Poison (+15)
+
+Innate Foibles: Sensitive to Fire (-15)
+			Short Lifespan  (-10)
+
+Sub Culture(s): None
+
+Description:
+	Giant spiders are web builders who have paralyzing poison (TD:8), 
+ that can incapacitate a victim for 8-10 hours. Their webs are hard 
+ to see (TD:6) and tough to break (TD:4). The spider moves swiftly in 
+ the web and will trap its victim and drag it into the center of the 
+ web to drink its blood at a latter time.  Giant spiders are 
+ sensitive to heat and fire will cause them double damage.
+
+Species Name:  Spider - Snatcher
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary or Pairs
+Can Be PC:    No
+EP Cost:    +85
+Average Ht:     200 cm (Long)
+Average Wt:   65 kg
+Size Rating:    0
+Lifespan:   7 years
+Physical Talents: AGI +1  BOD +2  DEX +1  FIT 0   STR +1
+Mental Talents: AUR 0 INT -1  PER 0   PSY 0   WIL -1
+Nat. Res:   2 underside plates
+Base Speed:   Walk 5 m/rd, Climb 10 m/rd, Drop 60 m/rd Max 60 m/rd
+
+Innate Gifts:   Surprise Bungy Cord Attack    (+15)
+			Paralyzing Poison     (+15)
+			Camouflage        (+10)
+
+Innate Foibles: Added Damage when Dropping  (-5)
+			Short Lifespan      (-10)
+
+Sub Culture(s): None
+
+Description:
+	Snatcher spiders dwell in high places like cave tops and have a 
+ paralyzing poison bite. (TD:8  or paralyzed for 10 minutes). They 
+ blend in well to their surroundings coming in all colors, they tend 
+ to be very hairy except for their underside which is plated.  They 
+ spin a bungy like cord and drop on victims, if a hit is scored the 
+ victim is snatched and the spider will then try to inject its 
+ poison. If attacked with long sharp weapons while dropping the 
+ spider will cut its cord and try a more direct approach or cease 
+ hostility.  Damage done while the spider is dropping  will gain an 
+ advantage do to the force of the spider's drop.  While falling if 
+ they are struck by a sharp weapon add 25% to damage to account for 
+ the added impact.  Snatcher spiders do not drain blood but rather 
+ eat flesh, they have small sharp teeth that do 1d4+2 damage.
+
+Species Name:  Toad - Giant
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Groups
+Can Be PC:    No
+EP Cost:    -100
+Average Ht:     1 m (Long)
+Average Wt:   60 kg
+Size Rating:    -2
+Lifespan:   3 years
+Physical Talents: AGI 0   BOD -3  DEX 0 FIT 0   STR -1
+Mental Talents: AUR 0 INT -2  PER 0   PSY 0   WIL 0
+Nat. Res:   0
+Base Speed:   Walk 10 m/rd; Single Hop 10 m
+
+Innate Gifts:   Hop       (+15)
+			Excrete Mild Poison   (+15)
+
+Innate Foibles: Short Lifespan    (-10)
+
+Sub Culture(s): None
+
+Description:
+	Giant toads are similar to normal toads but larger and much more 
+ aggressive.  They can hop 5 m high and 10 m long and still attack 
+ while doing so.  Giant toads will excrete a mild poison when 
+ excited, if this poison contact's flesh will be absorbed in 6 
+ seconds and cause the victim to go into convulsions for 30 seconds 
+ (TD:8).  They will try to hop and land on a victim, then attempt to 
+ swallow them whole.
+
+Species Name:  Weejon
+
+Version:    1.0
+World:    Corellus
+Author:     dnworlds
+
+Culture(s):   Banded Tribes, Small Cities
+Can Be PC:    Yes
+EP Cost:    +27
+Average Ht:     70 cm (Tall)
+Average Wt:   23 kg
+Size Rating:    -3
+Lifespan:   300 years
+Physical Talents: AGI +3  BOD -8  DEX 0   FIT +1  STR -4
+Mental Talents: AUR 0   INT 0     PER +1  PSY +1  WIL +2
+Nat. Res:   0
+Speed:      Walk 12 m/rd; Max 60 m/rd
+
+Innate Gifts:   Blink 20 m radius       (+25)
+			Blend in with surroundings      (+10)
+			Long Lifespan         (+20)
+			Speak telepathically with a bonded animal (+15)
+			Night Vision          (+5)
+
+Innate Foibles: Pass much Life force to offspring   (-10)
+
+Sub Culture(s): None
+
+
+Description:
+	Weejon is descendant of the elven line but is much smaller than 
+ elves.  They have long straight brown hair which is just a shade 
+ lighter than their skin tone.  Most Weejons do not cut their hair.  
+ Like their cousins the elves, their eyes are almond shaped and their 
+ ears are pointed.  One difference, is that a Weejon's eyes change 
+ color based on their mood. Some are:
+		 Red     - Angry, Threatened     Blue      - Sad, Mournful     
+		 Yellow - Scared, Worrisome
+		 Green  - Mischievous               Brown  - Normal
+ There is a common phrase "More angry than a red-eyed Weejon."  When 
+ a Weejon passes away, its eyes turn white except for the pupils.  
+ They are lithe and graceful like their elven cousins.
+ 
+	Due to their small stature, they are not very strong beings. They 
+ are, however, very agile.  Weejon can move incredibly fast through 
+ any terrain and are excellent climbers.
+ 
+	In general, the Weejon is a very joyous race.  They enjoy dancing 
+ and singing and have large festivals with each change of a season.  
+ Weejons are also incorrigible pranksters.  They love to play jokes 
+ on unwary  travelers passing by or camping in the vicinity of their 
+ woodlands.
+ 
+	The Weejons can be compared to the wolverine: small but fierce. 
+ Weejons are very brave and fight with a ferocity belied by their 
+ size.  Since they are so small, the weapons they use are also small. 
+ Generally, they choose bows, blowguns, small spears, and 
+ mini-crossbows.  When in close combat, they will wield two daggers, 
+ with one half again the size of the other.  If they use a short 
+ sword, it is treated as a two-handed weapon.
+ 
+	For protection, they have three innate abilities.  The first is the 
+ ability to blink to any visible area within a 20 m radius.  They 
+ cannot blink through objects.  Each time they blink it takes a 
+ physical toll on the body and they must rest if they blink too much. 
+ As one point of fatigue per blink.  Their second ability is to blend 
+ in with nature rendering them virtually invisible to non-Weejons.  
+ Elves have a 20% better chance to spot them if they are specifically 
+ looking.  This only works within natural areas full of plants, 
+ bushes and trees.  They do not blend in with rocks!  The third is 
+ the night vision shared with their cousins the elves.
+ 
+	Weejons represent a small portion of the populace of the known 
+ world. After mating, the mother and father pass a portion of their 
+ life force, 50 years, onto their child.  Do to this fact Weejon 
+ children  remember' some of the parent's life before their birth.  
+ Each Weejon can mate three times before passing to the realm beyond. 
+ Weejons share the long Lifespan of the elves, unless they mate.
+
+	They are born in the forest and are raised until the age of five.  
+ It is at this age that they are bonded with an animal.  The parents 
+ (GM) decide what type of animal and place the child with the young 
+ of that species.  Usually the bonded animal is the offspring of a 
+ previously bonded animal. Once grown, the animal and the Weejon can 
+ speak their thoughts telepathically.
+
+Species Name:  Wolf
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Packs (5-20 Members)
+Can Be PC:    No
+EP Cost:    +142
+Average Ht:     50 cm (Tall at Shoulder) - 120 cm (Long)
+Average Wt:   80 kg
+Size Rating:    0
+Lifespan:   15 years
+Physical Talents: AGI +1  BOD +1  DEX 0 FIT 0   STR +1
+Mental Talents: AUR 0 INT -1  PER +3  PSY 0   WIL -1
+Nat. Res:   0
+Speed:      Walk 15 m/r
+
+Innate Gifts:   Acute Smell     (+25)
+			Acute Hearing   (+20)
+			Good Night Vision   (+10)
+			Tracking    Tr 3  (+24)
+
+Innate Foibles: Fear of Fire      (-20)
+			Short Lifespan    (-10)
+
+Sub Culture(s): None
+
+Description:
+	Wolves are predatory wild dogs, with long light brown to dark gray 
+ hair, large fangs, and have ravenous appetites.  They tend to live 
+ in moderate to cold climates and are usually found in packs, however 
+ solitary wolves are not totally uncommon.  They fear fire and will 
+ not come within 20 m of it.   A wolf's howl can strike fire into 
+ most herbivores, and horses are one of their favorite prey.
+
+	Wolves hunt in packs of 5-20 and if hungry will fiercely attack 
+ anything the group can kill.  Some packs have been known to have a 
+ taste for domestic animals and will go out of their way to kill 
+ them, this has caused many herd owners to actively hunt wolves.
+
+Species Name:  Worb
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Packs
+Can Be PC:    No
+EP Cost:    -140
+Average Ht:     100 cm  (Tall)
+Average Wt:   50 kg
+Size Rating:    -2
+Lifespan:   50 years
+Physical Talents: AGI 0   BOD -3  DEX 0 FIT 0   STR -3
+Mental Talents: AUR 0 INT -5  PER +2  PSY 0   WIL +2
+Nat. Res:   0
+Base Speed:   Walk 10 m/rd
+
+Innate Gifts:   No Moral Saves  (+10)
+			Skill Packages: Hunter, Thief
+
+Innate Foibles: Fear of Fire    (-5)
+			Short Lifespan  (-5)
+
+Sub Culture(s): None
+
+Description:
+	Worbs are small humanoid bandits of low intellect that will fight 
+ without regard to safety.
+ Worbs make any small primitive weapons, such as spears and clubs but 
+ recognize the worth of any small weapon they find.   They tend to be 
+ fond of smaller cutting weapons like daggers, small axes and some 
+ will use short swords if they can find them.   Believed to be once 
+ human these creatures never evolved or devolved into something more 
+ an animal than human.  Worbs are pale skinned, fanged, with dark 
+ patchy hair on their face and head and have stumpy limbs.  Worbs 
+ have little use for clothing and believe it is ridiculous. They have 
+ no known language and  communicate' in a grunt form. They have a 
+ fear of fire and will not come within 10 m of it.  Worbs are fond of 
+ shiny objects like coins or gems.  A good description of the bands 
+ is wolf like packs that hunt prey as food or a source of wealth. 
+ (Any shiny object is wealth to a Worb.)
+
+Species Name:  Wormcorpse
+
+Version:    1.0
+World:    Dal'Mar
+Author:     Dale Wood
+
+Main Culture:   Solitary or Small Groups
+Can Be PC:    No
+EP Cost:    -20 +20/worm
+Average Ht:     180 cm (Long) or as Original Species
+Average Wt:   80 kg or as Original Species
+Size Rating:    0
+Lifespan:   Unknown
+Physical Talents: AGI -1  BOD 0 DEX 0 FIT 0   STR 0
+Mental Talents: AUR -1  INT 0   PER 0   PSY -1  WIL 0
+Nat. Res:   0
+Base Speed:   Walk 7 m/rd
+
+Innate Gifts:   Fear Touch    (+20)
+			Worm Attack   (+35)
+
+Innate Foibles: Fire will Destroy (-5)
+
+Sub Culture(s): None
+
+Description:    
+	Wormcorpse are not undead in and of themselves rather the worms 
+ that feed on them are.  The spirits of the unfaithful are 
+ transformed into worms and are punished by being forced to  exist' 
+ on the life force of others.  The Wormcorpse is animated by these 
+ worms to seek new feeding grounds.  The touch of a Wormcorpse may 
+ cause fear (TD:7) or flee or 10 rounds.  An attack score (- defense 
+ score) of greater then nine means a worm has attached to a victim. 
+ The victim must then stop and remove the worm and burn it or cover 
+ with holy water. (Cutting makes 2 worms). If not immediately removed 
+ each 6 seconds after the victim must save (TD:10 - PSY) or become 
+ mindless and let to worm into a body opening. Once this happens the 
+ victim will lose life force (1 year / minute) until dead and become 
+ a Wormcorpse. One worm must remain in the corpse to keep it animated 
+ burring a Wormcorpse will cause all worms to flee. A Wormcorpse will 
+ have a Body score of the original species plus one point per worm in 
+ the corpse.
+
+Species Name:  Zombie - Juju (Magical)
+
+Version:    1.0
+World:    Corellus
+Author:     Del Hart
+
+Culture(s):   No
+Can Be PC:    No
+EP Cost:    Original Species -322
+Average Ht:     as original Species
+Average Wt:   90% of original Species
+Size Rating:    Varies
+Lifespan:   indefinite
+
+Note:     Talent Modifiers Only:
+Physical Talents: AGI -3  BOD 0   DEX -3  FIT +2  STR +2
+Mental Talents: AUR -3  INT -3  PER -3  PSY -3  WIL -3
+Nat. Res:   0
+Speed:      Walk 5 m/rd Max 20 m/rd
+
+Innate Gifts:   Immune to pain, fear and mind affecting spells  
+ (+15)
+			Do not need Normal Food         (+10)
+			No Damage from Piercing Weapons     (+20)
+
+Innate Foibles: Always attack last in a melee       (-5)
+			Must be maintained by Magic     (-10)
+
+Sub Culture(s): None
+
+
+Description:
+	This kind of zombie is made by the pure use of magical energy.  
+ Magical created zombies are truly mindless because the Mage creating 
+ this zombies can use any corps that is in good condition. This means 
+ that the orders given to such a zombie have to be more precise. A 
+ regular use of magic is necessary to maintain such a zombie's 
+ existence.
+
+	In combat they are very slow and ineffective. Although they are a 
+ little bit stronger than an average member of the zombie's former 
+ race, they have not enough willpower left to fight. Their way to 
+ fighting is more a monotone hack-and-slay than a combination of 
+ attacking and parrying. Zombies are strong and willing workers and 
+ are seldom used as guards. But in times of war they are also used to 
+ frighten the enemy.
+
+Species Name:  Zombie - True
+
+Version:    1.0
+World:    Corellus
+Author:     Del Hart
+
+Culture(s):   No
+Can Be PC:    No
+EP Cost:    Original Species -322
+Average Ht:     as original Species
+Average Wt:   90% of original Species
+Size Rating:    Varies
+Lifespan:   indefinite
+
+Note:     Talent Modifiers Only:
+Physical Talents: AGI -3  BOD 0   DEX -3  FIT +2  STR +2
+Mental Talents: AUR -3  INT -3  PER -3  PSY -3  WIL -3
+Nat. Res:   0
+Speed:      Walk 5 m/rd Max 20 m/rd
+
+Innate Gifts:   Immune to pain, fear and mind affecting spells  
+ (+15)
+			Do not need Normal Food         (+10)
+			No Damage from Piercing Weapons     (+20)
+
+Innate Foibles: Always attack last in a melee       (-5)
+			Must eat flesh frequently       (-10)
+
+Sub Culture(s): None
+
+
+Description:
+	These are the first undead created by Demenateez. They are "simply" 
+ the animated corpses of dead beings from all of the known races. 
+ Their flesh is rotting very fast and sometimes an observer can see 
+ pieces of flesh falling off. But it seems that their body will never 
+ be clear of it.
+
+	Zombies are a reward from the priests of Demenateez for the 
+ sacrifice of a soul that suffers and feels fear. While drinking the 
+ sacrificed one's essence (Life Force) and feeling the poor souls 
+ pain in his last seconds, Demenateez lets a little of essence remain 
+ in the body and it becomes a zombie. This zombie will obey the 
+ commands of the priest or undead who did the sacrifice. Any creature 
+ that is defined as "living" can be zombified. The only problem may 
+ be that you have to let it stay immobile before the altar during the 
+ zombification.
+
+	While immune to pain, fear and mind affecting spells, zombies can 
+ be destroyed by physical attacks (either by weapons or magic). If 
+ this happens, the zombie's body will rot to dust within 1 hour. 
+ After this time the rest of the soul trapped in the body will be 
+ freed and the body is useless for reanimation.
+
+	This kind of zombie does not need any kind of air to stay alive. 
+ Their only problem is a constant need of fresh meat - preferably 
+ torn out of a living body. This is one of the reasons why 
+ Demenateeze's followers haven't created armies of thousands of 
+ zombies.
+
+	-optional
+	1.1 Zombie Priest
+	Priests of Demenateez may have the chance to receive a very special 
+ gift from their god: Zombification as an independent creature. They 
+ offer the most part of their essence and gain the zombification. 
+ These zombies have their own mind and will. All of their other 
+ attributes are like a True zombie's.  
+
+Species Name:  Zombie - Voodoo
+
+Version:    1.0
+World:    Corellus
+Author:     Del Hart
+
+Culture(s):   No
+Can Be PC:    No
+EP Cost:    Original Species -185
+Average Ht:     as original Species
+Average Wt:   90% of original Species
+Size Rating:    Varies
+Lifespan:   as original Species
+
+Note:     Talent Modifiers Only:
+Physical Talents: AGI -1  BOD 0   DEX -2  FIT +1  STR +1
+Mental Talents: AUR -1  INT -2  PER -2  PSY -1  WIL -2
+Nat. Res:   0
+Speed:      Walk 8 m/rd Max 40 m/rd
+
+Innate Gifts:   Immune to pain, fear and mind affecting spells  
+ (+15)
+
+Innate Foibles: Healing decreased to 1 point / 2 days     (-15)
+
+Sub Culture(s): None
+
+
+Description:
+	Shamans and other priest that do not worship Demenateez are trying 
+ to imitate the creation of zombies. They also "create" zombies in a 
+ ritual. But the effect of zombification is the result of a toxin 
+ secretly injected before the ritual. This toxin affects parts of the 
+ victim's brain and nervous system. Some intoxicated are dying before 
+ the ritual and some resist the effect of the toxin. 
+
+	Voodoo zombies are no kind of undead. They are in fact living 
+ creatures unable to make their own decisions. They continue their 
+ life in a mindless way and are more active than other kinds of 
+ zombies. This zombification is curable. A priest knowing the formula 
+ of the toxin can attempt to make an antidote.
+
+	Voodoo zombies have the same immunities than other zombies but they 
+ need breathable air and normal food to stay alive. 
+
+-optional
+	If a voodoo zombie bites an opponent, there is a minimal chance 
+ that a certain amount (1 milliliter) of the toxin is injected in his 
+ veins and changes the opponent to a zombie. More hits in a short 
+ time will increase this chance.
+
+The poison used to create voodoo zombies is called Voodoo Juice:
+
+Name:   Voodoo Juice
+Virulence:  1 per milliliter up to a max of 10
+Onset:  3-5 hours
+Transmission: Ingestion / Injection
+Resistance:     TD:9
+Effect:   Voodoo Zombism for 2-10 (2d5) weeks, death if afflicted 
+ more than 3 times
+Antidote:   Yes,  Adrenal Glands of Jungle Apes
+

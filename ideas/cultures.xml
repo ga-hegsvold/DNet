@@ -1,0 +1,49 @@
+<sect1>
+<title>Cultures</title>
+
+<para>
+The scope of a given culture may vary, but at most it should govern an entire
+Plane. May be narrowed down to a Layer, Realm or even City.
+</para>
+
+<formalpara>
+<title>Abyssal</title>
+<itemizedlist>
+	<listitem><para>Description: Inhabitants of the Abyss are too chaotic and unorganized to have any form of culture. Survival of the fittest.</para></listitem>
+	<listitem><para>Typical careers: None in particular</para></listitem>
+</itemizedlist>
+</formalpara>
+
+<formalpara>
+<title>Cager</title>
+<itemizedlist>
+	<listitem><para>Description: Spent most, if not all, of your life in the Cage.</para></listitem>
+	<listitem><para>Typical careers: Guide/Tout, Merchant, Mercenary, ...</para></listitem>
+</itemizedlist>
+</formalpara>
+
+<formalpara>
+<title>Norse</title>
+<itemizedlist>
+	<listitem><para>Description: </para></listitem>
+	<listitem><para>Typical careers: Merchant, Warrior, Seidr, Volve, ...</para></listitem>
+</itemizedlist>
+</formalpara>
+
+<formalpara>
+<title>Baatorian</title>
+<itemizedlist>
+	<listitem><para>Description: The Baatorian culture is a cruel one, based on desception and backstabbing.</para></listitem>
+	<listitem><para>Typical careers: Merchant, Slaver, Scout, Trooper, Warrior, ...</para></listitem>
+</itemizedlist>
+</formalpara>
+
+<formalpara>
+<title>...</title>
+<itemizedlist>
+	<listitem><para>Description: </para></listitem>
+	<listitem><para>Typical careers: </para></listitem>
+</itemizedlist>
+</formalpara>
+
+</sect1>

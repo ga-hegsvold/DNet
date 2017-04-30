@@ -1,0 +1,13 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Tasks</title>
+
+<xi:include href="task.xml" />
+<xi:include href="task_difficulties.xml" />
+<xi:include href="task_resolution.xml" />
+<xi:include href="task_resolution_no_skill.xml" />
+<xi:include href="composite_tr.xml" />
+<xi:include href="contested_tr.xml" />
+<xi:include href="combining_efforts.xml" />
+<xi:include href="graded_outcome.xml" />
+
+</chapter>

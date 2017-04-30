@@ -1,0 +1,158 @@
+/* FONTS
+	font-family : DickensScriptSSK;
+	font-family : Exocet;
+	font-family : "OCR A Extended";
+	font-family : papyrus;
+	font-family : "Terminator Two";
+*/
+
+A:link {
+	color : #0000FF; /* Blue */
+}
+
+A:visited {
+	color : #444444; /* Gray */
+}
+
+A:hover {
+	color : #550000; /* Brown */
+}
+
+BODY {
+/*	background : url(/vfat/g/Homepage_stuff/pics/bg/paper3.gif); */
+/*	background : url(/vfat/g/Homepage_stuff/pics/bg/dragon_back.gif);*/
+	background : url(/vfat/g/Homepage_stuff/pics/bg/texture.jpg);
+	text-align : center;
+	width : 70%;
+}
+
+DIV.abstract {
+	text-align : justify;
+	width : 70%;
+}
+
+DIV.chapter {
+	text-align : center;
+	width : 70%;
+}
+
+/* Example title */
+DIV.example {
+	width : 70%;
+}
+
+DIV.formalpara {
+
+}
+
+DIV.informalexample {
+	width : 70%;
+}
+
+/* List of tables/examples text */
+.lot {
+	text-align : justify;
+	width : 70%;
+}
+
+/* Table of contents text */
+DIV.toc {
+	text-align : justify;
+	width : 70%;
+}
+
+H1, H2, H3, H4 {
+	font-family : DickensScriptSSK;
+	width : 70%;
+}
+
+H1 {
+	text-align : center;
+}
+
+H2, H3, H4 {
+	text-align : left;
+}
+
+H1.title  {
+	text-align : center;
+	width : 70%;
+}
+
+H3.author {
+	
+}
+
+.sect1 {
+	text-align : left;
+}
+
+.sect2 {
+
+}
+
+.sect3 {
+
+}
+
+.sect4 {
+
+}
+
+HR {
+	color : #550000; /* Brown */
+	width : 70%;
+}
+
+/* Optional/italized text */
+I.emphasis {
+
+}
+
+/* Body text */
+P {
+	text-align : justify;
+	width : 70%;
+}
+
+/* Example body text */
+PRE.screen {
+	text-align : justify;
+	width : 70%;
+}
+
+SPAN.quote {
+
+}
+
+.table {
+	text-align : justify;
+
+}
+
+TABLE {
+	width : 70%;
+}
+
+TABLE.calstable {
+
+}
+
+TD {
+    
+}
+
+TR {
+
+}
+
+TT.literal {
+	font-family : "Courier New";
+
+}
+
+UL {
+	list-style-position : inside;
+	text-align : justify;
+	width : 70%;
+}

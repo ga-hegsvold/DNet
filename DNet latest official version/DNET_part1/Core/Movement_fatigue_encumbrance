@@ -1,0 +1,505 @@
+Movement
+--------
+
+The movement rules detailed below attempt to cover in a sensible manner most
+game situations where movement plays a critical part . However, they might be
+cumbersome in situations where movement is not critical and the game master is
+free to use them when and as he wishes. It is only suggested that he employs
+the standard movement speeds (base, walking, running, sprinting and maximum).
+
+Movement speeds
+---------------
+
+Movement speeds are divided in 5 broad categories: base, walking, running and 
+sprinting and maximum. 
+
+The base movement speed is the reference from which the three others are
+calculated. The speed of a character in a melee combat situation is also equal
+to the base speed (see "6.6.1 Movement in Combat").
+
+The walking speed is equal to a good but sustainable walking pace, the running
+speed is a moderate jogging and the sprinting speed is a hurried run. For
+comparison purposes, olympic marathoneers runners move at a pace between
+running and sprinting (~19 km/h) and the maximum movement rate listed is that
+of the olympic sprinters (100 meters in 10 seconds).
+
+In order to simplify the rules, it is considered that all members of a species
+can sustain the speeds given in the table below, for a short period of time
+(until their first movement check).
+
++-------------+----------------------+------------------------+
+|             |         Human        |  Other species         |
+|             |  km/hour    m/round  |                        |
++-------------+----------------------+------------------------+
+| Base        |     3           5    | In species description |
+| Walking     |     6          10    | 2*Base                 |
+| Running     |    12          20    | 4*Base                 |
+| Sprinting*  |    24          40    | 8*Base                 |
+| Max**       |    36          60    | 12*Base                |
++-------------+----------------------+------------------------+
+*: 100 meters in 15 secs
+**: 100 meters in 10 secs
+
+Movement checks
+---------------
+
+A character must do periodic movement checks to see if he can continue to
+move at a given speed despite the accumulated fatigue. The checks are
+done using:
+
+2d10* + Training + Talent >= 5 + Fatigue
+
+Before making each movement check, the player must increase the character's
+fatigue by one plus its encumbrance penalty. The check is made after fatigue
+has been increased. The Talent that is used in the check depends on the speed
+at which the character goes: FIT for speeds below Sprinting and STR for speeds
+above that. The character's training in "Endurance" or "Sprinting" is also
+added to the roll (see below).
+
+If the character's roll added to his Talent and Training is greater than his
+accumulated Fatigue plus 5, then the character can continue running at the
+same speed. If not, then the character must slow down by its base speed (a
+human running at 12 km/h would slow down by 3 km/h and would thus end up at 9
+km/h). A character can accelerate at any time, as long as he has been
+successful in his last movement check.
+
+Note that Fatigue is necessary for the movement system, even if it is not used
+in other parts of the system. Using Fatigue with the movement mechanics gives
+pretty realistic results.
+
+While the base TD is 5 up to the sprinting speed, the frequency of the checks
+changes with the movement rate. For example, a character needs to check only
+once per hour when walking but must make a check every minute when sprinting.
+The faster the character goes, the faster he gets fatigued.
+
+------------------------------------------------------------------------
+Activity level     Check frequency/           Movement rate      Fatigue
+                   Fatigue increment                            Category
+------------------------------------------------------------------------
+                   2 hours                    Base
+Light              1 hour                     Walking                (1)
+                   30 minutes                 3*base                 (2)
+Moderate           15 minutes                 Running                (3)
+                   8 minutes                  5*Base                 (4)
+                   4 minutes                  6*Base                 (5)
+                   2 minutes                  7*Base                 (6)
+Heavy              1 minute (10 rounds)       Sprinting              (7)
+Strenuous          5 rounds (30 seconds)      9*Base                 (8)
+                   3 rounds                   10*Base                (9)
+                   1 round                    11*Base or more       (10)
+------------------------------------------------------------------------
+
+Basically, the frequency of the checks double each time the movement rate
+increases by the base speed.
+
+A character can always start to walk, run or sprint without a check, as long 
+as he doesn't try to go over the standard sprinting speed (this case is treated 
+below) or does not suffer from heavy fatigue. If the game master judges that
+a character is to tired to move, then he can force the player to make a
+movement check before starting to move (no fatigue is added to the Fatigue
+heap before making this check). If the check passes, then the character
+moves normally. If the check fails, then the game master can either impose
+a maximum speed for the character or require that the character rests before
+starting to move. In the later case, the character can attempt to move as
+soon as he his Fatigue heap has been reduced by one point or more.
+
+Example:
+A human runner wants to finish a marathon in about 2 hour and 10 minutes. To 
+cover the 42 km in about 130 minutes, he thus needs to go at about 19 km/h,
+which is approximately equal to 6 times the base speed of 3 km/h. He will
+thus have to make a movement check every 4 minutes. (Note: running a marathon
+in 2h10min is a world class performance)
+
+Our marathon runner has an Endurance skill of 30 (Training = 25, FIT = +5).
+After 4 minutes of running, his Fatigue heap is increased by one and he has to 
+make a first movement check:
+
+2d10* + Endurance >= 5 + Fatigue
+2d10* + 30        >= 5 + 1
+
+It is quite obvious that he has virtually no chance of failing this check.
+In fact, he is almost certain of being successful in the first 25 checks
+(unless he rolls a fumble). This well trained runner can thus run at 
+19 km/h for 100 minutes (25 checks * 4 minutes/check) without any major 
+problem. It only starts getting difficult for him in the last 30 minutes,
+when he has to give his last energies to maintain the same rythm.
+
+If a similar situation occurs in a game, it is strongly suggested that the 
+game master does not require the players to roll for checks that are always
+successful unless the character fumbles. The players should thus start to
+roll only when the task difficulty is higher than their skill. For our marathon
+runner, this means that he needs to roll only the last seven check. The first
+of these check is:
+
+2d10* + 30 >= 5 + 26
+
+while the seventh is:
+
+2d10* + 30 >= 5 + 32
+
+If he makes these seven movement checks successfully, he will have completed
+the marathon in 2h10min!
+
+Moving faster than the standard sprinting speed
+-----------------------------------------------
+
+The sprinting speed given in the movement rates table is the speed that all
+members of a species can sustain for a short period of time (1 minute). If
+a characters wants to go faster than the standard sprinting speed, he faces
+a greater difficulty than just having to make more frequent checks. For each
+increment of speed equal to the base speed, 5 is added to the task difficulty.
+Thus, to run 100 meters in 10 seconds, a character would need to go at 
+60 meters/round, which means an increase of 20 of the task difficulty. In 
+addition, the character needs to make a movement check every round.
+
+The check that a human needs to make to run 100 meters in 10 seconds is:
+
+2d10* + Talent + Training >= 25 + Fatigue
+
+When a character wants to move at a speed greater than the standard sprinting
+speed, he also needs to make an initial movement check. No fatigue is added
+to the Fatigue heap before making this check (Fatigue is always added at the
+end of the movement period). 
+
+If a character tries to move faster than the sprinting speed but fails his
+check, the maximum speed that he can reach is obtained by substracting Fatigue
+from his total roll and comparing the result with the Movement TD in the table
+below. The maximum speed that he can reach corresponds to the maximum movement
+TD that is smaller or equal to his adjusted roll. For example, if a sprinter
+rolls a total 16 on his movement check and has a Fatigue of 3, then his
+adjusted roll is 13 and he can reach a maximum speed of 9 times the base
+speed.
+
+The maximum speed that a character can reach is equal to 12 times the base 
+speed. For a human, this speed is equal to 60 meters/round, which is equivalent
+to running 100 meters in 10 seconds, a feat that only olympic athletes can
+achieve. Of course, the game master is free to remove this limitation on
+maximum speed.
+
+----------------------------------
+Speed                  Movement TD
+----------------------------------
+Sprinting or below               5
+9*Base                          10
+10*Base                         15
+11*Base                         20
+Maximum                         25
+----------------------------------
+
+Example:
+An olympic athlete with Sprinting skill of 25 (Training = 20, STR = +5)
+is on the starting line for the 100 meters race. As he is fully rested, his 
+Fatigue is initially equal to 0. Upon hearing the gun, he jumps from the 
+starting blocks. An initial movement check is made:
+
+2d10* + Sprinting Skill >= Movement Task Difficulty + Fatigue
+2d10* + 25              >= 5 + 20                   + 0
+8     + 25              >= 25
+33                      >  25           -> success
+
+This initial movement check is successful and the character is thus moving
+at 60 meters per round. However, since his speed his equal to 12 times the
+base rate, he must make a check every round. He will thus have to make another
+check after one round (6 seconds) of running. His Fatigue heap is increased
+by one due to the first round of sprinting and his second movement check
+is:
+
+2d10* + Sprinting Skill >= Movement Task Difficulty + Fatigue
+2d10* + 25              >= 5 + 20                   + 1
+13    + 25              >= 26
+38                      >  26           -> success
+
+This second check is also successful and the sprinter makes it to the finish
+line in 10 seconds!
+
+Movement skills
+---------------
+
+For movement below sprinting speed, players should use the "Endurance"
+skill in the movement check, or Fitness if their character does not
+possess the Endurance skill. For movement at or above sprinting speed,
+players should use the "Sprinting" skill or the Strength talent of their
+character.
+
+If a character does not have a Training in either Running or Sprinting, he
+does not face an Untrained penalty (UP=0). These skills are considered to
+be common enough that everyone has a basic training in them.
+
+Moving among obstacles
+----------------------
+
+The standard movement rules work well when the character's movement is not
+hindered. However, in many situations, the character will have to run in less
+than ideal conditions and will have to exercise his agility more and more as
+he tries to reach greater speeds.
+
+When a character tries to move quickly among obstacles, the game master can 
+require that he makes an agility check:
+
+2d10* + AGI >= Task Difficulty + Fatigue
+
+The Task Difficulty is calculated by adding the Terrain TD modifier to the 
+Speed TD calculated from the movement speed.
+
+Task Difficulty = Speed TD + Terrain TD modifier
+
+For example, Sprinting on fresh snow has a TD of:
+
+TD = 16 - 5 = 11
+
+Thus, if a character with AGI = 1 wants to sprint on fresh snow, the game
+master can ask him to make the following check:
+
+2d10* + 1 >= 11 + Fatigue
+
+While it is nice to know if a character can move at a given speed on a given
+type of terrain, this is generally not useful during a game. What most players
+want to know is how fast their character manages to go on a given terrain.
+This can be easily found by rolling 2d10*, adding AGI, substracting from it
+the Terrain TD modifier and the character's Fatigue, and comparing the result
+to the Speed TD. The greatest Speed TD that is lower than or equal to the
+total roll gives the speed that the character manages to reach. The two
+examples below apply this technique.
+
+Even if he is making agility checks for movement, the character still needs to
+make movement checks and increase his Fatigue heap periodically. These checks
+are based on the fastest speed that the character has reached while moving.
+For example, if a character running through a forest has reached the sprinting
+speed, then he will need to increase his Fatigue heap and make a movement 
+check vs STR after one minute.
+
+The game master is free to require agility checks for movement whenever he
+deems appropriate. In general, it is better to use these checks only when
+there is a chase or a similar situation. For long distance movement over rough
+terrain or other non-critical situations, it is suggested that the game master
+simply adjust the normal movement speed of the character. He might decree for
+examples that the characters only cover 4 km/h when walking in a forest
+instead of the normal 6 km/h.
+
+-------------------------
+Speed            Speed TD
+-------------------------
+Base                    2
+Walking                 4
+3*Base                  6
+Running                 8
+5*Base                 10
+6*Base                 12
+7*Base                 14
+Sprinting              16
+9*Base                 18
+10*Base                20
+11*Base                22
+Maximum                24
+-------------------------
+
+-----------------------------------------------------------------------
+Terrain                                             Terrain TD modifier
+-----------------------------------------------------------------------
+Straight, hard and level road/ground                               -100*
+Grass field                                                         -20*
+Small streets, bushes                                               -10
+Plowed earth, busy street/place, light forest, packed snow          
+    rough terrain                                                    -5
+Forest, fresh snow, mud, very rough terrain, melee combat             0
+Crowded street/place, dense forest                                    5
+-----------------------------------------------------------------------
+*No check necessary in most situations.
+
+Example:
+As Ronan comes back to his camp in the woods, he sees that someone is
+rummaging in his pack. When the intruder sees Ronan, he starts sprinting
+through the woods and Ronan goes after him. Since they are moving in a forest
+(Terrain TD mod = 0), the two runners will need a lot of Agility to go fast.
+The game master decides to require an agility check from them every round,
+even if their Fatigue will only be increased every minute (since they are
+moving at Sprinting speed). Ronan has an AGI of 2 and an initial fatigue of 4
+(he is coming back from hunting); the person he surprised has an AGI of 3, but
+a Fatigue of 8, due to a prolonged lack of food. The 'thief' has an head start
+of 20 meters over Ronan.
+
+To determine their speed, both runner need to roll:
+2d10* + AGI - Terrain TD modifier - Fatigue 
+
+First round: Ronan's roll: 6 + 2 - 0 - 4 = 4     -> Walking = 10m/round
+             Thief's roll: 5 + 3 - 0 - 8 = 0     -> Base    =  5m/round
+             During the first round, Ronan has covered 5 meters more than
+             the 'thief' he is pursuing. They are now separated by only
+             15 meters.
+
+Second round: Ronan's roll: 15 + 2 - 0 - 4 = 13  -> 6*Base  = 30m/round
+              Thief's roll: 11 + 3 - 0 - 8 =  6  -> 3*Base  = 15m/round
+              Ronan catches the 'thief', who does not engage a fight.
+              They will have a long discussion on what he was doing there...
+              
+Example:
+While walking in a busy marketplace (Terrain TD mod = -5), Neila feels a hand
+grabbing her pouch. She turns to see that a man is fleeing with a 5 meters
+headstart on her. Neila has an AGI of 2 is not fatigued. The thief is no more
+fatigued and has an AGI of 1.
+
+To determine their speed, both runner need to roll:
+2d10* + AGI - Terrain TD modifier - Fatigue 
+
+First round: On the first round, the thief tries to throw a cask full of 
+             apples in Neila's way as he passes by it. This additional
+             actions will give him a penalty of 5 on both actions (running
+             and overturning the cask).
+             Neila's roll: 9 + 2 - (-5) - 0 = 16      -> Sprinting = 40m/round
+             Thief's roll: 15 + 1 - (-5) - 0 - 5 = 16 -> Sprinting = 40m/round
+               Overturning the cask: 2d10* + STR - 5 >= 15
+                                     27    +  0  - 5 = 22  -> success
+                                     
+Second round: Neila is still following 5 meters behind the thief, but she now
+              has to avoid a cask of apples that is falling in her way. This
+              will give her a penalty of 5 on her movement roll (such 
+              penalties should be made up on the fly by the game master)
+              Neila's roll: 15 + 2 - (-5) - 0 - 5 = 17 -> Sprinting = 40m/round
+              Thief's roll: 13 + 1 - (-5) - 0 = 19     -> 9*Base    = 45m/round
+                To run faster than the sprinting speed, the thief needs to
+                make a Movement check: 2d10* + STR >= Movement TD
+                                       2d10* + 0   >= 10
+                                       4 + 0 = 4
+                The check is failed and the thief continues to sprint at 
+                40 m/round.
+              
+Third round: Neila is still following 5 meters behind the thief, who engages 
+             in a network of small streets (Terrain TD mod = -10). Since the 
+             thief knows those streets well, he will have a bonus of 3 on his 
+             movement roll.
+             Neila's roll: 13 + 2 - (-10) - 0 = 25     -> Maximum = 60m/round
+               Moving faster than the sprinting speed:
+                   2d10* + STR >= 25
+                   9     + 3   = 12   
+                   -> Failed, will be moving at 9*Base (45 m/round)
+             Thief's roll: 11 + 1 - (-10) - 0 + 3 = 24 -> Maximum = 60m/round
+                Moving faster than the sprinting speed:
+                   2d10* + STR >= 25
+                   9     + 0   = 9   
+                   -> Failed, will be moving at the sprinting speed (40 m/round)
+             Neila catches up with the thief, who takes out a long dagger. The
+             rest of the encounter will be carried out with the combat rules.
+             
+Encumbrance
+-----------
+
+The load that each character can carry without ill effects varies with his
+Strength and is given in the Strength Table. When a character is loaded with
+more weight than his Strength allows, his Fatigue rises faster than if he
+was normally loaded.
+
+The additional Fatigue that a character suffers when he is heavily loaded
+is equal to the Encumbrance penalty, which is calculated from the LOAD and
+LOAD STEP values of the Strength Table. When the carried weight is lower
+than or equal to the character's allowed LOAD, then the Encumbrance Penalty
+is equal to O. When the weight carried is greater than this LOAD, the 
+Encumbrance Penalty is increased by one for every of weight equal to LOAD
+STEP (or fraction of LOAD STEP).
+
+Encumbrance Penalty = (Weight-LOAD) / LOAD STEP        (round up)
+
+For example, a character with STR = 2 can normally carry 35 kg and has a LOAD
+STEP of 3.5 kg. If the character chooses to carry 40 kg, i.e. he carries 5 kg
+more than allowed, he faces an Encumbrance Penalty of 2.
+
+Encumbrance Penalty = (40 kg - 35 kg) / 3.5 kg
+                    = 5 kg / 3.5 kg
+                    = 1.43            
+                    = 2 (rounded up)
+
+Each time this character will increase his Fatigue heap, he will increase it
+by 3 (1 plus the Encumbrance Penalty). See the Fatigue rules for more details.
+
+The encumbrance system only takes into account the mass of items, not their
+bulkiness. As always, a gamemaster may state that the character suffers an
+additional penalty on his skill checks because he is loaded with large
+items. For example, a game master has the right to impose a penalty
+of 10 on all skill checks to a character who is carrying a canoe, even if
+the character has the strength to do it. This is left to each game master, as 
+we feel that such situations are not very common and that threating them 
+here would just add unnecessary complexity to the rules.
+
+OPTIONAL: The game master can decide that the Encumbrance Penalty is also
+applied on some or all skills checks in addition to contributing to Fatigue;
+he can also decide that Encumbrance only affects skill checks if the Fatigue
+system is not used. When the Encumbrance Penalty is applied on a skill check,
+the task difficulty is increased by the value of the Encumbrance Penalty. For
+example, if the character from the example above wants to jump over a 1.5
+meters fence while carrying 40 kg, the game master can decide to apply the
+Encumbrance Penalty on the skill check:
+
+2d10* + Jumping Skill >= Task Difficulty + Fatigue + Encumbrance Penalty
+
+Fatigue (OPTIONAL)
+-------
+
+Efforts
+-------
+
+Each time a character performs an action, he accumulates Fatigue, be it mental
+or physical. This accumulated Fatigue makes it harder for him to perform
+subsequent actions. At some point, he is too fatigued to do anything correctly
+and has to rest. (For simplicity, both mental and physical fatigue are
+encompassed by the Fatigue heap).
+
+Some skills will tire your character faster than others. For example, reading
+is less draining that moving 10 kg rocks to build a wall. Thus, the person
+moving rocks will get tired much faster than the person reading.
+
+To take this into account, each character has a Fatigue heap, which is
+initially at 0 when he is fully rested and which increases as the character
+performs various activities. The more exacting these activities are, the
+faster the Fatigue heap increases.
+
+Taking a second look at our above example, we could qualify reading as a light
+effort, while moving rocks would be a moderate exercise. The character moving
+rocks would thus have to increase is Fatigue every 15 minutes, while the one
+reading would only increase it every hour.
+
+The Fatigue heap is always increased by 1 plus the Encumbrance Penalty (see
+section "X.1 Encumbrance"*) each time it is augmented, no matter which
+activity is performed. The frequency at which the Fatigue heap is increased
+depends on the effort required by the skill or activity. In the case of
+skills, one or more Fatigue Ratings will be associated with various uses of
+the skill, which makes it easy to find the Fatigue increment frequency. For
+movement, this frequency depends on the movement speed and the appropriate
+rules can be found in "X.3 Movement". As usual, the game master can always
+change the frequency at which Fatigue is increased.
+
+While many skills will have one or Fatigue ratings associated with them, the
+game master will often have to come up with Fatigue ratings for task. In that
+case, we recommend that the game master describes the effort required in words
+and then associates this effort with the appropriate frequency for increasing
+Fatigue. For example, a task that requires a moderate-heavy effort would
+require to increase the Fatigue heap every 4 minutes.
+
+----------------------------------------------------------
+Effort       Recuperation   Frequency       Fatigue Rating
+----------------------------------------------------------
+Light        ...            1 hour                    (1)
+...          ...            30 minutes                (2)
+Moderate     Rest           15 minutes                (3)
+...          Sleep          8 minutes                 (4)
+...          ...            4 minutes                 (5)
+...          ...            2 minutes                 (6)
+Heavy        ...            1 minute (10 rounds)      (7)
+Strenuous    ...            5 rounds (30 secs)        (8)
+...          ...            3 rounds                  (9)
+...          ...            1 round                  (10)
+----------------------------------------------------------
+
+Note: the Fatigue system is optional for most skill checks but is recommended
+for the magic and movement systems. In the magic system, Fatigue limits the
+number of spells that can be cast, while in the movement system it limits the
+distance that can be covered. If you do not use Fatigue for magic or movement,
+you will end up with an insanely heroic setting (where characters can sprint
+for 100 km or cast 100 spells in a row...).
+
+Recuperation
+------------
+
+A resting character recovers one Fatigue point every 15 minutes. A sleeping
+character recovers one Fatigue point every 8 minutes (or two every 15
+minutes). Samples activities that can be considered as resting are: talking,
+eating, sitting, meditating, ... Of course, the character must not perform
+another activity at the same time.

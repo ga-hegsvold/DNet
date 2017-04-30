@@ -1,0 +1,37 @@
+<sect1><title>Species Template</title>
+<screen>
+Species Name
+------------
+World:
+Author:
+Version:
+------------
+Cultures:
+Can be a PC:  (Yes/No) 
+EP Cost:      (Use Species EP Cost rules above)
+Average Ht:   (in cm)
+Average Wt:   (in kg)
+Size Rating:  (relative to humans)
+Lifespan:
++ Talents:    (List Talent and + value, ex: STR +1)
+- Talents:    (List Talent and - value, ex: INT -2)
+Natural Resistance: (relavite to humans)
+Speed:
+
+Innate Gifts:
+(List Gift and positive EP Cost. See below for some example Innate Gifts.)
+
+Innate Foibles:
+(List Foible and negative EP Cost. See below for some example Innate
+Foibles.)
+
+Innate Gifts and Foibles are what ALL members of a species are born with.
+Individual members may still have other Gifts/Foibles.
+
+Cultures:
+List of cultures and how the culture of this species is different
+from the default culture description.
+
+Description:
+</screen>
+</sect1>

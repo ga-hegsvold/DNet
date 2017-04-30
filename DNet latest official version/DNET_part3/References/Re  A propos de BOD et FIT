@@ -1,0 +1,39 @@
+En passant, l'explication des règles de DNet sur les «relative tasks» et les «absolute tasks» (5.2) est un petit peu boîteuse, à mon avis.  S'il est vrai que lever un poids est une tâche relative à sa force, «picker un lock» (ouach!) est une tâche relative à sa dextérité manuelle.  Une explication plus plausible devrait distinguer les tâches ou le Talent joue un rôle prépondérant et celles où c'est le Training qui joue le rôle le plus important.  Ainsi, pour lever un poids, il est clair que c'est la force brute qui joue le premier rôle, quoiqu'un entraînement spécifique puisse faire une différence.  Par contraste, mettre une flèche dans le centre d'une cible fait bien sûr appel au Talent de Perception (et d'Agilité), mais le facteur prédominant est l'entraînement.
+
+Après avoir «correctement» expliqué la différence entre les «training based tasks» et les «talent based tasks», il faudrait prévoir une façon de résoudre les «talent based tasks» qui ne nécessiterait pas la création d'un tableau complet (comme celui pour le LIFT et le LOAD): il s'agirait simplement d'inclure un facteur multiplicatif au Talent dans la formule de résolution des tâches:
+
+1d10-1d10 + Tr + a*Ta >= TD
+où «a» est le facteur multiplicatif.  
+
+Un exemple ?  En voici un (trivial):
+
+Deux personnages (Bob et Bobby), sachant lire, ont la tâche de mémoriser, sans erreur, un texte de100 mots en 10 minutes; si Bob a une intelligence de 0 et Bobby une intelligence de 5, inutile de dire que Bobby a pas mal plus de chance de réussir sa tâche.  Mais une application de la formule standard ne tient pas compte de l'énorme différence entre les intelligences des deux hommes.  En effet, en donnant à la tâche une difficulté de 5, on peut montrer que Bob a environ 16% de chance de réussir et que Bobby a environ 55% de chances.  Si 16 % semble raisonnable pour Bob (qui a une intelligence standard), 55% est nettement trop bas pour un génie comme Bobby.  
+
+D'autre part, on ne va pas commencer à faire une table logarithmique pour une tâche à laquelle les joueurs vont être confrontés une fois dans leur vie.  La solution ?  Établir arbitrairement la difficulté de la tâche pour un personne normale (ex.: 16% - > TD=5; un peu moins de la moitié -> TD=1) et un facteur multiplicatif du Talent (ex.: 2).  Avec cette règle, notre tâche consistant à mémoriser parfaitement 100 mots en 10 minutes demeure difficile pour Bob (16%), mais quasi-automatique pour un génie comme Bobby (+ de 99%).  Pour Guillaume (INT=3  !!!), c'est à-peu-près 2 chances sur 3 (plutôt qu'une chance sur 3).
+
+Un autre exemple (plus réaliste dans un monde de fantasy):
+
+Deux personnages participent à une épreuve de tir au poignet: Guillaume (STR=0) et Conan (STR=5).  Il est facile de comprendre que, les chances de gain de Guillaume sont ridiculement faibles.  Néanmoins, en adoptant les règles standards de résolution des tâches (où c'est celui qui a le meilleur score qui gagne), Guillaume aurait 16 % des chances de battre Conan !!! (En effet, Guillaume gagne si: 1d10-1d10 + 0 >= 1d10-1d10 + 5).  Ici, un facteur multiplicatif de 3 (minimum) pour la Strength est nécessaire.
+
+Je crois que cette règle serait particulièrement utile dans le cas de concours d'habileté brute.  Elle devrait être proscrite dans le cas où l'activité est prévue par une skill précise (dans ces cas, généralement, une skill a été créée justement parce que le niveau du training joue un rôle esssentiel dans les résultats obtenus).  Ainsi, à entraînement égal, Guillaume aurait toujours des chances de sauter plus haut que Conan et Bob de planter Bobby au Dragonshah (nous sommes dans un monde fantastique).
+
+Donc, pour résumer, trois façons de résoudre des tâches:
+
+1) la tâche est basée surtout sur le niveau d'entraînement mais l'habileté brute joue un certain rôle («training based task», anciennement «absolute task») -> 
+1d10-1d10 + Sk >= TD
+où Sk est le niveau de skill
+
+Cette règle s'applique pour toutes les activités faisant appel à une skill précise (voir 4.5).  Elle peut aussi s'appliquer à des situations de la «vie courante» où l'habitude est plus importante que le talent brut; ainsi, un aventurier (Bob), même avec une aura très élevée, aura bien de la difficulté à arrêter un bébé de pleurer, tandis qu'une mère (ou un père, dans un monde fantastique -) devrait savoir comment s'y prendre.  Il suffit alors de déterminer, pour les fins de la cause, que maman a un training de 10 dans le soin de bébé, tandis que Bob a un training de -5.
+
+
+2) la tâche fait appel à une habilité brute et l'entraînement joue un rôle mineur («talent based task», anciennement «relative task») ->
+1d10-1d10 + Tr + a*Ta >= TD
+où a est un facteur multiplicatif et Ta le talent mis en cause.
+
+ex.: tir au poignet.
+
+
+3) la tâche fait appel à une habileté brute et l'entraînement joue un rôle mineur, mais il s'agit d'une tâche de «lever», de «transport de charge» ou de «mouvement» -> voir les règles particulières. 
+
+
+Guillaume

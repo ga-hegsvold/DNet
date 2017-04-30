@@ -1,0 +1,6 @@
+<sect1><title>Falling</title>
+<para>
+A character falling on hard ground suffers 1d6 points of Damage for each
+2 meters of his fall. This Damage is not reduced by Armor Resistance.
+</para>
+</sect1>

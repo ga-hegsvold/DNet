@@ -1,0 +1,135 @@
+From fortin Tue Aug 29 13:37:40 1995
+Subject: Of Size Rating and Strength
+To: dncore@cs.nmt.edu (DNET Core Rules)
+Date: Tue, 29 Aug 95 13:37:40 EDT
+X-Mailer: ELM [version 2.4dev PL52]
+
+Hi,
+
+It seems that we have reached a point where we would all gain from sitting
+around a table, trying to sort out why we should add STR and SR there and
+there. Right now, we have different tables for SR and STR, and the link 
+between these table is very small.
+
+A while ago, Bob was saying that STR would generally be proportional to SR.
+Right now, we have to tables which are almost unrelated. I will therefore
+try to establish a relation between SR and STR, so that we can build more
+coherent tables, and try to have the system working before we destroy it
+(as Bob has already begun with his "simplified Impact").
+
+Defining Size Rating
+--------------------
+
+The first thing we have to do is to define what means Size Rating. For example,
+if an Ogre is twice as big as a human, does it mean he has twice the surface
+or twice the volume? This will influence greatly the relation between SR and
+STR, as we will see.
+
+To ease the analysis below, I will consider only humanoid creatures, and will
+approximate their shape as a rectangular box. (A human will therefore be
+a box 2m high, 1m wide and 0.5m deep).
+
+1. Size rating is proportional to VOLUME
+   Human volume: 2m x 1m x 0.5m = 1 m^3
+   Ogre volume = 2 m^3 = (SF x 2m) x (SF x 1m) x (SF x 0.5m) = SF^3 x 1 m^3
+         -> SF^3 = 2 m^3 / 1 m^3 = 2
+         -> SF = 1.26
+
+   The ogre is 1.26 times taller, wider and deeper than a human.
+   (SF is the scaling factor)
+   
+2. Size rating is proportional to SURFACE
+   Human surface = 2 x (2m x 1m + 2m x 0.5m + 1m x 0.5m) = 7 m^2
+   Ogre surface = 14 m^2 = SF^2 x 7 m^2
+         -> SF^2 = 2
+         -> SF = 1.41
+  
+   The ogre is 1.41 times taller, wider and deeper than a human.
+   (SF is the scaling factor)
+
+We should note that with the current Called Shot rules that are based on
+SR, it makes more sense to have Size Rating proportional to surface.
+
+Strength versus Size Rating
+---------------------------
+
+For this analysis, we will make the following assumptions:
+
+1. Strength is proportional to the muscular mass.
+2. The muscular mass is proportional to the body mass.
+3. The body mass is proportional to the body volume.
+4. From the above, strength is proportional to the body volume.
+
+>From there, we can calculate the ration between Size and Strength for the
+two possible cases of Size Rating (proportional to Surface or Volume).
+
+1. With Size proportional to Volume.
+   Both Size and Strength are proportional to the cube of the Scaling
+   Factor (SF^3).
+   Therefore: Strength/Size = 1
+   and Size Rating and Strength Rating should use the same Table.
+
+2. With Size proportional to Surface.
+   Size is proportional to the square of the Scaling factor, while Strength is
+   proportional to the cube of the Scaling factor.
+   Strength/Size = SF^3 / SF^2 = SF
+
+>From Ratios to Tables
+---------------------
+
+How do we get the Size Rating and avg STR Talent from the Strength and Size
+Ratios? The best way is to establish a table with avg Str Talent and Size
+Rating as a function of the scaling factor.
+
+But before, we need formulas to go from Size and Strength (which are 
+multipliers) to STR Ta and SR which are summed modifiers. A log operation is
+required here.
+
+If we say that everything is relative to humans, we have (for scaling factor
+relative to Surface):
+
+Size = SF^2
+Strength = SF^3
+
+Size Rating = log_N( Size ) = log_N( SF^2 ) = 2*log_N(SF)
+avg STR Ta = log_N( Strength ) = log_N( SF^3 ) = 3*log_N(SF)
+
+where log_N(X) is the logarithm of X is base N.
+
+Note that these two equations define the relationship between SR and 
+avg STR Ta. We can multiply both of these equations by the same constant,
+since it won't change the ratio between SR and STR.
+
+Sample table with N = 2.
+------------------------
+
+Size Rating = 2*log2(SF)
+avg STR Ta = 3*log2(SF)
+
+Scaling Factor     SR    STR
+----------------------------
+0.25               -4     -6
+0.5                -2     -3
+0.7                -1   -1.5
+1                   0      0
+2                   2      3
+3                   3      5
+4                   4      6
+
+Remember that the scaling factor represents how much taller, wider, deeper a
+creature is relatively to a human.
+
+A quick word on Armor Resistance
+--------------------------------
+
+Someone noted that Armor Resistance should have the same thickness for all
+species to have a reasonable weight for the species. With the reasonable
+assumptions that avg STR is proportional to the Volume of the body and that
+the Armor Surface is proportional to the surface of the body, we can see that
+a bigger creature will be able to support a thicker armor, since its strength
+grows faster than the surface of the armor.
+
+All comments are welcome!
+
+Guillaume
+

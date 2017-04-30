@@ -1,0 +1,105 @@
+<sect1><title>Basic Premises</title>
+<sect2><title>Combat Styles</title>
+<para>
+There is more to combat than just swinging a weapon; most of the reflexes that
+make a good fighter have more to do with the way he uses his weapon than with
+the particular weapon used. The Skills your character has to learn to be a
+proficient fighter are thus named Combat Styles. The primary style for a
+fighter with military training would probably be "One-Handed Weapons &amp;
+Shield".
+A northern barbarian wielding a claymore would most often use the "Two-Handed
+Weapon" style. A magic oriented character would probably opt for a low cost
+style such as "Staves", giving him basic combat abilities while letting him
+focus most of his efforts on magic lore.
+</para>
+
+<para>
+As your character gains experience, he can advance in one or more Combat
+Style. Since Combat Styles are used for both attack and defense, improving
+them makes you both harder to hit and better at hitting your opponents.
+</para>
+</sect2>
+
+<sect2><title>The Combat Round</title>
+<para>
+As in many RPG systems, combat in DNet is resolved by dividing its duration
+into rounds. During a round, each character can perform one action:
+attacking an opponent, casting a spell, reloading a bow, etc. Each combat round
+represents six seconds of action, giving ten rounds per minute.
+</para>
+
+<para>
+During a combat round, each protagonist will get to accomplish one action,
+without consideration for who acts first or last. Each attack/defense
+confrontation is in fact an exchange of blows and the damage inflicted by the
+protagonists upon each other is the summation of the effects of each
+individual blow. It is therefore perfectly possible for two combatants to
+finish off each other in the same round, giving a situation similar to the
+final combat scene in the movie "Excalibur".
+</para>
+</sect2>
+
+<sect2><title>Combat Round Sequence</title>
+<para>
+Most gamers hate it when the mechanics of combat system take more time than
+the actions and tactical decisions of the characters. In other words, the
+mechanics should not slow down the combat flow and bring down the climactic
+tension. The combat round sequence outlined here and described more fully
+later in the text will generally be most effective one for smooth combat
+resolution.
+</para>
+
+<para>
+The combat round begins with the declaration phase, during which each player
+announces the actions of his character(s) and the GM states the actions of the
+NPCs. The order of the declaration can be arbitrary or determined by rolling
+for initiative. In both cases, it is advantageous to declare last, since you
+can decide the actions of your character in regard of what others have
+announced.
+</para>
+
+<para>
+After all actions have been declared, the resolution phase begins.
+No particular order is required, as all actions are considered to be
+simultaneous and every character is assured that he will have a chance to
+attempt its planned actions. For attacks, resolution is divided in two
+steps: the attacker first attempts to hit the defender in a contest of
+Skills; if he is succesful, Damage is calculated using the procedure outline
+above.
+</para>
+
+<para>
+At the end of each combat round, after all actions have been resolved,
+characters that have been wounded during the round must check to see if they
+remain conscious and alive.
+</para>
+</sect2>
+
+<sect2><title>Impact, Damage and Injury</title>
+<para>
+When you hit an opponent with a weapon, you generally intend to cause him some
+physical damage. The DNet system uses a specific procedure with its
+associated terminology to calculate this damage; the basics of the damage
+calculation procedure are exposed here, so that you can better understand
+the rest of the system. The complete procedure will be described in detail
+later in the combat chapter.
+</para>
+
+<para>
+Every physical attack is said to cause an Impact.
+</para>
+
+<para>
+<example><title>Impact, Damage And Injury</title>
+<screen>
+A hit with bastard sword made by an average human causes 2d6+5 points of Impact.
+If the target is wearing armor, part of the attack's Impact is absorbed by the
+armor, while the remaining part, if any, constitutes the true physical Damage,
+which is added to the target's Injury Heap.
+If the target suffers too much Injury, i.e. more than what is Body allows,
+he will pass out and eventually die.
+</screen>
+</example>
+</para>
+</sect2>
+</sect1>

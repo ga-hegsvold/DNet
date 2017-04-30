@@ -1,0 +1,34 @@
+<sect1>
+<title>Weapon Clasification</title>
+<programlisting>
+Ranged Weapons (Used with Ranged Combat Skill)
+- Bows (Specialty)
+-- Short Bow
+-- Long Bow
+
+- X-bows (Specialty)
+-- Light X-bow
+-- Normal X-bow
+-- Heavy X-bow
+
+- Thrown (Specialty)
+-- Daggers/Knives
+-- Spears
+
+Close Weapons (used with Close Combat Skill)
+- Articulated (Specialty)
+- Daggers
+- Swords
+- Axes
+- Polearms (Specialty)
+- Staves (Specialty)
+
+Weapon Style Specialties
+	One-Handed
+	One-Handed and Shield
+	Two-Handed
+	Dual Weapons
+	Polearms
+	Staves
+</programlisting>
+</sect1>

@@ -1,0 +1,76 @@
+From fortin Thu Aug 24 23:30:10 1995
+Subject: Re: Another INJURY idea
+To: dncore@cs.nmt.edu
+Date: Thu, 24 Aug 95 23:30:10 EDT
+In-Reply-To: <m0sllGR-0005HaC@skypoint.com> from "Bob Hanson" at Aug 24, 95 06:00:47 pm
+X-Mailer: ELM [version 2.4dev PL52]
+
+Bob Hanson wrote:
+> > DAMAGE = Weapon Impact + STR - (Body + Armor Resistance)
+> > 
+> > INJURY = INJURY + DAMAGE       (when DAMAGE > 0)
+> > 
+> > The nice part is that you can precalculate (Body + Armor Resistance) on the
+> > character sheet!
+> > 
+> > > Consciousness: 2d10* + WIL >= INJURY
+> > > Death: 2d10* + FIT >= INJURY
+> > 
+> > I think that this proposal has a lot of potential, especially when combined
+> > with Weapon Damage modified by SR (pixie Weapon Damage = Human Weapon damage
+> > + pixie SR), and with Armor Resistance modified with the Species STR (see
+> > my last proposal, but ignore Weapon Damage Scaling).
+> > 
+> > Basically, with your proposal, Body could be more or less proportional to
+> > Size Rating (with the exception of intrinsically though species).
+> 
+> Yep.  BODY = constant * 2^SR.
+
+IMO, the basic formula for BODY would be more like BODY = SR ...
+You will see what I mean below when I explain my (new) views on Weapon Damage.
+
+> I have one comment though.  If we use SR to select a Weapon Impact value
+> off of a table then we might not want to use STR in the DAMAGE calculation.
+> The reason is that we'd be doubly penalizing low strengths (lower weapon
+> impact + low STR) and doubly awarding high strengths (higher weapon impact
+> + high STR).  However, I think we should keep STR and not use SR with a
+> table.
+
+As I have stated many times before, we must keep Size Rating separate from STR.
+A species with a low SR might have a high STR.
+ 
+> As I've said before, STR allows us to have an open-ended weapon impact
+> table with constant weapon impacts.
+
+As I have explained, Armor resistance should be modified by the average species
+STR. (i.e. stronger species can wear thicker armors)
+
+On the other hand, Weapon damage should be modified by SR, since how tall you
+are generally determines the size of the weapons you can wield.
+
+With the new body system, the best adjustments to Weapon Impact (WI) and Armor
+Resistance (AR) are (IMNSHO):
+
+Other Species AR = Human AR + Other Species average STR
+Other Species WI = Human WI + Other Species SR
+
+If we combine this system with Body = SR (for species with the same body 
+density, thougher species will have higher Body than SR), we get a system in
+which two opponent of the same race, armored similarly and with the same 
+weapon type will kill each other in the same time!
+
+As we can see in the damage equation, SR and STR disappear for opponents of 
+the same species (with BODY = SR):
+
+DAMAGE = Weapon Impact + STR - (Body + AR)
+       = Human Weapon Impact + SR + STR - (SR + Human AR + STR)
+       = Human Weapon Impact - Human AR
+
+If we set Body = CONSTANT + SR (so that characters don't die to fast), the
+equation still holds:
+
+DAMAGE = Human WI - (Human AR - CONSTANT)
+
+What do you think? I can't see a flaw! Je ne me tiens plus de joie!
+
+Guillaume

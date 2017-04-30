@@ -1,0 +1,44 @@
+<sect1><title>Load</title>
+<para>
+The amount of weight a character can carry before he will feel the effects of
+Encumbrance (in kg unless otherwise indicated).
+</para>
+
+<para>
+When a character carries a weight equal to or lower than Load, his Encumbrance
+Penalty is equal to 0. If the weight carried is greater than Load, then the
+Encumbrance Penalty is increase by 1 for every increase of weigth equal to the
+Load Step (or a fraction of the Load Step).
+</para>
+
+<para>
+<literal>
+Load Step = Load / 10
+</literal>
+</para>
+
+<para>
+Load Formula (round up):
+</para>
+
+<para>
+<literal>
+Encumbrance Penalty = (Weight - Load) / Load Step
+</literal>
+</para>
+
+<para>
+<example><title>Load</title>
+<screen>
+STR = 0; Load = 20 kg; Load Step = 2 kg
+
+Weight &lt;= 20kg   -&gt; Encumbrance Penalty = 0
+Weight = 20.5 kg -&gt; Encumbrance Penalty = 1
+Weight = 22 kg   -&gt; Encumbrance Penalty = 1
+Weight = 22.5 kg -&gt; Encumbrance Penalty = 2
+Weight = 24 kg   -&gt; Encumbrance Penalty = 2
+Weight = 35 kg   -&gt; Encumbrance Penalty = (35 - 20) / 2 = 8
+</screen>
+</example>
+</para>
+</sect1>

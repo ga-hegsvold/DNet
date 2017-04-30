@@ -1,0 +1,181 @@
+These unarmed combat rules are meant to integrate tightly with the weapons
+rules.  It should fulfill all of Guillaume's conditions.
+
+The same targetting and damage equations are used.
+There is no TEMP_INJURY as in the alpha2.0 rules.  All damage is
+real, but generally light.  
+It adds minimal list of Unarmed Styles to the styles table.
+The most radical change is a new "Unarmed" weapon type, and treating 
+the various unarmed attacks as weapons generally, but with a few extra
+rules when needed, for defending against weapons, affects of holds, etc.
+
+As always, all comments are welcome.
+~John Williams
+
+
+Changes in revision 3:
+
+    Reformatted the Unarmed Attacks table to use the same format as the
+    current Weapons Table.
+
+    I adjusted damages down, considering that 2d6-2 is "dagger damage".
+    Let me know if you think these are better, or what else you would recommend.
+
+    Used Roberts suggestions for hold roll.  Defender now rolls to break hold
+    instead of attacker rolling to keep hold.
+
+    Combined Judo and Wrestling styles, for an even more minimal style list.
+
+    I feel that Brass Knuckles should belong to Boxing style, instead of
+    Close Weapon style.
+
+
+
+-----------------
+Unarmed Attacks
+(Addition to Weapons Table)
+-----------------
+There are five types of unarmed attacks.  For game mechanics, they are
+handled the same way as weapons are handled in armed combat styles.
+They have an associated damage, reach, etc, just as weapons do.
+An unarmed defender against a weapon gets no defence or a penalty, depending
+on the fighting style being used.
+
++-----------------+--------+--------+-------+-------+--------+-------+-------+
++ NAME            | ACTION | IMPACT | REACH | MASS  | LENGTH | HANDS | SPEED |
++-----------------+--------+--------+-------+-------+--------+-------+-------+
+|                 |        |        |       |       |        |       |       |
+|    UNARMED      |        |        |       |       |        |       |       |
+|                 |        |        |       |       |        |       |       |
+| hand            |   B    | 2d6-8  |   C   | 0     |   0    |   1   |       |
+| foot            |   B    | 2d6-6  |   C   | 0     |   0    |   0   |       |
+| bash            |   B    | 2d6-4  |   C   | 0     |   0    |   0   |       |
+| throw           |   B    | 2d6-6  |   C   | 0     |   0    |   1*  |       |
+| hold            |   B?   | 0      |   C   | 0     |   0    |   1*  |       |
++-----------------+--------+--------+-------+-------+--------+-------+-------+
+
+Unarmed weapon types
+--------------------
+Attacks with hands or fists do 2d6-8 IMPACT, 2d6-6 if using brass knuckles.
+
+Kicking attacks to 2d6-6 IMPACT.  
+
+Bashing attacks include body slams and tackles.  
+IMPACT is 2d6-4.  A running start is required to do damage, 
+so no IMPACT is done if you are already at close range.  
+(possible to force backwards even if starting at close range)
+
+Throws include leg sweeps and judo/wrestling throws.  IMPACT is 2d6-6 and
+is not modified by STR.  Success leaves the defender prone.
+
+Hold attacks include judo holds and wrestling pins.  
+After a successful attack the defender must make a roll if he wants to
+try to break the hold.  
+      2d10* + STR + skill >= 10 + holder's STR + skill
+The "skill" may be from any style which includes "hold" attacks.
+If the hold is successful, the attacker may choose to inflict damage: 
+IMPACT is 2d6-4 (+STR).
+
+* Note about HANDS: There are holds and throws which require two hands,
+and some which require no hands.  The GM may judge if a maneuver is possible
+or more difficult (skill penalty) in some situations, such as if the
+player has his hands bound.
+
+
+---------------------
+Unarmed Combat Styles
+(Addition to 6.3.1)
+---------------------
+
+I would like to use a minimal list of unarmed combat styles, since it is
+more in the spirit of the current weapon styles.  A well rounded martial
+artist using this list would learn Karate for the hand and foot maneuvers,
+Close Weapons for the usual list of Chinese peasant weapons, Judo for
+the throws, Staff, and One-Handed Weapon skills.
+
++-------------------+------+-----+-----+----+----+---------------------------+
+|                   |  EP  | Attribute |    |    |                           |
+| Style Skill Name  | Cost | Tal | Adv | AM | DM | Special Characteristics   |
++-------------------+------+-----+-----+----+----+---------------------------+
+| Boxing            |  2   | AGI | FIT |    |    | hand, no def vs Wpn       |
+| Brawling          |  3   | STR | FIT |    |    | hand, bash, -5 def vs Wpn |
+| Karate            |  3   | WIL | FIT |    |    | hand, foot, -3 def vs Wpn |
+| Judo/Wrestling    |  3   | WIL | FIT |    |    | hold, throw, no def vs Wpn|
++-------------------+------+-----+-----+----+----+---------------------------+
+
+
+Boxing
+------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: FIT
+Special: No defence vs weapons
+Weapons Allowed: hand, brass knuckles
+Description: Boxing-ring, or bare-fist style fighting.
+
+Brawling
+--------
+EP Cost: 3
+Talent Attribute: STR
+Advancement Attribute: FIT
+Special: -5 defence vs weapons
+Weapons Allowed: hand, bash
+Description: Barroom brawl style.
+
+Karate
+------
+EP Cost: 3
+Talent Attribute: WIL
+Advancement Attribute: FIT
+Special: -3 defence vs weapons
+Weapons Allowed: hand, foot
+Description: Generic style for basic Eastern martial arts.
+     We may want to limit weapon defences for Brawling and Karate for small
+     and maybe medium size weapons.
+
+Judo/Wrestling
+--------------
+EP Cost: 2
+Talent Attribute: WIL
+Advancement Attribute: FIT
+Special: No defence vs weapons
+Weapons Allowed: hold, throw
+Description: Generic style for Western-style wrestling and Eastern-style Judo
+
+
+
+
+-----------------
+Misc Combat Skills
+-----------------
+These are a few odds and ends which can be included with the other 
+miscellaneous combat skills, such as Dodge.
+I think the old "Strike Pressure Point" and "KO Attack" skills can be
+adequately modeled with Precision and/or Called Shots.
+
+
+                    Skill Attr.        Default tasks
+Skill name          Diff. Tal  Adv  NSP  TD     Description
+------------------------------------------------------------------------------
+Catch Missiles      V/5   PER  AGI  10   A/10*  Catch an incoming spear
+Evade Missiles      A/3   PER  AGI  6    A/10*  Dodge an incoming spear
+Disarm              D/4   STR  DEX  8    D/15   Make opponent drop weapon
+
+
+Catch Missiles
+-------------------
+Gives the character a chance to catch missiles, but only if he is defending 
+against the attack.  The TD is 10 for thrown weapons, and 15 for arrows.
+(Possibly more for crossbow bolts?)
+
+Evade Missiles
+-------------------
+Allows character to dodge incoming missiles.  Used the same a the Dodge skill.
+TD is the same as Catch Missiles.
+
+Disarm
+-------------------
+This would be used in place of a normal attack to attempt to disarm the
+opponent.  The success check would be:
+    2d10* + skill >= TD + opponent's STR
+This skill can be used by armed combatants as well, e.g. fencers.

@@ -1,0 +1,30 @@
+<sect1><title>Movement and Distances in Combat</title>
+<sect2><title>Combat Movement</title>
+<para>
+While it may be possible for some characters to cover 60 meters in a standard
+6 seconds round, this is not a typical character nor a character loaded with
+equipment. Even if he was, he would be in no condition at the end of the round
+to carry out other actions. Moreover this speed allows for only the gentlest
+of turns; Combat movement involves turns and other actions.
+</para>
+
+<para>
+The maximum speed that a character can move at in melee and still be able to
+perform other actions without penalty is the base movement speed. A human
+character might move up to 5 meters during a round and attack without penalty.
+</para>
+
+<para>
+If a character wants to move faster than the Base movement speed in melee
+combat, the GM can require him to make an Agility check against a TD
+ranging from 0 to 5. A character can always move at the Base movement speed
+without a check (as long as he is not crippled).
+</para>
+
+<para>
+When moving in a combat situation, a character must increase his Fatigue Heap
+at least every 5 rounds (30 seconds). He may have to increase his Fatigue more
+often if he manages to move very fast (above the sprinting speed).
+</para>
+</sect2>
+</sect1>

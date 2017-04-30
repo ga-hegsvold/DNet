@@ -1,0 +1,165 @@
+From daemon@cs.nmt.edu Tue Mar  7 05:09:30 1995
+Return-Path: <daemon@cs.nmt.edu>
+Received: from sphinx.cs.nmt.edu by vlsi.polymtl.ca (4.1/SMI-4.1.1)
+	id AA19596; Tue, 7 Mar 95 05:09:12 EST
+Errors-To: dncore-owner@cs.nmt.edu
+Received: (from daemon@localhost) by sphinx.cs.nmt.edu (8.6.8.1/8.6.6) id DAA02976 for dncore-mail; Tue, 7 Mar 1995 03:01:44 -0700
+Received: from mailgate.ericsson.se (mailgate.ericsson.se [130.100.2.2]) by sphinx.cs.nmt.edu (8.6.8.1/8.6.6) with ESMTP id DAA02968 for <dncore@cs.nmt.edu>; Tue, 7 Mar 1995 03:01:25 -0700
+Received: from eua.ericsson.se (eua.ericsson.se [134.138.132.16]) by mailgate.ericsson.se (8.6.10/1.0) with SMTP id LAA10346 for <dncore@cs.nmt.edu>; Tue, 7 Mar 1995 11:04:38 +0100
+Received: from ms.eua.ericsson.se by eua.ericsson.se (4.1/EUA-2.1)
+	id AA23882; Tue, 7 Mar 95 11:04:36 +0100
+Received: from euax2i6c31.eua.ericsson.se by ms.eua.ericsson.se (4.1/MS-2.1)
+	id AA14982; Tue, 7 Mar 95 11:04:36 +0100
+From: Per.Landberger@eua.ericsson.se (Per Landberger EUA/LA 354.047 5630)
+Received: by euax2i6c31.eua.ericsson.se (4.1/client-1.3)
+	id AA01831; Tue, 7 Mar 95 11:04:35 +0100
+Date: Tue, 7 Mar 95 11:04:35 +0100
+Message-Id: <9503071004.AA01831@euax2i6c31.eua.ericsson.se>
+To: dncore@sphinx.cs.nmt.edu
+Subject: Skill list 1.2a
+Reply-To: dncore@cs.nmt.edu (The dncore mailing list)
+Errors-To: dncore-owner@cs.nmt.edu
+X-Bmw: Black Marble Wombat Version 5.1
+Content-Length: 6201
+X-Lines: 138
+Status: OR
+
+Hi!
+
+Here's a merge of Guillaume's and Rene's lists. I've used Guillaume's list as
+base, as I prefer his groupings to Rene's. I havent changed any values, 
+just added the cost, talent, adv AV, def. TD and extra skills from Rene's list. 
+Where the two differ I've kept Guillaume's values. 
+
+In the comment column I've mentioned what differs on Rene's list. Where there's
+an * in comment the skill is added from rene's list.
+
+I have not added those of Rene's skills that we agreed on were not needed for
+game testing, and I have not added those skills that I don't think should be
+skills (most of the willpower skills, that aught to be spells).
+
+/Per
+
+
+-------------------------------------------------------------------------------
+Skill name                Cost  Talent  Adv. AV  Default TD	Comment
+------------------------------------------------------------------------------
+
+CRAFT SKILLS
+
+Agriculture/horticulture  oo	INT	INT	Moderate/10	
+Armourer                  oooo  DEX	DEX	Moderate/10	ooo
+Blacksmithing             ooo   DEX	INT	Moderate/10	oo
+Bowyer                    ooo   DEX	PER	Moderate/10	Bowyer/Fletcher
+Carpentry                 oo	DEX	INT	Moderate/10	*
+Cooking                   o     PSY     INT     Easy/5		oo
+Fishing                   oo    INT	INT	Easy/5		
+First aid/Medicine        oooo  PER     INT	Hard/15		Heal (nat) ooo
+Leatherworking            oo	DEX	DEX	Moderate/10	*
+Mining                    ooo   PER     INT	Moderate/10	oo
+Pottery                   oo    DEX	DEX	Moderate/10
+Rope use                  oo    DEX	AGI	Hard/15
+Stonemason                ooo   STR	DEX	Hard/15		oo
+Weaponsmithing            oooo  DEX	DEX	Moderate/10	ooo
+
+ARTISTIC SKILLS
+
+Acting                    ooo   AURA    PSY	Hard/15		PSY, AURA
+Disguise                  oo    AURA    PSY	Hard/15		WILL, DEX ooo
+Musical instrument        ooo   DEX     PSY	Moderate/10	PER, PSY oo
+Ventriloquism             oooo  AURA	WILL	Hard/15
+
+ATHLETIC SKILLS
+
+Acrobatics                ooo   AGI	
+Climbing                  oooo  AGI		Moderate/10	DEX, AGI oo
+Contortion                ooooo AGI	AGI	Severe/25	oooo
+Endurance                 ooo   FIT	WILL	Hard/15
+Falling                   oooo  AGI	AGI	Taxing/20	ooooo
+Juggling                  oo    AGI	DEX	Moderate/10	DEX, DEX ooo
+Jumping                   ooo   STR	STR	Severe/25
+Running                   ooo   STR     FIT	Hard/15		WILL, FIT
+Swimming                  ooo   STR     FIT	Moderate/10	STR, WILL oo
+Tightrope walking         oooo  AGI		Taxing/20	PER, AGI
+Tumbling                  ooo   AGI		Hard/15		DEX, AGI oooo
+
+COMBAT SKILLS
+
+MOVEMENT SKILLS
+
+Direction sense           ooo   PER	PER	Taxing/20	oooo
+Riding (airborne)         oooo  AGI		Severe/25	PER, AGI ooo
+Riding (land)             oo    AGI		Moderate/10	PER, AGI
+Seamanship                ooo   PER     INT	Moderate/10	AGI, AGI oo
+
+NATURE SKILLS
+
+Animal Training           ooo   PER		Taxing/20	PSY, INT oo
+Falconry                  ooo   PER		Hard/15		PSY, INT oo
+Fire-building             o     INT	INT	Moderate/10	oo
+Foraging                  oo    PER
+Hunting                   oo    PER	PER	Moderate/10
+Hydrology                 oo    PER	INT	Moderate/10	INT, INT ooo
+Tracking                  oooo  PER		Taxing/20	PSY, PER oo
+Weather sense             ooo   PER		Hard/15		PSY, PER oooo
+
+KNOWLEDGE SKILLS
+
+Ancient History           ooo   INT     INT	Hard/15
+Animal lore               ooo           INT			(Zoology?)
+Appraising                ooo   PER     INT	Hard/15
+Botany                    ooo   INT     INT	Hard/15
+Cartography               oo    INT/DEX INT
+Cryptography              oooo  INT     INT	Taxing/20	PER, INT ooo
+Engineering               oooo  INT     INT	Hard/15		ooo
+Geographie                oo            INT
+Heraldry                  oo    INT     INT	Hard/15		ooo
+Herbalism                 oooo  INT     INT	Hard/15		oo
+Identify magic            ooooo INT     INT	Severe/25	PER, INT oooo
+Language                  ooo   INT     INT	Moderate/10	oo-oooo -Hard/15
+Illiteracy                oo	PSY	INT	Moderate/10	* (lousy name)
+Local History             oo    INT     INT	Moderate/10
+Metallurgy                oooo  INT     INT	Hard/15		ooo
+Navigation                oooo  INT     INT	Taxing/20	PER, INT
+Read/write                oooo  INT     INT	Taxing/20	ooooo
+Sage                      ooooo	PSY	INT	Severe/25	*
+Species enemy             oo    INT     INT	Hard/15		PER, INT oooo
+Spellcraft                ooo	INT	INT	Hard/15		*
+Spelaeology               ooo   PER     INT	Moderate/10	PER, AGI 
+Teratology                oo    INT     INT	Taxing/20	ooooo
+Theology                  oo    INT     INT	Hard/15		Religion ooo
+Zoology                   ooo   INT     INT	Hard/15		(Animal Lore?)
+
+SOCIAL SKILLS
+
+Bardic influence          ooo   AURA    PSY	Hard/15		Bardic Charm oooo
+Bribery                   oo    AURA	PER	Hard/15		ooo
+Diplomacy                 ooo   AURA	PSY	Severe/25
+Dragonshah                oo    INT     INT	Easy/5		INT, PSY
+Drinking                  oo    FIT	WILL	Moderate/10	o
+Eating                    oo    FIT	WILL	Moderate/10	o
+Gambling                  oo    DEX/INT	PSY	Hard/15		PER, PSY
+Haggling                  o     AURA
+Heroic Inspiration        oooo	PSY	AURA	Hard/15		*
+Interrogate               ooo   AURA    PSY	Taxing/20  Inquisition, AURA, INT
+Oration                   oooo  AURA    PSY	Hard/15		ooo
+Streetwise                oo    PER	PSY	Hard/15
+Trading                   ooo   
+Truthtell                 ooooo PSY     PSY	Extreme/30	PSY, PER
+
+SUBTERFUGE SKILLS
+
+Detect traps              ooo   PER	DEX	Hard/15		oooo
+Evade pursuit             oo    AGI/INT
+Forgery                   oooo  DEX	INT	Taxing/20
+Move quietly              oooo  AGI		Hard/15		PER, AGI ooo
+Open locks                ooo   DEX		Hard/15  Pick Things, PER, DEX
+Pick pockets              ooo   DEX		Hard/15  Pick Things, PER, DEX	 
+Reading lips              oooo  INT		Hard/15		PER, INT
+Remove traps              oooo  DEX		Taxing/20	PER, DEX ooo
+Set snares                oo    DEX		Hard/15		PER, DEX 
+Shadowhide                ooo   PER	AGI	Taxing/20	Hide and Spy
+
+------------------------------------------------------------------------------
+
+

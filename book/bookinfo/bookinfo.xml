@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<bookinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>DragonNet RPG</title>
+
+<xi:include href="header.xml" />
+<xi:include href="abstract.xml" />
+
+</bookinfo>

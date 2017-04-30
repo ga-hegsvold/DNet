@@ -1,0 +1,16 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Templates</title>
+
+<xi:include href="adventure_template.xml" />
+<xi:include href="affliction_template.xml" />
+<xi:include href="culture_template.xml" />
+<xi:include href="diety_template.xml" />
+<xi:include href="gifts_foibles_template.xml" />
+<xi:include href="herb_template.xml" />
+<xi:include href="item_template.xml" />
+<xi:include href="magic_template.xml" />
+<xi:include href="npc_template.xml" />
+<xi:include href="species_template.xml" />
+<xi:include href="spell_template.xml" />
+
+</chapter>

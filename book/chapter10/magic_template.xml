@@ -1,0 +1,25 @@
+<sect1><title>Magic Template</title>
+<screen>
+Magic Name
+----------
+World:
+Author:
+Version:
+----------
+Sources:
+   Name    Base Cost   Min  Max  Domain Special
+
+Conductors:
+   Name    Base Cost   Min  Max  Domain Special
+
+Name - The name of the source/conductor
+Base Cost - The base of using the source/conductor
+Min - The minimum amount that can be drawn from the source
+Max - The maximum amount that can be drawn or the maximum
+      TD that the spell involving this conductor can be.
+Domain - What conductors can be used with the source.
+         What effects the conductors can produce
+Special - Any effects/conditions/side effects that are specific
+          to this source/conductor.
+</screen>
+</sect1>

@@ -1,0 +1,739 @@
+Appendix A
+<sect1>Master Skills List (UPDATE!)
+<p>
+<tscreen><verb>
+                     EP     Attr.   **   Default tasks
+Skill name          Cost  Tal  Adv  UP   TD     Description
+------------------------------------------------------------------------------
+ARTISTIC SKILLS
+
+Acting               3    AUR  PSY   6   D/5    Convincing personification
+Disguise             2    AUR  PSY   4   D/5    Render irrecognizable
+Drawing/Painting     3    DEX  PSY   6   D/5    Draw or paint an average image
+Musical instrument   3    DEX  PSY   6   D/5    Performing a common piece
+Sculpture/Carving    3    DEX  PSY   6   D/5    Sculpt or carve a small piece
+Ventriloquism        4    AUR  WIL   8   D/5    Simple speech
+
+ATHLETIC SKILLS
+
+Acrobatics           3    AGI  PER   6   D/5    Dropping one floor in combat
+Climbing             4    AGI  AGI   8   A/0    Normal brick wall
+Contortion           5    AGI  AGI  10   D/5    Passing a torso-sized tunnel
+Endurance            3    FIT  WIL   6   D/5    Jogging for two hours
+Falling              4    AGI  AGI   8   VD/10  Falling 10 meters unarmed
+Juggling             2    DEX  PER   4   A/0    Juggling five normal objects
+Jumping              3    STR  STR   6   ED/15  Jumping one's height
+Sprinting            3    STR  FIT   6   D/5    Running 100m under 15 sec.
+Swimming             3    STR  FIT   6   A/0    Swimming 1km at a good pace
+Tightrope walking    4    AGI  PER   8   D/5    Walking 25m on a rope
+
+CRAFT SKILLS
+
+Agriculture          2    INT  INT   4   A/0    Growing common plants
+Armourer             4    DEX  DEX   8   A/0    Fabricating a chain mail
+Blacksmithing        3    DEX  INT   6   A/0    Forging a cauldron
+Bowyer               3    DEX  PER   6   A/0    Assembling a short bow
+Carpentry            2    DEX  INT   4   A/0    Fabricating a chest
+Cooking              1    PSY  INT   2   E/-5   Making a simple meal
+Fishing              2    INT  INT   4   A/0    Catching "a meal" in 3 hours
+Leatherworking       2    DEX  DEX   4   A/0    Making a leather backpack
+Medicine             4    PER  INT   8   D/5    Healing a broken leg
+Mining               3    PER  INT   6   A/0    Tunneling in normal rock
+Pottery              2    DEX  DEX   4   A/0    Molding a decorated urn
+Rope use             2    DEX  AGI   4   A/0    Tying up a person solidly
+Stonemason           2    STR  DEX   4   D/5    Cutting tower stones
+Weaponsmithing       4    DEX  DEX   8   A/0    Making a dagger
+Wood working         3    DEX  DEX   6   A/0    Making a wooden chair
+
+KNOWLEDGE SKILLS
+
+Ancient History      3    INT  INT   6   D/5    Recalling heroic stories
+Appraising           3    PER  INT   6   D/5    Estimating the value of gems
+Botany               3    INT  INT   6   D/5    Identifying rare plants
+Cartography          2    INT  INT   4   D/5    Mapping a region from sight
+Cryptography         4    INT  INT   8   VD/10  Deciphering a standard code
+Engineering          4    INT  INT   8   D/5    Drawing plans for a catapult
+Geography            2    INT  INT   4   A/0    Knowing country of city
+Heraldry             2    INT  INT   4   D/5    Recognizing a coat of arms
+Herbalism            4    INT  INT  IMP  D/5    Brewing a special remedy
+Identify magic       5    PER  INT  IMP  ED/15  Identifying a magical item
+Language             3    INT  INT  IMP  A/0    Understanding a foreign tongue
+Law                  5    AUR  INT  IMP         Understandig social laws
+Local History        2    INT  INT   4   A/0    Recalling an important event
+Metallurgy           4    INT  INT   8   D/5    Identifying a metal
+Navigation           4    INT  INT  IMP  D/5    Finding one's position
+Read/write           4    INT  INT  IMP  A/0    Reading a sign.
+Species enemy        2    INT  INT   4   D/5    Recognizing behaviors
+Spellcraft           4    INT  INT  IMP  D/5    Recognizing a spell being used
+Theology             3    INT  INT   6   D/5    Remembering rites
+Tribal Memory        4    PSY  INT   8   A/0    Recite oral history
+Zoology              3    INT  INT   6   D/5    Identifying animal behaviors
+
+MOVEMENT SKILLS
+
+Direction sense      3    PER  PER   6   VD/10  Determining current direction
+Riding (airborne)    4    AGI  PER   8   ED/15  Maintaining mount control
+Riding (land)        2    AGI  PER   4   A/0    Maintaining mount control
+Seamanship           3    PER  INT   6   A/0    Rigging sails
+
+NATURE SKILLS
+
+Animal Training      3    PER  PSY   6   VD/10  Training a horse
+Falconry             3    PER  PSY   6   D/5    Training a falcon
+Fire-building        1    INT  INT   2   A/0    Building a fire without f&amp;s
+Foraging             2    PER  INT   4   D/5    Finding a "meal"
+Hunting              2    PER  PER   4   A/0    Shooting enough for a "meal"
+Hydrology            2    PER  INT   4   A/0    Locate potable water in forest
+Survival             4    WIL  INT   8   A/0    Finding shelter during storm
+Tracking             4    PER  INT   8   VD/10  Finding a 4 day old trail
+Weather sense        3    PER  PSY   6   D/5    Predicting next day's weather
+
+SOCIAL SKILLS
+
+Bardic influence     3    AUR  PSY   6   D/5    Awe a crowd with performance
+Bribery              3    AUR  PER   6   D/5    Bribing a guard
+Drinking             2    FIT  WIL   4   A/0    Drink FIT + 8 ales
+Eating               2    FIT  WIL   4   A/0    Eat FIT + 6 Kg food
+Etiquette            2    AUR  PSY   4   A/0    Acting courteously
+Gambling             2    DEX  PSY   4   D/5    Win against unskilled opponent
+Haggling             1    AUR  PSY   2   D/5    Getting an offer accepted   
+Heroic Inspiration   4    PSY  AUR   8   D/5    Succeed in inspiring fellow
+                                                warriors
+Interrogate          3    AUR  PSY   6   VD/10  Getting confession from WIL 0
+Oration              4    AUR  PSY   8   D/5    Successful speech to lrg aud. 
+Streetwise           2    PER  PSY   4   D/5    Obtaining "street" info
+Tactics              3    PSY  INT   6
+Truthtell            4    PER  PSY   8   L/20   Recognizing a lie
+
+SUBTERFUGE SKILLS
+
+Searching            3    PER  INT   6   D/5    Detecting a needle trap
+Evade pursuit        2    AGI  INT   4   VD/10  Losing pursuit (non-trackers)
+Forgery              4    DEX  INT   8   VD/10  Copying an official document
+Move quietly         4    AGI  AGI   8   D/5    Moving without armor
+Open locks           3    DEX  INT   6   D/5    Opening standard locked door
+Pick pockets         3    DEX  PER   6   D/5    Pulling coin purse, lg crowd
+Reading lips         4    PER  INT   8   D/5    Deciphering speech, clear view
+Remove traps         4    DEX  INT   8   D/5    Removing a needle trap
+Set traps            2    DEX  INT   4   D/5    Setting a foot snare
+Shadowhide           3    PER  AGI   6   VD/10  Medium shadow cover
+
+MAGIC SOURCE SKILLS
+
+Celestial Darkness   3    INT  INT  IMP   ***   the Celestial Foci
+Celestial Daylight   3    INT  INT  IMP   ***   the Celestial Foci
+Elemental of Energy  3    INT  INT  IMP   ***   the Elemental Foci
+Elemental of Entropy 3    INT  INT  IMP   ***   the Elemental Foci
+Kundalini            5    WIL  WIL  IMP   ***   the Chackras
+Spirit of [spirit]   3    AUR  AUR  IMP   ***   Communion with Spirits
+Doctrine of [deity]  4    PSY  PSY  IMP   ***   Piety to [same deity]
+
+MAGIC CONDUCTION SKILLS
+
+Air Elemental Focus   4   INT  INT  IMP   ***   the Elemental Powers
+Earth Elemental Foc.  4   INT  INT  IMP   ***   the Elemental Powers
+Fire Elemental Focus  4   INT  INT  IMP   ***   the Elemental Powers
+Water Elemetnal Foc.  4   INT  INT  IMP   ***   the Elemental Powers
+5th Elemental Focus   4   INT  INT  IMP   ***   the Elemental Powers
+Aurora Celestial Foc. 4   INT  INT  IMP   ***   the Celestial Powers
+Comet Celestial Foc.  4   INT  INT  IMP   ***   the Celestial Powers
+Firmament Celestial F.4   INT  INT  IMP   ***   the Celestial Powers
+Light Celestial Foc.  4   INT  INT  IMP   ***   the Celestial Powers
+Moon Celestial Focus  4   INT  INT  IMP   ***   the Celestial Powers
+Stars Celestial Focus 4   INT  INT  IMP   ***   the Celestial Powers
+Sun Celestial Focus   4   INT  INT  IMP   ***   the Celestial Powers
+Astral Chackra        3   WIL  WIL  IMP   ***   Kundalini
+Body Chackra          3   WIL  WIL  IMP   ***   Kundalini
+Dream Chackra         3   WIL  WIL  IMP   ***   Kundalini
+Emotion Chackra       3   WIL  WIL  IMP   ***   Kundalini
+ESP Chackra           3   WIL  WIL  IMP   ***   Kundalini
+Mind Chackra          3   WIL  WIL  IMP   ***   Kundalini
+Reality Chackra       3   WIL  WIL  IMP   ***   Kundalini
+Temporal Chackra      3   WIL  WIL  IMP   ***   Kundalini
+Piety to [deity]      4   AUR  AUR  IMP   ***   Doctrine of [same deity]
+Communion w/ Spirit   5   PSY  PSY  IMP   ***   Spirit of [any spirit]
+
+COMBAT SKILLS
+
+Catch Missiles       4    PER  AGI  10   D/5    Catch an incoming spear
+Disarm               4    STR  DEX  8    D/5    Make opponent drop weapon
+Dodge                3    AGI  AGI  6    N/A    Not applicable
+Evade Missiles       3    PER  AGI  6    A/0    Dodge an incoming spear
+
+COMBAT STYLES
+                                          AM   DM   Special Characteristics   
+  LONG RANGE STYLES                                                          
+  
+  Archery            4    PER  DEX   8     0    0   extreme, 0 def           
+  Cross Bows         2    PER  DEX   4     0    0   extreme, 0 def, slow ROF 
+  Thrown Weapons     3    DEX  PER   6     0    0   near, no defenses        
+                                                                             
+  MELEE STYLES                                                               
+                                                                             
+  Articulated W.     4    AGI  AGI   8    +1    0   entangle, +2 disarm      
+  Articulated W.     5    AGI  AGI  10    +1    *   shield bonus/bash        
+    & Shield                                        entangle, +2 disarm      
+  Bolas, Whips,      3    DEX  AGI   6     0    0   trip/entangle, 0 def     
+    Ropes, Nets                                     +3 disarm                
+  Close Weapons      2    DEX  AGI   4     0    0   none
+  Close W. & Shield  3    DEX  AGI   6     0    *   shield bonus/bash        
+  Dual Weapon        4    AGI  AGI   8    +2   -1   none
+  Fencing            5    DEX  AGI  10    +2    0   DEF Fencing/Close only   
+  One-Handed Weapons 3    AGI  AGI   6     0    0   none
+  One-Handed Weapons 4    AGI  AGI   8     0    *   shield bonus/bash        
+    & Shield                                                                 
+  Polearms           4    AGI  AGI   8    +1   -1   2nd rank, fend           
+  Staves             2    AGI  AGI   4     0    0   none
+  Thrusting Weapons  3    PER  AGI   6     0    0   2nd rank, fend           
+  Thrusting Weapons  4    PER  AGI   8     0    *   shield bonus/bash        
+    & Shield                                        2nd rank, fend           
+  Two-Handed Weapons 3    STR  AGI   6     0   -2   2nd rank                 
+
+  UNARMED STYLES
+
+  Boxing             2    AGI  FIT   4     0    0   hand, no def vs Wpn
+  Brawling           3    STR  FIT   6     0    0   hand, bash, -5 def vs Wpn
+  Karate             3    WIL  FIT   6     0    0   hand, foot, -3 def vs Wpn
+  Judo/Wrestling     3    WIL  FIT   6     0    0   hold, throw, no def vs Wpn
+
+*: see style description
+**: Values listed in this column are for the optional Untrained Penalty (UP)
+    rule found in section 4.3. If this rule is not being used then UP is either
+    Impossible (IMP) or 5 (GM's discretion).
+***: See Section 7 - Magic for spell casting TDs.
+</verb></tscreen>
+
+<bf/TABLE DESCRIPTION/
+
+<bf/EP Cost/
+
+This is the training cost associated with the skill.
+
+<bf/Attribute Tal/
+
+The attribute which forms the basis for using this skill. (i.e. The attribute
+acts as a modifier for use of the skill in the targeting equation.)
+
+<bf/Attribute Adv/
+
+This attribute is used as a modifier for advancement of the skill.
+
+<bf/Default Task TD/
+
+The average difficulty associated with using this skill (not used for Combat
+Styles (see Section 6)).
+
+<bf/Default Task Description/
+
+An example of an average use of this skill (not used for Combat Styles
+(see Section 6)).
+
+<bf/AM/
+
+Attack modifier (only used for Combat Styles).
+
+<bf/DM/
+
+Defense modifier (only used for Combat Styles).
+
+<bf/SPECIAL CHARACTERISTICS/
+
+Features of various Combat Styles (see individual style descriptions section
+4.5.9).
+
+<sect1>Master Equipment List
+<sect2>Weapons
+<sect3>Weapons Table
+<p>
+<tscreen><verb>
++-----------------+----+------+-----+-----+------+-----+-----+
+|     WEAPONS     |    |      |     |     |      |     |     |
+|   (BY STYLES)   |TYPE|IMPACT|REACH|MASS |LENGTH|HANDS|SPEED|
++-----------------+----+------+-----+-----+------+-----+-----+
+|                 |    |      |     |     |      |     |     |
+|    ARCHERY      |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Long Bow        | T  |  11  |  F  | 0.7 | 1.8m |  2  |     |*d
+| Short Bow       | T  |   6  |  F  | 0.6 | 1.2m |  2  |     |*d
+|                 |    |      |     |     |      |     |     |
+|   ARTICULATED   |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Flail*          | B  |  11  |  C  | 2.5 | 1.6m |  1  |     |
+| Morning Star    | B  |  11  |  C  | 2.5 | 1.0m |  1  |     |*d
+| Chigiriki       | B  |  11 *|  N  | 2.6 | 2.0m |  2  |     |*d
+|                 |    |      |     |     |      |     |     |
+|  CLOSE WEAPONS  |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Butcher Knife   |C/T |   4  |  C  | 0.4 | 0.3m |  1  |     |*d
+| Dagger          | T  |   6  |  C  | 0.3 | 0.3m |  1  |     |*d
+| Katar           | T  |   9 *|  C  | 0.5*| 0.4m |  1  |     |*d
+| Knife           |T/S |   4 *|  C  | 0.2 | 0.3m |  1  |     |*d
+| Misericorde     | T  |   6  |  C  | 0.3 | 0.4m |  1  |     |
+| Tanto           |T/S |   6  |  C  | 0.4*| 0.3m |  1  |     |*d
+|                 |    |      |     |     |      |     |     |
+|   CROSS BOWS    |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Light Arbalest  | T  |   6  |  F  | 3.4 | 0.7m |  2  |     |*d
+| Medium Arbalest | T  |  11  |  F  | 4.1 | 0.7m |  2  |     |*d
+| Heavy Arbalest  | T  |  16  |  F  | 7.5 | 0.7m |  2  |     |*d
+| Siege Arbalest  | T  |  21  |  F  |10.2 | 1.0m |  2  |     |*d
+|                 |    |      |     |     |      |     |     |
+|   ONE HANDED    |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Bastard Sword   |C/T |  11  |  C  | 2.1 | 1.0m*|  1  |     |*d
+| Broad Sword     |C/T |  11  |  C  | 1.6*| 0.8m*|  1  |     |*d
+| Battle Axe      | C  |  11  |  C  | 2.1 | 0.8m |  1  |     |*d
+| Club            | B  |   7 *|  C  | 1.3*| 0.6m*|  1  |     |*d
+| Falchion        |C/T |  11  |  C  | 1.6 | 0.8m |  1  |     |
+| Fighting Pick   | T  |  11 *|  C  | 1.8 | 0.6m |  1  |     |*d
+| Katana          |S/T |  11 *|  C  | 1.4*| 1.1m*|  1  |     |*d
+| Longsword       |C/T |  11  |  C  | 1.5 | 0.8m |  1  |     |*d
+| Hand Axe        | C  |   7 *|  C  | 1.0 | 0.4m |  1  |     |*d
+| Mace            | B  |  11  |  C  | 2.0 | 0.7m |  1  |     |
+| Rapier          | T  |   9 *|  C  | 0.8*| 1.0m |  1  |     |*d
+| Sabre           |S/T |  11  |  C  | 1.3*| 0.7m*|  1  |     |*d
+| Shamshir        | S  |  11  |  C  | 1.4 | 0.9m |  1  |     |
+| Short Sword     |S/T |   9  |  C  | 1.2 | 0.7m |  1  |     |*d
+| Shotel          |S/C |   9  |  C  | 1.2 | 0.8m |  1  |     |
+| War Hammer      | B  |  11  |  C  | 2.1 | 0.7m |  1  |     |
+| Wakizashi       |S/T |   9  |  C  | 0.8*| 0.6m*|  1  |     |*d
+|                 |    |      |     |     |      |     |     |
+|    POLEARMS     |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Bill            | C  |  16  |  N  | 2.9 | 2.2m |  2  |     |
+| Fauchard        |C/T |  16  |  N  | 2.9 | 2.1m |  2  |     |
+| Glaive          |C/T |  16  |  N  | 4.0 | 2.3m |  2  |     |
+| Guisarme        |C/T |  16  |  N  | 2.6 | 2.5m |  2  |     |
+| Halberd         |C/T |  21  |  N  | 2.8 | 2.2m |  2  |     |
+| Partisan        | T  |  11  |  N  | 2.2 | 1.8m |  2  |     |
+| Pike            | T  |  11  |  N  | 6.5 | 5.5m |  2  |     |*d
+| Pole Axe        | C  |  16  |  N  | 2.9 | 2.1m |  2  |     |
+|                 |    |      |     |     |      |     |     |
+|     STAVES      |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Quartertaff     | B  |  11  |  N  | 1.5 | 1.8m |  2  |     |*d
+| Staff           | B  |   7 *|  N  | 1.2 | 2.0m |  2  |     |*r
+|                 |    |      |     |     |      |     |     |
+| THROWN WEAPONS  |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Afr. Thr. Irons | C  |  11  |  F  | 1.2 | 0.7m |  1  |     |
+| Quoit (Chakram) | C  |   6  |  M  | 0.2 | 0.3m |  1  |     |
+| Throwing Axe    | C  |   9 *|  M  | 1.0 | 0.4m |  1  |     |*d
+| Throwning Knife | C  |   4 *|  M  | 0.2 | 0.3m |  1  |     |*d
+|                 |    |      |     |     |      |     |     |
+|   THRUSTING     |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Boar Spear      | T  |  11  |  N  | 2.3 | 1.5m |  2  |     |*d
+| Javelin         | T  |  11  |  N  | 1.7 | 2.1m |  2  |     |*d
+| Lance           | T  |  16 *|  N  | 3.7*| 4.0m*|  1  |     |*d
+| Oxtongue        | T  |  11  |  N  | 2.2 | 1.8m |  2  |     |
+| Spear           | T  |  11 *|  N  | 2.2 | 2.0m |  2  |     |*r
+|                 |    |      |     |     |      |     |     |
+|   TWO HANDED    |    |      |     |     |      |     |     |
+|                 |    |      |     |     |      |     |     |
+| Claymore        |C/T |  16 *|  C  | 2.9*| 1.2m*|  2  |     |*d
+| Maul            | B  |  11  |  C  | 4.0 | 1.1m |  2  |     |
+| War Axe         | C  |  11  |  C  | 2.0 | 1.1m |  2  |     |*r
+|                 |    |      |     |     |      |     |     |
++-----------------+----+------+-----+-----+------+-----+-----+
+</verb></tscreen>
+
+<bf/NAME/
+
+The name of the weapon. Common usage names should be used where possible.
+Unique names can be added to authenticate the fantasy background.
+
+<bf/TYPE/
+
+<itemize>
+<item>B - bludgeoning: shock and concussion
+<item>C - chopping: heavy cleaving action to hack or sever
+<item>S - slashing/cutting: drawing weapon across target to slice it
+<item>T - thrusting/piercing: penetrate or stab
+</itemize>
+
+<bf/IMPACT/
+
+A measure of the strength and efficiency of the weapon blow. Only the average
+IMPACT is listed. Two random IMPACT values are given in the table below, along
+with the IMPACT that must be used if the Precision IMPACT rule is used. The
+game master should choose which IMPACT column is to be used in his campaign.
+        
+<tscreen><verb>
++----------------+-------------------+------------------+-----------+
+| Average IMPACT | Best distribution | Best scalability | Precision |
++----------------+-------------------+------------------+-----------+
+|        4       |        1d6        |      2d6-3       |     0     |
+|        6       |        1d6+2      |      2d6-1       |     2     |
+|        7       |        2d6        |      2d6         |     3     |
+|        9       |        2d6+2      |      2d6+2       |     5     |
+|       11       |        3d6        |      2d6+4       |     7     |
+|       14       |        4d6        |      2d6+7       |    10     |
+|       16       |        4d6+2      |      2d6+9       |    12     |
+|       21       |        6d6        |      2d6+14      |    17     |
++----------------+-------------------+------------------+-----------+
+</verb></tscreen>
+
+<bf>REACH/RANGE</bf>
+
+C - close, N - near, M - moderate, F - far, E - extreme.
+
+<itemize>
+<item>Close    = use Reach (0 - 1 meter)
+<item>Near     = 1-10 meters
+<item>Moderate = 11-50 meters
+<item>Far      = 51-100 meters
+<item>Extreme  = 100- meters
+</itemize>
+
+Rating is Reach value in meters OR Rating is N, F or E followed by a number
+within the range.
+
+<bf/MASS/
+
+In kg
+
+<bf/LENGTH/
+
+In meters
+
+<bf/HANDS/
+
+Number of hands needed for normal use.
+
+<bf/SPEED/
+
+Used for rolling for declarations in combat. (See 6.5.1)
+
+<bf/STYLE/
+
+Shows the Combat Style that covers the use of each weapon.
+
+<sect3>Weapon Descriptions
+<p>
+<bf/ARTICULATED/
+
+<bf/Flail/
+
+Two stout sticks swiveled end to end. One stick serves as a handle while the
+other thrashes about.
+
+<bf/CONCUSSION/
+
+<bf/Mace/
+
+Maces made all of iron or steel are found wherever body armor has
+been used. Their weight and hardness, especially when focused into a
+spike or narrow flange, made them more effective than any type of sword.
+Although usually directed against the head, a mace blow on a limb could
+break a bone even if the armor was not pierced. (from me: there've been
+records showing attempts to ban the mace from the field by Europeans
+during the medieval times because it was so effective in staving and
+buckling armor - not to mention its ability to cripple its foe if not kill
+him) - these attempts to ban them failed most likely because they were so
+darned effective. They can be found either one handed or two handed
+(heavy maces))
+
+<bf/Maul/
+
+A heavy wooden hammer used to pound stakes into the ground.
+
+<bf>DAGGERS/KNIVES</bf>
+
+<bf/Misericorde/
+
+A dagger which was called the "dagger of mercy" with the idea
+that it was used for the quick dispatch of a suffering loser; actually
+it was the persuader which, presented point first to a fallen foe,
+impelled him to plead for mercy and come across with a health ransom.
+
+<bf>HAMMERS/AXES</bf>
+
+<bf/War Hammer/
+
+After a a paragraph about battle axes...
+<quote>
+A more simple, and perhaps more brutal weapon was the war-hammer. Although
+called a hammer (implying a blunt head), in fact it usually had a pointed
+head which was more in the nature of a pick. Such weaons were developed
+by man primitive tribes and were comparable to stone or metal axes but
+with a pointed shape. They were adopted in Europe during the 14th century
+when chain mail and other forms of armour protection were in vogue. The
+pointed head of a war-hammer proved to be an effective method of
+defeating mail, provided that the point and head were thin enough, and it
+could also be used to penetrate the joings of plate armour. With a
+pointed head on one side of the weapon and a blunt head on the other,
+the war-hammer became a twofold weapon in so far as the blunt head could
+be used to stun the opponent or unhorse him, after which the pick could
+be used to defeat his armour and give the finishing blow. The war-hammer
+saw considerable use in Europe during the 15th and 16th centuries, but its
+use declined as the armoured knight disappeared from the battlefield.
+</quote>
+
+<bf/MISSILE/
+
+<bf/African Throwing Irons/
+
+A "throwing knife" used by various groups in Africa (Sudan, Bwaka,
+Nigeria, and the Congo to name a few). These knives have multiple points
+and come in various fancy shapes, having a center of gravity somewhere
+above the handle from which the various points branch out. These tend to
+be made of iron or steel and when thrown can pierce the traget "at almost
+any attitude of impact". There doesn't appear to be a name for these -if
+there is, it probably has a great many since it can be found all over Africa.
+
+     Stones' "A Glossary of the Construction, Decoration and Use of
+Arms and Armor" mentions these but also does not provide the native
+name, additional information below is from that tome;
+<quote>
+"...there are many special forms of knife made to be thrown that would
+be of little use if handled the ordinary way. They are used
+extensively in Central Africa and are of the most extraordinary
+shapes. They are thrown horizontally from right to left and may hit
+with any one of the branches. The trajectory is a curve that inclines
+towards the right of the thrower. The maximum range is said to be
+about 100 yards; at 40 to 50 is is quite accurate. "Certain travellers
+relate that this arm thrown by a skillful hand can cut off a man's leg
+at 20 metres. Trials at the Musee du Congo Belge showed that when
+thrown from distances of 15 metres some of these throwing knives would
+go through a board 15 mm in thickness"
+	- (Congo, Feb 1922 p.1) (added by Lbeals)
+</quote>
+
+<bf/Quoit (Chakram)/
+
+One of the more remarkable thrown missiles was the Sikh chakram or
+throwing quoit, a simple circle of metal with a sharp outer circumference,
+which could be spun and then released with considerable velocity and
+accuracy. (Range: 25 meters)
+
+<bf/POLEARMS/
+
+<bf/Bill/
+
+A long shafted weapon having its head a hooklike cutting blade with
+a beak at the back.
+
+<bf/Fauchard/
+
+A larger glave with a few spurs on its unsharpened side.
+
+<bf/Glaive/
+
+A big knife blade on a pole.
+
+<bf/Guisarme/
+
+A bill with two or three extra spikes
+
+<bf/Halberd/
+
+A pole axe with a longer spear part and a crescent-shaped blade.
+
+<bf/Partisan/
+
+A oxtongue with a couple of curved points at the base of the blade.
+
+<bf/Pole axe/
+
+A battle-axe on a long pole.
+
+<bf/SPEARS/
+
+<bf/Oxtongue/
+
+A spear with a two-edged blade with a pole for a handle.
+
+<bf/SWORDS/
+
+<bf/Falchion/
+
+In war, though not in tournaments, the falchion became deservedly
+popular. It was a real snickersnee -- a sword, but built more like a
+knife or a cleaver, and nearly three feet long, with a single, curved
+cutting edge supported by a very thick-backed blade, which gave it weight
+and authority.
+
+<bf/Shamshir/
+
+Referred to by Europeans as a scimitar. For game purposes, I would group with
+this weapon the Saif and the Kilij. All of these blades are curved and single
+edged (except the kilij--specifics will be discussed later on) and the
+distinctive middle eastern cross shaped guard. The Shamshir has a blade length
+of roughly 80 cm (in a straight line this length would be longer if the blade
+were straightened) and tends to be thinner than the saif. The differences
+between the shamshir and the saif is that the saif tends to be a bit shorter
+and broader and can be found with a groove in the blade (I wouldn't call it a
+blood groove since the usage of these particular blades are in the draw cut
+style and tend not to employ stabbing motions). The Kilij is more similar to
+the shamshir with the exception that the blade broadens near the tip usually
+and has a straight sharpened edge on the back of the blade (only near the
+tip). The Saif is Arab in origin, the Shamshir Persian, and the Kilij Turkish.
+
+<bf/Shotel/
+
+The shotel is an Ethiopean sword with a blade that extends
+straightward for about 7 cm or so then curves in a crescent arc ending in
+a steadily tapered point. It is double edged and the curvature is meant
+to be used to reach around an opponent's shield.
+
+<bf/Not found in the compendium (do we want to keep those)/
+
+<bf/Hand-and-a-half (Long)/
+
+This type of sword was generally used when dismounted,
+since it demanded the use of both hands to develop the necessary force
+of blow.
+
+<sect3>Non-Human Weapons
+<p>
+If a weapon has not been designed to be used by humans, then its impact
+can be calculated from:
+<tscreen><verb>
+   Weapon Impact = Human Weapon Impact + Species STR
+      Human Weapon Impact: given in the Human Weapons table (below)
+      Species STR: average strength of the species for which the weapon was
+                   made (given in the species description).
+</verb></tscreen>
+
+For example, a pixie longsword would do an impact of:
+   Pixie Longsword Impact = Human Longsword Impact + Pixies average STR
+                          = 2d6+4 + (-6)
+                          = 2d6-2
+
+<sect2>Armor
+<p>
+Armour names and resistance value where extracted from the Palladium
+"Compendium of Weapons, Armour and Castles". Resistance is an
+approximate average of cut, chop, thrust and impact resistance.
+
+<tscreen><verb>
+ Name               Resistance       Mass*
+ ----               ----------       ----
+ Bare skin               0            --
+ Light cloth             0            1kg
+ Heavy cloth             1            2kg
+
+ Quilted                 2            2kg
+ Soft leather            3            3kg     
+ Hard leather            4            4kg
+
+ Studded leather         5            5kg
+ Chain mail             10            5kg
+ Ring mail              11           10kg
+
+ Scale mail             12           20kg
+ Splint mail            13           25kg
+ Plate mail             15           30kg
+
+Cloth, leather and padding can be combined with metal armors to increase both
+resistance and confortability.
+
+*Mass does not include padding, which is necessary for metal armors.
+</verb></tscreen>
+
+Armors can also be fitted to spesific bodyparts. The price for such armors are
+based on a percentile value of the total armor cost.
+
+<itemize>
+<item>Head: 5%
+<item>Arm: 20%
+<item>Leg: 25%
+<item>Chest/Torso: 40%
+<item>Groin: 10%
+</itemize>
+
+<sect3>Shields
+<p>
+<tscreen><verb>
++---------+-------+--------+---------+--------+-----+
+|  NAME   | Size  | Weight | Defense | Bash   | QLT |
+|         | (m)   |  (kg)  |  bonus  | IMPACT |     |
++---------+-------+--------+---------+--------+-----+
+| Buckler |  0.3  |   2    |   +1    | 2d6-4  |  2  |
+| Round   |  0.5  |   3    |   +2    | 2d6-3  |  2  |
+| Knight  |  1.0  |   4    |   +3    | 2d6-2  |  3  |
+| Kite    |  1.0  |   5    |   +4    | 2d6-1  |  3  |
+| Tower   |  2.0  |   8    |   +5    | 2d6    |  4  |
++---------+-------+--------+---------+--------+-----+
+</verb></tscreen>
+
+<bf/Size/
+
+The size of the shield (diameter or height) in meters.
+
+<bf/Weigth/
+
+The mass of the shield in kilograms.
+
+<bf/Defense bonus/
+
+A bonus to the defense skill on the relative size of the shield. This bonus
+accounts for the fact that merely wielding a shield provides a limited amount
+of cover.
+
+<bf/Bash IMPACT/
+
+The amount of impact done when the shield is used in an attack.
+
+<bf/QLT/
+
+The quality of the sheild.
+
+<sect1>Innate Gifts and Foibles for Species Creation
+<p>
+The following are available to all NON-HUMAN species for species creation:
+
+<tscreen><verb>
+Innate Gifts             EP Cost
+------------             -------
+Amphibious                 +500
+
+Attack method, physical  +5 for every 4 points of IMPACT per attack method
+   IMPACT 1-4                +5
+          5-8               +10
+          9-12              +15  etc.
+
+Blinking                    +20
+
+Disease attack              +50 * strength (GM's determination)
+
+Fear attack                 +40
+
+Fire attack                 +50
+
+Flying ability             +100
+
+Immunities
+   Elements
+   Magic
+   Weapon
+
+Infravision              +5 / 10 m
+
+Invisibility
+
+Paralysis attack
+
+Petrification attack      
+
+Poison attack             +50 * strength (GM's determination)
+
+Shapechanging            Variable
+   Per form                 +50 (Unlimited forms = +1000)
+   n times daily            x n (Unlimited = x1000)
+
+Telepathy
+   Specific creature        +20
+   Specific species        +200
+   Multiple species       +2000
+   Any species           +20000
+
+Teleporting              Variable
+   Per every 10 m           +10 (Unlimited = +100000)
+   n times daily            x n (Unlimited = x10000)
+
+
+Innate Foibles           EP Cost
+--------------           -------
+</verb></tscreen>

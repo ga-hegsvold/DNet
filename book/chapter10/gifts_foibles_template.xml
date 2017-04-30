@@ -1,0 +1,12 @@
+<sect1><title>Gift/Foible Template</title>
+<screen>
+Gift/Foible Name
+----------------
+World:
+Author:
+Version:
+----------------
+EP Cost: (EP Cost * Severity Multiplier * Campaign Multiplier) Total EP Cost
+Description:
+</screen>
+</sect1>

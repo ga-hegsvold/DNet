@@ -1,0 +1,30 @@
+<sect1><title>Culture Template</title>
+<screen>
+Culture Name
+------------
+World:
+Author:
+Version:
+------------
+Habitat:
+Social Structure:
+Political Structure:
+Economic Structure:
+
+Skill Packages:
+(List the package name and skill areas)
+
+Common Skills:
+(common types of skills possessed by members of the culture. List
+individual skills, skill areas, or descriptions of the type of skills.
+These are NOT skills that all members of the species will have; they are
+just common skills that a majority would probably have)
+
+Notable relations with other cultures:
+(relations with other cultures that play a large role in the culture
+(e.g. long lasting blood feud/war, dependency on or providing for other
+cultures))
+
+Description:
+</screen>
+</sect1>

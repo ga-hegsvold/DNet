@@ -1,0 +1,207 @@
+DragonNet FAQ
+
+1. What is DragonNet?
+
+     DragonNet (abbreviated DNET) is a group effort to create a
+fantasy-oriented role-playing system, but DNET may be amended in the future to
+encompass other genres.
+
+
+2. What is the DragonNet system?
+
+     The DragonNet system is still taking shape.  But it will be a hybrid
+system that takes advantage of occupation-oriented systems and skill-based
+systems.  DragonNet will have elements of both.  DragonNet is intended to be
+simple to learn, but also to be rich and complex enough to be enjoyed by
+experienced gamers of all ages.  Specific aspects of the DragonNet system will
+be posted on rec.games.design for discussion by the Net gaming design
+community, although any actual revision to the game system will be done via
+the mailing lists (see question 6 below).  As always, we welcome any
+constructive comments.
+
+
+3. Why DragonNet?
+
+     Recently, certain companies have taken a very unfriendly stance to the
+traditional openness and sharing of the InterNet (at least the openness and
+sharing that was present before the introduction of certain legislation, but
+we won't go into that here).  Certain companies have made the atmosphere in
+certain InterNet newsgroups very unfriendly, and have actively discouraged
+creativity.  A few people found these practices distasteful enough, that we
+banded together and determined to create a new system, free from entangling
+alliances with certain large corporations and their rabid legal departments. 
+DragonNet is the fruit of that determination.
+
+
+4. Is DragonNet compatible with other gaming systems?
+
+     DragonNet is intended to be an independent and self-sufficient gaming
+system.  It is not intended to be compatible with other gaming systems.  We
+may develop conversions for popular gaming systems at some point in the
+future.
+
+
+5. Is DragonNet Public Domain?
+
+     DragonNet is NOT Public Domain (PD).  The authors of this project do not
+wish to see it co-opted by the unethical or greedy.  However, DragonNet will
+be freely available to the InterNet community and distributable in its
+complete form.  DragonNet has adopted a licensing system so that the integrity
+of the game can be assured.
+
+
+6. What is the organization of the DragonNet group?
+
+     The DragonNet effort is divided up into teams working on specific aspects
+of the DNET system. Each team is lead by a team leader who coordinates the
+team's input and keeps the group and the organizational leader informed of
+progress.  The names of the groups and other important people, along with
+e-mail addresses are shown below:
+
+DragonNet Coordinator:  J. Patrick MacDonald
+                        (eagle@ksu.ksu.edu)
+
+Keeper of E-mail Lists:  Stephen Smoogen
+                        (smooge@s0ren.shout.net)
+
+Keeper of the FAQ:      Robert Baker
+                        (rbaker@gas.uug.arizona.edu)
+
+Core:                   Bob Hansen
+                        (bob@skypoint.com)
+
+           Combat            Stephen Smoogen
+                             (smooge@s0ren.shout.net)
+
+Exotica                      Alex Moon
+(Magic, Spells, Psionics)    (moon@sonata.cc.purdue.edu)
+
+Game Worlds                  Del Hart
+                             (hart@cs.wustl.edu)
+
+Publications                 J. Patrick MacDonald
+(Editing, Programs, Art)     (eagle@ksu.ksu.edu)
+
+Miscelaneous                 Del Hart (temporary)
+                             (hart@cs.wustl.edu)
+
+
+7. Who can participate?
+
+     Anyone can participate in the DNET development project.  People can sign
+up for one or more of the mailing lists dedicated to the design of a specific
+area of the system.  The lists are shown below (all addresses are
+<list>@s0ren.shout.net):
+
+Open access lists (anyone can join at any time):
+   dnet - the general info list.
+   dnannounce - for general announcements.  A low volume list.
+
+Please ask the list leader before subscribing to any of the following lists:
+   dncore - for development of the core rules.
+   dncombat - for the development of the combat system.
+   dnexotica - for the Exotica team
+   dnpubs - for the Publications team
+   dnworlds - for the Game Worlds team
+   dnmisc - A low volume, high creativity list.  Encompasses anything only
+peripherally covered by the other lists including: fiction, artwork, combat
+(both armed and unarmed) styles, magic spells, magic items, monsters, NPCs,
+legends/stories, etc.
+
+To sign up for a specific list, send an e-mail message to
+<list>-request@s0ren.shout.net.
+Make the subject: Ping
+And in the body of the message put:
+Who
+Sub
+Who
+
+<list> is the name of the list: dnet,dnpubs,etc
+The ping makes sure the software is working right.
+The who shows who is on the list
+The sub subscribes you.
+The 2nd who should have you on it.
+
+To unsubscribe from a given list, do exactly the same as above, but replace
+`Sub' with `Uns'.
+
+Once subscribed to a given list(s), please send an e-mail message to the list
+(or the team leader) to let people know that you're on.
+
+
+8. What are the goals of the DragonNet teams?
+
+Many of the goals listed below have been met to date.  A number of others have
+yet to be completed.
+
+     CORE
+(Skills, Combat, Core Mechanics) Core Mechanics will express the basic
+operation of the game.  It will determine how skills and abilities are
+expressed. This group is not responsible for producing the actual skills,
+spells, or abilities.  Skills will develop the skills that are to be used in
+the system.  The list will be relatively complete, and should cover everything
+from crafts (silversmithing, farming, carpentry) to adventuring skills like
+lock picking.  Combat will produce the rules for combat resolution.  This
+includes rules and skills for both armor and weapon use.  This team will also
+produce a list of weapons and armor.
+
+     EXOTICA
+     (Magic, Psionics)
+Psionics will produce the psionics system.  The goal is to produce a system
+compatible with the Magic system.  The magic Spells team has two goals.  The
+first is to produce a unique, general magic system. The second is to produce a
+list of magic spells.  The magic system will point-based to allow more
+flexibility and creativity.  The Magic Items team will create a large listing
+of magic items for the DragonNet system.  Items should range from wimpy to
+powerful, from normal to clever to strange.  This team will also provide rules
+for item creation.
+
+     GAME WORLDS
+The Worlds group is responsible for producing a game setting(s) for use with
+the DragonNet system.  These worlds will be rich enough in detail that they
+can be played in any campaign with as little or as much preparation by the
+individual GM as desired.  The Worlds group is also responsible for collecting
+resources which can be useful to any campaign setting.
+
+     PUBLICATIONS
+     (Includes Editing, Artwork, and Software)
+Editing will ensure that the materials produced by other teams is
+understandable and internally consistent.  Publications will make the
+DragonNet system available through ftp, WWW, as well as by paper. 
+Publications will also make future supplements to the DragonNet system
+available to users.  Artwork will be providing illustrations for important
+aspects of the game, as well as background art for published materials. 
+Character races will definitely be included, and monsters as time permits. 
+Artwork will available in a variety of digital formats for the convenience of
+DragonNet users.  Software will write and compile code for DragonNet
+utilities, such as character generators.
+
+
+10. Can I get more information about DragonNet?
+
+     Yes.  We will make regular updates on our progress through both
+rec.games.design and the Official DragonNet Homepage. The homepage can be
+viewed by opening URL
+
+http://s0ren.shout.net/~smooge/dnet
+
+     Additional information can also be found by accessing the following URL:
+
+http://www.cis.ufl.edu/~jburk/dnet
+
+
+11.  Can I download the up-to-date game rules as one document rather than as
+about a billion HTML docs?
+
+     Yes.  The most current version of DragonNet can be retrieved from
+
+ftp://ftp.shout.net/pub/users/smooge/dnet
+
+
+Last updated: April 3, 1996
+Robert Baker
+rbaker@gas.uug.arizona.edu
+-------------- End Enclosed Text -------------
+
+
+

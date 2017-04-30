@@ -1,0 +1,2659 @@
+Hi once again,
+
+As far as how to split things up I'll say again, it doesn't matter
+to me. So if someone wants to try to split it up differently then
+go for it. My only comment will be that I think it is good to keep
+clear what will work with anything and what won't. Take the species
+example (i'm playing a character and i want to bring it to a new world)
+If I'm playing an elf and i go somewhere else, and the elf species there
+is different from the one I'm playing is the same situation that would
+occur if i was playing a species that didn't exist in that game world.
+
+On to new stuff.
+
+I sent some mail earlier this week to exotica to see if anything is
+still happening there....no response, so i decided to go ahead and
+make some modifications, mostly adding stuff to make spell creation
+easier. The other thing i did was add some guidelines in the rules
+for people to define their own types of magic. (Example, for myself
+i don't care for the celestial conductors, i would rather integrate
+them into the elemental stuff to make everything simpler.) You may
+say that I am encouraging people to make their own. My reply is that,
+if they are going to they will whether or not their are allowances 
+in the rules for it. I just added the allowances, so that eventually
+we all have a common ground to start from when talking about the
+different types of magic. 
+
+There is still stuff to be done. I think that a spell list though
+would be more appropriate in the worlds section YMMV. I will not
+fight to keep these changes that I've made, but if you don't like
+them (especially the spell guidelines) you should offer an alternative
+which is better. 
+
+Sorry for repeating this but, if you don't like what I did, replace
+it with something better (or at least something :).
+
+*************************************************************************
+TO DO -> integrate all the rule revisions of version 2.1
+      -> verify the odds in section 5.2
+      -> revise the graded outcomes system to replace the multipliers 
+         (TDx2, TD/5) by additive offsets (TD+X, TD-X)
+      -> add rules for poison and correct the section refering to resisting
+         poison with an attribute check
+      -> add LIFT and LOAD to the new STR table (then remove the old one)
+      -> add the OPTIONAL rule for skill advancement
+      -> decide if we like this format
+
+3.0b1 (never posted)
+      -> added Combat 3.0b1 into the alpha 2.0 rules
+      -> made a few additional modifications in the rules, especially with
+         regard to dice rolls (d10 now ranges from 0 to 9)
+
+3.0b2 -> added Combat 3.0b2.
+      -> changed the DEX definition to include fine motricity of the arms, 
+         which was necessary for some combat styles and related game balance.
+      -> in character creation, moved the choice of the species before the 
+         choice of the career, so that it is easier to pay the EP Cost 
+         associated with the species.
+3.0b3 -> separated the rules from the world specifics
+      -> added current versions of templates
+      
+3.0b4 -> Modified the magic section. Added guidelines for spell creation
+         and using other magic types. Added templates to the template
+         section.
+         '+' at the beginning of the line represents changes.
+*****************************************************************************
+TABLE OF CONTENTS:
+
+SECTION 1   INTRODUCTION
+   1.1   What is DNet?
+   1.2   Distributing DNet
+   1.3   Terms and Concepts
+         1.3.1   Talent
+         1.3.2   Training
+         1.3.3   Skill
+         1.3.4   Heaps
+
+Section 2   DICE
+   2.1   Task Resolution
+   2.2   Weapon Damage
+   2.3   Experience
+   2.4   Reroll Method
+
+Section 3   CHARACTER CREATION
+   3.1   Talents
+         3.1.1   Physical Talents
+         3.1.2   Mental Talents
+   3.2   Talent Tables
+         3.2.1   Strength Table
+   3.3   Generating Talents
+         3.3.1   Buying Talents
+         3.3.2   Rolling for Talents
+   3.4   Careers
+   3.5   Starting Experience Points
+   3.6   Steps for Completing a Character
+
+Section 4   SKILLS
+   4.1   Skill Competency
+   4.2   Skill Costs
+   4.3   Untrained Penalty (UP)
+   4.4   Skill Advancement
+
+Section 5   TASKS
+   5.1   Task Resolution
+   5.2   Relative vs Absolute Tasks
+   5.3   Task Difficulties
+   5.4   Task Resolution when no skill is used
+   5.5   Contested Skill Task Resolution
+   5.6   Composite Task Resolution
+   5.7   Combining efforts
+   5.8   Graded outcomes (Optional)
+
+Section 6   COMBAT
+   6.1   Introduction
+   6.2   Basic Premises
+         6.2.1   The Combat Round
+         6.2.2   Combat Styles
+         6.2.3   Impact, Damage and Injury
+         6.2.4   Combat Round Sequence
+   6.3   Combat Sequence
+         6.3.1   Declaration
+                 6.3.1.1 Initiative
+         6.3.2   Action resolution
+                 6.3.2.1 Targeting
+                         6.3.2.1.1 Task Difficulty Modifiers
+                         6.3.2.1.2 Skill Modifiers
+                 6.3.2.2 Damage and Injury
+         6.3.3   Survival checks
+   6.4   Movement and Distances in Combat
+         6.4.1   Combat Movement
+         6.4.2   Attack reach
+         6.4.3   Combat Hex Grid
+   6.6   Unarmed Combat
+         6.6.1   Unarmed Attacks
+         6.6.2   Unarmed weapon types
+         
+Section 7   MAGIC
+   7.1   Introduction
+   7.2   Overview
+   7.3   Magic Skills
+         7.3.1   Sources
+         7.3.2   Conductors
+   7.4   Magic Types
+   7.5   Magic Spells
+         7.5.1   Casting Spells
+         7.5.2   Spell Attributes
+         7.5.3   Tweaking Spells (Optional)
+         7.5.4   Making Spells
+
+Section 8   MISCELLANEA
+   8.1   Experience awards
+   8.2   Experience Dice (Optional)
+   8.3   Templates
+         8.3.1 Species
+         8.3.2 Culture
+         8.3.3 NPC
+         8.3.4 Deity
+         8.3.5 Adventure
+         8.3.6 Magic Type
+         8.3.7 Spell
+
+Appendix A  GLOSSARY
+
+Appendix B  DESIGNER NOTES
+
+Appendix C  DNET PARTICIPANTS
+
+***************************************************************************
+SECTION 1     INTRODUCTION
+
+-----------------
+1.1 What is DNet?
+-----------------
+
+DragonNet RPG
+----------------- 
+DragonNet is a Role Playing Game (RPG) developed by a group of volunteers
+over the Internet. The game is donated to the gaming community as
+described under copyright and license. We hope that you enjoy our game. We
+encourage you to use it; to change parts that don't fit in your game
+worlds; to create new monsters, spells and rules; and to share your
+creative efforts with other gamers. 
+
+Why Another RPG?
+----------------
+There are a lot of RPG systems out there. Almost everybody has its
+favorites. Everybody's played AD&D (tm). There are new games every year.
+Why another one? Well, we weren't happy with the other games we've seen
+for several reasons. We felt that if we could use what we've learned from
+years of gaming experience, we could develop a system that corrected the
+mistakes and imbalances of other games. We hope we've accomplished that. 
+
+"First Kill all the Lawyers" - William Shakespeare
+---------------------------------------------------
+
+As many of you know, TSR has recently cracked down on the distribution of
+user created materials for use with their AD&D (tm) game. The letter
+posted to rec.games.frp.dnd written by a TSR lawyer to a sysadmin 
+caused quite a stir. Was there a company that provided a game where 
+users were encouraged to develop material for the game and use it 
+freely? We couldn't find one so we decided to develop our own.
+
+The intellectual property owned by some game company is not what makes
+role-playing an enjoyable hobby. (We argue it is their intellectual
+property that causes many of the problems!) We decided to develop our own
+fantasy RPG that would meet the needs of the net.community. One that could
+be enjoyed without fear of legal retaliation. 
+
+Open Systems Development Philosophy
+-----------------------------------
+Unix is a popular computer operating system for two primary reasons. One:
+it's free (usually), and Two it uses an open system architecture. Computer
+operating systems and RPG's actually have a lot in common. They are simply
+a set of logical rules combined with a syntax. This combination results in
+a system where user defined modules interact. RPG mechanics are also a set
+of rules and syntax for the purpose of role playing or story-telling. If
+Unix can be successful as a free system with open system architecture,
+DragonNet should be successful as a free open-system RPG. 
+
+You already know what free means, and it's nice not to have to shell out
+$20.00 for the latest RPG game. Not to mention the continual drain on your
+pocketbook for the latest supplement. So what does open-system
+architecture mean? Well simply it means that you know all the information
+that was used to design the system. You are free to tinker with the insides
+of the system. You can change it. Improve it. Distribute it. Expand it.
+Bend it. Fold it. Mutilate it. Staple and spindle it. 
+
+In fact we knew when we started this project we wouldn't have the time to
+fully develop every aspect of a good RPG. We hope you will take the
+opportunity to carve out a portion of reality. Study it carefully. Ponder
+it as you read through our Designer's Notes. Write up your new material
+and distribute it to the gaming world. That is after all why we started
+DragonNet. We felt it would serve our own self interest. We want to see
+what you can develop. 
+
+Design Philosophy
+-----------------
+If you want to design materials for use with DragonNet you have two
+options. You can develop unnofficial material yourself. Or you can join
+the DragonNet team. Either way, you'll want to understand the design
+philosophy we employed in creating the Dragon-Net Game. 
+
+The Quest for Realism
+---------------------
+Almost all of us started RPG's with one of the early RPG systems. It was
+fun for a while, but as we progressed they lost some of their charm.
+Perhaps our character had progressed to beyond the 10th level and game
+balance was forever lost. Maybe we no longer felt we had enough options,
+or it seemed stupid that our fighter could dive off a 100 foot cliff into
+solid rock and pick himself off the ground with relatively minor injuries.
+In any event, we decided we could improve the system. We started by
+working within the systems framework. Soon we exhausted all the
+possibilities. Many of the problems were fundamental flaws in the games
+themselves unable to be easily fixed without causing major problems
+somewhere else. Next we moved on to other systems. We tried RuneQuest(tm)
+or RoleMaster(tm). Then we moved on to "third generation" games such as
+Hero (tm) or G.U.R.P.S. (tm). Still we were unsatisfied. We questioned why.
+These games were rich with detail. The realism we craved was there. Why
+did they lack the charm of those first RPG sessions? 
+
+The reason we believe is that realism is not the grail RPG designers
+should seek. Adding realism for it's own sake takes away the wonder of the
+game. The mechanics begin to bog down the flow of play. We lose the drama
+inherent in the plot. The story becomes dull. The game unplayed. The true
+alignment principle game designers should strive for is elegance. A RPG
+can be realistic to the extent that it uses simple, fast moving mechanics.
+Gritty realism is less important than plausibility. A RPG is much like a
+novel. Many realistic games get bogged down in the mechanics. This is as
+dangerous for a GM as concentrating on technique alone would be for a
+writer. The RPG system is there to enhance the story. The story is not a
+vehicle for the RPG system. 
+
+Simplicity vs. Complexity
+-------------------------
+Within the context of an elegant game, simplicity is key. When game
+mechanics are simple and can be handled quickly they contribute to an
+enjoyable role playing session. When they are bulky, get in the way, or
+require frequent die rolls or multiple table lookups we lose the sense of
+action, the drama of the events happening in the game world. Complexity is
+an enemy that must be guarded against. If we fail to be watchful it creeps
+into our systems. It destabilizes game balance and slows the play. The
+rules drive the game. This is not what a RPG should be. 
+
+Key Development Principles
+--------------------------
+Simplicity. DragonNet should be a very simple game to play. All the
+numbers needed for play should be available on the player's character
+sheet. NPC stats should easily fit on a 3x5 card. Table lookups should be
+infrequent or non-existent, particularly during play. Only a limited
+number of dice should be used (d10 and d6). Dice mechanics should be
+similar, and there should be no more than 2 or 3 varieties. Skill and
+attribute checks should occur in basically the same manner. Simplicity
+should not however preclude the richness of systems enjoyed by experienced
+players. 
+
+Intuitive. DragonNet should be intuitive. Jargon and Acronymns should be
+avoided. High die rolls should be good, low rolls bad. Game abstractions
+should make sense relative to the real world. This should not be confused
+with realism. Dnet is not a detailed, gritty, realistic system.
+Abstractions have a basis in reality. As an example in AD&D (tm), hit points 
+are an abstraction that includes luck, skill, endurance and physical health.
+When you lose hit points in AD&D (tm) you are not necessarily taking wounds. 
+This kind of abstraction should be avoided. 
+
+Flexible. DragonNet as a licensed game will be available for all GM's to
+tinker with. This should be encouraged, even built into the system. Each
+section of the game, Character Creation & Advancement, Skills, Combat,
+Magic, etc. should have a set of basic rules that are easy to play,
+understand and use. Each section should also have a set of Advanced Rules
+that add flavor to the game. These advanced rules should allow characters
+to move seamlessly between the systems. All advanced rules would be
+strictly optional. GM's could pick and choose among the optional rules
+they will use. 
+
+Expandable. DragonNet is an Open-System design. As such, it should be
+easily expandable by the user. The game design should be such that player
+and GM's can easily add monsters, spells, skills, character types and
+cultures without disturbing game balance or violating the integrity of the
+system. 
+
+Quality. DragonNet should be a high quality product. Suitable for
+publication by any of the major game publishing companies. It should
+include quality color artwork, be well written and meticulously edited. It
+should be made available through anonymous ftp as text, postscript, and
+through www as hypertext formats. 
+
+---------------------
+1.2 Distributing DNet
+---------------------
+
+This game is available free of charge from the several on-line archives.
+This game may be freely reproduced & distributed electronically or in
+hardcopy, provided the following conditions are met: 
+
+     * Leave all copyright, distribution, attribution, and DragonNet Team
+       information intact. Permission expressly granted for conversion to 
+       other formats. Translation of this game to other languages must
+       include the following disclaimer on the title page, both in English
+       and in the target language:
+     
+       "This document is a user translation of the DragonNet RPG. It is not 
+        endorsed or otherwise acknowledged by the DragonNet Team."
+       
+       You can contact the DragonNet Team for official approval of your
+       translation.
+
+     * For-profit distribution of printed versions of the guide is
+       forbidden, unless permitted in writing. However, you may print out
+       copies and recoup the cost of printing and distribution by
+       charging a nominal fee.
+
+     * Any for-profit non-paper distribution (such as shareware vendor
+       diskettes, CD-Rom collections, etc.) must be approved by the
+       DragonNet Team (the time- and usage-based access fees of on-line
+       services, bulletin boards, and network access providers are
+       specifically exempted).
+
+     * You may not charge a for-profit fee specifically for this game,
+       only for a collection containing the guide, with the exceptions
+       of nominal copying charges and on-line usage fees as exempted
+       above).
+
+     * Qualitative modifications of this game must include the following
+       disclaimer on the title page:
+
+     "This document is a user contributed work designed for use with or
+     in lieu of the DragonNet RPG. It is not endorsed or otherwise
+     acknowledged by the DragonNet Team."
+
+----------------------
+1.3 Terms and Concepts
+----------------------
+To play a DragonNet game, there are a few terms that must be known. 
+We've tried to keep terminology to a minimum, but it inevitably creeps 
+in. Where we have specific terms for RPG constructs, we have tried to 
+make them as intuitive as possible.
+
+
+1.3.1 Talent
+------------
+Talent describes a character's natural ability in a particular area. A 
+character's strength talent is a measure of their ability to lift loads, 
+carry weight and deal damage in combat. Other systems refer to a 
+characters natural abilities as attributes or abilities. We use the term 
+Talent (though you may find attribute in certain places in the draft rules).
+
+
+1.3.2 Training
+--------------
+Training is the amount of learned experience a character has in a given 
+skill or area. This includes formal and informal education, obtained at a 
+university or the school of hard knocks. A character gains training 
+through practice, study and use of skills. Experience can be used to 
+increase a characters training level in a skill.
+
+1.3.3 Skill
+-----------
+Skill is the effectiveness of a character in a particular area. Skill 
+includes both the characters natural talent and his level of training. 
+
+[Skill = Talent (Ta) + Training (Tr)]
+
+DragonNet is a skill based system, so most of a character's abilities 
+will be described as skills. 
+
+1.3.4 Heaps
+-----------
+Heaps are numeric values that start at 0 and go up. High Heap values are
+bad and low Heap values are good.
+
+Some Heaps used in DNet:
+   Encumbrance
+   Injury
+   Fatigue
+
+Heaps work similarly to Task Difficulties (See Skills), except that they 
+are variable. For example, when a character takes sufficient injury, he makes 
+a survival check by rolling dice and comparing the result (modified by 
+appropriate Talents, skills or Traits) to his Injury heap.
+
+***************************************************************************
+SECTION 2     DICE
+
+---------
+2.0 Tasks
+---------
+Characters in roleplaying games are constantly trying to do things. 
+Picking pockets, casting spells, haggling the price of an item with a 
+shopkeeper, etc. Whenever a character attempts to do something, it is 
+referred to as a Task. DragonNet uses the same consistent format for all 
+tasks. Whether you are swinging a sword, picking a lock, or fast-talking 
+a town guardsman, you will always use the same game mechanics.
+
+-------------------
+2.1 Task Resolution
+-------------------
+Tasks are resolved by rolling dice, adding the characters skill or 
+ability to the die roll, and comparing the result to a Task Difficulty. 
+If the die roll plus the ability is greater or equal than the difficulty, 
+the task succeeds. If it is less, the attempt fails. Optionally, the Game 
+Master may use the amount by which the attempt fails or succeeds to 
+determine the degree of success or failure.
+
+Two ten sided dice are rolled for task resolution. DragonNet uses an
+open-ended die roll method designated 2d10* (See re-roll method below). An
+initial roll of 0 will be considered an auto-failure with rules for
+circumstances where an auto-failure should not apply. 
+
+-----------------    
+2.2 Weapon Damage
+-----------------
+Six sided dice are used for weapon IMPACT. Each weapon has an IMPACT 
+of 2d6+X, where X generally ranges from -2 to +14.
+
+--------------
+2.3 Experience
+--------------
+Experience Points can be awarded with Experience Dice (d6). Some GM's may 
+not like this level of randomness, and are free to set EP's as a fixed 
+amount as outlined in the section on experience. In that case the dice 
+range can be used as a guide.
+
+-----------------
+2.4 Reroll Method
+-----------------
+Any roll of doubles, except double 0s, will generate a reroll. All rolls
+are summed together and rerolls continue for all doubles rolled except
+double 0s. A roll of double 0s during a reroll ends the roll and 0 is
+added to the current total. Using this method is denoted as 2d10*
+throughout the rules.
+
+Example: 1st roll  7 + 7 = 14 
+         reroll    2 + 1 =  3 
+ 
+Thus, the outcome of the 2d10* roll is 14 + 3 = 17. 
+ 
+Example: 1st roll  6 + 6 = 12 
+         reroll    9 + 9 = 18 
+         reroll    5 + 5 = 10 
+         reroll    8 + 9 = 17     
+ 
+Thus, the outcome of the 2d10* roll is 12 + 18 + 10 + 17 = 57. 
+ 
+Example: 1st roll  0 + 0 = automatic failure!
+
+Example: 1st roll  8 + 8 = 16
+         reroll    1 + 1 =  0 and rerolls stop
+
+Thus, the outcome of the 2d10* roll is 16 + 0 = 16.
+
+***************************************************************************
+SECTION 3     CHARACTER CREATION
+
+Steps to create a character:
+
+Step 1: Buy Talents using Talent Points
+          or
+        Roll for Talents
+
+Step 2: Using Experience Points,
+        - Select a Species
+        - Buy Gifts and Foibles
+        - Buy Skills
+
+-----------
+3.1 Talents
+-----------
+In the DragonNet system, a character is defined by ten primary Talents. 
+These are described hereafter and have been split into two categories - 
+(1) physical and (2) mental.
+
+Physical: Fitness, Agility, Manual Dexterity, Strength, Beauty
+Mental:   Intelligence, Will Power, Perception, Aura, Psyche
+ 
+Human Talents are in the range -5, -4, -3, -2, -1, 0, +1, +2, +3, +4, +5.
+However, Talents are open-ended on both the negative and positive side.
+
+Talent  Description
+------  -----------
+ -10*   (Minimum Character Species Talent)
+  -9*
+  -8*
+  -7*
+  -6*
+  -5    Minimal
+  -4    Sub-"human"
+  -3    Feeble
+  -2    Deficient
+  -1    Below Average
+   0    Average
+  +1    Above Average
+  +2    Exceptional
+  +3    Gifted
+  +4    Prodigious
+  +5    Superior
+  +6*   Heroic
+  +7*
+  +8*
+  +9*
+ +10*   (Maximum Character Species Talent)
+
+*Assuming modifiers for species
+
+3.1.1 Physical Talents
+----------------------
+
+Agility (AGI)
+-------
+Agility represents body control (static and motive) and connectivity.
+It includes balance, rhythm, and flexibility.
+ 
+Beauty (BEA)
+------
+Beauty simply defines how good a character looks in terms of sheer 
+physical attractiveness. It can be particularly important when you have 
+no time to argue or express yourself but must still leave a good 
+impression.
+ 
+Manual dexterity (DEX)
+----------------
+Manual dexterity includes hand-eye coordination, fine motricity of the 
+arms and hands, and sensitivity of touch.
+ 
+Fitness (FIT)
+-------
+Fitness is an indicator of bodily health (including resistance to 
+hardship, injury and disease) and metabolic efficiency. Running for 
+two hours without halt is a good example of a fitness related 
+activity.
+ 
+Strength (STR)
+--------
+Strength is a rating of physical power, both in its instantaneous 
+explosive expression and in its prolonged and measured form.
+
+
+3.1.2 Mental Talents
+--------------------
+
+Aura (AUR)
+----
+Aura is the non-tangible complement to beauty. It represents a 
+character's ability to impress, influence, seduce, command and lead 
+people. Qualities such as natural charisma, personal magnetism, and 
+sex appeal are greatly influenced by a character's aura.
+ 
+Intelligence (INT)
+------------
+Intelligence encompasses memory, analytical and reasoning ability, and 
+speed of thought. A high intelligence indicates a natural aptitude for 
+the generation, retention, and understanding of linear thought.
+ 
+Perception (PER)
+----------
+Perception includes alertness and observational acuity. A character with 
+a high perception score has keen senses and is less likely to be 
+surprised by unexpected developments.
+ 
+Psyche (PSY)
+--------------
+Psyche is the emotional counterpart to intelligence. It rates a 
+character's ability to engage in creative, intuitive, spiritual and 
+transcendental thought. Amongst other things, Psyche enables interaction 
+with the supernatural, including the gods, the spirit of Nature, and the 
+mysteries of the universe.
+ 
+Willpower (WIL)
+--------------
+Willpower is an indicator of self discipline (determination and persistence) 
+and mental fortitude (resistance to influence, pain and stress).
+
+-----------------
+3.2 Talent Tables
+-----------------
+
+3.2.1 Strength Table
+--------------------
+
+Size factor  Strength factor   SR    STR   Height    Humanoid species
+----------------------------------------------------------------------
+  0.0623          0.0039      -10    -20    11cm          Pixie
+  0.108           0.012        -8    -16    20cm
+  0.189           0.036        -6    -12    34cm
+  0.329           0.11         -4     -8    59cm
+  0.378           0.14         -3     -7    68cm
+  0.435           0.19         -3     -6    78cm
+  0.500           0.25         -2     -5    90cm
+  0.574           0.33         -2     -4    1.0m          Hobbit
+  0.659           0.43         -1     -3    1.2m          
+  0.758           0.57         -1     -2    1.4m                
+  0.870           0.76          0     -1    1.6m          Elf
+  1.0             1.0           0      0    1.8m (5'11")  Human
+  1.15            1.32          0      1    2.1m
+  1.32            1.74          1      2    2.4m
+  1.52            2.30          1      3    2.7m
+  1.74            3.04          2      4    3.1m
+  2.00            4.01          2      5    3.6m
+  2.30            5.29          3      6    4.1m
+  2.64            6.98          3      7    4.8m
+  3.04            9.22          4      8    5.5m
+----------------------------------------------------------------------
+
+---------------------------------------------------
+ STR        LIFT       LOAD       Species Benchmark
+---------------------------------------------------
+-100                              Ant
+ -75                              Spider
+---------------------------------------------------
+ -50                              Minuteman*
+ -45                              Dapperling*
+ -40                              Fairy*
+ -35                              Newt*    
+ -30                              Lilliputian*
+---------------------------------------------------
+ -25                              Diminudon**
+ -24                              Minikin*
+ -23                              Carbunculous**
+ -22                              Doll Golem
+ -21                              Imp
+---------------------------------------------------
+ -20        600g       300g       Leprechaun
+ -19        667g       334g       Clurichaune*
+ -18        750g       375g       Dwerger* 
+ -17        857g       429g       Quarterling*
+ -16         1.0       500g       Homonculous
+---------------------------------------------------
+ -15         1.2       600g       Dragonette
+ -14         1.5       750g       Quasit
+ -13         2.0        1.0       Mannikin*
+ -12         3.0        1.5       Cat
+ -11         4.0        2.0       Pixie
+---------------------------------------------------
+ -10         6.0        3.0       Brownie
+  -9         6.7        3.3       Sprite
+  -8         7.5        3.75      Mandrake*
+  -7         9.0        4.5       Nymph
+  -6        10.0        5.0       Gremlin
+---------------------------------------------------
+  -5          12        6.0       Nixie
+  -4          15        7.5       Kobold
+  -3          20       10.0       Goblin
+  -2          30       15.0       Halfling
+  -1          40       20.0       Gnome
+---------------------------------------------------
+   0          60         30       Human
+---------------------------------------------------
+  +1          90         45       Bugbear
+  +2         120         60       Gnoll
+  +3         180         90       Lizard Man
+  +4         240        120       Minotaur
+  +5         300        150       Ogre
+---------------------------------------------------
+  +6         360        180       Troll
+  +7         420        210       Flesh Golem
+  +8         480        240       Vampire
+  +9         540        270       Clay Golem
+ +10         600        300       Cave Giant*
+---------------------------------------------------
+ +11         900        450       Sand Giant*
+ +12        1200        600       Forest Giant*
+ +13        1800        900       Hill Giant
+ +14        2400       1200       Stone Giant
+ +15        3000       1500       Mountain Giant
+---------------------------------------------------
+ +16        3600       1800       Frost Giant
+ +17        4200       2100       Fire Giant
+ +18        4800       2400       Cloud Giant 
+ +19        5400       2700       Sea Giant*
+ +20        6000       3000       Storm Giant
+---------------------------------------------------
+ +21        9000       4500       Moon Giant*
+ +22       12000       6000       Hell Giant
+ +23       18000       9000       Sun Giant*
+ +24       24000      12000       Star Giant
+ +25       30000      15000       Entropy Giant*
+---------------------------------------------------
+ +30       60000      30000       Behemoth*
+ +35      3.0 E5     1.5 E5       Colossus
+ +40      6.0 E5     3.0 E5       Goliath*
+ +45      3.0 E6     1.5 E6       Dragonadon
+ +50      6.0 E6     3.0 E6       Titan
+---------------------------------------------------
+ +75      3.0 E9     1.5 E9       Worldshaker
++100     6.0 E11    3.0 E11       Living Monolith*
+
+* new monster
+** as above and a made-up word, as well
+
+LIFT:   kg unless otherwise indicated
+        Attempting to lift LIFT overhead has a TD of 15.
+        For every 10% increase in weight above LIFT, increase TD by 2
+        For every 10% decrease in weight below LIFT, decrease TD by 2
+        Shortcut Formula: TD = 20 * weight / LIFT - 5
+
+LOAD:   kg unless otherwise indicated
+        LOAD is the amount of weight a character can carry before they will
+        feel the effects of encumberance.
+
+        Upon GM request, a character must make an Encumberance check using:
+           2d10* >= TD
+        where TD increases by 5 for every 10% of weight above LOAD:
+           Encumberance  TD
+           ------------  --
+           LOAD           0
+           LOAD+10%       5
+           LOAD+20%      10
+           LOAD+30%      15
+           LOAD+40%      20
+           LOAD+50%      25
+           LOAD+60%      30
+           etc.
+        Shortcut Formula: TD = 50 * (Encumbrance/LOAD) - 50
+
+----------------------
+3.3 Generating Talents
+----------------------
+The first step in the character creation process is to generate Talents.
+There are two methods for doing this -- buying Talents with a point-cost
+method (3.4.1) or randomly rolling for Talents (3.4.2).
+
+
+3.3.1 Buying Talents
+--------------------
+
+A character begins with a number of Talent Points (TP) divided evenly into 
+the two attribute categories, i.e. one half of the TPs must be spent on
+Talents for Physical attributes and the half on Talents for Mental attributes.
+
+The number of starting TP depends on the genre set by the Game Master:
+
+Highly Heroic -> 20 TP
+              -> Average Talent = +2
+
+Heroic        -> 10 TP
+              -> Average Talent = +1
+
+Realistic     -> 0 TP
+              -> The adventurer is just as good as a normal human
+                 (Average Talent = 0)
+ 
+The Talent of each attribute is purchased at a cost equal to the Talent value.
+For example, a Talent of +5 in Strength costs five Talent Points, while a Talent of -2 would yield two Talent Points to be spent on other Attributes.
+
+A character cannot have a Talent over +5 or below -5 before the Species'
+modifiers are applied.
+
+OPTIONAL: When creating a character, a player has the choice to distribute
+          starting TP into the two categories using any of the following
+          breakdowns: (Physical/Mental)
+                            60% / 40% (6 TP / 4 TP)*
+                            50% / 50% (5 TP / 5 TP)
+                            40% / 60% (4 TP / 6 TP)
+
+          *Cost in parenthesis are given for the Heroic genre.
+          
+OPTIONAL: At least half of the TP must be used when buying Talents in a
+          category. Left over TP can be converted to Skill Points using
+          a 1 to 10 conversion ration (1 TP = 10 Skill Points). The converted
+          points can only be applied to skills whose primary attribute is
+          a member of the category from which the points were converted.
+
+3.3.2 Rolling for Attribute Talents
+-----------------------------------
+To generate values in the -5 to +5 range, the basic die roll method is to 
+roll 2d6 then substract 7 (i.e. 2d6-7). This methods gives a -5 to +5 
+distribution that looks like a linear climbing ramp followed by a linear 
+falling ramp, and has a mean of 0. The odds of rolling each extreme (-5 or +5) 
+are of 1 chance out of 36 for each roll. On ten rolls, the probability of 
+having at least one +5 is of about 25%.
+
+OPTIONAL: 
+A simple variant to the method presented above is to roll more dices than 
+needed and keep only the best. For example, one could roll 3d6 and keep only 
+the two best, ignoring the result of the lowest dice (this result is NOT 
+added). The use of this method is left to the discretion of the Game Master.
+
+Once the die rolling method has been chosen (by the Game Master), several 
+procedures can be applied to generate a character's attributes. A few are:
+
+1) Make a roll for each attribute in order.
+
+2) Make ten rolls and assign the results to the attributes as you wish.
+
+3) Make eleven or more rolls, drop the lowest and arrange to taste.
+
+-----------
+3.4 Careers
+-----------
+
+3.4.1 Career Bonus
+------------------
+Character's who embark upon a career have some small advantages over those
+who take a more generic approach. Specifically, upon creation, Characters
+recieve a 10% bonus to EP's provided at least 70% of their EPs are spent on
+skills in their career areas. 30% of their starting skill EPs may be spent on
+any skills. There is no bonus for chosing a career once play begins.
+
+3.4.2 (Example) Career Table
+----------------------------
+
+Career          Skill Areas
+-----------     ----------------------------
+Artist:         artistic, athletic, social
+Assassin:       athletic, combat, subterfuge      
+Bodyguard:      athletic, combat, social
+Craftsman:      artistic, craft, social
+Gatherer:       athletic, movement, nature
+Hunter:         athletic, combat, nature
+Illusionist:    knowledge, magic, subterfuge
+Magi:           knowledge, magic, social
+Mentalist:      knowledge, magic, social
+Merchant:       knowledge, movement, social
+Priest:         knowledge, magic, social
+Professional:   craft, knowledge, social
+Rogue:          athletic, social, subterfuge 
+Sage:           craft, knowledge, social 
+Shaman:         knowledge, magic, nature
+Soldier:        athletic, combat, movement
+Spy:            knowledge, social, subterfuge
+Traveller:      athletic, movement, social
+-----------     ----------------------------
+
+------------------------------
+3.5 Starting Experience Points
+------------------------------
+--------------------------------------------------------------------
+Experience  |      |  Career  | Maximum Starting Tr Level (Optional)
+Level       |  EP  |    EP    |    T      E      A      D      VD
+--------------------------------------------------------------------
+Starting    |  250 |  193/82  |   10      8      6      4       2
+Moderate    |  500 |  385/165 |   12     10      8      6       4
+High        | 1000 |  770/330 |   16     14     12     10       8
+Very High   | 2000 | 1540/660 |   24     22     20     18      16
+--------------------------------------------------------------------
+
+Experience Level
+   The average experience level of characters in the GM's campaign.
+   Starting:   Characters have few skills. Difficult skills have low Tr
+               levels.
+   Moderate:   Characters have some skills. Difficult skills have moderate
+               Tr levels.
+   High:       Characters have many skills. Difficult skills have high Tr
+               levels.
+   Very High:  Characters have lots of skills. Difficult skills have very
+               high Tr levels.
+
+EP
+   The number of EP associated with the campaign's Experience Level. EP are
+   used for selecting a species, buying gifts and foibles, and buying skills.
+   
+   The EP values listed represent the experience points that a character has
+   accumulated throughout his lifetime. It quantifies the  achievements the 
+   character has made since childhood and the experience the character has 
+   obtained from those achievements.
+
+   GMs are encouraged to assign their own EP values if those listed do not
+   fit with the GM's personal rate of awarding experience.
+
+Career EP
+   If a player decides to select a Career for his character then EP is
+   increased by 10% (rounded up). However, in order to receive this bonus,
+   70% of EP must be devoted to skills within the domain of the Career.
+   A given career may further specify to which skills portions of that 70%
+   must be devoted. The remaining 30% of EP can be used to freely select any
+   other skills.
+   
+   The "Career EP" column in the table gives the number of experience points 
+   that must be spent on career skill and the number of experience points 
+   that can be spent on other skills.
+
+Maximum Starting Training Level (Optional)
+   Listed as an optional rule to control how much Training a player can
+   acquire for a skill at character creation. It simulates the fact that at
+   lower Experience Levels a character has not had enough time to develop
+   skills to high levels of mastery. In particuler, harder skills would not
+   have been developed as much as the easier skills. If GMs have no problem
+   with characters beginning with skills starting out at any Tr level, then
+   they can ignore this rule.
+
+------------------------------------
+3.6 Steps for Completing a Character
+------------------------------------
+
+Step 1: Ask your GM for the Experience Level of his campaign. With the
+        Experience Level use the table in section 3.4 to determine how
+        many Experience Points your character begins with. (Alternatively,
+        your GM may simply assign EP to you instead of having you use the
+        table.)
+
+Step 2: Select a Species
+
+        Species that can be used as PCs will indicate this in their
+        encyclopedia template. Species will also have a value in their
+        Template called Cost.  Human Cost = 0. All other species have a
+        number relative to humans. Thus if a species has more negatives
+        than positives, it will have a negative Cost. If a species has
+        more positives than negatives, it will have a positive Cost.
+
+        Subtract Cost from EP.
+
+        - Species will list +/- next to their talents. The +/- represent
+          how much better or worse the species average is in that talent
+          compared to human. For instance, if an Elf lists +5 PER, this
+          means that the average Elven Perception is +5 greater than the
+          human average which equals 0 + 5 = +5. Species Talent modifiers
+          cannot range higher than +5.
+          
+          Apply these Talent modifiers to your character's Talents.
+
+Step 3: Select a Career if you wish
+
+        If the character has chosen a career, increase EP by 10%,
+        and break the EP down into appropriate percentage groups (usually
+        just a 70% group and a 30% group, but some careers may further
+        subdivide the 70% group).
+        
+Step 4: Select Gifts and/or Foibles
+
+        Gifts have a positive EP Cost.
+        Foibles have a negative EP Cost.
+
+        Subtract these Costs from EP.
+
+Step 5: Select a skill for the character. If the character has chosen a
+        career, the skill should fall within one of the EP groups in which
+        the character has some EP remaining.
+
+Step 6: Note the Skill Difficulty
+        (Trivial, Easy, Average, Difficult or Very Difficult)
+
+Step 7: Decide what level of Training you want your character to have with
+        the skill.
+
+Step 8: Using the Skill Difficulty and the Desired Training Level, calculate
+        the cost by using the value from the skill acquisition costs table or
+        by using the shortcut formula. Subtract this number from a EP group
+        to which the skill belongs.
+
+Step 9: Repeat steps 5-8 until EP = 0 for all groups or you wish to stop
+        purchasing skills.
+        Record unused EP on your character sheet for later use.
+
+Skill Acquisition Costs
+   Shortcut Formula: EP = Tr * (Tr + 1) / 2 * EP Cost
+                    (EP Cost = T-1, E-2, A-3, D-4, VD-5)
+
+-----------------------------------------------
+Desired  |           Skill Difficulty
+Tr Level |   T       E       A        D      VD
+-----------------------------------------------
+    1    |   1       2       3        4       5
+    2    |   3       6       9       12      15
+    3    |   6      12      18       24      30
+    4    |  10      20      30       40      50
+    5    |  15      30      45       60      75
+    6    |  21      42      63       84     105
+    7    |  28      56      84      112     140
+    8    |  36      72     108      144     180
+    9    |  45      90     135      180     225
+   10    |  55     110     165      220     275
+   11    |  66     132     198      264     330
+   12    |  78     156     234      312     390
+   13    |  91     182     273      364     455
+   14    | 105     210     315      420     525
+   15    | 120     240     360      480     600
+   16    | 136     272     408      544     680
+   17    | 153     306     459      612     765
+   18    | 171     342     513      684     855
+   19    | 190     380     570      760     950
+   20    | 210     420     630      840    1050
+   21    | 231     462     693      924    1155
+   22    | 253     506     759     1012    1265
+   23    | 276     552     828     1104    1380
+   24    | 300     600     900     1200    1500
+   25    | 325     650     975     1300    1625
+   26    | 351     702    1053     1404    1755
+   27    | 378     756    1134     1512    1890
+   28    | 406     812    1218     1624    2030
+   29    | 435     870    1305     1740    2175
+   30    | 465     930    1395     1860    2325
+
+***************************************************************************
+SECTION 4     SKILLS
+
+A skill is an acquired ability, one that a character learns.
+
+--------------------
+4.1 Skill Competency
+--------------------
+A skill is composed of two parts:
+   1) Talent   (Ta)  (determined by the attribute relevant to the skill)
+   2) Training (Tr)  (determined by experience with the skill)
+
+Thus, Skill = Talent (Ta) + Training (Tr)
+
+Skill    Competency   Description
+------   ----------   -----------           
+ Tr=0    No Skill     (A character who has no training with a skill.)
+ <= 0    Novice       (A character who has Training but low Talent.)
+ 1-5     Apprentice   (A character being taught a skill.)
+ 6-10    Journeyman   (A character who has learned his skill.)
+11-15    Craftsman    (A character who is proficient with his skill.)
+16-20    Adept        (A character who is an expert with his skill.)
+21-25    Master       (A character who is a master with his skill.)
+ 26+     Grandmaster  (A character who is legendary with his skill.)
+
+All skills confer the following abilities:
+
+ - A character who has Tr > 0 in a skill can recognize the use of that skill
+   by another.
+
+ - A character who has Tr > 0 in a skill can recognize the Competency level
+   of another person with the same skill.
+
+ - A character can determine the actual skill level of another if the
+   character's skill level is greater than the other person's.
+
+---------------
+4.2 Skill Costs
+---------------
+All skill costs are measured in Experience Points. The higher the number
+of Experience Points, the harder the skill is to learn and master.
+
+Skill Difficulty   Base EP Cost
+----------------   ------------
+Trivial            1 EP
+Easy               2 EP
+Average            3 EP
+Difficult          4 EP
+Very Difficut      5 EP
+
+--------------------------
+4.3 Untrained Penalty (UP)
+--------------------------
+When a character attempts a task for which he has not been trained 
+(Skill Competency is 'No Skill', see section 4.1), or to which no skill
+is related, he suffers an "Untrained Penalty".
+
+Some skills will have a special UP of Impossible. This indicates that
+the skill cannot be attempted when Skill Competency is 'No Skill'.
+
+BASIC RULE: The UP is equal to 5 for all tasks.
+
+OPTIONAL RULE:
+The UP is generally equal to 5 but can be changed by the game master.
+The game master may set a higher UP for a task that is normally
+performed using a skill requiring a lot of knowledge or practice
+(Difficult and Very Difficult skills). In the same way, the game master
+may reduce or eliminate the UP for tasks that are primarily based on 
+attributes (ex: resisting a poison), or that do not benefit much from 
+knowledge or practice (Trivial and Easy skills).
+               
+As a guideline, a UP of twice the Base EP Cost (see section 4.2) of
+the related skill is suggested for tasks that are normally performed
+using a skill.
+      
+   UP = 2 * Base EP Cost
+
+---------------------
+4.4 Skill Advancement
+---------------------
+To increase a skill to its next training level, a character must spend
+a number of experience points equal to the next training level times
+the Base EP Cost (see section 4.2) of the skill. 
+
+Skill Advancement Formula:  EP Cost = Next Tr * Base EP Cost
+
+For example, if Argis the ranger wants to increase his tracking skill 
+(Base EP Cost = 4 EP) from training level 8 to training level 9, he
+must spend:
+
+EP Cost = Next Tr * Base EP Cost = 9 * 4 EP = 36 EP
+
+For those who prefer not to use the formula, a table is provided.
+
+Skill Advancement Costs Table:
+---------------------------------------------
+ Next |           Skill Difficulty
+  Tr  |   T       E       A        D      VD
+---------------------------------------------
+   1  |   1       2       3        4       5
+   2  |   2       4       6        8      10
+   3  |   3       6       9       12      15
+   4  |   4       8      12       16      20
+   5  |   5      10      15       20      25
+   6  |   6      12      18       24      30
+   7  |   7      14      21       28      35
+   8  |   8      16      24       32      40
+   9  |   9      18      27       36      45
+  10  |  10      20      30       40      50
+  11  |  11      22      33       44      55
+  12  |  12      24      36       48      60
+  13  |  13      26      39       52      65
+  14  |  14      28      42       56      70
+  15  |  15      30      45       60      75
+  16  |  16      32      48       64      80
+  17  |  17      34      51       68      85
+  18  |  18      36      54       72      90
+  19  |  19      38      57       76      95
+  20  |  20      40      60       80     100
+  21  |  21      42      63       84     105
+  22  |  22      44      66       88     110
+  23  |  23      46      69       92     115
+  24  |  24      48      72       96     120
+  25  |  25      50      75      100     125
+  26  |  26      52      78      104     130
+  27  |  27      54      81      108     135
+  28  |  28      56      84      112     140
+  29  |  29      58      87      116     145
+  30  |  30      60      90      120     150
+
+***************************************************************************
+SECTION 5     TASKS
+
+A Task is a situation in which a character applies his abilities to
+accomplish some action. A character may use his Talent or a skill when
+attempting to resolve the Task.
+
+-------------------
+5.1 Task Resolution
+-------------------
+The process of resolving a Task is called Task Resolution. It is done via
+a roll of the dice. The applicable Skill is then added to the die roll and the
+result must be greater than or equal to the Task Difficulty  set by the GM.
+Thus the standard Task Resolution Formula is:
+
+Formula: 2d10* + Skill >= TD
+
+where: 2d10* = Standard Dice Roll
+  and: Skill = Ta + Tr
+  and: TD    = Task Difficulty
+
+If situational modifiers reduce a Task Difficulty to zero or less, a Task
+Resolution roll is not required; the outcome is an automatic success. 
+
+Similarly, and especially in non-crisis situations, a GM may waive the
+requirement for a task resolution roll when a character's skill rating is
+within 5 points of the Task Difficulty rating e.g., Skill 6, TD 10.
+
+------------------------------
+5.2 Relative vs Absolute Tasks
+------------------------------
+
+Tasks can be divided into two categories:
+   Relative -- Those whose difficulty are relative to the Talent of the
+               character attempting the Task.
+   Absolute -- Those whose difficulty are constant regardless of Talent.
+
+Lifting weight is an example of a Relative Task, while picking a lock is
+an example of an Absolute Task.
+
+Establishing Task Difficulties for Absolute Tasks is done by
+determining what the difficulty of the task would be for a minimally 
+trained average character (Ta = 0, Tr = 1). The same Task Difficulty is 
+then used by all characters no matter what their skill is. Absolute 
+Tasks use the standard Task Resolution Formula from section 5.1.
+
+For Relative Tasks, the Task Difficulty is established as a function of
+the Talent of the character attempting the Task. For example, the Task
+Difficulty for lifting 120 kg is relative to the maximum weight a
+character can lift, which is in turn relative to the Strength Talent of
+the character. Thus, a character with a maximum Lift of 50 kg faces
+the same Task Difficulty when trying to lift a weight of 100 kg as a
+character with a maximum Lift of 20 kg trying to lift a weight of 40 kg.
+
+When a character is attempting a Relative Task, he must use a slightly 
+modified Task Resolution Formula:
+
+with a skill:    2d10* + Tr >= TD
+without a skill: 2d10* - UP >= TD  
+
+where UP is the "Untrained" Penalty (see section 4.3).
+
+As you will notice, Talent is not used in the Relative Task Resolution
+Formula; this is because the Task Difficulty already takes Talent into
+account.
+
+A rule of thumb to use to determine if a task is Relative or Absolute is
+to decide if the task is quantitative or qualitative by nature. Examples
+of quantitative tasks are: lifting 100 kg, running at 2 meters per second;
+tasks of a qualitative nature would be: climbing a wall, picking pockets,
+or playing chess. If the Game Master has a hard time deciding if a task is 
+Absolute or Relative, he should treat it as an Absolute task, which will 
+simplify calculations and accelerate game play.
+
+---------------------
+5.2 Task Difficulties
+---------------------
+To aid the GM in determining task difficulties, the following task 
+difficulties have been established relative to what an average 
+character (Ta = 0) with minimal training in a skill (Tr = 1) can
+accomplish. Therefore, the values were derived from the following 
+task resolution formula:
+
+2d10* + 1 >= TD
+
+Thus, when assigning a difficulty to a task, the Game Master should set
+the Task Difficulty as if the task was being attempted by a Ta = 0, Tr = 1
+character. The Game Master should not base the difficulty on the skill
+level of the character attempting the task. In other words, figure out what
+the task is like, then use the table below to find the description that
+best fits the Task. With this description, use the TD value listed.
+
+For example, climbing a moss covered wall by someone with Ta = 0, Tr = 1
+could be described as tricky. Tricky is listed under the "Could also be
+described as" column for Difficult. The TD associated with a Difficult
+Task is 15. Thus no matter what the Skill of a character attempting to
+climb a moss covered wall, the Task Difficulty is 15.
+
+If a character with Skill 3 in Climb Walls attempts to climb the moss
+covered wall, he uses the formula: 2d10* + 3 >= 15.
+
+If a character with Skill 10 in Climb Walls attempts to climb the moss
+covered wall, he uses the formula: 2d10* + 10 >= 15.
+
+------------------------------------------------------
+Description      TD  Odds   Could also be described as
+------------------------------------------------------
+Easy..............5  97%    Routine, Simple, Trivial
+Average..........10  75%    Engaging, Fair, Intermediate
+Difficult........15  32%    Difficult, Tough, Tricky
+Very Difficult...20  9%     Challenging, Demanding, Tasking, Vexing
+Extremely Diff...25  4%     Exacting, Formidable, Punishing
+
+Extreme..........30  2%     Ballistic, Limit
+Crushing.........35         Backbreaking, Monumental
+Herculean........40         Epic, Staggering, Superhuman
+Gargantuan.......45         Stupefying
+Titanic..........50         Awesome
+
+Unbelievable.....60         Impossible
+Inconceivable....70         Shattering
+God-like.........80         Legendary, Mythic
+Immortal.........90         Celestial, Eternal
+Cosmic..........100         Transcendental
+
+-----------------------------------------
+5.4 Task Resolution when no skill is used
+-----------------------------------------
+If a character attempts a task for which he does not possess a skill or to
+which no skill is related, he uses (Ta - UP) in place of Skill and the Task 
+Resolution Formula becomes:
+
+Formula:  2d10* + (Ta - UP) >= TD
+
+where UP is the "Untrained" Penalty.
+
+UP is generally equal to 5 but see Section 4.3 for GM options.
+
+Note: Attributes checks are conducted using this method, since they do not
+involve a skill. Because it is sometimes difficult to tell if a task could
+be done using a skill or not, it is the responsibility of the GM to set an
+UP of 0 for what he feels to be a true "Attribute Check". An example of a
+true attribute check would be resisting poison to which a character's
+Fitness would be applied using the formula 2d10* + FIT >= Poison Strength.
+
+-----------------------------------
+5.5 Contested Skill Task Resolution
+-----------------------------------
+Formula: 2d10* + Skill^ >= TD + Opponent's Skill^
+
+^If contestant is not using a skill (generally because he is untrained), 
+replace Skill with (Ta - UP).
+
+-----------------------------
+5.6 Composite Task Resolution
+-----------------------------
+There is a TD for the task as a whole.  A roll is made at an effective
+skill equal to the sum of his skills which are involved in the task against
+that TD.  If the roll succeeds, the task succeeds.  If the roll fails, the
+task fails.
+
+---------------------
+5.7 Combining efforts
+---------------------
+When many characters unite their strength, intelligence, etc. to accomplish
+a Task, they are often more efficient than if they were trying to
+accomplish the Task independently. In such a situation, the success of the
+attempted Task is obtained by having each character roll independently
+against the Task Difficulty. The TD is lowered by 1 for every character
+working on the Task beyond the first. The Task Resolution Formula for each
+character is therefore:
+
+2d10* + Skill >= TD - (N-1)
+
+where N is the number of characters attempting the task.
+
+The Task is successful if at least one of the characters makes his roll.
+
+The GM must decide, based on the Task, if more than one character can
+attempt the Task. If he decides that more than one character can attempt 
+the Task, he must then decide the maximum number of characters that can 
+take part in attempting the Task.
+
+-----------------------------------
+5.8 Graded outcomes (OPTIONAL RULE)
+-----------------------------------
+Graded outcomes
+---------------
+Bonus:   Total greater than 2 x TD
+Success: Total greater than TD
+Partial: Total greater than (TD - 3)
+Fail:    Total less than (TD - 3)
+Mishap:  Total less than TD/5
+
+Outcome definitions
+-------------------
+BONUS - a really good result which surpasses normal expectations
+(occasionally to excess)
+SUCCESS - a successful outcome which achieves the desired result
+PARTIAL - a success, but far less than perfect or with unwanted conditions or
+secondary results. If a result for a partial outcome is not obvious, the DM
+should treat it as a failure.
+FAIL - an unsuccessful attempt
+MISHAP - a particularly bad failure that exposes the character to additional
+misfortune, harm, penalty or confusion. If nothing seems easy to conclude as
+a result of a mishap, the DM should either consider increasing the
+difficulty of subsequent actions made "in recovery" or treat the outcome as
+a failed attempt.
+
+Example: Shardra the Ranger has Tracking 4. She tries picking up the trail
+of a wounded bandit. The DM decides that this will be hard, as it's been
+raining. The formula becomes -
+
+2d10* + 4 >= 15
+
+If Shardra's player gets a total of 30 or higher she gets a bonus. Not only
+does Shardra pick up the trail, she also picks up the overlying trail of a
+pursuing wolverine!
+
+If she rolls 15-29, it's good. Shardra picks up the bandit's trail.
+
+If she rolls 12-14, it's a partial. Shardra picks up the trail just long 
+enough to figure the general direction taken by the bandit.
+
+If she rolls 7-11, it's bad. Shardra cannot pick up the trail because it's been
+washed away.
+
+If she rolls 1-6, it's a mishap. Shardra picks up a trail but fails to see a
+deception and wanders into an ambush.
+ 
+***************************************************************************
+SECTION 6     COMBAT
+
+----------------
+6.1 Introduction
+----------------
+
+"... violence is the last refuge of the incompetent." Isaac Asimov
+
+When other means of achieving objectives have failed, the party of adventuring
+characters may find themselves in an encounter that leads to combat.   Combat
+can take many forms including melee, archery, arcane, etc.  Good combat
+rules should cover all those situations, while being simple enough not to
+prevent the players from having fun.
+
+Like everything else in the DragonNet system, combat rules seek to achieve a
+balance between realism, simplicity and heroism.  In a completely realistic
+system, serious wounds often prove fatal and the game master has to take great
+care not to create a situation where combat is unavoidable.  At the opposite,
+in a heroic system where the characters can endure extreme wounds without
+flinching, combat often becomes the preferred mean to resolve situations of
+conflict.  In our vision, combat should not limit character development by
+ending it whenever it happens, nor should it prevent it by being a universal
+solution to all problems.  Therefore, the DragonNet combat system is deadly
+enough that characters won't always seek combat as the solution to their
+problems, but not so deadly as to make the characters flee each time brute
+force is required.
+
+------------------
+6.2 Basic Premises
+------------------
+
+6.2.1 The Combat Round
+----------------------
+
+As in many RPG system, combat in DNET is resolved by dividing its duration
+into rounds.  During a round, each character can perform one action: attacking
+an opponent, casting a spell, reloading a bow, etc.  Each combat round
+represents six seconds of action, giving ten rounds per minute.
+
+During a combat round, each protagonist will get to accomplish one action,
+without consideration for who acts first or last.  Each attack/defense
+confrontation is in fact an exchange of blows and the damage inflicted by the
+protagonists upon each other is the summation of the effects of each
+individual blow.  It is therefore perfectly possible for two combatants to
+finish off each other in the same round, giving a situation similar to the
+final combat scene in the movie "Excalibur".
+
+6.2.2 Combat Styles
+-------------------
+
+There is more to combat than just swinging a weapon; most of the reflexes that
+make a good fighter have more to do with the way he uses his weapon than with
+the particular weapon used.  The skills your character has to learn to be a
+proficient fighter are thus named combat styles.  The primary style for a
+fighter with military training would probably be "Weapon and Shield".  A
+northern barbarian wielding a claymore would most often use the "Two-handed
+weapon" style.  A magic oriented character would probably opt for a low cost
+style such as "Staves", giving him basic combat abilities while letting him
+focus most of his efforts on magic lore.
+
+As your character gains experience, he can advance in one or more combat
+style.  Since combat styles are used for both attack and defense, improving
+them makes you both harder to hit and better at hitting your opponents.
+
+6.2.3 Impact, Damage and Injury
+-------------------------------
+
+When you hit an opponent with a weapon, you generally intend to cause him some
+physical damage.  The DragonNet system uses a specific procedure with its
+associated terminology to calculate this damage; the basics of the damage
+calculation procedure are exposed here, so that you can better understand
+the rest of the system.  The complete procedure will be described in detail
+later in the combat chapter.
+
+Every physical attack is said to cause an IMPACT.  For example, a hit with
+bastard sword made by an average human causes 2d6+4 points of IMPACT.  If the
+target is wearing armor, part of the attack's IMPACT is absorbed by the armor,
+while the remaining part, if any, constitutes the true physical DAMAGE, which
+is added to the target's INJURY heap.  If the target suffers too much
+INJURY, i.e. more than what is BODY allows, he will pass out and eventually
+die.
+
+6.2.4 Combat Round Sequence
+---------------------------
+
+Most gamers hate it when the mechanics of combat system take more time than
+the actions and tactical decisions of the characters.  In other words, the
+mechanics should not slow down the combat flow and bring down the climactic
+tension.  The combat round sequence outlined here and described more fully
+later in the text will generally be most effective one for smooth combat
+resolution.
+
+The combat round begins with the declaration phase, during which each player
+announces the actions of his character(s) and the game master states the
+actions of the non-player characters (NPC).  The order of the declaration can
+be arbitrary or determined by rolling for initiative.  In both cases, it is
+advantageous to declare last, since you can decide the actions of your
+character in regard of what others have announced.
+
+After all actions have been declared, the resolution phase begins.  No
+particular order is required, as all actions are considered to be simultaneous
+and every character is assured that he will have a chance to attempt its
+planned actions.  For attacks, resolution is divided in two steps: the
+attacker
+first attempts to hit the defender in a contest of skills; if he is succesful,
+damage is calculated using the procedure outline above (sec. 6.2.3).
+
+At the end of each combat round, after all actions have been resolved,
+characters that have been wounded during the round must check to see if they
+remain conscious and alive.
+
+-------------------
+6.3 Combat Sequence
+-------------------
+
+This section explains in detail how combat is resolved in the DragonNet 
+system. To this end, a game situation leading to combat is developped as the 
+rules are presented.
+
+Combat is broken down into rounds.  Each round is considered to last 6 seconds.
+All actions that occur within a round are independent of each other and are
+considered to take place at the same time.  Thus it is always possible for two
+combatants to strike each other down in the same round.
+
+Within a combat round, attacks and defenses are viewed as a passe d'armes, not 
+as individual strokes.
+
+Game situation: Neila and Jalik have been cautiously exploring the ruins
+  of a temple of Hekari, an almost forgotten deity of darkness and disease,
+  in the hope of lifting a curse that as been plaguing a pixie community
+  for centuries. As they are about to despair, their efforts are rewarded
+  by a hollow sound from a flagstone reveals a hidden passage. After
+  doublechecking their torches and pushing the stone safely aside, they
+  engage in the the shadows of a stairway.
+
+The characteristics and appropriate skills and equipment of the two characters 
+are given here for reference purposes.
+
+Neila (Bob's character)
+Physical Talents: AGI: 2; BEA: 1; DEX: -2; FIT: 2; STR: 3
+Mental Talents:   AUR: 0; INT: 1; PER: 0;  PSY: 1; WIL: 2
+BODY: 15
+Combat skills:
+                          Ta + Tr = Skill
+  One Handed W. & Shield: 2  + 6  = 8      Attack: 8  Defense: 9+2+4 = 14
+  Dodge:                  2  + 7  = 9      Defense: 9+4 = 13
+Equipment:
+  War Hammer (IMPACT = 2d6+4)
+  Kite (defense bonus = 4)
+  Soft leather bezainted armor (RESISTANCE = 6)
+
+Jalik (Roger's character)
+Physical Talents: AGI: 3; BEA: 0; DEX: 2; FIT: 1; STR: 0
+Mental Talents:   AUR: 1; INT: 1; PER: 2; PSY: 0; WIL: 0
+BODY: 15
+Combat skills:
+                Ta + Tr = Skill
+  Dual Weapons: 3  + 6  = 9      Attack: 9+2 = 11  Defense: 9-1 = 8
+  Dodge:        3  + 5  = 8
+Equipment:
+  2 small swords (IMPACT = 2d6+2)
+  a 2 meters wooden pole
+  Quilt armor (RESISTANCE = 3)
+  
+6.3.1 Declaration
+-----------------
+
+At the beginning of every combat round, the game master must ask every player
+to declare the actions of his character for the round. The game master must
+also state the actions of all NPCs and monsters during that phase. Once 
+stated, these actions cannot be changed, unless the game master feels that
+there has been a misunderstanding; in that case, every player should be 
+allowed to redeclare the actions of his character.
+
+The declaration order does not really matter as long as the actions of all 
+protagonists are stated. A fixed order, such as *going around the table will
+generally speed game play.
+
+Note that a character can attack multiple targets only if he is in close range
+(0 to 1 meters) of both targets at declaration time.
+
+Game situation: Jalik and Neila reach the bottom of the stairs about 5 meters 
+  below the ground level.
+  Game master: In the torchlight, you can see that the floor is littered with
+    bones.
+  Roger: "[Whisper] Cover me." I slowly crouch to inspect the bones.
+  Game master: They look like humanoid bones, generally human sized.
+  Roger: I inspect the walls, looking for holes or any trace of a mechanism.
+  Game master: You spend 5 minutes doing as careful an inspection you can
+    without stepping on the floor. The walls are plain and smooth. You can
+    detect any obvious crevasse.
+  Roger: I slowly pass the wooden pole along the floor and the walls.
+  Game master: (rolling a few dice to make good impression) Nothing happens.
+  Bob: "[Whisper] It looks ok?"
+  Roger: "[Whisper] Yes... I go first, you follow me 4 steps behind."
+    I advance in the passage, tell me when I notice anything different.
+  Game master: After 4 meters, the floor is clear of bones. The transition
+    is gradual.
+  Roger: I continue.
+  Bob: I still follow about 2 meters behind.
+  Game master: You walk two more steps and hear a concert of clicking sounds
+    as the bone quickly move along the floor to reassemble into three distinct
+    shapes. Two of the shapes are near Neila, while the third is behind 
+    Jalik's back. What do you do?
+  Bob: "[Loud] Watch your back!". Neila attacks the nearest shape and will 
+    dodge the two others if necessary.
+  Roger: Jalik drops his pole and takes out his two swords. He will also
+    attack the nearest shape.
+  Game master: Jalik's attack won't happen until next round, but they won't
+    be able to attack this round either. Neila, you realize that you can 
+    bash at the nearest one without worrying about dodging the other.
+
+---- 6.3.1.1 Initiative (OPTIONAL) ----
+
+Some role players find that basing the declaration order on the Talents of
+their characters allow for more strategy during combat. A declaration method
+which allow the characters with the best perception to react to the actions
+of others is presented here. 
+
+Determining initiative:
+1) Roll 1d10
+2) Add PER (you may get negative results)
+
+INITIATIVE = 1d10 + PER
+
+All players should roll for initiative and the game master should also roll
+it for NPCs and monsters. In large combats, the game master may wish to roll
+initiative for groups of monsters or even for all monsters at the same time.
+
+Actions are then declared starting with the lowest initiative roll to the
+highest. This gives a chance to characters with the highest PER to adjust
+their actions to those of others.
+
+[Should we add weapon speed and spell casting time here? It seems weird to 
+me to add such a modifier before the action has been declared if the goal
+of the initiative roll is of determining who will declare first so that
+one can adjust himself to the actions of others. (Guillaume)]
+
+6.3.2 Action resolution
+-----------------------
+
+Once all actions have been declared, they are resolved using standard skill
+checks. The order of the resolution does not matter since all actions within
+a round are considered to be simultaneous. Again, resolving the actions
+in a fixed order will speed up the game and simplify combat.
+
+While there are no strict limits to the actions that can be attempted during 
+combat, we will focus here on the actions that are directly related to the 
+resolution of combat.
+
+---- 6.3.2.1 Targeting ----
+
+The determination of an attack outcome is achieved using the targeting
+equation:
+
+2d10* + Att Sk [+ Sk mods] >= 2d10* [+ TD mods] + Def Sk [+ Sk mods]
+
+If the left hand side is greater than or equal to the right hand side, then 
+the attacker scores a hit and should proceed to determine damage.
+
+While this expression may seem complex, it summarizes a very simple process:
+
+1) Both the attacker and the defender roll 2d10*, as in a skill check.
+2) The attacker adds his Attack Skill to his roll, while the defender
+   adds his Defense Skill to his roll.
+3) They also add any situation combat modifiers that the game master judge
+   necessary to their respective rolls.
+4) If the attacker's total is greater than or equal to the defender's total,
+   then the attacker is successful in his attack and should now roll for 
+   DAMAGE.
+
+The targeting roll can be modified by situation combat modifiers. These
+situation combat modifiers are chosen by the game master and are broken into 
+two categories:
+
+   - Task Difficulty Modifiers (TD mods): modifiers that affect the 
+     difficulty of the combat task.
+
+   - Skill Modifiers (Sk mods): modifiers that affect the skill of the
+     combatants.
+     
+Situation combat modifiers are detailed in sections 6.3.2.1.1 and 6.3.2.1.2.
+
+OPTIONAL:
+   For NPCs, the GM may replace the defender roll by a constant value of 10 
+   to accelerate combat resolution:
+   
+   2d10* + Att Sk [+ Sk mods] >= 10 [+ TD mods] + Def Sk [+ Sk mods]   
+          
+   Note that this makes the NPCs harder to hit if the PC's attack skill 
+   is less than 2 points higher than the defending NPC's skill. If the PC's 
+   skill is 2 points higher or more, then it is easier for the PC to hit.
+
+Game situation:
+  (first round) Neila swings her war hammer at the nearest skeleton.
+  -> Bob rolls 13 and adds Neila's attack skill of 8 for a total of 21.
+  -> The game master rolls 8, adds the skeleton guardian defense skill of
+     8 and a skill modifier of -2 due to the fact that the guardian is still 
+     taking shape, for a total of 14.
+  Neila hits the skeleton and sends crushed bones flying. In the meantime,
+  Jalik wields his two swords.
+
+  (sixth round) Neila is still engaged with two Guardians; she has suffered
+  a few hits but has nearly destroyed the first while dodging the other.
+  Jalik has also hit is Guardian a few times, while taking only two hits.
+  Neila's attack:
+  -> Bob rolls 33 (!), adds Neila's attack skill of 8 and substracts 5
+     because of the multiple actions (attacking and dodging) for a total
+     of 36.
+  -> Game master rolls 3 (!) and adds the skeleton defense skill (8) for
+     a total of 11.
+  ---> Neila scores another precise hit on the first skeleton.
+  1st skeleton's attack:
+  -> Game master's roll: 1 + 8 = 9
+  -> Bob's roll: 8 + 14 - 5 = 17
+  ---> Neila blocks the skeleton attempts.
+  2nd skeleton's attack:
+  -> Game master's roll: 13 + 8 = 21
+  -> Bob's roll: 9 + 13 (dodge skill) - 5 = 18
+  ---> The skeleton hits Neila.
+  Jalik's attack:
+  -> Roger's roll: 16 + 11 = 27
+  -> Game master's roll: 9 + 8 = 17
+  --> Jalik successfully stabs at the skeleton.
+  3rd skeleton's attack:
+  -> Game master's roll: 17 + 8 = 21
+  -> Roger's roll: 17 + 8  = 21
+  ---> The skeleton hits Jalik.
+
+  Skeleton Guardians
+  Physical Talents: AGI: 0;  STR: 2
+  Mental Talents:   INT: -8; PER: 0;
+  BODY: 15
+  Combat skills:
+                          Skill
+    Claw attacks:           8      Attack: 8  Defense: 8
+    Dodge:                  5
+  Special:
+    Claw IMPACT: 2d6
+    Natural Resistance: 5
+    -2 to combat skills while taking shape.
+    Fights until destroyed (no Unconsciousness checks)
+
+---- 6.3.2.1.1 Task Difficulty Modifiers ----
+
+Condition                    Modifier
+---------                    --------
+Target Semi-prone            -1
+Target Prone                 -2
+Target Partly Immobile       -4
+Target Immobile              -8
+Target Invisible             +3
+Target out of range          +1 / 10% beyond weapon's range
+
+---- 6.3.2.1.2 Skill Modifiers ----
+
+The modifiers below apply to both attack and defense skills, unless noted.
+Modifiers that apply only to the attack skill are identified with
+"+X Attack", while those applying only to defense are noted with  "+X Defense".
+
+Condition                    Modifier
+---------                    --------
+Semi-prone                   -1
+Prone                        -2
+Partly Immobile              -4
+Immobile                     -8
+Poor Footing/Environment     -1 to ... (Left to GM discretion)
+On higher ground than oppon  +1
+Charging                     +2 Attack, -2 Defense
+Set to receive a charge      +2 Defense (assuming Attacker is charging)
+Hasted                       +2
+Slowed                       -2
+Invisible                    +3
+Additional Action Attempted  -5 per additional action
+Injury                       -1/5 points  (OPTIONAL)
+Fatigue                      -1/point     (OPTIONAL)
+
+---- 6.3.2.2 Damage and Injury ----
+
+When a successful hit has been scored, DAMAGE is computed by substracting
+the defender's RESISTANCE from the attacker's IMPACT.
+
+DAMAGE = IMPACT - RESISTANCE
+
+The attacker's IMPACT is the sum of his Strength and his weapon's Impact:
+
+IMPACT = Weapon IMPACT + STR
+
+The RESISTANCE of the defender is the sum of his Natural Resistance and
+his armor's Resistance:
+
+RESISTANCE: Natural Resistance + Armor Resistance
+
+Armor Resistance is always a positive value that depends on the type of
+armor being worn.  Natural Resistance is a value representing the natural
+body covering of a species (see the species description).  Natural Resistance
+can be negative.  Because of this, RESISTANCE can be negative as well.
+
+If DAMAGE is lower than 0, then it is considered to be 0. A DAMAGE of 0 or
+less is considered to be just a scratch. If DAMAGE is greater than 0, then
+it should be added to the INJURY heap.
+
+INJURY = INJURY + DAMAGE
+
+Game situation:
+  (first round)
+  To determine the IMPACT done by Neila's hit on the skeleton, Bob rolls
+  11 on 2d6+4 (the war hammer Impact) and adds Neila's STR for a total of
+  14. The game master substract the Natural Resistance (5) of the Guardian 
+  from Neila's IMPACT and adds 9 to the Guardian's INJURY heap (previously
+  at 0).
+
+  (sixth round) (Note that DAMAGE calculations are normally done just
+  after determining if an attack was successful. All DAMAGE calculations
+  are presented here in the same section for explanation purposes)
+  -> Neila hits the first skeleton for 11+3=14 points of IMPACT. This
+     increases the skeleton's INJURY by 9 to a total of 36.
+  -> The second skeleton hits Neila for 8+2=10 for a DAMAGE of 4 after
+     the attack has passed through the armor (RESISTANCE=6). This
+     brings her INJURY heap to 26.
+  -> Jalik hits the third skeleton for 6 points of IMPACT. Only 1 point
+     passes the skeleton's Natural Resistance, bringing its injury
+     heap to 24.
+  -> The third skeleton does 13 points of IMPACT to Jalik. His armor only
+     absorbs 3 points, adding 10 points of DAMAGE to INJURY, for a total
+     of 18.
+
+6.3.3 Survival checks
+---------------------
+
+At the end of the combat round, after all actions have been resolved, every 
+combatant that has been injured during the round (i.e. that has seen his 
+INJURY heap increase) must make Unconciousness and Death checks.
+
+An Unconsciousness check is made by rolling 2d10* and adding the character's
+Willpower. If the total is greater than or equal to INJURY minus BODY,
+then the check is successful and the character stays conscious.
+
+Unconsciousness: 2d10* + WIL >= INJURY - BODY
+
+It is not necessary to make an Inconsciousness check until INJURY is greater 
+than BODY.
+
+A Death check is similarly made by rolling 2d10* and adding the character's
+Fitness. If the total is greater than or equal to the INJURY minus twice
+the BODY value, then the check is successful and the character stays alive.
+
+Death:           2d10* + FIT >= INJURY - 2*BODY
+
+It is not necessary to make a Death check until INJURY is greater than twice 
+the BODY value.
+
+OPTIONAL: If the Unconsciousness check is failed by no more than 5 points,
+  then the character is not Unconscious but suffers from such pain that he
+  is not able to do anything beside moaning and screaming. He remains
+  generally aware of what is happening around him. As usual, the game master
+  is free to apply or ignore this optional rule.
+
+Game situation:
+  (first round) The INJURY heap of the first Skeleton Guardian is now equal 
+  to 9. Since this is much lower than twice the BODY value of the skeleton,
+  there is no need for a Death check (the skeleton does not check for
+  Unconsciousness, see description).
+
+  (sixth round)
+  -> Bob's roll for Neila: 9 + 2 (WIL) = 26 (INJURY) - 15 (BODY)
+     Neila remains conscious enough to continue the fight. 
+  -> Roger's roll for Jalik: 8 + 0 (WIL) > 18 (INJURY) - 15 (BODY)
+     Jalik remains conscious.
+  -> Game master's roll for the 1st skeleton:
+     4 + 0 (WIL) < 36 (INJURY) - 30 (2*BODY)
+     The skeleton crumbles into a heap of broken bones.
+  -> The INJURY of the third skeleton (24) is lower than twice his BODY (30),
+     so there is no need for a death check.
+  
+------------------------------------
+6.4 Movement and Distances in Combat
+------------------------------------
+
+6.4.1 Combat Movement
+---------------------
+
+While it may be possible for some characters to cover 60 meters in a standard 
+6 seconds round, this is not a typical character nor a character loaded with
+equipment.  Even if he was, he would be in no condition at the end of the round
+to carry out other actions. Moreover this speed allows for only the gentlest 
+of turns; Combat movement involves turns and other actions.
+ 
+Movement will occur as fast as a characters Agility will allow reduced by his
+Encumbrance.
+
+Maximum Movement = 50 + 2*AGI meters per 6 second round
+ 
+Maneuvering or Fighting COMBAT Movement = 3 + AGI/5 (round normally) meters
+
+Maneuvering is limited to = 6 + AGI/2 meters
+
+OPTIONAL: Effects of Fatigue 
+ 
+  Maximum Movement = 50 + 2*AGI - Fatigue  (meters / round)
+ 
+  Combat MOVEMENT = 3 + AGI/5 - Fatigue/10  (meters / round)
+
+6.4.2 Attack reach (OPTIONAL)
+------------------
+
+6.4.3 Combat Hex Grid (OPTIONAL)
+---------------------
+
+------------------
+6.6 Unarmed Combat
+------------------
+
+6.6.1 Unarmed Attacks
+---------------------
+
+There are five types of unarmed attacks.  For game mechanics, they are
+handled the same way as weapons are handled in armed combat styles.
+They have an associated damage, reach, etc, just as weapons do.
+An unarmed defender against a weapon gets no defence or a penalty, depending
+on the fighting style being used.
+
++-----------------+--------+--------+-------+-------+--------+-------+-------+
++ NAME            | ACTION | IMPACT | REACH | MASS  | LENGTH | HANDS | SPEED |
++-----------------+--------+--------+-------+-------+--------+-------+-------+
+|                 |        |        |       |       |        |       |       |
+|    UNARMED      |        |        |       |       |        |       |       |
+|                 |        |        |       |       |        |       |       |
+| hand            |   B    | 2d6-8  |   C   | 0     |   0    |   1   |       |
+| foot            |   B    | 2d6-6  |   C   | 0     |   0    |   0   |       |
+| bash            |   B    | 2d6-4  |   C   | 0     |   0    |   0   |       |
+| throw           |   B    | 2d6-6  |   C   | 0     |   0    |   1*  |       |
+| hold            |   B?   | 0      |   C   | 0     |   0    |   1*  |       |
++-----------------+--------+--------+-------+-------+--------+-------+-------+
+
+6.6.2 Unarmed weapon types
+--------------------------
+
+Attacks with hands or fists do 2d6-8 IMPACT, 2d6-6 if using brass knuckles.
+
+Kicking attacks to 2d6-6 IMPACT.  
+
+Bashing attacks include body slams and tackles.  
+IMPACT is 2d6-4.  A running start is required to do damage, 
+so no IMPACT is done if you are already at close range.  
+(possible to force backwards even if starting at close range)
+
+Throws include leg sweeps and judo/wrestling throws.  IMPACT is 2d6-6 and
+is not modified by STR.  Success leaves the defender prone.
+
+Hold attacks include judo holds and wrestling pins.  
+After a successful attack the defender must make a roll if he wants to
+try to break the hold.  
+      2d10* + STR + skill >= 10 + holder's STR + skill
+The "skill" may be from any style which includes "hold" attacks.
+If the hold is successful, the attacker may choose to inflict damage: 
+IMPACT is 2d6-4 (+STR).
+
+* Note about HANDS: There are holds and throws which require two hands,
+and some which require no hands.  The GM may judge if a maneuver is possible
+or more difficult (skill penalty) in some situations, such as if the
+player has his hands bound.
+
+******************************************************************************
+SECTION 7     MAGIC
+
+-----------------
+7.1 Introduction
+-----------------
+
+Revision History for version 3.0:
+
+   * 1.0 -- Partial Ruleset...Lost or Destroyed
+   * 1.1 -- Rewrite of 1.0 and Completion of Rules and Example Skills. First
+     version posted to DnExotica.
+   * 1.2 -- Minor changes to 1.1. Rewrote the 5th Elemental Focus. Changed some
+     minor aspects of the example skills.
+   * 2.0 -- Format changed to conform with the table of contents. Separation of
+     rules, skills, careers, and spells into separate documents. Removal of
+     costs and heaps. Overall overhaul.
+   * 3.0 -- Del hacks things up. Specifically, templates for types of magic
+     are added, guidelines for creating spells, and spell templates.
+
+-------------
+7.2 Overview
+-------------
+
+Like every other aspect of DragonNet, the magic system is essentially made up
+of skills and tasks which use those skills. In the specific case of the magic
+system, the skills are those which give a character the capability to cast a
+magical spell, and the tasks are: first, the use of source skills to access the
+power for the spell, and second, the use of conductor skills to actually
+cast the spell. For example, to cast the "Reading Light" spell involves two 
+tasks, the first of which requires the application of the "Power of Daylight" 
+skill and the second of which requires the application of the "Light Focus" 
+skill.
+
++Magic often varies from gameworld to gameworld, but the mechanics of how
++magic works are still the same. In here we will use examples of how magic
++works of the type of magic found in Corellus. The guidelines presented for
++created types of magic and spells are just that guidelines.
+
+-----------------
+7.3 Magic Skills
+-----------------
+
+There are two categories of magic skills in the DragonNet system. These are
+source skills and conductor skills. For a character to successfully cast a
+spell, he or she must successfully use source skills to make magical power
+available, and then conductor skills to use that power. For example, a magus'
+"Reading Light" spell requires the caster to use the "Power of Daylight" source
+skill and then the "Light Focus" conductor skill. A more complex spell may
+require more than one skill from one or both of those categories, making one or
+both tasks composite in nature. For example, a magus' "Foobar's Fabulous
+Fireball" spell requires the caster to use the "Power of Energy" and "Power of
+Entropy" source skills for the task of accessing the power for the spell, and
+the "Fire Focus," "Air Focus," and "Water Focus" conductor skills for the task
+of using that power. Thus, the character must succeed on two task resolutions:
+the first to gather the necessary magical energy (source), and the second to 
+use the energy made available (conductor).
+
+7.3.1 Sources
+--------------
+
+Source skills represent the ability of the caster to draw upon a particular
+source of supernatural energy and make that energy available for the casting of
+a spell. Sources are much like outlets in the modern world. Outlets are useless
+by themselves, but when their energy is used by an appliance, technological
+wonders occur. So, too, are source skills useless by themselves, but when their
+energy is used by a conductor skill, magic happens.
+
+Whenever a caster wishes to cast a spell, he must make the energy for that
+spell available by using one or more source skills. Making the energy available
+is a simple matter of making a composite task check using the source skill(s)
++ required of the spell at a Task Difficulty (TD) plus the Power Level of the
+spell. For example, the "Reading Light" spell from above is a Power Level 5
++ spell, which uses only the "Power of Daylight" source. There are no modifiers
++ for accessing the source, and the base cost is 2. Therefore, to use that
+spell the caster must make the composite task check:
+
++    2d10* + ["Power of Daylight" Skill] >= 5 + 2
+
+Another spell, Foobar's Fabulous Fireball, is a Power Level 20 spell which uses
++ both the "Power of Energy" source and the "Power of Entropy" source. Both of
++ which have a base cost of 2. To cast that spell, the caster must make the
+composite task check:
+
++ 2d10* + ["Power of Energy" Skill] + ["Power of Entropy" Skill] >= 20 + 2 + 2
+
++ Power level roughly indicates the level of effect.
+
+If the composite task check fails, the caster is unable to gather the energy
+required for the spell and the spell fizzles. If the composite task check
+succeeds, the character has successfully gathered the energy, and may proceed
+to harness that energy using the appropriate conductor skill(s).
+
+7.3.2 Conductors
+-----------------
+
+Where source skills represent an ability to draw upon a particular source of
+supernatural energy, conductor skills represent an ability to use that energy
+in a particular way. Where a source skill is an outlet in the modern world, a
+conductor is an appliance. Without electricity, appliances are useless by 
+themselves, but when they are given energy to work with they can do amazing
+things. So, too, are conductor skill useless without energy from a source
+skill, but when they have that energy, magic happens.
+
+We must also take the analogy one step further. Not all appliances can plug
+into all outlets throughout the world; they must have compatible voltages and
+have the same type of current. Conductors, too, can only be used with those
+sources with which they are compatible. Energy from any other incompatible
+source is useless to them. The sources with which a given conductor is
+compatible are listed in the description for that skill.
+
+Once a caster has gathered the energy from a source or sources, he or she can
+utilize that energy by using one or more conductor skills. Similar to using
+source skills, harnessing energy using conductor skills is a simple matter of
+making a composite task check using the conductor skill(s) required of the
+spell at a Task Difficulty (TD) equal to the Power Level of the spell. For
+example, the "Reading Light" spell from above is a Power Level 5 spell which
+only uses the "Focus of Light" conductor. Therefore, to finish casting this
+spell (once energy has been made available from the appropriate source), the
+caster must make this task check:
+
+     2d10* + ["Light Focus" Skill] >= 5
+
+As another example, "Foobar's Fabulous Fireball" is a Power Level 20 spell
+which requires the Fire, Air, and Water conductors. Therefore, to finish
+casting the spell (once the energy has been gathered, above), the caster must
+make the task check:
+
+     2d10* + ["Fire" Skill] + ["Air" Skill] + ["Water" Skill] >= 20
+
+If the composite task check fails, the caster was unable to successfully
+conduct the spell's energy and an unpredictable result may occur; the power
+was not properly "focused." Once the conductor task check has succeeded,
+the spell is cast.
++ Optionally, a failure of the source check can cause damage to the caster.
+
++ The TD can generally be determined by the complexity of the spell. Some
++ common modifiers are:
++ Efficiency:
++    1 <-> 9%  = -9 <-> -1
++    10%       =  0
++  20% <-> 90% = 3 <-> 21
++  91% <-> 100%= 24 <-> 51
++
++ Distance:
++ Close   = -3
++ Near    = 0
++ Far     = +5
++ Extreme = +5 per 100m 
++
++ Complexity:
++ # of source     = +5 per source
++ # of conduntors = +2 per conductor
++ 
++ Casting Time:
++ < round = +5
++ round   = 0
++ > round = -1 per minute upto -5 max
++         additional -1 per 10 minutes upto -5
++         additional -1 per hour upto -5
++         additional -1 per day  upto -5
++ -----------------
++ 7.4 Magic Types Guidelines
++ -----------------
++ 
++ Magic can come in many types and flavors. The GM will probably decide
++ on the types of magic depending on the type of world that is being
++ played in. The magic types in the standard world 'Corellus' provide
++ good examples of how to set up the types of magic.
++ 
++ The first thing that needs to be decided is what types of magical
++ energy are available for use. These are the sources that the players
++ can use. Are there any restrictions on these sources (e.g., priestly
++ sources have the restriction that the priest must be in good favor
++ with that deity). Sources usually have a base task difficulty associated
++ that reflects how hard it is to draw on that source.
++ 
++ The next decision is, how can these sources be manipulated. These will
++ be the conductors. The conductors also usually have a base cost associated
++ with them. Other modifiers can be used from the table above.
++ 
++ A template for magic types can be found in section 8.3.
+
+-----------------
+7.5 Magic Spells
+-----------------
+
+The casting of magic spells is the primary task to which source and conductor
+skills are put. The variety in types of spells is as infinite as a player's
+imagination. Spell effects may be small or large, blatant or subtle. Types of
+spells range from powers of the mind to pyrotechnics of the skies. Yet
+even with all of these differences, there are some basic rules and guidelines
+governing the creation and use of spells in the DragonNet system.
+
+7.5.1 Casting Spells
+---------------------
+
+Casting a spell operates just like any other task in the DragonNet system with
+two minor exceptions:
+
+  1.)  Successful spellcasting requires two consecutive, successful, composite
+       task checks: the first to make the energy available to the caster,
+       using source skill(s), and the second to harness that available energy
+       using conductor skill(s).
+  
+  2.)  Secondly, spellcasting is much more tiring work than most activities. 
+       To reflect this, the caster's fatigue heap is incremented by the Power
+       Level of any spell the caster even attempts to cast (regardless of
+       success).
+       [Ed. Note: Subject to finalization of the heap rules]
+
+Other differences may occur beyond those mentioned above, depending on the
+spellcaster(s), the spell(s), and the skill(s) involved. For example, some
+conductor skills require spells to be researched or otherwise learned before
+they can be used.
+
+A verbose example of casting a complex spell:
+     Foobar's Fabulous Fireball is a Power Level 20 spell requiring the "Power
+     of Energy" and the "Power of Entropy" sources, and requiring the "Fire
+     Focus," "Air Focus," and "Water Focus" conductors. Therefore, the caster
+     must make the following two task checks:
+       
++ 1.)  2d10* + ["Power of Energy" Skill] + ["Power of Entropy" Skill] >= 20 + 4
+          (for the source skills)      
++         (4 is the task difficulty 2 + 2 for the base cost of the sources)
+       
++ 2.)  2d10* + ["Fire Focus" Skill] + ["Air Focus" Skill] + ["Water Focus"
+            Skill] >= 20 + 22
+          (for the conductor skills)
++         ( +10 for the 2 sources, +6 for the 3 conductors, +6 for the base
++           cost of the conductors)
+
++    If the first check fails, the spell merely fizzles. Optionally, the 
++    spellcaster may take some kind of damage. If the second check
+     fails, the spell goes wild with effects determined by the GM. If both
+     checks are successful, the spell is cast.
+
+     Finally, regardless of whether the spell succeeded or failed, the caster's
+     fatigue heap must be incremented by one fifth of the Power Level of the 
+     spell, which in this case was 20. Should this result in a fatigue heap 
+     greater than its potential (WIL), a fatigue potential check must be made 
+     as:
+          2d10* + WIL >= Fatigue
+     Failure of this check results in unconsciousness. (See combat rules for
+     details).
+
+7.5.2 Spell Attributes
+-----------------------
+
+All spells have many of the same basic attributes. These attributes bear no
+relation to a character's attributes, except in that they serve to define the
+basic nature of the spell in the same way that character attributes serve to
+define the basic nature of a character. The basic attributes and their values
+are:
+
+Power Level
+     Each spell must define how much magical energy the spell uses. This value
+     is the spell's Power Level, and affects how difficult the spell is to cast
+     and how draining the spell is to cast.
+
+Source(s)
+     Each spell must also define which source(s) of energy are used to draw the
+     power required by the spell.
+
++ Source TD
++    The total TD associated with accessing the source(s).
+
+Conductor(s)
+     Each spell must also define which conductor(s) must be used to harness the
+     energy once it is gathered from the source(s).
+
++ Conductor TD
++    The total TD associated with making use of the conductors.
+
+Casting Time
+     This value represents the amount of time it takes to successfully cast
+     the spell. This value is usually the Power Level of the spell, in seconds.
+
+Duration
+     This value represents the length of time the spell lasts once it has been
+     successfully cast.
+
+Range
+     This value represents the maximum distance, in meters, from the caster
+     that the spell effect may be centered or initiated.
+
+Volume of Effect
+     This value represents the volume of space which is directly affected by
+     the casting of this spell. (Note that secondary effects, like falling
+     rocks, may extend beyond this range.)
+
+Spell descriptions may augment or supersede this list of attributes.
+
+7.5.3 Tweaking Spells (VERY OPTIONAL)
+--------------------------------------
+
+The ability to tweak a spell allows a spellcaster to modify one or more of the
+basic attributes of a spell, or (depending on the spell) some of the specific
+effects of the spell (for example, putting more energy into a simple "Fireball"
+spell can increase the damage it does, which is not a basic attribute). For
+those spellcasters restricted to previously learned or researched spells, the
+ability to tweak those spells they already know is a godsend. However, the
+degree to which spells may be tweaked is limited, as are the ways in which
+they may be tweaked.
+
+When a caster tweaks a spell, he changes an aspect of the spell result by
+changing either the Power Level of the spell (for effect changes), or by
+changing the TD of the source and/or conductor check  (for casting 
+changes). Which aspects of a spell may be tweaked, and to what degree at
+what cost, are generally specific to the spell being cast. However, there are
+two general 'tweaks' which should be available to almost all casters and for
+almost all spells:
+
+  1.)  The fatigue caused by a spell may be tweaked by changing the source
+        task difficulty. For every point by which the source task difficulty is
+        increased, the fatigue caused by the spell is decreased by a point to a
+        minimum of 1 point of fatigue. Similarly, for every point by which the
+        source task difficulty is decreased (to a minimum TD of 1), the fatigue
+        caused by the spell is increased by a point.
+  
+  2.)  The casting time of a spell may be tweaked by changing the conductor
+        task difficulty. For every point by which the conductor task difficulty
+        is increased, the casting time of the spell is reduced by 1 unit (where
+        the unit is the units in which the spell's casting time is measured,
+        be it seconds, minutes, hours, or days). Similarly, for every point by 
+        which the conductor task difficulty is decreased (to a minimum TD of 
+        1), the casting time of the spell is increased by 1 unit.
+
+Almost all other 'tweaks' change the Power Level (and subsequently both the
+source and conductor TDs and the fatigue incurred) of the spell. Examples of
+aspects of a spell which might be capable of being tweaked in this way include:
+
+   * Duration
+   * Range
+   * Volume of Effect
+   * Damage
+
+In general, these aspects may never be tweaked beyond double their original
+value, nor tweaked lower than half their original value, and the cost for 
+doubling a value should be roughly equal to the original power cost. 
+
+While tweaking as a whole is optional, it is recommended that those campaigns
+with high-level spellcasters use, at the least, the rules for decreasing 
+fatigue costs and casting times to enable those magi to operate effectively.
+
+7.5.4 Making Spells
+--------------------
+
+The procedure and rules used for making a new spell are entirely dependent
+upon the types of conductor skills to be used by the Spell. Some conductors
+require research and memorization, some require learning, others allow for
+'on-the-fly' creation. Please see the conductor skill lists for specific rules.
+
+**************************************************************************
+Section 8   MISCELLANEA
+
+---------------------
+8.1 Experience Awards
+---------------------
+Experience Points (EP) are awarded in five categories -
+ 
+(a) Adventure/goals fulfilled
+(b) Bard's tale/heroics
+(c) Conflict/danger
+(d) Forethought/ingenuity
+(e) Growth/interaction
+ 
+1-6 dice can be awarded in each category depending on the significance of 
+the event or session.
+ 
+Significance  Dice (d6)  Constant
+------------  ---------  --------
+None          0             0
+Noteworthy    1             4
+Impressive    2             8
+Spectacular   4            16
+Legendary     6            24
+ 
+Simple examples by category
+---------------------------
+(a1) surviving one session whilst actively adventuring (i.e., in the 
+     midst of potential danger and/or intrigue)
+
+(a4) successfully completing a campaign requiring a significant expenditure
+     of time and resources in an environment of considerable danger
+
+(a6) as above but one of those "save the world" type conclusions
+
+(b2) a character rescues a hostage from bandits
+
+(b4) loot in hand, a character leaps off a balcony, grabs the swinging
+     chandelier, completes a somersault through a stained glass window,
+     and lands safely on the snow covered ground outside
+
+(c0) Ronan defeats an orc
+
+(c1) a character wins a Dragonshah tournament
+
+(c2) a character defeats an opponent but is seriously wounded
+
+(c4) a character leads an army and scores a crushing victory
+
+(c6) David beats Goliath
+
+(d1) a character takes a simple precaution that saves the party's bacon 
+     (they spiked the door)
+
+(d2) a character exhibits a novel use of an attribute or skill
+
+(d4) by logic, deduction, and a touch of intuition, a character uncovers 
+     a major plot element that leads to the successful conclusion of an 
+     adventure
+
+(e1) a character attends a social engagement and makes a good impression 
+     on the assembled nobility
+
+(e2) a character displays convictions of belief in the face of ridicule
+
+(e4) a character saves the life of a servitor
+
+(e4) using only accrued clout and connections, a character successfully
+     initiates a socio-political "power-play" from a distance
+
+(e6) a character with a barbarian background becomes king of a mighty
+     nation through repute, force of arms, and power politics
+  
+Using experience dice
+---------------------
+Once the experience dice have been awarded by the Game Master, the player
+has three options:
+
+1.)  He can roll the dice and get a number of experience points equal to their
+      total.
+2.)  He can play safe and get a number of experience points equal to 4 times 
+      the number of experience dice (1 dice = 4 EP).
+3.)  He can divide his experience dice between the two options above, 
+      choosing to roll some of them and to cash in the remaining ones. The 
+      player must decide how many dice will be rolled before he starts rolling.
+
+Of course, the Game Master may rule that some options are not available if he
+feels that they are detrimental to the game.
+
+Example
+-------
+Say a player is awarded 10 experience dice. The player could:
+
+1.)  Roll all 10 dice, which would generate from 10 to 60 points, with an 
+      average of 35.
+2.)  Exchange the 10 dice for 40 experience points.
+3.)  Roll 3 dice and cash in the remaining 7, which would generate between
+      31 and 46, with an average of 38.5.
+
+------------------------------
+8.2 Experience Dice During Play (Optional)
+------------------------------
+During a game session, if a character has some experience dice saved up,
+he may use them for purposes other than skill advancement.
+
+In this case, Experience Dice can be used for:
+
+1. Improving a Task Resolution (2d10*) roll
+2. Increasing an Impact roll
+
+To avoid a penalty, a player must declare the use of experience dice 
+BEFORE he makes his roll. He should tell the GM that he wishes to 
+modify his pending dice roll with some experience dice. After the GM has 
+been told how many experience dice are going to be used in this way, the 
+player rolls the total of the original dice plus how ever many experience 
+dice he told the GM he was going to use.
+
+If a player wishes to modify a die roll AFTER he has rolled the dice, he
+must do so at a penalty of three times the cost; therefore, the player pays
+three experience dice for each die added to the roll.
+
+==============================
+8.3 Templates
+==============================
+
+------------------------------
+8.3.1 DNet Species Template
+------------------------------
+------------
+Species Name
+------------
+Version Number:
+World:
+Author:
+------------
+Cultures:
+Can be a PC:  (Yes/No) 
+EP Cost:      (Use Species EP Cost rules above)
+Average Ht:   (in cm)
+Average Wt:   (in kg)
+Size Rating:  (relative to humans)
+Lifespan:
++ Talents:    (List Talent and + value, ex: STR +1)
+- Talents:    (List Talent and - value, ex: INT -2)
+Body points:  (list both a constant and a die roll equivalent)
+Speed:
+
+Innate Gifts:
+(List Gift and positive EP Cost. For now come up with your own costs.
+Keep a record of these for when we eventually start compiling a
+Gifts/Foibles list.)
+
+Innate Foibles:
+(List Foible and negative EP Cost. For now come up with your own costs.
+Keep a record of these for when we eventually start compiling a
+Gifts/Foibles list.)
+
+Innate Gifts and Foibles are what ALL members of a species are born with.
+Individual members may still have other Gifts/Foibles.
+
+Cultures:
+List of cultures and how the culture of this species is different
+from the default culture description.
+
+Description:
+
+------------------------------
+8.3.2 DNet Culture Template
+------------------------------
+------------
+Culture Name
+------------
+Version Number:
+World:
+Author:
+------------
+Habitat:
+Social Structure:
+Political Structure:
+Economic Structure:
+
+Skill Packages:
+(List the package name and skill areas)
+
+Common Skills:
+(common types of skills possessed by members of the culture. List
+individual skills, skill areas, or descriptions of the type of skills.
+These are NOT skills that all members of the species will have; they are
+just common skills that a majority would probably have)
+
+Notable relations with other cultures:
+(relations with other cultures that play a large role in the culture
+(e.g. long lasting blood feud/war, dependency on or providing for other cultures))
+
+Description:
+
+
+------------------------------
+8.3.3 NPC Template
+------------------------------
+
+short form:
+Name:
+-------------
+World:
+Version:
+Author:
+-------------
+Species:
+Culture:
+Age:
+Possessions:
+Skills: (only those relevant to their role)
+Gifts/Foibles: (not present in the species)
+Notes: (information relevant to their role, 
+        possibly including brief personality/history)
+        
+
+Long form:
+
+NPCl
+
+Name:
+-------------
+World:
+Version:
+Author:
+-------------
+Species:
+Culture:
+Age:
+
+Physical Characteristics
+        attributes
+        physical description
+
+Abilities
+        skills
+        Gifts/Foibles
+
+Possesions
+        personal items
+        real estate 
+
+Personality
+        Goals/Interests
+        Morals/Ethics (in particular how it differs from their
+                        culture)
+
+History
+        Organizations associated with
+        Conflicts with persons or organizations
+        Current place of residence (including game world)
+        Outline tracing past actions and changes
+
+
+------------------------------
+8.3.4 Deity Template 1.0
+------------------------------
+
+Name: 
+Influence: 
+Version: 
+Author(s): 
+
+Personality:
+
+History:
+
+Friends:
+
+Enemies:
+
+Species Created:
+
+Important Dates:
+   date:
+
+------------------------------
+8.3.5 Adventure Template
+------------------------------
+
+Title:
+Author:
+Game World:
+Location:
+Time:
+Participants:
+Background:
+Plot Sketch:
+Notes:
+
+
+Example:
+=======================
+Title: (Not yet decided upon a title)
+Author: Tom
+Game World: (?)
+Location(s): This is a maritime adventure with possibility of piracy. The
+  technology can be called enlightened medeval. The naval technology reaches
+  out into the 18th century as far as sailing technology is concerned. There
+  is no gun powder, however, so there are no guns or cannons. The world has no
+  moon, instead it has a second sun which is somewhat brighter than the moon
+  illuminating the sky at very dark levels of twilight illumination when the
+  yellow sun is absent from the night sky. The year is 400 days long with each
+  season lasting 100 days. There are no months since there is no moon. There
+  is also an 80 year climate cycle called the grand season, this is due to
+  that second orange sun. At the time of this adventure the world is in its
+  second year of grandsummer about 10 days into local spring. The origins of
+  the use of the metric system in an otherwise medeval setting are lost in the
+  mists of time and legend.
+Time: 10 days into spring, second year of grandsummer.
+Participants: Player Characters, Pirates, seamonsters
+Background: 
+Plot sketch: A map to a treasure is found, location of treasure is at an
+  abandoned castle.
+Notes: More details will be forthcoming.
+=======================
++ 
++ -----------------------------
++ 8.3.6 Magic Type
++ Name:
++ Game world:
++ Author:
++ Version:
++ 
++ Sources:
++    Name    Base Cost   Min  Max  Domain Special
++ 
++ Conductors:
++    Name    Base Cost        Max  Domain Special
++ 
++ Name - The name of the source/conductor
++ Base Cost - The base of using the source/conductor
++ Min - The minimum amount that can be drawn from the source
++ Max - The maximum amount that can be drawn or the maximum
++       TD that the spell involving this conductor can be.
++ Domain - What conductors can be used with the source.
++          What effects the conductors can produce
++ Special - Any effects/conditions/side effects that are specific
++           to this source/conductor.
++ 
++ 
++ --------------------
++ 8.3.7 Spell Template
++ --------------------
++ Name:
++ Game world:
++ Author:
++ Version:
++ 
++ Source(s)
++ Source TD
++ Conductor(s)
++ Conductor TD
++ Power Level
++ 
++ Casting Time
++ Duration
++ Range
++ Volume of Effect
++ 

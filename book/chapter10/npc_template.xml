@@ -1,0 +1,57 @@
+<sect1><title>NPC Template</title>
+<sect2><title>Short Form</title>
+<screen>
+NPC Name
+--------
+World:
+Author:
+Version:
+--------
+Species:
+Culture:
+Age:
+Possessions:
+Skills: (only those relevant to their role)
+Gifts/Foibles: (not present in the species)
+Notes: (information relevant to their role, 
+        possibly including brief personality/history)
+</screen>
+</sect2>
+
+<sect2><title>Long Form</title>
+<screen>
+NPC Name
+--------
+World:
+Author:
+Version:
+--------
+Species:
+Culture:
+Age:
+
+Physical Characteristics
+        attributes
+        physical description
+
+Abilities
+        skills
+        Gifts/Foibles
+
+Possesions
+        personal items
+        real estate 
+
+Personality
+        Goals/Interests
+        Morals/Ethics (in particular how it differs from their
+                        culture)
+
+History
+        Organizations associated with
+        Conflicts with persons or organizations
+        Current place of residence (including game world)
+        Outline tracing past actions and changes
+</screen>
+</sect2>
+</sect1>

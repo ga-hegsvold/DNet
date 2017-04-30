@@ -1,0 +1,282 @@
+Path: news.polymtl.ca!feed.umontreal.ca!newsflash.concordia.ca!news.nstn.ca!ott.istar!istar.net!van.istar!van-bc!ddsw1!news.mcs.net!usenet
+From: jhahn@nslsilus.org (Aardy R. DeVarque)
+Newsgroups: alt.games.frp.dnd-util,rec.games.frp.dnd
+Subject: Re: Free AD&D Software
+Date: Sun, 07 Jul 1996 20:42:51 GMT
+Organization: Aardy's Aardvark Emporium
+Lines: 270
+Message-ID: <31e02058.146510954@news.mcs.com>
+References: <31D760E0.3376@Grci.com> <31dabef4.3413131@news.direct.ca> <4rfg65$o25@news1.ni.net> <4rh320$ou4@iac2.ltec.net> <4rij4i$gbm@news1.ni.net> <4rjm2a$1p2@iac2.ltec.net> <4rkg9u$t0p@news1.ni.net> <4rkplb$kea@iac2.ltec.net> <4rmbi6$1mn@news1.ni.net>
+NNTP-Posting-Host: ppl.pr.mcs.net
+X-Newsreader: Forte Agent .99e/16.227
+Xref: news.polymtl.ca alt.games.frp.dnd-util:3635 rec.games.frp.dnd:100657
+
+Hi, bos & girls!  Uncle Aardy here, and I see that it's time to trot this
+little lovely out again for your pleasure, enjoyment, and edification.  Read
+away, and please try to check out some of the listed doc's in "For Further
+Information" before posting a knee-jerk-reflex defensive response.
+
+Aardy R. DeVarque
+Feudalism: Serf & Turf
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                               COPYRIGHT & TSR
+
+                           Written by Joel A. Hahn
+
+                               Version: Alpha
+                           Last changed: 06/26/96
+
+[Note: I am not a lawyer, and none of this should be taken as hard and
+fast legal advice.  See an attorney for that.  Nor am I affiliated with TSR
+in any way.]
+
+    Since August of 1994, TSR has been enforcing a company policy about
+what sort of AD&D material is and is not allowed on the Internet, based
+on copyright law (Title 17 of the U.S. Code [referred to here as 17 USC], 
+as well as the Berne Convention and other copyright-related treaties) and 
+trademark law.  For information on Trademarks & TSR, see the companion 
+document to this one.  Here is a quick thumbnail version of TSR's 
+copyright policy, which I will then expand upon:
+
+ 1. No scans of TSR books or artwork, and no lengthy quotes of TSR's 
+    published material may distributed without TSR's permission.
+ 2. No game accessories that are based directly on AD&D and obviously
+    require AD&D for use as is may be distributed without TSR's
+    and the author's permission.
+ 3. If it doesn't fall in categories 1 or 2, it can be distributed to your
+    heart's content in any manner available to you.
+
+    The first category is what most people think of when they hear
+the term "copyright infringement"--that is, outright physical copying.
+As outlined in copyright laws around the world, it is an author's right
+to be the sole distributor of his material for as long as he retains
+the copyright on the material.
+    
+    The second category has caused the rise of numerous flames on the 
+net.  Not by its existence, but because there is some question on
+exactly what is and is not included.
+    This category is based on the concept of a "derivative work."  
+    
+    A "derivative work" is a work based upon one or more preexisting 
+    works, such as a translation, musical arrangement, dramatization,
+    fictionalization, motion picture version, sound recording, art
+    reproduction, abridgment, condensation, or any other form in which
+    a work may be recast, transformed, or adapted.  A work consisting
+    of editorial revisions, annotations, elaborations, or other 
+    modifications, which, as a whole, represent an original work of
+    authorship, is a "derivative work".
+                                            --17 USC 101
+    
+    That is, any work based on or derived from an existing work, 
+containing enough new material to be considered more than just an 
+outright copy, but still not wholly original.  According to copyright 
+law, only the author may create & distribute derivative material for as 
+long as he retains the copyright on the original material.
+
+Rights of an author:
+    An author of a copyrighted work has several exclusive rights, rights
+which only the author may exercise.  They are:
+
+        (1) to reproduce the copyrighted work in copies or phonorecords;
+        (2) to prepare derivative works based upon the copyrighted work;
+        (3) to distribute copies or phonorecords of the copyrighted work
+      to the public by sale or other transfer of ownership, or by rental,
+      lease, or lending;
+        (4) in the case of literary, musical, dramatic, and choreographic
+      works, pantomimes, and motion pictures and other audiovisual works,
+      to perform the copyrighted work publically; and
+        (5) in the case of literary, musical, dramatic, and choreographic
+      works, pantomimes, and pictorial, graphic, or sculptural works, 
+      including the individual images of a motion picture of other
+      audiovisual work, to display the copyrighted work publically.
+                                            --17 USC 106
+
+International copyright:
+    Due to many treaties, especially the Berne Convention and the UCC,
+almost every nation has a reciprocal copyright deal with the United
+States and each other.  The minimum standards set forth in those
+documents, which each signatory nation must fulfill in their laws, include
+all of the legal ideas quoted above.  In other words, just because you don't
+live in the United States, that doesn't mean that this doesn't apply to
+you--because it does.  Unless you live in somewhere  like North Korea, your
+country not only has pretty much identical standards (many have more
+stringent standards), but has also agreed to treat all works copyrighted in
+the U.S. as if they were copyrighted in your country and to aid most
+prosecution of violators of that copyright.
+
+Exceptions to all of the above:
+    If you have legally purchased a copy of an author's material, you
+can do whatever you like with it, including make copies and create
+derivative works, as long as you keep everything to yourself.  If you sell
+or give a copy of any of this subsequent material to anyone, you must 
+either include the original and all of your other copies & derivative
+works, or totally destroy everything you don't sell or give to that 
+person.
+
+    Example 1:
+    You run out and buy a copy of the Dungeon Master's Guide.  However,
+    you find that it is difficult to keep the book open to the page you
+    want while running a game; also, you are concerned about getting
+    pizza and cola stains on your new book.  To alleviate these problems, 
+    you photocopy the book, punch all the pages, and put them in a 
+    three-ring binder.  A few years later, TSR releases a new edition of
+    the game.  You decide to sell your old edition DMG.  By law, you must 
+    also either include the photocopies or destroy them.  On the other 
+    hand, if you had decided to sell or give away the photocopies, you 
+    then have to either include or destroy the original.
+
+    Example 2:
+    After finishing reading a recent fantasy book that you bought, you 
+    are so moved by the author's creation that you decide to sit down
+    right now and write a sequel.  That's just fine and dandy, but you 
+    can't give or sell a copy of your sequel to anyone without also
+    giving or selling the original book and your personal copy of your
+    sequel, or without destroying everything you didn't give away or sell
+    to that person.
+
+    If the material has passed into the public domain, anyone can do 
+whatever they wish to with it.  Almost everything published before 1920 is
+currently in the public domain, as are many things published since then.
+Everything automatically passes into the public domain after a certain
+amount of time.  In the U.S., this is currently 75 years for most
+material.  No TSR books or modules are currently public domain.
+    If the author wishes, he can sell the copyright to someone else.  The
+author retains the right to be identified as the "author," but the new
+owner of the copyright is the one who decides who can and cannot make
+and distribute copies.  TSR is not about to sell out at this point.
+    If the copying or creating of derivative works is done in the process 
+of using the original in the manner it was intended, then it is not 
+illegal to do so.  This means that it is just fine to create supplements
+for use with your campaign and use them in-game.  TSR actively encourages
+this, as a matter of fact.
+    If only a tiny portion of the original is taken, or if copying or
+creation of a derivative work is done, for example, for the purposes of
+teaching, criticism, or discussion then it may be a "fair use."
+
+    ...The fair use of a copyrighted work, including such use by
+    reproduction in copies of phonorecords or by any other means
+    specified in that section, for purposes such as criticism, comment,
+    news reporting, teaching (including multiple copies for classroom
+    use), scholarship, or research, is not an infringement of copyright.
+    In determining whether the use made of a work in any particular case
+    is a fair use the factors to be considered shall include--
+        (1) the purpose and character of the use, including whether such
+      use is of a commercial nature or is for nonprofit educational
+      purposes;
+        (2) the nature of the copyrighted work;
+        (3) the amount and substantiality of the portion used in relation
+      to the copyrighted work as a whole; and
+        (4) the effect of the use upon the potential market for or value
+      of the copyrighted work.
+                                            --17 USC 107
+
+    Even lawyers and judges regularly have a problem determining exactly 
+where the line is drawn for what is and is not fair use, though; it is
+a very tricky area.  In any case distribution of most user-created AD&D 
+accessories does not constitute fair use.
+    If the author wishes, he can allow others to exercise any of the 
+rights normally reserved only to himself (as outlined above), on whatever 
+terms the two sides agree to.  Those terms can include whatever conditions 
+the author can think up.
+
+    Example:
+    In the music industry, it is not uncommon for shipping problems to
+    delay a shipment of sheet music from arriving in time for a musical
+    group to have enough time to practice it sufficiently before a 
+    performance.  In such situations, the conductor will usually contact 
+    the publisher and request permission to make photocopies of the music 
+    so the group can begin rehearsing.  In many cases, the publisher will 
+    allow this, on the condition that all such copies are collected after 
+    each rehearsal and that all such copies are completely destroyed when 
+    the real copies arrive.  If the conductor does not agree to the 
+    conditions, or if the publisher decides not to allow this, then the 
+    conductor is out of luck; he'll just have to wait until the shipment 
+    arrives.
+
+    TSR does not normally allow distribution of outright copies, though 
+they may make individual exceptions.  This is the same for most gaming
+companies.
+    TSR has issued a blanket permission statement allowing distribution 
+of derivative works via the Internet, but it counts only if you follow 
+their conditions.  If you do not like their conditions, you either have 
+to change your material so that it no longer qualifies as derivative, or 
+be content to keep it to yourself, like the conductor in the above 
+example.  TSR's conditions are pretty much as follows:
+
+ 1. Distribution is restricted to TSR's areas on AOL and GEnie,
+    the ftp.mpgn.com FTP site, and any other areas that TSR may
+    license in the future to carry such materials.
+ 2. The files must conform to TSR's Code of Ethics.  (Basically, no 
+    overly graphic violence, no obscenities, no graphic sex or discussion
+    of sex & sexual orientations, and no "real-world" religions.)
+ 3. The files must include TSR's disclaimer, a copy of which is provided
+    at the various distribution sites.  The disclaimer essentially
+    boils down to a declaration that the file can only be distributed
+    outside of TSR-licensed sites with permission from both TSR and the
+    author.
+ 4. No restrictions are placed regarding distribution of derivative
+    works via Usenet or listservs/majordomos.
+
+    The individual authors (in this case, companies) can put any 
+restrictions they desire on the distribution of derivative works, and to 
+my knowledge, not one has placed absolutely no restrictions on this 
+distribution; some just have fewer or more restrictions than others.  (In 
+many cases, the only restriction is that the files be distributed free of 
+charge.)
+
+Further distribution:
+    Once a file that requires the TSR disclaimer makes its way to a 
+licensed site, then it cannot be distributed any further except to 
+other licensed sites without the permission of both the author and TSR.
+This means that TSR cannot take all the files in a licensed ftp site,
+print them up, and publish them as "The Complete Net Handbook" without
+the express permission of each and every author (unless an author
+included a blanket statement of his own stating that anyone can 
+distribute the file in question).
+    Also note that if TSR, for some ungodly reason, decides to 
+renegotiate the licenses with each and every one of the licensed sites in 
+order to turn the sites into a for-pay access network, it is the author's 
+right to terminate his permission which allows the site to distribute his 
+files--the site must then delete the files or be guaranteed to lose a 
+lawsuit.  If TSR were to try this, they would almost certainly either 
+a) get told where to stick it by the licensed sites, or b) end up with a 
+bunch of sites completely devoid of everything except files that TSR 
+themselves created, and which die due to the competition of the free 
+sites with not-quite-AD&D-but-still-compatible files that TSR has no say
+in.
+
+For further information:
+    If you want to hear TSR's position on what they consider to be
+"derivative works," then write to TSRInc@aol.com, or go to TSR's 
+information page on the World Wide Web at <http://users.aol.com/tsrinc>. 
+If you want to hear other people's opinions, go to
+<http://cs.ucr.edu/~jimv/> or ftp the file TSR_TM.ZIP from
+ftp://ftp.umd.umich.edu\pub\frp\dnd, unzip the file, and run the file 
+TSR_TM.EXE.  This latter method runs only on IBM clones.  Note that
+neither of these latter two resources has been updated recently--not that
+the opinions contained therein have changed any, but some of the
+circumstances and basic facts upon which those opinions are based may have.
+    For the full text of 17 USC, see the Cornell law site at 
+http://www.law.cornell.edu/uscode/17/index.html.  For all of the U.S. 
+government's circulars which explain and elaborate on 17 USC, as well as 
+all the information about copyright you could ask for and more, see the 
+Library of Congress' information site at http://lcweb.loc.gov/copyright.  
+If you do not have World Wide Web access, but do have gopher access, try 
+the Library of Congress' gopher site, marvel.loc.gov.
+
+How to be absolutely certain that TSR will not challenge your work:
+    Simple.  Don't write it specifically for AD&D.  Write so that the
+average gamer can be reasonably certain that the document is not intended
+specifically and solely for use with AD&D, or isn't a story that is
+patently obvious that it was written from an AD&D game session.  Don't 
+use creatures, settings, characters, powers, descriptions and so forth 
+that first appeared in TSR products, and/or just don't use game terms 
+at all.  If you're not sure, don't use it.
+    This does not mean that these are the only works that do not fall
+within the purview of TSR's policy, as they aren't.  However, as a whole,
+such works definitely will not be challenged by TSR in any way, whereas
+works which "push the envelope" do run that risk.  If you don't mind a
+little risk, then by all means, try something a little closer to the line
+TSR has drawn.  
+
+***End FAQ***

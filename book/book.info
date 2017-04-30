@@ -1,0 +1,248 @@
+Logical Divisions: The Categories of Elements in DocBook
+
+DocBook elements can be divided broadly into these categories: 
+
+ Sets
+ Books
+ Divisions, which divide books into parts
+ Components, which divide books or divisions into chapters
+ Sections, which subdivide components
+ Meta-information elements
+ Block elements
+ Inline elements
+
+
+
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V3.1//EN" [
+<!ENTITY chap1 SYSTEM "chap1.sgm">
+<!ENTITY chap2 SYSTEM "chap2.sgm">
+<!ENTITY chap3 SYSTEM "chap3.sgm">
+<!ENTITY appa SYSTEM "appa.sgm">
+<!ENTITY appb SYSTEM "appb.sgm">
+]>
+<book><title>My First Book</title>
+&chap1;
+&chap2;
+&chap3;
+&appa;
+&appb;
+</book>
+
+Example 2-2. A Typical Book
+
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<book>
+<bookinfo>
+  <title>My First Book</title>
+  <author><firstname>Jane</firstname><surname>Doe</surname></author>
+  <copyright><year>1998</year><holder>Jane Doe</holder></copyright>
+</bookinfo>
+<preface><title>Foreword</title> ... </preface>
+<chapter> ... </chapter>
+<chapter> ... </chapter>
+<chapter> ... </chapter>
+<appendix> ... </appendix>
+<appendix> ... </appendix>
+<index> ... </index>
+</book>
+
+Example 2-3. A Typical Chapter
+
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<chapter><title>My Chapter</title>
+<para> ... </para>
+<sect1><title>First Section</title>
+<para> ... </para>
+<example> ... </example>
+</sect1>
+</chapter>
+
+Example Table
+
+<!DOCTYPE table PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<table frame=all><title>Sample Table</title>
+<tgroup cols=5 align=left colsep=1 rowsep=1>
+<colspec colname=c1>
+<colspec colname=c2>
+<colspec colname=c3>
+<colspec colnum=5 colname=c5>
+<spanspec spanname=hspan namest=c1 nameend=c2 align=center>
+<spanspec spanname=bspan namest=c2 nameend=c3 align=center>
+<thead>
+<row>
+  <entry spanname=hspan>Horizontal Span</entry>
+  <entry>a3</entry>
+  <entry>a4</entry>
+  <entry>a5</entry>
+</row>
+</thead>
+<tfoot>
+<row>
+  <entry>f1</entry>
+  <entry>f2</entry>
+  <entry>f3</entry>
+  <entry>f4</entry>
+  <entry>f5</entry>
+</row>
+</tfoot>
+<tbody>
+<row>
+  <entry>b1</entry>
+  <entry>b2</entry>
+  <entry>b3</entry>
+  <entry>b4</entry>
+  <entry morerows=1 valign=middle><para>  <!-- Pernicous Mixed Content -->
+  Vertical Span</para></entry>
+</row>
+<row>
+  <entry>c1</entry>
+  <entry spanname=bspan morerows=1 valign=bottom>Span Both</entry>
+  <entry>c4</entry>
+</row>
+<row>
+  <entry>d1</entry>
+  <entry>d4</entry>
+  <entry>d5</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+Example Itemized List
+
+<!DOCTYPE itemizedlist PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<itemizedlist mark=opencircle>
+
+<listitem>
+<para>
+TeX and LaTeX
+</para>
+</listitem>
+
+<listitem override=bullet>
+<para>
+Troff
+</para>
+</listitem>
+
+<listitem>
+<para>
+Lout
+</para>
+</listitem>
+</itemizedlist>
+
+Example Orderedlist
+
+<!DOCTYPE orderedlist PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<orderedlist numeration="lowerroman">
+<listitem>
+<para>One</para>
+</listitem>
+<listitem>
+<para>Two</para>
+</listitem>
+<listitem>
+<para>Three</para>
+</listitem>
+<listitem>
+<para>Four</para>
+</listitem>
+</orderedlist>
+
+Examples Formalparagraph
+
+<!DOCTYPE formalpara PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<formalpara><title>This Paragraph Has a Title</title>
+<para>
+This is a test.  This is only a test.  Had this been a real
+example, it would have made more sense.  Or less.
+</para>
+</formalpara>
+
+Examples Literal
+
+<!DOCTYPE para PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<para>There are several undocumented settings for <varname>debug</varname>,
+among them <literal>3.27</literal> to enable a complete trace and
+<literal>3.8</literal> to debug the spell checker. For a complete
+list of the possible settings,
+see <filename class="headerfile">edit/debug.h</filename>.</para>
+
+Examples Literal Layout
+
+<!DOCTYPE blockquote PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<blockquote>
+<attribution>William Shakespeare, <citetitle>Henry V</citetitle></attribution>
+<literallayout>
+  O, for a muse of fire, that would ascend
+The brightest heaven of invention!
+A kingdom for a stage, princes to act,
+And monarchs to behold the swelling scene!
+</literallayout>
+</blockquote>
+
+Example Example
+
+<!DOCTYPE example PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<example><title>A DSSSL Function</title>
+<programlisting>
+(define (node-list-filter-by-gi nodelist gilist)
+  ;; Returns the node-list that contains every element of the original
+  ;; nodelist whose gi is in gilist
+  (let loop ((result (empty-node-list)) (nl nodelist))
+    (if (node-list-empty? nl)
+        result
+        (if (member (gi (node-list-first nl)) gilist)
+            (loop (node-list result (node-list-first nl)) 
+                  (node-list-rest nl))
+            (loop result (node-list-rest nl))))))
+</programlisting>
+</example>
+
+Example Example Screen
+
+<!DOCTYPE example PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<example><title>A DSSSL Function</title>
+<screen>
+Example text
+</screen>
+</example>
+
+Example MediaObject
+
+<!DOCTYPE mediaobject PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<mediaobject>
+<imageobject>
+<imagedata fileref="figures/eiffeltower.eps" format="eps">
+</imageobject>
+<imageobject>
+<imagedata fileref="figures/eiffeltower.gif" format="gif">
+</imageobject>
+<textobject>
+<phrase>The Eiffel Tower</phrase>
+</textobject>
+<caption>
+<para>Designed by Gustave Eiffel in 1889, The Eiffel Tower is one of the
+most widely recognized buildings in the world.
+</para>
+</caption>
+</mediaobject>
+
+Example InlineMediaObject
+
+<!DOCTYPE para PUBLIC "-//OASIS//DTD DocBook V3.1//EN">
+<para>
+Einstien's most famous equation,
+<inlineequation>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="figures/emc2.gif">
+</imageobject>
+<textobject>
+<phrase>E=mc<superscript>2</superscript></phrase>
+</textobject>
+</inlinemediaobject>
+</inlineequation>, expresses the relationship between matter
+and energy.
+</para>

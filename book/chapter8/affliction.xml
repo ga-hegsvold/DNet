@@ -1,0 +1,200 @@
+<sect1><title>Affliction</title>
+<para>
+Affliction is the general term given to any condition which will affect a
+character adversly, such as poison and disease. The mechanics for determining
+the results of disease or poisoning are the same.
+</para>
+
+<sect2><title>Mechanics</title>
+<para>
+All poisons and diseases have a Virulence rating. In basic terms, the
+virulence is a measure of the strength of the poison or disease; the
+difficulty a person has in overcoming it's effects.
+</para>
+
+<para>
+There are two stages of affliction: Partial Effects and Full Effects. The
+effect on a creature will vary from affliction to affliction. Some example
+afflictions will be given below.
+</para>
+
+<para>
+A character will suffer partial effects from the affliction if they fail to
+make their Afflicted roll, and likewise, they will suffer the full
+effects if they fail to make their Resistance roll, as given below:
+</para>
+
+<para>
+<literal>
+Afflicted: d10-d10* + BOD + WIL &gt;= Virulence
+</literal>
+</para>
+
+<para>
+<literal>
+Resistance: d10-d10* + BOD + FIT + 5 &gt;= Virulence
+</literal>
+</para>
+
+<para>
+Each affliction will also be given an Onset Time. It is after the Onset Time
+has passed that a character is allowed to make their Afflicted roll.
+</para>
+
+<para>
+Should a character succeed in making their Afflicted roll, they will suffer no
+adverse effects from the affliction. Should the Afflicted roll be failed, and
+after the Onset Time has passed again, the character is allowed to make their
+Resistance roll. If the character makes their Resistance roll, the affliction
+will proceed no further and the character will recover in (Virulence - WIL - FIT) days.
+</para>
+
+<para>
+If the Resistance roll is failed, the character will suffer, in addition to
+the partial effects, the full effects of the affliction, and, if they survive,
+will recover in (Virulence - FIT) days.
+</para>
+</sect2>
+
+<sect2><title>Dosage</title>
+<para>
+Doseage for all afflictions is given as LD50 Doseage.
+The LD50 doseage is defined as the dosage that will cause death in 50% of the
+creatures exposed to that doseage.
+The LD50 doseage is given or must be determined for each poison or disease.
+</para>
+
+<para>
+For the administration of either larger or smaller doseages, the following
+table is used to determine Virulence:
+</para>
+
+<table frame="all"><title>Virulence</title>
+<tgroup cols="3" align="center" colsep="1" rowsep="1">
+<colspec colnum="3" align="left" colwidth="1*" />
+<thead>
+<row><entry>Dose</entry><entry>TD</entry><entry>Description</entry></row>
+</thead>
+<tbody>
+<row><entry>.125</entry><entry>10</entry></row>
+<row><entry>.25</entry><entry>15</entry></row>
+<row><entry>.5</entry><entry>20</entry><entry>(Half the LD50 Dose)</entry></row>
+<row><entry>1.0</entry><entry>25</entry><entry>(LD50 dose)</entry></row>
+<row><entry>2.0</entry><entry>30</entry><entry>(Double the LD50 Dose)</entry></row>
+<row><entry>4.0</entry><entry>35</entry></row>
+<row><entry>8.0</entry><entry>40</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+For each doubling in administered dose, +5 is added to the TD. GM's should
+note that, for poisons, an increased doseage administered will increase the
+chance of the poison being detected.
+</para>
+
+<para>
+Virulence Formula:
+<literal>
+Virulence TD = 25 + 5 * log(Multiple) / log(2)
+</literal>
+</para>
+
+<para>
+Multiple Formula:
+<literal>
+Multiple (= Dose / LD50) = 2^((TD-25) / 5)
+</literal>
+</para>
+
+<para>
+All LD50 doseages are given assuming roughly human body size and weight.
+</para>
+</sect2>
+
+<sect2><title>Sample Afflictions</title>
+<sect3><title>Poisons</title>
+<para>
+Sodium Cyanide
+
+<screen>
+LD50: 1.1 g
+Onset Time: 5 minutes
+Partial Effects: -3 to STR, -3 to FIT, 2d6 pts of injury
+Full Effects: -2 STR, -2 FIT, 3d6 pts of injury
+Comments: has a distinctive burnt almond taste. When put in acid, generates
+hydrogen cyanide gas.
+</screen>
+</para>
+
+<para>
+Tetrodotoxin
+
+<screen>
+LD50: .001 g
+Onset Time: 2 minutes
+Partial effects: -3 DEX, -1 AGI
+Full effects: -2 DEX, -1 AGI, 3d6 pts of injury
+Comments: Found in puffer-fish, and with a low LD50 would be good for coating
+weapons, but also effective as ingested poison. Neurotoxin.
+</screen>
+</para>
+
+<para>
+Sarin
+
+<screen>
+LD50: .001 g
+Onset Time: 2 minutes
+Partial effects: -1 DEX
+Full Effects: -2 DEX, 5d6 pts of injury
+Comments: Nerve gas. Effective as contact poison, inhaled, or ingested. 
+Neurotoxin.
+</screen>
+</para>
+
+<para>
+Bungarotoxin
+
+<screen>
+LD50: .012 g
+Onset time: 10 minutes
+Partial effects: -2 STR, -2 FIT
+Full effects: -1 FIT, 3d6 pts injury
+Comments: Common neurotoxin from snakes.
+</screen>
+</para>
+
+<para>
+Amanitin
+
+<screen>
+LD50: .01 g
+Onset time: 30 minutes
+Partial effects: -2 STR, -2 FIT
+Full effects: -1 STR, 3d6 pts injury
+Comments: Poison found in some poisonous mushrooms. If whole mushrooms or
+pieces are eaten, then the LD50 dose becomes 10 g. Concentrated form effective
+ingested and injected.
+</screen>
+</para>
+
+<para>
+Imp's Sting
+
+<screen>
+LD50: One sting
+Onset time: 10 seconds
+Partial effects: Comatosed in 10 days.
+Full effects: Death within 1 minute.
+Comments: This is the main reason imps are so feared.
+</screen>
+</para>
+</sect3>
+
+<sect3><title>Diseases</title>
+<para>
+</para>
+</sect3>
+</sect2>
+</sect1>

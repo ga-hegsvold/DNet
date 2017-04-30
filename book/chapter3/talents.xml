@@ -1,0 +1,475 @@
+<sect1><title>Talents</title>
+<para>
+In the DNet system, a character is defined by ten primary Talents.
+These are described hereafter and have been split into two categories:
+Mental and Physical.
+</para>
+
+<para>
+<orderedlist>
+<listitem>
+<para>
+Mental: Aura, Intelligence, Perception, Psyche, Willpower
+</para>
+</listitem>
+
+<listitem>
+<para>
+Physical: Agility, Body, Manual Dexterity, Fitness, Strength
+</para>
+</listitem>
+</orderedlist>
+</para>
+
+<para>
+Human Talents are in the range -5, -4, -3, -2, -1, 0, +1, +2, +3, +4, +5.
+It should be noted that different player Species may have modifiers to some
+Talents, thus moving them above or below the normal human range of -5 to +5.
+</para>
+
+<para>
+<table frame="all">
+<title>Talent Description</title>
+<tgroup cols="2" align="center">
+<colspec colname="c1" colwidth="1*" />
+<colspec colname="c2" align="left" colwidth="4*" />
+<thead>
+<row><entry>Talent</entry><entry>Description</entry></row>
+</thead>
+<tbody>
+<row><entry>-10*</entry><entry>(Minimum Character Species Talent)</entry></row>
+<row><entry>-9*</entry><entry></entry></row>
+<row><entry>-8*</entry><entry></entry></row>
+<row><entry>-7*</entry><entry></entry></row>
+<row><entry>-6*</entry><entry></entry></row>
+<row><entry>-5</entry><entry>Minimal</entry></row>
+<row><entry>-4</entry><entry>Sub-"human"</entry></row>
+<row><entry>-3</entry><entry>Feeble</entry></row>
+<row><entry>-2</entry><entry>Deficient</entry></row>
+<row><entry>-1</entry><entry>BelowAverage</entry></row>
+<row><entry>0</entry><entry>Average</entry></row>
+<row><entry>+1</entry><entry>AboveAverage</entry></row>
+<row><entry>+2</entry><entry>Exceptional</entry></row>
+<row><entry>+3</entry><entry>Gifted</entry></row>
+<row><entry>+4</entry><entry>Prodigious</entry></row>
+<row><entry>+5</entry><entry>Superior</entry></row>
+<row><entry>+6*</entry><entry>Heroic</entry></row>
+<row><entry>+7*</entry><entry></entry></row>
+<row><entry>+8*</entry><entry></entry></row>
+<row><entry>+9*</entry><entry></entry></row>
+<row><entry>+10*</entry><entry>(Maximum Character Species Talent)</entry></row>
+</tbody>
+</tgroup>
+</table>
+*Assuming modifiers for Species
+</para>
+
+<sect2><title>Mental Talents</title>
+<sect3><title>Aura (AUR)</title>
+<para>
+Aura is the non-tangible complement to beauty. It represents a
+character's ability to impress, influence, seduce, command and lead
+people. Qualities such as natural charisma, personal magnetism, and
+sex appeal are greatly influenced by a character's aura.
+</para>
+</sect3>
+ 
+<sect3><title>Intelligence (INT)</title>
+<para>
+Intelligence encompasses memory, analytical and reasoning ability, and
+speed of thought. A high Intelligence indicates a natural aptitude for
+the generation, retention, and understanding of linear thought.
+</para>
+</sect3>
+ 
+<sect3><title>Perception (PER)</title>
+<para>
+Perception includes alertness and observational acuity. A character with
+a high Perception score has keen senses and is less likely to be surprised
+by unexpected developments.
+</para>
+</sect3>
+ 
+<sect3><title>Psyche (PSY)</title>
+<para>
+Psyche is the emotional counterpart to Intelligence. It rates a
+character's ability to engage in creative, intuitive, spiritual and
+transcendental thought. Amongst other things, Psyche enables interaction
+with the supernatural, including the gods, the spirits of nature, and the
+mysteries of the universe.
+</para>
+</sect3>
+ 
+<sect3><title>Willpower (WIL)</title>
+<para>
+Willpower is an indicator of self discipline (determination and persistence)
+and mental fortitude (resistance to influence, pain and stress).
+</para>
+</sect3>
+</sect2>
+
+<sect2><title>Physical Talents</title>
+<sect3><title>Agility (AGI)</title>
+<para>
+Agility represents body control (static and motive) and connectivity.
+It includes balance, rhythm, and flexibility.
+</para>
+</sect3>
+
+<sect3><title>Body (BOD)</title>
+<para>
+Represents the amount of physical mistreatment that the character can
+endure before his vital organs cease to function correctly, i.e. he 
+falls unconscious or die. Generally, Body is proportional to the
+character's size.
+</para>
+</sect3>
+
+<sect3><title>Manual Dexterity (DEX)</title>
+<para>
+Manual Dexterity includes hand-eye coordination, fine motricity of the 
+arms and hands, and sensitivity of touch.
+</para>
+</sect3>
+ 
+<sect3><title>Fitness (FIT)</title>
+<para>
+Fitness is an indicator of bodily health (immune system) and metabolic 
+efficiency. Running for two hours without halt is a good example of a 
+Fitness related activity.
+</para>
+</sect3>
+ 
+<sect3><title>Strength (STR)</title>
+<para>
+Strength is a rating of physical power, both in its instantaneous 
+explosive expression and in its prolonged and measured form.
+</para>
+</sect3>
+</sect2>
+
+<sect2><title>Strength Table</title>
+<para>
+Use the following table to determine how much your character can carry and
+lift based on its Strength. It is suggested that you record those numbers
+on you character sheet for later use.
+</para>
+
+<table frame="all"><title>Strength, Lift, Load, Load Step and Species</title>
+<tgroup cols="5" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="5" colname="c5" colwidth="1*" align="left" />
+<thead>
+<row><entry>STR</entry><entry>Lift</entry><entry>Load</entry><entry>Load Step</entry><entry>Humanoid Species</entry></row>
+</thead>
+<tbody>
+<row><entry>-20</entry><entry>200g</entry><entry>80g</entry><entry>8g</entry><entry></entry></row>
+<row><entry>-19</entry><entry>255g</entry><entry>100g</entry><entry>10g</entry><entry></entry></row>
+<row><entry>-18</entry><entry>340g</entry><entry>135g</entry><entry>14g</entry><entry></entry></row>
+<row><entry>-17</entry><entry>445g</entry><entry>180g</entry><entry>18g</entry><entry></entry></row>
+<row><entry>-16</entry><entry>590g</entry><entry>235g</entry><entry>24g</entry><entry></entry></row>
+<row><entry>-15</entry><entry>775g</entry><entry>310g</entry><entry>31g</entry><entry></entry></row>
+<row><entry>-14</entry><entry>1.0</entry><entry>410g</entry><entry>41g</entry><entry></entry></row>
+<row><entry>-13</entry><entry>1.4</entry><entry>540g</entry><entry>54g</entry><entry></entry></row>
+<row><entry>-12</entry><entry>1.8</entry><entry>715g</entry><entry>72g</entry><entry></entry></row>
+<row><entry>-11</entry><entry>2.4</entry><entry>940g</entry><entry>94g</entry><entry></entry></row>
+<row><entry>-10</entry><entry>3.1</entry><entry>1.2</entry><entry>120g</entry><entry></entry></row>
+<row><entry>-9</entry><entry>4.1</entry><entry>1.6</entry><entry>160g</entry><entry></entry></row>
+<row><entry>-8</entry><entry>5.4</entry><entry>2.2</entry><entry>220g</entry><entry></entry></row>
+<row><entry>-7</entry><entry>7.2</entry><entry>2.9</entry><entry>290g</entry><entry></entry></row>
+<row><entry>-6</entry><entry>9.5</entry><entry>3.8</entry><entry>380g</entry><entry></entry></row>
+<row><entry>-5</entry><entry>13</entry><entry>5.0</entry><entry>0.5</entry><entry></entry></row>
+<row><entry>-4</entry><entry>16</entry><entry>6.5</entry><entry>0.7</entry><entry></entry></row>
+<row><entry>-3</entry><entry>22</entry><entry>8.5</entry><entry>0.9</entry><entry></entry></row>
+<row><entry>-2</entry><entry>29</entry><entry>11</entry><entry>1.1</entry><entry></entry></row>
+<row><entry>-1</entry><entry>38</entry><entry>15</entry><entry>1.5</entry><entry>Elf</entry></row>
+<row><entry>0</entry><entry>50</entry><entry>20</entry><entry>2.0</entry><entry>Human</entry></row>
+<row><entry>1</entry><entry>65</entry><entry>25</entry><entry>2.5</entry><entry></entry></row>
+<row><entry>2</entry><entry>85</entry><entry>35</entry><entry>3.5</entry><entry></entry></row>
+<row><entry>3</entry><entry>115</entry><entry>45</entry><entry>4.5</entry><entry></entry></row>
+<row><entry>4</entry><entry>150</entry><entry>60</entry><entry>6.0</entry><entry></entry></row>
+<row><entry>5</entry><entry>200</entry><entry>80</entry><entry>8.0</entry><entry></entry></row>
+<row><entry>6</entry><entry>265</entry><entry>105</entry><entry>11</entry><entry></entry></row>
+<row><entry>7</entry><entry>350</entry><entry>140</entry><entry>14</entry><entry></entry></row>
+<row><entry>8</entry><entry>460</entry><entry>185</entry><entry>19</entry><entry></entry></row>
+<row><entry>9</entry><entry>610</entry><entry>245</entry><entry>25</entry><entry></entry></row>
+<row><entry>10</entry><entry>805</entry><entry>320</entry><entry>32</entry><entry></entry></row>
+<row><entry>11</entry><entry>1060</entry><entry>425</entry><entry>43</entry><entry></entry></row>
+<row><entry>12</entry><entry>1400</entry><entry>560</entry><entry>56</entry><entry></entry></row>
+<row><entry>13</entry><entry>1850</entry><entry>740</entry><entry>74</entry><entry></entry></row>
+<row><entry>14</entry><entry>2440</entry><entry>975</entry><entry>98</entry><entry></entry></row>
+<row><entry>15</entry><entry>3220</entry><entry>1290</entry><entry>130</entry><entry></entry></row>
+<row><entry>16</entry><entry>4250</entry><entry>1700</entry><entry>170</entry><entry></entry></row>
+<row><entry>17</entry><entry>5610</entry><entry>2240</entry><entry>225</entry><entry></entry></row>
+<row><entry>18</entry><entry>7400</entry><entry>2960</entry><entry>300</entry><entry></entry></row>
+<row><entry>19</entry><entry>9770</entry><entry>3910</entry><entry>390</entry><entry></entry></row>
+<row><entry>20</entry><entry>12900</entry><entry>5160</entry><entry>520</entry><entry></entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<formalpara><title>STR</title>
+<para>
+Strength Talent.
+</para>
+</formalpara>
+
+<formalpara><title>Lift</title>
+<para>
+The weight a character can lift overhead easily (in kg unless otherwise
+indicated).
+</para>
+</formalpara>
+
+<formalpara><title>Load</title>
+<para>
+The amount of weight a character can carry before he will feel the effects of
+encumbrance (in kg unless otherwise indicated).
+</para>
+</formalpara>
+
+<formalpara><title>Load Step</title>
+<para>
+<literal>
+Load Step = Load / 10
+</literal>
+</para>
+</formalpara>
+
+<formalpara><title>Humanoid Species</title>
+<para>
+An example Species of a given Strength.
+</para>
+</formalpara>
+
+</sect2>
+
+<sect2><title>Generating Talents</title>
+<para>
+There are two methods to generate Talents:
+Buying with a point cost method or randomly rolling.
+</para>
+
+<sect3><title>Buying Talents</title>
+<para>
+A character begins with a number of Talent Points (TPs) divided evenly into
+the two Talent categories, i.e. one half of the TPs must be spent on
+Mental Talents and the other half on Physical Talents.
+</para>
+
+<para>
+The number of starting TPs depends on the genre set by the GM:
+</para>
+
+<table frame="all"><title>Starting Talent Points</title>
+<tgroup cols="2">
+<colspec colname="c1" align="right" colwidth="0.2*" />
+<colspec colname="c2" align="left" colwidth="1*" />
+<tbody>
+<row><entry morerows="0" valign="middle" rowsep="0">Highly Heroic</entry><entry>20 TP</entry></row>
+<row><entry morerows="0"></entry><entry>Average Talent = +2</entry></row>
+
+<row><entry morerows="0" valign="middle" rowsep="0">Heroic</entry><entry>10 TP</entry></row>
+<row><entry morerows="0"></entry><entry>Average Talent = +1</entry></row>
+
+<row><entry morerows="0" valign="middle" rowsep="0">Realistic</entry><entry>0 TP</entry></row>
+<row><entry morerows="0"></entry><entry>The adventurer is just as good as a normal human (Average Talent = 0)</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+The Talents are purchased at a cost equal to the Talent value.
+</para>
+
+<informalexample>
+<screen>
+For example, a Talent of +5 in Strength costs five TPs,
+while a Talent of -2 would yield two TPs to be spent on other Talents.
+</screen>
+</informalexample>
+
+<para>
+A character cannot have a Talent over +5 or below -5 before the Species'
+modifiers are applied.
+</para>
+</sect3>
+
+<sect3><title>Rolling for Talents</title>
+<para>
+To generate values in the -5 to +5 range, the basic die roll method is to roll
+2d6 then subtract 7 (i.e. 2d6-7). This methods gives a -5 to +5 distribution
+that looks like a linear climbing ramp followed by a linear falling ramp, and
+has a mean of 0. The odds of rolling each extreme (-5 or +5) are 1 chance out
+of 36 for each roll. On ten rolls, the probability of having at least one +5
+is about 25%.
+</para>
+
+<para>
+<emphasis>
+Optional: 
+A simple variant to the method presented above is to roll more dice than
+needed and keep only the best. For example, one could roll 3d6 and keep only
+the two best, ignoring the result of the lowest dice (this result is NOT
+added). The use of this method is left to the discretion of the GM.
+</emphasis>
+</para>
+
+<para>
+Once the die rolling method has been chosen (by the GM), several procedures can
+be applied to generate a character's attributes. A few are:
+</para>
+
+<itemizedlist>
+<listitem>
+<para>
+Make a roll for each attribute in order.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Make ten rolls and assign the results to the attributes as you wish.
+</para>
+</listitem>
+
+<listitem>
+<para>
+All talents start with zero as value. Make ten rolls, pool the total
+and arrange points as you wish.
+</para>
+</listitem>
+
+<listitem>
+<para>
+Make eleven or more rolls, drop the lowest and arrange to taste.
+</para>
+</listitem>
+</itemizedlist>
+</sect3>
+
+<sect3><title>Talent Acquisition</title>
+<para>
+Talent Acquisition Formula:
+</para>
+
+<para>
+<literal>
+EP Cost = ([Desired Tal + 10] * [Desired Tal + 11] 
+         - [Current Tal + 10] * [Current Tal + 11]) * 5 / 2
+</literal>
+</para>
+
+<table frame="all"><title>Talent Acquisition Cost</title>
+<tgroup cols="12" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="5" colname="c5" colwidth="1*" />
+<colspec colnum="6" colname="c6" colwidth="1*" />
+<colspec colnum="7" colname="c7" colwidth="1*" />
+<colspec colnum="8" colname="c8" colwidth="1*" />
+<colspec colnum="9" colname="c9" colwidth="1*" />
+<colspec colnum="10" colname="c10" colwidth="1*" />
+<colspec colnum="11" colname="c11" colwidth="1*" />
+<colspec colnum="12" colname="c12" colwidth="1*" />
+<spanspec spanname="headspan" namest="c2" nameend="c12" align="center" />
+<spanspec spanname="hspan" namest="c1" nameend="c12" align="center" />
+<thead>
+<row><entry morerows="0" rowsep="0"></entry><entry spanname="headspan">Desired Tal</entry></row>
+<row><entry morerows="0">Current Tal</entry><entry>-10</entry><entry>-9</entry><entry>-8</entry><entry>-7</entry><entry>-6</entry><entry>-5</entry><entry>-4</entry><entry>-3</entry><entry>-2</entry><entry>-1</entry><entry>0</entry></row>
+</thead>
+<tbody>
+<row><entry>-10</entry><entry>0</entry><entry>5</entry><entry>15</entry><entry>30</entry><entry>50</entry><entry>75</entry><entry>105</entry><entry>140</entry><entry>180</entry><entry>225</entry><entry>275</entry></row>
+<row><entry>-9</entry><entry>-5</entry><entry>0</entry><entry>10</entry><entry>25</entry><entry>45</entry><entry>70</entry><entry>100</entry><entry>135</entry><entry>175</entry><entry>220</entry><entry>270</entry></row>
+<row><entry>-8</entry><entry>-15</entry><entry>-10</entry><entry>0</entry><entry>15</entry><entry>35</entry><entry>60</entry><entry>90</entry><entry>125</entry><entry>165</entry><entry>210</entry><entry>260</entry></row>
+<row><entry>-7</entry><entry>-30</entry><entry>-25</entry><entry>-15</entry><entry>0</entry><entry>20</entry><entry>45</entry><entry>75</entry><entry>110</entry><entry>150</entry><entry>195</entry><entry>245</entry></row>
+<row><entry>-6</entry><entry>-60</entry><entry>-45</entry><entry>-35</entry><entry>-20</entry><entry>0</entry><entry>25</entry><entry>55</entry><entry>90</entry><entry>130</entry><entry>175</entry><entry>225</entry></row>
+<row><entry>-5</entry><entry>-75</entry><entry>-70</entry><entry>-60</entry><entry>-45</entry><entry>-25</entry><entry>0</entry><entry>30</entry><entry>65</entry><entry>105</entry><entry>150</entry><entry>200</entry></row>
+<row><entry>-4</entry><entry>-105</entry><entry>-100</entry><entry>-90</entry><entry>-75</entry><entry>-55</entry><entry>-30</entry><entry>0</entry><entry>35</entry><entry>75</entry><entry>120</entry><entry>170</entry></row>
+<row><entry>-3</entry><entry>-140</entry><entry>-135</entry><entry>-125</entry><entry>-110</entry><entry>-90</entry><entry>-65</entry><entry>-35</entry><entry>0</entry><entry>40</entry><entry>85</entry><entry>135</entry></row>
+<row><entry>-2</entry><entry>-180</entry><entry>-175</entry><entry>-165</entry><entry>-150</entry><entry>-130</entry><entry>-105</entry><entry>-75</entry><entry>-40</entry><entry>0</entry><entry>45</entry><entry>95</entry></row>
+<row><entry>-1</entry><entry>-225</entry><entry>-220</entry><entry>-210</entry><entry>-195</entry><entry>-175</entry><entry>-150</entry><entry>-120</entry><entry>-85</entry><entry>-45</entry><entry>0</entry><entry>50</entry></row>
+<row><entry>0</entry><entry>-275</entry><entry>-270</entry><entry>-260</entry><entry>-245</entry><entry>-225</entry><entry>-200</entry><entry>-170</entry><entry>-135</entry><entry>-95</entry><entry>-50</entry><entry>0</entry></row>
+<row><entry spanname="hspan"></entry></row>
+<row><entry morerows="0" rowsep="0"></entry><entry spanname="headspan">Desired Tal</entry></row>
+<row><entry morerows="0">Current Tal</entry><entry>0</entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>4</entry><entry>5</entry><entry>6</entry><entry>7</entry><entry>8</entry><entry>9</entry><entry>10</entry></row>
+<row><entry>-10</entry><entry>275</entry><entry>330</entry><entry>390</entry><entry>455</entry><entry>525</entry><entry>600</entry><entry>680</entry><entry>765</entry><entry>855</entry><entry>950</entry><entry>1050</entry></row>
+<row><entry>-9</entry><entry>270</entry><entry>325</entry><entry>385</entry><entry>450</entry><entry>520</entry><entry>595</entry><entry>675</entry><entry>760</entry><entry>850</entry><entry>945</entry><entry>1045</entry></row>
+<row><entry>-8</entry><entry>260</entry><entry>315</entry><entry>375</entry><entry>440</entry><entry>510</entry><entry>585</entry><entry>665</entry><entry>750</entry><entry>840</entry><entry>935</entry><entry>1035</entry></row>
+<row><entry>-7</entry><entry>245</entry><entry>300</entry><entry>360</entry><entry>425</entry><entry>495</entry><entry>570</entry><entry>650</entry><entry>735</entry><entry>825</entry><entry>920</entry><entry>1020</entry></row>
+<row><entry>-6</entry><entry>225</entry><entry>280</entry><entry>340</entry><entry>405</entry><entry>475</entry><entry>550</entry><entry>630</entry><entry>715</entry><entry>805</entry><entry>900</entry><entry>1000</entry></row>
+<row><entry>-5</entry><entry>200</entry><entry>255</entry><entry>315</entry><entry>380</entry><entry>450</entry><entry>525</entry><entry>605</entry><entry>690</entry><entry>780</entry><entry>875</entry><entry>975</entry></row>
+<row><entry>-4</entry><entry>170</entry><entry>225</entry><entry>285</entry><entry>350</entry><entry>420</entry><entry>495</entry><entry>575</entry><entry>660</entry><entry>750</entry><entry>845</entry><entry>945</entry></row>
+<row><entry>-3</entry><entry>135</entry><entry>190</entry><entry>250</entry><entry>315</entry><entry>385</entry><entry>460</entry><entry>540</entry><entry>625</entry><entry>715</entry><entry>810</entry><entry>910</entry></row>
+<row><entry>-2</entry><entry>95</entry><entry>150</entry><entry>210</entry><entry>275</entry><entry>345</entry><entry>420</entry><entry>500</entry><entry>585</entry><entry>675</entry><entry>770</entry><entry>870</entry></row>
+<row><entry>-1</entry><entry>50</entry><entry>105</entry><entry>165</entry><entry>230</entry><entry>300</entry><entry>375</entry><entry>555</entry><entry>540</entry><entry>630</entry><entry>725</entry><entry>825</entry></row>
+<row><entry>0</entry><entry>0</entry><entry>55</entry><entry>115</entry><entry>180</entry><entry>250</entry><entry>325</entry><entry>405</entry><entry>490</entry><entry>580</entry><entry>675</entry><entry>775</entry></row>
+<row><entry>1</entry><entry>-55</entry><entry>0</entry><entry>60</entry><entry>125</entry><entry>195</entry><entry>270</entry><entry>350</entry><entry>435</entry><entry>525</entry><entry>620</entry><entry>720</entry></row>
+<row><entry>2</entry><entry>-115</entry><entry>-60</entry><entry>0</entry><entry>65</entry><entry>135</entry><entry>210</entry><entry>290</entry><entry>375</entry><entry>465</entry><entry>560</entry><entry>660</entry></row>
+<row><entry>3</entry><entry>-180</entry><entry>-125</entry><entry>-65</entry><entry>0</entry><entry>70</entry><entry>145</entry><entry>225</entry><entry>310</entry><entry>400</entry><entry>490</entry><entry>595</entry></row>
+<row><entry>4</entry><entry>-250</entry><entry>-195</entry><entry>-135</entry><entry>-70</entry><entry>0</entry><entry>75</entry><entry>155</entry><entry>240</entry><entry>330</entry><entry>425</entry><entry>525</entry></row>
+<row><entry>5</entry><entry>-325</entry><entry>-270</entry><entry>-210</entry><entry>-145</entry><entry>-75</entry><entry>0</entry><entry>80</entry><entry>165</entry><entry>255</entry><entry>350</entry><entry>450</entry></row>
+<row><entry>6</entry><entry>-405</entry><entry>-350</entry><entry>-290</entry><entry>-225</entry><entry>-155</entry><entry>-80</entry><entry>0</entry><entry>85</entry><entry>175</entry><entry>270</entry><entry>370</entry></row>
+<row><entry>7</entry><entry>-490</entry><entry>-435</entry><entry>-375</entry><entry>-310</entry><entry>-240</entry><entry>-165</entry><entry>-85</entry><entry>0</entry><entry>90</entry><entry>185</entry><entry>285</entry></row>
+<row><entry>8</entry><entry>-580</entry><entry>-525</entry><entry>-465</entry><entry>-400</entry><entry>-330</entry><entry>-255</entry><entry>-175</entry><entry>-90</entry><entry>0</entry><entry>95</entry><entry>195</entry></row>
+<row><entry>9</entry><entry>-675</entry><entry>-620</entry><entry>-560</entry><entry>-490</entry><entry>-425</entry><entry>-350</entry><entry>-270</entry><entry>-185</entry><entry>-95</entry><entry>0</entry><entry>100</entry></row>
+<row><entry>10</entry><entry>-775</entry><entry>-720</entry><entry>-660</entry><entry>-595</entry><entry>-525</entry><entry>-450</entry><entry>-370</entry><entry>-285</entry><entry>-195</entry><entry>-100</entry><entry>0</entry></row>
+</tbody>
+</tgroup>
+</table>
+</sect3>
+
+<sect3><title>Talent Advancement</title>
+<para>
+Talent Advancement Formula:
+</para>
+
+<para>
+<literal>
+EP Cost = Max(5, 5 * [Tal + 11])
+</literal>
+</para>
+
+<table frame="all">
+<title>Talent Advancement Cost</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<thead>
+<row><entry>Next Tal</entry><entry>EP Cost</entry></row>
+</thead>
+<tbody>
+<row><entry>.</entry><entry>5</entry></row>
+<row><entry>.</entry><entry>5</entry></row>
+<row><entry>-10</entry><entry>5</entry></row>
+<row><entry>-9</entry><entry>5</entry></row>
+<row><entry>-8</entry><entry>10</entry></row>
+<row><entry>-7</entry><entry>15</entry></row>
+<row><entry>-6</entry><entry>20</entry></row>
+<row><entry>-5</entry><entry>25</entry></row>
+<row><entry>-4</entry><entry>30</entry></row>
+<row><entry>-3</entry><entry>35</entry></row>
+<row><entry>-2</entry><entry>40</entry></row>
+<row><entry>-1</entry><entry>45</entry></row>
+<row><entry>0</entry><entry>50</entry></row>
+<row><entry>1</entry><entry>55</entry></row>
+<row><entry>2</entry><entry>60</entry></row>
+<row><entry>3</entry><entry>65</entry></row>
+<row><entry>4</entry><entry>70</entry></row>
+<row><entry>5</entry><entry>75</entry></row>
+<row><entry>6</entry><entry>80</entry></row>
+<row><entry>7</entry><entry>85</entry></row>
+<row><entry>8</entry><entry>90</entry></row>
+<row><entry>9</entry><entry>95</entry></row>
+<row><entry>10</entry><entry>100</entry></row>
+</tbody>
+</tgroup>
+</table>
+</sect3>
+</sect2>
+</sect1>

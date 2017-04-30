@@ -1,0 +1,58 @@
+Path: news.polymtl.ca!feed.umontreal.ca!newsflash.concordia.ca!newsfeed.pitt.edu!gatech!csulb.edu!hammer.uoregon.edu!arclight.uoregon.edu!ais.net!cpk-news-hub1.bbnplanet.com!news.bbnplanet.com!dispatch.news.demon.net!demon!tonnika.demon.co.uk!tonnika.demon.co.uk!Hal_C
+From: "Hal C." <Hal_C@tonnika.demon.co.uk>
+Newsgroups: rec.games.design
+Subject: New RPG: An idea I've been toying with
+Date: Sun, 6 Apr 1997 00:41:49 +0100
+Organization: The Tonnika Institute
+Distribution: world
+Message-ID: <DgEWfBA9MuRzEwet@tonnika.demon.co.uk>
+NNTP-Posting-Host: tonnika.demon.co.uk
+X-NNTP-Posting-Host: tonnika.demon.co.uk
+MIME-Version: 1.0
+X-Newsreader: Turnpike Version 3.02 <u$+8rBdT6g4ZQtyMVZmysmR1pt>
+Lines: 44
+
+Hi...
+
+I just wanted to get some feedback on the general principle
+behind the character generation system I'm trying to develop.
+
+I like point based systems because they are fair, but they have
+a tendancy to make characters to stale and predictable. On the
+other hand I like the randomness of "roll up" systems but with this
+type of system it's the lack of fairness that bothers me.
+
+What I've tried to comeup with is a system based on "Dynamic
+Equilibrium" (sounds flash and will look real good if I ever 
+figure out how to spell it) Which is divided into two main
+parts
+
+The general principle of the first part is that if
+you have 12 attributes that all range from 2 to 12. You use
+2D6 for each of the first six attributes and then subtract 
+each of these values from 14 to provide the next six values.
+So say you roll 3,10,11,5,9,4 you next six values are (14-3) 11,
+(14-10) 2, (14-11) 3, (14-5) 9, (14-9) 5, (14-4) 10.
+
+This makes the rolling up fair, all the characters will have the
+same total number of points in all their attributes, and yet
+at the same time it keeps the randomness.
+
+The second principle is the link between opposing attributes
+Say you have two attributes LOGIC and INTUITION. If we were
+using the system that is described, opposing attributes could
+be paired off. So that a player rolled 2D6 for their character's
+LOGIC and then subtracted that value from 14 to provide the
+characters intuition.
+
+One of the problems is that I'm having trouble pairing off
+attributes. LOGIC & INTUITION is fine but finding other pairs
+is difficult.
+
+Anyway I was just wondering if people thought this would work.
+Thanks for reading...Bye! 
+
+
+
+-- 
+Hal C.

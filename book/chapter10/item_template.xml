@@ -1,0 +1,19 @@
+<sect1><title>Item Template</title>
+<screen>
+Item Name
+---------
+World:
+Author:
+Version:
+---------
+Description:
+Weight (Wt):
+Required Skills: (the skills involved in the manufacturing process)
+Raw Materials (RM): (material needed to create the item;
+                     percentile breakdown of weight)
+Base Quality (BQ): (usualy 0-5)
+Base Production Time (BPT): (base time in days to manufacture the item with BQ)
+Base Production TD (BPTD): (the TD to create the item at BPT with BQ)
+Notes:
+</screen>
+</sect1>

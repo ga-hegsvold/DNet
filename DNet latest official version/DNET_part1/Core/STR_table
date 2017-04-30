@@ -1,0 +1,114 @@
+From bin@s0ren.shout.net Fri Dec  8 01:18:19 1995
+Return-Path: <bin@s0ren.shout.net>
+Received: from s0ren.shout.net by vlsi.polymtl.ca (4.1/SMI-4.1.1)
+	id AA22606; Fri, 8 Dec 95 01:18:01 EST
+Errors-To: dncombat-owner@s0ren.shout.net
+Received: (from bin@localhost) by s0ren.shout.net (8.6.11/8.6.9) id BAA12947 for dncombat-mail; Fri, 8 Dec 1995 01:18:54 -0600
+Received: from pride.cs.wustl.edu (pride.cs.wustl.edu [128.252.166.101]) by s0ren.shout.net (8.6.11/8.6.9) with ESMTP id BAA12940 for <dncombat@s0ren.shout.net>; Fri, 8 Dec 1995 01:18:51 -0600
+Received: by pride.cs.wustl.edu (950215.SGI.8.6.10/940406.SGI)
+	for dncombat@s0ren.shout.net id AAA09128; Fri, 8 Dec 1995 00:16:57 -0600
+From: hart@pride.cs.wustl.edu (Delbert Hart)
+Message-Id: <199512080616.AAA09128@pride.cs.wustl.edu>
+Subject: Strength Table (fwd)
+To: dncombat@s0ren.shout.net (DNET combat Mailing List)
+Date: Fri, 8 Dec 1995 00:16:56 -0600 (CST)
+X-Mailer: ELM [version 2.4 PL24]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 2297
+Reply-To: dncombat@s0ren.shout.net (The dncombat mailing list)
+Errors-To: dncombat-owner@s0ren.shout.net
+X-Bmw: Black Marble Wombat Version 5.1
+X-Lines: 88
+Status: OR
+
+This was the most recent one that i had around....
+
+Del
+
+Forwarded message:
+> From daemon@cs.nmt.edu Tue Sep  5 16:55 CDT 1995
+> Errors-To: dncore-owner@cs.nmt.edu
+> Message-Id: <m0sq5uf-0005JyC@skypoint.com>
+> Subject: Strength Table
+> To: dncore@sphinx.cs.nmt.edu (DNet Core Mechanics)
+> Date: Tue, 5 Sep 1995 16:52:13 -0500 (CDT)
+> From: "Bob Hanson" <bob@mirage.skypoint.com>
+> X-Mailer: ELM [version 2.4 PL23]
+> Mime-Version: 1.0
+> Content-Transfer-Encoding: 7bit
+> Reply-To: dncore@cs.nmt.edu (The dncore mailing list)
+> Errors-To: dncore-owner@cs.nmt.edu
+> X-Bmw: Black Marble Wombat Version 5.1
+> Content-Type: text/plain; charset=US-ASCII
+> Content-Length: 1489
+> 
+> For STR >= 0, match SR to STR by using (Scale Factor ^ 3) from SR table and
+> then matching the result to the closest STR Mult.
+> 
+> For STR < 0, match Scale Factor to STR Mult directly.
+> 
+> STR Mult = 10 ^ (STR/10)
+> 
+> STR     STR Mult     Benchmark
+> ---     --------     ---------
+> -15        0.032     SR -10
+> -14        0.040     SR -9
+> -13        0.050
+> -12        0.063     SR -8
+> -11        0.079     SR -7
+> -10        0.100
+>  -9        0.126     pixie (SR -6)
+>  -8        0.158     SR -5
+>  -7        0.200
+>  -6        0.251     SR -4
+>  -5        0.316     SR -3
+>  -4        0.398
+>  -3        0.501     halfling (SR -2)
+>  -2        0.631     elf (SR -1)
+>  -1        0.794
+>   0        1.000     human (SR 0)
+>   1        1.259
+>   2        1.585
+>   3        1.995
+>   4        2.512
+>   5        3.162     ogre (SR 1)
+>   6        3.981
+>   7        5.012
+>   8        6.310
+>   9        7.943     sm. giant (SR 2)
+>  10       10.000
+>  11       12.589
+>  12       15.849
+>  13       19.953
+>  14       25.119     SR 3
+>  15       31.623
+>  16       39.811
+>  17       50.119
+>  18       63.096     med. giant (SR 4)
+>  19       79.433
+>  20      100.000
+>  21      125.893
+>  22      158.489
+>  23      199.526     SR 5
+>  24      251.189
+>  25      316.228
+>  26      398.107
+>  27      501.187     lg. giant (SR 6)
+>  28      630.957
+>  29      794.328
+>  30     1000.000
+>  31     1258.925
+>  32     1584.893     SR 7
+>  33     1995.262
+>  34     2511.886
+>  35     3162.278
+>  36     3981.072     titan (SR 8)
+>  37     5011.872
+>  38     6309.573
+>  39     7943.282
+>  40    10000.000
+> 
+
+

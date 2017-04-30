@@ -1,0 +1,405 @@
+From daemon@cs.nmt.edu Mon Mar  6 01:55:57 1995
+Return-Path: <daemon@cs.nmt.edu>
+Received: from sphinx.cs.nmt.edu by vlsi.polymtl.ca (4.1/SMI-4.1.1)
+	id AA13417; Mon, 6 Mar 95 01:55:37 EST
+Errors-To: dncore-owner@cs.nmt.edu
+Received: (from daemon@localhost) by sphinx.cs.nmt.edu (8.6.8.1/8.6.6) id XAA13573 for dncore-mail; Sun, 5 Mar 1995 23:47:23 -0700
+Received: from mailgate.ericsson.se (mailgate.ericsson.se [130.100.2.2]) by sphinx.cs.nmt.edu (8.6.8.1/8.6.6) with ESMTP id XAA13565 for <dncore@cs.nmt.edu>; Sun, 5 Mar 1995 23:47:14 -0700
+Received: from eua.ericsson.se (eua.ericsson.se [134.138.132.16]) by mailgate.ericsson.se (8.6.10/1.0) with SMTP id HAA07150 for <dncore@cs.nmt.edu>; Mon, 6 Mar 1995 07:50:25 +0100
+Received: from ms.eua.ericsson.se by eua.ericsson.se (4.1/EUA-2.1)
+	id AA27478; Mon, 6 Mar 95 07:50:23 +0100
+Received: from euax2i6c31.eua.ericsson.se by ms.eua.ericsson.se (4.1/MS-2.1)
+	id AA16783; Mon, 6 Mar 95 07:50:22 +0100
+From: Per.Landberger@eua.ericsson.se (Per Landberger EUA/LA 354.047 5630)
+Received: by euax2i6c31.eua.ericsson.se (4.1/client-1.3)
+	id AA08869; Mon, 6 Mar 95 07:50:21 +0100
+Date: Mon, 6 Mar 95 07:50:21 +0100
+Message-Id: <9503060650.AA08869@euax2i6c31.eua.ericsson.se>
+To: dncore@sphinx.cs.nmt.edu
+Subject: Re: Skill list 1.1a
+Reply-To: dncore@cs.nmt.edu (The dncore mailing list)
+Errors-To: dncore-owner@cs.nmt.edu
+X-Bmw: Black Marble Wombat Version 5.1
+Status: OR
+
+> From daemon@cs.nmt.edu Sun Mar  5 22:07:11 1995
+> From: fortin@vlsi.polymtl.ca (guillaume fortin)
+> Subject: Skill list 1.1a
+> To: dncore@sphinx.cs.nmt.edu (DNET Core Rules)
+> Date: Sun, 5 Mar 95 11:47:48 EST
+> X-Mailer: ELM [version 2.4dev PL52]
+> Reply-To: dncore@cs.nmt.edu (The dncore mailing list)
+> X-Bmw: Black Marble Wombat Version 5.1
+> Content-Length: 18948
+> 
+> Hi,
+> 
+> I have done a bit more work on the skill list, trying to set HURDLES and 
+> Talent and advancement attributes.
+> 
+> Could you please take a look at the list below and correct/fill the Cost,
+> Talent and Adv. AV columns. You may also expand the list or suggest structural
+> changes.
+> 
+> Thanks,
+> 
+> Guillaume Fortin (fortin@vlsi.polymtl.ca)
+> 
+> -------------------------------------------------------------------------------
+> Skill name                Cost  Talent  Adv. AV  Default TD 
+> ------------------------------------------------------------------------------
+> 
+> CRAFT SKILLS
+> 
+> Agriculture/horticulture  oo    
+> Armourer                  oooo  
+> Blacksmithing             ooo   
+> Bowyer                    ooo   
+> Cooking                   o     PSY     INT     
+> Fishing                   oo    
+> First aid/Medicine        oooo  PER     INT
+> Mining                    ooo   PER     INT
+> Pottery                   oo    DEX
+> Rope use                  oo    DEX
+> Stonemason                ooo   
+> Weaponsmithing            oooo  
+> 
+> ARTISTIC SKILLS
+> 
+> Acting                    ooo   AURA    PSY
+> Disguise                  oo    AURA    PSY
+> Musical instrument        ooo   DEX     PSY
+> Ventriloquism             oooo  
+> 
+> ATHLETIC SKILLS
+> 
+> Acrobatics                ooo   AGI
+> Climbing                  oooo  AGI
+> Contortion                ooooo AGI
+> Endurance                 ooo   FIT
+> Falling                   oooo  AGI
+> Juggling                  oo    AGI
+> Jumping                   ooo   STR
+> Running                   ooo   STR     FIT
+> Swimming                  ooo   STR     FIT
+> Tightrope walking         oooo  AGI
+> Tumbling                  ooo   AGI
+> 
+> COMBAT SKILLS
+> 
+> MOVEMENT SKILLS
+> 
+> Direction sense           ooo   PER
+> Riding (airborne)         oooo  AGI
+> Riding (land)             oo    AGI
+> Seamanship                ooo   PER     INT
+> 
+> NATURE SKILLS
+> 
+> Animal Training           ooo   PER
+> Falconry                  ooo   PER
+> Fire-building             o     INT
+> Foraging                  oo    PER
+> Hunting                   oo    PER
+> Hydrology                 oo    PER
+> Tracking                  oooo  PER
+> Weather sense             ooo   PER
+> 
+> KNOWLEDGE SKILLS
+> 
+> Ancient History           ooo   INT     INT
+> Animal lore               ooo           INT
+> Appraising                ooo   PER     INT
+> Botany                    ooo           INT
+> Cartography               oo    INT/DEX INT
+> Cryptography              oooo  INT     INT
+> Engineering               oooo  INT     INT
+> Geographie                oo            INT
+> Heraldry                  oo            INT
+> Herbalism                 oooo  INT     INT
+> Identify magic            ooooo INT     INT
+> Language                  ooo   INT     INT
+> Local History             oo            INT
+> Metallurgy                oooo          INT
+> Navigation                oooo  INT     INT
+> Read/write                oooo  INT     INT
+> Theology                  oo    INT     INT
+> Species enemy             oo    INT     INT
+> Spelaeology               ooo           INT
+> Teratology                oo            INT
+> Zoology                   ooo           INT
+> 
+> SOCIAL SKILLS
+> 
+> Bardic influence          ooo   AURA    PSY
+> Bribery                   oo    AURA
+> Diplomacy                 ooo   
+> Dragonshah                oo    INT     INT
+> Drinking                  oo    FIT
+> Eating                    oo    FIT
+> Gambling                  oo    DEX/INT
+> Haggling                  o     AURA
+> Interrogate               ooo   AURA    PSY
+> Oration                   oooo  AURA    PSY
+> Streetwise                oo    
+> Trading                   ooo   
+> Truthtell                 ooooo PSY     PSY
+> 
+> SUBTERFUGE SKILLS
+> 
+> Detect traps              ooo   PER
+> Evade pursuit             oo    AGI/INT
+> Forgery                   oooo  DEX
+> Move quietly              oooo  AGI
+> Open locks                ooo   DEX
+> Pick pockets              ooo   DEX
+> Reading lips              oooo  INT
+> Remove traps              oooo  DEX
+> Set snares                oo    DEX
+> Shadowhide                ooo   PER
+> 
+> ------------------------------------------------------------------------------
+
+You're redoing what Rene already done. Some of the values etc might have to
+be changed, but let game testing decide those. Here's Rene's full list.
+(I agree that some of these skills should be taken out, as they're more like 
+advantages or magic, but I haven't edited Rene's list). If I get the time 
+I'll try to merge the lists later today, if nobody else beat me to it :-)
+
+/Per
+
+
+----- Begin Included Message -----
+
+Per, Robert, CORE (info)
+
+As requested by Per, I have sorted the draft master skills list into
+"similar type" groups, and the *provisional* result is -
+
+Category      Encompassing
+------------------------------------------------
+Artisan       Mechanical/trade based skills
+Combat        Conflict resolution skills 
+Creative      Skills associated with the "arts" 
+General       Common/unrestricted skills
+Lore          Learned/knowledge skills
+Manipulative  Skills used to confer an advantage
+Survival      Living/hunting/adventuring type skills  
+Willforce     Mind/chi based skills   
+
+In the following sub-tables, an "xx" means that this skill will not be
+written up for play-testing (we may decided to add more "xx"s as we go along). 
+
+NB: the skills committee has agreed that it will not get bogged down
+discussing Tr rate, hurdle, Default TD and Talent numbers, anybody can
+change anything they don't like without discussion since for playtesting
+purposes one rating/number is as good as another. The whole lot will
+probably get changed after playtesting anyway so why bother talking about it
+now? :) Let's keep this thing moving - look ahead!
+
+2NB: Re combat skills. For playtesting purposes (and unless anybody screams)
+we propose going with four (or more) or so skills -
+
+Basic weapon (club, sword, ax, whatever)
+Power weapon (2 handed anything, polearm)
+Shield
+Ranged weapon (anything from a dagger to siege x-bow)
+Anything important that I've forgotten or that is not listed here but we
+think should go into playtesting.
+ 
+All the fancy stuff (e.g., two weapons, unarmed combat, articulated weapons,
+thrown weapons, martial arts, whips, nets etc.) can be developed later, once
+we know how well *basic* combat works, as a result of playtesting. Let's not
+get bogged down in too much detail - keep things moving!
+
+ARTISAN SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Armourer	ooo	Dexterity	Moderate/10	Dexterity
+Ballooning xx	oooo	Intelligence	Taxing/20	Perception
+Blacksmithing	oo	Intelligence	Moderate/10	Dexterity
+Bowyer/Fletcher	ooo	Perception	Moderate/10	Dexterity
+Brewing xx	oo	Intelligence	Moderate/10	Psyche
+Carpentry	oo	Intelligence	Moderate/10	Dexterity
+Cobbling xx	oo	Dexterity	Moderate/10	Dexterity
+Gem Cutting xx	oooo	Dexterity	Hard/15	        Dexterity
+Leatherworking	oo	Dexterity	Moderate/10	Dexterity
+Pottery	        oo	Dexterity	Moderate/10	Dexterity
+Seam./Tailor xx	oo	Dexterity	Moderate/10	Dexterity
+Stonemasonry	oo	Dexterity	Hard/15	        Strength
+Weaponsmithing	ooo	Dexterity	Hard/15	        Dexterity
+Weaving xx	oo	Dexterity	Moderate/10	Psyche
+
+COMBAT SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Archery 	ooo	Dexterity	Hard/15	         Perception
+Art. Weapons	ooo	Agility	        Hard/15	         Dexterity
+Battle Hard	ooo	Fitness	        Hard/15	         Fitness
+Berserkergang	oo	Willpower	Hard/15	         Willpower
+Combat Apprais.	ooo	Intelligence	Hard/15	         Perception
+Dodging	        ooo	Agility	        Hard/15	         Perception
+Foul Blow	ooo	Dexterity	Hard/15	         Agility
+Mnvrg in Armour	ooo	Agility	        Hard/15	         Agility
+Polearms	ooo	Agility	        Moderate/10	 Dexterity
+Strategy	ooo	Intelligence	Hard/15	         Psyche
+Tactics	        ooo	Intelligence	Hard/15	         Psyche
+Thrown Weapons	ooo	Dexterity	Hard/15	         Perception
+Two Weapons	oooo	Agility	        Taxing/20	 Dexterity
+2-handed Weap	ooo	Agility	        Hard/15	         Agility
+Unarmed Combat	oooo	Agility	        Hard/15	         Dexterity
+Weapon/Shield	oo	Agility	        Moderate/10	 Dexterity
+
+CREATIVE SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Acting xx	ooo	Aura	        Hard/15	         Psyche
+Art. Ability xx	ooo	Psyche	        Moderate/10      Psyche
+Bardic Charm	oooo	Psyche	        Hard/15	         Aura
+Dress Sense xx	oo	Psyche	        Moderate/10	 Aura
+Heroic Inspr	oooo	Aura	        Hard/15	         Psyche
+Mus. Instrument	oo	Psyche	        Moderate/10	 Perception
+Oration	        ooo	Psyche	        Hard/15	         Aura
+Poetry xx	oo	Psyche	        Moderate/10      Psyche
+Voice of Prtec.	oooo	Aura	        Hard/15	         Psyche
+
+GENERAL SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Agriculture xx	oo	Intelligence	Moderate/10	Intelligence
+Cooking	        oo	Intelligence	Easy/5	        Psyche
+Dancing xx	oo	Agility	        Moderate/10	Agility
+Dragonshah	oo	Psyche	        Easy/5	        Intelligence
+Drinking	o	Willpower	Moderate/10	Fitness
+Eating	        o	Willpower	Moderate/10	Fitness
+Fishing	        oo	Intelligence	Easy/5	        Intelligence
+Food Tasting xx	ooo	Perception	Moderate/10	Perception
+Riding (land)	oo	Agility	        Moderate/10	Perception
+
+LORE SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Ancient History	ooo	Intelligence	Hard/15	        Intelligence
+Animal Training	oo	Intelligence	Taxing/20	Psyche
+Archaeology xx	oooo	Intelligence	Taxing/20	Psyche
+Astronomy xx	ooo	Intelligence	Hard/15	        Psyche
+Botany	        ooo	Intelligence	Hard/15	        Intelligence
+Cryptography	ooo	Intelligence	Taxing/20	Perception
+Diplomacy	ooo	Psyche	        Severe/25	Aura
+Engineering	ooo	Intelligence	Hard/15	        Intelligence
+Etiquette xx	oo	Psyche	        Hard/15	        Aura
+Falconry	oo	Intelligence	Hard/15	        Psyche
+Heraldry	ooo	Intelligence	Hard/15	        Intelligence
+Herbalism	oo	Intelligence	Hard/15	        Intelligence
+Identify Magic	oooo	Intelligence	Severe/25	Perception
+Language (anc.)	ooo	Intelligence	Hard/15	        Intelligence
+Language (mod.)	oo	Intelligence	Moderate/10	Intelligence
+Language (spec.)oooo	Intelligence	Moderate/10	Intelligence
+Local History	oo	Intelligence	Moderate/10	Intelligence
+Metallurgy	ooo	Intelligence	Hard/15	        Intelligence
+Mining	        oo	Intelligence	Moderate/10	Perception
+Priest Spells	oo	Willpower(?)	Moderate/10	Psyche
+Read/Write	ooooo	Intelligence	Taxing/20	Intelligence
+Religion	ooo	Intelligence	Hard/15	        Intelligence
+Sage	        ooooo	Intelligence	Severe/25	Psyche
+Spelaeology	ooo	Agility	        Moderate/10	Perception
+Spellcraft	ooo	Intelligence	Hard/15	        Intelligence
+Teratology	ooooo	Intelligence	Taxing/20	Intelligence
+Wizard Spells	ooo	Intelligence	Hard/15	        Willpower
+Zoology	        ooo	Intelligence	Hard/15	        Intelligence
+
+MANIPULATIVE SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Appraising	ooo	Intelligence	Hard/15	        Perception
+Bribery	        ooo	Perception	Hard/15	        Aura
+Bus. Sense xx	oo	Intelligence	Hard/15	        Psyche
+Climbing	oo	Agility	        Moderate/10	Dexterity
+Contortion	oooo	Agility	        Severe/25	Agility
+Detect Traps	oooo	Dexterity	Hard/15	        Perception
+Disguise	ooo	Willpower	Hard/15	        Dexterity
+Forgery	        oooo	Intelligence	Taxing/20	Dexterity
+Gambling	oo	Psyche	        Hard/15	        Perception
+Hide and Spy	ooo	Agility	        Taxing/20	Perception
+Inquisition	ooo	Intelligence	Taxing/20	Aura
+Juggling	ooo	Dexterity	Moderate/10	Dexterity
+Keen Hearing	ooo	Perception	Hard/15	        Perception
+Masseuse xx	oo	Dexterity	Moderate/10	Dexterity
+Move Quietly	ooo	Agility	        Hard/15	        Perception
+Pick Things	ooo	Dexterity	Hard/15	        Perception
+Reading Lips	oooo	Intelligence	Hard/15	        Perception
+Remove Traps	ooo	Dexterity	Taxing/20	Perception
+Seduction xx	ooo	Psyche	        Moderate/10	Aura
+Streetwise	oo	Psyche	        Hard/15	        Perception
+Tightrope Walk.	oooo	Agility	        Taxing/20	Perception
+Truthtell	ooooo	Perception	Extreme/30	Psyche
+Tumbling	oooo	Agility	        Hard/15	        Dexterity
+Ventriloquism	oooo	Willpower	Hard/15	        Aura
+
+SURVIVAL SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Danger Sense	oooo	Perception	Severe/25	Psyche
+Direction Sense	oooo	Perception	Taxing/20	Perception
+Falling	        ooooo	Agility	        Taxing/20	Agility
+Fire-building	oo	Intelligence	Moderate/10	Intelligence
+Heal (natural)	ooo	Intelligence	Hard/15	        Perception
+Hunting	        oo	Perception	Moderate/10	Perception
+Hydrology	ooo	Intelligence	Moderate/10	Intelligence
+Hypersenses	ooooo	Perception	Taxing/20	Perception
+Illiteracy	oo	Intelligence	Moderate/10	Psyche
+Jumping	        ooo	Strength	Severe/25	Strength
+Navigation	oooo	Intelligence	Taxing/20	Perception
+Outdoor Survivaloo	Intelligence	Hard/15	        Perception
+Riding (airb.)	ooo	Agility	        Severe/25	Perception
+Rope Use	oo	Agility	        Hard/15	        Dexterity
+Running	        ooo	Fitness	        Hard/15	        Willpower
+Seamanship	oo	Agility	        Moderate/10	Agility
+Set Snares	oo	Dexterity	Hard/15	        Perception
+Species Enemy	oooo	Intelligence	Hard/15	        Perception
+Swimming	oo	Willpower	Moderate/10	Strength
+Tracking	oo	Perception	Taxing/20	Psyche
+Weather Sense	oooo	Perception	Hard/15	        Psyche
+
+WILLFORCE SKILLS
+
+Skill	        Tr rate	Tr hurdle	Default TDR	Talent
+--------------------------------------------------------------
+Animal Empathy	ooo	Psyche          Taxing/20	Aura
+Cure Disease	oooo	Willpower	Taxing/20	Willpower
+Dark Visage	ooo	Aura	        Hard/15	        Aura
+Detect Evil	ooooo	Willpower	Extreme/30	Perception
+Endurance	ooo	Willpower	Hard/15	        Fitness
+Feign Death	ooooo	Willpower	Hard/15	        Psyche
+Heal. (spirit.)	oooo	Willpower	Taxing/20	Psyche
+Healing (will.)	ooooo	Willpower	Severe/25	Willpower
+Mask Mind	oooo	Willpower	Hard/15	        Psyche
+Meditation	ooo	Psyche	        Moderate/10	Willpower
+P/(contagion)	oooo	Willpower	Moderate/10	Fitness
+Protect. (evil)	oooo	Willpower	Hard/15	        Willpower
+Protect. (fire)	oooo	Willpower	Hard/15	        Willpower
+P/(lightning)	oooo	Willpower	Hard/15	        Willpower
+P/(wild animals)oooo	Willpower	Severe/25	Aura
+P/(wood. charm)	oooo	Willpower	Hard/15	        Willpower
+Quivering Palm	ooooo	Willpower	Herculean/40	Willpower
+S/change (dr.)  ooooo	Willpower	Severe/25	Psyche
+Speak/Tongues	oooo	Willpower	Extreme/30	Perception
+Tanglefoot	oooo	Willpower	Hard/15	        Agility
+Turn (x-planar)	ooooo	Willpower	Taxing/20	Willpower
+Turning (undead)ooooo	Willpower	Hard/15	        Willpower
+
+- vernon@dstos3.dsto.gov.au
+
+
+
+----- End Included Message -----
+
+
+

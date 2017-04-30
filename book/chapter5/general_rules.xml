@@ -1,0 +1,13 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>General Rules</title>
+
+<xi:include href="encumbrance.xml" />
+<xi:include href="falling.xml" />
+<xi:include href="fatigue.xml" />
+<xi:include href="healing.xml" />
+<xi:include href="lift.xml" />
+<xi:include href="load.xml" />
+<xi:include href="movement.xml" />
+<xi:include href="advanced_movement.xml" />
+
+</chapter>

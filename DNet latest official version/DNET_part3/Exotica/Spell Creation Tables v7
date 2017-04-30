@@ -1,0 +1,755 @@
+Well, here it is.
+
+Version 7 of the Spell Creation rules.
+
+All lines that I have changed are preceeded with a "+".  There was a
+line
+before the System status table that was removed and the table reworked
+so
+that there is no longer any table from which multiple values are
+selected.
+
+I am still not happy with the control over movement table, but I think
+that
+a discussion of how manuverability of flying creatures will be handled
+in
+general may be needed first.
+
+I did not change the duration table although that probably still needs
+tweeking.
+
+Enjoy!
+
+Norm
+
+****
+Introduction
+------------
+
+The following tables attempt to provide players with an universal
+method
+for the computation of the Source and Conductor TDs of their spells.
+These
+tables apply to mage spells, psionic powers, priest spells, spirit
+magic,
+etc.
+
+Our goal in creating these tables was to provide a set of guidelines
+to
+balance the effectiveness of the various types of magical powers that
+the characters can develop. We especially wanted to avoid that one
+class
+of magic users (mages, psionics, priests, ...) become far too powerful
+relatively to the others, destroying the balance of the game.
+
+Most of the time, the Source and Conductor task difficulties
+calculated
+with these tables will be correct. However, it can happen that you
+create
+a spell with calculated TDs that are either too high or too low. In
+this
+case, you can always fudge the TD by a few points up or down, with the
+game master's permission. If you have to fudge one of the TDs by 5
+points
+or more, then there is something wrong and you should contact the DNET
+team to report your problem.
+
+You are encouraged to submit your spells to us so that we can add them
+to the standard spell library. When you submit your spells, list all
+the factors that affect the spell difficulty, and provide a good
+explanation of why you tweaked the Source and Conductor TD if you had
+to resort to this to balance the spell with the standard ones.
+
+The term "magic user" denotes magicians, priests, psionics, shamans,
+etc. The term spell refers to the magical effects created by magic
+users.
+
+General Principles
+------------------
+
+-> The Source TD represents the amount of magical energy required to
+   cast the spell successfully. Gathering this energy is tiring and
+   the fatigue created by a spell is equal to 1 plus one fifth of the
+   the Source TD (rounding up).
+
+-> The Conductor TD represents the complexity of the manipulation
+   of the magical energy. Manipulating this energy takes time and
++  the casting time of a spell is equal to 1 plus the Conductor TD,
++  in seconds.
+
+-> Spells that rely on brute for will have a high Source TD.
+   Spells that rely on finesse of action will have a high Conductor
+TD.
+
+-> Magic always decays if not sustained. This means that any spell
+   effect will tend to disappear quickly after the duration of the
+   spell. If a magic user creates an object with a spell, this
+   object will degrades in seconds after the duration of the spell
+   has been expired. In the same manner, if a magic user alters a
+   person's memory, that person will recover its previous memories
+   after the spell duration. Permanent magical effects can only
+   be created with very difficult spells, that must generally be
+   combined with rituals and spell components.
+
+-> The magic created by the caster exists only within the spell range.
+   No magical effects can manifest outside the spell range. For area
+   of effect spells, part of the area can fall outside the range but
+   the area center must remain within the range. The spell range is
+   always relative to the caster.
+
+Rituals
+-------
+
+There will be rules by which you can lower the task difficulties of
+spells through an appropriate ritual. Such rituals will also allow
+magic users to work collaboratively. Through rituals, magic users will
+thus be able to perform spells that are normally too difficult for
+them
+to cast.
+
+Spells components
+-----------------
+
+Spell components that exploit the inherent magical aspect of some
+materials or creatures will lower either the Source TD, the Conductor
+TD or both. Nothing has been decided on this issue and suggestions
+are welcome.
+
+Basic Principles for the Task Difficulties
+------------------------------------------
+
++Each spell is divided into three distinct parts:
+
+1) The infrastructure: determines the base cost of the spell
+   Includes: range, duration, precision of area center, directness of
+             application of source and conductor, complexity of system
+             affected, difficulty of resisting the spell.
+
+2) The effects: everything that is related to the strength of the
+spell
+                effects
+   Includes: hit points healed, damage, mass, speed, maneuverability,
+...
+
+3) The extent: the expanse of the spell, in space and time
++  Includes: number of targets (affects both Source TD and Conductor
+TD),
+             area of effect (affects Source TD),
++            duration (affects both Source TD and Conductor TD).
+
++These parts are then combined in the following manor to determine the
++Source TD and Conductor TD:
++  Infrastructure + (Effects x Extent)
+
+Spell Creation Template
+-----------------------
+
+The following template can be used to ease spell creation.
+
+Spell Name
+----------
+Source:
+Conductor:
+Source TD:
+Conductor TD:
+Fatigue: (5 + Source TD)/5 (round UP)
+Casting time: 5 + Conductor TD (in seconds)
+
+Write one or more paragraph describing the spell, its effects, range,
+duration and sample applications.
+
+-------------------------------------------------------------------
+Factors                           Source TD            Conductor TD
+-------------------------------------------------------------------
+Base TD                             -10                  -10
+Range                                 -                    -
+Precision of area center                                   -
+Complexity of the spell action        -                    -
+Difficulty of resisting spell                              -
+Direct application of source          - ()
+Direct application of conductor                         () -
+------------------------------------------------------------------
+Infrastructure Cost                   -                    -
+------------------------------------------------------------------
+Intensity of the effects              -                    -
+  INJURY Points Healed                -                    -
+  Damage                              -
+  Mass of target(s)                   -
+  Speed of induced movement           -
+  Maneuverability                                          -
+------------------------------------------------------------------
++Intensity Costs                      -                    -
+------------------------------------------------------------------
+Nb Targets                           x                    x
+Area of effect                       x
+Duration                             x                    x
+------------------------------------------------------------------
++Extent Cost                         -                    -
+------------------------------------------------------------------
++Total: Infrastructure +
++       (Intensity x Extent)         -                    -
+------------------------------------------------------------------
+
+Base TD
+-------
+
+The base Source and Conductor task difficulties is of -10. This
+difficulty
+will be modified by the various parameters that affect the difficulty
+of
+the spell. The Source and Conductor TDs are modified independently.
+
+==============
+Infrastructure
+==============
+
+This section describes all the modifiers to the Source and Conductor
+TDs
+that are related to the Infrastructure cost of the spell. Apply only
+the modifiers that are pertinent to your spell.
+
+Some of these modifiers affect only the Source or Conductor TD, while
+others affect both. Each of the modifiers lists which TD is affected.
+
+Range (S&C)
+-----
+
+Modifiers the Source and Conductor TDs.
+
+Range is the distance from the caster. No effects of a spell can
+manifest
+beyond its range.
+
+Rule of thumb: add 5 to the TD modifier each time you quadruple the
+range.
+
+
+-------------------------
+           S&C TD
+Factor    Modifier  Range
+-------------------------
+0.25        -5      <3m or Touch
+0.33        -4      3m
+0.43        -3      4m
+0.57        -2      6m
+0.76        -1      8m
+1.0          0      10m
+1.32        +1      15m
+1.74        +2      20m
+2.30        +3      25m
+3.04        +4      30m
+4.01        +5      40m
+5.29        +6      55m
+6.98        +7      70m
+9.22        +8      90m
+12.1        +9      120m
+16.1        +10     160m
+21.2        +11     210m
+28.0        +12     280m
+36.9        +13     370m
+48.8        +14     500m
+64.4        +15     650m
+85.0        +16     850m
+112         +17     1.1km
+148         +18     1.5km
+195         +19     2km
+258         +20     2.6km
+--------------------------
+
+Precision of area center
+------------------------
+
+Modifies the Conductor TD.
+
+Only applies to area of effect spells, not spells that target
+individual
+beings. The Conductor TD is raised as the precision of the targeting
+is increased. For example, a weather spell that can tolerate an
+imprecision
+of 100 meters on its central location will see its Conductor TD
+reduced
+relatively to another spell which requires a precision of 1 meter on
+the center of its effects.
+
+Distance from center indicates the maximum distance at which the
+center of
+the spell can appear, relatively to the center specified by the mage
+during
+the casting.
+
+----------------------------------------------
+          Cond. TD   Distance
+Factor    Modifier  from center
+----------------------------------------------
+0.0039      -20        250m or more
+0.0051      -19        200m
+0.0068      -18        150m
+0.0089      -17        110m
+0.0118      -16        85m
+0.0155      -15        65m
+0.0205      -14        50m
+0.0271      -13        40m
+0.0357      -12        30m
+0.0472      -11        20m
+0.062       -10        15m
+0.082       -9         12m
+0.11        -8         9m
+0.14        -7         7m
+0.19        -6         5m
+0.25        -5         4m
+0.33        -4         3m
+0.435       -3         2m
+0.574       -2         1.7m
+0.76        -1         1.3m
+1.0          0         1m
+1.32         1         0.75m
+1.74         2         0.6m
+2.30         3         0.4m
+3.04         4         33cm
+4.01         5         25cm
+5.29         6         20cm
+6.98         7         15cm
+9.22         8         10cm
+12.1         9         8cm
+16.1         10        5cm
+----------------------------------------------
+
+Complexity of the spell action
+------------------------------
+
+Modify both the Source and Conductor TD.
+
+The complexity of a spell depends both on the type of action performed
+by the spell and on the complexity of the system the spell affects,
+for
+spells that alter the internals of a system. To obtain the total spell
+complexity, add the action complexity modifier to the system
+complexity
+modifiers.
+
+------------------------------------------------------------------
+TD Modifier       Complexity of the action
+------------------------------------------------------------------
+     +1           Mild (movement, minor alterations, ...)
+     +3           Moderate (healing, damage, teleport, protection,
++                           transformation, ...)
+     +5           High (creation, destruction, ...)
+------------------------------------------------------------------
+
++All spells that affect the structure of a system (polymorphing
+spells, charm
++spells, creation or destruction spells, healing, ...) must use the
+System type
++and System status tables to raise the Source and Conductor TDs.  This
+includes
++spells that cause internal damage (such as a reverse of a healing
+spell), but
++not spells that cause external damage as the result of an effect
+(such as a
++Fireball spell).
+
+The total modifier to TDs is calculated by adding the appropriate
+modifiers
+>from the two tables below.
+
+---------------------------------------------------------------
++TD modifier     System type (Type of system that can be affected)
+---------------------------------------------------------------
+   +1           immaterial (energy, fire, ...)
+   +2           gases, liquid (or similar)
+   +3           uniform solids or force fields, ...
+   +4           vegetals, complex solids or force fields, ...
+   +5           animal or animated being
+   +8           magical or extraplanar entity
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
++TD modifier     System status (What about the system can be affected)
+---------------------------------------------------------------
+   +0           dead/inanimate
+   +1           living/animated
++  +2           Reasoning/Memory only
++  +4           intelligent
++  +8           with soul
+---------------------------------------------------------------
+
+Add 5 to this modifier if the spell is an area of effect spell that
+targets
+the internals of a system, as area effects are not precise by nature
+and are
+thus not well suited to affect directly the internal structure of
+entities.
+
+Difficulty of resisting the spell
+---------------------------------
+
+Affects Conductor TD.
+
+If the spells affect directly the target (charm spells, some damage
+inducing
+spells, ...), then the Conductor TD is modified by the TD of target
+resistance
+roll.
+
+TD Modifier = Resistance TD      (-5 minimum)
+
+--------------------------------
+TD Modifier       Resistance TD
+--------------------------------
+    -5                -5 or less
+    -4                -4
+    -3                -3
+    -2                -2
+    -1                -1
+     0                 0
+     1                 1
+     2                 2
+     3                 3
+     4                 4
+     5                 5
+    ...               ...
+--------------------------------
+
++Add +1000 to the TD Modifier if the spell can affect unwilling
+targets but
++has no Resistance TD.
+
+
+Direct application of the Source(s)
+-----------------------------------
+
+Modifies the Source TD.
+
+If the effect of the spell is not a direct application of the
+source(s),
+then the Source TD is raised. Each source that is used in the spell
+modifies
+the Source TD independently. For example, if a spell uses a collateral
+source and a remote source, then its Source TD is modified by a total
+of
++15.
+
+Any Source is opposite if there is another Source in the same school
+that is more appropriate for the effect.
+
+------------------------------------------------------------------------
+TD Modifier       Directness of application (sample spell)
+------------------------------------------------------------------------
+   +0             Direct (Healing with Celestial Power of Daylight)
+   +5             Collateral (Any physical effect with Kundalini)
+   +10            Remote (Transmuting with Elemental Power of Energy)
+   +20            Unrelated (Telekinesis with Elemental Power of
+Energy)
+   +1000          Opposite (Creation using Elemental Power of Entropy)
+------------------------------------------------------------------------
+
+Direct application of the Conductor(s)
+--------------------------------------
+
+Modifies the Conductor TD.
+
+If the effect of the spell is not a direct application of the
+conductor(s),
+then the Conductor TD is raised. Each conductor that is used in the
+spell
+modifies the Conductor TD independantly. For example, if a spell uses
+a
+collateral conductor and a remote conductor, then its Conductor TD is
+modified by a total of +15.
+
+Any Conductor is opposite if there is another Conductor in the same
+school
+that is more appropriate for the effect.
+
+------------------------------------------------------------------------
+TD Modifier       Directness of application (sample spell)
+------------------------------------------------------------------------
+   +0             Direct (Fireball with Elemental Fire Focus)
+   +5             Collateral (Heating things with Elemental Fire
+Focus)
+   +10            Remote (Healing with Elemental Water Focus)
+   +20            Unrelated (Fireball with Celestial Light Focus)
+   +1000          Opposite (Moving things with Celestial Aurora Focus)
+------------------------------------------------------------------------
+
+=======
+Effects
+=======
+
+This section describes all the modifiers to the Source and Conductor
+TDs
+that are related to the Effects cost of the spell. Apply only the
+modifiers
+that are pertinent to your spell.
+
+Some of these modifiers affect only the Source or Conductor TD, while
+others affect both. Each of the modifiers lists which TD is affected.
+
+Intensity of the effects
+------------------------
+
+Can modify either the Source TD, the Conductor TD or both.
+
+This is a general table that modifiers both the Source TD and
+Conductor TD
+depending on the strength of the effects created by the spell. Do not
+use
+this table if your spell is oriented toward: Damage, Healing, [Mind
+Control],
+... There exists tables for those particular effects that are a better
+guide
+than this general Intensity table.
+
+------------------------------------------
+TD Modifier       Intensity of the effects
+------------------------------------------
+     +2           Mild
+     +5           Moderate
+    +10           High
+    +15           Overwhelming
+------------------------------------------
+
+Intensity: Hit Points healed
+----------------------------
+
+Modifies the Source and Conductor TDs.
+
+For healing spells, the TD is also modified by the number of hit
+points
+healed.
+
+-------------------------------------
+TD Modifier      INJURY Points Healed
+-------------------------------------
+   +0                   0
+   +1                   1
+   +2                   2
+   +3                   3
+   +4                   4
+   +5                   5
+   +6                   6
+   +7                   7
+   +8                   8
+   +9                   9
+   +10                  10
+   +11                  11
+   +12                  12
+   +13                  13
+   +14                  14
+   +15                  15
+   ...                  ...
+-------------------------------------
+
+Intensity: Damage done to target(s)
+-----------------------------------
+
+Modifies the Source TD.
+If the spell causes damage, then its Source TD is modified by the
+table below.
+
+A spell that causes damage only through secondary effects (by making
+the
+ceiling fall, for example) does not see its Source TD modified by the
+table
+below. In general, if the main purpose of a spell is to cause damage,
+then
+their Source TD should be affected by how much damage it causes.
+
+--------------------------------
+TD Modifier       Average Damage
+--------------------------------
+   +1                  2 (1d3)
+   +2                  4 (1d6)
+   +3                  6 (2d6-1)
+   +4                  8 (2d6+1)
+   +5                 10 (3d6-1)
+   +6                 12 (3d6+1)
+   +7                 14 (4d6)
+   +8                 16 (4d6+2)
+   +9                 18 (5d6)
+   +10                20 (5d6+2)
+   +11                22 (6d6+1)
+   +12                24 (7d6-1)
+   +13                26 (7d6+1)
+   +14                28 (8d6)
+   +15                30 (8d6+2)
+--------------------------------
+
++Intensity: Mass per target, Speed of induced movement
+-------------------------------------------------------
+
+Modifies the Source TD.
++Mass is per target (Area of effect spells that are dependant
++on mass count as a single target).
++Speed is meters per round.
+
+------------------------------------
+             TD
+Factor    Modifier  Mass   Speed
+------------------------------------
++1.0          0      <= 5kg  <= 1m/rnd
++1.32         1      7kg     1.5m/rnd
++1.74         2      9kg     2m/rnd
++2.30         3      12kg    2.5m/rnd
++3.04         4      15kg    3m/rnd
++4.01         5      20kg    4m/rnd
++5.29         6      25kg    5m/rnd
++6.98         7      35kg    7m/rnd
++9.22         8      45kg    9m/rnd
++12.1         9      60kg    12m/rnd
++16.1         10     80kg    15m/rnd
++21.2         11     105kg   20m/rnd
++28.0         12     140kg   25m/rnd
++36.9         13     185kg   35m/rnd
++48.8         14     245kg   45m/rnd
++64.4         15     320kg   60m/rnd
++85.0         16     425kg   80m/rnd
++112          17     560kg   105m/rnd
++148          18     740kg   140m/rnd
++195          19     975kg   185m/rnd
++258          20    1240kg   245m/rnd
+------------------------------------
+
+Intensity: Control over the movement (maneuverability)
+------------------------------------------------------
+
+Modifies the Conductor TD.
+
+For spells that create movement, the Conductor TD is modified by the
+maneuverability of the movement.
+
+---------------------------------------------
+TD modifier     Turn rate (in any direction)
+---------------------------------------------
+    +0          Bad (45 degrees/round)
+    +2          Fair (90 degrees/round)
+    +5          Good (180 degrees/round)
+    +7          High (360 degrees/round)
+   +10          Excellent (720 degrees/round)
+---------------------------------------------
+
++Add 10 to this modifier if the target controls the movement (as
+opposed to
++the mage).
+
+======
+Extent
+======
+
+This section describes all the modifiers to the Source and Conductor
+TDs
+that are related to the Extent cost of the spell. Apply only the
+modifiers
+that are pertinent to your spell.
+
+Some of these modifiers affect only the Source or Conductor TD, while
+others affect both. Each of the modifiers lists which TD is affected.
+
+Note that the Extent modifiers multiply the Effects modifiers!
+
+Area of Effect
+--------------
+
+Modifies the Source TD.
+
+--------------------------------------------
+Effects TD       Sphere         Cubes
+Multiplier      (radius)    (5x5x5 meters^3)
+--------------------------------------------
+  x1             <= 3m           1
+  x1.5           <= 5m           2
+  x2             <= 10m          4
+  x2.5           <= 15m          6
+  x3             <= 25m          10
+  x4             <= 45m          15
+  x5             <= 70m          25
+  x6             <= 100m         35
+  x7             <= 135m         50
+--------------------------------------------
+[Radius = (5/3*Multiplier)^2; rounded to nearest nice value]
+[Cubes = Multiplier^2 (rounded to a nice value)]
+
+[Do we want cubical area of effects?]
+
+Number of Targets
+-----------------
+
+Modifies the Source and Conductor TDs.
+
+If the spell specifies a number of targets, then it should not specify
+an
+area of effect. The only limitation is that all targets should be
+within
+range.
+
+---------------------
+Effects TD   Number of
+Multiplier    Targets
+---------------------
+   x1           1
+   x2           2
+   x3           4
+   x4           8
+   x5          16
+   x6          32
+   x7          64
+   x8         128
+---------------------
+
+Duration
+--------
+
+Modifies the Source and Conductor TDs.
+
+The duration multiplier depends on the complexity of the spell action.
+The more complex a spell, the shorter it is.
+
+If a spell causes damage directly, i.e. not through the manipulation
+of
+some physical object, then its complexity is considered to be 20+ for
+the
+calculation of the duration multiplier.
+
+
++-----------------------------------------------------------+
+           |                Complexity of the spell action
+|
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| Duration | 1-2 | 3-4 | 5-6 | 7-8 | 9-  | 11- | 13- | 15- | 17- | 19- |
+|          |     |     |     |     | 10  | 12  | 14  | 16  | 18  | 20+ |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 1 round  |     |     |     |     |     |     |     |x1/4 |x1/2 |  x1 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 3 rounds |     |     |     |     |     |     |x1/4 |x1/2 |  x1 |  x2 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 5 rounds |     |     |     |     |     |x1/4 |x1/2 |  x1 |  x2 |  x3 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 1 minute |     |     |     |     |x1/4 |x1/2 |  x1 |  x2 |  x3 |  x4 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 2 mins   |     |     |     |x1/4 |x1/2 |  x1 |  x2 |  x3 |  x4 |  x5 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 4 mins   |     |     |x1/4 |x1/2 |  x1 |  x2 |  x3 |  x4 |  x5 |  x6 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 8 mins   |     |x1/4 |x1/2 |  x1 |  x2 |  x3 |  x4 |  x5 |  x6 |  x7 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 15 mins  |x1/4 |x1/2 |  x1 |  x2 |  x3 |  x4 |  x5 |  x6 |  x7 |  x8 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 30 mins  |x1/2 |  x1 |  x2 |  x3 |  x4 |  x5 |  x6 |  x7 |  x8 |  x9 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 1 hour   |  x1 |  x2 |  x3 |  x4 |  x5 |  x6 |  x7 |  x8 |  x9 | x10 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 2 hours  |  x2 |  x3 |  x4 |  x5 |  x6 |  x7 |  x8 |  x9 | x10 | x11 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 4 hours  |  x3 |  x4 |  x5 |  x6 |  x7 |  x8 |  x9 | x10 | x11 | x12 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 8 hours  |  x4 |  x5 |  x6 |  x7 |  x8 |  x9 | x10 | x11 | x12 | x13 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 16 hours |  x5 |  x6 |  x7 |  x8 |  x9 | x10 | x11 | x12 | x13 | x14 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+| 32 hours |  x6 |  x7 |  x8 |  x9 | x10 | x11 | x12 | x13 | x14 | x15 |
++----------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
+
+----------------------------------------
+Norman Sager
+nsager@voicenet.com

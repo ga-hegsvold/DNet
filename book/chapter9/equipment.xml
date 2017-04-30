@@ -1,0 +1,318 @@
+<sect1><title>Equipment List</title>
+
+<!-- ARMORS -->
+
+<table frame="all"><title>Armors</title>
+<tgroup cols="4" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" align="left" colwidth="1*" />
+<thead>
+<row><entry>ARMOR</entry><entry>WT</entry><entry>QLT</entry><entry>RES</entry></row>
+</thead>
+<tbody>
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/quilted.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Quilted Leather
+</para>
+</entry><entry>2kg</entry><entry>1</entry><entry>2</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/softleather.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Soft Leather
+</para>
+</entry>
+<entry>3kg</entry><entry>2</entry><entry>3</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/hardleather.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Hard Leather
+</para>
+</entry><entry>4kg</entry><entry>2</entry><entry>4</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/studdedleather.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Studded Leather
+</para>
+</entry><entry>5kg</entry><entry>3</entry><entry>5</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/chainmail.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Chain Mail
+</para>
+</entry><entry>5kg</entry><entry>4</entry><entry>15/5</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/ringmail.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Ring Mail
+</para>
+</entry><entry>15kg</entry><entry>4</entry><entry>11</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/scalemail.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Scale Mail
+</para>
+</entry><entry>15kg</entry><entry>5</entry><entry>12</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/splintmail.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Splint Mail
+</para>
+</entry><entry>25kg</entry><entry>5</entry><entry>13</entry></row>
+
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/platemail.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+<para>
+Plate Mail
+</para>
+</entry><entry>30kg</entry><entry>6</entry><entry>15</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+<!--
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/quilted.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Quilted Leather</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/softleather.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Soft Leather</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/hardleather.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Hard Leather</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/studdedleather.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Studded Leather</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/chainmail.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Chain Mail</phrase></textobject>
+</mediaobject>
+Resistance 15 vs crushing and slashing weapons; 5 vs bldugeoning and thrusting.
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/ringmail.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Ring Mail</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/scalemail.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Scale Mail</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/splintmail.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Splint Mail</phrase></textobject>
+</mediaobject>
+
+<mediaobject>
+<imageobject>
+<imagedata fileref="../images/platemail.gif" format="gif" />
+</imageobject>
+<textobject><phrase>Plate Mail</phrase></textobject>
+</mediaobject>
+-->
+First developed in antiquity, "modern" plate armor (with well fitted and moving
+parts) was first used by the Iranians (Parthians) about a thousand years before
+it came into general use in Europe from the 13th century onward.
+Plate had become the standard form of armor by the late 15th century, replacing
+chain mail. Plate was just that, a sheet of metal (about as thick as that used
+to make cars in the 1950s) and formed into a breat plate (front and back) a
+flexible metal "skirt" as well as articulated coverings for the arms and legs.
+Atop it all was a helmet and face place, as well as metal shoes and gauntlets.
+
+These all fitted together in such a way as to overlap, leaving few vulnerable
+points. The heaviest suit known weighed about 90 pounds, belonging to
+Duke Ferry of Lorraine, who was killed at Agincourt in 1415, but most weighed
+about 70 pounds. Plate armor was made to order, thus it was very expensive,
+costing from 10,000 to 50,000 ducats depending on how complete and fancy the
+suit was. Sort of like the various classes of luxury automobiles nowadays.
+Because each suit was made to the measurements of the user, the weight was
+evenly distributed and was not as cumbersome as one would think. As 20th
+century experiments revealed, college atheletes (selected to fit in 15th
+century suits of armor) could lie down and jump to a standing position, do
+jumping jacks, and mount a horse with no trouble. A modern infantryman often
+totes as much or more equipment into action as did a medieval knight, and most
+of the grunt's gear is carried on his back, nor does he have a horse to help
+him.
+
+</para>
+
+<!-- SHIELDS -->
+
+<table frame="all"><title>Shields</title>
+<tgroup cols="6" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" align="left" colwidth="1*" />
+<thead>
+<row><entry>SHIELD</entry><entry>SIZE</entry><entry>WT</entry><entry>DEF</entry><entry>IMP</entry><entry>QLT</entry></row>
+</thead>
+<tbody>
+<row><entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/buckler.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+Buckler
+</entry><entry>0.3m</entry><entry>2kg</entry><entry>+1</entry><entry>-4</entry><entry>2</entry></row>
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/roundshield.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+Round Shield
+</entry><entry>0.5m</entry><entry>3kg</entry><entry>+2</entry><entry>-3</entry><entry>2</entry></row>
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/knightshield.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+Knight Shield
+</entry><entry>1.0m</entry><entry>4kg</entry><entry>+3</entry><entry>-2</entry><entry>3</entry></row>
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/kiteshield.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+Kite Shield
+</entry><entry>1.0m</entry><entry>5kg</entry><entry>+4</entry><entry>-1</entry><entry>3</entry></row>
+<row>
+<entry>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/towershield.png" format="png" width="1cm" />
+</imageobject>
+</inlinemediaobject>
+Tower Shield
+</entry><entry>2.0m</entry><entry>8kg</entry><entry>+5</entry><entry>0</entry><entry>4</entry></row>
+</tbody>
+</tgroup>
+</table>
+<!--
+<para>
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/buckler.png" format="png" width="1cm" />
+</imageobject>
+<textobject><phrase>Buckler</phrase></textobject>
+</inlinemediaobject>
+This is a Buckler
+
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/roundshield.png" format="png" width="1cm" />
+</imageobject>
+<textobject><phrase>Round Shield</phrase></textobject>
+</inlinemediaobject>
+This is a Round Shield
+
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/knightshield.png" format="png" width="1cm" />
+</imageobject>
+<textobject><phrase>Knight Shield</phrase></textobject>
+</inlinemediaobject>
+This is a Knight Shield
+
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/kiteshield.png" format="png" width="1cm" />
+</imageobject>
+<textobject><phrase>Kite Shield</phrase></textobject>
+</inlinemediaobject>
+This is a Kite Shield
+
+<inlinemediaobject>
+<imageobject>
+<imagedata fileref="../images/towershield.png" format="png" width="1cm" />
+</imageobject>
+<textobject><phrase>Tower Shield</phrase></textobject>
+</inlinemediaobject>
+This is a Tower Shield
+</para>
+-->
+<!-- WEAPONS -->
+
+<!-- GENERAL EQUIPMENT -->
+</sect1>

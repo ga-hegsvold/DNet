@@ -1,0 +1,448 @@
+<HTML>
+
+<HEAD>
+<TITLE>DragonNet: Species & Cultures</TITLE>
+</HEAD>
+
+<BODY>
+<a name="top"></a>
+<center><h1>Species & Cultures</h1></center>
+<center><a href="welcome.html">(back to table of contents...)</a></center>
+<hr>
+<p>
+<h1>2.1 Guide to species creation</h1>
+<H5>Version 7.0</H5>
+<H5>Author: Juergen Lechner</H5>
+<p>
+
+You need to follow these steps to create a species:
+<ol>
+  <li> <a href="#1">Deciding the general idea of the species</a>
+  <li> <a href="#2">Can a PC be from this species?</a>
+  <li> <a href="#3">Height, weight and lifespan</a>
+  <li> <a href="#4">Adjusting attributes / speed</a>
+  <li> <a href="#5">Body Points</a>
+  <li> <a href="#6">Natural Resistance</a>
+  <li> <a href="#7">Innate ISB, Gifts and Foibles</a>
+  <li> <a href="#8">Calculating EP cost</a>
+  <li> <a href="#9">Cultures</a>
+  <li> <a href="#10">IMPACT done by a species weapons</a>
+</ol>
+
+<a name="1">
+<p>
+<h3>1. Deciding the general idea of the species</h3>
+If you decide to create a new species then you normally have
+an idea of how the species will look like and what are its
+special characteristics (i.e. attributes, abilities, ...).
+If not, try to visualize a general picture of the species 
+and which role it will play in your world.
+</a>
+
+<a name="2">
+<p>
+<h3>2. Can a PC be from this species?</h3>
+If you want to create a new race for players then you need to
+calculate the EP cost.This is the number of points that must be
+spent to choose this species as a player character's race.
+Even if you create only a new monster then it will be a good way
+to measure the strength of the species. Everything that gives the
+new species some sort of power will raise the EP cost. And everything
+disadvantageous to it will lower it. Balanced advantages and 
+disadvantages will keep the cost near 0.
+</a>
+
+<a name="3">
+<p>
+<h3>3. Height, weight and lifespan</h3>
+
+You then have to define the average
+<ul>
+  <li> height in m,
+  <li> weight in kg and
+  <li> lifespan in years. 
+</ul>
+According to this you can also see which <b>Size rating</b> the species
+has. This is an additional value that will be used in combat. Humans have 
+a size rating of 0.
+
+<h4>Size Rating</h4>
+
+You can determine the Size Rating (SR) of your species from the 
+<b>Strength and Size Rating Table</b> given below. Find the average
+height of your species in the Humanoid Height column and note the 
+corresponding SR. Note that this SR is valid if your species has the same 
+proportions as a human, i.e. if it has the same ratio as a human between 
+height and width. If the species is larger for its height than a human, 
+raise its SR value by 1. If it is slimmer, lower its SR by 1.
+
+<h4>Strength and Size Rating Table</h4>
+
+The following table can be used to determine a number of factors relating 
+to a creatures size and strength.
+
+<pre>
+Size     Strength              Humanoid               LOAD   Humanoid
+Factor    Factor    SR    STR   Height  LIFT   LOAD   STEP   species
+----------------------------------------------------------------------
+  0.0623  0.0039   -10    -20    11cm   200g    80g     8g
+  0.0715  0.0051    -9    -19    13cm   255g   100g    10g
+  0.0822  0.0068    -9    -18    15cm   340g   135g    14g
+  0.0944  0.0089    -8    -17    17cm   445g   180g    18g
+  0.108   0.0118    -8    -16    19cm   590g   235g    24g
+  0.125   0.0155    -7    -15    22cm   775g   310g    31g
+  0.143   0.0205    -7    -14    26cm    1.0   410g    41g
+  0.165   0.0271    -6    -13    30cm    1.4   540g    54g
+  0.189   0.0357    -6    -12    34cm    1.8   715g    72g 
+  0.217   0.0472    -5    -11    39cm    2.4   940g    94g
+  0.250   0.0623    -5    -10    45cm    3.1    1.2   120g
+  0.287   0.0822    -4     -9    52cm    4.1    1.6   160g
+  0.329   0.108     -4     -8    59cm    5.4    2.2   220g
+  0.378   0.143     -3     -7    68cm    7.2    2.9   290g
+  0.435   0.189     -3     -6    78cm    9.5    3.8   380g
+  0.500   0.250     -2     -5    90cm     13    5.0    0.5
+  0.574   0.329     -2     -4    1.0m     16    6.5    0.7
+  0.659   0.435     -1     -3    1.2m     22    8.5    0.9
+  0.758   0.574     -1     -2    1.4m     29     11    1.1
+  0.870   0.757      0     -1    1.6m     38     15    1.5   Elf
+  1.0     1.0        0      0    1.8m     50     20    2.0   Human
+  1.15    1.32       0      1    2.1m     65     25    2.5
+  1.32    1.74       1      2    2.4m     85     35    3.5
+  1.52    2.30       1      3    2.7m    115     45    4.5
+  1.74    3.04       2      4    3.1m    150     60    6.0
+  2.00    4.01       2      5    3.6m    200     80    8.0
+  2.30    5.29       3      6    4.1m    265    105     11
+  2.64    6.98       3      7    4.8m    350    140     14
+  3.04    9.22       4      8    5.5m    460    185     19
+  3.49    12.2       4      9    6.3m    610    245     25
+  4.01    16.1       5     10    7.2m    805    320     32
+  4.60    21.2       5     11    8.3m   1060    425     43
+  5.29    28.0       6     12    9.5m   1400    560     56
+  6.08    36.9       6     13     11m   1850    740     74
+  6.98    48.8       7     14     13m   2440    975     98
+  8.02    64.4       7     15     14m   3220   1290    130 
+  9.22    85.0       8     16     17m   4250   1700    170
+  10.6     112       8     17     19m   5610   2240    225
+  12.2     148       9     18     22m   7400   2960    300
+  14.0     195       9     19     25m   9770   3910    390
+  16.1     258      10     20     29m  12900   5160    520
+----------------------------------------------------------------------
+</pre>
+
+</a>
+
+<a name="4">
+<p>
+<h3>4. Adjusting attributes / speed</h3>
+The steps above will tell you in which way you may change the Talents of the
+species. The average attributes of a human are all 0 and ranges normally from
+-5 to +5. When you adjust a Talent, you decide how much it will differ from
+the human standard. You do this by adding or subtracting a specific value.
+<p>
+<code>
+For example:<br>
+The new species is taller and lighter than a human but more flexible
+and agile. This could mean:<br>
+Talents modifiers: AGI +1, FIT -1, STR -1<br><br>
+The resulting EP cost would be -10. This could offset the cost of another
+advantage.
+</code>
+<p>
+<b>The Talents are:</b>
+<table border>
+  <tr><td align="middle" colspan=3><b>Physical</b></td></tr>
+  <tr><td>AGI</td><td>Agility</td><td>Body control; balance; rythm; flexibility</td></tr>
+  <tr><td>BEA</td><td>Beauty</td><td>How nice you <em>look</em></td></tr>
+  <tr><td>DEX</td><td>Manual Dexterity</td><td>Hand-eye coordination; fine motricity of the arms and hands; sensivity to touch</td></tr>
+  <tr><td>FIT</td><td>Fitness</td><td>Bodily health; resistance to hardship, injury or disease</td></tr>
+  <tr><td>STR</td><td>Strength</td><td>Rating of Physical power for short and prolonged use</td></tr>
+  <tr><td align="middle" colspan=3><b>Mental</b></td></tr>
+  <tr><td>AUR</td><td>Aura</td><td>Non-tangible complement to beauty; charisma</td></tr>
+  <tr><td>INT</td><td>Intelligence</td><td>Memory; analytical and reasoning ability; speed of thought</td></tr>
+  <tr><td>PER</td><td>Perception</td><td>Includes alertness and observational acuity</td></tr>
+  <tr><td>PSY</td><td>Psyche</td><td>Creativity, Intuition, affinity to the natural and supernatural</td></tr>
+  <tr><td>WIL</td><td>Willpower</td><td>Self discipline and mental fortitude (i.e. mental fitness)</td></tr>
+</table>
+For a detailed description of the attributes please refer to the character
+creation guide in the rules.
+
+<p>
+<b>Base Speed:</b>
+This is not an attribute but results directly from them. Decide which speed is
+a logical result from its Talents and the species size. The base speed is
+normally given in both meters/round and km/h. To find the speed in km/h,
+multiply the speed in meters/round by 0.6. Inversely, to find the speed in
+meters/round, divide the speed in km/h by 0.6.
+
+<p>
+<pre>
+Standard speeds:
+
++-------------+----------------------+------------------------+---------+
+|             |         Human        |      Other Species     | Fatigue |
+|             |  km/hour    m/round  |                        | Rating  |
++-------------+----------------------+------------------------+---------+
+| Base        |     3           5    | In species description |   (1)   |
+| Walking     |     6          10    | 2*Base                 |   (1)   |
+| Running     |    12          20    | 4*Base                 |   (3)   |
+| Sprinting*  |    24          40    | 8*Base                 |   (7)   |
+| Max**       |    36          60    | 12*Base                |  (10)   |
++-------------+----------------------+------------------------+---------+
+
+</pre>
+
+<p>
+To decide which Base Speed is reasonable look at the speed ratings for humans:
+<ul>
+  <li> walking speed = Base Speed *2
+  <li> running speed = Base Speed * 4
+  <li> sprinting speed = Base Speed * 8
+  <li> maximum speed = Base Speed * 12
+</ul>
+This means that a species with a Base Speed of 6 meters/round walking at a normal 
+pace is as fast as a human who is jogging.
+<p>
+It is suggested that you specify the base, walking, running, sprinting and
+maximum speeds in the species description, to simplify the life of game
+masters and players. In  general, these speeds will be calculated from the
+formulas above. If you want to use different formulas for your species, please
+write them beside the calculated speeds. For example, the quantum leap monster
+could have base speed of 30 meters/round with a walking speed of 90
+meters/round (Base Speed * 3) and a maximum speed of 120 meters/round (Base
+Speed * 4).
+</a>
+
+<a name="5">
+<p>
+<h3>5. Body Points</h3>
+Each species will be rated with a constant BODY score of X.<br>
+Add <em>(Body Points</em> - <em>Human Body Points)*10</em> to EP cost.
+<p>
+
+A good way to estimate the BODY of your new species is to set it in proportion
+with its size relatively to humans. For example, if your species is twice as
+tall as humans, its BODY should be twice as high. The human BODY is equal to
+15 and the average human size is 1.8 meters.
+<p>
+
+<code>
+Humanoid species BODY = (Species Height/Human Height) * Human BODY
+</code>
+<p>
+
+However, if a species is more bulky than humans for its height, then its BODY
+should be set higher. In the same manner, a very slim species should have a
+lower BODY value than that calculated.
+<p>
+
+<em>Note: This may be subject to change.</em>
+</a>
+
+<a name="6">
+<p>
+<h3>6. Natural Resistance</h3>
+
+Natural Resistance (NR) represents the toughness of the species skin, tissues
+and bones and their ability to withstand impact. It is the biological
+equivalent of a suit of armor, which protects the character from cutting,
+tearing and bludgeoning impacts.
+<p>
+
+A Natural Resistance of 0 corresponds to the resistance of the human skin,
+tissues and bones. Smaller species will probably be more fragile, while bigger
+ones will likely be more resistant. For humanoid species similar in
+proportions to humans, it is recommended to set a Natural Resistance equal to
+their Size Rating (SR) value (which can be found from the height of the species
+in the Strength and Size Rating Table).
+<p>
+
+Note that Armor Resistance (the resistance of chain mail, ...) is the same
+for every species, but that the resistance value used in combat is the sum
+of the species Natural Resistance and the Armor Resistance.
+<p>
+
+<code>
+Natural Resistance = Size Rating      (for humanoid species)
+</code>
+
+</a>
+
+<a name="7">
+<p>
+<h3>7. Innate ISB, Gifts and Foibles</h3>
+IMHO this is one of the main reasons why players want to have characters from
+another race. Each specific species has something that makes it unique:
+Gifts that help them to survive and foibles that are the burdens layed on the
+shoulders of that race. This combination may make it interesting to play a
+member of this species.
+
+<p>
+<b>ISB (= Innate Skill Bonus):</b><br>
+An innate skill bonus is a bonus to a skill that all members of a species
+possess. This bonus is applied when a character has learned this skill
+and uses it. Generally, Innate Skill Bonuses apply only to physical skills.
+
+<p>
+The EP cost for ISB is calculated by:<br>
+ISB Cost = ISB * (ISB+1) / 2 * Base EP Cost of Skill.
+
+<p>
+<code>
+For example:<br>
+Centaurs have an ISB +3 to running.<br>
+The skill costs 3.<br>
+This means the EP cost is: 3 * 4 / 2 * 3 = 18.
+</code>
+
+<p>
+<b>Gifts:</b><br>
+A gift is an advantage that is innate to all members of a species. It is normally
+a physical advantage. The cost of the gifts are logically added to the EP cost.
+
+<p>
+<b>Foibles:</b><br>
+These are physical or even psychological disadvantages that make it more difficult
+to play the character. Their 'cost' will be substracted from the EP cost.
+</a>
+
+<a name="8">
+<p>
+<h3>8. Calculating EP cost</h3>
+Now you have all the informations that you need to calculate the species' EP cost.
+As I mentioned above you will have to pay the EP cost when you create a character
+from a specific race.
+
+The EP cost is calculated by applying the following modifiers:
+<ol>
+  <li> <b>Sum</b> all Talents modifiers. Add ten times this value to the 
+          Species EP Cost (the result can be negative).
+  <li> <b>Add</b> (Body Points - Human Body Points)*10
+  <li> <b>Add</b> Natural Resistance * 10
+  <li> <b>Add</b> all costs for ISB
+  <li> <b>Add</b> all costs for gifts
+  <li> <b>Substract</b> all costs for foibles  
+</ol>
+</a>
+
+<a name="9">
+<p>
+<h3>9. Cultures</h3>
+Now the statistic of the species are finished. These statistics should be the same
+for all worlds in which this species will appear. The only difference between the
+species on several worlds may be the cultures founded by them. Add the cultures
+that will be the most likely formed by members of this species. You find culture
+descriptions at the end of this book. They need only to be adapted to this race.
+All the informations concerning cultures will be given in the next chapter.
+<p>
+</a>
+
+<a name="10">
+<p>
+<h3>10. IMPACT done by a species weapons</h3>
+Many humanoid species will use weapons that are scaled versions of human
+weapons. For example, a pixie could wield a needle size sword and a giant
+could use a club the size of a tree.
+<p>
+In order to maintain consistency across species, the IMPACT of such weapons
+should be approximately equal to the sum of the IMPACT of the equivalent human
+weapon and the species average Strength. The idea behind this scaling is that
+a smaller and lighter weapon will do less damage than a larger one of similar
+shape.
+<p>
+
+<code>
+Species weapon IMPACT = Human weapon IMPACT + Species average STR
+</code><p>
+
+For example, the IMPACT of a pixie bastard sword would be equal to:
+<p>
+<pre>
+Pixie bastard sword IMPACT = Human bastard sword IMPACT + Average Pixie STR
+                           = 2d6 + 4                    - 20
+                           = 2d6 - 16
+</pre><p>
+                           
+(For those who find this value ridiculously small, pixies are 10 cm creatures
+and their swords would do no more than a scratch to a human.)
+
+
+</a>
+
+<hr>
+
+<pre>
+Example:
+-------
+Centaur
+-------
+Cultures:     Herd, Rogue
+Can be a PC:  Yes
+EP Cost:      114
+Average Ht:   male 182 cm at the shoulder, female 175 cm
+Average Wt:   male 181 kg, female 158 kg
+Lifespan:     75 years
++ Talent:     STR +1, PSY +1, WIL +2, FIT +1
+- Talents:    CHR -1, INT -1
+BODY:         20
+Nat. Res.:    1
+
+Base Speed:   10 m/rnd;  6 km/h
+Walking:      20 m/rnd;  12 km/h
+Running:      40 m/rnd;  24 km/h
+Sprinting:    80 m/rnd;  48 km/h
+Maximum:      120 m/rnd; 72 km/h
+
+Innate Gifts:
+   running aptitude, ISB +3 (+9)
+   front hooves attack (+10)   IMPACT=1d4 per hoove
+   rear hooves kick (+10)      IMPACT=1d6
+
+Innate Foibles:
+   Large size (-5)
+
+------------
+Herd Culture
+------------
+Skill Packages:
+   warrior           combat, movement, nature
+   nature priest     nature, knowledge, magic
+   shaman            magic, nature, social
+   mage              magic, knowledge, nature
+
+Common skills:
+   agriculture
+   archery
+   foraging
+   hunting
+   Nature Skills
+   running
+   zoology
+
+Description:
+
+---------------------
+Rogue Centaur Culture
+---------------------
+Skill Packages
+   same as Herd culture
+   thief             combat, nature, subterfuge
+
+Common skills:
+   same as Herd culture
+   Subterfuge Skills
+
+Description:
+</pre>
+
+<p>
+<hr>
+Back to: <a href="#top">top</a>,
+         <a href="welcome.html">Species & Cultures</a>,
+         <a href="../index.html">index</a><br>
+&copy; DragonNet Development Team<br>
+<em>last change: 08.09.1996 by Guillaume Fortin</em>
+</BODY>
+
+</HTML>
+
+

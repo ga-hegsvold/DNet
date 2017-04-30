@@ -1,0 +1,28 @@
+<sect1><title>Task Resolution</title>
+<para>
+The process of resolving a Task is called Task Resolution. It is done via a
+roll of the dice. The applicable Skill is then added to the die roll and the
+result must be greater than or equal to the TD set by the GM.
+</para>
+
+<para>
+Thus the standard Task Resolution Formula is:
+</para>
+
+<para>
+<literal>
+d10-d10* + Skill &gt;= TD
+</literal>
+</para>
+
+<para>
+If situational modifiers reduce a Task Difficulty to 10 less than the Skill,
+a Task Resolution roll is not required; the outcome is an automatic success.
+</para>
+
+<para>
+Similarly, and especially in non-crisis situations, a GM may waive the
+requirement for a task resolution roll when a character's skill rating is
+5 points over the TD rating e.g., Skill 6, TD 1.
+</para>
+</sect1>

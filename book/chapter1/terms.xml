@@ -1,0 +1,82 @@
+<sect1><title>Terms and Concepts</title>
+<para>
+To play a DNet game, there are a few terms that must be known.
+We've tried to keep terminology to a minimum, but it inevitably creeps in.
+Where we have specific terms for RPG constructs, we have tried to make them as
+intuitive as possible.
+</para>
+
+<sect2><title>Talent</title>
+<para>
+Talent (Tal) describes a character's natural ability in a particular area.
+A character's Strength Talent is a measure of their ability to lift loads,
+carry weight and deal damage in combat. Other systems refer to a characters
+natural abilities as attributes or abilities. We use the term Talent.
+</para>
+</sect2>
+
+<sect2><title>Training</title>
+<para>
+Training (Tr) is the amount of learned experience a character has in a given
+Skill or area. This includes formal and informal education, obtained at a
+university or the school of hard knocks. A character gains training
+through practice, study and use of Skills. Experience can be used to 
+increase a characters Training Level (Tr Lvl) in a Skill.
+</para>
+</sect2>
+
+<sect2><title>Skill</title>
+<para>
+Skill (Sk) is the effectiveness of a character in a particular area. Skill
+includes both the characters natural Talents and his Level of Training.
+</para>
+
+<para>
+<literal>
+Sk = Avg(Tals) + Tr Lvl
+</literal>
+</para>
+
+<para>
+DNet is a Skill based system, so most of a character's abilities will be
+described as Skills.
+</para>
+</sect2>
+
+<sect2><title>Heaps</title>
+<para>
+Heaps are numeric values that start at 0 and go up. High Heap values are
+bad and low Heap values are good.
+</para>
+
+<para>
+Some Heaps used in DNet:
+<itemizedlist>
+<listitem>
+<para>
+Encumbrance
+</para>
+</listitem>
+
+<listitem>
+<para>
+Fatigue
+</para>
+</listitem>
+
+<listitem>
+<para>
+Injury
+</para>
+</listitem>
+</itemizedlist>
+</para>
+
+<para>
+Heaps work similarly to Task Difficulties (TDs), except that they are variable.
+For example, when a character takes sufficient Injury, he makes a survival
+check by rolling dice and comparing the result (modified by appropriate Talents
+or Skills) to his Injury Heap.
+</para>
+</sect2>
+</sect1>

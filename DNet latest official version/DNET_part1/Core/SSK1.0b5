@@ -1,0 +1,325 @@
+From daemon@cs.nmt.edu Mon Oct 24 12:11:14 1994
+Return-Path: <daemon@cs.nmt.edu>
+Received: from sphinx.nmt.edu by vlsi.polymtl.ca (4.1/SMI-4.1.1)
+	id AA23647; Mon, 24 Oct 94 12:11:00 EDT
+Errors-To: dncore-owner@cs.nmt.edu
+Received: (from daemon@localhost) by sphinx.nmt.edu (8.6.8.1/8.6.6) id KAA10064 for dncore-mail; Mon, 24 Oct 1994 10:01:39 -0600
+Received: from skypoint.com (root@mirage.skypoint.com [199.86.32.45]) by sphinx.nmt.edu (8.6.8.1/8.6.6) with SMTP id KAA10056 for <dncore@sphinx.nmt.edu>; Mon, 24 Oct 1994 10:01:34 -0600
+Received: by skypoint.com (Smail3.1.28.1 #6)
+	id m0qzSni-0006zgC; Mon, 24 Oct 94 11:03 CST
+Message-Id: <m0qzSni-0006zgC@skypoint.com>
+Subject: SIMPLE skill proposal 1.0b5
+To: dncore@sphinx.nmt.edu (DNet Core Mechanics)
+Date: Mon, 24 Oct 1994 11:03:13 -0600 (CST)
+From: "Bob Hanson" <bob@mirage.skypoint.com>
+X-Mailer: ELM [version 2.4 PL23]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 10620
+Reply-To: dncore@cs.nmt.edu (The dncore mailing list)
+Errors-To: dncore-owner@cs.nmt.edu
+X-Bmw: Black Marble Wombat Version 5.1
+X-Lines: 299
+Status: OR
+
+So that I Guillaume and I come together completely I've decided to add a few
+of my modifications to his SIMPLE system. (We basically were proposing the
+same thing, I had just added a few extra complexities that others quickly
+pointed out were unnecessary)  -Bob
+
+
+Version History:
+
+1.0b1 -> first post ("SIMPLE skill proposal")
+1.0b2 -> Corrected a copy-paste error
+
+	 Modified accordingly to Bob Hanson's suggestion
+	 ("Correct SIMPLE skill proposal")
+1.0b3 -> Expanded with a rule to cover attributes changes
+	 ("Expanded SIMPLE skill proposal")
+1.0b4 -> Better explanation of the cost for skill improvement
+1.0b5 -> Changed "Talent" to "Natural Ability".
+         Changed Acquisition/Advancement Table names
+         Changed APC to NA in formulas
+         Added Unskilled Modifier concept while also leaving
+            Guillaume's/Rene's '+2 levels of difficulty' concept.
+         Added Maximum Skill Level concept
+         Changed XP to AP (Advancement Points)
+         Reformatted the document somewhat
+                
+-----------------------------------------------------------------------------
+
+
+==============================================
+1) Definition of how Attributes affect skills:
+==============================================
+
+Attributes influence skills in two ways:
+
+1) Natural Ability gives you a basic skill level for the easier skills.
+
+2) It is easier for a person with more Natural Ability to learn a skill
+   than it is for an average person. In the same manner, an average person
+   can learn a skill more easily than a below average one.
+
+
+=============================
+2) Definition of Skill Level:
+=============================
+
+Skill level is composed of two parts:
+
+1) Basic Skill Level   (BSL) (determined by Natural Ability)
+2) Learned Skill Level (LSL) (determined by experience with the skill)
+
+The combination is referred to as Skill Level (SL) and is calculated with the
+formula:
+  
+  ---------------------------------------------------------
+  | Skill level = Basic skill level + Learned skill level |
+  |          SL = BSL + LSL                               |
+  ---------------------------------------------------------
+  
+
+=====================================
+3) Skill Acquisition and Advancement:
+=====================================
+
+Basic skill levels simply are the skill levels for which the learning cost is 
+negative or 0, as shown below.
+
+The added cost in advancement points to go from one skill level to the next is:
+
+   ------------------------------------------------------------
+   | AP cost = Skill Level * Acq./Adv. Cost - Natural Ability |
+   |      AP = SL * AC - NA                                   |
+   ------------------------------------------------------------
+
+where:
+
+-> Skill level is the level of the skill to be reached
+
+-> Acq./Adv. Cost is as follows:
+
+  ---------------------------
+  Acq./Adv.       | Acq./Adv.
+  Difficulty (AD) |   Cost
+  ---------------------------
+  Trivial   (T)   |    10
+  Easy      (E)   |    20
+  Average   (A)   |    30
+  Difficult (D)   |    40
+  Extreme   (X)   |    50
+
+-> NA = AV*AV/10     (AV = 1 -> NA = 1; AV = 20 -> NA = 40)
+
+Example
+-------
+
+I have an Agility of 12 (NA = 14) and I want to learn to use the short bow 
+(average AD). To reach skill level 1, I must pay:
+
+  AP cost = 1 * 30 - 14 = 16
+  
+If I want to improve again, I must pay an additional:
+
+
+  AP cost = 2 * 30 - 14 = 46
+
+  
+After this new training, I have a skill level of 2 with the short bow.
+
+Interpretation of the formula
+-----------------------------
+
+a) Average humans (AV = 10) have a Basic Skill Level(BSL) of 1 in all Trivial 
+   skills before any training (that's why those skills are trivial).
+
+b) Below average humans require some 'training' to acquire skill level 1 in
+   Trivial skills.
+
+c) Above average persons can have Basic Skill Levels in Trivial, Easy and 
+   Average skills, before any training. At the extreme of the human scale 
+   (AV = 20), one has:
+
+   level 4 in Trivial skills: level 1 -> Skill cost = 10 - 40 = -30
+			      level 2 -> Skill cost = 2*10 - 40 = -20
+
+			      level 3 -> Skill cost = 3*10 - 40 = -10
+			      level 4 -> Skill cost = 4*10 - 40 = 0
+			      Higher levels have a positive cost 
+			      (i.e. are not free)
+
+   level 2 in Easy skills: level 1 -> Skill cost = 20 - 40 = -20
+			   level 2 -> Skill cost = 2*20 - 40 = 0
+			   Higher levels have a positive cost 
+
+			   (i.e. are not free)
+   
+   level 1 in Average skills: level 1 -> Skill cost = 30 - 40 = -10
+
+
+=================================================
+4) Effect on Skill Level due to attribute change:
+=================================================
+
+If an attribute of a character's is modified after the character's creation, 
+the levels of the skills related to that attribute will also change. As it has
+been said, a skill level is composed of two parts:
+
+1) Basic Skill Level   (BSL) (determined by Natural Ability)
+2) Learned Skill Level (LSL) (determined by experience with the skill)
+
+When the value of one of his attributes is changed, the character does not 
+gain or lose any knowledge (unless there is a massive brain damage, which
+calls for GM ruling). However, the change in attribute increases or decreases
+his basic skill level. Therefore, the skill level should be modified in the
+following way:
+
+  -----------------------------------------------------------------------------
+  | Skill level = Previous Skill Level + (New NA - Prev. NA)/(Acq./Adv. cost) |
+  |          SL = Previous SL + (New NA - Previous NA) / AC                   |
+  -----------------------------------------------------------------------------
+
+For example, if an attribute changes from 20 (NA = 40) to 10 (NA = 10), all 
+trivial skills related to this attribute will suffer a change of -3 skill 
+levels:
+
+  Variation in skill levels = (New NA - Previous NA) / AC
+			    = (10 - 40) / 10 = -3
+
+
+** Mathematical justification **
+
+One can prove easily that the Basic Skill Level for any skill is given by:
+
+   BSL = NA / AC
+   
+Therefore, the change in the Basic Skill Level with a change in NA is as 
+follows:
+
+  New BSL - Previous BSL = (New NA/AC) - (Previous NA/AC) 
+			 = (New NA - Previous NA) / AC
+
+  
+=============================
+5) Maximum Skill Level (MSL):
+=============================
+
+MSL is considered the maximum skill level that can be obtained with an AV=10.
+MSL is modified (decreased for AV<10, increased for AV>10) by using the formula:
+
+  ----------------------------------------------------------------------
+  | MSL = for AV <= 10: NA/10 * MSL      (rounded up to avoid 0s)      |
+  |       for AV >  10: MSL*NA/100 + MSL (rounded up to be consistent) |
+  ----------------------------------------------------------------------
+
+Examples: Chess, Difficult, MSL 15
+	  Joe Smart (INT 20) acquires chess. His MSL is increased to:
+	     MSL*NA/100 + MSL = 15*40/100 + 15 = 600/100 + 15 = 21
+	  Dumbo  (INT 3) acquires chess. His MSL is decreased to:
+	     NA/10 * MSL = 1/10 * 15 = 1.5 = 2
+
+	  Fire-building, Easy, MSL 4
+	  Nim Bulfingers (ManDEX 18) acquires fire-building. His MSL becomes:
+	     MSL*NA/100 + MSL = 4*32/100 + 4 = 128/100 + 4 = 5.28 = 6
+	  Mr. Thumbs (ManDEX 5) has a MSL of:
+	     NA/10 * 4 = 3/10 * 4 = 1.2 = 2
+
+Whether AC should also be part of the calculation of MSL is left for debate...
+
+
+===========================
+6) Unskilled Modifier (UM):
+===========================
+
+Every skill would list an Unskilled Modifier (UM) in its definition.
+
+Unskilled Modifier is a number that is added to the base difficulty when
+attempting to use a skill that one is not skilled in. The modifier could
+be adjusted at times when a player chooses to attempt something unskilled
+that is related to a skill he IS proficient with.
+
+Formula for determining minimum UM is in progress...
+
+====================
+7) Skill Resolution:
+====================
+
+To successfully use a skill, the following relation must be true 
+(Die roll = 1d100):
+
+  -------------------------------------------------
+  | Die roll + Skill level * 5 >= Task difficulty |
+  -------------------------------------------------
+
+With Die roll = 1d20 or 2d10, we have the equivalent:
+
+  ---------------------------------------------
+  | Die roll + Skill level >= Task difficulty |
+  ---------------------------------------------
+
+
+===========================
+8) Unskilled (Level 0) use:
+===========================
+
+Attempts to perform a task that is skill related when one is unskilled are
+successfull if the following relation is true (die roll = 1d100):
+
+
+  ---------------------------------------------------------------------
+  | Die roll + (NA - 10 ) >= Task difficulty + 2 levels of difficulty |
+  ---------------------------------------------------------------------
+
+                            OR (alternative)
+
+  ---------------------------------------------------------
+
+  | Die roll + NA >= Task difficulty + Unskilled Modifier |
+  ---------------------------------------------------------
+
+
+====================
+9) Attribute Checks:
+====================
+
+To succeed in a task that is not skill related (ex: bending bars), the
+following relation must be true (die roll = 1d100):
+
+  -------------------------------------------
+  | Die roll + (NA - 10) >= Task difficulty |
+  -------------------------------------------
+Where the task difficulty is defined for an average human (AV = 10).
+This automatically implies the use of NA - 10, which is 0 for an AV of 10,
+giving no bonus or penalties to average persons (they are the reference)...
+
+                   OR
+
+  -----------------------------------------
+  | Die roll + NA >= Task difficulty + 10 |
+  -----------------------------------------
+Which is consistent with the Unskilled Modifier approach.
+
+
+For rolls on 1d20 or 2d10, the relation becomes:
+
+  -------------------------------------------
+  | Die roll + (NA/5 - 2) > Task difficulty |
+  -------------------------------------------
+
+                     OR
+
+  -------------------------------------------
+  | Die roll + (NA/5) > Task difficulty + 2 |
+  -------------------------------------------
+
+Note: this system would work better with 2d10, as a person with an AV of 2
+      (NA = 0) would only get a penalty of 10% when attempting a task with
+      a linear system... With 2d10, the effect of the -2 penalty is more
+      pronounced... Moreover, the -2 penalty is a much greater hindrance for
+      task with a high difficulty than for those with a low one, which is
+      logical as a low attribute should not make it impossible to perform
+      trivial tasks, while making it much harder to perform difficult ones.
+

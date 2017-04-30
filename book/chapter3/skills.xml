@@ -1,0 +1,2005 @@
+<sect1><title>Skills</title>
+<para>
+A Skill is an acquired ability, one that a character learns.
+</para>
+
+<sect2><title>Skill Competency</title>
+<para>
+A Skill is composed of two parts:
+</para>
+
+<para>
+<orderedlist>
+<listitem>
+<para>Talent (Tal) (determined by the two Talents relevant to the Skill)</para>
+</listitem>
+
+<listitem>
+<para>Training Level (Tr Lvl) (determined by experience with the Skill)</para>
+</listitem>
+</orderedlist>
+</para>
+
+<para>
+<literal>Skill = Avg(Tals) + Tr Lvl</literal>
+</para>
+
+<table frame="all"><title>Skill Competency</title>
+<tgroup cols="3" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" align="left" />
+<thead>
+<row><entry>Skill</entry><entry>Competency</entry><entry>Description</entry></row>
+</thead>
+<tbody>
+<row><entry>Tr = 0</entry><entry>No Skill</entry><entry>(A character who has no Training with a Skill.)</entry></row>
+<row><entry>&lt;= 0</entry><entry>Novice</entry><entry>(A character who has Training but low Talent.)</entry></row>
+<row><entry>1 - 5</entry><entry>Apprentice</entry><entry>(A character being taught a Skill.)</entry></row>
+<row><entry>6 - 10</entry><entry>Journeyman</entry><entry>(A character who has learned his Skill.)</entry></row>
+<row><entry>11 - 15</entry><entry>Craftsman</entry><entry>(A character who is proficient with his Skill.)</entry></row>
+<row><entry>16 - 20</entry><entry>Adept</entry><entry>(A character who is an expert with his Skill.)</entry></row>
+<row><entry>21 - 25</entry><entry>Master</entry><entry>(A character who is a master with his Skill.)</entry></row>
+<row><entry>26+</entry><entry>Grandmaster</entry><entry>(A character who is legendary with his Skill.)</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+All skills confer the following abilities:
+</para>
+
+<itemizedlist>
+<listitem>
+<para>
+A character who has Tr &gt; 0 in a skill can recognize the use of that Skill by
+another.
+</para>
+</listitem>
+
+<listitem>
+<para>
+A character who has Tr &gt; 0 in a skill can recognize the Competency level of
+another person with the same Skill.
+</para>
+</listitem>
+
+<listitem>
+<para>
+A character can determine the actual Skill Level of another if the character's
+Skill Level is greater than the other person's.
+</para>
+</listitem>
+</itemizedlist>
+
+</sect2>
+
+<sect2><title>Skill Costs</title>
+<para>
+All Skill costs are measured in EPs, also called Base Cost.
+The higher BC, the harder the Skill is to learn and master.
+</para>
+
+<table frame="all"><title>Skill Cost</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<thead>
+<row><entry>Skill Difficulty</entry><entry>BC</entry></row>
+</thead>
+<tbody>
+<row><entry>Trivial</entry><entry>1 EP</entry></row>
+<row><entry>Easy</entry><entry>2 EP</entry></row>
+<row><entry>Average</entry><entry>3 EP</entry></row>
+<row><entry>Difficult</entry><entry>4 EP</entry></row>
+<row><entry>Very Difficut</entry><entry>5 EP</entry></row>
+</tbody>
+</tgroup>
+</table>
+</sect2>
+
+<sect2><title>Untrained Penalty</title>
+<para>
+When a character attempts a Task for which he has not been Trained 
+(Skill Competency is 'No Skill'), or to which no Skill is related,
+he suffers an Untrained Penalty (UP).
+</para>
+
+<para>
+Some Skills will have a special UP of Impossible. This indicates that
+the Skill cannot be attempted when Skill Competency is 'No Skill'.
+</para>
+
+<para>
+<literal>
+UP = 5
+</literal>
+</para>
+
+<para>
+<emphasis>
+Optional:
+The UP is generally equal to 5 but can be changed by the GM.
+The GM may set a higher UP for a Task that is normally performed using a Skill
+requiring a lot of knowledge or practice (Difficult and Very Difficult Skills).
+In the same way, the GM may reduce or eliminate the UP for Tasks that are
+primarily based on Talents (ex: holding one's breath), or that do not benefit
+much from knowledge or practice (Trivial and Easy Skills).
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+As a guideline, a UP of twice the Base Cost of the related Skill is suggested
+for Tasks that are normally performed using a Skill.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+UP = 2 * BC
+</literal>
+</emphasis>
+</para>
+</sect2>
+
+<sect2><title>Bying Skills</title>
+<sect3><title>Skill Acquisition</title>
+<para>
+The following table can be used to look up the EP cost for advancing a Skill
+from a Training Level of 0 to the desired Training Level in one step. This
+table is most useful when creating a character and buying skills for the first
+time.
+</para>
+
+<para>
+Skill Acquisition Formula:
+</para>
+
+<para>
+<literal>
+EP Cost = Desired Tr Lvl * (Desired Tr Lvl + 1) * BC / 2
+</literal>
+</para>
+
+<para>
+<example><title>Skill Acqusistion</title>
+<screen>
+If Argis the ranger wants to start his Tracking Skill (BC = 4 EP)
+at Training Level 8, he must spend:
+
+EP Cost = Desired Tr Lvl * (Desired Tr Lvl + 1) * BC / 2
+        = 8 * 9 * 4 / 2 = 144 EP
+</screen>
+</example>
+</para>
+
+<para>
+For those who prefer not to use the formula, a table is provided.
+</para>
+
+<table frame="all"><title>Skill Acquisition Cost</title>
+<tgroup cols="6" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="5" colname="c5" colwidth="1*" />
+<colspec colnum="6" colname="c6" colwidth="1*" />
+<spanspec spanname="hspan" namest="c2" nameend="c6" />
+<thead>
+<row><entry morerows="1">Desired Tr Lvl</entry><entry spanname="hspan">Skill Acquisition Cost</entry></row>
+<row>                                    <entry>1</entry><entry>2</entry><entry>3</entry><entry>4</entry><entry>5</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>4</entry><entry>5</entry></row>
+<row><entry>2</entry><entry>3</entry><entry>6</entry><entry>9</entry><entry>12</entry><entry>15</entry></row>
+<row><entry>3</entry><entry>6</entry><entry>12</entry><entry>18</entry><entry>24</entry><entry>30</entry></row>
+<row><entry>4</entry><entry>10</entry><entry>20</entry><entry>30</entry><entry>40</entry><entry>50</entry></row>
+<row><entry>5</entry><entry>15</entry><entry>30</entry><entry>45</entry><entry>60</entry><entry>75</entry></row>
+<row><entry>6</entry><entry>21</entry><entry>42</entry><entry>63</entry><entry>84</entry><entry>105</entry></row>   
+<row><entry>7</entry><entry>28</entry><entry>56</entry><entry>84</entry><entry>112</entry><entry>140</entry></row>   
+<row><entry>8</entry><entry>36</entry><entry>72</entry><entry>108</entry><entry>144</entry><entry>180</entry></row>   
+<row><entry>9</entry><entry>45</entry><entry>90</entry><entry>135</entry><entry>180</entry><entry>225</entry></row>   
+<row><entry>10</entry><entry>55</entry><entry>110</entry><entry>165</entry><entry>220</entry><entry>275</entry></row>   
+<row><entry>11</entry><entry>66</entry><entry>132</entry><entry>198</entry><entry>264</entry><entry>330</entry></row>   
+<row><entry>12</entry><entry>78</entry><entry>156</entry><entry>234</entry><entry>312</entry><entry>390</entry></row>   
+<row><entry>13</entry><entry>91</entry><entry>182</entry><entry>273</entry><entry>364</entry><entry>455</entry></row>   
+<row><entry>14</entry><entry>105</entry><entry>210</entry><entry>315</entry><entry>420</entry><entry>525</entry></row>   
+<row><entry>15</entry><entry>120</entry><entry>240</entry><entry>360</entry><entry>480</entry><entry>600</entry></row>   
+<row><entry>16</entry><entry>136</entry><entry>272</entry><entry>408</entry><entry>544</entry><entry>680</entry></row>   
+<row><entry>17</entry><entry>153</entry><entry>306</entry><entry>459</entry><entry>612</entry><entry>765</entry></row>   
+<row><entry>18</entry><entry>171</entry><entry>342</entry><entry>513</entry><entry>684</entry><entry>855</entry></row>   
+<row><entry>19</entry><entry>190</entry><entry>380</entry><entry>570</entry><entry>760</entry><entry>950</entry></row>   
+<row><entry>20</entry><entry>210</entry><entry>420</entry><entry>630</entry><entry>840</entry><entry>1050</entry></row>   
+<row><entry>21</entry><entry>231</entry><entry>462</entry><entry>693</entry><entry>924</entry><entry>1155</entry></row>   
+<row><entry>22</entry><entry>253</entry><entry>506</entry><entry>759</entry><entry>1012</entry><entry>1265</entry></row>   
+<row><entry>23</entry><entry>276</entry><entry>552</entry><entry>828</entry><entry>1104</entry><entry>1380</entry></row>   
+<row><entry>24</entry><entry>300</entry><entry>600</entry><entry>900</entry><entry>1200</entry><entry>1500</entry></row>   
+<row><entry>25</entry><entry>325</entry><entry>650</entry><entry>975</entry><entry>1300</entry><entry>1625</entry></row>   
+<row><entry>26</entry><entry>351</entry><entry>702</entry><entry>1053</entry><entry>1404</entry><entry>1755</entry></row>   
+<row><entry>27</entry><entry>378</entry><entry>756</entry><entry>1134</entry><entry>1512</entry><entry>1890</entry></row>   
+<row><entry>28</entry><entry>406</entry><entry>812</entry><entry>1218</entry><entry>1624</entry><entry>2030</entry></row>   
+<row><entry>29</entry><entry>435</entry><entry>870</entry><entry>1305</entry><entry>1740</entry><entry>2175</entry></row>   
+<row><entry>30</entry><entry>465</entry><entry>930</entry><entry>1395</entry><entry>1860</entry><entry>2325</entry></row>   
+</tbody>
+</tgroup>
+</table>
+</sect3>
+
+<sect3><title>Skill Advancement</title>
+<para>
+To increase a Skill to its next Training Level, a character must spend a number
+of EPs equal to the next Training Level times the Base Cost of the Skill.
+</para>
+
+<para>
+Skill Advancement Formula:
+</para>
+
+<para>
+<literal>
+EP Cost = Next Tr Lvl * BC
+</literal>
+</para>
+
+<para>
+<example><title>Skill Advancement</title>
+<screen>
+If Argis the ranger wants to increase his Tracking Skill (BC = 4 EP)
+from Training Level 8 to Training Level 9, he must spend:
+
+EP Cost = Next Tr Lvl * BC = 9 * 4 EP = 36 EP
+</screen>
+</example>
+</para>
+
+<para>
+For those who prefer not to use the formula, a table is provided.
+</para>
+
+<table frame="all"><title>Skill Advancement Cost</title>
+<tgroup cols="6" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="5" colname="c5" colwidth="1*" />
+<colspec colnum="6" colname="c6" colwidth="1*" />
+<spanspec spanname="hspan" namest="c2" nameend="c6" />
+<thead>
+<row><entry morerows="1">Next Tr Lvl</entry><entry spanname="hspan">Skill Advancement Cost</entry></row>
+<row>                                       <entry>1</entry><entry>2</entry><entry>3</entry><entry>4</entry><entry>5</entry></row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>1</entry><entry>2</entry><entry>3</entry><entry>4</entry><entry>5</entry></row>
+<row><entry>2</entry><entry>2</entry><entry>4</entry><entry>6</entry><entry>8</entry><entry>10</entry></row>
+<row><entry>3</entry><entry>3</entry><entry>6</entry><entry>9</entry><entry>12</entry><entry>15</entry></row>
+<row><entry>4</entry><entry>4</entry><entry>8</entry><entry>12</entry><entry>16</entry><entry>20</entry></row>
+<row><entry>5</entry><entry>5</entry><entry>10</entry><entry>15</entry><entry>20</entry><entry>25</entry></row>
+<row><entry>6</entry><entry>6</entry><entry>12</entry><entry>18</entry><entry>24</entry><entry>30</entry></row>
+<row><entry>7</entry><entry>7</entry><entry>14</entry><entry>21</entry><entry>28</entry><entry>35</entry></row>
+<row><entry>8</entry><entry>8</entry><entry>16</entry><entry>24</entry><entry>32</entry><entry>40</entry></row>
+<row><entry>9</entry><entry>9</entry><entry>18</entry><entry>27</entry><entry>36</entry><entry>45</entry></row>
+<row><entry>10</entry><entry>10</entry><entry>20</entry><entry>30</entry><entry>40</entry><entry>50</entry></row>
+<row><entry>11</entry><entry>11</entry><entry>22</entry><entry>33</entry><entry>44</entry><entry>55</entry></row>
+<row><entry>12</entry><entry>12</entry><entry>24</entry><entry>36</entry><entry>48</entry><entry>60</entry></row>
+<row><entry>13</entry><entry>13</entry><entry>26</entry><entry>39</entry><entry>52</entry><entry>65</entry></row>
+<row><entry>14</entry><entry>14</entry><entry>28</entry><entry>42</entry><entry>56</entry><entry>70</entry></row>
+<row><entry>15</entry><entry>15</entry><entry>30</entry><entry>45</entry><entry>60</entry><entry>75</entry></row>
+<row><entry>16</entry><entry>16</entry><entry>32</entry><entry>48</entry><entry>64</entry><entry>80</entry></row>
+<row><entry>17</entry><entry>17</entry><entry>34</entry><entry>51</entry><entry>68</entry><entry>85</entry></row>
+<row><entry>18</entry><entry>18</entry><entry>36</entry><entry>54</entry><entry>72</entry><entry>90</entry></row>
+<row><entry>19</entry><entry>19</entry><entry>38</entry><entry>57</entry><entry>76</entry><entry>95</entry></row>
+<row><entry>20</entry><entry>20</entry><entry>40</entry><entry>60</entry><entry>80</entry><entry>100</entry></row>
+<row><entry>21</entry><entry>21</entry><entry>42</entry><entry>63</entry><entry>84</entry><entry>105</entry></row>
+<row><entry>22</entry><entry>22</entry><entry>44</entry><entry>66</entry><entry>88</entry><entry>110</entry></row>
+<row><entry>23</entry><entry>23</entry><entry>46</entry><entry>69</entry><entry>92</entry><entry>115</entry></row>
+<row><entry>24</entry><entry>24</entry><entry>48</entry><entry>72</entry><entry>96</entry><entry>120</entry></row>
+<row><entry>25</entry><entry>25</entry><entry>50</entry><entry>75</entry><entry>100</entry><entry>125</entry></row>
+<row><entry>26</entry><entry>26</entry><entry>52</entry><entry>78</entry><entry>104</entry><entry>130</entry></row>
+<row><entry>27</entry><entry>27</entry><entry>54</entry><entry>81</entry><entry>108</entry><entry>135</entry></row>
+<row><entry>28</entry><entry>28</entry><entry>56</entry><entry>84</entry><entry>112</entry><entry>140</entry></row>
+<row><entry>29</entry><entry>29</entry><entry>58</entry><entry>87</entry><entry>116</entry><entry>145</entry></row>
+<row><entry>30</entry><entry>30</entry><entry>60</entry><entry>90</entry><entry>120</entry><entry>150</entry></row>
+</tbody>
+</tgroup>
+</table>
+</sect3>
+
+<sect3><title><emphasis>Advancement Rules (Optional)</emphasis></title>
+<para>
+<emphasis>
+The methods presented below aim to better model the relations between Skill
+use, Talents and Skill advancement. Some of them can be combined with the
+standard method, while others replace it.
+</emphasis>
+</para>
+
+<sect4><title><emphasis>Training With Teacher</emphasis></title>
+<para>
+<emphasis>
+Teacher rolls:
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Teaching Bonus = d10-d10* + Teachers Teaching Skill - Students Next Skill Level
+</literal>
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Student rolls:
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Students EP = (d10-d10* + Teaching Bonus + Students Avg(Tals, INT)
+            - (5 * BC - 10)) / 5
+</literal>
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Where <literal>Tals</literal> are the students Talents on the Skill he's
+Training and <literal>INT</literal> is the students Intelligence.
+</emphasis>
+</para>
+
+<para>
+<example><title><emphasis>Training With Teacher</emphasis></title>
+<screen>
+<emphasis>
+Training With Teacher Example
+</emphasis>
+</screen>
+</example>
+</para>
+
+<para>
+<emphasis>
+Note: A teacher may not train a student to a higher Skill Level than that he
+himself has in the Skill the student is Training, minus 1.
+</emphasis>
+</para>
+
+<para>
+<example><title><emphasis>Teachers Training Limit</emphasis></title>
+<screen>
+<emphasis>
+If Ronan wants to train his Tracking Skill to Skill Level 5,
+he must find a Teacher with Tracking Skill Level of at least 6.
+</emphasis>
+</screen>
+</example>
+</para>
+</sect4>
+
+<sect4><title><emphasis>Training Without Teacher</emphasis></title>
+<para>
+<emphasis>
+Replace Teachers Teaching Skill with UP of the Teaching Skill:
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+GM rolls:
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Teaching Bonus = d10-d10* + UP - Students Next Skill Level
+</literal>
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Student rolls:
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+<literal>
+Students EP = (d10-d10* + Teaching Bonus + Students Avg(Tal,Adv,INT)
+            - (5 * BC - 10)) / 5
+</literal>
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+Where <literal>Tals</literal> are the students Talents on the Skill he's
+Training and <literal>INT</literal> is the students Intelligence.
+</emphasis>
+</para>
+
+<para>
+<example><title><emphasis>Training Without Teacher</emphasis></title>
+<screen>
+<emphasis>
+Training Without Teacher Example
+</emphasis>
+</screen>
+</example>
+</para>
+
+</sect4>
+</sect3>
+</sect2>
+
+<sect2><title>General Skills</title>
+<para>
+This section describes General Skills, i.e. those that do not require special
+rules. For Combat and Magic skills, please refer to sections 6 and 7 
+respectively.
+
+<table frame="all"><title>General Skills</title>
+<tgroup cols="7" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" colname="c1" colwidth="2*" align="left" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" colwidth="1*" />
+<colspec colnum="4" colname="c4" colwidth="1*" />
+<colspec colnum="5" colname="c5" colwidth="1*" />
+<colspec colnum="6" colname="c6" colwidth="1*" />
+<colspec colnum="7" colname="c7" colwidth="4*" align="left" />
+<spanspec spanname="talspan" namest="c3" nameend="c4" align="center" />
+<spanspec spanname="hspan" namest="c1" nameend="c7" align="left" />
+<thead>
+<row>
+	<entry>Skill Name</entry>
+	<entry>BC</entry>
+	<entry spanname="talspan">Talents</entry>
+	<entry>UP*</entry>
+	<entry>Default TD</entry>
+	<entry>TD Description</entry>
+</row>
+</thead>
+<tbody>
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">ARTISTIC SKILLS</entry></row>
+<row>
+	<entry>Acting</entry>
+	<entry>3</entry>
+	<entry>AUR</entry><entry>PSY</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Convincing personification</entry>
+</row>
+<row>
+	<entry>Disguise</entry>
+	<entry>2</entry>
+	<entry>AUR</entry><entry>PSY</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Render irrecognizable</entry>
+</row>
+<row>
+	<entry>Art</entry>
+	<entry>3</entry>
+	<entry>DEX</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Draw or paint an average image.
+	Performing a common piece.
+	Sculpt or carve a small piece.</entry>
+</row>
+<row>
+	<entry>Ventriloquism</entry>
+	<entry>4</entry>
+	<entry>AUR</entry>
+	<entry>WIL</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Simple speech</entry>
+</row>
+
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">ATHLETIC SKILLS</entry></row>
+<row>
+	<entry>Acrobatics</entry>
+	<entry>3</entry>
+	<entry>AGI</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Dropping one floor in combat</entry>
+</row>
+<row>
+	<entry>Climbing</entry>
+	<entry>4</entry>
+	<entry>AGI</entry>
+	<entry>AGI</entry>
+	<entry>8</entry>
+	<entry>A/0</entry>
+	<entry>Normal brick wall</entry>
+</row>
+<row>
+	<entry>Contortion</entry>
+	<entry>5</entry>
+	<entry>AGI</entry>
+	<entry>AGI</entry>
+	<entry>10</entry>
+	<entry>D/5</entry>
+	<entry>Passing a torso-sized tunnel</entry>
+</row>
+<row>
+	<entry>Endurance</entry>
+	<entry>3</entry>
+	<entry>FIT</entry>
+	<entry>WIL</entry>
+	<entry>0</entry>
+	<entry>N/A</entry>
+	<entry>N/A (see movement)</entry>
+</row>
+<row>
+	<entry>Juggling</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>PER</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Juggling three normal objects</entry>
+</row>
+<row>
+	<entry>Jumping</entry>
+	<entry>3</entry>
+	<entry>STR</entry>
+	<entry>STR</entry>
+	<entry>6</entry>
+	<entry>ED/15</entry>
+	<entry>Jumping one's height</entry>
+</row>
+<row>
+	<entry>Sprinting</entry>
+	<entry>3</entry>
+	<entry>FIT</entry>
+	<entry>STR</entry>
+	<entry>0</entry>
+	<entry>D/5</entry>
+	<entry>Running 100m in 12 secs.</entry>
+</row>
+<row>
+	<entry>Swimming</entry>
+	<entry>3</entry>
+	<entry>FIT</entry>
+	<entry>STR</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Swimming 1km at a good pace</entry>
+</row>
+
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">CRAFT SKILLS</entry></row>
+<row>
+	<entry>Agriculture</entry>
+	<entry>2</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Growing common plants</entry>
+</row>
+<row>
+	<entry>Armorer</entry>
+	<entry>4</entry>
+	<entry>DEX</entry>
+	<entry>DEX</entry>
+	<entry>8</entry>
+	<entry>A/0</entry>
+	<entry>Fabricating a chain mail</entry>
+</row>
+<row>
+	<entry>Blacksmithing</entry>
+	<entry>3</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Forging a cauldron</entry>
+</row>
+<row>
+	<entry>Bowyer</entry>
+	<entry>3</entry>
+	<entry>DEX</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Assembling a short bow</entry>
+</row>
+<row>
+	<entry>Brewing</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Brewing beer</entry>
+</row>
+<row>
+	<entry>Clayworking</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>DEX</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Molding a decorated urn</entry>
+</row>
+<row>
+	<entry>Cooking</entry>
+	<entry>1</entry>
+	<entry>INT</entry>
+	<entry>PSY</entry>
+	<entry>2</entry>
+	<entry>E/-5</entry>
+	<entry>Making a simple meal</entry>
+</row>
+<row>
+	<entry>Leatherworking</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>DEX</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Making a leather backpack</entry>
+</row>
+<row>
+	<entry>Locksmithing</entry>
+	<entry>3</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Making an average pickable lock</entry>
+</row>
+<row>
+	<entry>Medicine</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Healing a broken leg</entry>
+</row>
+<row>
+	<entry>Mining</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Tunneling in normal rock</entry>
+</row>
+<row>
+	<entry>Rope Use</entry>
+	<entry>2</entry>
+	<entry>AGI</entry>
+	<entry>DEX</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Tying up a person solidly</entry>
+</row>
+<row>
+	<entry>Stonemason</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>STR</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Cutting tower stones</entry>
+</row>
+<row>
+	<entry>Weaponsmithing</entry>
+	<entry>4</entry>
+	<entry>DEX</entry>
+	<entry>DEX</entry>
+	<entry>8</entry>
+	<entry>A/0</entry>
+	<entry>Making a dagger</entry>
+</row>
+<row>
+	<entry>Woodworking</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>DEX</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Build a wooden chair</entry>
+</row>
+
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">KNOWLEDGE SKILLS</entry></row>
+<row>
+	<entry>Appraising</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Estimating the value of gems</entry>
+</row>
+<row>
+	<entry>Astronomy</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>8</entry>
+	<entry>...</entry>
+	<entry>...</entry>
+</row>
+<row>
+	<entry>Biology</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>...</entry>
+	<entry>...</entry>
+</row>
+<row>
+	<entry>Cartography</entry>
+	<entry>2</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Mapping a region from sight</entry>
+</row>
+<row>
+	<entry>Chemistry</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>...</entry>
+	<entry>...</entry>
+</row>
+<row>
+	<entry>Cryptography</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>8</entry>
+	<entry>VD/10</entry>
+	<entry>Deciphering a standard code</entry>
+</row>
+<row>
+	<entry>Engineering</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Drawing plans for a catapult</entry>
+</row>
+<row>
+	<entry>Geography</entry>
+	<entry>2</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Knowing country of city</entry>
+</row>
+<row>
+	<entry>Heraldry</entry>
+	<entry>2</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Recognizing a coat of arms</entry>
+</row>
+<row>
+	<entry>Herbalism</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>IMP</entry>
+	<entry>D/5</entry>
+	<entry>Brewing a special remedy</entry>
+</row>
+<row>
+	<entry>History</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Recalling heroic stories</entry>
+</row>
+<row>
+	<entry>Identify Artifacts</entry>
+	<entry>5</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>IMP</entry>
+	<entry>ED/15</entry>
+	<entry>Identifying an ancient item</entry>
+</row>
+<row>
+	<entry>Language</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>IMP</entry>
+	<entry>A/0</entry>
+	<entry>Understanding a foreign tongue</entry>
+</row>
+<row>
+	<entry>Law</entry>
+	<entry>5</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>IMP</entry>
+	<entry>A/0</entry>
+	<entry>Understanding social laws</entry>
+</row>
+<row>
+	<entry>Math</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Arithmetics and trigonometry</entry>
+</row>
+<row>
+	<entry>Metallurgy</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Identifying a metal</entry>
+</row>
+<row>
+	<entry>Philosophy</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>42</entry>
+	<entry>Finding the right Question</entry>
+</row>
+<row>
+	<entry>Physics</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Predicting path of projectile</entry>
+</row>
+<row>
+	<entry>Read/Write</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>IMP</entry>
+	<entry>A/0</entry>
+	<entry>Reading a sign.</entry>
+</row>
+<row>
+	<entry>Theology</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Remembering rites</entry>
+</row>
+<row>
+	<entry>Tribal Memory</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>PSY</entry>
+	<entry>8</entry>
+	<entry>A/0</entry>
+	<entry>Recite oral history</entry>
+</row>
+<row>
+	<entry>Zoology</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Identifying animal behaviors</entry>
+</row>
+
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">NATURE SKILLS</entry></row>
+<row>
+	<entry>Animal Training</entry>
+	<entry>3</entry>
+	<entry>PER</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>VD/10</entry>
+	<entry>Training a horse</entry>
+</row>
+<row>
+	<entry>Direction Sense</entry>
+	<entry>3</entry>
+	<entry>PER</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>VD/10</entry>
+	<entry>Determining current direction</entry>
+</row>
+<row>
+	<entry>Fire-building</entry>
+	<entry>1</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>2</entry>
+	<entry>A/0</entry>
+	<entry>Building a fire without f&amp;s</entry>
+</row>
+<row>
+	<entry>Fishing</entry>
+	<entry>2</entry>
+	<entry>INT</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Catching "a meal" in 3 hours</entry>
+</row>
+<row>
+	<entry>Foraging</entry>
+	<entry>2</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Finding a "meal"</entry>
+</row>
+<row>
+	<entry>Hunting</entry>
+	<entry>2</entry>
+	<entry>PER</entry>
+	<entry>PER</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Shooting enough for a "meal"</entry>
+</row>
+<row>
+	<entry>Navigation</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>IMP</entry>
+	<entry>D/5</entry>
+	<entry>Finding one's position</entry>
+</row>
+<row>
+	<entry>Riding</entry>
+	<entry>3</entry>
+	<entry>AGI</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Maintaining mount control</entry>
+</row>
+<row>
+	<entry>Seamanship</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Rigging sails</entry>
+</row>
+<row>
+	<entry>Survival</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>WIL</entry>
+	<entry>8</entry>
+	<entry>A/0</entry>
+	<entry>Finding shelter during storm</entry>
+</row>
+<row>
+	<entry>Tracking</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>8</entry>
+	<entry>VD/10</entry>
+	<entry>Finding a 4 day old trail</entry>
+</row>
+<row>
+	<entry>Weather Sense</entry>
+	<entry>3</entry>
+	<entry>PER</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Predicting next day's weather</entry>
+</row>
+
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">SOCIAL SKILLS</entry></row>
+<row>
+	<entry>Bardic Influence</entry>
+	<entry>3</entry>
+	<entry>AUR</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Awe a crowd with performance</entry>
+</row>
+<row>
+	<entry>Begging</entry>
+	<entry>2</entry>
+	<entry>AUR</entry>
+	<entry>PSY</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Begging for an average dinner</entry>
+</row>
+<row>
+	<entry>Bribery</entry>
+	<entry>3</entry>
+	<entry>AUR</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Bribing a guard</entry>
+</row>
+<row>
+	<entry>Drinking</entry>
+	<entry>2</entry>
+	<entry>FIT</entry>
+	<entry>WIL</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Drink FIT + 4 litres of ale</entry>
+</row>
+<row>
+	<entry>Eating</entry>
+	<entry>2</entry>
+	<entry>FIT</entry>
+	<entry>WIL</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Eat FIT + 6 kg food</entry>
+</row>
+<row>
+	<entry>Etiquette</entry>
+	<entry>2</entry>
+	<entry>AUR</entry>
+	<entry>PSY</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>Acting courteously</entry>
+</row>
+<row>
+	<entry>Fasting</entry>
+	<entry>2</entry>
+	<entry>FIT</entry>
+	<entry>WIL</entry>
+	<entry>4</entry>
+	<entry>A/0</entry>
+	<entry>A day without food</entry>
+</row>
+<row>
+	<entry>Gambling</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>PSY</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Win against unskilled opponent</entry>
+</row>
+<row>
+	<entry>Haggling</entry>
+	<entry>1</entry>
+	<entry>AUR</entry>
+	<entry>PSY</entry>
+	<entry>2</entry>
+	<entry>D/5</entry>
+	<entry>Getting an offer accepted</entry>
+</row>
+<row>
+	<entry>Interrogation</entry>
+	<entry>3</entry>
+	<entry>AUR</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>VD/10</entry>
+	<entry>Getting confession from WIL 0</entry>
+</row>
+<row>
+	<entry>Oration</entry>
+	<entry>4</entry>
+	<entry>AUR</entry>
+	<entry>PSY</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Successful speech to large audience</entry>
+</row>
+<row>
+	<entry>Streetwise</entry>
+	<entry>2</entry>
+	<entry>PER</entry>
+	<entry>PSY</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Obtaining "street" info</entry>
+</row>
+<row>
+	<entry>Tactics</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PSY</entry>
+	<entry>6</entry>
+	<entry>A/0</entry>
+	<entry>Outsmaring a Tactics 0 person</entry>
+</row>
+<row>
+	<entry>Teaching</entry>
+	<entry>3</entry>
+	<entry>AUR</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>N/A</entry>
+	<entry>Teaching someone a new skill</entry>
+</row>
+<row>
+	<entry>Truthtelling</entry>
+	<entry>4</entry>
+	<entry>PER</entry>
+	<entry>PSY</entry>
+	<entry>8</entry>
+	<entry>L/20</entry>
+	<entry>Recognizing a lie</entry>
+</row>
+
+<row><entry spanname="hspan"></entry></row>
+<row><entry spanname="hspan">SUBTERFUGE SKILLS</entry></row>
+<row>
+	<entry>Consealment</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>E/-5</entry>
+	<entry>Consealing a dagger in the boot</entry>
+</row>
+<row>
+	<entry>Evade Pursuit</entry>
+	<entry>2</entry>
+	<entry>AGI</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>VD/10</entry>
+	<entry>Losing pursuit (non-trackers)</entry>
+</row>
+<row>
+	<entry>Forgery</entry>
+	<entry>4</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>8</entry>
+	<entry>VD/10</entry>
+	<entry>Copying an official document</entry>
+</row>
+<row>
+	<entry>Hiding</entry>
+	<entry>3</entry>
+	<entry>AGI</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>VD/10</entry>
+	<entry>Medium shadow cover</entry>
+</row>
+<row>
+	<entry>Lipreading</entry>
+	<entry>4</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Deciphering speech, clear view</entry>
+</row>
+<row>
+	<entry>Move Quietly</entry>
+	<entry>4</entry>
+	<entry>AGI</entry>
+	<entry>AGI</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Moving without armor</entry>
+</row>
+<row>
+	<entry>Open Locks</entry>
+	<entry>3</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Opening standard locked door</entry>
+</row>
+<row>
+	<entry>Pick Pockets</entry>
+	<entry>3</entry>
+	<entry>DEX</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Pulling coin purse, lg crowd</entry>
+</row>
+<row>
+	<entry>Remove Traps</entry>
+	<entry>4</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>8</entry>
+	<entry>D/5</entry>
+	<entry>Removing a needle trap</entry>
+</row>
+<row>
+	<entry>Searching</entry>
+	<entry>3</entry>
+	<entry>INT</entry>
+	<entry>PER</entry>
+	<entry>6</entry>
+	<entry>D/5</entry>
+	<entry>Detecting a needle trap</entry>
+</row>
+<row>
+	<entry>Set Traps</entry>
+	<entry>2</entry>
+	<entry>DEX</entry>
+	<entry>INT</entry>
+	<entry>4</entry>
+	<entry>D/5</entry>
+	<entry>Setting a foot snare</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+* Values listed in this column are for the optional Untrained Penalty (UP).
+If this rule is not being used then UP is either Impossible (IMP), 0 or 5
+(GM's discretion).
+</para>
+
+<sect3><title>Artistic Skills</title>
+<formalpara><title>Acting</title>
+<para>
+Confers the ability to convincingly portray a character either from a literary
+work or of one's own creation. This includes improvisational acting.
+</para>
+</formalpara>
+
+<formalpara><title>Disguise</title>
+<para>
+Confers the ability to alter one's general appearance in order to avoid
+identification and deceive opponents. Encompasses alteration of height,
+weight, posture and/or facial and body features. Often combined with the
+Acting Skill.
+</para>
+</formalpara>
+
+<formalpara><title>Art</title>
+<para>
+Confers the ability to draw and paint life-like images as well as
+impressionistic images.
+</para>
+</formalpara>
+
+<para>
+Confers proficiency in an instrument of choice.
+</para>
+
+<para>
+Confers the ability to shape and mold clay, stone and wood into life-like
+images of various sizes and compositions.
+</para>
+
+<formalpara><title>Ventriloquism</title>
+<para>
+Confers the seeming ability to project one's voice so that it appears to
+emanate from inanimate objects, other people, or unusual locations. Good for
+party tricks and for starting ale-house brawls.
+</para>
+</formalpara>
+</sect3>
+
+<sect3><title>Athletic Skills</title>
+<formalpara><title>Acrobatics</title>
+<para>
+Confers the ability to swing from a chandelier, somersault through a stained
+glass window, and land on one's horse, ready to make a getaway. Can be used
+in combat to dodge or reduce the effects of a blow.
+</para>
+</formalpara>
+
+<para>
+Enables the reduction of falling damage by such methods as slowing the rate
+of descent by incidental surface contact, harm minimising impact postures,
+and "dodging the spikes/aiming for the soft bits."
+</para>
+
+<para>
+Enables safe transition along a strong rope strung between two points or any
+similarly narrow and (generally) high-up path.
+</para>
+
+<formalpara><title>Climbing</title>
+<para>
+Lets a character scale vertical and near vertical surfaces such as smooth
+walls and rough cliff-faces. Harder with slippery or featureless surfaces or
+if burdened with accoutrements. Often combined with the Medicine Skill. :)
+</para>
+</formalpara>
+
+<formalpara><title>Contortion</title>
+<para>
+Enables the manipulation of one's body in order to move through small
+openings, hide in absurdly small containers or edifices, and escape from
+bonds.
+</para>
+</formalpara>
+
+<formalpara><title>Endurance</title>
+<para>
+Enables prolongation of application with regard to physically demanding
+and/or mentally draining tasks. A swimmer nears exhaustion towards the end
+of long swim; they apply their endurance skill, and if successful, can
+continue swimming anew, as if refreshed for half as long again. Successive
+uses of the skill increase task difficulty and reduce prolongation span.
+</para>
+</formalpara>
+
+<formalpara><title>Juggling</title>
+<para>
+Confers an ability to manipulate balls and other objects primarily for
+entertainment purposes. Subsumes minor sleight-of-hand techniques.
+</para>
+</formalpara>
+
+<formalpara><title>Jumping</title>
+<para>
+Confers a proficiency at spanning sudden drops such as those encountered
+during rooftop chases or across mountain gorges, ready leaps onto elevated
+stations such as tavern tables and desparation jumps out of first or second
+story abodes.
+</para>
+</formalpara>
+
+<formalpara><title>Sprinting</title>
+<para>
+Through a combination of running and power-walking, enables movement at
+twice the normal rate for a fixed duration. A period of rest and
+recuperation is required at the end of such exertion.
+</para>
+</formalpara>
+
+<formalpara><title>Swimming</title>
+<para>
+Confers the ability to float upon deep water and to traverse same in a
+limited fashion. Heavy accoutrements, exhaustion, wounds, cold water, and
+high waves make things harder.
+</para>
+</formalpara>
+</sect3>
+
+<sect3><title>Craft Skills</title>
+<formalpara><title>Agriculture</title>
+<para>
+Confers the ability to raise plants for various reasons (crops, reforestation,
+etc.). This Skill also allows the character to identify plants.
+Includes related fields such as horticulture and botany.
+</para>
+</formalpara>
+
+<formalpara><title>Armorer</title>
+<para>
+Enables the construction and repair of metal, mesh and/or material armour.
+NB: historically spans the trades of Armorer, Heaumer (helmets), and Targeter (shields).
+</para>
+</formalpara>
+
+<formalpara><title>Blacksmithing</title>
+<para>
+Enables the working of iron to produce and repair domestic and agricultural
+items.
+</para>
+</formalpara>
+
+<formalpara><title>Bowyer</title>
+<para>
+Enables the construction and repair of bows, x-bows, arrows, and arrowheads.
+
+NB: historically spans the trades of Bowyer, Crossbow Makre, Fletcher
+(arrows), Arrowsmith (arrowheads), and Stringer (bow strings). 
+</para>
+</formalpara>
+
+<formalpara><title>Cooking</title>
+<para>
+Enables the preparation of divers foods including flesh-meat and poultry,
+pasties, and confections.
+
+NB: Historically spans the trades of Cook, and Confectioner.
+</para>
+</formalpara>
+
+<formalpara><title>Clayworking</title>
+<para>
+Enables the working and firing of clay pieces to produce glazed and painted
+jars, pots and tiles.
+</para>
+</formalpara>
+
+<formalpara><title>Leatherworking</title>
+<para>
+Confers the ability to make items from leather or other skins, including
+clothing, armour, saddles, etc. This skill includes the ability to etch,
+carve and stamp leather for design and artistic value, but does not confer the
+aritistic ability to make this work of high quality (see Drawing/Painting
+skill)
+</para>
+</formalpara>
+
+<formalpara><title>Medicine</title>
+<para>
+(Includes First Aid)
+Confers the ability to attenuate pain, stop bleeding, and prevent further
+injury as a result of cuts, bruises, abrasions, burns, broken and sprained
+limbs, bites and stings (see section 6.4 - Healing*).
+</para>
+</formalpara>
+
+<para>
+Enables two types of healing: emergency and palliative.
+</para>
+
+<para>
+Emergency healing can lessen the severity of a new wound. Treatment must
+commence within 1 minute following the wounding. TD is 5 per point of injury
+the healer attempts to recover. Add 5 to TD for each attempt after the first
+on the same character inside the same day.
+</para>
+
+<example><title>Emergency Healing</title>
+<screen>
+Ronan sustains a 12 point wound;
+Kara attempts to reduce it to a 9 point wound. TD will be 15.
+If Ronan had been treated by Kara once already on that day,
+TD would instead be 20.
+</screen>
+</example>
+
+<para>
+Palliative healing enables natural healing to occur at the rate of 20% of
+(BOD + 25) per day of low activity and 10% of (BOD + 25) per day of moderate
+activity, provided the care-giver makes a Healing roll at TD 5 for each
+patient under his care.
+</para>
+
+<para>
+Medicine Skill can also be use to alleviate the effects of poisoning and to
+diagnose and treat illnesses. A Healer who comes to the aid of a poisoned or
+diseased individual can attempt to reduce the Virulence of the Affliction. The
+Healer's TD for this action is 5 per point of Virulence the Healer attempts to
+remove.
+</para>
+
+<example><title>Healing Poisoning</title>
+<screen>
+Ronan drinks poison with a Virulence of 25;
+Kara attempts to reduce the Virulence to 20.
+Kara's TD would be 25.
+</screen>
+</example>
+
+<para>
+This must be done before the poisoned character begins to suffer the full
+effects of the affliction (see Affliction in section 9.3*).
+</para>
+
+<formalpara><title>Mining</title>
+<para>
+Confers a knowledge of ore prospecting, geological surveying, and extraction
+techniques and hazards.
+</para>
+</formalpara>
+
+<formalpara><title>Rope Use</title>
+<para>
+Enables the character to tie effective knots for a variety of uses including
+mountaineering, restraint, building rope bridges, etc. Also includes splicing
+two pieces of rope together, care of rope, types and sizes of ropes needed for
+various jobs, etc.
+</para>
+</formalpara>
+
+<formalpara><title>Stonemason</title>
+<para>
+Enables the shaping and dressing of stones used in the construction of
+houses, towers, and castles.
+</para>
+</formalpara>
+
+<formalpara><title>Weaponsmithing</title>
+<para>
+Enables the construction and repair of knives, swords and miscellaneous
+weapons.
+
+NB: Historically spans the trades of Blader/Bladesmith (blades), Cutler or
+Swordsmith/Sword-Cutler (handles), Sheather (sheath/scabbard), Weaponsmith
+(everything else bar knives, bows, and swords).
+</para>
+</formalpara>
+
+<formalpara><title>Woodworking</title>
+<para>
+Enables the construction of common items from wood, including furniture of all
+types, utensils, and even buildings. While this skill allows the construction
+of high quality objects, it does not confer the ability to artistically carve
+or paint the items into true works of art (see Drawing/Painting and
+Sculpture/Carving skills).
+</para>
+</formalpara>
+</sect3>
+
+<sect3><title>Knowledge Skills</title>
+<formalpara><title>Appraising</title>
+<para>
+Enables the considered determination of the value of a range of curiosa
+including objets d'art, jewelry, and collectibles. Easier if the item in
+question can be handled; harder if applied by sight or by description or
+from drawing alone.
+</para>
+</formalpara>
+
+<formalpara><title>Astronomy</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Biology</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Cartography</title>
+<para>
+Allows one to make accurate map from topographical measurements. Also confers
+the ability to make reliable maps while traveling a region or visiting a 
+building.
+</para>
+</formalpara>
+
+<formalpara><title>Chemistry</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Cryptography</title>
+<para>
+Confers proficiency in the field of codes, ciphers, and code-breaking.
+</para>
+</formalpara>
+
+<formalpara><title>Engineering</title>
+<para>
+Confers knowledge of design and construction principles especially those of
+a public utility nature such as bridges, roads, aqueducts, harbours, and
+drainage works. Military Engineering concentrates on the construction of
+military works (including engines of destruction) for attack or defence.
+</para>
+</formalpara>
+
+<formalpara><title>Geography</title>
+<para>
+Confers knowledge of matters concerning the description of a world's
+surface, its form and physical features, natural and political divisions,
+climate, resources, and populations of various countries.
+</para>
+</formalpara>
+
+<formalpara><title>Heraldry</title>
+<para>
+Confers knowledge of the etiquette of chivalry, including the genealogies
+and armorial bearings of noble families, laws of succession, and orders of
+precedence.
+</para>
+</formalpara>
+
+<formalpara><title>Herbalism</title>
+<para>
+Confers a knowledge of the medicinal properties of herbs and plants.
+</para>
+</formalpara>
+
+<formalpara><title>Identify Artifacts</title>
+<para>
+Subsumes a general knowledge of the reputed origin and history of artefacts.
+Enables one so learned to recognise such items and to speculate
+as to their application and usefulness.
+</para>
+</formalpara>
+
+<formalpara><title>Language</title>
+<para>
+Confers knowledge of a verbal communication medium whether ancient, modern,
+or esoteric.
+</para>
+</formalpara>
+
+<para>
+NB: Dead and forgotten languages tend to have greater training requirements
+and higher TD ratings.
+</para>
+
+<formalpara><title>Law</title>
+<para>
+Understanding soscial laws of a spesific culture, region, etc.
+</para>
+</formalpara>
+
+<formalpara><title>History</title>
+<para>
+Confers an academic type knowledge of a past civilisation ("Atlantis") or a
+more generalised knowledge of a specific period of history (4th Century A.D.).
+</para>
+</formalpara>
+
+<para>
+May also be used for detailed knowledge of the development, stories, and events
+surrounding a thorp, county, province or region; the smaller the area, the
+more detailed the knowledge. Extends to such things as notable battlefields,
+regional politics, rumours, scandals, flood, fire and drought, lost
+treasures and the like.
+</para>
+
+<formalpara><title>Math</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Metallurgy</title>
+<para>
+Confers a knowledge of metals and their behaviour under stress. Enables the
+identification of most types by virtue of familiarity with their physical
+characteristics.
+</para>
+</formalpara>
+
+<formalpara><title>Philosophy</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Physics</title>
+<para>
+</para>
+</formalpara>
+
+<formalpara><title>Read/Write</title>
+<para>
+Confers the ability to understand and prepare written communication mediums. 
+</para>
+</formalpara>
+
+<formalpara><title>Theology</title>
+<para>
+Confers a general knowledge of the more significant of a world's religions.
+Includes creation and world building lore, deity virtues and spheres of
+influence, liturgical rites and practices, notable heroes, orders and
+authorities, sanctions, holy days and places, and religious festivals.
+</para>
+</formalpara>
+
+<formalpara><title>Zoology</title>
+<para>
+Confers a knowledge of animals and their characteristics including
+diet, behaviour, activity cycles, friends, enemies, and habitat.
+</para>
+</formalpara>
+</sect3>
+
+<sect3><title>Nature Skills</title>
+<formalpara><title>Animal Training</title>
+<para>
+Enables the training of domestic animals and beasts so as to obey
+instructions and learn specified routines.
+</para>
+</formalpara>
+
+<para>
+At higher TD levels can be used to train semi-wild and wild animals and
+at the heights of the art, confer rudimentary speech in the more intelligent
+and cooperative types.
+</para>
+
+<formalpara><title>Direction Sense</title>
+<para>
+Confers the ability to determine true north through a combination of
+familiarity with heavenly aspects, sensitivity to geomagnetic flux lines,
+and natural psychic affinities. Harder during the day, on occluded nights,
+and when underground. 
+</para>
+</formalpara>
+
+<formalpara><title>Fire-building</title>
+<para>
+Confers the ability to start a small fire suitable for camping purposes.
+Ignition methods include eye-glass, flint and steel, and simple fricative.
+Difficulty varies according to environment and atmospheric conditions. 
+</para>
+</formalpara>
+
+<formalpara><title>Fishing</title>
+<para>
+Enables the use of rod, net, and weir to catch a wide variety of species
+including pike, carp, trout, eels, catfish, lampreys and crabs. 
+</para>
+</formalpara>
+
+<formalpara><title>Foraging</title>
+<para>
+Enables survival off the land by virtue of familiarity with natural food and
+water sources, and their extraction/safe preparation methodologies.
+</para>
+</formalpara>
+
+<formalpara><title>Hunting</title>
+<para>
+Confers the ability to track and bag beasts of the hunt such as bears, wild
+boar, deer, foxes, hares, grouse, wild duck, and geese, by virtue of
+familiarity with their habitat, behaviour, and anatomy.
+</para>
+</formalpara>
+
+<formalpara><title>Navigation</title>
+<para>
+The ability to find one's position using the sun/stars, currents, ...
+</para>
+</formalpara>
+
+<formalpara><title>Riding</title>
+<para>
+Enables the riding of beasts of burden and conveyance over lands both clear
+and rough, in a safe and comfortable fashion. 
+</para>
+</formalpara>
+
+<formalpara><title>Seamanship</title>
+<para>
+Confers a familiarity of working life aboard a water borne vessel and the
+practices and hazards of such a calling.
+Enables the safe passage of a water-borne ship through doldrum and tempest
+by virtue of familiarity with the heavens and the vagaries of wind and
+current.
+</para>
+</formalpara>
+
+<formalpara><title>Survival</title>
+<para>
+Each Survival Skill conveys survival ability based on location/climate.
+Examples include Woodlands, Desert, Mountains, Arctic etc. Survival
+allows a character to build shelter, find food and water, etc...
+</para>
+</formalpara>
+
+<formalpara><title>Tracking</title>
+<para>
+Confers the ability to track all forms of ground based creatures. 
+</para>
+</formalpara>
+
+<formalpara><title>Weather Sense</title>
+<para>
+Enables the anticipation of forthcoming meteorological phenomena.
+</para>
+</formalpara>
+</sect3>
+
+<sect3><title>Social Skills</title>
+<formalpara><title>Bardic Influence</title>
+<para>
+Facilitates the mood alteration of a passive listener or group of people
+through song, melody, humour and/or tragedy.
+</para>
+</formalpara>
+
+<para>
+At higher TD levels can be used to counter the effects of sirens and the like,
+and heal solely by the purity of voice and/or instrument.
+</para>
+
+<formalpara><title>Bribery</title>
+<para>
+Facilitates the circumvention of cumbersome laws, the cooperation of agents
+of inspection, and the ready consideration of petitions and entreaties and
+the like. Minimises the consequences of a rebuff.
+</para>
+</formalpara>
+
+<formalpara><title>Drinking</title>
+<para>
+Subsumes a good knowledge of alcoholic beverages. Enables one to drink those
+not so skilled, under the table. 
+</para>
+</formalpara>
+
+<formalpara><title>Eating</title>
+<para>
+Confers an epicurean knowledge of food and wine. Depending on one's bent can
+also be used to out-gross those without the Skill, in pig-out competitions.
+</para>
+</formalpara>
+
+<formalpara><title>Etiquette</title>
+<para>
+Confers knowledge of the proper mode of dress, behavior, and language when
+speaking to nobility.
+</para>
+</formalpara>
+
+<formalpara><title>Gambling</title>
+<para>
+Confers the ability to master games of chance either by "reading the odds"
+or by subtle manipulation/substitution of game equipment and paraphernalia. 
+</para>
+</formalpara>
+
+<formalpara><title>Haggling</title>
+<para>
+Confers the ability to negotiate price effectively, including having an idea
+of when the price of an object has been inflated. To be the most effective,
+the use of this skill requires the character to have some idea of the true
+value of the item being haggled over.
+</para>
+</formalpara>
+
+<formalpara><title>Interrogation</title>
+<para>
+This skill is used to extract special information through the use
+indiscriminate physical and mental persuasion. 
+</para>
+</formalpara>
+
+<formalpara><title>Oration</title>
+<para>
+Enables the conveyance of ideas and concepts to groups of people ranging
+from small assemblies to raucous multitudes. Often used (and abused) by
+religious leaders and holders of public office, whether benign or corrupt,
+prospective or incumbent.
+</para>
+</formalpara>
+
+<formalpara><title>Streetwise</title>
+<para>
+Confers familiarity with the ways of the street. Enables neutral interaction
+with members of urban underclasses, the location of discrete accommodation
+and food sources, and access to street knowledge, strongarms for hire,
+outlets for the acquisition and disposal of illicit or "borrowed" property,
+and similar questionable activities.
+</para>
+</formalpara>
+
+<formalpara><title>Tactics</title>
+<para>
+
+</para>
+</formalpara>
+
+<formalpara><title>Truthtell</title>
+<para>
+Enables one to tell when a human, demi-human, or humanoid is lying by
+watching the subject's eyes, breathing, and so on. 
+</para>
+</formalpara>
+</sect3>
+
+<sect3><title>Subterfuge Skills</title>
+<formalpara><title>Consealment</title>
+<para>
+
+</para>
+</formalpara>
+
+<formalpara><title>Evade Pursuit</title>
+<para>
+Confers knowledge in the detection and evasion of persuit including effective
+hiding, switchbacks, covering tracks, etc.
+</para>
+</formalpara>
+
+<formalpara><title>Forgery</title>
+<para>
+Enables the production of facsimile documents, forged artwork, and artifical
+imitations of valuable stones and items of jewellery. 
+</para>
+</formalpara>
+
+<formalpara><title>Hiding</title>
+<para>
+Enables the observation of goings-on from a position of concealment such as
+amidst a naturally camouflaged field or from within the depths of urban
+shadows. Can avoid house-to-house and all points searches by moving
+surreptitiously from hidey hole to darkened corner.
+</para>
+</formalpara>
+
+<formalpara><title>Lipreading</title>
+<para>
+Enables the discernment of what is being said by the observation and
+interpretation of lip motion. Useful across a crowded room if discretion is
+required.
+</para>
+</formalpara>
+
+<formalpara><title>Move Quietly</title>
+<para>
+Facilitates movement which avoids the rustle of clothing and the padding of
+footsteps. Good for sneaking up on guards and sentries.
+</para>
+</formalpara>
+
+<formalpara><title>Open Locks</title>
+<para>
+Confers the ability to defeat locks and like security devices by
+manipulating their mechanical componentry.
+</para>
+</formalpara>
+
+<formalpara><title>Pick Pockets</title>
+<para>
+Confers the ability to extract baubles and the like from the pockets and
+purses of unsuspecting marks.
+</para>
+</formalpara>
+
+<formalpara><title>Remove Traps</title>
+<para>
+Enables the character to disarm or harmlessly set off common types of traps.
+</para>
+</formalpara>
+
+<formalpara><title>Searching</title>
+<para>
+Confers the ability to find something initially hidden. When a character
+activly tries to find something, he's Searching for it.
+</para>
+</formalpara>
+
+<para>
+Also enables the detection of mechanically based traps: whether a small
+poisoned needle in a jewelry box or a pressure plate activated falling block
+in a passage. The character assays the item/area in question and is able to
+detect small irregularities in construction or tell-tale differences in
+contrast or surface homogeneity. Higher proficiency levels confer a limited
+ability to sense temperature inconsistencies and magical augmentation
+emanations.
+</para>
+
+<formalpara><title>Set Traps</title>
+<para>
+Enables the character to install and build common types of traps.
+</para>
+</formalpara>
+
+</sect3>
+</sect2>
+</sect1>

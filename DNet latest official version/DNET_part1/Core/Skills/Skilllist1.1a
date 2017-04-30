@@ -1,0 +1,588 @@
+Skill name                Cost  Talent  Adv. AV  Default TD 
+------------------------------------------------------------------------------
+
+CRAFT SKILLS
+
+Agriculture/horticulture  oo    
+Armourer                  oooo  
+Blacksmithing             ooo   
+Bowyer                    ooo   
+Cooking                   o     PSY     INT     
+Fishing                   oo    
+First aid/Medicine        oooo  PER     INT
+Mining                    ooo   PER     INT
+Pottery                   oo    DEX
+Rope use                  oo    DEX
+Stonemason                ooo   
+Weaponsmithing            oooo  
+
+ARTISTIC SKILLS
+
+Acting                    ooo   AURA    PSY
+Disguise                  oo    AURA    PSY
+Musical instrument        ooo   DEX     PSY
+Ventriloquism             oooo  
+
+ATHLETIC SKILLS
+
+Acrobatics                ooo   AGI
+Climbing                  oooo  AGI
+Contortion                ooooo AGI
+Endurance                 ooo   FIT
+Falling                   oooo  AGI
+Juggling                  oo    AGI
+Jumping                   ooo   STR
+Running                   ooo   STR     FIT
+Swimming                  ooo   STR     FIT
+Tightrope walking         oooo  AGI
+Tumbling                  ooo   AGI
+
+COMBAT SKILLS
+
+MOVEMENT SKILLS
+
+Direction sense           ooo   PER
+Riding (airborne)         oooo  AGI
+Riding (land)             oo    AGI
+Seamanship                ooo   PER     INT
+
+NATURE SKILLS
+
+Animal Training           ooo   PER
+Falconry                  ooo   PER
+Fire-building             o     INT
+Foraging                  oo    PER
+Hunting                   oo    PER
+Hydrology                 oo    PER
+Tracking                  oooo  PER
+Weather sense             ooo   PER
+
+KNOWLEDGE SKILLS
+
+Ancient History           ooo   INT     INT
+Animal lore               ooo           INT
+Appraising                ooo   PER     INT
+Botany                    ooo           INT
+Cartography               oo    INT/DEX INT
+Cryptography              oooo  INT     INT
+Engineering               oooo  INT     INT
+Geographie                oo            INT
+Heraldry                  oo            INT
+Herbalism                 oooo  INT     INT
+Identify magic            ooooo INT     INT
+Language                  ooo   INT     INT
+Local History             oo            INT
+Metallurgy                oooo          INT
+Navigation                oooo  INT     INT
+Read/write                oooo  INT     INT
+Theology                  oo    INT     INT
+Species enemy             oo    INT     INT
+Spelaeology               ooo           INT
+Teratology                oo            INT
+Zoology                   ooo           INT
+
+SOCIAL SKILLS
+
+Bardic influence          ooo   AURA    PSY
+Bribery                   oo    AURA
+Diplomacy                 ooo   
+Dragonshah                oo    INT     INT
+Drinking                  oo    FIT
+Eating                    oo    FIT
+Gambling                  oo    DEX/INT
+Haggling                  o     AURA
+Interrogate               ooo   AURA    PSY
+Oration                   oooo  AURA    PSY
+Streetwise                oo    
+Trading                   ooo   
+Truthtell                 ooooo PSY     PSY
+
+SUBTERFUGE SKILLS
+
+Detect traps              ooo   PER
+Evade pursuit             oo    AGI/INT
+Forgery                   oooo  DEX
+Move quietly              oooo  AGI
+Open locks                ooo   DEX
+Pick pockets              ooo   DEX
+Reading lips              oooo  INT
+Remove traps              oooo  DEX
+Set snares                oo    DEX
+Shadowhide                ooo   PER
+
+------------------------------------------------------------------------------
+
+CRAFT SKILLS
+
+Agriculture/horticulture
+------------------------
+
+Armourer
+--------
+Enables the construction and repair of metal, mesh and/or material armour.
+
+NB: historically spans the trades of Armourer, Malemakre, Linen Armourer,
+Heaumer (helmets), and Targeter (shields) 
+
+Blacksmithing
+-------------
+Enables the working of iron to produce and repair domestic and agricultural
+items.
+
+Bowyer
+------
+Enables the construction and repair of bows, x-bows, arrows, and arrowheads.
+
+NB: historically spans the trades of Bowyer, Crossbow Makre, Fletcher
+(arrows), Arrowsmith (arrowheads), and Stringer (bow strings). 
+
+Cooking
+-------
+Enables the preparation of divers foods including flesh-meat and poultry,
+pasties, and confections.
+
+NB: Historically spans the trades of Cook, and Confectioner.
+
+Fishing
+-------
+Enables the use of rod, net, and weir to catch a wide variety of species
+including pike, carp, trout, eels, catfish, lampreys and crabs. 
+
+First aid/Medicine 
+------------------
+Confers the ability to attenuate pain, stop bleeding, and prevent further
+injury as a result of cuts, bruises, abrasions, burns, broken and sprained
+limbs, bites and stings.  
+
+Mining
+------
+Confers a knowledge of ore prospecting, geological surveying, and extraction
+techniques and hazards.
+
+Pottery
+-------
+Enables the working and firing of clay pieces to produce glazed and painted
+jars, pots and tiles.
+
+Rope use
+--------
+
+Stonemason
+----------
+Enables the shaping and dressing of stones used in the construction of
+houses, towers, and castles.
+
+Weaponsmithing
+--------------
+Enables the construction and repair of knives, swords and miscellaneous weapons.
+
+NB: Historically spans the trades of Blader/Bladesmith (blades), Cutler or
+Swordsmith/Sword-Cutler (handles), Sheather (sheath/scabbard), Weaponsmith
+(everything else bar knives, bows, and swords).
+
+ARTISTIC SKILLS
+
+Acting
+------
+
+
+Disguise
+--------
+Confers the ability to alter one's general appearance in order to avoid
+identification and deceive opponents. Encompasses alteration of height,
+weight, posture and/or facial and body features. Often combined with the
+acting skill.
+
+Musical instrument
+------------------
+Confers proficiency in an instrument of choice.
+
+Ventriloquism
+-------------
+Confers the seeming ability to project one's voice so that it appears to
+emanate from inanimate objects, other people, or unusual locations. Good for
+party tricks and for staring ale-house brawls.
+
+ATHLETIC SKILLS
+
+Acrobatics
+----------
+
+Climbing
+--------
+Lets a character scale vertical and near vertical surfaces such as smooth
+walls and rough cliff-faces. Harder with slippery or featureless surfaces or
+if burdened with accoutrements. Often combined with the falling and healing
+(willforce) skills :)
+
+Contortion
+----------
+Enables the manipulation of one's body in order to move through small
+openings, hide in absurdly small containers or edifices, and escape from
+bonds.
+
+Endurance
+---------
+Enables prolongation of application with regard to physically demanding
+and/or mentally draining tasks. A swimmer nears exhaustion towards the end
+of long swim; they apply their endurance skill, and if successful, can
+continue swimming anew, as if refreshed for half as long again. Successive
+uses of the skill increase task difficulty and reduce prolongation span.
+
+Falling
+-------
+Enables the reduction of falling damage by such methods as slowing the rate
+of descent by incidental surface contact, harm minimising impact postures,
+and "dodging the spikes/aiming for the soft bits."
+
+Juggling
+--------
+Confers an ability to manipulate balls and other objects primarily for
+entertainment purposes. Subsumes minor sleight-of-hand techniques.
+
+Jumping
+-------
+Confers a proficiency at spanning sudden drops such as those encountered
+during rooftop chases or across mountain gorges, ready leaps onto elevated
+stations such as tavern tables and desparation jumps out of first or second
+story abodes.
+
+Running
+-------
+Through a combination of running and power-walking, enables movement at
+twice the normal rate for a fixed duration. A period of rest and
+recuperation is required at the end of such exertion.
+
+Swimming
+--------
+Confers the ability to float upon deep water and to traverse same in a
+limited fashion. Heavy accoutrements, exhaustion, wounds, cold water, and
+high waves make things harder.
+
+Tightrope walking
+-----------------
+Enables safe transition along a strong rope strung between two points or any
+similarly narrow and (generally) high-up path.
+
+*Tumbling (isn't Acrobatics better to avoid copyright problems with TOS?)
+--------
+Confers the ability to swing from a chandelier, somersault through a stained
+glass window, and land on one's horse, ready to make a getaway. Can be used
+in combat to dodge or reduce the effects of a blow.
+
+COMBAT SKILLS
+
+MOVEMENT SKILLS
+
+Direction sense
+---------------
+Confers the ability to determine true north through a combination of
+familiarity with heavenly aspects, sensitivity to geomagnetic flux lines,
+and natural psychic affinities. Harder during the day, on occluded nights,
+and when underground.  
+
+Riding (airborne)
+----------------- 
+Enables the riding of beasts of the air for rapid and safe conveyance.
+
+Riding (land)
+-------------
+Enables the riding of beasts of burden and conveyance over lands both clear
+and rough, in a safe and comfortable fashion. 
+
+Seamanship
+----------
+Confers a familiarity of working life aboard a water borne vessel and the
+practices and hazards of such a calling.
+Enables the safe passage of a water-borne ship through doldrum and tempest
+by virtue of familiarity with the heavens and the vagaries of wind and
+current.
+
+NATURE SKILLS
+
+Animal Training
+---------------
+Enables the training of domestic animals and beasts so as to obey
+instructions and learn specified routines.
+
+NB: at higher TD levels can be used to train semi-wild and wild animals and
+at the heights of the art, confer rudimentary speech in the more intelligent
+and cooperative types.
+
+Falconry
+--------
+Confers knowledge of the art of the keeping and training of hawks and like
+birds of prey.
+
+Fire-building
+-------------  
+Confers the ability to start a small fire suitable for camping purposes.
+Ignition methods include eye-glass, flint and steel, and simple fricative.
+Difficulty varies according to environment and atmospheric conditions. 
+
+Foraging
+--------
+Enables survival off the land by virtue of familiarity with natural food and
+water sources, and their extraction/safe preparation methodologies.
+
+Hunting
+-------
+Confers the ability to track and bag beasts of the hunt such as bears, wild
+boar, deer, foxes, hares, grouse, wild duck, and geese, by virtue of
+familiarity with their habitat, behaviour, and anatomy.
+
+Hydrology
+---------
+Confers the ability to locate sources of fresh water above and below ground
+and to identify tainted holdings.
+
+Tracking
+--------
+Confers the ability to track all forms of ground based creatures. 
+
+Weather sense
+-------------
+Enables the anticipation of forthcoming meteorological phenomena.
+
+KNOWLEDGE SKILLS
+
+Ancient History
+---------------
+Confers an academic type knowledge of a past civilisation ("Atlantis") or a
+more generalised knowledge of a specific period of history (4th Century A.D.).
+
+Animal lore
+-----------
+
+Appraising
+----------
+Enables the considered determination of the value of a range of curiosa
+including objets d'art, jewellry, and collectibles. Easier if the item in
+question can be handled; harder if applied by sight or by description or
+from drawing alone.
+
+Botany
+------
+Confers knowledge of plants, lichens, flowers, trees, vegetables, and fruits.
+
+Cartography
+-----------
+
+Cryptography
+------------
+Confers proficiency in the field of codes, ciphers, and code-breaking.
+
+Engineering
+-----------
+Confers knowledge of design and construction principles especially those of
+a public utility nature such as bridges, roads, aqueducts, harbours, and
+drainage works. Military Engineering concentrates on the construction of
+military works (including engines of destruction) for attack or defence.
+
+Geographie
+----------
+Confers knowledge of matters concerning the description of a world's
+surface, its form and physical features, natural and political divisions,
+climate, resources, and populations of various countries.
+
+Heraldry
+--------
+Confers knowledge of the etiquette of chivalry, including the genealogies
+and armorial bearings of noble families, laws of succession, and orders of
+precedence.
+
+Herbalism
+---------
+Confers a knowledge of the medicinal properties of herbs and plants.
+
+Identify magic (TOS, Bard, pg 44)
+---------------------------------
+Subsumes a general knowledge of the reputed origin and history of magical
+artefacts. Enables one so learned to recognise such items and to speculate
+as to their application and usefulness.
+
+Language
+--------
+Confers knowledge of a verbal communication medium whether ancient, modern,
+or esoteric.
+
+NB: Dead and forgotten languages tend to have greater training requirements
+and higher TD ratings.
+
+Local History (TOS, Proficiencies, pg 61) 
+-------------
+Confers a detailed knowledge of the development, stories, and events
+surrounding a thorp, county, province or region; the smaller the area, the
+more detailed the knowledge. Extends to such things as notable battlefields,
+regional politics, rumours, scandals, flood, fire and drought, lost
+treasures and the like.
+
+*Metallurgy (is such a science appropriate in a Medieval setting)
+----------
+Confers a knowledge of metals and their behaviour under stress. Enables the
+identification of most types by virtue of familiarity with their physical
+characteristics.
+
+*Navigation
+----------
+The ability to find one's position using the sun/stars, currents, ...
+
+Read/write
+----------
+Confers the ability to understand and prepare written communication mediums. 
+
+*Theology (was Religion)
+--------
+Confers a general knowledge of the more significant of a world's religions.
+Includes creation and world building lore, deity virtues and spheres of
+influence, liturgical rites and practices, notable heroes, orders and
+authorities, sanctions, holy days and places, and religious festivals.
+
+Species enemy
+-------------
+Confers an intimate knowledge of the behaviour, anatomy, strengths and
+weaknesses of a specified class of creatures such as giants or dragons or
+orcanthropoids. 
+
+*Spelaeology (Athletic skill?)
+-----------
+Confers a knowledge of caving techniques including familiarity with basic
+underground features and hazards.
+
+Teratology
+----------
+Confers a knowledge of monsters and their characteristics including diet, powers
+(actual and reputed), activity cycles, friends, enemies, and habitat. 
+
+Zoology
+-------
+Confers a knowledge of natural animals and their characteristics including
+diet, behaviour, activity cycles, friends, enemies, and habitat.
+
+SOCIAL SKILLS
+
+Bardic influence (TOS, Bard, pg 42/43)
+--------------------------------------
+Facilitates the mood alteration of a passive listener or group of people
+through song, melody, humour and/or tragedy.
+
+NB: at higher TD levels can be used to invoke heroic inspiration, counter
+the effects of sirens and the like, and heal solely by the purity of voice
+and/or instrument.
+
+Bribery (pinched from Traveller? Someone pls check for copyright implications)
+-------
+Facilitates the circumvention of cumbersome laws, the cooperation of agents
+of inspection, and the ready consideration of petitions and entreaties and
+the like. Minimises the consequences of a rebuff.
+
+Diplomacy
+---------
+More of a career than a skill: Oration, Etiquette, Truthtell, Local History...
+
+Dragonshah
+----------
+A boardgame analogous to chess. Played throughout the known worlds, often
+for agreed stakes.
+
+Drinking
+--------
+Subsumes a good knowledge of alcoholic beverages. Enables one to drink those
+not so skilled, under the table. 
+
+Eating
+------
+Confers an epicurean knowledge of food and wine. Depending on one's bent can
+also be used to out-gross those without the skill, in pig-out competitions.
+
+Gambling
+--------
+Confers the ability to master games of chance either by "reading the odds"
+or by subtle manipulation/substitution of game equipment and paraphernalia. 
+
+Haggling
+--------
+
+*Interrogate (was Inquisition)
+-----------
+This skill is used to extract special information through the use
+indiscriminate physical and mental persuasion. 
+
+Oration
+-------
+Enables the conveyance of ideas and concepts to groups of people ranging
+from small assemblies to raucous multitudes. Often used (and abused) by
+religious leaders and holders of public office, whether benign or corrupt,
+prospective or incumbent.
+
+Streetwise (pinched from Traveller; pls check copyright survivability)
+----------
+Confers familiarity with the ways of the street. Enables neutral interaction
+with members of urban underclasses, the location of discrete accommodation
+and food sources, and access to street knowledge, strongarms for hire,
+outlets for the acquisition and disposal of illicit or "borrowed" property,
+and similar questionable activities.
+
+Trading
+-------
+
+Truthtell
+---------
+Enables one to tell when a human, demi-human, or humanoid is lying by
+watching the subject's eyes, breathing, and so on. 
+
+SUBTERFUGE SKILLS
+
+Detect traps
+------------
+Enables the detection of mechanically based traps: whether a small poisoned
+needle in a jewellery box or a pressure plate activated falling block in a
+passage. The character assays the item/area in question and is able to
+detect small irregularities in construction or tell-tale differences in
+contrast or surface homogeneity. Higher proficiency levels confer a limited
+ability to sense temperature inconsistencies and magical augmentation
+emanations.
+
+Evade pursuit
+-------------
+
+Forgery
+-------
+Enables the production of facsimile documents, forged artwork, and artifical
+imitations of valuable stones and items of jewellery. 
+
+Move quietly
+------------
+Facilitates movement which avoids the rustle of clothing and the padding of
+footsteps. Good for sneaking up on guards and sentries.
+
+Open locks
+----------
+Confers the ability to defeat locks and like security devices by
+manipulating their mechanical componentry.
+
+Pick pockets
+------------
+Confers the ability to extract baubles and the like from the pockets and
+purses of unsuspecting marks.
+
+Reading lips
+------------
+Enables the discernment of what is being said by the observation and
+interpretation of lip motion. Useful across a crowded room if discretion is
+required.
+
+Remove traps
+------------
+Mmmm. What's say we combine this with the detect traps skill?
+
+Set snares
+----------
+= Hunting?
+
+Shadowhide
+-----------
+Enables the observation of goings-on from a position of concealment such as
+amidst a naturally camouflaged field or from within the depths of urban
+shadows. Can avoid house-to-house and all points searches by moving
+surreptitiously from hidey hole to darkened corner.

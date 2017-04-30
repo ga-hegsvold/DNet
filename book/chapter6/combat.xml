@@ -1,0 +1,13 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Combat</title>
+
+<xi:include href="intro.xml" />
+<xi:include href="basic_premises.xml" />
+<xi:include href="combat_skills.xml" />
+<xi:include href="combat_sequence.xml" />
+<xi:include href="unarmed_combat.xml" />
+<xi:include href="combat_movement.xml" />
+<xi:include href="fatigue.xml" />
+<xi:include href="battle.xml" />
+
+</chapter>

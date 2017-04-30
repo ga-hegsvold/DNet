@@ -1,0 +1,134 @@
+Bob wrote:
+> My last comment until I hear from Guillaume... I promise. :)
+
+I replied to your previous mail, but it seems that the lists are slow... I
+haven't seen my message come back.
+
+> [I apologize if I have overlooked something]
+
+No you did not.
+
+> I've been looking over Guillaume's very thorough analysis and am trying to
+> determine what this does for us.  Guillaume has established a linear
+> relationship between SR and STR:
+> 
+>    3/2 SR = STR.
+> 
+> He did this by making some reasonable assumptions.  At this time, however,
+> I can't see how this helps us.
+> 
+> Using Guillaume's formulas, a titan at size mult = 16 translates to scale
+> factor = 4 which becomes SR 4 and STR 6.  This doesn't tell us anything
+> unless we go back to the Strength table to see what STR 6 lift or load
+> values are.  However, that table isn't the same one that was used to
+> establish the relationship so the data is useless.
+
+Yes, if size mult is 16 (that's 4 times the height of a human!!), then the
+strength mult is 4^3 = 64 times stronger than a human... However, I don't
+think that log2 is appropriate.
+
+I have been playing with 1.2 as the log base and it gives much better STR Ta.
+Of course, it does not solve the problem of SR.
+
+> The solution, as I see it, is not to determine the relationship between SR
+> and STR but instead between SR and Strength Mult (what the STR table uses to
+> calculate lift and load).  However, this relationship cannot be linear
+> or else we run into the same problem we have always had -- strength values
+> that need to be really high for giants and titans.  Of course, we first
+> have to agree on what reasonable strength mults are for species like
+> giants and titans.
+
+What I did was similar to this (when I came up with log 1.2). I decided that
++5 STR Ta would be 2.5 times stronger than +0 STR Ta. This gave me the
+log 1.2. The problem is that +5 STR Ta is also associated with a +3 SR. So
+long for the human SR of 0... (+3 makes a big difference in our targeting
+equation).
+
+The only solution is to fudge the Strength equation. We will have to say that
+STR is no more proportional to volume, but to a higher exponent of the scaling
+factor.
+
+For example, we could have:
+
+Strength = SF^4
+(with SR = SF^2)
+
+This would give:
+
+avg STR Ta = logN(SF^3)
+            = 4 * logN(SF)
+
+we can cheat even more and have: avg STR Ta = 5 * logN(SF)
+
+With (avg STR Ta = 4*logN(SF)), where N = 1.2, we get:
+
+ SF     SR     STR
+------------------
+0.1    -25     -50
+0.2    -18     -35
+0.3    -13     -26
+0.4    -10     -20
+0.5     -8     -15
+0.6     -6     -11
+0.7     -4      -8
+0.8     -2      -5
+0.9     -1      -2
+1.0      0       0
+1.2     +2      +4
+1.5     +4      +9
+2.0     +8     +15
+3.0    +12     +24
+4.0    +15     +30
+5.0    +17     +35
+10.0   +25     +50
+20.0   +33     +66
+100.0  +51    +101
+
+While we are at it we can also fudge by using two different log scales:
+
+log 1.5 for SR and log 1.2 for STR could give nice results...
+
+avg STR Ta = 3*log1.2(SF)
+SR = 2*log1.5(SF)
+
+Note that this is equivalent to fudging the exponents:
+
+avg STR Ta / SR = 3/2 * (log1.5(SF)/log1.5(1.2))/log1.5(SF)
+                = 3/2 * (1/0.45) = 3.33
+
+which is equivalent to: Strength = SF^6.66
+                        Size = SF^2
+
+A quick table with fudged log scales:
+
+SF    SR    STR
+---------------
+0.1  -11    -38
+0.5   -3    -11
+0.7   -2     -6
+1.0    0      0
+1.5   +2     +7
+2.0   +3    +11
+3.0   +5    +18
+5.0   +8    +26
+10.0 +11    +38
+
+And then we face the problem that pixies are not strong enough to hurt a 
+human... What do we do... Fudge again... We could have a different formula
+for STR Ta for creatures that below human size than for creatures that are
+over human size...
+
+You get the picture...
+
+After all this analysis, we have two choices. Either we go the realistic way
+and only have "giants", or we go the heroic way and have whatever we want, 
+even if we have to throw realism overboard... If only there were really 
+pixies and giants... We would only have to measure their strengths...
+
+All I ask is that we try to use scalable formulas for IMPACT! This will be
+the most important point for GMs who wish to have pixies campaigns. Most won't
+really care if a HUMAN is not as terrible for a pixie as a GIANT is for a
+human... (But they will certainly like the fact that combat between pixies
+work as expected...)
+
+Guillaume 

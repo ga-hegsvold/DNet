@@ -1,0 +1,164 @@
+<sect1><title>Experience Awards</title>
+<para>
+Experience Points (EP) are awarded in five categories
+</para>
+
+<orderedlist numeration="loweralpha">
+<listitem><para>Adventure/goals fulfilled</para></listitem>
+<listitem><para>Bard's tale/heroics</para></listitem>
+<listitem><para>Conflict/danger</para></listitem>
+<listitem><para>Forethought/ingenuity</para></listitem>
+<listitem><para>Growth/interaction</para></listitem>
+</orderedlist>
+
+<para>
+1-6 dice can be awarded in each category depending on the significance of 
+the event or session.
+</para>
+ 
+<table frame="all"><title>Experience Dice Award</title>
+<tgroup cols="3" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" align="left" colwidth="1*" />
+<thead>
+<row><entry>Significance</entry><entry>Dice (d6)</entry><entry>Constant</entry></row>
+</thead>
+<tbody>
+<row><entry>None</entry><entry>0</entry><entry>0</entry></row>
+<row><entry>Noteworthy</entry><entry>1</entry><entry>4</entry></row>
+<row><entry>Impressive</entry><entry>2</entry><entry>8</entry></row>
+<row><entry>Spectacular</entry><entry>4</entry><entry>16</entry></row>
+<row><entry>Legendary</entry><entry>6</entry><entry>24</entry></row>
+</tbody>
+</tgroup>
+</table>
+ 
+<example><title>Simple examples by category</title>
+<screen>
+(a1) surviving one session whilst actively adventuring (i.e., in the 
+     midst of potential danger and/or intrigue)
+
+(a4) successfully completing a campaign requiring a significant expenditure
+     of time and resources in an environment of considerable danger
+
+(a6) as above but one of those "save the world" type conclusions
+
+(b2) a character rescues a hostage from bandits
+
+(b4) loot in hand, a character leaps off a balcony, grabs the swinging
+     chandelier, completes a somersault through a stained glass window,
+     and lands safely on the snow covered ground outside
+
+(c0) Ronan defeats an orc
+
+(c1) a character wins a Dragonshah tournament
+
+(c2) a character defeats an opponent but is seriously wounded
+
+(c4) a character leads an army and scores a crushing victory
+
+(c6) David beats Goliath
+
+(d1) a character takes a simple precaution that saves the party's bacon 
+     (they spiked the door)
+
+(d2) a character exhibits a novel use of an attribute or skill
+
+(d4) by logic, deduction, and a touch of intuition, a character uncovers 
+     a major plot element that leads to the successful conclusion of an 
+     adventure
+
+(e1) a character attends a social engagement and makes a good impression 
+     on the assembled nobility
+
+(e2) a character displays convictions of belief in the face of ridicule
+
+(e4) a character saves the life of a servitor
+
+(e4) using only accrued clout and connections, a character successfully
+     initiates a socio-political "power-play" from a distance
+
+(e6) a character with a barbarian background becomes king of a mighty
+     nation through repute, force of arms, and power politics
+</screen>
+</example>
+  
+<sect2><title>Using experience dice</title>
+<para>
+Once the experience dice have been awarded by the Game Master, the player
+has three options:
+</para>
+
+<orderedlist numeration="arabic">
+<listitem><para>
+He can roll the dice and get a number of experience points equal to their total.
+</para></listitem>
+
+<listitem><para>
+He can play safe and get a number of experience points equal to 4 times the
+number of experience dice (1 dice = 4 EP).
+</para></listitem>
+
+<listitem><para>
+He can divide his experience dice between the two options above,
+choosing to roll some of them and to cash in the remaining ones.
+The player must decide how many dice will be rolled before he starts rolling.
+</para></listitem>
+</orderedlist>
+
+<para>
+Of course, the Game Master may rule that some options are not available if he
+feels that they are detrimental to the game.
+</para>
+
+<example><title>Using Experience Dice</title>
+<screen>
+Say a player is awarded 10 experience dice. The player could:
+
+1) Roll all 10 dice, which would generate from 10 to 60 points,
+   with an average of 35.
+2) Exchange the 10 dice for 40 experience points.
+3) Roll 3 dice and cash in the remaining 7, which would generate
+   between 31 and 46, with an average of 38.5.
+</screen>
+</example>
+
+<sect3><title><emphasis>Experience Dice During Play (Optional)</emphasis></title>
+<para>
+<emphasis>
+During a game session, if a character has some experience dice saved up,
+he may use them for purposes other than skill advancement.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+In this case, Experience Dice can be used for:
+</emphasis>
+</para>
+
+<itemizedlist>
+<listitem><para><emphasis>Improving a Task Resolution (d10-d10*) roll</emphasis></para></listitem>
+<listitem><para><emphasis>Increasing an Impact roll</emphasis></para></listitem>
+</itemizedlist>
+
+<para>
+<emphasis>
+To avoid a penalty, a player must declare the use of experience dice BEFORE he
+makes his roll. He should tell the GM that he wishes to modify his pending dice
+roll with some experience dice. After the GM has been told how many experience
+dice are going to be used in this way, the player rolls the total of the
+original dice plus how ever many experience dice he told the GM he was going to
+use.
+</emphasis>
+</para>
+
+<para>
+<emphasis>
+If a player wishes to modify a die roll AFTER he has rolled the dice, he
+must do so at a penalty of three times the cost; therefore, the player pays
+three experience dice for each die added to the roll.
+</emphasis>
+</para>
+</sect3>
+</sect2>
+</sect1>

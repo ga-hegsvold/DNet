@@ -1,0 +1,12 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Magic</title>
+
+<xi:include href="intro.xml" />
+<xi:include href="magic_skills.xml" />
+<xi:include href="fatigue.xml" />
+<xi:include href="magic_types.xml" />
+<xi:include href="spells.xml" />
+<xi:include href="general_principles.xml" />
+<xi:include href="parapsychology.xml" />
+
+</chapter>

@@ -1,0 +1,3320 @@
+Hi again,
+
+Although this is the world oriented material the dnworlds stuff is confined to
+section 3. Section 3 has a lot of stuff, some of which is not as recent as
+others. So, anyone willing to update stuff? Another note, I did not include
+all species, just the major ones in Corellus. The other species are not
+generally as oriented towards Corellus or were done quite a while ago.
+
+Again I think splitting the material like I have works out pretty well, but
+will defer to whatever the group wants.
+
+Del
+
+*************************************************************************
+TO DO -> review and integrate world material to be current with the
+         templates.
+      -> review magic skills and add magic spells.
+      -> decide if we want to stick with this format
+
+3.0b3 -> separated out material from 3.0b2 so this only includes world
+         specific material.
+      -> added all of the current world material in
+      
+*****************************************************************************
+Table of Contents:
+
+1. DNet World Specifics
+2. Skills
+    2.1   Non Combat Skill List
+    2.2   Combat Skills
+          2.2.1   Combat Styles
+                  2.2.1.1 Long Range Styles
+                  2.2.1.2 Melee Styles
+          2.2.2   Other Combat Skills
+          2.2.3   Unarmed Combat Styles
+    2.3   Magic Skill List
+3. Corellus World History
+    3.1   Universe
+          3.1.1   How the universe formed
+          3.1.2   Life Essence of beings
+    3.2   Events
+          3.2.1   Epoch 0
+          3.2.2   Epoch 1
+          3.2.3   Epoch 2
+          3.2.4   Epoch 3
+    3.3   Species & Cultures
+          3.3.1   Human
+          3.3.2   Weejon
+          3.3.3   Elves
+          3.3.4   Goblins
+    3.4   Deities
+          3.4.1   Aern
+          3.4.2   Amar
+          3.4.3   Battle
+          3.4.4   Belan
+          3.4.5   Demenateez
+          3.4.6   Dragon
+          3.4.7   Ehvenahn
+          3.4.8   Elementals
+          3.4.9   Iahnu
+          3.4.10  Morgrius
+          3.4.11  Niam
+          3.4.12  Nimisha
+          3.4.13  Nogris
+          3.4.14  Phoneix
+          3.4.15  Sha-Wu
+          3.4.16  Sirocco
+          3.4.17  Solaris
+          3.4.18  Sylain
+          3.4.19  Vofos
+          3.4.20  War
+
+1. DNet World Specifics
+
+The material in this section contains material which might be specific to a
+particular game world. This world is Corellus, the standard world distributed
+with DNet. It is as yet an incomplete world, but can be used as a starting
+point and an example of how to play with the DNet rules. 
+
+2. Skills
+
+2.1 Non Combat Skills
+
+This section describes general skills, i.e. those that do not require special 
+rules. For Combat and Magic skills, please refer to sections 6 and 7 
+respectively.
+
+                     EP     Attr.    *   Default tasks
+Skill name          Cost  Tal  Adv  UP   TD     Description
+------------------------------------------------------------------------------
+ARTISTIC SKILLS
+
+Acting              ooo   AUR  PSY   6   D/15   Convincing personification
+Disguise            oo    AUR  PSY   4   D/15   Render irrecognizable
+Musical instrument  ooo   DEX  PSY   6   D/15   Performing a common piece
+Ventriloquism       oooo  AUR  WIL   8   D/15   Simple speech
+
+ATHLETIC SKILLS
+
+Acrobatics          ooo   AGI  PER   6   D/15   Dropping one floor in combat
+Climbing            oooo  AGI  AGI   8   A/10   Normal brick wall
+Contortion          ooooo AGI  AGI  10   D/15   Passing a torso-sized tunnel
+Endurance           ooo   FIT  WIL   6   D/15   Jogging for two hours
+Falling             oooo  AGI  AGI   8   VD/20  Falling 10 meters unarmed
+Juggling            oo    DEX  PER   4   A/10   Juggling five normal objects
+Jumping             ooo   STR  STR   6   ED/25  Jumping one's height
+Running             ooo   STR  FIT   6   D/15   Running 100m under 15 sec.
+Swimming            ooo   STR  FIT   6   A/10   Swimming 1km at a good pace
+Tightrope walking   oooo  AGI  PER   8   D/15   Walking 25m on a rope
+
+CRAFT SKILLS
+
+Agriculture         oo    INT  INT   4   A/10   Growing common plants
+Armourer            oooo  DEX  DEX   8   A/10   Fabricating a chain mail
+Blacksmithing       ooo   DEX  INT   6   A/10   Forging a cauldron
+Bowyer              ooo   DEX  PER   6   A/10   Assembling a short bow
+Carpentry           oo    DEX  INT   4   A/10   Fabricating a chest
+Cooking             o     PSY  INT   2   E/5    Making a simple meal
+Fishing             oo    INT  INT   4   A/10   Catching "a meal" in 3 hours
+Leatherworking      oo    DEX  DEX   4   A/10   Making a leather backpack
+Medicine            oooo  PER  INT   8   D/15   Healing a broken leg
+Mining              ooo   PER  INT   6   A/10   Tunneling in normal rock
+Pottery             oo    DEX  DEX   4   A/10   Molding a decorated urn
+Rope use            oo    DEX  AGI   4   A/10   Tying up a person solidly
+Stonemason          oo    STR  DEX   4   D/15   Cutting tower stones
+Weaponsmithing      oooo  DEX  DEX   8   A/10   Making a dagger
+
+KNOWLEDGE SKILLS
+
+Ancient History     ooo   INT  INT   6   D/15   Recalling heroic stories
+Appraising          ooo   PER  INT   6   D/15   Estimating the value of gems
+Botany              ooo   INT  INT   6   D/15   Identifying rare plants
+Cartography         oo    INT  INT   4   D/15   Mapping a region from sight
+Cryptography        oooo  INT  INT   8   VD/20  Deciphering a standard code
+Engineering         oooo  INT  INT   8   D/15   Drawing plans for a catapult
+Geography           oo    INT  INT   4   A/10   Knowing country of city
+Heraldry            oo    INT  INT   4   D/15   Recognizing a coat of arms
+Herbalism           oooo  INT  INT  IMP  D/15   Brewing a special remedy
+Identify magic      ooooo PER  INT  IMP  ED/25  Identifying a magical item
+Language            ooo   INT  INT  IMP  A/10   Understanding a foreign tongue
+Local History       oo    INT  INT   4   A/10   Recalling an important event
+Metallurgy          oooo  INT  INT   8   D/15   Identifying a metal
+Navigation          oooo  INT  INT  IMP  D/15   Finding one's position
+Read/write          oooo  INT  INT  IMP  A/10   Reading a sign.
+Species enemy       oo    INT  INT   4   D/15   Recognizing behaviors
+Spelaeology         ooo   PER  INT   6   A/10   
+Spellcraft          ooo   INT  INT  IMP  D/15   Recognizing a spell being used  
+Teratology          ooo   INT  INT   6   VD/20  Identifying monster indices
+Theology            ooo   INT  INT   6   D/15   Remembering rites
+Tribal Memory       oooo  PSY  INT   8   A/10   
+Zoology             ooo   INT  INT   6   D/15   Identifying animal behaviors
+
+MOVEMENT SKILLS
+
+Direction sense     ooo   PER  PER   6   VD/20  Determining current direction
+Riding (airborne)   oooo  AGI  PER   8   ED/25  Maintaining mount control
+Riding (land)       oo    AGI  PER   4   A/10   Maintaining mount control
+Seamanship          ooo   PER  INT   6   A/10   Rigging sails
+
+NATURE SKILLS
+
+Animal Training     ooo   PER  PSY   6   VD/20  Training a horse
+Falconry            ooo   PER  PSY   6   D/15   Training a falcon
+Fire-building       o     INT  INT   2   A/10   Building a fire without f&s
+Foraging            oo    PER  INT   4   D/15   Finding a "meal"
+Hunting             oo    PER  PER   4   A/10   Shooting enough for a "meal"
+Hydrology           oo    PER  INT   4   A/10   
+Survival            oooo  WIL  INT   8   A/10   Finding shelter during storm
+Tracking            oooo  PER  INT   8   VD/20  Finding a 4 day old trail
+Weather sense       ooo   PER  PSY   6   D/15   Predicting next day's weather
+
+SOCIAL SKILLS
+
+Bardic influence    ooo   AUR  PSY   6   D/15   
+Bribery             ooo   AUR  PER   6   D/15   Bribing a guard
+Dragonshah          oo    INT  INT   4   E/5    
+Drinking            oo    FIT  WIL   4   A/10   
+Eating              oo    FIT  WIL   4   A/10   
+Etiquette           oo    AUR  PSY   4   A/10   Acting courteously
+Gambling            oo    DEX  PSY   4   D/15   
+Haggling            o     AUR  PSY   2   D/15   Getting an offer accepted   
+Heroic Inspiration  oooo  PSY  AUR   8   D/15   
+Interrogate         ooo   AUR  PSY   6   VD/20  Getting confession from WIL 0
+Oration             oooo  AUR  PSY   8   D/15   Successful speech to lg aud.  
+Streetwise          oo    PER  PSY   4   D/15   Obtaining "street" info
+Trading             ooo   AUR  PSY   6   D/15   Getting a trade accepted
+Truthtell           oooo  PER  PSY   8   E/30   Recognizing a lie
+
+SUBTERFUGE SKILLS
+
+Detect traps        ooo   PER  INT   6   D/15   Detecting a needle trap
+Evade pursuit       oo    AGI  INT   4   VD/20  Losing pursuit (non-trackers)
+Forgery             oooo  DEX  INT   8   VD/20  Copying an official document
+Move quietly        oooo  AGI  AGI   8   D/15   Moving without armor
+Open locks          ooo   DEX  INT   6   D/15   Opening standard locked door
+Pick pockets        ooo   DEX  PER   6   D/15   Pulling coin purse, lg crowd
+Reading lips        oooo  PER  INT   8   D/15   Deciphering speech, clear view
+Remove traps        oooo  DEX  INT   8   D/15   Removing a needle trap
+Set snares          oo    DEX  INT   4   D/15   Setting a foot snare
+Shadowhide          ooo   PER  AGI   6   VD/20  Medium shadow cover
+
+* Values listed in this column are for the optional UP rule found in
+  section 4.3. If this rule is not being used then UP is either Impossible
+  (IMP) or 5.
+
+2.1.1 Artistic Skills
+---------------------
+
+Acting
+------
+
+Disguise
+--------
+Confers the ability to alter one's general appearance in order to avoid
+identification and deceive opponents. Encompasses alteration of height,
+weight, posture and/or facial and body features. Often combined with the
+acting skill.
+
+Musical instrument
+------------------
+Confers proficiency in an instrument of choice.
+
+Ventriloquism
+-------------
+Confers the seeming ability to project one's voice so that it appears to
+emanate from inanimate objects, other people, or unusual locations. Good for
+party tricks and for starting ale-house brawls.
+
+
+2.1.2 Athletic Skills
+---------------------
+
+Acrobatics
+----------
+Confers the ability to swing from a chandelier, somersault through a stained
+glass window, and land on one's horse, ready to make a getaway. Can be used
+in combat to dodge or reduce the effects of a blow.
+
+Climbing
+--------
+Lets a character scale vertical and near vertical surfaces such as smooth
+walls and rough cliff-faces. Harder with slippery or featureless surfaces or
+if burdened with accoutrements. Often combined with the falling and medicine
+skills :)
+
+Contortion
+----------
+Enables the manipulation of one's body in order to move through small
+openings, hide in absurdly small containers or edifices, and escape from
+bonds.
+
+Endurance
+---------
+Enables prolongation of application with regard to physically demanding
+and/or mentally draining tasks. A swimmer nears exhaustion towards the end
+of long swim; they apply their endurance skill, and if successful, can
+continue swimming anew, as if refreshed for half as long again. Successive
+uses of the skill increase task difficulty and reduce prolongation span.
+
+Falling
+-------
+Enables the reduction of falling damage by such methods as slowing the rate
+of descent by incidental surface contact, harm minimising impact postures,
+and "dodging the spikes/aiming for the soft bits."
+
+Juggling
+--------
+Confers an ability to manipulate balls and other objects primarily for
+entertainment purposes. Subsumes minor sleight-of-hand techniques.
+
+Jumping
+-------
+Confers a proficiency at spanning sudden drops such as those encountered
+during rooftop chases or across mountain gorges, ready leaps onto elevated
+stations such as tavern tables and desparation jumps out of first or second
+story abodes.
+
+Running
+-------
+Through a combination of running and power-walking, enables movement at
+twice the normal rate for a fixed duration. A period of rest and
+recuperation is required at the end of such exertion.
+
+Swimming
+--------
+Confers the ability to float upon deep water and to traverse same in a
+limited fashion. Heavy accoutrements, exhaustion, wounds, cold water, and
+high waves make things harder.
+
+Tightrope walking
+-----------------
+Enables safe transition along a strong rope strung between two points or any
+similarly narrow and (generally) high-up path.
+
+
+2.1.2 Craft Skills
+------------------
+
+Agriculture
+-----------
+[Includes related fields such as horticulture]
+
+Armourer
+--------
+Enables the construction and repair of metal, mesh and/or material armour.
+
+NB: historically spans the trades of Armourer, Malemakre, Linen Armourer,
+Heaumer (helmets), and Targeter (shields) 
+
+Blacksmithing
+-------------
+Enables the working of iron to produce and repair domestic and agricultural
+items.
+
+Bowyer
+------
+Enables the construction and repair of bows, x-bows, arrows, and arrowheads.
+
+NB: historically spans the trades of Bowyer, Crossbow Makre, Fletcher
+(arrows), Arrowsmith (arrowheads), and Stringer (bow strings). 
+
+Cooking
+-------
+Enables the preparation of divers foods including flesh-meat and poultry,
+pasties, and confections.
+
+NB: Historically spans the trades of Cook, and Confectioner.
+
+Fishing
+-------
+Enables the use of rod, net, and weir to catch a wide variety of species
+including pike, carp, trout, eels, catfish, lampreys and crabs. 
+
+Leatherworking
+--------------
+
+Medicine 
+--------
+[Includes First Aid]
+Confers the ability to attenuate pain, stop bleeding, and prevent further
+injury as a result of cuts, bruises, abrasions, burns, broken and sprained
+limbs, bites and stings.  
+
+Mining
+------
+Confers a knowledge of ore prospecting, geological surveying, and extraction
+techniques and hazards.
+
+Pottery
+-------
+Enables the working and firing of clay pieces to produce glazed and painted
+jars, pots and tiles.
+
+Rope use
+--------
+
+Stonemason
+----------
+Enables the shaping and dressing of stones used in the construction of
+houses, towers, and castles.
+
+Weaponsmithing
+--------------
+Enables the construction and repair of knives, swords and miscellaneous weapons.
+
+NB: Historically spans the trades of Blader/Bladesmith (blades), Cutler or
+Swordsmith/Sword-Cutler (handles), Sheather (sheath/scabbard), Weaponsmith
+(everything else bar knives, bows, and swords).
+
+
+2.1.3 Knowledge Skills
+----------------------
+
+Ancient History
+---------------
+Confers an academic type knowledge of a past civilisation ("Atlantis") or a
+more generalised knowledge of a specific period of history (4th Century A.D.).
+
+Appraising
+----------
+Enables the considered determination of the value of a range of curiosa
+including objets d'art, jewelry, and collectibles. Easier if the item in
+question can be handled; harder if applied by sight or by description or
+from drawing alone.
+
+Botany
+------
+Confers knowledge of plants, lichens, flowers, trees, vegetables, and fruits.
+
+Cartography
+-----------
+Allows one to make accurate map from topographical measurements. Also confers
+the ability to make reliable maps while traveling a region or visiting a 
+building.
+
+Cryptography
+------------
+Confers proficiency in the field of codes, ciphers, and code-breaking.
+
+Engineering
+-----------
+Confers knowledge of design and construction principles especially those of
+a public utility nature such as bridges, roads, aqueducts, harbours, and
+drainage works. Military Engineering concentrates on the construction of
+military works (including engines of destruction) for attack or defence.
+
+Geographie
+----------
+Confers knowledge of matters concerning the description of a world's
+surface, its form and physical features, natural and political divisions,
+climate, resources, and populations of various countries.
+
+Heraldry
+--------
+Confers knowledge of the etiquette of chivalry, including the genealogies
+and armorial bearings of noble families, laws of succession, and orders of
+precedence.
+
+Herbalism
+---------
+Confers a knowledge of the medicinal properties of herbs and plants.
+
+Identify magic
+--------------
+Subsumes a general knowledge of the reputed origin and history of magical
+artefacts. Enables one so learned to recognise such items and to speculate
+as to their application and usefulness.
+
+Language
+--------
+Confers knowledge of a verbal communication medium whether ancient, modern,
+or esoteric.
+
+NB: Dead and forgotten languages tend to have greater training requirements
+and higher TD ratings.
+
+Local History
+-------------
+Confers a detailed knowledge of the development, stories, and events
+surrounding a thorp, county, province or region; the smaller the area, the
+more detailed the knowledge. Extends to such things as notable battlefields,
+regional politics, rumours, scandals, flood, fire and drought, lost
+treasures and the like.
+
+Metallurgy
+----------
+Confers a knowledge of metals and their behaviour under stress. Enables the
+identification of most types by virtue of familiarity with their physical
+characteristics.
+
+Navigation
+----------
+The ability to find one's position using the sun/stars, currents, ...
+
+Read/write
+----------
+Confers the ability to understand and prepare written communication mediums. 
+
+Species enemy
+-------------
+Confers an intimate knowledge of the behaviour, anatomy, strengths and
+weaknesses of a specified class of creatures such as giants or dragons or
+orcanthropoids. 
+
+Spelaeology
+-----------
+Confers a knowledge of caving techniques including familiarity with basic
+underground features and hazards.
+
+Spellcraft
+----------
+
+Teratology
+----------
+Confers a knowledge of monsters and their characteristics including diet, 
+powers (actual and reputed), activity cycles, friends, enemies, and habitat. 
+
+Theology
+--------
+Confers a general knowledge of the more significant of a world's religions.
+Includes creation and world building lore, deity virtues and spheres of
+influence, liturgical rites and practices, notable heroes, orders and
+authorities, sanctions, holy days and places, and religious festivals.
+
+Tribal memory
+-------------
+A character with this skill can neither read nor write but has exceptional
+powers of memory. They can recall the exact topography of places they have
+visited, draw an accurate map of a five-thousand mile route, or recite
+three-thousand-line epics of poetry.
+
+Zoology
+-------
+Confers a knowledge of natural animals and their characteristics including
+diet, behaviour, activity cycles, friends, enemies, and habitat.
+
+
+2.1.4 Movement Skills
+---------------------
+
+Direction sense
+---------------
+Confers the ability to determine true north through a combination of
+familiarity with heavenly aspects, sensitivity to geomagnetic flux lines,
+and natural psychic affinities. Harder during the day, on occluded nights,
+and when underground.  
+
+Riding (airborne)
+----------------- 
+Enables the riding of beasts of the air for rapid and safe conveyance.
+
+Riding (land)
+-------------
+Enables the riding of beasts of burden and conveyance over lands both clear
+and rough, in a safe and comfortable fashion. 
+
+Seamanship
+----------
+Confers a familiarity of working life aboard a water borne vessel and the
+practices and hazards of such a calling.
+Enables the safe passage of a water-borne ship through doldrum and tempest
+by virtue of familiarity with the heavens and the vagaries of wind and
+current.
+
+
+2.1.5 Nature Skills
+-------------------
+
+Animal Training
+---------------
+Enables the training of domestic animals and beasts so as to obey
+instructions and learn specified routines.
+
+NB: at higher TD levels can be used to train semi-wild and wild animals and
+at the heights of the art, confer rudimentary speech in the more intelligent
+and cooperative types.
+
+Falconry
+--------
+Confers knowledge of the art of the keeping and training of hawks and like
+birds of prey.
+
+Fire-building
+-------------  
+Confers the ability to start a small fire suitable for camping purposes.
+Ignition methods include eye-glass, flint and steel, and simple fricative.
+Difficulty varies according to environment and atmospheric conditions. 
+
+Foraging
+--------
+Enables survival off the land by virtue of familiarity with natural food and
+water sources, and their extraction/safe preparation methodologies.
+
+Hunting
+-------
+Confers the ability to track and bag beasts of the hunt such as bears, wild
+boar, deer, foxes, hares, grouse, wild duck, and geese, by virtue of
+familiarity with their habitat, behaviour, and anatomy.
+
+Hydrology
+---------
+Confers the ability to locate sources of fresh water above and below ground
+and to identify tainted holdings.
+
+Survival
+--------
+Each survival skill conveys survival ability based on location/climate.
+Examples include Woodlands, Desert, Mountains, Arctic etc. Survival
+allows a character to build shelter, find food and water, etc...
+
+Tracking
+--------
+Confers the ability to track all forms of ground based creatures. 
+
+Weather sense
+-------------
+Enables the anticipation of forthcoming meteorological phenomena.
+
+
+2.1.6 Social Skills
+-------------------
+
+Bardic influence
+----------------
+Facilitates the mood alteration of a passive listener or group of people
+through song, melody, humour and/or tragedy.
+
+NB: at higher TD levels can be used to invoke heroic inspiration, counter
+the effects of sirens and the like, and heal solely by the purity of voice
+and/or instrument.
+
+Bribery
+-------
+Facilitates the circumvention of cumbersome laws, the cooperation of agents
+of inspection, and the ready consideration of petitions and entreaties and
+the like. Minimises the consequences of a rebuff.
+
+Dragonshah
+----------
+A boardgame analogous to chess. Played throughout the known worlds, often
+for agreed stakes.
+
+Drinking
+--------
+Subsumes a good knowledge of alcoholic beverages. Enables one to drink those
+not so skilled, under the table. 
+
+Eating
+------
+Confers an epicurean knowledge of food and wine. Depending on one's bent can
+also be used to out-gross those without the skill, in pig-out competitions.
+
+Etiquette
+---------
+
+Gambling
+--------
+Confers the ability to master games of chance either by "reading the odds"
+or by subtle manipulation/substitution of game equipment and paraphernalia. 
+
+Haggling
+--------
+
+Heroic Inspiration
+------------------
+
+Interrogate
+-----------
+This skill is used to extract special information through the use
+indiscriminate physical and mental persuasion. 
+
+Oration
+-------
+Enables the conveyance of ideas and concepts to groups of people ranging
+from small assemblies to raucous multitudes. Often used (and abused) by
+religious leaders and holders of public office, whether benign or corrupt,
+prospective or incumbent.
+
+Streetwise
+----------
+Confers familiarity with the ways of the street. Enables neutral interaction
+with members of urban underclasses, the location of discrete accommodation
+and food sources, and access to street knowledge, strongarms for hire,
+outlets for the acquisition and disposal of illicit or "borrowed" property,
+and similar questionable activities.
+
+Trading
+-------
+
+Truthtell
+---------
+Enables one to tell when a human, demi-human, or humanoid is lying by
+watching the subject's eyes, breathing, and so on. 
+
+
+2.1.7 Subterfuge Skills
+-----------------------
+
+Detect traps
+------------
+Enables the detection of mechanically based traps: whether a small poisoned
+needle in a jewelry box or a pressure plate activated falling block in a
+passage. The character assays the item/area in question and is able to
+detect small irregularities in construction or tell-tale differences in
+contrast or surface homogeneity. Higher proficiency levels confer a limited
+ability to sense temperature inconsistencies and magical augmentation
+emanations.
+
+Evade pursuit
+-------------
+
+Forgery
+-------
+Enables the production of facsimile documents, forged artwork, and artifical
+imitations of valuable stones and items of jewellery. 
+
+Move quietly
+------------
+Facilitates movement which avoids the rustle of clothing and the padding of
+footsteps. Good for sneaking up on guards and sentries.
+
+Open locks
+----------
+Confers the ability to defeat locks and like security devices by
+manipulating their mechanical componentry.
+
+Pick pockets
+------------
+Confers the ability to extract baubles and the like from the pockets and
+purses of unsuspecting marks.
+
+Reading lips
+------------
+Enables the discernment of what is being said by the observation and
+interpretation of lip motion. Useful across a crowded room if discretion is
+required.
+
+Remove traps
+------------
+
+Set snares
+----------
+
+Shadowhide
+-----------
+Enables the observation of goings-on from a position of concealment such as
+amidst a naturally camouflaged field or from within the depths of urban
+shadows. Can avoid house-to-house and all points searches by moving
+surreptitiously from hidey hole to darkened corner.
+
+-----------------
+2.2 Combat Skills
+-----------------
+
+2.2.1 Combat Styles
+-------------------
+
+One of the fundamental premises behind the DNET combat system is that one's
+fighting style is more important than the actual weapon used.  A fighter used
+to fighting with a broad sword and a shield will find it much easier to fight
+with a bastard sword and a shield than to fight with a broad sword alone.  His
+combat reflexes are tuned to certain strike sequences relying on the shield
+to parry blows.  For him, fighting without the shield means developping new
+strike sequences, something that is not always easy to do in the middle of
+a melee.
+
++--------------------+------+-----+-----+----+----+-------------------------+
+|                    |  EP  | Attribute |    |    |                         |
+| Style Skill Name   | Cost | Tal | Adv | AM | DM | Special Characteristics |
++--------------------+------+-----+-----+----+----+-------------------------+
+|                    |      |     |     |    |    |                         |
+| LONG RANGE STYLES  |      |     |     |    |    |                         |
+|                    |      |     |     |    |    |                         |
+| Archery            |  4   | PER | DEX |    |    | extreme, 0 def          |
+| Cross Bows         |  2   | PER | DEX |    |    | extreme, 0 def, slow ROF|
+| Thrown Weapons     |  3   | DEX | PER |    |    | near, no defenses       |
+|                    |      |     |     |    |    |                         |
+| MELEE STYLES       |      |     |     |    |    |                         |
+|                    |      |     |     |    |    |                         |
+| Articulated W.     |  4   | AGI | AGI | +1 |    | entangle, +2 disarm     |
+| Articulated W.     |  5   | AGI | AGI | +1 | *  | shield bonus/bash       |
+|   & Shield         |      |     |     |    |    | entangle, +2 disarm     |
+| Bolas, Whips,      |  3   | DEX | AGI |    |    | trip/entangle, 0 def    |
+|   Ropes, Nets      |      |     |     |    |    | +3 disarm               |
+| Close Weapons      |  2   | DEX | AGI |    |    |                         |
+| Close W. & Shield  |  3   | DEX | AGI |    | *  | shield bonus/bash       |
+| Dual Weapon        |  4   | AGI | AGI | +2 | -1 |                         |
+| Fencing            |  5   | DEX | AGI | +2 |    | DEF Fencing/Close only  |
+| One-Handed Weapons |  3   | AGI | AGI |    |    |                         |
+| One-Handed Weapons |  4   | AGI | AGI |    | *  | shield bonus/bash       |
+|   & Shield         |      |     |     |    |    |                         |
+| Polearms           |  4   | AGI | AGI | +1 | -1 | 2nd rank, fend          |
+| Staves             |  2   | AGI | AGI |    |    |                         |
+| Thrusting Weapons  |  3   | PER | AGI |    |    | 2nd rank, fend          |
+| Thrusting Weapons  |  4   | PER | AGI |    | *  | shield bonus/bash       |
+|   & Shield         |      |     |     |    |    | 2nd rank, fend          |
+| Two-Handed Weapons |  3   | STR | AGI |    | -2 | 2nd rank                |
++--------------------+------+-----+-----+----+----+-------------------------+
+*: see style description
+
+Table Description
+-----------------
+EP Cost - This is the training cost associated with the skill
+Attribute Tal - The attribute which forms the basis for using this skill.
+                (i.e. The attribute acts as a modifier for use of the skill
+                                in the targeting equation.)
+Attribute Adv - This attribute is used as a modifier for advancement of
+                the skill.
+AM - Attack modifier
+DM - Defense modifier
+
+Special Characteristics
+-----------------------
+
+Range: Close (0 - 1 m; actually engaged in close combat)
+       Near (1 - 10 m; engaged or able to move to engage this round)
+       Far (11 - 100 m; not in melee range, but probably in missile weapon
+                        range)
+       Extreme (> 100 m; out of all but the longest range missile weapons)
+
+2nd rank: extended weapon reach to attack opponents from a distance, as from
+  behind a line of friendly shield bearers.
+
+Fend: Basically Fend keeps opponent with shorter weapon at a distance unable
+  to attack.  Opponent who loses against Fend either cannot attack or takes
+  automatic hit at full damage (maximum for thrusting weapon and STR bonus).
+
+  A Fend can be started if an opponent is outside of Close range at the start
+  of a combat round. Otherwise, a successful Fend means that an opponent who
+  is at Close range is unable to attack in the next round. A successful Fend 
+  must occur in each subsequent round to keep the opponent at bay.
+
+Entangle: entangle limbs.  A successful attack will entangle the limbs of the
+  defender, unless an AGI check against a TD equal to the attacker's total roll 
+  is made by the defender. The attacker must specify that he is trying to
+  entangle during the declaration phase.
+
+Trip: entangle legs and trip opponent.  A successful attack will entangle the
+  legs of the defender, unless an AGI check against a TD equal to the 
+  attacker's total roll is made by the defender. The attacker must specify 
+  that he is trying to trip during the declaration phase.
+
+Shield bonus: +1 to +5 defense bonus depending on the type of shield
+
+Shield bash: ability to use shield as a weapon.  Blow causes 1d6 + 1 point per
+  size category of the attacker + STR of attacker.  Defender is knocked off
+  his feet unless a successful AGI check against a TD equal to the attacker's 
+  total roll is made.
+
+DEF Fencing/Close only: Defense against Fencing and Close styles only.
+
+---- 2.2.1.1 Long Range Styles ----
+
+Archery
+-------
+EP Cost: 4
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Extreme Range, No Defenses
+Weapons allowed: Any (non-cross) bow
+Description: ROF is generally one arrow per round.
+
+Cross Bows
+----------
+EP Cost: 2
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Extreme Range, No Defenses, slow Rate of Fire
+Weapons allowed: All crossbows
+Description: ROF will be determined by weapon and STR.  High STR crossbow
+  weapons may only allow occasional fire 1/3 rounds to 1/10 rounds.  If there
+  is a 1/1 rate of fire, damage is minimal e.g. per dagger.
+
+Thrown Weapons
+--------------
+EP Cost: 3
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Near Range
+Weapons allowed: Any weapon which can be thrown. Effectiveness is greatly
+  limited with weapons that were not designed to be thrown. Weapons designed
+  to be thrown -- axe, knives, boomerang, darts, javelin, discus, etc.
+Description: ROF is 1 per round if the weapon is appropriately carried on the
+  body (at girdle or similar -- not in pack).  When throwing into a melee
+  situation, ROF is reduced to 1/2 rounds or roll randomly for target.
+
+---- 2.2.1.2 Melee Styles ----
+
+Articulated Weapons
+-------------------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Entangle, +2 disarm
+Weapons allowed: Any articulated weapon
+Description: Leveraged weapons (like a flail) are harder to use than a more
+  straightforward weapon. This covers all such weapons, one or two handed,
+  when used without a shield. If a shield is used, a penalty of -5 is applied
+  to the skill.
+
+Articulated Weapons & Shield
+----------------------------
+EP Cost: 5
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Entangle, +2 disarm, shield bonus, shield bash
+Weapons allowed: Any one handed articulated weapon used with a shield.
+Description: Leveraged weapons (like a flail) are harder to use than a more
+  straightforward weapon. This covers all such one handed weapons, when used
+  with a shield. If no shield is used, a penalty of -5 is applied to the skill.
+  The use of a shield gives a bonus to defense of 2 plus the shield bonus, 
+  which depends on the type of shield (from 1 for a buckler to 5 for a 
+  tower shield).
+  OPTIONAL: Instead of the fixed +2 defense bonus, the Shield Use skill
+  gives a +1 bonus for every 5 levels, i.e. +1 at levels 1 through 5, 
+  +2 at levels 6 through 10, +3 at levels 11 through 15, ...
+  
+Bolas/Whips/Ropes/Nets
+----------------------
+EP Cost: 3
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: No Defenses
+Weapons allowed: Bolas, whips, ropes and nets
+Description:
+
+Close Weapons
+-------------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Close Range
+Weapons allowed: Any weapon with a reach of 0, such as knives, daggers, brass
+  knuckles, etc.
+Description: Opponents must be at close range. If not they can FEND. If a 
+  shield is used, a penalty of -5 is applied to the skill.
+
+Close Weapons & Shield
+----------------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Close Range, shield bonus, shield bash
+Weapons allowed: Any weapon with a reach of 0, such as knives, daggers, brass
+  knuckles, etc.
+Description: Opponents must be at close range. If not they can FEND. If no 
+  shield is used, a penalty of -5 is applied to the skill. The use of a shield 
+  gives a bonus to defense of 2 plus the shield bonus, which depends on the 
+  type of shield (from 1 for a buckler to 5 for a tower shield).
+  OPTIONAL: Instead of the fixed +2 defense bonus, the Shield Use skill
+  gives a +1 bonus for every 5 levels, i.e. +1 at levels 1 through 5, 
+  +2 at levels 6 through 10, +3 at levels 11 through 15, ...
+
+Dual Weapon
+-----------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: +2 Attack Skill, -1 Defense Skill
+Weapons allowed: Any 2 non-articulated weapons which can be wielded with
+  one hand with a reach of 1 or less.
+Description:
+Comments: minus on defense, or limit defense as in previous post. (i.e.
+  can not defend against weapons more than one `class' larger than secondary
+  weapon without loosing attack. Limit weapons to those smaller than medium
+  with respect to character size/strength.
+
+Fencing
+-------
+EP Cost: 5
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: +2 Attack Skill, Fencing defense can only occur against Fencing and
+  Close Weapons. Against other Styles, reduce DEF to 1.
+Weapons allowed: Rapier, Sabre, Dagger, Epee, foil
+Description: Parry repost style fighting with light weight weapons -- edge or
+  point attacks. This is not for unbalanced weapons like Axe or Mace.
+
+One-handed Weapons
+------------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special:
+Weapons allowed: Any non-articulated weapon which can be wielded with one
+  hand with a reach of 1 or 0.
+Description: If a shield is used, a penalty of -5 is applied to the skill.
+
+One-handed Weapons & Shield
+---------------------------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: shield bonus, shield bash
+Weapons allowed: Any non-articulated weapon which can be wielded with one
+  hand with a reach of 1 or 0.
+Description: If no shield is used, a penalty of -5 is applied to the skill.
+  The use of a shield gives a bonus to defense of 2 plus the shield bonus, 
+  which depends on the type of shield (from 1 for a buckler to 5 for a 
+  tower shield).
+  OPTIONAL: Instead of the fixed +2 defense bonus, the Shield Use skill
+  gives a +1 bonus for every 5 levels, i.e. +1 at levels 1 through 5, 
+  +2 at levels 6 through 10, +3 at levels 11 through 15, ...
+
+Polearms
+--------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: +1 Attack Skill, -1 Defense Skill, 2nd rank, fend,
+         3rd rank at -3 on Attack Skill (if formation and length avail.)
+Weapons allowed: Halbards, poles with ax, blade, pick, or exotic ends of
+  reach 2 to 2.5.
+Description: Pole arms are commonly swung, having blade or pick. They have a
+  higher moment of inertia than two-handed weapons. They also have some closer
+  grip style that allows some parry action with the either end ala quarter
+  staff. Most wielders of pole arms do not like to use that style, prefering
+  to use weapon from second rank. If the weapon has a spear point, it may also
+  be used in Thrusting Weapons style.
+
+Staves
+------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special:
+Weapons allowed: All staves
+Description:
+
+Thrusting Weapons
+-----------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: 2nd rank, fend
+Weapons allowed: Any spear weapon with a reach of 2 or more. Includes pike
+  which is a reach 3 spear.
+Description: This to cover spears and such. Thrusting style does not use 
+  nether end for block, but forward shaft. Thrusting style also includes Fend 
+  as an alternative to Attack & Defend. If a shield is used, a penalty of -5 is 
+  applied to the skill.
+
+Thrusting Weapons & Shield
+--------------------------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: 2nd rank, fend, shield bonus, shield bash
+Weapons allowed: Any one-handed spear weapon with a reach of 2 or more. 
+  Includes pike which is a reach 3 spear. (*pike is one-handed?)
+Description: This to cover spears and such. This includes shield use for
+  smaller shields. Thrusting weapon may be one handed with shield. Thrusting
+  style does not use nether end for block, but forward shaft. Thrusting style
+  also includes Fend as an alternative to Attack & Defend. If no shield is 
+  used, a penalty of -5 is applied to the skill.The use of a shield gives a 
+  bonus to defense of 2 plus the shield bonus, which depends on the type of 
+  shield (from 1 for a buckler to 5 for a tower shield).
+  OPTIONAL: Instead of the fixed +2 defense bonus, the Shield Use skill
+  gives a +1 bonus for every 5 levels, i.e. +1 at levels 1 through 5, 
+  +2 at levels 6 through 10, +3 at levels 11 through 15, ...
+
+Two-handed Weapons
+------------------
+EP Cost: 3
+Talent Attribute: STR
+Advancement Attribute: AGI
+Special: 2nd rank, -2 Defense Skill
+Weapons allowed: Any non-articulated weapon which can be wielded with two
+  hands with a reach of 1.5 to 2.
+Description:
+
+2.2.2 Other Combat Skills
+-------------------------
+
+                    Skill Attr.        Default tasks
+Skill name          Diff. Tal  Adv  NSP  TD     Description
+------------------------------------------------------------------------------
+Catch Missiles      D/4   PER  AGI  10   A/10   Catch an incoming spear
+Disarm              D/4   STR  DEX  8    D/15   Make opponent drop weapon
+Dodge               A/3   AGI  AGI  6    N/A    Not applicable
+Evade Missiles      A/3   PER  AGI  6    A/10   Dodge an incoming spear
+
+Catch Missiles
+--------------
+Gives the character a chance to catch missiles, but only if the playersays he 
+will try to do so in the declaration phase. The task difficulties (TD) for the 
+various kind of missiles are given below:
+
+Missile                   TD
+Spear                    D/10
+Axe, dagger, etc         D/15
+Arrow                    V/20 
+Crossbow bolt           VV/25
+
+Disarm
+------
+This skill is used in place of a normal attack to attempt to disarm an 
+opponent. The success check is:
+
+    2d10* + att's skill + STR >= 2d10* + def's STR + def's skill
+
+This skill can be used by both armed and unarmed combatants. Some combat
+styles may have modifiers that are added to your roll when you attempt
+to disarm an opponent.
+
+OPTIONAL: Both opponents can add the mass of their weapon (rounded to
+  the nearest kilogram) to their roll.
+
+Dodge
+-----
+EP Cost: 3
+Talent Attribute: AGI (PER?)
+Advancement Attribute: AGI
+Description:
+The Dodge skill allows the character to attempt to escape blows from two
+opponents for each Dodge action. It can be used in conjunction with the
+Style attack/defenses using the multiple actions mechanism. For example,
+if a fighter wants to attack one opponent and Dodge two others, the
+Style actions (attack and defense) and the Dodge action (evading the blows
+from the two other opponents) will be rolled with a -5 penalty. If the
+dodge skill is used in conjunction with a shield, the bearer can add the
+shield bonus to his defense roll.
+
+Evade Missiles
+--------------
+Allows character to dodge incoming missiles. The player must declare that the
+character will try to do so during the declaration phase. Task difficulties
+are the same as for Catch Missiles.
+
+2.2.3 Unarmed Combat Styles
+---------------------------
+
+I would like to use a minimal list of unarmed combat styles, since it is
+more in the spirit of the current weapon styles.  A well rounded martial
+artist using this list would learn Karate for the hand and foot maneuvers,
+Close Weapons for the usual list of Chinese peasant weapons, Judo for
+the throws, Staff, and One-Handed Weapon skills.
+
++-------------------+------+-----+-----+----+----+---------------------------+
+|                   |  EP  | Attribute |    |    |                           |
+| Style Skill Name  | Cost | Tal | Adv | AM | DM | Special Characteristics   |
++-------------------+------+-----+-----+----+----+---------------------------+
+| Boxing            |  2   | AGI | FIT |    |    | hand, no def vs Wpn       |
+| Brawling          |  3   | STR | FIT |    |    | hand, bash, -5 def vs Wpn |
+| Karate            |  3   | WIL | FIT |    |    | hand, foot, -3 def vs Wpn |
+| Judo/Wrestling    |  3   | WIL | FIT |    |    | hold, throw, no def vs Wpn|
++-------------------+------+-----+-----+----+----+---------------------------+
+
+Boxing
+------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: FIT
+Special: No defence vs weapons
+Weapons Allowed: hand, brass knuckles
+Description: Boxing-ring, or bare-fist style fighting.
+
+Brawling
+--------
+EP Cost: 3
+Talent Attribute: STR
+Advancement Attribute: FIT
+Special: -5 defence vs weapons
+Weapons Allowed: hand, bash
+Description: Barroom brawl style.
+
+Karate
+------
+EP Cost: 3
+Talent Attribute: WIL
+Advancement Attribute: FIT
+Special: -3 defence vs weapons
+Weapons Allowed: hand, foot
+Description: Generic style for basic Eastern martial arts.
+     We may want to limit weapon defences for Brawling and Karate for small
+     and maybe medium size weapons.
+
+Judo/Wrestling
+--------------
+EP Cost: 2
+Talent Attribute: WIL
+Advancement Attribute: FIT
+Special: No defence vs weapons
+Weapons Allowed: hold, throw
+Description: Generic style for Western-style wrestling and Eastern-style Judo
+ 
+2.4 Magic Skill List
+----------------
+
+--- 2.4.1 Sources ---
+
++-----------------------------+-------+-----+-----+-------------------------+
+|                             | Cost  | Ta* | Adv | Compatible Conductor(s) |
++-----------------------------+-------+-----+-----+-------------------------+
+| Celestial Power of Darkness | ooo   | INT | INT | the Celestial Foci      |
+| Celestial Power of Daylight | ooo   | INT | INT | the Celestial Foci      |
+| Elemental Power of Energy   | ooo   | INT | INT | the Elemental Foci      |
+| Elemental Power of Entropy  | ooo   | INT | INT | the Elemental Foci      |
+| Kundalini                   | ooooo | WIL | WIL | the Chackras            |
+| Spirit of [spirit]          | ooo   | AUR | AUR | Communion with Spirits  |
+| Doctrine of [deity]         | oooo  | PSY | PSY | Piety to [same deity]   |
++-----------------------------+-------+-----+-----+-------------------------+
+*All Sources have a NSP of Impossible.
+
+                              Table 2.4.1
+
+Celestial Power of Darkness
+     The Celestial Power of Darkness is one of the two Celestial Powers, those
+     source skills used by Celestial Magi. This particular source allows a
+     magus to call upon 'negative' magical energy to use with the Celestial
+     Foci, those conductor skills compatible with the Celestial Powers and used
+     by Celestial Magi. Darkness, when used with a Celestial Focus, destroys or
+     diminishes that which falls under the purview of that Focus. The Power of
+     Darkness is not an evil power, as many seem to believe, it is simply one
+     of the destructive powers of the universe.
+
+Celestial Power of Daylight
+     The Celestial Power of Daylight is the 'positive' Celestial Power. It is
+     used to build up and enhance in ways depending upon which aspect of the
+     power the magus chooses to focus into form and reality.
+
+Elemental Power of Energy
+     The Power of Energy plays the role for Elemental Magi that the Power of
+     Daylight plays for Celestial Magi. This power creates, enhances, and
+     builds up the elements.
+
+Elemental Power of Entropy
+     The Power of Entropy is the opposite of the Power of Energy. Its role is
+     similar to that of the Power of Darkness of the Celestial Magi. It tears
+     down, destroys, and subdues the elements under its control. It is the
+     unrelenting force in the universe that will not rest until all is
+     destroyed. Again, this Power is not evil inherently, only when used for
+     evil deeds.
+
+Kundalini
+     Kundalini is the raw energy which exists in the Astral Plane. The Psionic
+     draws upon Kundalini and uses it through different Chakras (the associated
+     conductors) to achieve different effects. The Psionic is more versatile
+     than the Magi, but less powerful at manipulating his reality. None surpass
+     the Psionic's mastery of the mind, however.
+
+Spirit of [spirit]
+     The Spirit world is the domain of the Shamanic spell-caster. For each type
+     of Spirit the Shaman wishes to contact and commune with, the Shaman must
+     have a Source skill. After the Spirit has been contacted using this Source
+     skill, the Shaman must commune with the Spirit using the Communion
+     conductor skill to attempt to explain to the Spirit what is desired, and
+     to convince the Spirit to do as it is asked.
+
+Doctrine of [deity]
+     The power of the gods is available to those who call themselves Priests.
+     Priests worship one (or, rarely, more) deity who answers his Priests'
+     prayers and requests in the form of Miracles (spells). In order to have
+     one's prayers heard by a deity, the Priest must have a skill in that
+     deity's Doctrine. This skill represents how well the Priest knows the
+     teachings and requirements of the deity necessary to get part of the
+     deity's attention. The higher the character's skill in Doctrine, the
+     greater portion of the deity's attention is gained. Once the Priest has
+     successfully contacted the deity with a Doctrine skill, he must pray the
+     the deity does as he wishes, the success of which is determined by the
+     Priest's Piety skill to that deity.
+
+--- 2.4.2 Conductors ---
+
++---------------------------+-------+-----+-----+--------------------------+
+|                           | Cost  | Ta* | Adv | Compatible Source(s)     |
++---------------------------+-------+-----+-----+--------------------------+
+| Earth Elemental Focus     | oooo  | INT | INT | the Elemental Powers     |
+| Fire Elemental Focus      | oooo  | INT | INT | the Elemental Powers     |
+| Air Elemental Focus       | oooo  | INT | INT | the Elemental Powers     |
+| Water Elemetnal Focus     | oooo  | INT | INT | the Elemental Powers     |
+| 5th Elemental Focus       | oooo  | INT | INT | the Elemental Powers     |
+| Aurora Celestial Focus    | oooo  | INT | INT | the Celestial Powers     |
+| Comet Celestial Focus     | oooo  | INT | INT | the Celestial Powers     |
+| Firmament Celestial Focus | oooo  | INT | INT | the Celestial Powers     |
+| Light Celestial Focus     | oooo  | INT | INT | the Celestial Powers     |
+| Moon Celestial Focus      | oooo  | INT | INT | the Celestial Powers     |
+| Stars Celestial Focus     | oooo  | INT | INT | the Celestial Powers     |
+| Sun Celestial Focus       | oooo  | INT | INT | the Celestial Powers     |
+| Astral Chackra            | ooo   | WIL | WIL | Kundalini                |
+| Body Chackra              | ooo   | WIL | WIL | Kundalini                |
+| Dream Chackra             | ooo   | WIL | WIL | Kundalini                |
+| Emotion Chackra           | ooo   | WIL | WIL | Kundalini                |
+| ESP Chackra               | ooo   | WIL | WIL | Kundalini                |
+| Mind Chackra              | ooo   | WIL | WIL | Kundalini                |
+| Reality Chackra           | ooo   | WIL | WIL | Kundalini                |
+| Temporal Chackra          | ooo   | WIL | WIL | Kundalini                |
+| Piety to [deity]          | oooo  | AUR | AUR | Doctrine of [same deity] |
+| Communion with Spirits    | ooooo | PSY | PSY | Spirit of [any spirit]   |
++---------------------------+-------+-----+-----+--------------------------+
+*All Conductors have a NSP of Impossible.
+
+                              Table 2.4.2
+
+Elemental Earth Focus
+     The earth is the focus of physical power. This aspect of energy affects
+     all things with solid physical form. With this power the magus may raise
+     up great mountains, or bring them crashing down upon his foes. The earth
+     aspect of entropy allows the magus to destroy the physical. With it he can
+     disintegrate physical objects and beings, or create doorways where none
+     were before.
+
+Elemental Fire Focus
+     Fire is the form of true power. Fire is heat, warmth, life, and energy. By
+     mastering the aspect of fire, a magus can hurl balls of flame towards his
+     enemies, or keep warm on a cold winters night. He can cause forest-fires
+     in the dead of winter, or light a dark passage. Using entropy, the magus
+     can hurl balls of ice, or stamp out natural or magical flames, or even put
+     out the fire within each person.
+
+Elemental Air Focus
+     The focus of air is the ethereal aspect of the elemental powers. It
+     controls winds and gravity. With the energy of air, a magus can fly above
+     his enemies, or blow thunderstorms over their heads. The entropy of air
+     can cause suffocation of his enemies, or bring things down to earth.
+
+Elemental Water Focus
+     The water focus is the domain of the seas and the lakes. It has complete
+     control over liquids in all its forms. It can bring water into being for
+     the benefit of the magus, or drown the magus' enemies. It can also create
+     patches of ice, or slippery stones. The entropy aspect of this focus
+     destroys water, soaks it up. This aspect can turn an enemy into parched
+     dry bones instantly, or dry up a lake which happens to be in the way.
+
+The 5th Elemental Focus
+     Powerful Elemental Magi have theorized the existence of a 5th Element of
+     unknown properties which could be used with the Energy or Entropy sources
+     of Elemental magic. Unfortunately, no one has yet discovered this elusive
+     Element, or determined its probable nature. Perhaps the sages of DnExotica
+     will, in time, solve this perplexing mystery :). Current theories include
+     the concept of an Element of Nothingness, or Void, an Element of Pure
+     Magic, an Element of Spirit, an Element of the Aether, that which fills
+     the Void, or a Quintessential Element. It is believed that once the 5th
+     Element is discovered, many of the mysteries of Elemental magic will be
+     solved.
+
+Celestial Aurora Focus
+     The aurora, which appears in the northern night sky, is the most beautiful
+     and entrancing of all celestial elements. Through the study of this
+     wondrous effect, magi are able to draw upon and use its ability to charm
+     and entrance the observer. With this focus, the magus may charm an enemy
+     and calm his friends. With the darkness of the aurora, a magus may strike
+     fear into his enemy, remove charmed influences from his friends, and
+     prevent beguiling effects from manipulating himself or others.
+
+Celestial Comet Focus
+     The comet is the messenger of the heavens. Continually moving at blinding
+     speeds throughout the night sky, it is the master of all movement. By
+     studying the properties of the comet, the magus is able to use its
+     movement for himself. With this focus he can instantly move anywhere in
+     the world, or, in combination with the focus of the firmament, he can even
+     move out of this world. The darkness of the comet prevents movement,
+     imprisoning and trapping enemies, and preventing others from coming near.
+
+Celestial Firmament Focus
+     The light of the sky and the heavens above is the study of the firmament.
+     Those magi who strive to understand the magnitude of the firmament, are
+     able to transcend this reality and get a glimpse into other realities of
+     infinite varieties. Through this study, magi can commune with gods or
+     angels or demons. In combination with the field of comet, magi are even
+     able to walk the infinite planes of existence. Through the study of the
+     night sky, the darkness of the heavens, magi are able to block off the
+     conduits through which these inter-planar communion occur. With this
+     discipline, magi can return foreigners to their home realities, and
+     prevent their return, or stop the communication of other magi with
+     extra-planar beings.
+
+Celestial Light Focus
+     Light is purity incarnate. This focus allows the magus to wield true
+     power, without manipulation. With it bolts of pure magical energy can
+     spring forth from the casters hand, or magical effects can be detected or
+     enhanced. The dark allows the magus to cancel the magic of others or
+     inhibit magic.
+
+Celestial Moon Focus
+     The moon is the mistress of mysteries, the lady of the night. Under her
+     pale glow, reality takes on new dimension. By studying the moon, magi are
+     able to use her light to mask reality, to make what isn't really there
+     come to life. With this power, magi can weave strange and powerful
+     illusions of things which only exist by the light of the moon, though the
+     moon does not need to actually be shining for the magus to draw upon her
+     power. Those who study the dark side of the moon, on the other hand, can
+     see through all pretenses and appearances to the stark reality underneath,
+     though the vision is not always a pleasant one. Illusions have no affect
+     on those who wield the power of the dark side of the moon, and all that
+     was once hidden comes clear.
+
+Celestial Stars Focus
+     The stars in their infinite formations hold the knowledge of all that was,
+     all that is, and all that will be. Through the study of starlight, the
+     magus can glean some small inkling into the vastness of the universe and
+     can divine what is and what will come. Through knowledge of the light of
+     the stars, all knowledge comes clear. However, by manipulating the dark
+     stars, magi are able to obscure the meaning the stars hold. They can
+     prevent less powerful magi from discerning particular knowledge, or even
+     misdirect such inquiries.
+
+Celestial Sun Focus
+     The sun is the giver of life, the celestial orb that brings warmth and
+     health to all the realms. Therefore, the sun is the focus of life. The
+     celestial magus who masters the sun aspect of daylight masters life
+     itself. He is capable of healing, or even of bringing those which were
+     dead back to the realms of the living. However, the one who masters the
+     darkness aspect of the sun learn the true meaning of death, and with that
+     knowledge can bring death to others and undo the work of the sun.
+
+Astral Chakra
+     This is the Chakra that allows the Psionic that in addition to the normal
+     capabilities of drawing power from the Astral Dimension, allows the
+     Psionic to also travel into this dimension and to summon creatures from
+     the Astral dimension.
+
+Body Chakra
+     Man is not made of only a mind, but also a physical body. Through the use
+     of this Chakra, the Psionic can utilize the Astral energy to enhance his
+     physical attributes.
+
+Dream Chakra
+     This powerful Chakra allows the Psionic to achieve superhuman feats, as he
+     accomplishes them not in this world, but the world of his dreams. Of
+     course, the unnaturally good is tempered with the unnaturally bad--most
+     Dream powers carry some penalty, as they are under control of the Psionic
+     subconscious, and not his conscious mind.
+
+Emotion Chakra
+     This Chakra deals with the emotional, colorful side of the mind, whereas
+     Mind deals with the cold, logical side of the mind.
+
+ESP Chakra
+     Clairvoyance, reading the future, picking up auras would be included in
+     this Chakra. It would also affect how much the psionic can perceive while
+     in the astral plane.
+
+Mind Chakra
+     The Psionic's most powerful tool is his mind. Utilizing the Chakras of
+     mind allows the Psionic not only to delve deeper into his mind than he
+     normally would be capable of doing, but it also allows him to delve into
+     the mind of others when it is used in conjunction with other Chakras.
+
+Reality Chakra
+     This Chakra is about imposing a Psionic's will over reality. Control over
+     Fire, Air, Water, and Earth would be included in this Chakra. A psionic
+     wouldn't be able to manipulate these elements as well as an elemental
+     magus. An example of this Chakra would be a fire-starter (pyrogenic).
+
+Temporal Chakra
+     This Chakra would be allow the psionic to affect the flow of time and to
+     perceive in things in the future and/or past. Examples of this would be
+     (in conjunction with other Chakras) slowing down metabolism, fortune
+     telling, speeding healing, etc.
+
+Piety to [deity]
+     The Piety skills represent how devout and reverent a character has learned
+     to act towards a particular deity. Because the nature of worship required
+     by separate deities is different, there is a unique Piety skill for each
+     deity. Pragmatically, the Piety skills are what keep Priests on the 'good'
+     sides of their deities. That is to say, the Piety skill helps to convince
+     the deity to act in the best interests of the Priest, after the Priest has
+     gotten part of the deity's attention, instead of, say, killing the priest
+     :)
+
+     Because the Priest must be able to gain a part of the deity's attention
+     before making his request, the Priest must first have at least 1 level of
+     training in the Doctrine skill of a deity before he may be trained in the
+     Piety skill of that deity.
+
+Communion with Spirits
+     The Communion conductor is what allows those who weave Shamanic spells to
+     commune with the denizens of the Spirit world. It is this communion which
+     allows the caster to communicate to the Spirits his or her desires.
+     Without this, the Spirits would be powerless to help the caster. The skill
+     level a caster possesses in the Communion skill represents how capable the
+     caster is of communicating complex wishes to Spirits.
+
+     Before using the Communion skill, the caster must first contact the Spirit
+     with which he wishes to commune using the appropriate Spirit skill, and he
+     must, therefore, have some skill in a Spirit skill before gaining training
+     in the Communion skill.
+
+
+-------------------------------------
+3.1.1 How the Universe Formed
+-------------------------------------
+
+How the Corellus universe formed:
+
+In the beginning, there was nothing but Purpose, which had a great purpose
+to fulfill by the end of time. But Purpose was without form, so it called
+into being Necessity. Necessity, being driven by Purpose, brought into form
+the Means by which the purpose could be accomplished. Thus were the gods
+born in harmony. 
+        
+For eons this was the way of things. But over the course of time, it came
+to pass that Purpose changed, and the Means could no longer meet the
+purpose. And so Necessity altered the Means and created the gods, each of
+which had a part to play in the purpose. However, the changing of the
+purpose and the process of altering the Means affected Necessity, which gave
+birth to two new forces -- Order and Chaos. But Order and Chaos worked
+against each other, and thus put the purpose in danger. Once again
+Necessity, acting as the agent of Purpose, intervened and forced balance.
+
+However, the Means (the gods) had become tainted by the influence of Order
+and Chaos and quarreled among themselves. Thus were introduced the qualities
+of jealously, hate, anger, envy, and greed. So too were born love,
+compassion, pleasure, hope, and determination. And so, armed with these new
+emotions (which the gods had not had before), the gods shattered the harmony
+that had infused the purpose. They found themselves at cross-purposes and
+began to fight among themselves.
+
+In the course of these battles, which were terrible indeed, some were slain
+and their essences scattered. These became known as the Lost Gods. fearful
+for both its children and the Purpose it served, Necessity once again
+intervened. This time, it created a world, a place for the gods to rest and
+live in peace.
+
+The gods were content for a time, but Order and Chaos soon spawned a new
+emotion, one which the gods had never before experienced -- loneliness. The
+world was beautiful, certainly, but it was sterile and empty. And thus, the
+gods created the beasts and the trees.
+
+This was good for a time, but the gods were still not satisfied. And so,
+the gods created the intelligent species, each in their own image. Once
+again, the gods were content for a time as each presided over the growth of
+their people. 
+
+As before, however, it was not enough. And so the gods then made the
+greatest of their creations -- the Dragons. Each god made but a very few,
+and each Dragon was unique. Finally the gods were satisfied with what they
+had made. Necessity, too, was pleased, for these things had been foretold
+and were necessary for the purpose.
+
+However, once again Order and Chaos, Necessity's unruly offspring, made
+their presence felt. As before, the gods quarreled, but this time their
+creations were dragged into the fray as well. This war was terrible and
+threatened entire species with extinction. Some of these species were
+crucial to the purpose, so Necessity again took action. As the devastation
+reached a peak and all was nearly lost, a compromise was worked out where
+each god was given great power over certain things in the world. One was
+supreme over war, one over the seas, and another magic, and so on.
+
+As each god assumed their position, the intelligent species sought their
+help and guidance, for they were, after all, their children. Though each
+species maintained a special tie with the god which had created it, new
+ties were forged with the other gods. Those interested in magic, regardless
+of species, followed the deity of magic; those who sought glory in battle
+found strength and courage in the deity of battle; and so on. Old enemies
+are difficult to forgive and forget, however, so each species had its own
+name for the dieties, and in this way convinced themselves that they were
+not consorting with the enemy. 
+        
+Over time, the lines blurred until only a very few realized that the
+deities were the same, but merely had different names. Of course, the fact
+that the deities could alter their form and appearance at will also led to a
+different appearance in each species. In one species, for instance, the diety
+existed as a kindly old man; in another the diety was seen as a happy young
+maiden. The deity, being beyond mortal understanding and comprehension, was
+indeed both.
+
+Thus were born the gods as we know them today --
+
+----------------------------------------------------------------
+3.1.2 Life Essence of Beings
+--------------------
+On the essence of beings:
+
+The following discussion is intended to motivate the actions and abilities of
+beings in the Corellus world. It is not intended to have any direct affects on
+the mechanics of the DNet system. It just tries to provide a framework for how
+spirits and life energy function and what can happen to them.
+
+Some definitions:
+
+Spirit/Soul - The kernel of a beings consciousness. How this kernel is
+reflected in the beings personality ultimately depends on the environment in
+which it is functioning. The removal of the spirit/soul removes any independent
+action from the being. Spirit/Souls can not be created nor destroyed by any
+known force.
+
+Life Energy - The amount of energy a being has to perform their tasks and to
+generally function. It is diminished by normal wear and tear of living,
+injuries, and mental/psychological trauma. Normal sources of restoring energy
+are food and physical and mental aid.
+
+Essence - Basically a spring which replenshishes life energy. Essences are
+similar to sources of magic or sources which the deities use, but much smaller.
+They are typically attached to the spirit/soul.
+
+Discussion:
+In general beings have a pool of energy (Life Energy) and a spring (Essence)
+which helps to restore it. Food helps replenish the pool, but generally doesn't
+provide enough energy for beings to last. Numbers aren't given here, because
+this isn't meant to be used directly in the mechanics, but a being who is
+blocked off from their essence will generally die within a short period of time
+(relative to their lifespan). Some beings supplement their pool with other
+energy in order to survive. (e.g. zombies drain energy from other beings)
+Generally beings can not tap into magical sources to supplement their energy as
+magical energy is too 'raw'. It is possible that priests could tap into their
+deities for energy for a while.
+
+Some beings actually have a negative essence which drains energy from their
+pool. Other beings are able to partially block another beings essence.
+
+When death occurs the spirit, life energy, and essence remain together but
+travel together to a place of judgement. At this place Amar (or 
+someone) separates out the three. The life energy goes to Dem' the
+essence goes to Niam and the spirit/soul destination depends upon
+their faith. If none then they go to Niam. 
+
+The essences and spirit/soul remain with their caretakers for a period of
+time. At a time determined by Necessity a spirit/soul or essence will be
+taken and manifested in a new being.
+
+
+--------------------
+3.2 Events
+--------------------
+
+These are the events which set the backdrop for where the campaign is to
+start. This recent history is divided into epochs that represent major time
+periods which shaped what the current setting is.
+
+
+--------------------
+3.2.1 Epoch 0:
+--------------------
+
+Sylain (magic) creates the weejon on a new land, that holds no others
+of the intelligent species...  She makes a deal with Niam (life) to keep this
+place free of the 'evils' of the other species... Demenateez (death) does
+not like seeing them plotting together and sees this as something that
+could be potentially bad to him in the future...  He calls out to
+Morgrius (plague) to send a plague on the populace.
+
+Weejon had a thriving population and an advanced civilization with the
+capital city with 150,000 people and about 2 million people over the whole
+continent.  Most of the population (90%) is in towns or cities.
+
+The plague strikes and wipes out 90 % of the population (really nasty plague)
+city life and corruption are blamed and deeply planted as bad things.
+following disruption and war reduces population to 25,000.
+
+Population stabilizes at about 15,000 civilization is now tribal in nature
+people are mostly hunter/gathers with a written and oral language
+
+Tribes usually max out at about 50-75 with any more being viewed as
+bordering on 'evil'
+
+Amar (judgement)
+is petitioned by both Sylain and Niam that Morgrius has upset the balance
+by releasing a plague and killing so many weejon...  Demenateez then
+interferes by accusing Sylain and Niam of doing it first by declaring that
+any place be specific to just one form of life, and that Morgrius was
+in fact balancing the acts that they had commited. Deliberations and all
+last several hundred years.
+
+Amar, forced to see the logic in this, declares that no land may be
+specific to just one species of life, and for good or bad they all have
+a right to be in any place...
+
+As such, Amar begins selecting a few other species to send to the
+weejon's land...  Of these the humans are selected to go first...  So a ship
+that holds some humans (probably unknown to them why) is thrown to
+the hardships of the sea and they find themselves washed ashore on the
+weejon's island...
+
+--------------------
+3.2.2 Epoch 1:
+--------------------
+
+During epoch 1, the human population begins to increase rapidly.  The growth
+forces the humans to expand faster into weejon territory.  This results
+in some conflicts with individual tribes now and then, in which the human
+win. During this time the human settlement becomes a small trade center
+for finished goods. Since the Weejons are mostly tribal the only finished
+goods that they have are relics from before the plague. Some of the
+tribes see a good opportunity to trade raw materials for finished goods.
+
+Some of the weejon, who already view human culture as "evil" civilization, are
+rather alarmed by its expansion.  Eventually an ambitious weejon leader
+rises up using the threat of "evil" human culture as a rallying point,
+along with the excuse of some unwarrented attacks by humans on weejons, which
+were further exagerated by the survivors.  This leader manages to unite
+quite a few tribes to try and eradicate the human threat.
+
+Only about 1/3 of the 15,000 Weejon are close enough to be involved
+so the numbers work out to be something like....
+The numbers work out to be something like
+against    neutral   for      humans
+30%          60%     10%       100%
+1500        3000     500       500
+
+Several outlying human farms are razed, and the weejons advance on
+the central city.  Meanwhile, the humans rally to defend the city.
+A major battle ensues, with heavy losses on both sides.  The city's
+fortifications (epoch 1 version) are breached, but the leader becomes
+too bold, and gets trapped and killed inside the walls.  The weejon
+retreat back outside, and the two sides finally agree to cease hostilities
+and make a peace agreement.  The agreement is not at all strong, since
+by the end of the battle, both sides are glad to call it quits, and
+each side goes home declaring itself nonimally the winner.
+
+The 'war' doesn't last long but signifies a change in how the two
+species relate to each other.
+
+Afterwards, the humans vow to be better prepared for any future invasion,
+and rebuild the city fortifications in a greatly strengthened (epoch 2)
+style.  The weejon, without their ambitious leader, return to their
+individual tribes, where they are satisfied with the peace, since the
+humans, recovering from their losses, no longer need to expand into the
+weejon lands and forest.
+
+The humans also give the weejon more respect now, and some tribes even
+increase their trade with the humans, with mutually prosperous outcomes,
+helping to reduce the stigma of human civilization.  Other tribes however,
+continue to hold grudges against the humans, and someday the human
+population will increase and start to expand again...
+
+--------------------
+3.2.3 Epoch 2:
+--------------------
+
+Epoch 2 was generally a time of peace and prosperity
+for the Humans and Weejon until the Elven invasion. 
+
+The Humans did not grow out so much as they did up
+in the sense that their town grew larger and they
+relied more on trade with the Weejon to provide
+raw materials. Ship building was just beginning
+to occur on the scale of riverboats, mostly to
+support increased trade. Some expedition ocean
+ships were built, sent and never heard from again.
+After a rash of fires and other mishaps from magic,
+magic use was limited in the town to those having
+a magic license. Their were stiff penalties for
+those who violated the law.
+
+The Weejon returned somewhat back to normal. A greater
+understanding and friendship with the Humans grew.
+And some tribes actually settled down and took up 
+agriculture and formed small villages.
+
+Towards the end of the second Epoch an influx of
+Goblin refugees started appearing. The refugees 
+were fairly aggressive in taking what they want.
+The Weejon were most affected, and started hunting
+these strangers to keep them away. Some elite
+human troops were also involved in searching for
+the goblins.
+
+As time went on the Goblins settled more to the
+NE part of Corellus.
+
+More troubling were the Weejon refugees from the
+NW, were they carried tales of a huge elven/goblin
+invasion force (2500). These refugees generally
+became adopted by various tribes and were in part
+a catalyst for the formation of two Weejon nations,
+the larger in the SW portion and the smaller in
+the center and eastern part. The other reason
+for the formation of the Weejon nations were the
+elves who were pushing into the inland. As they
+progressed inward from the NW, the Weejon and
+then the Humans started slowing them down.
+After about 30 years the Elves had about a third
+of the continent and were not making any more progress.
+Political forces in the Elven homeland were the
+major reason for the stop. In another 50 years
+the Elves had lost their hold on the central area
+of their empire and the Elven governor held mainly
+the NW coastal areas. The central area had
+become a set of small kingdoms of elves, goblins,
+and weejon (in that order). The Central-Eastern
+Weejon nation now was just the Eastern nation.
+
+--------------------
+3.2.4 Epoch 3
+--------------------
+
+Epoch 3 is a relatively quiet epoch (relative to the previous ones).
+After the Elven advance had been stopped and driven back to an extent
+numerous small kingdoms sprang up in the central part of Corellus.
+The major kingdoms (elven - nw, human -s & se, weejon w & e, goblins -ne)
+all consolidated their power and sought to achieve some stability.
+As stability returned trade began to prosper and towards the end
+of the epoch a renaissance had begun, with an expanding middle class.
+
+Notes on species follows:
+
+Human:
+The human population during this time grew rapidly. The human kingdom
+expanded to the North, gobbling up several of the smaller kingdoms that
+had sprung up where the elves had gone. The church grew in power during
+this epoch and began to directly affect the government. Sentiment in
+the church lately has been pushing to regulate the growing amount of
+magic use by all species.
+
+Weejon:
+The weejons grow even more urban during this time. Although there are
+some who fear large gathering or believe it is wrong, the population
+as a whole is becoming more comfortable. Two large towns have been 
+established in the west and a medium size one has been created in
+the east.
+
+Elves:
+Little is known about what has been happening with the elves. A truce
+has been worked out with the elven govenor. There have been rumors
+that the elven kingdom has left the elven empire, but as there is little 
+communication with the elves this is considered mostly a rumor.
+
+Goblins:
+A confederacy of sorts has arisen out of the major houses. There is still
+much internal strife among the goblins. There is no war between them
+and the weejon, but there are still occasional skirmishes between them.
+They have had little direct contact with the humans, and are still
+very much opposed to the elves. Officially they consider themselves
+at war with the Elves, though not much fighting or advances on either
+side have occurred.
+
+-----------------
+3.3 Species
+-----------------
+These are the major species which PCs will probably originate from. They are
+also the major players on the continent.
+
+-----
+3.3.1 Human
+-----
+Cultures:     Town
+Can be a PC:  Yes
+EP Cost:      0
+Average Ht:   178 cm
+Average Wt:   75 kg
+Lifespan:     70 years
++ Talents:    none
+- Talents:    none
+Body points:  
+Speed:        2 m/s
+
+Innate Gifts:
+   none
+
+Innate Foibles:
+   none
+
+General Description:
+
+-----------------
+Town Culture:
+-----------------
+Skill Packages:
+
+Common skills:
+
+Description:
+
+(this still needs some work)
+
+Men are only allowed to own as many possesions as they can carry. Thus women,
+control all of the real wealth in the society. Men are responsible for heading
+the various professional societies (craftsman, laborers, sailors, soldiers,
+etc) although there are no explicit restrictions on who may participate. Women
+may gain positions of limited leadership in their field, and there is no
+favoritism officially between the sexes, but traditionally only men have filled
+the top spot.
+
+Does this sound roughly fair? i would like distinct but equivalent
+possibilities for each. We can exchange their roles also.
+
+As far as government.
+How about a coucil of sorts. The 4 oldest of each gender forms the council,
+which sees to the everyday running of the town. The council interacts with
+the leaders of the professions and the affluent women. They are resonsible for
+taxing and removing profession leaders, which requires 8 votes. Professions
+elect their own leaders though.  Also part of the council are the leader and 3
+clergy. The leader is the highest ranking member of the council and is
+elected by the people for 5 years, the clergy are all equal and second in
+ranking, they represent deities A, C and Nogris. The leader has an assistant
+who (s)he chooses, while not part of the council, is the leaders successor
+should anything happen to them.  After a leader is finished their terms
+they serve as an advisor to the council for typically a year.
+
+
+Epoch 3
+The human population during this time grew rapidly. The human kingdom
+expanded to the North, gobbling up several of the smaller kingdoms that
+had sprung up where the elves had gone. The church grew in power during
+this epoch and began to directly affect the government. Sentiment in
+the church lately has been pushing to regulate the growing amount of
+magic use by all species.
+
+------
+3.3.2 Weejon
+------
+Cultures:     Tribal, Nation
+Can be a PC:  Yes
+EP Cost:      35
+Average Ht:   61 - 91 cm
+Average Wt:   18 - 27 kg
+Lifespan:     See below
++ Talent:     AGI +2, PER +1, PSY +1
+- Talents:    STR -2, FIT -1
+Body points:  
+ 
+Innate Gifts:
+   blend in with surroundings (+10)
+   night vision (+5)
+   communicate telepathically with bonded animal (+15)
+
+Innate Foibles:
+   eye color betrays mood (-5)
+
+General Description:
+Weejons have long straight brown hair which is just a shade lighter than
+their skin tone.  Most Weejons do not cut their hair.  Like their cousins
+the elves, their eyes are almond shaped and their ears are pointed.  One
+difference, is that a Weejon's eyes change color based on their mood.
+ 
+     Red    - Angry, Threatened
+     Blue   - Sad, Mournful
+     Yellow - Scared, Worrisome
+     Green  - Mischevious
+     Brown  - Normal
+ 
+There is a common phrase "More angry than a red-eyed Weejon".  When a
+Weejon passes away, its eyes turn white except for the pupils.  They are
+lithe and graceful like their elven cousins.
+ 
+Due to their small stature, they are not incredibly strong beings.
+They are, however, very agile.  They can move incredibly fast through
+any terrain and are excellent climbers.
+ 
+In general, the Weejons are a very joyous race.  They enjoy dancing and
+singing and have large festivals with each change of season.  They are
+also encouragable pranksters.  They love to play jokes on unwary 
+travellers passing by or camping in the vicinity of their woodlands.
+ 
+The Weejons can be compared to the wolverine: small but fierce.
+Weejons are very brave and fight with a ferocity belied by there size.  
+Since they are so small, the weapons the use are also small.  Generally, 
+they choose bows, blowguns, small spears, and mini-crossbows.  When in 
+close combat, they will weild two daggers, with one half again the size 
+of the other.  If they use a short sword it is treated as a two-handed 
+weapon.
+ 
+For protection, they have two innate abilities.  The first is the ability
+to blend in with nature rendering them virtually invisible to non-Weejons.  
+This only works within natural areas full of plants, bushes and 
+trees.  They do not blend in with rocks!  The second is the night vision.
+ 
+After mating, the mother and father pass a portion of their life force on
+to the child.  Each Weejon can mate three times before passing to the
+realm beyond.
+
+They are born in the forest and are raised until the age of five.  It is
+at this age that they are bonded with an animal.  The parents (GM) decide
+what type of animal and place the child with the young of that species.
+Usually the bonded animal is the offspring of a previously bonded animal.
+Once grown, the animal and the Weejon can communicate their thoughts
+telepathically.
+
+--------------
+Tribal Culture
+--------------
+Skill Packages:
+   warrior-1      athletic, combat, nature
+
+Common skills:
+   climbing
+   dancing
+   running
+   singing
+
+Description:
+The Weejons are 'enlightened' in that they treat both men and women the same.
+Everyone does a little of everything that needs to be done.  They are mostly
+hunters and gathers, although they do herd some animals.  Being hunters/gathers
+they tend to move around alot.  They do have 'territories' for the tribe
+which are based mainly on geographic boundaries. The boundaries are not srictly
+enforced either.  Weejon, in general, do not believe in personal property.
+Everything belongs to the tribe, although some objects are kept by certain
+people and are passed down to the children.  The only specialized position is
+that of shaman.  The shaman(s) has two special purpose magical devices.
+One is to determine who the next shaman will be, the other to determine who is
+on the tribal counsel.  Most shamans know how to use them, but not how they
+work.  The shaman detector just indicates the potential for magic use.  The
+tribal counsel object essentially does psychic vote taking.
+
+The tribal counsel consists of six members and a chief.  The ceremony is done
+once a year. Each member has to pass an approval rating via the magical device.
+Of those that pass the strongest rating one becomes chief. Those that fail are
+removed from the counsel. Replacement members are chosen by the families whose
+turn it is to send a representative. A round-robin method is used for each
+family to determine when it is their turn to send a representative.  To be
+eligible a couple must have had a child.
+
+
+--------------
+Nation Culture
+--------------
+Time: Epoch 3
+
+Description:
+   With the hostile elves and the refugee goblins around the Weejon found
+it necessary to consolidate themselves into large groups once again.
+The Tribal culture in many ways still exists, but it is more of an extended
+family than independant functional unit. Two representatives (appointed by
+the chief and shaman) from each tribal counsel form the National parliment.
+A similar magical device to that of the tribal one elects the president.
+With a similar election process, except the election process only occurs
+if the parliment does not give a 2/3 approval rating to the president.
+
+Epoch 3
+The weejons grow even more urban during this time. Although there are
+some who fear large gathering or believe it is wrong, the population
+as a whole is becoming more comfortable. Two large towns have been 
+established in the west and a medium size one has been created in
+the east.
+
+-----
+3.3.3 Elves
+-----
+Cultures:     Empire
+Can be a PC:  Yes
+EP Cost:      +30  (Plus the additional skill when they are filled in)
+
+Average Ht:   6 ft. to 6 1/2 (182 cm - 198 cm) (Tolkien type Elf)
+Average Wt:   160 - 180 pounds (72 kg - 82 kg) (T' type)
+
+Lifespan:     250
++ Talent:     CHR +2  INT +1
+- Talents:    STR -1
+Body points: 20 
+
+Innate Abilities:
+   Night vision (+5) 
+
+Innate Weaknesses:
+   -3 Body
+
+Description:
+   Elves have a strange beauty that Humans consider exotic and appealing.
+They tend to be of a lighter coloring among the Nobility and members of
+Enclave societies, but seem to follow no rule among the wandering clans
+whose members have the whole spectrum of skin, hair, and eye coloring.
+Because of the great age that elves can reach, they tend to have a life
+view that takes very long and patient methods into account.  The have a
+fascination with magic and all elves know at least a bit about it even if
+they can not exercise magic due to the fact that it is so widely used in
+their societies and they are of such an age as to have had exposure  to
+it.  An elf is generally considered immature before 40 and mature after
+75.  In between it depends on the individual. The gestation period for
+elves is 18 months, most of the extra time is in an expanded first
+trimester. After having 3-5 children most elven parents lose the desire
+to reproduce, unless a child is lost before they are fully mature.
+
+
+Empire Culture: Epochs 0-Epoch 2:
+The elves want to 'civilize' the world by bringing their culture to everywhere.
+They aren't very tolerant of other societies or cultures, and are a deeply
+religous people, to their goddess Sylain (magic). They have strict sense of
+decency and shows of affection are confined to family and married. Most not
+brought up in this culture are unable to detect the gestures and intonations
+of voice which indicate someone is a close friend.
+
+Marriages are arranged, with the restriction that the couple must be from
+different social classes. the general social classes are the nobility, merchants, 
+skilled workers, and unskilled workers.
+
+The nobility must marry one of the worker classes. The government is a monarchy
+with the throne passing down to the eldest child. The judicial system is
+by popular election, and the laws apply to all citizens. Slavery of elves
+is forbidden. Other species are considered as a lower class, and are paid lower
+wages, restricted from some places, and not considered citizens. Impressing 
+of other species into military service is fairly common.
+
+Magic is a highly regarded artform and all elves strive to learn at least
+some magic. As such magic use has become tied to religous ceremonies
+and as an indicator of maturity. Some elves view magic as a form of prayer
+to Sylain. This has implications on how they are willing to use magic.
+
+
+Epoch 3
+
+Little is known about what has been happening with the elves. A truce
+has been worked out with the elven govenor. There have been rumors
+that the elven kingdom has left the elven empire, but as there is little 
+communication with the elves this is considered mostly a rumor.
+Note: Goblin Deity names are subject to change.
+
+------
+3.3.4 Goblin
+------
+Cultures: Refugee, Empire
+Can be a PC:  Yes
+EP Cost:      
+Average Ht:   140
+Average Wt:   60
+Size Rating:  
+Lifespan:     75
++ Talents:    FIT +1 PER +1
+- Talents:    INT -2 BEA -1
+Body points:  28
+Speed:
+
+Innate Gifts:
+   +3 Body
+
+Innate Foibles:
+
+Description:
+   Goblins are slighty smaller, greyish humaniods. Their
+hair is generally short and dark.
+
+-------
+Refugee
+-------
+Time: Epoch 2
+
+Description:
+   Goblins who are refugees from the elves are slightly
+paranoid, ever fearful that they will lose their freedom
+and be retaken by the elves. Despite this they are generally
+'fierce' in their attitude and will do what ever it takes
+to survive. They generally avoid contact with the other
+humanoids (human and weejon) due to the propoganda they
+have heard from the elves. They are trying to settle
+into small tribal communities in the North East area
+of Corellus. A community will generally consist of about
+a House or two close Houses. A goblin's House is very important
+to them.  A House is an adopted family which a goblin is invited
+into upon reaching maturity. Houses generally are 30-150
+members large. If a goblin is not invited into a House by
+the third year after reaching maturity they are forced out of
+the community.
+
+There are some among them who actively work to help
+bring more goblins out of the elves service. There are
+also a few 'underground' goblins who are providing
+intelligence to the elves in order to bring these
+'renegades' back into the fold for their own good.
+
+These goblins are generally distrustful of others, and
+dislike elves.
+
+Refugee goblins are more religous than their Empire
+counterparts with Szz, Yju, K'lar also being the
+primary deities.
+
+------
+Empire
+------
+Time: Epoch 2
+
+Description:
+   Empire goblins are moderately content with their life
+as second class citizens in the elven empire. They generally
+have the same attitudes as the Elven empire. They differ
+in their religon with the primary deities being Szz (Death/Trickery),
+Yju (Life/Luck) and K'lar (Storms/Night). They are also
+a classless society with all goblins being roughly equal
+status. Societial position is determined mainly through
+wealth. Thus greed is an acceptable social trait among
+the Empire goblins.
+   There are no Houses among the Empire elves. But family
+and extended family is more important.
+
+Epoch 3
+A confederacy of sorts has arisen out of the major houses. There is still
+much internal strife among the goblins. There is no war between them
+and the weejon, but there are still occasional skirmishes between them.
+They have had little direct contact with the humans, and are still
+very much opposed to the elves. Officially they consider themselves
+at war with the Elves, though not much fighting or advances on either
+side have occurred.
+--------------
+3.4 Deities
+--------------
+
+The following is the order of events concerning the deities, it needs more
+filling in. See also the universe history.
+
+Purpose
+Necessity
+Means
+
+Purpose changes
+Necessity changes the means into the gods
+Order and Chaos is Intoduced
+Emotion is introduced
+
+Time of madness begins
+Gods strive for their influences
+Demenateez tries to take Limbo as his own
+Demenateez stumbles upon a source of the "void" element
+Demenateez shows the void source to Iahnu
+Demenateez searches for more sources of void
+Demenateez finds a second source of void
+Demenateez uses his life essences to draw out the void
+This creates Dragon
+Dragon stays in limbo with Demenateez
+
+The world is created
+The eleven major species are created
+Dragon is freed from limbo and sent to the world
+Dragon brings six species to extinction
+X gods start the Pheonix
+Dragon kills a god
+X gods finish the Pheonix
+Pheonix and Dragon war
+Dragon is imprisoned in the void
+Other gods try to improve on Dragon by making their own
+The dragons revolt from the gods
+The great war begins
+
+Begin Role Playing
+
+------------
+3.4.1 Aern
+------------
+
+Name: Aern
+Influence: Forests, Earth
+Version: 1.0
+Principal Creator(s): Dean Yuen
+
+Personality:
+Aern is similar in personality to Life, but Earth is more concerned with only
+those beings on Corellus. Earth uniquely cares for plant-life in its own right
+rather than just a means to feed other creatures. Aern sees things as the
+whole ecosystem. She (Aern is genderless) is patient and stubborn, although she
+has proved to be a good mediator between the other elemental deities. She strongly
+believes in cycles and in evolution.
+Added to the above, Aern is not only stubborn, it generally 
+doesn't care about anything else except its job and is very slow to anger.
+
+History:
+She cares for ecosystems as a whole and the success of life in general on the
+land. She rarely takes an active part against a species except when it
+threatens whole ecosystems for no good purpose. She did help against Dragon,
+although she is fairly neutral about a reasonable number of smaller dragons.
+She will work in small ways against a large dragon population though to protect
+the ecosystems.
+
+Species Created:
+Most plant life.
+Many 'lesser' but necessary species (e.g. worms, bugs, etc)
+
+
+------------
+3.4.2 Amar
+------------
+Name: Amar
+Influence: Judgement, Law, Arbiters, Honor, Nobility
+Version: 1.3
+Principal Creator(s): Bob Hanson
+
+
+Personality:
+"The patience of Amar" is an often used expression for this god could
+outlast anything save for [Time] him/herself.  Amar is very forthright
+and his word is binding.  His followers may never lie and are taught to
+believe in the "turn the other cheek" philosphy.  They have a very tough
+code of ethics.  Amar is often approached by other gods in an attempt to
+garner his favor but he can usually see through their ploys.  He is
+generally emotionless and his personality can best be described as boring.
+However, he does feel a deep sadness for the current world.
+
+Friends:
+Vofos because of his similar views.
+
+Enemies:
+Demenateez
+[Passion] only because [Passion] cannot stand Amar's emotionless personality.
+
+History:
+Long ago, when Necessecity spawned Order and Chaos and they in turn gave
+birth to emotion, Amar escaped the Time of Madness by offering his services
+to Order.  Order was a grand teacher but the teacher's services did not come
+cheap.  Order shieled Amar from most of the effects of emotion by protecting
+him with the essence of Order and thus the god did not become embroiled in
+the struggle taking place among the others.  In return Amar swore to carry
+out Order's will.
+
+Now Chaos learned of this and was furious.  Chaos appealed to Necessity who
+determined that the purpose required one of the Means to strive for balance.
+Necessity took some of the essence of Chaos and infused it into Amar.  Thus
+Amar earned his name "The Balancer".  The other gods quickly discoverd that
+this made Amar the perfect arbiter for disputes as he would not favor one
+side or the other based solely on emotion.  Thus his role was set and the
+other gods began to accept his judgement as binding.
+
+As time went on and the god of death, Demenateez, was in the process of
+consolidating his power he realized that he needed Amar's aid.  Of course the
+Arbiter of the Gods was unwilling to help and instead Demenateez was forced
+to trick Amar into releasing part of his hold on balance.  This was one of
+the few times that Amar had ever been fooled and the result was catastropic.
+balance was displaced and Demenateez was able to create the first Dragon.
+This was quickly followed by the creation of other dragons as the other gods
+tried to match Demenateez's moves.
+
+Amar solely blames himself for what happened although there was much more to
+the plot then Demenateez simply tricking Amar.  Because of this, Amar
+perceives the current Dragon situation as horribly unequitable to the other
+species.  Although he was able to convince the other gods to get Demenateez
+to kill many of the dragons, he still feels that the dragons presence is
+too theatening to the weaker species and he hopes to find a way to relieve
+the problem.
+
+Species Created:
+None
+
+
+
+------------
+3.4.3 Battle
+------------
+Name: Battle
+Influence: Battle, Personal Excellence
+Version: 1.0
+
+Personality:
+She is basically friendly to most. She has no pity though and views
+difficulties as challenges to be overcome. She pushes everyone hard, most
+of all herself though always striving to be better. In physical skills
+few even among the deities can best her.
+
+History:
+Battle viewed the time of madness as a time to test and push herself to be
+better and better. Unfortunately though one time she bit off more than she
+could chew. War came to her rescue then and since then has been like a father
+to her. She doesn't expend much time in social relationships, instead focuses
+most of her time on herself. She for the most part is happy with her existance,
+and has no regrets. She tries to encourage the mortals to achieve all that they
+can and to push themselves.
+
+
+------------
+3.4.4 Belan
+------------
+Name: Belan
+Influence: Trickery (Fate)
+Version: 1.1
+Principal Creator(s): Del Hart
+
+Personality:
+Belan insists that she is the goddess of Fate, and considers anything
+else slander, which she takes very personally. Other than that
+neurosis, she is a planner and a schemer looking far down the road to
+benefit herself and obtain revenge against those who offend her.
+She enjoys elaborate practical jokes and relishes in setting them up
+so she looks like an innocent bystander, which she usually succeeds at.
+
+Friends:
+
+Enemies:
+
+History:
+Her main tactic during the time of Madness was to set those against
+her against each other.
+Since she has done pretty much what she pleases. Since they didn't
+get titles after the time of Madness she decided she was goddess of
+Fate. She is helpful sometimes like finding life's lost artifact for
+her or healing War's pet. It was when she was visiting War that she
+heard Battle refer to her as goddess of trickery.  She politely but
+firmly corrected him. Many years later she started a chain of events
+that convinced Battle that he wanted Vofos's artifact. (She didn't
+like Vofos as he didn't have a good sense of humor and was difficult
+to play tricks on.) She absolutely loved the outcome of that, though
+she went with War to the other deities to ask for help. She has
+set up many other conflicts in the past with nothing to tip her hand.
+She frequently though plays crude harmless tricks which she pretends
+to try to cover up, but fails miserably. This is mainly a tactic to
+keep the other deities thinking that she doesn't have the skill or
+forethought to pull off anything elaborate. She is a perfect actress
+and often layers her lies several deep so that after penetrating a
+lie the true motive still remains hidden. She is also a good judge
+of character and actions that a being will take.
+
+She dislikes the current dragon situation. Partly cause she wasn't
+successful in creating a dragon, but mostly cause she finds the
+dragons dull and like stuffed shirts, whereas the major species
+are more interesting, gullible, useful and fun. She has been
+supporting those trying to help the major species claiming that
+it is their fate to found great civilizations. 
+
+Species Created:
+
+
+------------
+3.4.5 Demenateez
+------------
+Name: Demenateez        
+Influence: Death (the afterlife)
+Version: 3
+Principal Creator(s): Wade Gustafson 
+
+PERSONALITY:
+
+Demenateez is founded on fear.  He stays powerful by remaining an enigma to
+both mortal and god, hiding his motives behind every grave.  He loves to be
+feared, and derives his pleasures from it.  He slays thousands with but a
+thought and no remorse.  Each dead that he takes in feeds his eternal hunger.
+ Even many of the gods fear him.  
+
+While he will not abruptly take the life of a god without provocation in a
+form that would harm all the gods, or a good distraction, (such as the time
+of madness), he is more than willing to bring death and order disease and
+pestilence to the gods followers and worshippers, in effect, weakening the
+god.  
+
+He stays in the shadows of most matters involving the gods, except when the
+issues deal with his domain, or him personally.  He is self centered and sees
+all gods except for Life and Night as lesser beings to be manipulated, used,
+and discarded when done.
+
+HISTORY:
+
+Demenateez is one of the ancient gods.  He was brought into being when
+Necessity created the gods, and has since been enternal.
+
+When the emotions first began entering the minds of the gods, Demenateez
+found his calling in anger, hate, and spite.  Soon after the gods began
+striving for their influences during the time of madness, Demenateez did
+whatever was needed to eliminate other gods, finding mastery of death while
+the other gods failed to see its power, thus siezing the role of death for
+himself.
+
+With his power in hand, he went on to the limbo, claiming it as his own.  It
+was here that he stumbled upon a source of void .  He was facinated by it, as
+it reminded him of Iahnu.  He led the night goddess to the void hoping it
+would please her, as well as increase her powerhold within the ranks of the
+gods.  She paid it no attention, so Demenateez went deeper within the limbo
+seeking to find a better gift.
+Demenateez did indeed find another source of void.  Into this void his
+essence reached, and pulled forth from it, the first dragon.  He created it,
+ultimately, as a tribute to Iahnu, but realized the power of the seemingly
+soulless beast, and hid with it deep inside the limbo, only leaving when his
+gift of death needed to be given to a god.
+
+During this time, Demenateez taught Dragon his dark ways, and influenced him
+with all of his emotions, evil emotions, which Dragon learned all to well. 
+The art of killing was tought as too, and Dragon waited, eager for the day he
+would leave the limbo.  
+
+The world was then created and the gods began filling it with minor species,
+and the prospect of easy kills brought Demenateez back from the limbo, to the
+mortal world.  He too tried his hand at creating these minor lifeforms.  He
+brought the flies, as hunters, leading him to the dead, and the raven to see
+the world from high above.  Then came the major species, the man, the elf,
+and so on, but Demenateez found himself unable to create these types of life,
+he had drained himself of this ability by spending part of his essence in the
+creation of Dragon, and so he called to the gods, and on the mortal world
+they met.  He opened the limbo, and let Dragon step forth to the world of
+men.
+
+Demenateez's thirst for killing was quickly quenched, as the dragon slew the
+species and brought many to extinction.  Demenateez, with his hold on the
+dead began drinking their essence, fueling his own powers.  Dragon continued,
+and in time, killed Ojei, god of the volcano.  Which angered the gods, and
+Dragon was banished by the Phoneix.  As punishment for Dragon's actions,
+Demenateez was sentenced by the gods to maintain the limbo for the dead that
+Dragon had killed, and all the dead to come, until such a time as they are
+judged by Amar on the final destination of their essence, or Necessity itself
+comes for them.
+
+Soon, the other gods began creating their "dragons" all of which were but
+mockeries of Demenateez's original.  He had enough forsight to see that the
+dragons could become a threat to the gods, especially now that they now cared
+little for furthering the plans of the dieties.  So Demenateez returned to
+his home in the limbo, and began to populate the mortal world with the
+undead, a creation of his own, to carry out his dark motives and act as army
+to his causes.
+
+With this all in action, he set back, in solitude, save for the dead, to
+prepare for the coming of the great war...
+
+
+
+FRIENDS:
+     War - For war brings death
+     Battle - The catalyst of war
+     Disease - An agent of death
+     Night - For whom Dem is infatuated
+ 
+ENEMIES:
+     Judgement - For he steals the dead from Dem's grasp
+   
+SPECIES CREATED:
+     Dragons - Dragon inspired the species
+     Undead - Agents of death on the mortal world
+     Raven - Demenateez's personal spies
+     Flies - The hunters of the dead
+   
+ORDER OF EVENTS:  (listed in generic order, and assigned a number based on
+how early in that stage the event occured...)
+
+Stage One: ---------------------------------------------------
+
+Purpose (100)
+Necessity (110)
+Means (120)
+
+Stage Two: ---------------------------------------------------
+
+Purpose Changes (200)
+Necessity changes the Means into the gods (210)
+     DEMENATEEZ COMES INTO BEING (210)
+Emotion is introduced to preserve balance (220)
+Emotion affects the gods (230)
+     DEMENATEEZ GAINS HATE, JEALOUSY, SPITE, AND A LOT OF OTHER
+     "BAD" EMOTIONS (230)
+The gods strive for their influences (240)
+     DEMENATEEZ BEGINS STRIVING FOR DEATH AMONGST THE GODS
+     (240)
+Void, and other dieties become lost (250)
+     DEMENATEEZ DOES WHAT HE CAN TO "KILL" OPPOSING GODS (250)
+     DEMENATEEZ ENTERS THE LIMBO AND CLAIMS IT AS HIS OWN (250)
+     DEMENATEEZ STUMBLES ACCROSS A SOURCE OF VOID (251)
+     DEMENATEEZ PRESENTS THE VOID TO IAHNU (252)
+     DEMENATEEZ GOES DEEPER IN THE LIMBO LOOKING FOR VOID (260)
+     DEMENATEEZ CREATES THE FIRST DRAGON (270)
+Dieties start to consolidate power (280)
+     DEMENATEEZ TEACHES THE FIRST DRAGON ALL OF THE BAD
+     ASPECTS OF EMOTION AND TEACHES HIM TO KILL (290)
+
+Stage Three: --------------------------------------------------
+
+World created, great seed developed (300)
+     DEMENATEEZ REMAINS IN THE LIMBO (300)
+Minor species created (310)
+     DEMENATEEZ CREATES PETTY LIFE,  THE FLIES AND RAVEN (320)
+Major species created (340)
+     DEMENATEEZ TRIES TO CREATE MAJOR LIFE AND FAILS (350)
+Civilization develops (360)
+
+Stage Four: ---------------------------------------------------
+
+     DEMENATEEZ RELEASES THE FIRST DRAGON FROM THE LIMBO (400)
+     DRAGON BRINGS SIX SPECIES TO EXTINCTION (406-430)
+     DEMENATEEZ FINALIZED HIS HOLD ON POWER SOURCE (420)
+Ojei (volcano god) killed by first dragon (426)
+     THE GODS GET REALLY PISSED OFF AT DRAGON AND DEMENATEEZ 
+     (426.1)
+Phoneix created (430)
+     DRAGON AND PHONEIX BATTLE (430-450)
+     DRAGON IS IMPRISONED IN THE VOID (450)
+     PHONEIX IS SPLIT UP (450)
+Other unique dragon species created (460)
+     DEMENATEEZ GOES BACK TO THE LIMBO (470)
+     DEMENATEEZ CREATES THE UNDEAD (480)
+Great war begins (490)
+
+Stage Five: ---------------------------------------------------
+
+Begin role playing (500)
+
+-------------------------------------------------------------
+
+
+
+------------
+3.4.6 Dragon
+------------
+Name: Dragon 
+Influence: elemental
+Version: 1.0
+Principal Creator(s): Wade Gustafson, Del Hart
+
+
+The dragon write-up is mostly forwarded from Wade, with some
+minor editing by me. The phoneix outline is mostly pretty early
+in development, so it is not quite at the same quality as Dragon.
+
+
+So, ENTER THE DRAGON, (sorry, bad pun...)
+
+Personality:
+   
+Dragon sees itself above the gods.  It has the worst traits of the all the
+gods combined.  Hate, greed, and anger, and it sees no being as anything more
+than food for the wicked, to be exploited, controlled, and devoured. 
+
+History: 
+
+At the beginning of the Time Of Madness, Demenateez, the dark god of death
+took his home in limbo.  As he traversed the limbo, he came accross a source
+of void, an element that remind him of Iahnu, the goddess of night, for whom
+he lusted.  He led Iahnu, into the limbo and to the first source of the void,
+and the goddess began to harness the void to fuel her own powers. 
+Demenateez, hoping to win the favor of Iahnu went deeper within the limbo
+searching for another source of void, and when he found it, he drew fourth
+from it, a being, seemingly with no soul, for Life had not given one.  This
+being became the first Dragon.  Demenateez hid "Dragon" deep within the
+limbo, away from the eyes of the gods, where he alone could learn of it ways,
+and influence them with his own.
+
+With time, more gods had begun to take their influences, and Purpose created
+a world, for them to focus their efforts on, as opposed to destroying
+eachother.
+
+The gods began filling this world with their species.  Demenateez too, wanted
+a part of this, and created many meaningless things such as the flies, but
+they did not compare with the species that the other gods had created. 
+Finally, in a jealous rage, Demenateez called to the gods, and on the world
+they met.  Demenateez opened a gate to limbo and allowed Dragon to  enter the
+world of men, and the gods were in awe.
+
+Dragon wasted no time, infused with the tendancy to kill, from his father, it
+decended on the species and brought six to total extinction.  Ojei, a minor
+god whom thought Dragon no more powerful than any other of the species, tried
+to defend the species which he had created, and might have destroyed Dragon
+had it not been for luck, but Dragon did slay the god, without regret, and
+without remorse.
+
+This caused outrage amongst the gods, and all fingers pointed at Demenateez
+to remove that which he created, for up until that moment, Demenateez had
+been defending the actions of Dragon, but now, Dragon had clearly done the
+undoable, and became a threat to all of the gods.
+[Note: while most of the deities did think Dragon had enough power to
+threaten them, they weren't comfortable with the death of Ojei.]
+
+The gods fought many times with Dragon, and each time they destroyed it, only
+to find that it soon returned to the mortal world.  It was a creature of the
+void, and could not be sent onward to oblivion.  The gods met to discuss ways
+to rid the world of Demenateez's creation, and a solution was reached.  
+[Note: elementals are difficult to destroy. their physical body can be
+dispersed but it will eventually reform, the time to reform is dependant
+on the strength of the elemental]
+
+The gods who had created the five remaining major species joined together to
+create a being to counteract Dragon, from the four primary elements, and the
+souls of their best fallen, they created the Pheonix, and too gave it strength
+from the void.  Neither being could truly destroy the other, for both were 
+elemental beings, but in time, Pheonix banished Dragon to back to the void from
+which it came.  To hold Dragon in the void, Pheonix seperated its souls
+leaving that which came from the void there, to keep Dragon in its eternal
+prison. Demenateez in turn, was sentenced to maintain the limbo as a place
+for the dead to wait for Necessity to take them back.
+[Note: The place where Dragon is held was fashioned by the deities as a prison
+for him inside one of the major sources of Void. For political reasons
+as well as convenience it was necessary for the void portion of Phoneix
+to hold Dragon there.]
+
+Other gods, jealous of the shear power of Demenateez's creation, tried to
+create their own, more controlable dragons, and gods countered gods, in an
+attempt to stop any one from gaining too much power.  With time the dragons
+outnumbered the gods, and began to think in ways they had not known.  They
+realized that alone they were no match for the gods, but together they could
+undo them.  Many dragons began to break free from the control of the gods,
+and turned against them.
+[Note: Here we need to decide about dragon species, were they offspring
+of the Unique Dragons or were they created by the god(s)? ]
+
+Demenateez, laughed at what had happened, seeing it as suitable retribution
+for his loss of Dragon, and left the mortal world, for his home in limbo. 
+Where he thought he could watch the great war between the gods, the gods, and
+the dragons...
+
+Friends:
+???
+
+Enemies:
+The Gods
+   
+Species Created:
+None
+   
+------------------
+3.4.7 Ehvenahn
+------------------
+Name: Ehvenahn
+Influence: Love, Pleasures
+Version: 1.1
+Principal Creator(s): Wade Gustafson
+
+Pronounced: (e-ve-non)
+Personality:
+
+The goddess of love and pleasures, Ehvenahn is a form of true beauty.  She
+can be seen in the peace of two lovers nestled together, and in the happiness
+of a playing child.  She is generous and forgiving, with the classical "make
+love not war" philosophy to life.  To her all things are precious, and
+nothing more valuable then the pleasures of life, be them love, sex, drugs,
+music, whatever.
+
+History:
+
+With the creation of the first species, came the goddess of love and
+pleasures, easing their minds and bodies in an erotic state of bliss.  From
+the times the gods warred in the time of madness, she tried to bring
+happiness to the species that had filled the world, with no predjudice.  Her
+tampering can be seen in even the most warful and evil of the species.
+She has little power amonst the gods, save for the lust most feel towards
+her, but the powers of love can bring greatness to the mortals.  It is in her
+name that families form and beings unite together.  She has always tried to
+make peace between mortals and between the gods, but feels that this will
+only come, if at all, by the hands of Time himself.
+Ehvenahn commonly sends avatars to the world of men to spread her words and
+play as cupids.  She often takes a mortal guise and walks amongst them
+herself, for she loves the species more than she loves any god.  For most of
+the affairs between the gods, she has remained neutral, except on the issues
+of the dragons.  She sees the dragons as unloving beasts that are destroying
+the well being of the species.  She regrets that Demenateez felt it necessary
+to create such a "monster" and truly feels pity for him.
+She was the one whom, first brought the concepts of love and marriage to the
+mortal species, and strives to ensure that their love will outlast, even
+death.
+
+Enemies:
+Hate & Vengeance
+
+Friends:
+Tolerates nearly everyone, loves most
+
+Species Created:
+The Unicorn
+The Dove
+The Flowers
+The Nymph
+
+
+----------------
+3.4.8 Elementals
+----------------
+
+Aern -  Earth 
+Sirocco -  Air 
+Nogris -  Water 
+Solaris -  Fire 
+
+
+General Elemental History
+-------------------------
+
+During the Time of Madness the four elemental deities decided to work together
+for their mutual self-preservation. They did not get along well with each
+other, but they felt they could trust each other, which was more important.
+The void deity didn't feel like working with anyone and went off on his own,
+eventually to become lost.
+
+The four chose Corellus as the worldtoid upon which to establish themselves.
+Corellus was the most diverse and most potent of the worldtoids. While none of
+them could have held Corellus themselves, together they had little trouble
+holding it.
+
+As the Time of Madness ended, it was found that Corellus was the most habitable
+of all of the worldtoids. Since the species were important to all of the
+deities, the elemental deities made agreements which were to be respected in
+order to keep Corellus habitable. Tensions between the elemental deities though
+was higher than ever. Solaris left to his other worldtoid (the Sun) and the
+others retreated to their own domains, to avoid contact as much as possible
+with the others.
+
+The last joint project they worked upon was Phoneix, which was necessary to
+defeat and control Dragon. They also worked with and were initially brought
+together by the creators of the major species. They all have other worldtoids
+except for Earth.
+
+
+
+----------------
+3.4.9 Iahnu
+----------------
+Name: Iahnu
+Influence: Night, Moon (some stars), all things dark
+Version: 2.0
+Principal Creator(s): Dean Yuen
+
+        Personality: Unlike her brother, Sun, her emotions and intentions 
+are amost always masked with a cool calm, her voice always of even keel, 
+even when suprised. Most things seem to amuse her and she tends not to take
+direct action on most things, preffering to go about them indirectly and
+discretely. She seems to have a certain soft spot when dealing with 
+mortals, though she can be quite cold and vicious at times.
+        
+        History and stuff: During the time of madness, Night spent much 
+of her time in a quiet calm, away from the other dieties, but closely 
+watching Sun -apparently making no move. She had spent much time learning 
+what she could from Knowledge and Chance during that time, but what she 
+learned was a mere fraction of what they know (certainly some of the more 
+sensitive material was not given), though through her learnings she did 
+come upon some scraps of knowledge that even the two of them don't know 
+of. 
+>       Death created the first dragon (named Dragon) which he dedicated to
+Iahnu's beauty, however she showed no signs of appreciation save for a 
+slight smile of amusement which was certainly less than what he expected. 
+But saw the uses of such a creature, and so said nothing of it when Dragon
+was released upon Corellus, indeed she, like the other gods, began to create 
+her own dragons. This led to a steady escalation on various sides by many gods.
+ Night had created only 8 other dragons, the two most powerful being Bantus, and
+ Mamut. 
+        All during the escalation of dragons, the hero king of the 
+tribe of man, Olerin, was bestowed a vision showing a mystical place 
+where the secret of fire was held. Night had blinded King Olerin for 
+stealing the secret of fire, though it is whispered among many circles 
+that it was Night who had given Olerin the vision in the first place.
+        The pact with Sun: Night and Sun quirreled much over who would 
+watch over the mortal world. They quirreled so often that they finaly 
+went to Justice to determine who should keep watch over the world, for 
+neither had time to do anything but quirrel. Justice listened to both 
+sides carefuly, and made a decision. Sun would hold the sky for a period, 
+and then Night would take the other half. To make sure both sides were in 
+keeping with the agreed pact, Night must hold a lantern (the moon)in a 
+cycle, lighting the way for mortals and allowing Sun to see that all was 
+well, while Sun would shine only in certain places, allowing shadows, so 
+that Night could see that all was well. Every now and then, Night would 
+visit Sun during the day to refill her lamp.
+        (A more astronomicaly advanced explanation for eclipses, sidereal 
+junk, equinoxes, and solstices: Night and Sun still didn't get along, so 
+in the pact, they chose altering paths to traverse the world, and because 
+their chosen path could not be altered since the pact, sometimes they 
+would get in front of each other (solar and lunar eclipses)) 
+        
+        Enemies: Sun  -Night has no real quirrel with Fire, though 
+sometimes their interests may conflict.
+
+        Allies: Iahnu has been known to aid (or even protect) the 
+Trickster and Passion, though they are of generaly neutral atitude towards 
+each other. 
+        Sometimes Iahnu would align herself with Water, Void, or Death 
+for varying reasons.
+
+        Of Bantus and the stars: Bantus, the first dragon created by Night.
+ Bantus was an incredibly large dragon, which Night had created for the
+ purpose of holding up her cloak of night. Bantus proved incapable of 
+holding steady the cloak, as he swayed constantly, thus Night was forced 
+to place Bantus into a deep sleep and gave him to the care of Earth whom 
+uses the the great power stored within his belly to form new material for 
+mortals to find. Bantus appears as a range of mountains (or several) and 
+moves in his sleep every so often, rousing Earth (earth quakes). 
+        Having nothing to support her cloak, Night went to Knowledge for 
+his help. Knowledge, told Night that Justice may be able to help, thus 
+she went to Justice. Going to Justice, Night asked for help, and without 
+a word, Justice struck Night's cloak with his (staff? sceptre? Mace? club?), 
+leaving hundreds of stars with which she could hold up her cloak. 
+Sometimes, a star would fall from Night's cloak into the mortal world. 
+The starstuff, if found bears special properties.
+        Note: It probably should be mentioned in the other diety write 
+ups (Knowledge, Sun) that they make use of the stars as well.
+
+        Of Mamut, Iahnu's second dragon: Mamut, unlike Bantus, is very 
+clever and very disciplined. He has a skin of shadow with which he can 
+shape himself into many forms and enter dreams. He has been known to ward 
+off evil spirits that visit sleepers during the night. Mamut also is a 
+bringer of bad omens, warning those who can interperate dreams, of bad 
+things to come.
+
+        Iahnu's views of the Escalation of dragons and such:
+        Iahnu saw the escalation, but did not know how disbalancing it 
+would become. She is repulsed by the amount of destruction on the land 
+and feels the pain of the mortals whome she helped in the creation of. At 
+the same time, she does not make it known how she feels about the 
+situation and keeps relatively quiet, watching the reactions of the other 
+gods before she would make her move.
+
+
+
+----------------
+3.4.10 Morgrius
+----------------
+Name: Morgrius
+Influence: Disease, Plague
+Version: 1.0
+Principal Creator(s): Wade Gustafson
+
+Morgrius (More-grEE-us)
+Personality: 
+Morgrius loves to witness pain and suffering, and sees the shed of tears as
+drops of pure paradise.  He is a minor god to Demenateez charged with the
+mission of spreading disease throughout the world, to send more dead to their
+rightful home in the afterlife.  He is humorless and morbid, with spite
+towards all mortals and gods, save for his small amount of worshippers, and
+his master, Death.
+
+Friends:
+Demenateez, the god of Death.
+
+Enemies:
+
+History:
+When Demenateez first let the undead back to the lands of the living, they
+alone were slow in bringing about the deathrate that he desired, so he took
+the darkest soul that he had yet found and gave it status as a minor diety of
+plague and disease.  Morgrius not only unleashed a fury of disease upon the
+living, but upon the undead as well, using them as walking contagions.
+He is weak, even compared to most of the other minor dieties, and a coward
+constantly hiding behind the black robes of death.  Most others, be it god or
+mortal dispise him.  Of all the other gods, (Death excluded), he most admires
+Knowledge, always trying to drain some bit of information from him to
+increase his power level.  Knowledge, has been sucessfully repelling his
+barages of questions for eons.
+
+Species Created:
+Rat
+Silver Fish
+Gilla Monster
+Rot Grub
+
+
+----------------
+3.4.11 Niam
+----------------
+Name: Niam
+Influence: Life
+Version: 0.6
+Principal Creator(s): Jeff
+
+Personality:
+Her personality will be a nurturing, non-confrontational type.  But due to
+her strength and connections to all the Gods, she's extremely well respected
+and has a level of power with regards to the other Gods that they will not
+argue with. She can be very protective of the overall welfare of life in
+the worldtoids. She also at times has sympathy for specific creatures.
+
+History:
+When Necessity changed things such that mortal life was necessary for the
+deities continued existance, it was Life which took the lead and was the
+central figure in creating the Great Seed. Then all of the deities helped
+the Great Seed become the Tree of Life, which if one walks along its
+infinite branches, it is possible to view any type of mortal being
+possible.
+
+Life herself draws her strength from the energy of all beings which are
+currently living.  She works to promote mortal life, and while she does not
+have personal ambitions, she works to keep other deities from hurting
+mortal life, sometimes taking preemptive action.
+
+She does not create new species, per se.  She has the forms of all living
+creatures the ever were, are, or to be incorporated within her essence,
+and trades that knowledge with any of the other gods who need new information
+to create the full species.  As such, she understands all living things
+in a way even the species creators may not, and uses her energie to help
+strengthen and protect them.
+
+Species Created:
+All Archetypes used as Forms
+for other Gods.
+
+
+----------------
+3.4.12 Nimisha
+----------------
+Name: Nimisha
+Influence: Time
+Version: 1.0
+Principal Creator(s): Lynoure Rajam{ki
+
+Personality: Nimisha is calm and quiet. Most of the time she seems to be
+sleeping in the weave of time. Nimisha was born when time was born and
+therefor probably a very old goddess, but she feels herself very young and
+not at all godlike or powerful. She has power, much power over her realm,
+the time, still she uses her power over time rarely and carefully.
+Only in extreme circumstances she changes the flow of time for a group
+of creatures, thought she quite often changes the flow slightly for
+invidual creatures.
+
+History: Nimisha survived throught time of Madness by speeding throught
+it. She just put all her energy in making her personal time flow as fast
+as possible, so everything was over soon. After time of Madness Nimisha
+has kept her eyes open and tried to maintain some kind of calm state of
+all things.
+
+Friends / Enemies:
+
+Nimisha doesn't usually take sides, so she doesn't have real friends or
+enemies. She works together with many gods now and then and tries to
+maintain some kind of non-hostile relationship with all. Bolow some
+gods worth mentioning:
+
+Amar    -Nimisha likes Amar very much. She likes to think of him as a
+brother of hers and loves to work together with him, as both of them
+want to maintain Balance.
+
+Vofos   -Nimisha thinks Vofos is a valuable ally. She asks questions
+from him and is ready to help him, when he needs her help, unless that
+would put Balance into too much danger.
+
+Belan   -Nimisha doesn't like Belan too much. She tries to avoid Belan
+
+and when Belan causes too much misunderstandings between other gods,
+Nimisha tries to interfere in somem way.
+
+Sha-Wu  -Sha-Wu amuses Nimisha. They are not really friends, but Nimisha
+finds Sha-Wu interesting and different from the others.
+
+
+Species Created:
+
+Turtles
+The fastests and slowest species of the world  (I could design these
+later, okie ?)
+
+----------------
+3.4.13 Nogris
+----------------
+Name: Nogris
+Influence: Sea, Water
+Version: 1.0
+Principal Creator(s): John Williams
+
+Personality:
+
+Sea recieved his domain in a deal which he believes was unfavorable to him.
+Since he is a very proud being he chose to withdraw almost completely
+into his domain, there to carry out his experiments and activities in
+isolation from the other gods.
+I've been thinking that he may have coveted the power of the life-god(dess),
+which is why he spends so much time experimenting with life forms.
+
+Sea is more of a tinkerer and experimenter. Sea also has an engineering point
+of view, where he is interested in practical matters.
+
+
+History:
+
+He has spent a lot of time experimenting with creating species of all sorts.
+The great variety of bizarre life forms in the ocean are the results of
+his work.  It is said that his experiments are still continuing.  
+He created many particularly monstrous and bizarre dragons, but nearly all
+of them were killed off by the gods.  It is even rumored that he may still
+be creating creatures of dragonlike power, but there has been no proof.
+
+Since withdrawing to his domain, he has become very jealous of his
+territories.  Anyone who enters or sails upon the sea had better show
+him proper deference, or risk his wrath.
+
+The most notable thing he has done with other gods was to enter into a
+pact with Wind, wherein he created clouds for Wind to use in his storms,
+in exchange for an amount of control over the skies above the seas.
+Wind then further bartered what he had gained with Earth, so that Earth
+could create rivers and lakes.  Although Sea still does have some power
+over the water in rivers and lakes, he does not concern himself with
+any but the very largest of these.
+
+He does not show any concern about who the dragons eat on land, although
+his few remaining dragons are among the offenders.
+
+Species created:
+   Myriads of sea-creatures.
+   Mermen.
+   Some amphibians
+
+
+
+----------------
+3.4.14 Phoneix
+----------------
+Name: Phoneix
+Influence: elemental
+Version: 0.5
+Principal Creator(s):
+
+Personality:
+Phoneix's personality is at best multiple personalities. The
+deities of the 5 major species each choose the soul of the
+greatest fallen hero of their specie at that time to integrate
+into Phoneix. They tried to integrate as well as they could
+into one consciousness, but were only partially successful.
+Phoneix has 2 primary goals, help/protect the major species
+and not to harm the deities. The first is from the component
+souls chosen and the second is a result of how the deities
+created it.
+[later a description of each of the 5 component personalities]
+
+History:
+When Dragon was unleashed on the world the deities of the major
+species wanted to protect their creations without directly 
+interfering. They saw that elementals were interesting and had
+certain desirable characteristics. They believed Dragon's
+unsocial attitudes were from a) his creator, b) apparent lack of
+soul, at least according to Dem'.
+While they were working on Phoneix, Dragon killed a god, this
+led them to try and place restrictions on what Phoneix could
+do with respect to deities. Those deities not working on Phoneix
+started to work on a prison for Dragon.
+Dragon and Phoneix fought for a long while, neither being able
+to destroy the other permanaently. Finally Phoneix drove Dragon
+into the prison, but only the void portion of him could enter.
+Phoneix's body split into elementals of the other 4 elements.
+Each of the elementals is in constant empathic contact with each
+other, and can communicate telepathically if desired. The
+4 elementals are greatly reduced in power from their combined
+form, yet they still try to help out their respective species,
+with all of them occasionally helping void's species because
+void is holding Dragon.
+
+----------------
+3.4.15 Sha-Wu
+----------------
+Name: Sha-Wu
+Influence: Luck, Chance
+Version: 1.0
+Principal Creator(s): Del Hart
+
+Personality:
+Up till the end of the time of Madness Sha-Wu had a likeable
+stubborn personality. After the end of the time of Madness though
+he slowly became insane. Although not really insane, his perspective
+on reality is so different that it appears he is insane.
+
+Friends:
+
+Enemies:
+
+History:
+Through the time of Madness Sha-Wu got through mainly on his luck
+skill in magic, and associates.  He Lost several friends.  After
+becoming associated with Chance he gained a form of premonition, which
+allowed him to sense how probability was going to shape events. At
+first he tried to use this to his advantage, but every time he tried
+it reshifted into something else. Even communicating what he knew
+about it in any specific way would shift it. This was maddening for him
+and his rage grew and temper was short for many decades. Seeking
+release from this curse he tried to commune with Purpose. He instead
+contacted Chaos, who showed him that he can not fight or force chance
+to conform, that he must submit to it in order to have any control.
+(No one except Chaos and Sha-Wu know this)
+Subsequently he became increasingly 'insane'.  He seems to have
+no rational plan. He has perfect memory, yet does not seem to react
+to anything past or present. Sha-Wu can be thought of as a catalyst
+for any other the various forces. While most welcome him when he
+is with them, he can change at any time for no apparent reason. He
+never shows anger or disappointment, just a happy joy of what is now
+and that what he must/will do is good. Must/will means that what he
+does is always what he claims is what he mush do.
+
+As with most situations he has no understandable position. He has
+helped defend 2 villages. In the goblin village he helped defend
+goblins severely wounded one of the dragons created by death and night.
+He has also shown the way to several other villages for dragons to
+find.
+
+Species Created:
+
+----------------
+3.4.16 Sirocco
+----------------
+Name: Sirocco
+Influence: Storms, Wind
+Version: 1.0
+Principal Creator(s): John Williams
+
+
+Personality:
+His moods are rather unpredictable most of the time.  He is easy to entreat,
+but quick to anger.  He does not usually try to put forth false fronts for his
+moods or actions, and does many things based on a whim.
+
+History:
+His main enemy is Sun.  They are constantly battling over various regions
+of the world, Wind by sending storm and cold, Sun by sending heat.
+This conflict is the source of the seasons.  Earth would be involved in
+the conflict in order to keep either side from getting the upper hand,
+since both sun and rain are needed for things to grow.  Perhaps she 
+negotiated a partial truce by giving Sun more control over the south
+and Wind more control over the north, but no hard agreement was reached
+as evidenced by the weather's irregularity.
+
+I see him as a friend to the dragons and a creator of quite a few,
+perhaps initially as a reaction to Sun's creations, and later because
+he found that they were good pets/companions.  Even lesser winged dragons
+are welcome in his domain.
+
+Species Created:
+Eagle
+Hawk
+other winged species
+
+
+----------------
+3.4.17 Solaris
+----------------
+Name: Solaris
+Influence: Day, Sun, Light, Stars
+Version: 1.0
+Principal Creator(s): Bob Hanson
+
+Personality:
+As fiery as his domain, Solaris is quick to anger and slow to forgive.
+For obvious reasons, he is often at odds with [Night] and believes that
+[Night] is out to destroy him.  Although powerful, he has a self-esteem
+problem.  Because of this he has a large following of worshippers and he
+expects them to be very vocal in spreading his word.  His hot-headedness
+makes him an easy target for manipulation and there is many a time that
+Belan has taken advantage of him.  Of course, the fact that Solaris is
+infatuated with the goddess could have something to do with it as well.
+
+Friends:
+Belan, [Planet/Plants/Nature]
+
+Enemies:
+[Night]
+
+History:
+During the time of Madness, Solaris' paranoia level was at its worst.
+He spent much of his time travelling among the stars to keep hidden
+from what was going on around him.  He made appearences only when
+necessary to protect his interests and then he would quickly disappear
+again.
+Solaris has a pact with [Planet/Plants/Nature] because of the latter gods
+need for Solaris' cooperation.  Solaris perceives [Planet/Plants/Nature]
+as a lower god and will often act condescendingly.  This behavior could
+ultimately hurt him if he is not careful.
+Solaris was one of the first to create a dragon.  He did so in reaction to
+the dragon created by [Night].  He sees the dragons as just another tool
+in the grand scheme of thwarting [Night].
+Currently Solaris believes, with a little help from Belan, that [Night]
+is plotting with War to...
+
+Species Created:
+
+
+----------------
+3.4.18 Sylain
+----------------
+Name: Sylain
+Influence: Magic
+Version: 1.0
+Principal Creator(s): Jeff
+
+Personality:
+Magic is ambitious, smart, savy and focused in all of her plans. She isn't
+totally happy in her role as balancer between life and magic, and is always
+looking for a way to better her position.
+
+History:
+When magic came into being at the end of the Time of Madness, Magic saw it as a
+powerful source and used her abilities to claim it. She would have preferred
+Life or Dem's sources, but she did not want to overreach and end up with
+nothing. Her source's strength increases in the short term if there is an
+imbalance between Life and Death, but in the long term her source depends on
+the continued balance between the two.
+
+She knows more than anyone else about the uses of magic, but she is always
+trying to perfect her art.  In that vein, she attempted to create mortal
+forms who would be able to carry on and add to her work.
+
+She started with strongly Magical beings, the Faerie Court.  High in power,
+but sadly she found her vision incomplete as they lacked the necessary drive
+to forward her art.
+
+So she visited Life and took a time apart to study her.  After seeing the
+form of the Great Tree, she decided to attempt it again, and created the
+Dryads.  Faerie in essence, but bound to the Tree of Life through a link into
+a Great Oak.  Unfortunately, she again noticed a flaw, in that though her
+new creations were more self-directed, they were also very strongly tied to
+the specific fields of Magic dealing with Nature and Faerie.  So, she went
+to contemplate yet again ... 
+
+After a time, she saw the things she needed, and in a work of great sensitivity
+and brilliance, she laid her plans beneath the stars and created Elven kind.
+Here was a species long lived enough to learn the greater magics, driven 
+enough to attempt to perfect their craft, and tied to magic without being
+bound by it.
+
+Species Created:
+Elves
+Dryads
+Faeries
+
+
+----------------
+3.4.19 Vofos
+----------------
+Name: Vofos
+Influence: Knowlege
+Version: 1.0
+Principal Creator(s): Del Hart
+
+Personality:
+Curious is his personality and knowledge his domain. He is usually
+polite, but somewhat aloof, more interested in what ever has piqued
+his curiosity than the plans and politics of the other deities. He
+has little use for worshippers although he does respect those who
+strive to learn in any manner. Vofos believes that beings should have
+a sense of honor and dislikes those who manufacture lies or back
+down from a course of action that was agreed upon because it is currently
+inconvenient. He generally is not sociable, but is usually not hostile
+and will discuss theories on just about anything with anyone. Open
+minded also describes Vofos well.
+
+Friends:
+
+Enemies:
+
+History:
+Vofos avoided most of the fighting during the Madness when many of
+the other deities were Lost, by using his wits and avoiding the
+politics of the time.
+Since the creation of the species Vofos has set up an island far
+removed from the mainland where he experiments with different
+ecosystems, magic, psionics, and anything else that he wants.
+He uses avatars to oversee the experiments, in fact he uses the
+most avatars of any of the deities, which is surprising considering
+his power level. Other avatars roam the world/universe observing
+and learning. His island separates the ecosystems by magic and
+a complex labyrinth between each of them. He also has a central
+'palace' which contains a vast library and labratory facilities.
+He is only in the palace about half the time, preferring to roam
+around and test theories 'in the field'.
+For an unspecified favor he acquired an artifact from the elemental
+deity to create the island, add on when necessary and maintain
+the different environments. One time (possibly in the future) the
+battle god decided to acquire the artifact to create his own island
+and raise a culture devoted to battle. The battle god had 'asked'
+Vofos before, but he refused, so while Vofos was 'in the field' 
+the battle deity 'borrowed' it, and slew several avatars in the
+process. Needless to say Vofos was not happy at his avatars slain
+and experiments ruined. After 43 years Vofos decided it was time
+to reclaim the artifact. The battle god refused and so Vofos used
+a one-shot artifact to transform the battle god into a baby elf.
+He left the elf with a elf clan to live as a mortal, having 
+temporarily removed his memories. He reclaimed the artifact and
+helped the people of the island survive the harsh conditions
+there and tranformed it into a moderate land which eventually
+became Teropos, a center of great learning and culture before it
+was destroyed. The war god was outraged, but did not know how
+to return his son to immortal form. The war god appealed for help
+but both death and life saw ways to potentially profit from it and
+the goddess of magic thought it was a fine joke. The war god 
+threatened Vofos, but saw that it would help nothing and that most
+of the other deities saw nothing wrong with Vofos's action as
+he claimed it would not hurt the battle god. The battle god lived
+out his life as a mortal elf, and then upon death regained his
+immortal form. War and battle still hold a grudge against Vofos
+for this action, but time has soothed it to just a sore topic of
+conversation. Battle actually benefited in ways from the experience.
+(Of course War and Battle probably have different views of these
+ events.)
+
+Vofos is curious about the current situation of dragons dining on
+anything village size or bigger. He has little personal attachment
+to either the major species or the dragons, although he would rather
+not have any extinctions occur.
+
+Species Created:
+
+
+
+----------------
+3.4.20 War
+----------------
+Name: War
+Influence: War
+Version: 1.0
+
+Personality:
+War has a fiery personality. He an excellent strategist, but can often be
+baited into throwing his plans out the window. He is moody at times, swinging
+from jolly to belligerent for little reason. For those brave enough though he
+can usually be reasoned with, when the fire of his temper cools.
+
+History:
+War was well suited for the time of madness and felt at home in the confusion
+and chaos. He survived with out any major problems. During the time of madness
+he 'adopted' Battle. Battle had been hurt, and War feeling a kinship to Battle
+took her under his wing as his adopted daughter. She was a superb warrior and
+always was warmly welcomed by War. War favors the species in the conflict with
+the dragons since he views the dragons as slaughtering the species and not
+engaging in a war.

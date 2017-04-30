@@ -1,0 +1,43 @@
+<sect1><title>Adventure Template</title>
+<screen>
+Adventure Title
+---------------
+World:
+Author:
+Version:
+---------------
+Location:
+Time:
+Participants:
+Background:
+Plot Sketch:
+Notes:
+</screen>
+
+<screen>
+Example:
+========
+Title: (Not yet decided upon a title)
+Author: Tom
+Game World: (?)
+Location(s): This is a maritime adventure with possibility of piracy. The
+  technology can be called enlightened medeval. The naval technology reaches
+  out into the 18th century as far as sailing technology is concerned. There
+  is no gun powder, however, so there are no guns or cannons. The world has no
+  moon, instead it has a second sun which is somewhat brighter than the moon
+  illuminating the sky at very dark levels of twilight illumination when the
+  yellow sun is absent from the night sky. The year is 400 days long with each
+  season lasting 100 days. There are no months since there is no moon. There
+  is also an 80 year climate cycle called the grand season, this is due to
+  that second orange sun. At the time of this adventure the world is in its
+  second year of grandsummer about 10 days into local spring. The origins of
+  the use of the metric system in an otherwise medeval setting are lost in the
+  mists of time and legend.
+Time: 10 days into spring, second year of grandsummer.
+Participants: Player Characters, Pirates, seamonsters
+Background: 
+Plot sketch: A map to a treasure is found, location of treasure is at an
+  abandoned castle.
+Notes: More details will be forthcoming.
+</screen>
+</sect1>

@@ -1,0 +1,58 @@
+<sect1>
+<title>Gifts and Flaws</title>
+
+<equation>
+	<title>Gift and Flaw Cost</title>
+  <mathphrase>Cost = Base Cost x Severity x Frequency</mathphrase>
+</equation>
+
+<para>
+All factors range from 1 to 5 [1:5].
+Gifts have positive Severity.
+Flaws have negative Severity.
+</para>
+
+<para>
+Purpose of Base Cost (BC):
+    To scale the cost of gifts and flaws to the same "range" as skills
+    and specialties. BC for gifts and flaws probably be the average of
+    skills and specialties BC range.
+    Ex: Skills &amp; Specs BC range: [1:5] => Gift &amp; Flaw BC: (1+5)/2 = 3.
+</para>
+
+<para>
+Purpose of Severity (SEV):
+    To scale the cost of gifts and flaws depending on how impacting
+    they will be during game play when it comes into play.
+</para>
+
+<para>
+Purpose of Frequency (FRQ):
+    To scale the cost of gifts and flaws depending on how often they
+    come into play.
+</para>
+
+<screen>
+    |Severity   | Frequency
+----|----------------------
+  1 | Noticable | Rare (1-2 during a campaign lasting several adventures)
+  2 | Mild      | Sometimes (1-2 during an adventure lasting a few sessions)
+  3 | Moderate  | Frequent (1-2 during a game session)
+  4 | Severe    | Often (Almost every encounter/conflict/pressed situation)
+  5 | Extreme   | Almost always (self explanatory)
+</screen>
+
+<screen>
+Example Gifts:
+Blessed - some advantagous effect
+Teleportation - instantanious movement from A to B. Quick activation but strains the body to the extreme. Takes many seconds to regain bearing.
+Planeshifting - move to another Plane by the power of WIL. Must focus on destination.
+Nightvision - can see as if daylight with the most minimal lightsource, only B/W vision
+Telepathy - mental communication with other entities
+Regeneration - accelerated healing
+
+Example Flaws:
+Cursed - some disadvantagous effect
+Phobia - fear of something
+</screen>
+</sect1>

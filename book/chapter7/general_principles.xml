@@ -1,0 +1,912 @@
+<sect1><title>General Principles of Magic</title>
+<table frame="all"><title>Magician Skill Competency</title>
+<tgroup cols="3" align="center">
+<colspec colnum="1" colname="c1" colwidth="1*" />
+<colspec colnum="2" colname="c2" colwidth="1*" />
+<colspec colnum="3" colname="c3" align="left" colwidth="1*" />
+<thead>
+<row><entry>Skill</entry><entry>Competency</entry><entry>Description</entry></row>
+</thead>
+<tbody>
+<row><entry>1 - 5</entry><entry>Apprentice</entry><entry>Minor self-control, sense the most obvious, immediate vicinity, line of sight, basic knowledge, general impressions, detect resonance.</entry></row>
+<row><entry>6 - 10</entry><entry>Journeyman</entry><entry>Moderate self-control, minor control outisde self, minor manipulation of appearances, affect simple life patterns (plants and microscopic lifeforms), control/manipulate simple/single events, re-direction, equilibrium is maintained.</entry></row>
+<row><entry>11 - 15</entry><entry>Craftsman</entry><entry>Major self-control, moderate control outside self, moderate manipulation of appearances, minor fundamental manipulation/transformation, minor creation (plants and microscopic lifeforms), affect moderate life patterns (insects).</entry></row>
+<row><entry>16 - 20</entry><entry>Adept</entry><entry>Extreme self-control, major control outside self, major manipulation of appearances, moderate fundamental manipulation/transformation, moderate creation (insects), affect complex life patterns (mammals and reptiles).</entry></row>
+<row><entry>21 - 25</entry><entry>Master</entry><entry>Extreme control outside self, major fundamental manipulation/transformation, major creation (mammals and reptiles), affect any life pattern.</entry></row>
+<row><entry>26+</entry><entry>Grandmaster</entry><entry>Pretty much no limit.</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<example><title>Magical Effect TDs</title>
+<screen>
+TD = 5:
+Find true north, heal bruises and stop minor bleeding on yourself, slightly
+heighten your senses, change hair/eye color, add/remove a few years of
+wrinkels on self, determen someones actual age, sense general emotions
+of one person or area.
+
+TD = 10:
+Heal open fleshwounds and minor bone fractures on yourself, alter weight,
+height or length of arms or legs with app. 10%, heal or destroy simple life
+patterns, co-locate perception, read surface thoughts, slow effects of poisons/
+deases, mentaly give simple impulses to others (love/hate/rage/friendliness).
+
+TD = 15:
+Regenerate lost limbs, heal broken bones and severed muscels on yourself,
+alter self with app. 50%, add a finger/toe, create a rose, destroy a
+bee hive, co-locate self, read subcounscious thoughts, calm/arouse emotions,
+mental communication, cheat death for a few years, take appearance of a cat,
+neutralize poisons/deseases.
+
+TD = 20:
+Heal any wound on yourself, add/remove an arm/leg permanently,
+co-locate others, control conscious thoughts/emotions, cheat death
+for a few decades, transform yourself into cat.
+
+TD = 25:
+Create a dog or a humanoid or a clone of yourself, cheat death for a
+few centuries, transform your mother into a cow :), heal any wound
+(except death) on anyone, control subconscios thought/emotion,
+reprogram personality.
+</screen>
+</example>
+
+<para>
+The listed examples does not apply to every magical focus. See the description
+of the foci to determen what each one can do.
+</para>
+
+<sect2><title>Paradigms and Magic</title>
+<para>
+Think of reality as a medium that has strong preferences for a specific
+paradigm, in any given place. Different places (can) have different paradigms.
+In any given place, then, there is one paradigm. That paradigm has a lot to do
+with what the residents believe now (and/or have believed in the past).
+It is important to understand, however, that while any paradigm is just a way
+of doing reality, each paradigm is richly self-consistant, and that a local
+area's paradigm changes much more slowly than the beliefs of any individual
+resident. The momentary beliefs or confusions of residents is not the sum of
+local reality.
+</para>
+
+<para>
+Each paradigm is a system of explanations and methods for doing things.
+Two systems are involved with every instance of magic.
+</para>
+
+<para>
+1: The local static reality.
+</para>
+
+<para>
+2: The magician's paradigm.
+</para>
+
+<para>
+When you think about an act of magic, consider: did the two systems agree
+(mostly) about the method/concept behind how the act was done?
+The second thing to consider is, did anyone recognize that the two systems did
+not agree (if they didn't)?
+</para>
+
+<para>
+All the magic a magician does must have an explanation native to his own
+paradigm. Magicans never do "raw magic," but they do know how to explain
+everything they know how to do.
+</para>
+
+<para>
+Next, it's important to understand that local realities are independant and
+self-consistant.
+</para>
+
+<sect3><title>Vulgar vs Nonvulgar</title>
+<para>
+Something is nonvulgar when the method used to produce a reality-impacting
+event is "believeable" by the standards of the local paradigm. Otherwise, it is
+vulgar. Vulgarity does not hinge on what people in fact see. Vulgarity does not
+hinge on any "trick" or bogus explanation for a magical effect, only on the
+real explanations used by the local paradigm and the magician's paradigm.
+People cannot sway the vulgarity of an isolated act of magic. They can either
+witness it, or not. Vulgarity is solely an issue of whether the magician chooses
+to use methods from within his paradigm that conform (adequately) to the local
+paradigm, and is not an issue involving the perceptions of specific people.
+</para>
+</sect3>
+
+<sect3><title>Witnessed vs Not Witnessed</title>
+<para>
+"Witnessed" happens only when people recognize that a specific event and method
+violates the static reality. If they don't see it at all, it's "without
+witnesses." If they believe in the way they think it was done, but that way is
+not the way it was really done, it's "without witnesses."
+</para>
+</sect3>
+</sect2>
+
+<sect2><title>How Paradigms Affect Spell Success</title>
+<para>
+If the effect is nonvulgar: subtract 5 from TD.
+</para>
+
+<para>
+If the effect is vulgar, but without witnesses: add 5 to TD.
+</para>
+
+<para>
+If the effect is vulgar, and with witnesses: add 10 to TD.
+</para>
+</sect2>
+
+<sect2><title>The Laws of Magic</title>
+<para>
+We are now ready to go into a description of the basic ways in which magical
+phenomena seem to behave. The Laws of Magic are not legislative laws but,
+like those of physics or of musical harmony, are practical observations that
+have been accumulating over the course of thousands of years, with remarkable
+similarity in almost every known human culture.
+
+Those of you who prefer to remain skeptical as to the reality of psychic
+phenomena and the systems of magic developed to control them will at least find
+these Laws an interesting and detailed guide to what psychologists and
+anthropologists so patronizingly refer to as "magical thinking."
+</para>
+
+<para>
+Those of you who play magicians as characters will find these Laws a remarkably
+concise guide to the ways in which most magicians, at least on this world,
+believe magic to work. Most of the technical motivations of magic-using
+characters, before, during and after using magic, will be based on these laws.
+</para>
+
+<para>
+Along with each Law listed, I'll include key words to help in memorization.
+These phrases are gross generalizations, but have the advantage of being brief
+and easy to remember.
+</para>
+
+<para>
+It's entirely possible that there are other Laws of Magic, however, I'm
+currently unaware of any that are held to by most magicians on this planet.
+Individual game designers and referees are free to invent new ones for their
+game universes, but they will probably give the most accurate magic simulations
+if they are congruent to these ones listed.
+</para>
+
+<sect3><title>The Law of Knowledge</title>
+<para>
+Essence: Understanding brings control; the more that is known about a subject,
+the easier it is to exercise control over it.
+</para>
+
+<para>
+Remarks: This Law is so fundamental that hardly any work on magic has ever
+been published without mentioning it. The comments in Chivalry &amp; Sorcery
+are quite appropriate here: "The Magick User might be compared to a combination
+philosopher-sage-research scientist only those activities which directly aim at
+increasing one's mastery of Magic itself can give the magician any experience
+worthwhile to him." These comments are most accurate for intellectual magicians
+of the theurgical sort but are more or less true of most other magic users as
+well.
+</para>
+
+<para>
+Keywords: Knowledge is power.
+</para>
+</sect3>
+ 
+<sect3><title>The Law of Self-Knowledge</title>
+<para>
+Essence: The most important kind of magical knowledge is about oneself;
+familiarity with one's own strengths and weaknesses is vital to success
+as a magician.
+</para>
+
+<para>
+Remarks: Most magicians quickly discover their own flairs and flaws. After all,
+this is a large part of what Apprenticeship is all about. This is also why
+"Evil Magicians" are comparatively rare in the real world (especially in the
+"higher ranks") because a dedication to "Evil for Evil's sake" is almost always
+due to a lack of introspection and self-awareness.
+</para>
+
+<para>
+Keywords: Know thyself.
+</para>
+</sect3>
+
+<sect3><title>The Law of Cause &amp; Effect</title>
+<para>
+Essence: If exactly the same actions are done under exactly the same conditions,
+they will usually be associated with exactly the same "results";
+similar strings of events produce similar outcomes.
+</para>
+
+<para>
+Remarks: Magicians have at least as much belief in cause and effect as modern
+physicists do, they just know that a good ritual, like a good poem or a good
+bread recipe, isn't always absolutely predictable.
+</para>
+
+<para>
+Keywords: Control every variable and you control every change, lotsa luck!
+</para>
+</sect3>
+
+<sect3><title>The Law of Synchronicity</title>
+<para>
+Essence: Two or more events happening at the same time are likely to have
+more associations in common than the merely temporal; very few events ever
+really happen in isolation from nearby events.
+</para>
+
+<para>
+Remarks: If you manage to pin a professional debunker against a wall (be
+careful, they get nasty when cornered) you'll find that the word "coincidence"
+is a scientistic term of exorcism, used to banish the demons of non-material,
+and therefore unscientific, causality.
+</para>
+
+<para>
+Keywords: Coincidence is seldom mere.
+</para>
+</sect3>
+
+<sect3><title>The Law of Association</title>
+<para>
+Essence: If any two or more patterns have elements in common, the patterns
+interact through those common elements, and control of one pattern facilitates
+control over the other(s), depending (among other factors) upon the number,
+type and duration of common elements involved.
+</para>
+
+<para>
+Remarks: This is probably one of the most important of the magical Laws and
+is directly connected to most of the others.
+</para>
+
+<para>
+Keywords: Commonality controls.
+</para>
+</sect3>
+
+<sect3><title>The Law of Similarity</title>
+<para>
+Essence: Effects are liable to have an outward physical or mental appearance
+similar to their causes.
+</para>
+
+<para>
+Remarks: Having an accurate image/sound/smell of an object or being facilitates
+control over it or them.
+</para>
+
+<para>
+Keywords: Look-alikes are alike.
+</para>
+</sect3>
+
+<sect3><title>The Law of Contagion</title>
+<para>
+Essence: Objects or beings in physical or psychic contact with each other
+continue to interact after separation.
+</para>
+
+<para>
+Remarks: Everyone your character has ever touched has a psychic link with him,
+though it is (probably) pretty weak unless the contact was intense and/or
+repeated frequently. Naturally having a part of someone's body (nails, hair,
+spit, blood, etc.) gives the best contagion link. Almost as good are objects of
+clothing, handkerchiefs, bedsheets, etc., that have absorbed sweat or other
+bodily fluids from the being your character wishes to magically influence.
+</para>
+
+<para>
+Keywords: Magic is contagious.
+</para>
+</sect3>
+
+<sect3><title>The Law of Positive Attraction</title>
+<para>
+Essence: Like attracts like; to create a particular reality you must put out
+energy of a similar sort.
+</para>
+
+<para>
+Remarks: This Law is often used in attraction spells, by saturating the aura
+of the magician or client with symbols and energies similar to those wanted.
+It's also commonly cited for moralistic purposes to discourage unwanted
+magical behavior, on the grounds that behaving badly will attract evil or bad
+luck. This Law may refer to morphic resonances; the tendency for energy shapes
+to complete themselves, or perhaps wave entrainment, which is the ability of
+particular vibrations to set up matching vibrations in nearby energy patterns.
+If either of these phenomena happen with psychic energy fields, they could
+easily cause the effects usually referred to by this Law.
+</para>
+
+<para>
+Keywords: That which is sent, returns.
+</para>
+</sect3>
+
+<sect3><title>The Law of Negative Attraction</title>
+<para>
+Essence: Like attracts unlike; energy and actions often attract their opposites.
+</para>
+
+<para>
+Remarks: People say that like attracts like, but they also say that opposites
+attract. This paradox can be reconciled by contemplating the classic yin-yang
+symbol. The two halves of the yin-yang are opposite in color, but they are
+identical in shape; thus opposite and similar on two different levels of
+reality (or universes of discourse). Yet the two halves both attract and repel
+each other in an eternal circular dance (see the Law of Polarity below).
+</para>
+
+<para>
+Any phenomenon more complex than a bacteria can be viewed on several levels,
+so you can usually find ways in which any two phenomena can be seen as either
+opposite or similar, depending on which of these Laws of Attraction you are
+interested in emphasizing.
+</para>
+
+<para>
+The reason this hasn't been clear before is that Western Dualism usually picks
+one aspect of existence that two phenomena have and insist that it is the only
+important aspect as far as judging the phenomena to be similar or opposite.
+</para>
+
+<para>
+Keywords: Opposites attract.
+</para>
+</sect3>
+
+<sect3><title>The Law of Names</title>
+<para>
+Essence: Knowing the complete and true name of an object, being or process
+gives one complete control over it.
+</para>
+
+<para>
+Remarks: This works because a name is a definition (yes, even Harold, Marie,
+Xunte, and Jasmine were at one time) as well as a contagion link. Perhaps more
+importantly, it works because knowing the complete and true name of something
+or someone means that you have achieved a complete understanding of its or his
+nature. This is why, in most pre-industrial cultures, people are given secret
+names as well as public names, and why the sharing of a secret name is such an
+act of trust because the secret name is considered to be very close to, if not
+identical with, the person's true name.
+</para>
+
+<para>
+Keywords: What's in a name? Everything!
+</para>
+</sect3>
+
+<sect3><title>The Law of Words of Power</title>
+<para>
+Essence: There exist certain words that are able to alter the internal and
+external realities of those uttering them, and their power may rest in the very
+sounds of the words as much as in their meanings.
+</para>
+
+<para>
+Remarks: Many words are names and most have known definitions. Barbarous words
+of power are (currently, if not originally) nonsense words that nonetheless can
+release certain psychic phenomena and states. Very many magical tools require
+words to be in-scribed upon them and/or to be said over them during their
+creation.
+</para>
+
+<para>
+Keywords: A word to the wise is sufficient.
+</para>
+</sect3>
+
+<sect3><title>The Law of Personification</title>
+<para>
+Essence: Any phenomenon may be considered to be alive and to have a
+personality, that is, to be an entity or being, and may be effectively dealt
+with thusly.
+</para>
+
+<para>
+Remarks: This Law is based on fundamental human thought processes and does
+make doing magic, especially with abstract concepts, much easier. Most
+magicians who do weather magic, for example, personify the winds and the
+clouds, and thus find focusing their APK (atomic psychokinesis, psychokinesis
+done upon the molecular, atomic or subatomic levels) upon the atmosphere much
+easier.
+</para>
+
+<para>
+Keywords: Anything can be a person.
+</para>
+</sect3>
+
+<sect3><title>The Law of Invocation</title>
+<para>
+Essence: It is possible to establish internal communication with entities
+from either inside or outside of oneself, said entities seeming to be inside of
+oneself during the communication process.
+</para>
+
+<para>
+Remarks: Either Invocation or Evocation can control the spirit communication
+processes known as inspiration, conversation, channeling (mediumship), and
+temporary possession.
+</para>
+
+<para>
+Keywords: Beings within...
+</para>
+</sect3>
+
+<sect3><title>The Law of Evocation</title>
+<para>
+Essence: It is possible to establish external communication with entities from
+either inside or outside of oneself, said entities seeming to be outside of
+oneself during the communication process.
+</para>
+
+<para>
+Remarks: Evocation is the Law that controls most summonings.
+</para>
+
+<para>
+Keywords: ... Beings without.
+</para>
+</sect3>
+
+<sect3><title>The Law of Identification</title>
+<para>
+Essence: It is possible through maximum association between the elements of
+oneself and those of another being to actually become that being to the point
+of sharing its knowledge and weilding its power.
+</para>
+
+<para>
+Remarks: This is the Law that controls most lengthy or permanent possession
+phenomena.
+</para>
+
+<para>
+Keywords: You can become another.
+</para>
+</sect3>
+
+<sect3><title>The Law of Infinite Data</title>
+<para>
+Essence: The number of phenomena to be known is infinite; one will never run
+out of things to learn.
+</para>
+
+<para>
+Remarks: The best possible example of this is the Internet. You could spend
+24 hours per day, seven days per week, and still never see 1% of the
+information that's out there and most of human knowledge isn't on the Net yet
+(as of 1998, anyway).
+</para>
+
+<para>
+Keywords: There's always something new.
+</para>
+</sect3>
+
+<sect3><title>The Law of Finite Senses</title>
+<para>
+Essence: Every sense mechanism of every entity is limited by both range and
+type of data perceived.
+</para>
+
+<para>
+Remarks: Many real phenomena exist which may be outside the sensory scanning
+ability of any given entity.
+</para>
+
+<para>
+Keywords: Nobody can see everything. Just because it's invisible doesn't mean
+it's not there.
+</para>
+</sect3>
+
+<sect3><title>The Law of Personal Universes</title>
+<para>
+Essence: Every sentient being lives in and quite possibly creates a unique
+universe which can never be 100% identical to that lived in by another.
+</para>
+
+<para>
+Remarks: So-called reality is in fact a matter of consensus opinions. There is
+no single Reality that exists (whether people like it or not that odd idea is
+popular due to monotheistic theologies and the Scientism they spawned) instead
+there are multiple and frequently contradictory realities all existing
+simultaneously. This Law may or may not be the same as the Law of Infinite
+Universes.
+</para>
+
+<para>
+Keywords: You live in your cosmos and I'll live in mine.
+</para>
+</sect3>
+
+<sect3><title>The Law of Infinite Universes</title>
+<para>
+Essence: The total number of universes into which all possible combinations
+of existing phenomena could be organized is infinite.
+</para>
+
+<para>
+Remarks: Some people consider this Law to refer to the alternate probability
+worlds of science fiction, however, it has a much wider application.
+</para>
+
+<para>
+Keywords: All things are possible, though some are more probable than others.
+</para>
+</sect3>
+
+<sect3><title>The Law of Pragmatism</title>
+<para>
+Essence: If a pattern of belief or behavior enables a being to survive and to
+accomplish chosen goals, than that belief or behavior is "true" or "real" or
+"sensible" on whatever levels of reality are involved.
+</para>
+
+<para>
+Keywords: If it works, it's true.
+</para>
+</sect3>
+
+<sect3><title>The Law of true Falsehoods</title>
+<para>
+Essence: It's possible for a concept or act to violate the truth patterns of a
+given universe (including an individual's or group's part of a consensus
+reality) and yet to still be "true", provided that it works in a specific
+context.
+</para>
+
+<para>
+Remarks: A data pattern may be true on one level of reality and false on
+another, depending upon the circumstances involved.
+</para>
+
+<para>
+For example, on the normal scholarly level of reality the Thunder Gods are
+parts of the quaint mythologies of our ignorant ancestors and therefore false,
+but on the level of reality involved in magical Rain-Making they are very real
+indeed.
+</para>
+
+<para>
+Keywords: If it's a paradox it's probably true.
+</para>
+</sect3>
+
+<sect3><title>The Law of Synthesis</title>
+<para>
+Essence: The synthesis of two or more opposing patterns of data will produce a
+new pattern that will be truer than either of the first ones were, that is, it
+will be applicable to more realities (or levels of reality).
+</para>
+
+<para>
+Remarks: This new pattern will not necessarily be a compromise but may be
+something new.
+</para>
+
+<para>
+Keywords: Synthesis reconciles.
+</para>
+</sect3>
+
+<sect3><title>The Law of Polarity</title>
+<para>
+Essence: Any pattern of data can be split into (at least) two patterns with
+opposing characteristics, and each will contain the essence of the other
+within itself.
+</para>
+
+<para>
+Remarks: Polarity should not be confused with dualism, a mistake that
+Westerners have been making for four thousand years and which has quite
+possibly led to more all-around misery than any other theological concept in
+history. Dualism assumes that opposites are at war with one another; polarity
+assumes that they embrace. The creators of D&amp;D did the game world a major
+favor when they made neutrality a part of the political and moral alignments in
+their game. The "Law vs. Chaos" and "Good vs. Evil" alignment systems so common
+in fantasy games are dangerous oversimplifications but the addition of
+neutrality and amorality (not to mention the new alignments that have been
+invented by players and referees, such as hungry, weird, or whimsical) have
+added far more creativity in character creation and play.
+</para>
+
+<para>
+Keywords: Everything contains its opposite.
+</para>
+</sect3>
+
+<sect3><title>The Law of Dynamic Balance</title>
+<para>
+Essence: To survive, let alone to become powerful, one must keep every aspect
+of one's universe(s) in a state of dynamic balance with every other one;
+extremism is dangerous on both the personal and the evolutionary levels of
+reality.
+</para>
+
+<para>
+Keywords: Dance to the music.
+</para>
+</sect3>
+
+<sect3><title>The Law of Perversity</title>
+<para>
+Essence: Also known as Murphy's Law, Finagle's Law, etc.: if anything can go
+wrong, it will - and in the most annoying manner possible.
+</para>
+
+<para>
+Remarks: Magical associations sometimes operate in the reverse of what was
+wanted; meaningful coincidences are just as likely to be unpleasant as they are
+to be helpful (especially if a lot of emotion goes into the related situations).
+Even if "nothing can possibly go wrong", some element of the universe may
+change so that things will go wrong anyway.
+</para>
+
+<para>
+This Law is probably based on the use of countermagic by one's own subconscious
+mind, for whatever devious or even neurotic reasons it may have. My guess is
+that it also ties in with the Anti-Psi talents. This Law explains why some
+people's magic seems to work backwards. Emotionally healthy magicians have less
+problems with this Law than unhealthy ones do, and once a magician has reached
+the Master/Mistress rank his "klutz factor" tends to go down accordingly. The
+klutz factor (or "fumble factor") is used by many referees to dampen down the
+effectiveness of high-level magicians who are unbalancing their game universes,
+but it has a basis in fact as well as in game playability.
+</para>
+
+<para>
+Keywords: These can only be: If anything can go wrong, it will.
+</para>
+</sect3>
+
+<sect3><title>The Law of Unity</title>
+<para>
+Essence: Every phenomenon in existence is linked directly or indirectly to
+every other one, past, present or future; perceived separations between
+phenomena are based on incomplete sensing and/or thinking.
+</para>
+
+<para>
+Keywords: All is One.
+</para>
+</sect3>
+
+<sect3><title>Additional Notes on the Laws</title>
+<para>
+Several of these laws are obviously a part of the metaphysical background of
+magic rather than part of its day-to-day techniques. Some, such as Invocation
+and Evocation, or Infinite Universes and Personal Universes, may actually be
+the same principles seen from different viewpoints. A few of the Laws usually
+seem to be subsets or intersections of other laws, as the chart clearly shows.
+</para>
+
+<sect4><title>Similarity, Contagion &amp; The Golden Bough</title>
+<para>
+The best known of the laws in Western literature are Similarity and Contagion,
+both of which are subsets of Association, and both of which are famous thanks
+to the writings of Sir James Frazer, especially the multi-volume Golden Bough.
+The one-volume edition, edited by T. Gaster and published under the name The
+New Golden Bough, is well worth reading if you haven't the steam to go through
+all 10,000+ pages of the original but you'll miss a lot of good stuff.
+Many fictional and nonfictional works in occultism, fantasy and science fiction
+(not to mention anthropology) published since Frazer's time blithely assume
+that these two are the only laws involved in magic despite the fact that ample
+evidence for the other laws is often present within these works themselves.
+Apparently, few scholars care to credit "ignorant savages" and "primitive
+ancestors" with being able to organize their observations into coherent systems
+of thought, let alone into complex philosophies.
+</para>
+
+<para>
+It should be remembered that similarities do not have to be visual ones, in
+order to use the Law of Similarity. Sounds, smells, textures, tastes, etc. can
+certainly be used, as well as abstract similarities that exist only in the mind
+of the magician. As for Contagion, the phenomena involved do seem to have
+falling-off patterns, or "half-lives". The longer it has been since the contact
+was last made or used, the weaker the contagion link will be. But these sorts
+of half-lives, represent far too delicate of a variable to worry about in game
+magic, unless an individual referee may care to wing it on such judgements.
+</para>
+
+<para>
+These Laws combine frequently. Blood from an aardvark can always be used to
+control more aardvarks than the original donor, because aardvark blood will
+always be very similar to aardvark blood. Control spells will work best on the
+original source of the contagion sample (and parts of the body are usually the
+best samples) but a body sample can always be used to boost the efficiency of a
+spell done on any entity with a similar body (and this body does not always
+have to be organic - a magician having problems with technological devices
+might choose to carry transistors or wiring samples around).
+</para>
+</sect4>
+
+<sect4><title>Invocations &amp; Evocations</title>
+<para>
+The Law of Invocation is the main law used by Shamans and other Mediums because
+it deals with various types of possessions. The Law of Evocation, however, is
+used by Goetic Magicians and Necromancers to summon various spirits, human or
+nonhuman, many of which may be parts of the subconscious or superconscious
+minds of the magicians themselves. However, the various spells used in
+roleplaying games for Summoning Monsters have nothing to do with evoking them.
+These spells actually seem to be methods for seeking out (via Telepathy or the
+Clair-Senses) the nearest "monster" of the sort desired and of either helping
+or forcing them to Teleport to the summoner.
+</para>
+</sect4>
+
+<sect4><title>Universe Hopping</title>
+<para>
+The Law of Infinite Universes could be used by magicians attempting to send an
+object or being (including themselves) to another universe, or to retrieve
+something or someone from another universe, as in various gateway spells.
+While it is not mentioned by name, this law is actually the one used by the
+protagonists to universe-hop in the (In-)Complete Enchanter series by Pratt
+&amp; de Camp (who may have been the first folks to suggest using symbolic
+logic equations to describe the Laws of Magic).
+</para>
+</sect4>
+
+<sect4><title>Tactical Polarity</title>
+<para>
+The Law of Polarity can be used for tactical purposes in magical combat, since
+every target is going to have a "weak spot" of some opposite characteristic
+hidden deep within. Even the most stalwartly Good magician is going to have a
+spot of Evil somewhere inside, though the higher his rank and the better his
+emotional health, the weaker that spot will be (not only will it be harder to
+get to, but it will be less useful to exploit).
+</para>
+
+<para>
+The problem in most cases is to figure out just what constitutes the opposite
+of a complex object or being. A Northern Fire Giant would have spots of
+Southernliness, cold and dwarvishness inside his physical and psychic
+structure, but only the cold spot would make a good flaw to concentrate upon in
+most cases unless you could amplify his Southernliness to make him more
+hospitable!
+</para>
+</sect4>
+
+<sect4><title>Perversity &amp; Wishing</title>
+<para>
+The Law of Perversity can provide a number of amusing and infuriating incidents
+in both real and game magic. In the occult community, one of the most popular
+sayings around the world is "Always be careful what you ask for, you may get
+it!" This leads into the subject of backfiring wishes, but wishes themselves
+are such an irrational and absurd gimmick to throw into game magic systems that
+it isn't even worth discussing them. They seem to be used mostly as a way to
+cheat Fate and thus the game. The only magical excuse, explanation or plausible
+reason for postulating the reality of the wishing phenomena is to assume that
+there exist gigantically powerful mega-gods (probably of the Whimsical
+alignment) who are contacted through the wishing devices and who delight in
+performing full-scale miracles for (or to) stupid mortals. For those who insist
+on wishing their characters out of every mess their bad play has caused, I have
+only an old occult blessing: May your every wish come true.
+</para>
+</sect4>
+
+<sect4><title>Combining Laws</title>
+<para>
+As a matter of practical use, the Laws are seldom if ever applied in isolation.
+Usually two or more are combined.
+</para>
+
+<para>
+For example: a party of travelers is going through the wilderness when they
+come upon a hostile dragon. Their only mage, Belinda the Befuddled, decides to
+try a Command Dragon Spell, so she reaches into her pouch and pulls out a wand
+made of dragon bone (Similarity) which is carved with the likeness of a dragon
+(Similarity) and with several runes (Words of Power). One end is capped with a
+dragon scale (Contagion, since she found it in the woods the previous night and
+it actually belongs to the dragon in question, but it also works as Similarity)
+and the other end is tipped with a crystal carved into the likeness of a dog's
+paw (Similarity, to the deity about to be invoked). Calling upon the divine
+name of Mighty Manfred the Dragon Slayer (Names, Invocation) the magician pulls
+in extra mana from her deity, which she then sends forth with several Words of
+Power in Auld Wurmish (a dragon language, and therefore more Similarity),
+Mesmerically sending her commands to the dragon. Snarfblatt the Mighty promptly
+forgets about his intention to eat the travelers and instead flies away to look
+elsewhere for lunch. With great dignity, Belinda faints from relief.
+</para>
+</sect4>
+</sect3>
+</sect2>
+
+<sect2><title>How the Laws Affect Spell Success</title>
+<para>
+There should be a way to add to a character's chances of success, when the
+magician uses one or more of the Laws of Magic in the spell design. One way of
+doing this is shown in the table below, in which particular uses of laws add
+Possibility Increments (PIs) to any spell's Possibility of Spell Success (PoSS).
+</para>
+
+<informalexample>
+<screen>
+Using that system, Belinda the Befuddled got quite a bit of improvement
+in her chances for success, with credit for using Similarity five times, Words
+twice, and Contagion, Invocation &amp; Names once each. Even though she's only
+using a single Psi Talent (Mesmerism) and probably couldn't have done it
+without help from Mighty Manfred, still her multiple use of the Laws could
+easily boost her success possibilities to her Magical Luck Limit for her rank.
+</screen>
+</informalexample>
+
+<sect3><title>Effects of the Laws of Magic on Possibilities of Spell Success</title>
+<para>
+1: For every usage of a Law of Magic (except those listed below) in the casting
+of a spell, add 1 to the PoSS. If the same Law is used more than once, add the
+appropriate bonus for each usage.
+</para>
+
+<para>
+2: For every usage of the Law of Similarity: add 1-4, depending upon the
+degree of similarity involved.
+</para>
+
+<informalexample>
+<screen>
+Attempting to cast a spell on a gnome. Having a crude drawing of a dwarf
+(another type of small humanoid) is barely worth 1. Having a coffeetable Book
+of Gnomes is worth 2. Having a realistic painting of the gnome in question is
+worth 3. If photographs are possible in the game universe involved, one might
+push the bonus up to 4 for having a photo of the gnome.
+</screen>
+</informalexample>
+
+<para>
+3: For every usage of the Law of Contagion: add 1-5, depending upon the degree
+of contagion involved.
+</para>
+
+<informalexample>
+<screen>
+Attempting to heal a damaged comrade from a distance. Having shaken hands with
+her several times is barely worth 1. Having an item of her clothing or weapons
+is worth 2. Having a lock of her hair is worth 3. Having kissed her a lot
+recently, or having had more intense contact, may well be worth 4-5
+depending on just how friendly you got! Being able to touch the target of a
+spell during the casting period will usually add 2.
+</screen>
+</informalexample>
+
+<para>
+4: For every usage of the Law of Names: add 1 for using the target's "public
+name", add 2 for using the target's "childhood name" or adult "pet name", add
+3 for using the target's "secret name", and add 6 for using the target's
+"true name". Target beings will usually know their own names in the first three
+categories, but only a supernatural entity is liable to know their own or
+someone else's "true name".
+</para>
+
+<para>
+Note: An Invocation or Evocation bonus cancels out any connected Names bonus.
+</para>
+
+<para>
+5: For every usage of the Law of Invocation or the Law of Evocation: add 1-4,
+depending on one's own Piety; 1 for low Piety, 2 for average Piety, 3 for
+high Piety, 4 for highest Piety. Some referees may prefer to use the
+character's "State of Grace" for this.
+</para>
+
+<para>
+6: For every usage of the Law of Perversity: add 3 if and only if Negapsi is
+one of one's Gifts. Otherwise, subtract 3 or "crock" the results of the
+spell. If the referee or the player determines that a given magician is
+suffering a "streak of bad luck", expect the Law of Perversity (at referee's
+option) to start making things even worse.
+</para>
+</sect3>
+</sect2>
+</sect1>

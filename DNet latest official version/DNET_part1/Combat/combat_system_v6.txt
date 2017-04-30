@@ -1,0 +1,484 @@
+Changes from version 5:
+- corrected a few grammar mistakes
+
+Things to do: (feel free to contribute)
+- add a note on negative numbers, especially negative BODY and negative Armor 
+  resistance
+- complete the weapons list (I'll dig a bit more in the Palladium Compendium 
+  when I find the time)
+- add Minimum Strength for all weapons
+- add Reach for all weapons
+- add Bob's system for calculating weapon reach (in hexes)
+- add optional methods to keep track of negative damages
+- clean the armor table to reduce the number of armors and to adjust the
+  armor resistances to values that fit our needs. We might want to group
+  armors by types and to give base rules on how to combine different
+  types of armor for the best protection
+- add examples where appropriate
+- add styles
+- add the Awesome Toothpick of Pixie Slaughtering to the Weapons Table ;)
+- add Fatigue (let's keep this one for when everything else is done, OK?)
+
+-------------
+COMBAT SYSTEM
+-------------
+
+Targeting equation
+------------------
+
+The equation used to determine if one or more successful hits have occured during 
+a round is:
+
+2d10* + Att_Sk [+ Sk_mods] >= 2d10* + [+ TD_mods] [+ Def_Sk [+ Sk_mods]]
+
+If the left hand side is greater than or equal to the right hand side, then 
+the attacker scores a hit and should proceed to determine damage.
+
+Explained in game terms, this means that both the attacker and the defender  
+should make a 2d10* roll. The attacker then add his skill to his roll, as well 
+as any skill modifiers that the game master might allow or require; for 
+example, he might add a +1 to his roll if he is on higher ground than the 
+defender, or a -1 if he is fighting on a ledge. The defender also adds his 
+skill to his 2d10* roll if he is using his active defense against this 
+opponent; like the attacker, he must add the skills modifiers that the game 
+master finds appropriate to the situation.
+
+The attacker and the defender then compare the result of their rolls augmented 
+by skill and modifiers. If the attacker's total is greater than or equal to the 
+defender's total, then he scores one or more hits. If not, the defender has blocked 
+all his attempts and is left unarmed.
+
+Example: George the Pure is fighting Mercath the Dark on a snow covered 
+         mountain. Since the terrain is treacherous, both combatants suffer 
+         a -1 to  their rolls (which cancel out), but Mercath has an 
+         additional +1 modifier since he is fighting from on higher side of 
+         the slope. Fortunately for the cause of Good, George has a skill of 
+         13, while Mercath only has a skill of 11. Since both opponents have 
+         resolved to fight to the death, we can skip the phase of actions
+         declaration.
+         
+         In the first round of combat, George rolls 19, to which is added his 
+         skill of 13 and the modifier of -1, for a total of 31. Mercath only 
+         rolls a for his defense 12, to which we add his skill of 11, the 
+         modifier of -1 , and his bonus of +1 for being on the good side of 
+         the slope, if not of the law; Mercath's total is 23. It appears 
+         clearly that George's attacks have passed through Mercath's defenses 
+         (31 vs 23). In the next section, we will determine how much damage 
+         George has inflicted to his dark ennemy.
+         
+         Of course, Mercath does not only try to avoid George slashes during 
+         this first round. He also tries to inflict some nasty wounds to the
+         poor illuminated fool. He rolls a 7 for his attack, to which we add
+         once again his skill of 11, the modifier of -1, and his bonus of +1,
+         for a total of 18. George's defense roll is 8, which gives him a 
+         total of 20, with his skill of 13 and the -1 modifier. George has 
+         resisted to Mercath's attacks and will stay a healthy illuminated 
+         fool for now.
+         
+OPTIONAL:
+   For villains, the GM may replace the defender roll by a constant value of 
+   10 to accelerate combat resolution:
+   
+   2d10* + Att_Sk [+ Sk_mods] >= 10 + [+ TD_mods] [+ Def_Sk [+ Sk_mods]]   
+          
+   Note that this makes the villains harder to hit if the attacking PC's skill 
+   is less than 2 points higher than the defending villain skill. (If the PC 
+   skill is 2 points higher or more, then it is easier for the PC to hit the 
+   villain with a constant defense)
+
+Determining Damage
+------------------
+
+Damage is computed by comparing the impact made by the attacker to
+the resistance of the defender.
+
+DAMAGE = IMPACT - RESISTANCE
+
+where:
+
+IMPACT = Weapon Impact + STR
+
+If a weapon has not been designed to be used by humans, then its impact
+can be calculated from:
+
+   Weapon Impact = Human Weapon Impact + Species STR
+      Human Weapon Impact: given in the Human Weapons table (below)
+      Species STR: average strength of the species for which the weapon was
+                   made (given in the species description).
+                   
+For example, a pixie longsword would do an impact of:
+   Pixie Longsword Impact = Human Longsword Impact + Pixies average STR
+                          = 2d6+4 + (-6)
+                          = 2d6-2
+
+RESISTANCE = Natural Resistance + Armor Resistance
+
+   Natural Resistance: given in the species description
+                       for new species that have a type of skin similar 
+                       to that of humans, use the Species Size Rating
+   Armor Resistance: as in the Armour Table (below)
+
+Armor Resistance is always a positive value that corresponds to the type of
+armor being worn.  Natural Resistance is a value representing the natural
+body covering of a species (see the species description).  Natural Resistance
+can be negative.  Because of this, RESISTANCE can be negative as well.
+
+If DAMAGE is lower than 0, then it is considered to be 0. A DAMAGE of 0 or
+less is considered to be just a scratch. If DAMAGE is greater than 0, then
+it should be added to the INJURY heap.
+
+INJURY = INJURY + DAMAGE
+
+Example: George the pure has scored one or more hits on Mercath the Dark. How 
+         many hits he has scored does not interest us, what we wish to know is 
+         how much damage these hits have done.
+         
+         George is wielding a longsword, which has a base impact of 2d6+4, and
+         has a strength of +3. Mercath wear a hard leather jazeraint armor 
+         (resistance of 7), which is more appropriate for travel than his 
+         prefered suit of plate armor.
+         
+         George roll 11 on for his longsword impact (2d6+4) and adds his 
+         strength of +3, for a total of 14. Of these 14 points of impact
+         Mercath armor absorb 7, which leaves 7 points of damage to add to
+         his INJURY heap. Since he was previously unarmed, his INJURY heap is
+         now equal to 7.
+
+Unconsciousness and Death Checks
+--------------------------------
+
+Unconsciousness: 2d10* + WIL >= INJURY - BODY
+Death: 2d10* + FIT >= INJURY - 2*BODY
+
+BODY Values Table
+-----------------
+
+For the formula used to calculate those BODY values, see appendix A.
+
+Species       BODY
+------------------
+Dwarf          25  (assuming STR 0)
+Hobbit         20  (assuming STR -2)
+Human          25
+Ogre           32  (assuming STR +2)
+Pixie          -1  (assuming STR -6)
+
+Human Weapons Table
+-------------------
+
+The following weapons have been extracted from "The Compendium of
+Armour, Weapons & Castles" published by Palladium Books. The
+book contains many more weapons, but those listed should suffice
+for the demonstration of the basic combat system.
+
+Note: Each weapon should also have a minimum strength rating.
+      When a weapon is scaled for a different species, so is the
+      minimum strength rating.
+
+Weapon Name              Damage*      Length   Mass   Hands
+-----------------------------------------------------------
+Hafted Weapons
+
+Baculus                 2d6   (7)      0.7m    0.5kg    1
+Ball & Chain            2d6+1 (8)      0.9m    2.0kg    1
+Battle Axe              2d6+4 (11)     0.8m    2.1kg    1
+Bearded Axe             2d6+4 (11)     1.4m    2.3kg    1
+Bec-de-Corbin           2d6+1 (8)      0.6m    1.5kg    1
+Bipennis                2d6+4 (11)     0.8m    2.4kg    1
+Club                    2d6+1 (8)      0.6m    1.3kg    1
+Crowbill                2d6+4 (11)     0.6m    1.5kg    1
+Cudgel                  2d6+1 (8)      0.8m    1.0kg    1
+Fist Mace               2d6+1 (8)      0.5m    1.8kg    1
+
+Knives
+
+Batardeau               2d6-2 (5)      0.3m    0.4kg    1
+Butcher Knife           2d6-2 (5)      0.3m    0.4kg    1
+Dirk                    2d6-2 (5)      0.25m   0.4kg    1
+Kydney Dagger           2d6-2 (5)      0.3m    0.4kg    1
+Main Gauche             2d6-2 (5)      0.5m    0.4kg    1
+Pavade                  2d6-2 (5)      0.4m    0.4kg    1
+Poignard                2d6-2 (5)      0.3m    0.3kg    1
+Roundel Dagger          2d6+1 (8)      0.6m    0.45kg   1
+Stiletto                2d6-2 (5)      0.3m    0.3kg    1
+Triple Dagger           2d6-2 (5)      0.3m    0.3kg    1
+
+Swords
+
+Bastard Sword           2d6+4 (11)     1.0m    2.1kg    2
+Broadsword              2d6+4 (11)     0.8m    1.6kg    1
+Claymore                2d6+9 (16)     1.2m    2.9kg    2
+Flamberge               2d6+9 (16)     1.3m    3.4kg    2
+Longsword               2d6+4 (11)     0.8m    1.5kg    1
+Scimitar                2d6+4 (11)     0.9m    1.4kg    1
+Small Sword             2d6+1 (8)      0.7m    0.7kg    1
+Talon Sword             2d6+1 (8)      0.7m    1.1kg    1
+Zweihander              2d6+9 (16)     2.0m    6.3kg    2
+
+*The average damage is in ()
+
+Armour Table
+------------
+
+Armour names and resistance value where extracted from the Palladium 
+Compendium. Resistance is an approximate average of cut, chop, thrust 
+and impact resistance.
+
+Armour name        Resistance       Mass*
+-----------------------------------------
+Bare skin               0            --
+Medium cloth            1           2.5kg
+Soft Leather            2           3.7kg
+Heavy Cloth             2           3.7kg
+Studded soft leather    2           6.0kg
+Quilt                   3           5.0kg
+Hard leather            3           5.0kg
+Padded                  4           5.0kg
+Studded Hard Leather    4           7.5kg
+Soft leather ringmail   4           7.5kg
+Heavy Cloth ringmail    5           7.5kg
+Cuir-bouilli            5           5.0kg
+Quilt ringmail          5           10kg
+Soft Leather bezainted  6           7.5kg
+Hard leather ringmail   6           10kg
+Mail                    6           20kg
+Hard leather jazeraint  7           10kg
+Hard leather bezainted  7           10kg
+Double Mail             8           22kg
+Augmented Mail          8           22kg
+Cuir-bouilli bezainted  9           10kg
+Cuir-bouilli lamellar   9           10kg
+Metal jazeraint         10          20kg
+Metal lamellar          10          18kg
+Laminated               11          20kg
+Metal brigandine        11          22kg
+Plate                   13          25kg
+Ribbed Plate            14          25kg
+
+*Mass does not include padding, which is necessary for metal armors.
+
+From the descriptions of complete set of armour found in the
+compendium, armour values for fully armored characters should go no 
+higher than 23 (plate over padding, 35kg).
+
+------------------------------------------------------------------------------
+
+----------------------------------
+APPENDIX A: BODY Value Calculation
+----------------------------------
+
+I will try here to determine body values using the following assumption:
+
+An average naked character should be able to endure 3 average longsword hits (the longsword being scaled for his species) (weapon impact = 11) before 
+having a greater than 50% chance of passing out on a given unconsciousness check (note that this is a fantasy setting).
+
+This assumption is made to ensure that combats won't be too short and
+deadly but also that they won't last too long.
+
+From John's analysis of failing a 2d10* repetitive check, we have:
+
+     INJURY               unconscious %     unconscious %
+  (or INJURY-BODY)        with one roll     with INJURY rolls
+        1                     1 %               1 %
+        2                     3 %               4 %
+        3                     5 %               9 %
+        4                     9 %              17 %
+        5                    13 %              28 %
+        6                    19 %              42 %
+        7                    25 %              56 %
+        8                    33 %              71 %
+        9                    41 %              83 %
+       10                    51 %              91 %
+
+The first column is INJURY or INJURY-BODY, or the number one must roll on the
+2d10* to avoid falling unconscious.  The second column is the usual
+percentages we have been using, which reflect the probability of fainting
+from a single blow.
+
+The third column is the whole point of this exercise. It is the chance of
+fainting from a number of blows, each of which increase INJURY by 1 point.
+Since one must include the chance that the character failed one of the
+earlier rolls, the probabilities go up much faster.
+
+As we can see, a character has a 56% chance of passing out when 
+INJURY = BODY + 7. If we relate this to the average impact of 3 longsword
+hits, we get:
+
+BODY + 7 = 3*(Species Average Longsword Impact)
+
+BODY = 3*(Species Average Longsword Impact) - 7
+
+For humans, the average longsword impact is 11 and we get BODY = 26. For 
+simplicity, let's round it to BODY = 25.
+
+This implies that the average human will have a ~50% of failing a given death 
+check after 60 points of damage (~5 longsword hits).
+
+For pixies, the average longsword impact is 2, so the BODY value will be:
+
+BODY = 3*2 - 7 = -1
+
+Note that these values can be an idea of what a species BODY should be. If you
+want the species to be though, set the BODY a higher. If you want it to be
+frail, set it lower. These formulas should be used as guidelines, not as
+a way to obtain a "true" BODY value.
+
+------------------------------------------------------------------------------
+
+---------------------------------
+APPENDIX B: Alternate damage rule
+---------------------------------
+
+Damage is computed by comparing the impact made by the attacker to
+the resistance of the defender.
+
+DAMAGE = IMPACT - RESISTANCE
+
+where:
+
+IMPACT = Weapon Impact + STR
+   Weapon Impact = Human Weapon Impact + Species STR
+      Human Weapon Impact: given in the Human Weapons table (below)
+      Species STR: average strength of the species for which the weapon was
+                   made.
+RESISTANCE = Natural Resistance + Armor Resistance + BODY
+   Natural Resistance = given in the species description
+                        if not, use the species Size Rating
+                       
+   Armor Resistance: as in the Armour Table (below)   
+   BODY: Human BODY + Species STR
+
+If DAMAGE is lower than 0, then it is considered to be 0. A DAMAGE of 0 or
+less is considered to be just a scratch.
+
+Note: Body values are not the same in the alternate rule as in the standard
+      rule. All other values are equal.
+
+Unconsciousness and Death Checks
+--------------------------------
+
+Unconsciousness: 2d10* + WIL >= INJURY
+Death: 2d10* + 5 + FIT >= INJURY
+
+[Note: I departed from the proposed formula 2d10* + FIT >= INJURY/2
+       because I wanted the chance to fail a death check before an 
+       unconsciousness check to be negligible for a character with FIT 0 
+       and WIL 0. The particular value of 5 has been chosen as described
+       in the next section]
+
+Human BODY Value
+----------------
+
+In mathematical terms, the assumption can be expressed as:
+
+2d10* >= 3*DAMAGE
+-> 2d10* >= 3*(11-BODY)
+--> 3*BODY >= 33 - average(2d10*)
+---> 3*BODY >= 23
+----> BODY >= 7.67
+
+I choose BODY = 8.
+
+Since we want our average human to have a ~50% of dying after ~5 longsword hits, the constant in the death check equation must be:
+
+2d10* + CONSTANT >= 5*(11-BODY)
+-> 2d10* + CONSTANT >= 5*3
+--> CONSTANT >= 15 - average(2d10*)
+---> CONSTANT >= 5
+
+I choose CONSTANT = 5, which gives the death check:
+
+2d10* + 5 >= INJURY
+
+------------------------------------------------------------------------------
+
+---------------------------------------
+APPENDIX C: Notes on the damage systems
+---------------------------------------
+
+Guillaume's toughts on scalability:
+-----------------------------------
+
+[These notes have not been updated to reflect changes in the text]
+
+I won't try to justify too much my decision of scaling everything with 
+strength. One could easily argue that it would be more logical to scale armor 
+with size rating and I could not argue against that. I just want to express a 
+few thought about the scalability issue that will help people understand why
+I scaled everything with strength.
+
+1) When we try to achieve what we call scalability, we are in fact trying
+   to make pixies behave like very small humans and giants behave like very 
+   large humans. For example, one basic assumption is that two pixies 
+   fighting each other should be hurt as much as two humans fighting each 
+   others. I personally find that this is not desirable in a fantasy 
+   role-playing game: after all, why play pixies if they are nothing but small 
+   humans? "Experiencing" different realities when you play different
+   species is part of the fun of playing a RPG.
+
+2) Concerning Strength, Roger rightly pointed out to me that it should be
+   proportional not to mass but to muscle section, i.e. to size rating.
+   While this is more accurate, I fear that this is not possible in a FRPG,
+   because no large creature could support its own weight. So long for 
+   giants... I therefore find that the assumption that strength is 
+   proportional to muscle mass/volume is more appropriate to our fantasy 
+   setting. 
+
+3) Under the assumption that Strength was proportional to mass, scaling
+   body with strength became natural.
+   
+4) Weapon damages have been scaled with strength also, because I felt
+   that the damage potential of a weapon depends mainly on its mass
+   (given that the shape is the same as the equivalent human weapon)
+   
+5) I changed all the weapon damages in the weapons table to 2d6 + CONSTANT
+   to ease scaling and with the reasoning that it is so hard to evaluate the
+   damage distribution of weapons that we might as well choose the 
+   distribution that best fits our needs.
+
+Note that with respect to comment #1, I would personnally scale Armor 
+Resistance with the species Size Rating/2, even if it means that pixies
+will have hard time hurting each others and that giants' fights will end 
+quickly. The rationale behind such a scaling is that armor resistance is
+proportional to its thickness, which is proportional to the square root of
+the area (size rating/2 in our pseudo-log scale). (Undivided size rating could 
+do as well, since SR and STR aren't even on the same log scale and a little 
+more imprecision here won't do much wrong...)
+
+Roger's thoughts on scalability:
+--------------------------------
+
+I feel driven to object to  this idea that pixies are
+just little people and giants are big ones.  The real
+world doesn't scale that way.  We have had combat schemes
+that scale more naturally, but the complaint is that pixies
+do no damage.  I do not find this as disagreeable as some.
+From real life this is what I expect.  While there is little
+reliable information recorded about pixies (8-), there are
+parallel systems we can look at, e.g. cat family.  The animals
+scale from house cat through sylvan cat, ocelot, puma,  panther,
+lion all the way up to tiger [Leaving some out].  The relative
+body dimensions change as the animal gets larger, as expected.
+SO the lion and tiger have much more massive  paws and legs
+relatiive to their length than the house cat.
+
+But consider what happens in fights:
+
+Acouple of house cats can tear into each other and leave some
+scratches and nibbled ears -- if these wounds would not fester
+they would not be life threatening.  A couple of big cats can
+really damage each other.  A sound paw hit can knock another
+cat down.  A good belly rake can disembowel.  This is lethal
+combat.  Is it any wonder that there are show or loud displays
+which result in one or the other backing down instead of the
+wild furry combat of house cats (where only a very lucky hit actually
+knocks over another cat, though a sound hit may leave the
+target shaking its rattled head).
+
+So, in dnet, I expect that two pixes going at each other will
+not do comparable damage as two hwmans.  Likewise swinging
+pixie swords, they will do less damage.  Giants on the other
+hand, can be positively lethal even with tree trunks.  They
+don't need swords when fists and clubs are enough.  [That
+is why giants are often relatively low tech.  What they
+get naturally or at hand is gud'nuf.]

@@ -1,0 +1,509 @@
+<sect1><title>Magic Skills</title>
+<para>
+There are two categories of magic skills in the DNet system. These are
+source skills and conductor skills. For a character to successfully cast a
+spell, he or she must successfully use source skills to make magical power
+available, and then conductor skills to use that power.
+</para>
+
+<example><title>Skills For Fireball Spell</title>
+<screen>
+A magus' "Fireball" spell requires the caster to use
+the "Elemental Power of Energy" source skill and then
+the "Elemental Fire Focus" conductor skill.
+</screen>
+</example>
+
+<para>
+Thus, the character must succeed on two task resolutions: the first to gather
+the necessary magical energy (source), and the second to use the energy made
+available (conductor).
+</para>
+
+<sect2><title>Sources</title>
+<para>
+Source skills represent the ability of the caster to draw upon a particular
+source of supernatural energy and make that energy available for the casting
+of a spell. Sources are much like outlets in the modern world. Outlets are
+useless by themselves, but when their energy is used by an appliance,
+technological wonders occur. So, too, are source skills useless by themselves,
+but when their energy is used by a conductor skill, magic happens.
+</para>
+
+<para>
+Whenever a caster wishes to cast a spell, he must make the energy for that
+spell available by using one or more source skills. Making the energy
+available is a simple matter of making a  task check using the source skill
+required of the spell at the Source Task Difficulty (TD) of the spell.
+</para>
+
+<example><title>Source Skill For Fireball Spell</title>
+<screen>
+The "Fireball" spell has a Source TD of 13 and to use that spell
+the caster must first make the Source task check:
+
+   d10-d10* + "Elemental Power of Energy" Skill &gt;= 13
+</screen>
+</example>
+
+<para>
+If the task check fails, the caster is unable to gather the energy required
+for the spell and the spell fizzles. If the composite task check succeeds,
+the character has successfully gathered the energy, and may proceed to
+harness that energy using the appropriate conductor skill.
+</para>
+</sect2>
+
+<sect2><title>Conductors</title>
+<para>
+Where source skills represent an ability to draw upon a particular source of
+supernatural energy, conductor skills represent an ability to use that energy
+in a particular way. Where a source skill is an outlet in the modern world, a
+conductor is an appliance. Without electricity, appliances are useless by
+themselves, but when they are given energy to work with they can do amazing
+things. So, too, are conductor skill useless without energy from a source
+skill, but when they have that energy, magic happens.
+</para>
+
+<para>
+We must also take the analogy one step further. Not all appliances can plug
+into all outlets throughout the world; they must have compatible voltages and
+have the same type of current. Conductors, too, can only be used with those
+sources with which they are compatible. Energy from any other incompatible
+source is useless to them. The sources with which a given conductor is
+compatible are listed in the description for that skill.
+</para>
+
+<para>
+Once a caster has gathered the energy from a source, he or she can utilize
+that energy by using a conductor skill. Similar to using source skills,
+harnessing and shaping energy using conductor skills is a simple matter of
+making a task check using the conductor skill required of the spell at the
+Conductor Task Difficulty (TD) of the spell.
+</para>
+
+<example><title>Conductor Skill For Fireball Spell</title>
+<screen>
+The "Fireball" spell from above has a Conductor TD of 5 which uses the "Elemental Fire Focus" conductor.
+Therefore, to finish casting this spell (once energy has been made available from the appropriate source),
+the caster must make this task check:
+
+     d10-d10* + "Elemental Fire Focus" Skill &gt;= 5
+</screen>
+</example>
+
+<para>
+If the composite task check fails, the caster was unable to successfully
+conduct the spell's energy and an unpredictable result may occur; the power
+was not properly "focused." Once the conductor task check has succeeded, the
+spell is cast.
+</para>
+
+<para>
+<emphasis>
+Optionally, a failure of the source check can cause damage to the caster.
+</emphasis>
+</para>
+</sect2>
+
+<sect2><title>Source Skill List</title>
+<para>
+<table frame="all"><title>Source Skills</title>
+<tgroup cols="5" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" align="left" colwidth="1*" />
+<colspec colnum="5" align="left" colwidth="1*" />
+<thead>
+<row><entry>Skill Name</entry><entry>BC</entry><entry>Tal*</entry><entry>Adv</entry><entry>Compatible Conductor(s)</entry></row>
+</thead>
+<tbody>
+<row><entry>Celestial Power of Darkness</entry><entry>3</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Foci</entry></row>
+<row><entry>Celestial Power of Daylight</entry><entry>3</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Foci</entry></row>
+<row><entry>Elemental Power of Energy</entry><entry>3</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Foci</entry></row>
+<row><entry>Elemental Power of Entropy</entry><entry>3</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Foci</entry></row>
+<row><entry>Kundalini</entry><entry>5</entry><entry>WIL</entry><entry>WIL</entry><entry>the Chackras</entry></row>
+<row><entry>Spirit of [spirit]</entry><entry>3</entry><entry>AUR</entry><entry>AUR</entry><entry>Communion with Spirits</entry></row>
+<row><entry>Doctrine of [deity]</entry><entry>4</entry><entry>PSY</entry><entry>PSY</entry><entry>Piety to [same deity]</entry></row>
+</tbody>
+</tgroup>
+</table>
+*All Sources have an UP of Impossible.
+</para>
+
+<formalpara><title>Celestial Power of Darkness</title>
+<para>
+The Celestial Power of Darkness is one of the two Celestial Powers, those
+source skills used by Celestial Magi. This particular source allows a
+magus to call upon 'negative' magical energy to use with the Celestial
+Foci, those conductor skills compatible with the Celestial Powers and used
+by Celestial Magi. Darkness, when used with a Celestial Focus, destroys or
+diminishes that which falls under the purview of that Focus. The Power of
+Darkness is not an evil power, as many seem to believe, it is simply one
+of the destructive powers of the universe.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Power of Daylight</title>
+<para>
+The Celestial Power of Daylight is the 'positive' Celestial Power. It is
+used to build up and enhance in ways depending upon which aspect of the
+power the magus chooses to focus into form and reality.
+</para>
+</formalpara>
+
+<formalpara><title>Elemental Power of Energy</title>
+<para>
+The Power of Energy plays the role for Elemental Magi that the Power of
+Daylight plays for Celestial Magi. This power creates, enhances, and
+builds up the elements.
+</para>
+</formalpara>
+
+<formalpara><title>Elemental Power of Entropy</title>
+<para>
+The Power of Entropy is the opposite of the Power of Energy. Its role is
+similar to that of the Power of Darkness of the Celestial Magi. It tears
+down, destroys, and subdues the elements under its control. It is the
+unrelenting force in the universe that will not rest until all is
+destroyed. Again, this Power is not evil inherently, only when used for
+evil deeds.
+</para>
+</formalpara>
+
+<formalpara><title>Kundalini</title>
+<para>
+Kundalini is the raw energy which exists in the Astral Plane. The Psionic
+draws upon Kundalini and uses it through different Chakras (the associated
+conductors) to achieve different effects. The Psionic is more versatile
+than the Magi, but less powerful at manipulating his reality. None surpass
+the Psionic's mastery of the mind, however.
+</para>
+</formalpara>
+
+<formalpara><title>Spirit of spirit</title>
+<para>
+The Spirit world is the domain of the Shamanic spell-caster. For each type
+of Spirit the Shaman wishes to contact and commune with, the Shaman must
+have a Source skill. After the Spirit has been contacted using this Source
+skill, the Shaman must commune with the Spirit using the Communion
+conductor skill to attempt to explain to the Spirit what is desired, and
+to convince the Spirit to do as it is asked.
+</para>
+</formalpara>
+
+<formalpara><title>Doctrine of deity</title>
+<para>
+The power of the gods is available to those who call themselves Priests.
+Priests worship one (or, rarely, more) deity who answers his Priests'
+prayers and requests in the form of Miracles (spells). In order to have
+one's prayers heard by a deity, the Priest must have a skill in that
+deity's Doctrine. This skill represents how well the Priest knows the
+teachings and requirements of the deity necessary to get part of the
+deity's attention. The higher the character's skill in Doctrine, the
+greater portion of the deity's attention is gained. Once the Priest has
+successfully contacted the deity with a Doctrine skill, he must pray the
+the deity does as he wishes, the success of which is determined by the
+Priest's Piety skill to that deity.
+</para>
+</formalpara>
+</sect2>
+
+<sect2><title>Conductor Skill List</title>
+<para>
+<table frame="all"><title>Conductor Skills</title>
+<tgroup cols="5" align="center" colsep="1" rowsep="1">
+<colspec colnum="1" colname="c1" align="left" colwidth="1*" />
+<colspec colnum="5" colname="c5" align="left" colwidth="1*" />
+<spanspec spanname="hspan" namest="c1" nameend="c5" />
+<thead>
+<row><entry>Skill Name</entry><entry>BC</entry><entry>Tal*</entry><entry>Adv</entry><entry>Compatible Source(s)</entry></row>
+</thead>
+<tbody>
+<row><entry>Air Elemental Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Powers</entry></row>
+<row><entry>Earth Elemental Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Powers</entry></row>
+<row><entry>Fire Elemental Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Powers</entry></row>
+<row><entry>Water Elemental Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Powers</entry></row>
+<row><entry>5th Elemental Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Elemental Powers</entry></row>
+<row><entry spanname="hspan"></entry></row>
+<row><entry>Aurora Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry>Comet Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry>Firmament Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry>Light Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry>Moon Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry>Stars Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry>Sun Celestial Focus</entry><entry>4</entry><entry>INT</entry><entry>INT</entry><entry>the Celestial Powers</entry></row>
+<row><entry spanname="hspan"></entry></row>
+<row><entry>Astral Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>Body Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>Dream Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>Emotion Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>ESP Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>Mind Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>Reality Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry>Temporal Chackra</entry><entry>3</entry><entry>WIL</entry><entry>WIL</entry><entry>Kundalini</entry></row>
+<row><entry spanname="hspan"></entry></row>
+<row><entry>Piety to [deity]</entry><entry>4</entry><entry>AUR</entry><entry>AUR</entry><entry>Doctrine of [same deity]</entry></row>
+<row><entry>Communion with Spirits</entry><entry>5</entry><entry>PSY</entry><entry>PSY</entry><entry>Spirit of [any spirit]</entry></row>
+</tbody>
+</tgroup>
+</table>
+*All Conductors have an UP of Impossible.
+</para>
+
+<formalpara><title>Elemental Air Focus</title>
+<para>
+The focus of air is the ethereal aspect of the elemental powers. It
+controls winds and gravity. With the energy of air, a magus can fly above
+his enemies, or blow thunderstorms over their heads. The entropy of air
+can cause suffocation of his enemies, or bring things down to earth.
+</para>
+</formalpara>
+
+<formalpara><title>Elemental Earth Focus</title>
+<para>
+The earth is the focus of physical power. This aspect of energy affects all
+things with solid physical form. With this power the magus may raise up
+great mountains, or bring them crashing down upon his foes. The earth
+aspect of entropy allows the magus to destroy the physical. With it he can
+disintegrate physical objects and beings, or create doorways where none
+were before.
+</para>
+</formalpara>
+
+<formalpara><title>Elemental Fire Focus</title>
+<para>
+Fire is the form of true power. Fire is heat, warmth, life, and energy. By
+mastering the aspect of fire, a magus can hurl balls of flame towards his
+enemies, or keep warm on a cold winters night. He can cause forest-fires
+in the dead of winter, or light a dark passage. Using entropy, the magus
+can hurl balls of ice, or stamp out natural or magical flames, or even put
+out the fire within each person.
+</para>
+</formalpara>
+
+<formalpara><title>Elemental Water Focus</title>
+<para>
+The water focus is the domain of the seas and the lakes. It has complete
+control over liquids in all its forms. It can bring water into being for
+the benefit of the magus, or drown the magus' enemies. It can also create
+patches of ice, or slippery stones. The entropy aspect of this focus
+destroys water, soaks it up. This aspect can turn an enemy into parched
+dry bones instantly, or dry up a lake which happens to be in the way.
+</para>
+</formalpara>
+
+<formalpara><title>The 5th Elemental Focus</title>
+<para>
+Powerful Elemental Magi have theorized the existence of a 5th Element of
+unknown properties which could be used with the Energy or Entropy sources
+of Elemental magic. Unfortunately, no one has yet discovered this elusive
+Element, or determined its probable nature. Perhaps the sages of DnExotica
+will, in time, solve this perplexing mystery :).
+</para>
+</formalpara>
+
+<para>
+Current theories include the concept of an Element of Nothingness, or Void,
+an Element of Pure Magic, an Element of Spirit, an Element of the Aether,
+that which fills the Void, or a Quintessential Element. It is believed that
+once the 5th Element is discovered, many of the mysteries of Elemental magic
+will be solved.
+</para>
+
+<formalpara><title>Celestial Aurora Focus</title>
+<para>
+The aurora, which appears in the northern night sky, is the most beautiful
+and entrancing of all celestial elements. Through the study of this
+wondrous effect, magi are able to draw upon and use its ability to charm
+and entrance the observer. With this focus, the magus may charm an enemy
+and calm his friends. With the darkness of the aurora, a magus may strike
+fear into his enemy, remove charmed influences from his friends, and
+prevent beguiling effects from manipulating himself or others.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Comet Focus</title>
+<para>
+The comet is the messenger of the heavens. Continually moving at blinding
+speeds throughout the night sky, it is the master of all movement. By
+studying the properties of the comet, the magus is able to use its
+movement for himself. With this focus he can instantly move anywhere in
+the world, or, in combination with the focus of the firmament, he can even
+move out of this world. The darkness of the comet prevents movement,
+imprisoning and trapping enemies, and preventing others from coming near.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Firmament Focus</title>
+<para>
+The light of the sky and the heavens above is the study of the firmament.
+Those magi who strive to understand the magnitude of the firmament, are
+able to transcend this reality and get a glimpse into other realities of
+infinite varieties. Through this study, magi can commune with gods or
+angels or demons. In combination with the field of comet, magi are even
+able to walk the infinite planes of existence. Through the study of the
+night sky, the darkness of the heavens, magi are able to block off the
+conduits through which these inter-planar communion occur. With this
+discipline, magi can return foreigners to their home realities, and
+prevent their return, or stop the communication of other magi with
+extra-planar beings.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Light Focus</title>
+<para>
+Light is purity incarnate. This focus allows the magus to wield true power,
+without manipulation. With it bolts of pure magical energy can spring
+forth from the casters hand, or magical effects can be detected or
+enhanced. The dark allows the magus to cancel the magic of others or
+inhibit magic.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Moon Focus</title>
+<para>
+The moon is the mistress of mysteries, the lady of the night. Under her
+pale glow, reality takes on new dimension. By studying the moon, magi are
+able to use her light to mask reality, to make what isn't really there
+come to life. With this power, magi can weave strange and powerful
+illusions of things which only exist by the light of the moon, though the
+moon does not need to actually be shining for the magus to draw upon her
+power. Those who study the dark side of the moon, on the other hand, can
+see through all pretenses and appearances to the stark reality underneath,
+though the vision is not always a pleasant one. Illusions have no affect
+on those who wield the power of the dark side of the moon, and all that
+was once hidden comes clear.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Stars Focus</title>
+<para>
+The stars in their infinite formations hold the knowledge of all that was,
+all that is, and all that will be. Through the study of starlight, the
+magus can glean some small inkling into the vastness of the universe and
+can divine what is and what will come. Through knowledge of the light of
+the stars, all knowledge comes clear. However, by manipulating the dark
+stars, magi are able to obscure the meaning the stars hold. They can
+prevent less powerful magi from discerning particular knowledge, or even
+misdirect such inquiries.
+</para>
+</formalpara>
+
+<formalpara><title>Celestial Sun Focus</title>
+<para>
+The sun is the giver of life, the celestial orb that brings warmth and
+health to all the realms. Therefore, the sun is the focus of life. The
+celestial magus who masters the sun aspect of daylight masters life
+itself. He is capable of healing, or even of bringing those which were
+dead back to the realms of the living. However, the one who masters the
+darkness aspect of the sun learn the true meaning of death, and with that
+knowledge can bring death to others and undo the work of the sun.
+</para>
+</formalpara>
+
+<formalpara><title>Astral Chakra</title>
+<para>
+This is the Chakra that allows the Psionic that in addition to the normal
+capabilities of drawing power from the Astral Dimension, allows the
+Psionic to also travel into this dimension and to summon creatures from
+the Astral dimension.
+</para>
+</formalpara>
+
+<formalpara><title>Body Chakra</title>
+<para>
+Man is not made of only a mind, but also a physical body. Through the use
+of this Chakra, the Psionic can utilize the Astral energy to enhance his
+physical attributes.
+</para>
+</formalpara>
+
+<formalpara><title>Dream Chakra</title>
+<para>
+This powerful Chakra allows the Psionic to achieve superhuman feats, as he
+accomplishes them not in this world, but the world of his dreams. Of
+course, the unnaturally good is tempered with the unnaturally bad--most
+Dream powers carry some penalty, as they are under control of the Psionic
+subconscious, and not his conscious mind.
+</para>
+</formalpara>
+
+<formalpara><title>Emotion Chakra</title>
+<para>
+This Chakra deals with the emotional, colorful side of the mind, whereas
+Mind deals with the cold, logical side of the mind.
+</para>
+</formalpara>
+
+<formalpara><title>ESP Chakra</title>
+<para>
+Clairvoyance, reading the future, picking up auras would be included in
+this Chakra. It would also affect how much the psionic can perceive while
+in the astral plane.
+</para>
+</formalpara>
+
+<formalpara><title>Mind Chakra</title>
+<para>
+The Psionic's most powerful tool is his mind. Utilizing the Chakras of mind
+allows the Psionic not only to delve deeper into his mind than he normally
+would be capable of doing, but it also allows him to delve into the mind
+of others when it is used in conjunction with other Chakras.
+</para>
+</formalpara>
+
+<formalpara><title>Reality Chakra</title>
+<para>
+This Chakra is about imposing a Psionic's will over reality. Control over
+Fire, Air, Water, and Earth would be included in this Chakra. A psionic
+wouldn't be able to manipulate these elements as well as an elemental
+magus. An example of this Chakra would be a fire-starter (pyrogenic).
+</para>
+</formalpara>
+
+<formalpara><title>Temporal Chakra</title>
+<para>
+This Chakra would be allow the psionic to affect the flow of time and to
+perceive in things in the future and/or past. Examples of this would be
+(in conjunction with other Chakras) slowing down metabolism, fortune
+telling, speeding healing, etc.
+</para>
+</formalpara>
+
+<formalpara><title>Piety to deity</title>
+<para>
+The Piety skills represent how devout and reverent a character has learned
+to act towards a particular deity. Because the nature of worship required
+by separate deities is different, there is a unique Piety skill for each
+deity. Pragmatically, the Piety skills are what keep Priests on the 'good'
+sides of their deities. That is to say, the Piety skill helps to convince
+the deity to act in the best interests of the Priest, after the Priest has
+gotten part of the deity's attention, instead of, say, killing the priest. :)
+</para>
+</formalpara>
+
+<para>
+Because the Priest must be able to gain a part of the deity's attention
+before making his request, the Priest must first have at least 1 level of
+training in the Doctrine skill of a deity before he may be trained in the
+Piety skill of that deity.
+</para>
+
+<formalpara><title>Communion with Spirits</title>
+<para>
+The Communion conductor is what allows those who weave Shamanic spells to
+commune with the denizens of the Spirit world. It is this communion which
+allows the caster to communicate to the Spirits his or her desires.
+Without this, the Spirits would be powerless to help the caster. The skill
+level a caster possesses in the Communion skill represents how capable the
+caster is of communicating complex wishes to Spirits.
+</para>
+</formalpara>
+
+<para>
+Before using the Communion skill, the caster must first contact the Spirit
+with which he wishes to commune using the appropriate Spirit skill, and he
+must, therefore, have some skill in a Spirit skill before gaining training
+in the Communion skill.
+</para>
+</sect2>
+</sect1>

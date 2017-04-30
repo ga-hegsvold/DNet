@@ -1,0 +1,76 @@
+<sect1><title>Task Difficulties</title>
+<para>
+To aid the GM in determining TDs, the following TDs have been established
+relative to what an average character (Tal = 0) with minimal Training in a Skill
+(Tr Lvl = 1) can accomplish. Therefore, the values were derived from the
+following Task Resolution Formula:
+</para>
+
+<para>
+<literal>
+d10-d10* + 1 &gt;= TD
+</literal>
+</para>
+
+<para>
+Thus, when assigning a difficulty to a Task, the GM should set the TD as if the
+Task was being attempted by a Tal = 0, Tr Lvl = 1 character.
+The GM should not base the difficulty on the Skill Level of the character
+attempting the Task. In other words, figure out what the Task is like, then use
+the table below to find the description that best fits the Task.
+With this description, use the TD value listed.
+</para>
+
+<para>
+<example><title>Task Difficulties</title>
+<screen>
+Climbing a moss covered wall by someone with Tal = 0, Tr Lvl = 1
+could be described as tricky. Tricky is listed under the "Could also be
+described as" column for Difficult. The TD associated with a Difficult
+Task is 5. Thus no matter what the Skill of a character attempting to
+climb a moss covered wall, the Task Difficulty is 5.
+
+If a character with Skill 3 in Climb Walls attempts to climb the moss
+covered wall, he uses the formula: d10-d10* + 3 &gt;= 5.
+
+If a character with Skill 10 in Climb Walls attempts to climb the moss
+covered wall, he uses the formula: d10-d10* + 10 &gt;= 5.
+</screen>
+</example>
+</para>
+
+<para>
+<table frame="all"><title>Task Difficulties</title>
+<tgroup cols="4" align="center" colsep="1" rowsep="1">
+<colspec column="1" colname="c1" align="left" colwidth="1*" />
+<colspec column="2" colname="c2" align="center" colwidth="1*" />
+<colspec column="3" colname="c3" align="center" colwidth="1*" />
+<colspec colnum="4" colname="c4" align="left" colwidth="1*" />
+<spanspec spanname="hspan" namest="c1" nameend="c4" />
+<thead>
+<row><entry>Description</entry><entry>TD</entry><entry>Odds*</entry><entry>Could also be described as</entry></row>
+</thead>
+<tbody>
+<row><entry>Easy</entry><entry>-5</entry><entry>89%</entry><entry>Routine, Simple, Trivial</entry></row>
+<row><entry>Average</entry><entry>0</entry><entry>63%</entry><entry>Engaging, Fair, Intermediate</entry></row>
+<row><entry>Difficult</entry><entry>5</entry><entry>25%</entry><entry>Difficult, Tough, Tricky</entry></row>
+<row><entry>Very Difficult</entry><entry>10</entry><entry>6%</entry><entry>Challenging, Demanding, Tasking, Vexing</entry></row>
+<row><entry>Extremely Diff</entry><entry>15</entry><entry>2.4%</entry><entry>Exacting, Formidable, Punishing</entry></row>
+<row><entry spanname="hspan"></entry></row>
+<row><entry>Limit</entry><entry>20</entry><entry>0.6%</entry><entry>Extreme, Ballistic</entry></row>
+<row><entry>Crushing</entry><entry>25</entry><entry></entry><entry>Backbreaking, Monumental</entry></row>
+<row><entry>Herculean</entry><entry>30</entry><entry></entry><entry>Epic, Staggering, Superhuman</entry></row>
+<row><entry>Gargantuan</entry><entry>35</entry><entry></entry><entry>Stupefying</entry></row>
+<row><entry>Titanic</entry><entry>40</entry><entry></entry><entry>Awesome</entry></row>
+<row><entry spanname="hspan"></entry></row>
+<row><entry>Unbelievable</entry><entry>50</entry><entry></entry><entry>Impossible</entry></row>
+<row><entry>Inconceivable</entry><entry>60</entry><entry></entry><entry>Shattering</entry></row>
+<row><entry>God-like</entry><entry>70</entry><entry></entry><entry>Legendary, Mythic</entry></row>
+<row><entry>Immortal</entry><entry>80</entry><entry></entry><entry>Celestial, Eternal</entry></row>
+<row><entry>Cosmic</entry><entry>100</entry><entry></entry><entry>Transcendental</entry></row>
+</tbody>
+</tgroup>
+</table>
+*Odds are calculated for a Tal = 0, Tr Lvl = 1 character.
+</para>
+</sect1>

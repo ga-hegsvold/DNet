@@ -1,0 +1,45 @@
+<sect1><title>Magic Types Guidelines</title>
+<para>
+Magic can come in many types and flavors. The GM will probably decide on the
+types of magic depending on the type of world that is being played in. The
+magic types in the standard world 'Corellus' provide good examples of how to
+set up the types of magic.
+</para>
+
+<para>
+The first thing that needs to be decided is what types of magical energy are
+available for use. These are the sources that the players can use. Are there
+any restrictions on these sources (e.g., priestly sources have the
+restriction that the priest must be in good favor with that deity). Sources
+have a base EP cost associated with them that reflects how hard it is to
+draw on that source.
+</para>
+
+<para>
+The next decision is, how can these sources be manipulated. These will be the
+conductors. The conductors also usually have a base cost associated with them.
+Other modifiers can be used from the table above.
+</para>
+
+<para>
+The game master can also decide that each form of magic is associated with a
+different vision of the world and that a single individual cannot embrace
+more than one.
+</para>
+
+<example><title>Magic Limitations</title>
+<screen>
+A magician specialized in the Elemental theory would not be able to perform
+any Celestial spell, and might also have some difficulty with Psionics.
+</screen>
+</example>
+
+<para>
+Once again, this kind of limitations are very world specific.
+</para>
+
+<para>
+A template for magic types can be found in section 9.5.
+</para>
+
+</sect1>

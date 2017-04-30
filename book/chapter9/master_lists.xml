@@ -1,0 +1,9 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>Master Lists</title>
+
+<xi:include href="master_species_list.xml" />
+<xi:include href="master_career_list.xml" />
+<xi:include href="master_item_list.xml" />
+<xi:include href="equipment.xml" />
+
+</chapter>

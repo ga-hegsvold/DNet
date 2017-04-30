@@ -1,0 +1,660 @@
+Hi,
+
+An update to the combat rules. What is in there right now seems pretty much
+functional to me, except for the REACH/RANGE system that is far too complex.
+
+I will try to add the combat sequence description tonight or tomorrow night.
+(I want to playtest DNET during the weekend.) This should not stop you
+from making your own additions though...
+
+Guillaume
+
+*****************************************************************************
+
+General comment: WE REALLY NEED TO FIX THE REACH/RANGE SYSTEM. I suggest that
+                 we simply give a reach/range value in meters in the tables.
+                 we can include the minimum range for missile weapons in the
+                 weapon description (if needed, I personally have nothing
+                 against point blank range, as long as I am not the target...)
+Changes:
+3.0a2 -> Added sections: 6.2.2 Combat Styles
+                         6.2.3 Impact, Damage and Injury
+                         6.2.4 Combat Round Sequence
+3.0a3 -> Added sections: 6.3   Combat Skills
+                         6.3.1 Combat Styles
+3.0a4 -> Removed "Exotic Weapons" and "Single Weapon" styles
+      -> Updated "6.2.2 Combat Styles" to reflect the changes
+      -> Augmented "6.3.1 Combat Styles"
+
+3.0a5 -> Added mechanics for shield bash, entangle limbs, and entangle
+         feet/trip (please check!)
+      -> Added distances in meters for Close, near, far, etc. ranges (please
+         check these and make sure they are right!)
+      -> Fixed a few minor spelling and wording problems.
+
+3.0a6 -> Added description of the columns in the table in section 6.3.1
+
+3.0a7 -> Added the weapons table
+         (we won't use one-hand strength and two-hands strength in this
+          release)
+      -> Added the armor table
+      -> Added the titles of all the missing sections (see combat outline)
+      -> Added the Dodge skill (for now, we will use the Roger-Bob proposal.
+         If playtesting proves it to be too complex, we will change it)
+
+3.0a8 -> Removed the armor and weapon tables. I think they will be better
+         in a separate "Equipment" section. I you disagree, just say so.
+      -> Added Unarmed Combat. We might want to move the unarmed Styles
+         with the Weapon Styles at some point, but I think it is better
+         not to do it before both sections are finalized.
+      -> Moved the Misc. Combat Skills from the Unarmed Combat rules to
+         the Other Combat Skills in the main combat rules.
+      -> Changed the EP cost and TD for Catch Missiles and Evade Missiles
+         skills (with regard to the comments made on this issue).
+      -> Reworked the Disarm skill from the comments posted. Also added
+         bonuses to disarm attempts to articulated weapons and Bolas, ...
+         Styles.
+      -> Removed the note about precision from the Fend description.
+         This description should be clarified.
+      -> Allowed for the use of a shield with the Dodge skill, thereby gaining
+         the shield defense bonus (at no extra cost).
+      -> Redivided the Weapon Styles between Long Range and Melee styles.
+      -> Reworked the Entangle, Trip and Shield Bash mechanism to allow
+         for an AGI check which depends on the efficiency of the attack.
+      -> Modified the Weapon Styles to include the weapon and shield 
+         variations.
+      -> Changed the Talents for many weapon styles (what does DEX has
+         to do with hacking at someone?)
+
+*****************************************************************************
+SECTION 6     COMBAT
+
+----------------
+6.1 Introduction
+----------------
+
+"... violence is the last refuge of the incompetent." Isaac Asimov
+
+When other means of achieving objectives have failed, the party of adventuring
+characters may find themselves in an encounter that leads to combat.   Combat
+can take many forms including melee, archery, arcane, etc.  Good combat
+rules should cover all those situations, while being simple enough not to
+prevent the players from having fun.
+
+Like everything else in the DragonNet system, combat rules seek to achieve a
+balance between realism, simplicity and heroism.  In a completely realistic
+system, serious wounds often prove fatal and the game master has to take great
+care not to create a situation where combat is unavoidable.  At the opposite,
+in a heroic system where the characters can endure extreme wounds without
+flinching, combat often becomes the preferred mean to resolve situations of
+conflict.  In our vision, combat should not limit character development by
+ending it whenever it happens, nor should it prevent it by being a universal
+solution to all problems.  Therefore, the DragonNet combat system is deadly
+enough that characters won't always seek combat as the solution to their
+problems, but not so deadly as to make the characters flee each time brute
+force is required.
+
+------------------
+6.2 Basic Premises
+------------------
+
+6.2.1 The Combat Round
+----------------------
+
+As in many RPG system, combat in DNET is resolved by dividing its duration
+into rounds.  During a round, each character can perform one action: attacking
+an opponent, casting a spell, reloading a bow, etc.  Each combat round
+represents six seconds of action, giving ten rounds per minute.
+
+During a combat round, each protagonist will get to accomplish one action,
+without consideration for who acts first or last.  Each attack/defense
+confrontation is in fact an exchange of blows and the damage inflicted by the
+protagonists upon each other is the summation of the effects of each
+individual blow.  It is therefore perfectly possible for two combatants to
+finish off each other in the same round, giving a situation similar to the
+final combat scene in the movie "Excalibur".
+
+6.2.2 Combat Styles
+-------------------
+
+There is more to combat than just swinging a weapon; most of the reflexes that
+make a good fighter have more to do with the way he uses his weapon than with
+the particular weapon used.  The skills your character has to learn to be a
+proficient fighter are thus named combat styles.  The primary style for a
+fighter with military training would probably be "Weapon and Shield".  A
+northern barbarian wielding a claymore would most often use the "Two-handed
+weapon" style.  A magic oriented character would probably opt for a low cost
+style such as "Staves", giving him basic combat abilities while letting him
+focus most of his efforts on magic lore.
+
+As your character gains experience, he can advance in one or more combat
+style.  Since combat styles are used for both attack and defense, improving
+them makes you both harder to hit and better at hitting your opponents.
+
+6.2.3 Impact, Damage and Injury
+-------------------------------
+
+When you hit an opponent with a weapon, you generally intend to cause him some
+physical damage.  The DragonNet system uses a specific procedure with its
+associated terminology to calculate this damage; the basics of the damage
+calculation procedure are exposed here, so that you can better understand
+the
+rest of the system.  The complete procedure will be described in detail
+later in the combat chapter.
+
+Every physical attack is said to cause an IMPACT.  For example, a hit with
+bastard sword made by an average human causes 2d6+4 points of IMPACT.  If the
+target is wearing armor, part of the attack's IMPACT is absorbed by the armor,
+while the remaining part, if any, constitutes the true physical DAMAGE, which
+is added to the target's INJURY heap.  If the target suffers too much
+INJURY, i.e. more than what is BODY allows, he will pass out and eventually
+die.
+
+6.2.4 Combat Round Sequence
+---------------------------
+
+Most gamers hate it when the mechanics of combat system take more time than
+the actions and tactical decisions of the characters.  In other words, the
+mechanics should not slow down the combat flow and bring down the climactic
+tension.  The combat round sequence outlined here and described more fully
+later in the text will generally be most effective one for smooth combat
+resolution.
+
+The combat round begins with the declaration phase, during which each player
+announces the actions of his character(s) and the game master states the
+actions of the non-player characters (NPC).  The order of the declaration can
+be arbitrary or determined by rolling for initiative.  In both cases, it is
+advantageous to declare last, since you can decide the actions of your
+character in regard of what others have announced.
+
+After all actions have been declared, the resolution phase begins.  No
+particular order is required, as all actions are considered to be simultaneous
+and every character is assured that he will have a chance to attempt its
+planned actions.  For attacks, resolution is divided in two steps: the
+attacker
+first attempts to hit the defender in a contest of skills; if he is succesful,
+damage is calculated using the procedure outline above (sec. 6.2.3).
+
+At the end of each combat round, after all actions have been resolved,
+characters that have been wounded during the round must check to see if they
+remain conscious and alive.
+
+-----------------
+6.3 Combat Skills
+-----------------
+
+6.3.1 Combat Styles
+-------------------
+
+One of the fundamental premises behind the DNET combat system is that one's
+fighting style is more important than the actual weapon used.  A fighter used
+to fighting with a broad sword and a shield will find it much easier to fight
+with a bastard sword and a shield than to fight with a broad sword alone.  His
+combat reflexes are tuned to certain strike sequences relying on the shield
+to parry blows.  For him, fighting without the shield means developping new
+strike sequences, something that is not always easy to do in the middle of
+a melee.
+
++--------------------+------+-----+-----+----+----+-------------------------+
+|                    |  EP  | Attribute |    |    |                         |
+| Style Skill Name   | Cost | Tal | Adv | AM | DM | Special Characteristics |
++--------------------+------+-----+-----+----+----+-------------------------+
+|                    |      |     |     |    |    |                         |
+| LONG RANGE STYLES  |      |     |     |    |    |                         |
+|                    |      |     |     |    |    |                         |
+| Archery            |  4   | PER | DEX |    |    | extreme, 0 def          |
+| Cross Bows         |  2   | PER | DEX |    |    | extreme, 0 def, slow ROF|
+| Thrown Weapons     |  3   | PER | DEX |    |    | near, no defenses       |
+|                    |      |     |     |    |    |                         |
+| MELEE STYLES       |      |     |     |    |    |                         |
+|                    |      |     |     |    |    |                         |
+| Articulated W.     |  4   | AGI | AGI | +1 |    | entangle, +2 disarm     |
+| Articulated W.     |  5   | AGI | AGI | +1 | *  | shield bonus/bash       |
+|   & Shield         |      |     |     |    |    | entangle, +2 disarm     |
+| Bolas, Whips,      |  3   | DEX | AGI |    |    | trip/entangle, 0 def    |
+|   Ropes, Nets      |      |     |     |    |    | +3 disarm               |
+| Close Weapons      |  2   | AGI | AGI |    |    |                         |
+| Close W. & Shield  |  3   | AGI | AGI |    | *  | shield bonus/bash       |
+| Dual Weapon        |  4   | AGI | AGI | +2 | -1 |                         |
+| Fencing            |  5   | DEX | AGI | +2 |    | DEF Fencing/Close only  |
+| One-Handed Weapons |  3   | AGI | AGI |    |    |                         |
+| One-Handed Weapons |  4   | AGI | AGI |    | *  | shield bonus/bash       |
+|   & Shield         |      |     |     |    |    |                         |
+| Polearms           |  4   | AGI | AGI | +1 | -1 | 2nd rank, fend          |
+| Staves             |  2   | AGI | AGI |    |    |                         |
+| Thrusting Weapons  |  3   | AGI | AGI |    |    | 2nd rank, fend          |
+| Thrusting Weapons  |  4   | AGI | AGI |    | *  | shield bonus/bash       |
+|   & Shield         |      |     |     |    |    | 2nd rank, fend          |
+| Two-Handed Weapons |  3   | STR | AGI |    | -2 | 2nd rank                |
++--------------------+------+-----+-----+----+----+-------------------------+
+*: see style description
+
+Table Description
+-----------------
+EP Cost - This is the training cost associated with the skill
+Attribute Tal - The attribute which forms the basis for using this skill.
+                (i.e. The attribute acts as a modifier for use of the skill
+                                in the targeting equation.)
+Attribute Adv - This attribute is used as a modifier for advancement of
+                the skill.
+AM - Attack modifier
+DM - Defense modifier
+
+Special Characteristics
+-----------------------
+
+Range: Close (0 - 1 m; actually engaged in close combat)
+       Near (1 - 10 m; engaged or able to move to engage this round)
+       Far (11 - 100 m; not in melee range, but probably in missile weapon
+                        range)
+       Extreme (> 100 m; out of all but the longest range missile weapons)
+
+2nd rank: extended weapon reach to attack opponents from a distance, as from
+  behind a line of friendly shield bearers.
+
+Fend: Basically Fend keeps opponent with shorter weapon at a distance unable
+  to attack.  Opponent who loses against Fend either cannot attack or takes
+  automatic hit at full damage (maximum for thrusting weapon and STR bonus).
+
+  A Fend can be started if an opponent is outside of Close range at the start
+  of a combat round. Otherwise, a successful Fend means that an opponent who
+  is at Close range is unable to attack in the next round. A successful Fend 
+  must occur in each subsequent round to keep the opponent at bay.
+
+*FEND DESCRIPTION SHOULD BE CLARIFIED!!!
+
+Entangle: entangle limbs.  A successful attack will entangle the limbs of the
+  defender, unless an AGI check against a TD equal to the attacker's total roll 
+  is made by the defender. The attacker must specify that he is trying to
+  entangle during the declaration phase.
+
+Trip: entangle legs and trip opponent.  A successful attack will entangle the
+  legs of the defender, unless an AGI check against a TD equal to the 
+  attacker's total roll is made by the defender. The attacker must specify 
+  that he is trying to trip during the declaration phase.
+
+Shield bonus: +1 to +5 defense bonus depending on the type of shield
+
+Shield bash: ability to use shield as a weapon.  Blow causes 1d6 + 1 point per
+  size category of the attacker + STR of attacker.  Defender is knocked off
+  his feet unless a successful AGI check against a TD equal to the attacker's 
+  total roll is made.
+
+DEF Fencing/Close only: Defense against Fencing and Close styles only.
+
+LONG RANGE STYLES
+-----------------
+
+Archery
+-------
+EP Cost: 4
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Extreme Range, No Defenses
+Weapons allowed: Any (non-cross) bow
+Description: ROF is generally one arrow per round.
+
+Cross Bows
+----------
+EP Cost: 2
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Extreme Range, No Defenses, slow Rate of Fire
+Weapons allowed: All crossbows
+Description: ROF will be determined by weapon and STR.  High STR crossbow
+  weapons may only allow occasional fire 1/3 rounds to 1/10 rounds.  If there
+  is a 1/1 rate of fire, damage is minimal e.g. per dagger.
+
+Thrown Weapons
+--------------
+EP Cost: 3
+Talent Attribute: PER
+Advancement Attribute: DEX
+Special: Near Range
+Weapons allowed: Any weapon which can be thrown. Effectiveness is greatly
+  limited with weapons that were not designed to be thrown. Weapons designed
+  to be thrown -- axe, knives, boomerang, darts, javelin, discus, etc.
+Description: ROF is 1 per round if the weapon is appropriately carried on the
+  body (at girdle or similar -- not in pack).  When throwing into a melee
+  situation, ROF is reduced to 1/2 rounds or roll randomly for target.
+
+MELEE STYLES
+------------
+
+Articulated Weapons
+-------------------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Entangle, +2 disarm
+Weapons allowed: Any articulated weapon
+Description: Leveraged weapons (like a flail) are harder to use than a more
+  straightforward weapon. This covers all such weapons, one or two handed,
+  when used without a shield. If a shield is used, a penalty of -5 is applied
+  to the skill.
+
+Articulated Weapons & Shield
+----------------------------
+EP Cost: 5
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Entangle, +2 disarm, shield bonus, shield bash
+Weapons allowed: Any one handed articulated weapon used with a shield.
+Description: Leveraged weapons (like a flail) are harder to use than a more
+  straightforward weapon. This covers all such one handed weapons, when used
+  with a shield. If no shield is used, a penalty of -5 is applied to the skill.
+
+Bolas/Whips/Ropes/Nets
+----------------------
+EP Cost: 3
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: No Defenses
+Weapons allowed: Bolas, whips, ropes and nets
+Description:
+
+Close Weapons
+-------------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Close Range
+Weapons allowed: Any weapon with a reach of 0, such as knives, daggers, brass
+  knuckles, etc.
+Description: Opponents must be at close range. If not they can FEND. If a 
+  shield is used, a penalty of -5 is applied to the skill.
+
+Close Weapons & Shield
+----------------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: Close Range, shield bonus, shield bash
+Weapons allowed: Any weapon with a reach of 0, such as knives, daggers, brass
+  knuckles, etc.
+Description: Opponents must be at close range. If not they can FEND. If no 
+  shield is used, a penalty of -5 is applied to the skill.
+
+Dual Weapon
+-----------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: +2 Attack Skill, -1 Defense Skill
+Weapons allowed: Any 2 non-articulated weapons which can be wielded with
+  one hand with a reach of 1 or less.
+Description:
+Comments: minus on defense, or limit defense as in previous post. (i.e.
+  can not defend against weapons more than one `class' larger than secondary
+  weapon without loosing attack. Limit weapons to those smaller than medium
+  with respect to character size/strength.
+
+Fencing
+-------
+EP Cost: 5
+Talent Attribute: DEX
+Advancement Attribute: AGI
+Special: +2 Attack Skill, Fencing defense can only occur against Fencing and
+  Close Weapons. Against other Styles, reduce DEF to 1.
+Weapons allowed: Rapier, Sabre, Dagger, Epee, foil
+Description: Parry repost style fighting with light weight weapons -- edge or
+  point attacks. This is not for unbalanced weapons like Axe or Mace.
+
+One-handed Weapons
+------------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special:
+Weapons allowed: Any non-articulated weapon which can be wielded with one
+  hand with a reach of 1 or 0.
+Description: If a shield is used, a penalty of -5 is applied to the skill.
+
+One-handed Weapons & Shield
+---------------------------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: shield bonus, shield bash
+Weapons allowed: Any non-articulated weapon which can be wielded with one
+  hand with a reach of 1 or 0.
+Description: If no shield is used, a penalty of -5 is applied to the skill.
+
+Polearms
+--------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: +1 Attack Skill, -1 Defense Skill, 2nd rank, fend,
+         3rd rank at -3 on Attack Skill (if formation and length avail.)
+Weapons allowed: Halbards, poles with ax, blade, pick, or exotic ends of
+  reach 2 to 2.5.
+Description: Pole arms are commonly swung, having blade or pick. They have a
+  higher moment of inertia than two-handed weapons. They also have some closer
+  grip style that allows some parry action with the either end ala quarter
+  staff. Most wielders of pole arms do not like to use that style, prefering
+  to use weapon from second rank. If the weapon has a spear point, it may also
+  be used in Thrusting Weapons style.
+
+Staves
+------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special:
+Weapons allowed: All staves
+Description:
+
+Thrusting Weapons
+-----------------
+EP Cost: 3
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: 2nd rank, fend
+Weapons allowed: Any spear weapon with a reach of 2 or more. Includes pike
+  which is a reach 3 spear.
+Description: This to cover spears and such. Thrusting style does not use 
+  nether end for block, but forward shaft. Thrusting style also includes Fend 
+  as an alternative to Attack & Defend. If a shield is used, a penalty of -5 is 
+  applied to the skill.
+
+Thrusting Weapons & Shield
+--------------------------
+EP Cost: 4
+Talent Attribute: AGI
+Advancement Attribute: AGI
+Special: 2nd rank, fend, shield bonus, shield bash
+Weapons allowed: Any one-handed spear weapon with a reach of 2 or more. 
+  Includes pike which is a reach 3 spear. (*pike is one-handed?)
+Description: This to cover spears and such. This includes shield use for
+  smaller shields. Thrusting weapon may be one handed with shield. Thrusting
+  style does not use nether end for block, but forward shaft. Thrusting style
+  also includes Fend as an alternative to Attack & Defend. If no shield is 
+  used, a penalty of -5 is applied to the skill.
+
+Two-handed Weapons
+------------------
+EP Cost: 3
+Talent Attribute: STR
+Advancement Attribute: AGI
+Special: 2nd rank, -2 Defense Skill
+Weapons allowed: Any non-articulated weapon which can be wielded with two
+  hands with a reach of 1.5 to 2.
+Description:
+
+6.3.2 Other Combat Skills
+-------------------------
+
+                    Skill Attr.        Default tasks
+Skill name          Diff. Tal  Adv  NSP  TD     Description
+------------------------------------------------------------------------------
+Catch Missiles      D/4   PER  AGI  10   A/10   Catch an incoming spear
+Disarm              D/4   STR  DEX  8    D/15   Make opponent drop weapon
+Dodge               A/3   AGI  AGI  6    N/A    Not applicable
+Evade Missiles      A/3   PER  AGI  6    A/10   Dodge an incoming spear
+
+Catch Missiles
+--------------
+Gives the character a chance to catch missiles, but only if the playersays he 
+will try to do so in the declaration phase. The task difficulties (TD) for the 
+various kind of missiles are given below:
+
+Missile                   TD
+Spear                    D/10
+Axe, dagger, etc         D/15
+Arrow                    V/20 
+Crossbow bolt           VV/25
+
+Disarm
+------
+This skill is used in place of a normal attack to attempt to disarm an 
+opponent. The success check is:
+
+    2d10* + att's skill + STR >= 2d10* + def's STR + def's skill
+
+This skill can be used by both armed and unarmed combatants. Some combat
+styles may have modifiers that are added to your roll when you attempt
+to disarm an opponent.
+
+OPTIONAL: Both opponents can add the mass of their weapon (rounded to
+  the nearest kilogram) to their roll.
+
+Dodge
+-----
+EP Cost: 3
+Talent Attribute: AGI (PER?)
+Advancement Attribute: AGI
+Description:
+The Dodge skill allows the character to attempt to escape blows from two
+opponents for each Dodge action. It can be used in conjunction with the
+Style attack/defenses using the multiple actions mechanism. For example,
+if a fighter wants to attack one opponent and Dodge two others, the
+Style actions (attack and defense) and the Dodge action (evading the blows
+from the two other opponents) will be rolled with a -5 penalty. If the
+dodge skill is used in conjunction with a shield, the bearer can add the
+shield bonus to his defense roll.
+
+Evade Missiles
+--------------
+Allows character to dodge incoming missiles. The player must declare that
+the character will try to do so during the declaration phase. Task difficulties 
+are the same as for Catch Missiles.
+
+-------------------
+6.4 Combat Sequence
+-------------------
+
+-----------------------
+6.5 Movement and Combat
+-----------------------
+
+------------------
+6.6 Unarmed Combat
+------------------
+
+6.6.1 Unarmed Attacks
+---------------------
+
+There are five types of unarmed attacks.  For game mechanics, they are
+handled the same way as weapons are handled in armed combat styles.
+They have an associated damage, reach, etc, just as weapons do.
+An unarmed defender against a weapon gets no defence or a penalty, depending
+on the fighting style being used.
+
++-----------------+--------+--------+-------+-------+--------+-------+-------+
++ NAME            | ACTION | IMPACT | REACH | MASS  | LENGTH | HANDS | SPEED |
++-----------------+--------+--------+-------+-------+--------+-------+-------+
+|                 |        |        |       |       |        |       |       |
+|    UNARMED      |        |        |       |       |        |       |       |
+|                 |        |        |       |       |        |       |       |
+| hand            |   B    | 2d6-8  |   C   | 0     |   0    |   1   |       |
+| foot            |   B    | 2d6-6  |   C   | 0     |   0    |   0   |       |
+| bash            |   B    | 2d6-4  |   C   | 0     |   0    |   0   |       |
+| throw           |   B    | 2d6-6  |   C   | 0     |   0    |   1*  |       |
+| hold            |   B?   | 0      |   C   | 0     |   0    |   1*  |       |
++-----------------+--------+--------+-------+-------+--------+-------+-------+
+
+6.6.2 Unarmed weapon types
+--------------------------
+
+Attacks with hands or fists do 2d6-8 IMPACT, 2d6-6 if using brass knuckles.
+
+Kicking attacks to 2d6-6 IMPACT.  
+
+Bashing attacks include body slams and tackles.  
+IMPACT is 2d6-4.  A running start is required to do damage, 
+so no IMPACT is done if you are already at close range.  
+(possible to force backwards even if starting at close range)
+
+Throws include leg sweeps and judo/wrestling throws.  IMPACT is 2d6-6 and
+is not modified by STR.  Success leaves the defender prone.
+
+Hold attacks include judo holds and wrestling pins.  
+After a successful attack the defender must make a roll if he wants to
+try to break the hold.  
+      2d10* + STR + skill >= 10 + holder's STR + skill
+The "skill" may be from any style which includes "hold" attacks.
+If the hold is successful, the attacker may choose to inflict damage: 
+IMPACT is 2d6-4 (+STR).
+
+* Note about HANDS: There are holds and throws which require two hands,
+and some which require no hands.  The GM may judge if a maneuver is possible
+or more difficult (skill penalty) in some situations, such as if the
+player has his hands bound.
+
+6.6.3 Unarmed Combat Styles
+---------------------------
+
+I would like to use a minimal list of unarmed combat styles, since it is
+more in the spirit of the current weapon styles.  A well rounded martial
+artist using this list would learn Karate for the hand and foot maneuvers,
+Close Weapons for the usual list of Chinese peasant weapons, Judo for
+the throws, Staff, and One-Handed Weapon skills.
+
++-------------------+------+-----+-----+----+----+---------------------------+
+|                   |  EP  | Attribute |    |    |                           |
+| Style Skill Name  | Cost | Tal | Adv | AM | DM | Special Characteristics   |
++-------------------+------+-----+-----+----+----+---------------------------+
+| Boxing            |  2   | AGI | FIT |    |    | hand, no def vs Wpn       |
+| Brawling          |  3   | STR | FIT |    |    | hand, bash, -5 def vs Wpn |
+| Karate            |  3   | WIL | FIT |    |    | hand, foot, -3 def vs Wpn |
+| Judo/Wrestling    |  3   | WIL | FIT |    |    | hold, throw, no def vs Wpn|
++-------------------+------+-----+-----+----+----+---------------------------+
+
+Boxing
+------
+EP Cost: 2
+Talent Attribute: AGI
+Advancement Attribute: FIT
+Special: No defence vs weapons
+Weapons Allowed: hand, brass knuckles
+Description: Boxing-ring, or bare-fist style fighting.
+
+Brawling
+--------
+EP Cost: 3
+Talent Attribute: STR
+Advancement Attribute: FIT
+Special: -5 defence vs weapons
+Weapons Allowed: hand, bash
+Description: Barroom brawl style.
+
+Karate
+------
+EP Cost: 3
+Talent Attribute: WIL
+Advancement Attribute: FIT
+Special: -3 defence vs weapons
+Weapons Allowed: hand, foot
+Description: Generic style for basic Eastern martial arts.
+     We may want to limit weapon defences for Brawling and Karate for small
+     and maybe medium size weapons.
+
+Judo/Wrestling
+--------------
+EP Cost: 2
+Talent Attribute: WIL
+Advancement Attribute: FIT
+Special: No defence vs weapons
+Weapons Allowed: hold, throw
+Description: Generic style for Western-style wrestling and Eastern-style Judo
